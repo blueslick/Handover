@@ -28,6 +28,7 @@ Ask the person who they are (Abby, Daniel or Theo) and which task ID they are wo
 | `outputs/` | Saved model outputs, compiled records, baseline records, results | Whoever ran the script that writes the file |
 | `app/` | The Next.js app | Theo |
 | `docs/` | Plan, task breakdown, write-up, credits | Anyone |
+| `.superset/` | Paradev workspace setup and run scripts | Daniel |
 
 - Change files only in the folders your person owns.
 - If a task seems to need a change in someone else's folder, stop. Tell the person what change is needed and who owns the file. Do not make the change.
@@ -35,13 +36,32 @@ Ask the person who they are (Abby, Daniel or Theo) and which task ID they are wo
 
 ## Git rules
 
-- Everyone works on `main`. Do not create branches or pull requests unless the person asks.
+- Everyone works on `main`. Do not create branches or pull requests unless the person asks. The one exception is the local branch a Paradev workspace starts on (see Parallel agents).
 - Run `git pull --rebase` before every push.
 - Never force-push. Never rewrite history. Never run `git reset --hard` on shared work.
 - Commit small and often. Start each message with the task ID, for example `T23: add dose-change rule`.
 - Stage only the files you changed for this task. Do not use `git add .` or `git add -A`.
 - If a pull causes a conflict in a file you do not own, stop and tell the person.
 - Daniel tags the freeze commit as `freeze`. Do not move or delete that tag.
+
+## Parallel agents (Paradev workspaces)
+
+Some sessions run in a Paradev workspace: its own git worktree, on its own local branch. You are in one if `git branch --show-current` prints anything other than `main`. Several of these can run at once. These rules add to the git rules above.
+
+- One task ID per workspace. Do not take on a second task in the same workspace.
+- Before changing anything, list the files this task will change and tell the person. Two workspaces running at once must not change the same file. Folder ownership already separates people; when one person runs several agents, split their work by file (for example `extract.py` in one, `compile.py` in another).
+- Only one workspace at a time may change `shared/`, `pipeline/requirements.txt`, `.gitignore`, `CLAUDE.md` or `.superset/`. Ask the person to confirm no other workspace is changing that file.
+- The workspace branch is a local scratch branch. Never push it and never open a pull request from it. Deliver each small, working commit straight to `main`:
+  1. `git fetch origin`
+  2. `git rebase origin/main`
+  3. `git push origin HEAD:main`
+  This replaces `git pull --rebase` for workspace sessions. If the push is rejected because `main` moved, repeat all three steps. Never force-push.
+- Rebase onto `origin/main` at the start of the task and before every push, so each workspace stays close to `main`. Push as soon as a commit works; do not hold several unpushed commits.
+- If a rebase stops on a conflict that is only in `docs/decisions.md`, keep both sides' lines in date order and continue. For any other conflict, run `git rebase --abort`, stop, and tell the person which files clashed.
+- Only one workspace at a time runs the pipeline against the API. They share one key and one spend limit, and two runs on the same day could get the same run ID. Ask the person to confirm no other workspace is running one first.
+- Each workspace runs its own dev server. If port 3000 is taken, Next.js uses the next free port; tell the person which one. Never stop a process you did not start.
+- The setup script copies `.env` and links `pipeline/data/synthea_raw/` from the main checkout. Both are excluded from git locally; never commit them.
+- Never remove or prune worktrees (`git worktree remove`, `git worktree prune`). The person deletes workspaces in Paradev.
 
 ## The shared record format
 
