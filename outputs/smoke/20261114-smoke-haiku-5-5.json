@@ -1,0 +1,41 @@
+{
+  "task": "T08",
+  "run_id": "20261114-smoke-haiku-5-5",
+  "model_requested": "claude-haiku-5-5",
+  "model_returned": "claude-haiku-5-5",
+  "settings_used": "fixed JSON shape only (thinking left at the model's default)",
+  "settings_refused": [
+    "lowest thinking + fixed JSON shape: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': '\"thinking.type.between_tools\" is not supported for this model.'}, 'request_id': 'req_011Ch31ZokaGhQX2ag1Sf4sy'}"
+  ],
+  "thinking_blocks_returned": 1,
+  "record": "pipeline/data/demo/D001/D001_C.txt",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 834,
+    "output_tokens": 386
+  },
+  "reply_is_json": true,
+  "reply_text": "{\"allergies\": [{\"name\": \"NKA\", \"quote\": \"NKA\"}], \"medicines\": [{\"name\": \"Glucophage\", \"dose\": \"1 g\", \"frequency\": \"BD\", \"quote\": \"Glucophage 1 g BD\"}, {\"name\": \"Panadol\", \"dose\": \"1 g\", \"frequency\": \"PRN\", \"quote\": \"Panadol 1 g PRN\"}]}",
+  "reply_parsed": {
+    "allergies": [
+      {
+        "name": "NKA",
+        "quote": "NKA"
+      }
+    ],
+    "medicines": [
+      {
+        "name": "Glucophage",
+        "dose": "1 g",
+        "frequency": "BD",
+        "quote": "Glucophage 1 g BD"
+      },
+      {
+        "name": "Panadol",
+        "dose": "1 g",
+        "frequency": "PRN",
+        "quote": "Panadol 1 g PRN"
+      }
+    ]
+  }
+}

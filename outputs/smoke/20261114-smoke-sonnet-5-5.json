@@ -1,0 +1,34 @@
+{
+  "task": "T08",
+  "run_id": "20261114-smoke-sonnet-5-5",
+  "model_requested": "claude-sonnet-5-5",
+  "model_returned": "claude-sonnet-5-5",
+  "settings_used": "lowest thinking + fixed JSON shape",
+  "settings_refused": [],
+  "thinking_blocks_returned": 0,
+  "record": "pipeline/data/demo/D001/D001_C.txt",
+  "stop_reason": "end_turn",
+  "usage": {
+    "input_tokens": 833,
+    "output_tokens": 105
+  },
+  "reply_is_json": true,
+  "reply_text": "{\"allergies\":[],\"medicines\":[{\"name\":\"Glucophage\",\"dose\":\"1 g\",\"frequency\":\"BD\",\"quote\":\"Glucophage 1 g BD\"},{\"name\":\"Panadol\",\"dose\":\"1 g\",\"frequency\":\"PRN\",\"quote\":\"Panadol 1 g PRN\"}]}",
+  "reply_parsed": {
+    "allergies": [],
+    "medicines": [
+      {
+        "name": "Glucophage",
+        "dose": "1 g",
+        "frequency": "BD",
+        "quote": "Glucophage 1 g BD"
+      },
+      {
+        "name": "Panadol",
+        "dose": "1 g",
+        "frequency": "PRN",
+        "quote": "Panadol 1 g PRN"
+      }
+    ]
+  }
+}
