@@ -11,3 +11,4 @@ One dated line per fix or decision.
 - 2026-11-14 (T01 T02, Daniel): Settled the two open items. `pipeline/data/` passes from Daniel to Abby when Daniel posts the hand-over in the team chat (target Saturday night). `outputs/published/` has one writer, Daniel, because it holds the frozen run. Other `outputs/` folders keep the rule "whoever ran the script owns the file". Added to CLAUDE.md under Team rules. `pipeline/data/README.md` already existed, so it was not recreated.
 - 2026-11-14 (T03): Plan, plan v2 and task breakdown added to docs/; Handover plan wins over plan v2.
 - 2026-11-14 (T03): docs/: plan v2 replaced with the v2 summary; task breakdown replaced with the newer version.
+- 2026-11-14: The pipeline needs Python 3.11+ (pandas 3.0.5 does not install on 3.9). Daniel uses Homebrew python@3.12 in .venv. (T11)

@@ -1,5 +1,7 @@
 # pipeline/data
 
+**Python 3.11 or newer is needed.** pandas 3.0.5 does not install on Python 3.9 (the macOS system Python). Daniel uses Homebrew `python@3.12` in `.venv`.
+
 ## The Synthea download (not in git)
 
 We use the Synthea **CSV sample, November 2021** (1,163 patients).
