@@ -266,3 +266,33 @@ def test_cli_writes_csv_files_for_d001(tmp_path):
     assert summary["all"]["recall"] == "1.0"
     assert summary["all"]["precision"] == "1.0"
     assert (out_dir / "failures.csv").exists()
+
+
+# --- Held-out output must be git-ignored -----------------------------------------------------
+
+def test_heldout_output_refused_in_tracked_folder(tmp_path):
+    # outputs/ is tracked by git, so held-out scores must not be written there.
+    tracked = REPO / "outputs" / "results" / "should_not_exist"
+    with pytest.raises(SystemExit):
+        score._check_heldout_output(tracked)
+    assert not tracked.exists()
+
+
+def test_heldout_output_refused_outside_repo(tmp_path):
+    # A folder outside the repo cannot be checked by git, so it is refused (fails closed).
+    with pytest.raises(SystemExit):
+        score._check_heldout_output(tmp_path / "out")
+
+
+def test_heldout_output_accepted_in_git_ignored_folder():
+    # pipeline/data/synthea_raw/ is ignored by .gitignore. Nothing is written here by the test.
+    score._check_heldout_output(REPO / "pipeline" / "data" / "synthea_raw" / "heldout_check_only")
+
+
+def test_cli_heldout_run_refused_before_reading_when_out_dir_is_tracked(tmp_path):
+    # P021 is held-out. With --include-heldout but a tracked output folder, nothing is read or written.
+    tracked = REPO / "outputs" / "results" / "should_not_exist"
+    with pytest.raises(SystemExit):
+        score.main(["--compiled-dir", str(tmp_path), "--keys-dir", str(tmp_path), "--patients", "P021",
+                    "--include-heldout", "--out-dir", str(tracked)])
+    assert not tracked.exists()

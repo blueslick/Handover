@@ -12,6 +12,11 @@ pipeline/data/demo). The script writes per_patient.csv, summary.csv and failures
 Only D001 and P001 to P020 are accepted unless --include-heldout is given. The check runs
 before any file is opened, so a held-out or reserve record cannot be read by accident.
 
+With --include-heldout, the script also asks git whether each output file is git-ignored
+(git check-ignore) before it reads anything. If git does not ignore the output folder, or
+cannot answer, the script stops. Held-out scores must never be committed. The folder has to
+be added to .gitignore by the team first; the script does not edit .gitignore.
+
 Methodology (set by the team; do not change it here):
 - A key fact and an output fact match only if type, generic name (case-insensitive) and
   status all match. Each key fact matches at most one output fact.
@@ -41,6 +46,7 @@ import argparse
 import csv
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -306,6 +312,29 @@ def _check_allowed(patient_ids, include_heldout):
         )
 
 
+# Ask git whether a path is ignored. Used only for held-out output (see _check_heldout_output).
+def _is_git_ignored(path):
+    """True only when git says the path is ignored. If git cannot answer (not a repo, or the
+    path is outside the repo), this returns False, so the check fails closed."""
+    try:
+        result = subprocess.run(["git", "check-ignore", "-q", "--", str(path)],
+                                cwd=REPO, capture_output=True)
+    except OSError:
+        return False
+    return result.returncode == 0
+
+
+def _check_heldout_output(out_dir):
+    """With --include-heldout, every output file must be in a folder git ignores.
+    Runs before any held-out file is opened."""
+    for name in ("per_patient.csv", "summary.csv", "failures.csv"):
+        if not _is_git_ignored((out_dir / name).resolve()):
+            raise SystemExit(
+                f"Held-out scores must go to a git-ignored folder, but {out_dir} is not ignored by git. "
+                "Add that folder to .gitignore (the team edits .gitignore), then rerun."
+            )
+
+
 def _find_key(keys_dir, pid):
     """Find <ID>_key.json directly in keys_dir, or inside keys_dir/<ID>/."""
     for path in (keys_dir / f"{pid}_key.json", keys_dir / pid / f"{pid}_key.json"):
@@ -337,13 +366,18 @@ def main(argv=None):
     parser.add_argument("--compiled-dir", type=Path, required=True, help="folder of <ID>.json compiled records")
     parser.add_argument("--keys-dir", type=Path, required=True, help="folder of <ID>_key.json answer keys")
     parser.add_argument("--patients", nargs="+", required=True, metavar="ID", help="patient IDs to score")
-    parser.add_argument("--out-dir", type=Path, required=True, help="folder to write the CSV files into")
+    parser.add_argument("--out-dir", type=Path, required=True,
+                        help="folder to write the CSV files into; must be git-ignored with --include-heldout")
     parser.add_argument("--include-heldout", action="store_true",
-                        help="allow held-out and reserve IDs (only after the freeze, T36)")
+                        help="allow held-out and reserve IDs (only after the freeze, T36); "
+                             "the output folder must then be git-ignored")
     args = parser.parse_args(argv)
 
     patient_ids = list(dict.fromkeys(args.patients))  # keep order, drop repeats
     _check_allowed(patient_ids, args.include_heldout)
+    # Held-out output must be git-ignored. Checked before any file is read.
+    if args.include_heldout:
+        _check_heldout_output(args.out_dir.resolve())
 
     ages = _load_ages_and_sex(set(patient_ids))
     results = []
