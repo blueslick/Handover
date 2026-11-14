@@ -136,3 +136,8 @@ Rules that the rest of this file does not already cover. Branches, folder owners
 ### Shared folder
 
 - When you finish a change to `shared/`, tell the team chat that it is done, so the next person knows they can write there.
+
+### Folder hand-offs
+
+- `pipeline/data/` belongs to Daniel until Daniel posts in the team chat that the data is handed over (target Saturday night; unfinished stretch tasks may run into Sunday morning). After that it belongs to Abby.
+- In `outputs/`, whoever ran the script that writes a file owns it. `outputs/published/` has one writer, Daniel, because it holds the frozen run the app shows.
