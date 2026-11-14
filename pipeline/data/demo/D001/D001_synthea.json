@@ -1,0 +1,76 @@
+{
+  "patient_id": "D001",
+  "synthea_id": null,
+  "source": "Made up for the demo video (T05). Not from Synthea. Never scored.",
+  "sex": "F",
+  "birth_date": "1958-03-22",
+  "age_on_reference_date": 63,
+  "age_band": "45-64",
+  "first_name": "Nora",
+  "last_name": "Hashim",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2009-08-14",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Type 2 diabetes",
+      "start": "2017-04-03",
+      "code": null
+    },
+    {
+      "description": "Atrial fibrillation",
+      "start": "2019-05-02",
+      "code": null
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "DEMO Metformin 1000 MG Oral Tablet",
+      "code": null,
+      "start": "2021-07-14",
+      "reason": "Type 2 diabetes"
+    },
+    {
+      "description": "DEMO Paracetamol 1000 MG Oral Tablet",
+      "code": null,
+      "start": "2021-10-05",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": null,
+      "last_stop": "2021-06-20"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Metformin",
+      "current": {
+        "description": "DEMO Metformin 1000 MG Oral Tablet",
+        "strength": "1000 MG"
+      },
+      "stopped": {
+        "description": "DEMO Metformin 500 MG Oral Tablet",
+        "strength": "500 MG",
+        "last_stop": "2021-07-14"
+      }
+    }
+  ]
+}

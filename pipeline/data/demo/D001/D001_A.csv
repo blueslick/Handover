@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+D001,"Hashim, Nora",1958-03-22,F,2021-03-02,ALLERGY,Penicillin,,,Active,2009-08-14,skin rash
+D001,"Hashim, Nora",1958-03-22,F,2021-03-02,PROBLEM,Type 2 diabetes,,,Active,2017-04-03,
+D001,"Hashim, Nora",1958-03-22,F,2021-03-02,PROBLEM,Atrial fibrillation,,,Active,2019-05-02,
+D001,"Hashim, Nora",1958-03-22,F,2021-03-02,MEDICATION,Metformin,500 mg,twice daily,Active,2017-04-10,
+D001,"Hashim, Nora",1958-03-22,F,2021-03-02,MEDICATION,Warfarin,5 mg,once daily,Active,2019-05-10,

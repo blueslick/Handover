@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : NORA HASHIM
+ ID      : D001
+ DOB     : 22-Mar-1958    Sex: F
+ Date    : 05-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Type 2 diabetes
+
+[CURRENT MEDICATIONS]
+  1. Glucophage 1 g BD
+  2. Panadol 1 g PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================
