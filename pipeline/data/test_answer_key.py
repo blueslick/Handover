@@ -5,6 +5,7 @@ All test patients are made up here. No held-out file is read.
 """
 import json
 import sys
+import tempfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -27,9 +28,13 @@ def rec(pid, h, *facts):
     return {"hospital": h, "file": f"{pid}_{h}.{ext}", "facts": list(facts)}
 
 
-def valid(key, tmp=Path("/tmp/_t14_key.json")):
-    tmp.write_text(json.dumps(key))
-    problems = check_file(tmp, "compiled")
+def valid(key):
+    # Write the key to a fresh temporary folder (works on Windows and Mac), check it
+    # with shared/validate.py, then the folder is deleted.
+    with tempfile.TemporaryDirectory() as d:
+        tmp = Path(d) / "key.json"
+        tmp.write_text(json.dumps(key), encoding="utf-8")
+        problems = check_file(tmp, "compiled")
     assert not problems, problems
     return key
 

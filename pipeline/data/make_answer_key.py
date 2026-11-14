@@ -23,12 +23,14 @@ Output: P014_key.json next to the records, compiled shape, kind "answer_key".
 
 Usage:
     python pipeline/data/make_answer_key.py --written path/to/P014_written.json [...]
-    python pipeline/data/make_answer_key.py --all     (once wired to the T12 templates)
+    python pipeline/data/make_answer_key.py --patients P001 P002   (chosen patients, from the T12 templates)
+    python pipeline/data/make_answer_key.py --all     (every working and held-out patient; that is T16)
 
 Held-out and reserve patients: the script reads and writes their files but only
 prints patient IDs and counts, never fact contents (CLAUDE.md, Held-out patients).
 """
 import argparse
+import csv
 import json
 import re
 import sys
@@ -273,11 +275,25 @@ def check_quotes(patient_id, records, folder):
 # ---------------------------------------------------------------- command line
 
 def written_facts_from_templates(patient_id):
-    """Hook for T12/T13: return the written-facts list for one patient straight from
-    the record maker, so no extra file is needed in the patient folder."""
-    raise NotImplementedError(
-        "Not wired to the T12 templates yet. Use --written for now. "
-        "Once make_records.py is pushed, return its per-record facts here.")
+    """Hook for T12/T13: get the written-facts list for one patient straight from the
+    record maker (make_hospital_records.written_facts), so no extra file is needed in
+    the patient folder. The record maker is seeded, so this gives the same facts every
+    run, matching the record files it wrote."""
+    # Import here, not at the top, so the tests and --written runs don't need the
+    # templates folder loaded.
+    sys.path.insert(0, str(DATA))
+    import make_hospital_records
+    return make_hospital_records.written_facts(patient_id)
+
+
+def scored_ids():
+    """The working and held-out patient IDs (P001-style), from patients.csv.
+    Reserve rows are left out (used only if the team decides to expand), and the demo
+    patient D001 is not in this file (make_demo_patient.py builds its key)."""
+    # The split/*.txt files hold Synthea's long IDs, not P-numbers, so read patients.csv.
+    with (DATA / "patients.csv").open(encoding="utf-8", newline="") as f:
+        return [r["patient_id"] for r in csv.DictReader(f)
+                if r["split"] in ("working", "heldout")]
 
 
 def write_key(patient_id, records, out_dir=None, strict_quotes=True):
@@ -302,7 +318,8 @@ def write_key(patient_id, records, out_dir=None, strict_quotes=True):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--written", nargs="*", default=[], help="written-facts JSON files, one per patient, named <ID>_written.json or holding {'patient_id', 'records'}")
-    ap.add_argument("--all", action="store_true", help="every patient, from the T12 templates")
+    ap.add_argument("--all", action="store_true", help="every working and held-out patient, from the T12 templates (not reserve, not the demo patient)")
+    ap.add_argument("--patients", nargs="+", default=[], metavar="ID", help="only these patients, from the T12 templates, e.g. --patients P001 P002")
     ap.add_argument("--out", type=Path, help="write keys here instead of the patient folders (for tests)")
     ap.add_argument("--no-quote-check", action="store_true", help="skip the record-file quote check")
     args = ap.parse_args()
@@ -314,16 +331,26 @@ def main():
             jobs.append((doc["patient_id"], doc["records"]))
         else:
             jobs.append((Path(p).name.split("_")[0], doc))
+    # Patients whose facts come from the templates: the ones named, or everyone.
+    ids = list(args.patients)
     if args.all:
-        ids = [l.strip() for f in ("working_ids.txt", "heldout_ids.txt")
-               for l in (DATA / "split" / f).read_text().splitlines() if l.strip()]
-        jobs += [(pid, written_facts_from_templates(pid)) for pid in ids]
-    if not jobs:
-        ap.error("give --written files or --all")
+        ids += [pid for pid in scored_ids() if pid not in ids]
+    known = set(scored_ids())
+    for pid in ids:
+        if pid not in known:
+            ap.error(f"{pid} is not a working or held-out patient in patients.csv")
+    if not jobs and not ids:
+        ap.error("give --written files, --patients IDs or --all")
 
     failed = 0
+    # Template patients are listed by ID and their facts made one at a time below,
+    # so a problem in one patient doesn't stop the rest.
+    for pid in ids:
+        jobs.append((pid, None))
     for pid, records in jobs:
         try:
+            if records is None:
+                records = written_facts_from_templates(pid)
             out, n, c, warn = write_key(pid, records, args.out, not args.no_quote_check)
             note = f", {len(warn)} warnings" if warn else ""
             print(f"OK   {pid}: {n} facts, {c} conflict groups{note}")
