@@ -55,7 +55,7 @@ The fixed lists are spelled one way only:
 
 ## Held-out patients
 
-There are 20 working patients and 60 held-out patients. The ID lists are in `pipeline/data/` and never change after they are committed.
+There are 20 working patients (P001-P020), 80 held-out patients (P021-P100) and an 80-patient reserve (R001-R080) that is used only if the team decides to expand before any held-out result is seen. The ID lists are in `pipeline/data/split/` and never change after they are committed. Reserve patients count as held-out for every rule below.
 
 - Tune, test and debug on working patients only.
 - In a session run by Daniel, do not open, print, summarise or inspect any held-out record, answer key or output. Scripts may read and write those files, but their contents must not be shown. Daniel tunes the prompt, so he must not see them.

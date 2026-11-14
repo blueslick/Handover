@@ -12,3 +12,5 @@ One dated line per fix or decision.
 - 2026-11-14 (T03): Plan, plan v2 and task breakdown added to docs/; Handover plan wins over plan v2.
 - 2026-11-14 (T03): docs/: plan v2 replaced with the v2 summary; task breakdown replaced with the newer version.
 - 2026-11-14: The pipeline needs Python 3.11+ (pandas 3.0.5 does not install on 3.9). Daniel uses Homebrew python@3.12 in .venv. (T11)
+- 2026-11-14 (T01 T02 T11, Daniel): Brought shared/ and CLAUDE.md in line with the T11 split: 100 scored patients (P001-P020 working, P021-P100 held-out) and reserve R001-R080; schemas now accept R IDs. Task breakdown restored to the version sent to the team (only wording differs).
+- 2026-11-14 (T11, Daniel): Added an update note to the top of docs/Handover_Pipeline_and_Frontend_Plan.md pointing to the 100-patient split, so sessions don't stop on the 60 vs 80 mismatch.

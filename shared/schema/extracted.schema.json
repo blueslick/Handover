@@ -9,7 +9,7 @@
     "format_version": {"const": "1.0"},
     "patient_id": {"$ref": "#/$defs/patient_id"},
     "hospital": {"enum": ["A", "B", "C"]},
-    "source_file": {"type": "string", "pattern": "^(P|D)\\d{3}_[ABC]\\.(csv|txt)$"},
+    "source_file": {"type": "string", "pattern": "^[PRD]\\d{3}_[ABC]\\.(csv|txt)$"},
     "run_id": {"type": "string"},
     "model": {"type": "string", "description": "Exact pinned model ID, e.g. claude-sonnet-5-5"},
     "prompt_version": {"type": "string", "pattern": "^v\\d+[a-z0-9_-]*$"},
@@ -23,7 +23,7 @@
     "facts": {"type": "array", "items": {"$ref": "#/$defs/fact"}}
   },
   "$defs": {
-    "patient_id": {"type": "string", "pattern": "^(P\\d{3}|D\\d{3})$"},
+    "patient_id": {"type": "string", "pattern": "^[PRD]\\d{3}$"},
     "fact": {
       "type": "object",
       "additionalProperties": false,

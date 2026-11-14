@@ -1,3 +1,5 @@
+> **Update, 14 Nov night (T11):** the dataset is now 100 scored patients: 20 working (P001-P020) and 80 held-out (P021-P100), 10 per group across four age bands (0-19, 20-44, 45-64, 65+) and two sexes, plus an 80-patient reserve (R001-R080). Where this plan says 80 patients, 60 held-out or three age bands, `docs/decisions.md` and `shared/` win. Expected calls rise to about 300 per prompt version.
+
 # Handover: Pipeline and Frontend Plan
 
 Nov 14, 2026 · @Abby Tan · Revised 14 Nov after team review · Updated 14 Nov evening (Next.js, dataset size, owners)

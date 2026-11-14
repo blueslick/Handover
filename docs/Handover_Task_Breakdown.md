@@ -1,8 +1,8 @@
 # Handover: task breakdown and owners
 
-Nov 14, 2026 · @Dan
+14 Nov 2026 · Daniel Tan · Companion to the Handover Pipeline and Frontend Plan
 
-The plan breaks into about 50 tasks across five time blocks, with Daniel building the datasets tonight, then Abby on the test, Daniel on the tool and Theo on the Next.js app. The plan in the project was updated on 14 Nov evening to match.
+The plan breaks into about 50 tasks across five time blocks. Daniel builds the datasets tonight. On Sunday, Abby takes the test, Daniel the tool and Theo the Next.js app.
 
 ## Who takes which lane
 
@@ -51,6 +51,8 @@ What runs in parallel:
 - **Two tracks for Daniel.** Extraction and checks (T19 to T22) and the compile rules (T23) do not depend on each other, so he can run them as two sessions.
 - **Writing.** The write-up skeleton, credits list and video script can start before any results exist.
 
+The branch rule: everyone pushes to `main`, and each person changes files only inside their own folder (`pipeline/data`, `pipeline/tool`, `pipeline/eval`, `app`). Say in the team chat before changing anything in `shared/`. Pull before every push and never force-push.
+
 The longest chain is T01, T05, T13, T21, T31, T35, T36, T37, T39, T52. A delay on any of these delays the submission.
 
 ## Tonight (Saturday)
@@ -60,7 +62,7 @@ Daniel works alone tonight. The first nine rows are the minimum, in order. The l
 | ID | Task | Owner | Waits for | Level |
 | --- | --- | --- | --- | --- |
 | T01 | Set the record format and the fixed lists from the plan's draft. Abby and Theo confirm in the morning | Daniel | Nothing | Gate |
-| T02 | Set the folders and file names from the plan, and write the branch rule into CLAUDE.md: everyone pushes to main, each person works only in their own folder | Daniel | T01 | Gate |
+| T02 | Set the folders and file names from the plan, and write the branch rule into CLAUDE.md: everyone pushes to `main`, each person works only in their own folder | Daniel | T01 | Gate |
 | T03 | Create the GitHub repo, add all three people, add the folder skeleton and a CLAUDE.md with the rules | Daniel | T02 | Must |
 | T04 | Download the Synthea sample and open one patient's files | Daniel | Nothing | Must |
 | T11 | Trim the patients and fix the split before anything runs: 20 working and 60 held-out, with 10 held-out patients per age and sex group. Commit the two ID lists | Daniel | T04 | Gate |
@@ -133,9 +135,8 @@ The omission check and medSpaCy are rows in the build-up table. If they are buil
 | T51 | Final link check on a phone, signed out, with no API key needed | Everyone | T39 | Must |
 | T52 | Submit: link and QR code, write-up, video, credits | Theo | T46, T51 | Gate |
 
-## Things to settle tonight
+## Things to settle
 
 - [ ] **Recheck the spend limit.** The plan now expects about 600 to 700 calls for 80 patients. Measure tokens on the first patient and check the total against the limit.
 - [ ] **Keep live upload off.** With a Python pipeline and a Next.js app, live extraction would mean writing the prompt twice. The upload screen replays a saved extraction.
 - [ ] **Check file encoding across machines.** Theo is on Windows and the others are on Macs. Save every CSV and TXT as UTF-8, and test one file on Theo's machine in the morning.
-- [ ] **Agree the branch rule.** Decided: everyone pushes to main, and each person changes files only inside their own folder. Abby and Theo confirm it on the Sunday call.

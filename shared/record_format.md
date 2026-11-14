@@ -27,7 +27,7 @@ The plan's draft had one shape. It needs two, because a fact read from one recor
 | Field | Rule |
 | --- | --- |
 | `fact_id` | `<patient>-F<nn>`, e.g. `P014-F03`. Unique in the file. For the app and cross-references only; scoring matches on `type` + `name`, never on `fact_id` |
-| `patient_id` | `P001` to `P080` for scored patients, `D001` for the demo patient. The number says nothing about the split; the split lives in the two ID lists |
+| `patient_id` | `P001` to `P020` working, `P021` to `P100` held-out, `R001` to `R080` reserve, `D001` the demo patient. `pipeline/data/patients.csv` is the source of truth for the split |
 | `type` | `allergy`, `medicine`, `diagnosis`, `operation` |
 | `name` | Generic name, lowercase (`paracetamol`, not `Panadol`). `null` only when the status is `none_recorded`, or when the name isn't in the brand table (then flag `unknown_name` and keep the original in `name_as_written`) |
 | `name_as_written` | Exactly as the source wrote it. Lets the card show "Panadol (paracetamol)" |

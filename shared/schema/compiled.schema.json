@@ -14,10 +14,10 @@
     "facts": {"type": "array", "items": {"$ref": "#/$defs/fact"}}
   },
   "$defs": {
-    "patient_id": {"type": "string", "pattern": "^(P\\d{3}|D\\d{3})$"},
+    "patient_id": {"type": "string", "pattern": "^[PRD]\\d{3}$"},
     "hospital": {"enum": ["A", "B", "C"]},
     "date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
-    "file_name": {"type": "string", "pattern": "^(P|D)\\d{3}_[ABC]\\.(csv|txt)$"},
+    "file_name": {"type": "string", "pattern": "^[PRD]\\d{3}_[ABC]\\.(csv|txt)$"},
     "dose": {"type": ["string", "null"], "pattern": "^\\d+(\\.\\d+)? (mg|mcg|g|mL|units|puffs|drops)$"},
     "frequency": {"enum": [null, "once", "daily", "twice_daily", "three_times_daily", "four_times_daily", "at_night", "weekly", "as_needed", "other"]},
     "status": {"enum": ["current", "stopped", "none_recorded", "suspected", "family_history", "planned", "side_effect"]},
@@ -50,7 +50,7 @@
       "additionalProperties": false,
       "required": ["fact_id", "patient_id", "type", "name", "name_as_written", "dose", "frequency", "reaction", "status", "hospital", "date", "quote", "sources", "history", "flags", "conflict_group"],
       "properties": {
-        "fact_id": {"type": "string", "pattern": "^(P|D)\\d{3}-F\\d{2,3}$"},
+        "fact_id": {"type": "string", "pattern": "^[PRD]\\d{3}-F\\d{2,3}$"},
         "patient_id": {"$ref": "#/$defs/patient_id"},
         "type": {"enum": ["allergy", "medicine", "diagnosis", "operation"]},
         "name": {"type": ["string", "null"], "description": "Generic name, lowercase. null only when status is none_recorded"},
@@ -65,7 +65,7 @@
         "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}, "minItems": 1},
         "history": {"type": "array", "items": {"$ref": "#/$defs/history_entry"}},
         "flags": {"type": "array", "uniqueItems": true, "items": {"enum": ["unverified", "conflict", "missing_dose", "possible_missed", "dose_changed", "unknown_name"]}},
-        "conflict_group": {"type": ["string", "null"], "pattern": "^(P|D)\\d{3}-C\\d{1,2}$"}
+        "conflict_group": {"type": ["string", "null"], "pattern": "^[PRD]\\d{3}-C\\d{1,2}$"}
       }
     }
   }
