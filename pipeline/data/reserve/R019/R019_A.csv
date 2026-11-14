@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,ALLERGY,No known allergies,,,,,
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,PROBLEM,Chronic sinusitis,,,Active,1963-08-12,
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,PROBLEM,Hypertension,,,Active,1970-10-15,
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,PROBLEM,Miscarriage in first trimester,,,Active,1985-08-15,
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,PROBLEM,Malignant neoplasm of breast,,,Active,1997-09-30,
+R019,"Mills, Hiedi",1952-08-21,F,2021-07-04,MEDICATION,No current medications,,,,,

@@ -1,0 +1,102 @@
+{
+  "patient_id": "R052",
+  "synthea_id": "d57e867e-4896-9e07-f502-5f4f881bd80e",
+  "sex": "F",
+  "birth_date": "1961-05-09",
+  "age_on_reference_date": 60,
+  "age_band": "45-64",
+  "first_name": "Ula",
+  "last_name": "Medhurst",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2001-05-15"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2001-05-15"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "2003-05-20"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2003-05-20"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2004-05-25"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "2004-05-25"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "2005-05-31"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "2009-06-23"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "2009-06-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-08-31",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-08-31",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-08-31",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-08-31",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-08-31",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Penicillin V Potassium 500 MG Oral Tablet",
+      "code": "834102",
+      "last_stop": "2021-09-17"
+    }
+  ],
+  "dose_changes": []
+}

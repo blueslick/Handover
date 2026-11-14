@@ -1,0 +1,36 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ALYSIA ROBEL
+ ID      : R013
+ DOB     : 08-Feb-1955    Sex: F
+ Date    : 07-Oct-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Diabetes
+  - Hypertriglyceridemia
+  - Anemia
+  - Metabolic syndrome X
+  - Neuropathy due to type 2 diabetes mellitus
+  - Miscarriage in first trimester
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Hyperglycemia
+  - Prediabetes
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Nurofen - stopped 03-May-2019
+  2. Demerol - stopped 22-Apr-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

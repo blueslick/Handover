@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SUNSHINE FRIESEN
+ ID      : R017
+ DOB     : 09-Sep-2010    Sex: F
+ Date    : 16-Dec-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Peanut (hives, swelling (angioedema))
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Seasonal allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

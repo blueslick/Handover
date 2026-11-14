@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MIKI KOZEY
+ ID      : R046
+ DOB     : 17-Dec-1979    Sex: F
+ Date    : 07-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - Cow's milk
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+[DISCONTINUED]
+  1. Furadantin - stopped 18-Feb-2018
+  2. Pyridium - stopped 25-Feb-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,ALLERGY,No known allergies,,,,,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,PROBLEM,Hypertension,,,Active,1973-09-21,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,PROBLEM,Miscarriage in first trimester,,,Active,1995-03-17,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,PROBLEM,Hyperlipidemia,,,Active,1999-02-26,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,PROBLEM,Localized  primary osteoarthritis of the hand,,,Active,2002-03-26,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,PROBLEM,Chronic sinusitis,,,Active,2008-09-14,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-07-02,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-03-13,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-08-16,
+R060,"Muller, Alycia",1955-07-29,F,2021-08-16,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-07-02,

@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,Animal dander,,,Active,2006-10-31,hay fever symptoms; skin rash
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,House dust mite,,,Active,2006-10-31,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,Latex,,,Active,2006-10-31,hives
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,Mould,,,Active,2006-10-31,skin rash
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,Tree nuts,,,Active,2006-10-31,hives; shortness of breath
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,ALLERGY,Tree pollen,,,Active,2006-10-31,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,PROBLEM,Childhood asthma,,,Active,2009-12-08,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2012-04-12,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-27,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-27,
+R068,"Lesch, Rachell",2006-04-19,F,2021-09-17,MEDICATION,Norgestimate / ethinyl estradiol,,once daily,Active,2021-04-14,

@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LUANNA SCHUPPE
+ ID      : R005
+ DOB     : 04-Apr-1958    Sex: F
+ Date    : 16-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Cardiac Arrest
+  - Miscarriage in first trimester
+  - Prediabetes
+  - Anemia
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+[DISCONTINUED]
+  1. Panadol - stopped 05-Nov-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,51 @@
+{
+  "patient_id": "R030",
+  "synthea_id": "c57fbe47-ea62-b01f-054d-4088979dc739",
+  "sex": "M",
+  "birth_date": "2020-01-21",
+  "age_on_reference_date": 1,
+  "age_band": "0-19",
+  "first_name": "Jimmie",
+  "last_name": "Effertz",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2020-10-18",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Fexofenadine hydrochloride 30 MG Oral Tablet",
+      "code": "997488",
+      "start": "2020-10-18",
+      "reason": null
+    },
+    {
+      "description": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+      "code": "1870230",
+      "start": "2020-10-18",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-03-16"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,ALLERGY,No known allergies,,,,,
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,PROBLEM,Anemia,,,Active,1998-05-17,
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,PROBLEM,Prediabetes,,,Active,1998-05-17,
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,PROBLEM,Sepsis,,,Active,2010-03-21,
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,PROBLEM,Cardiac Arrest,,,Active,2015-07-12,
+R012,"Bartell, Cletus",1970-03-08,M,2020-09-20,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Active,2020-09-20,

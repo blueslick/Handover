@@ -1,0 +1,135 @@
+{
+  "patient_id": "R027",
+  "synthea_id": "4e65c7b6-abda-fcae-ffb1-31c700e03afd",
+  "sex": "F",
+  "birth_date": "1970-06-22",
+  "age_on_reference_date": 51,
+  "age_band": "45-64",
+  "first_name": "Tiana",
+  "last_name": "Fay",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Abdominal pain (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1971-02-03",
+      "active": true
+    },
+    {
+      "name": "cefdinir",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        }
+      ],
+      "start": "1971-02-03",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1988-08-15"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-02-15",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-02-15",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

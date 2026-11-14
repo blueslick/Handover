@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,ALLERGY,Egg,,,Active,1971-08-20,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,ALLERGY,Fish,,,Active,1971-08-20,shortness of breath; skin rash
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,ALLERGY,Mould,,,Active,1971-08-20,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,ALLERGY,Shellfish,,,Active,1971-08-20,anaphylaxis; swelling (angioedema)
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,ALLERGY,Tree nuts,,,Active,1971-08-20,anaphylaxis; hives
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,PROBLEM,Atopic dermatitis,,,Active,1974-10-03,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,PROBLEM,Miscarriage in first trimester,,,Active,2001-08-01,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,PROBLEM,Prediabetes,,,Active,2010-10-20,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,PROBLEM,Anemia,,,Active,2012-10-24,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,PROBLEM,Polyp of colon,,,Active,2020-10-14,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,MEDICATION,Hydrocodone,10 mg,twice daily,Active,2021-03-25,
+R033,"Schumm, Jesica",1970-10-14,F,2021-09-24,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-03-25,

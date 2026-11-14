@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ALYCIA MULLER
+ ID      : R060
+ DOB     : 29-Jul-1955    Sex: F
+ Date    : 03-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Miscarriage in first trimester
+  - Hyperlipidemia
+  - Localized  primary osteoarthritis of the hand
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Zocor 10 mg ON
+  3. Norvasc 2.5 mg OD
+
+[DISCONTINUED]
+  1. Panadol - stopped 31-Oct-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

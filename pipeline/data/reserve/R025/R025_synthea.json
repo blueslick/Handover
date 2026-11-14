@@ -1,0 +1,60 @@
+{
+  "patient_id": "R025",
+  "synthea_id": "3a364909-94ec-e0c4-0156-8a2e15fa354e",
+  "sex": "M",
+  "birth_date": "1961-08-10",
+  "age_on_reference_date": 60,
+  "age_band": "45-64",
+  "first_name": "German",
+  "last_name": "Trantow",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1979-10-04"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2011-03-31"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-05-27",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-04-18",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-05-27",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-05-02"
+    },
+    {
+      "description": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "code": "562251",
+      "last_stop": "2019-09-21"
+    }
+  ],
+  "dose_changes": []
+}

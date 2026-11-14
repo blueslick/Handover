@@ -1,0 +1,50 @@
+{
+  "patient_id": "R041",
+  "synthea_id": "a03fbb92-ebae-8930-b170-5872d7e2fef7",
+  "sex": "M",
+  "birth_date": "2002-12-22",
+  "age_on_reference_date": 18,
+  "age_band": "0-19",
+  "first_name": "Jamal",
+  "last_name": "Schmitt",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2021-01-26"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+      "code": "245134",
+      "start": "2021-03-28",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-02-15",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-07-26",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "atomoxetine 100 MG Oral Capsule",
+      "code": "608139",
+      "last_stop": "2016-12-25"
+    }
+  ],
+  "dose_changes": []
+}

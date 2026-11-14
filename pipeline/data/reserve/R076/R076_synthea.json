@@ -1,0 +1,57 @@
+{
+  "patient_id": "R076",
+  "synthea_id": "67c6597f-c239-a595-beac-b2941e7b54ff",
+  "sex": "M",
+  "birth_date": "1964-08-20",
+  "age_on_reference_date": 57,
+  "age_band": "45-64",
+  "first_name": "Levi",
+  "last_name": "Ratke",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2012-09-13"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-03-25",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-10-02",
+      "reason": "Hyperlipidemia"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2017-03-23"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+        "strength": "300 MG / 5 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+        "strength": "21.7 MG/ML / 1 MG/ML / 0.417 MG/ML",
+        "last_stop": "2017-03-23"
+      }
+    }
+  ]
+}

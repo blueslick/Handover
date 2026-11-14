@@ -1,0 +1,34 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ULA MEDHURST
+ ID      : R052
+ DOB     : 09-May-1961    Sex: F
+ Date    : 08-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Diabetes
+  - Hypertension
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Hyperglycemia
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+
+[CURRENT MEDICATIONS]
+  1. Glucophage XR 500 mg OD
+  2. Hydrodiuril 25 mg OD
+  3. Norvasc 2.5 mg OD
+  4. Humulin 70/30 BD
+  5. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

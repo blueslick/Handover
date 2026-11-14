@@ -1,0 +1,134 @@
+{
+  "patient_id": "R061",
+  "synthea_id": "4ca51bbc-dd89-0142-9c53-1a8453a5bddd",
+  "sex": "M",
+  "birth_date": "1996-09-09",
+  "age_on_reference_date": 25,
+  "age_band": "20-44",
+  "first_name": "Sebastian",
+  "last_name": "Zulauf",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1997-07-25",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1997-07-25",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1997-05-03"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2020-12-07",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Acetaminophen 300 MG / Codeine Phosphate 15 MG Oral Tablet",
+      "code": "993770",
+      "start": "2020-12-07",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2020-12-07",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2020-12-07",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

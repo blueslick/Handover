@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : VICENTE GLEASON
+ ID      : R071
+ DOB     : 27-Dec-2005    Sex: M
+ Date    : 12-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Norco PRN
+
+[DISCONTINUED]
+  1. Amoxil - stopped 31-Aug-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

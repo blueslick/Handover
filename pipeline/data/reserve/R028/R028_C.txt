@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : EUGENE HELLER
+ ID      : R028
+ DOB     : 13-Dec-2005    Sex: M
+ Date    : 09-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypoxemia
+
+[CURRENT MEDICATIONS]
+  1. Clexane 40 mg OD
+  2. Panadol 500 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

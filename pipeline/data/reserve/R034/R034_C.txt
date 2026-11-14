@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : PEI WILLIAMSON
+ ID      : R034
+ DOB     : 08-Oct-2003    Sex: F
+ Date    : 12-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Disprin
+  - Shellfish (swelling (angioedema), nausea)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Nurofen 400 mg TDS
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CHAUNCEY BAUMBACH
+ ID      : R006
+ DOB     : 14-Oct-1973    Sex: M
+ Date    : 29-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - Egg (anaphylaxis)
+  - Penicillin
+
+[PROBLEM LIST]
+  - Hypertension
+  - Prediabetes
+  - Anemia
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Aleve 220 mg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

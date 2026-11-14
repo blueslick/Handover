@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ESTHER RUNOLFSSON
+ ID      : R016
+ DOB     : 02-Nov-1959    Sex: F
+ Date    : 20-Mar-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Disprin (abdominal pain)
+  - Cow's milk (diarrhoea)
+  - House dust mite
+  - Mould (runny nose)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Tubal pregnancy
+  - Hyperlipidemia
+  - Osteoarthritis of knee
+
+[CURRENT MEDICATIONS]
+  1. Aleve 220 mg BD
+
+[DISCONTINUED]
+  1. Augmentin - stopped 01-Nov-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

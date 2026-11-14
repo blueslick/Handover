@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : OTHA WINTHEISER
+ ID      : R053
+ DOB     : 07-Oct-1912    Sex: F
+ Date    : 22-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Tubal pregnancy
+  - Prediabetes
+  - Chronic sinusitis
+  - Osteoporosis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

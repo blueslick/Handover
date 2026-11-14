@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DEMETRICE COLLIER
+ ID      : R015
+ DOB     : 13-Nov-1960    Sex: F
+ Date    : 10-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Cow's milk (hives)
+  - Fish (hay fever symptoms)
+  - Grass pollen
+  - House dust mite
+  - Mould (sneezing)
+  - Soya (vomiting, diarrhoea)
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Seizure disorder
+  - Epilepsy
+  - Osteoporosis
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Fosamax 10 mg OD
+  3. Ventolin 90 mcg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

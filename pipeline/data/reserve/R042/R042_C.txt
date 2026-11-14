@@ -1,0 +1,38 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ABRAHAM KOSS
+ ID      : R042
+ DOB     : 12-Aug-1946    Sex: M
+ Date    : 02-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Diabetes
+  - Hyperglycemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Prediabetes
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Hyperlipidemia
+  - Non-small cell lung cancer
+  - Non-small cell carcinoma of lung  TNM stage 1
+
+[CURRENT MEDICATIONS]
+  1. Glucophage XR 500 mg OD
+  2. Zocor 10 mg ON
+  3. Humulin 70/30 BD
+
+[DISCONTINUED]
+  1. Platinol - stopped 29-Oct-2021
+  2. Taxol - stopped 29-Oct-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

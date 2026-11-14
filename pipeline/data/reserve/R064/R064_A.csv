@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R064,"Marks, Isaac",1989-03-17,M,2021-10-30,ALLERGY,No known allergies,,,,,
+R064,"Marks, Isaac",1989-03-17,M,2021-10-30,PROBLEM,Seizure disorder,,,Active,1989-12-25,
+R064,"Marks, Isaac",1989-03-17,M,2021-10-30,MEDICATION,No current medications,,,,,

@@ -1,0 +1,609 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R052",
+  "run_id": null,
+  "built_from": [
+    "R052_A.csv",
+    "R052_B.txt",
+    "R052_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R052-F01",
+      "patient_id": "R052",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-07",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She has no known allergies.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- NKA",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F02",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "3. Norvasc 2.5 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-31",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-08-31,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She continues on amlodipine 2.5 mg once a day.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "3. Norvasc 2.5 mg OD",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F03",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "2. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-31",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-08-31,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She is on hydrochlorothiazide 25 mg once a day.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "2. Hydrodiuril 25 mg OD",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F04",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "insulin isophane / insulin regular",
+      "name_as_written": "Humulin 70/30",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "4. Humulin 70/30 BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-31",
+          "quote": "MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-08-31,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She continues on insulin isophane and insulin regular twice a day.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "4. Humulin 70/30 BD",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F05",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "5. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She continues on lisinopril 10 mg once a day.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "5. Zestril 10 mg OD",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-09-07",
+          "quote": "MEDICATION,Lisinopril,5 mg,once daily,Active,2021-09-07,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F06",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Glucophage XR",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "1. Glucophage XR 500 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-31",
+          "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-08-31,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She continues on metformin 500 mg once a day.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "1. Glucophage XR 500 mg OD",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F07",
+      "patient_id": "R052",
+      "type": "medicine",
+      "name": "penicillin v",
+      "name_as_written": "penicillin v",
+      "dose": "500 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-09-17",
+      "quote": "Her penicillin v was stopped on 17 September 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-17",
+          "quote": "Her penicillin v was stopped on 17 September 2021.",
+          "file": "R052_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "500 mg",
+          "frequency": "four_times_daily",
+          "hospital": "A",
+          "date": "2021-09-07",
+          "quote": "MEDICATION,Penicillin v,500 mg,four times daily,Active,2021-09-07,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F08",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-05-15",
+          "quote": "PROBLEM,Anemia,,,Active,2001-05-15,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She has a history of anemia.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Anemia",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F09",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "chronic kidney disease stage 1",
+      "name_as_written": "Chronic kidney disease stage 1",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Chronic kidney disease stage 1",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-06-23",
+          "quote": "PROBLEM,Chronic kidney disease stage 1,,,Active,2009-06-23,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She is known to have chronic kidney disease stage 1.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Chronic kidney disease stage 1",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F10",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Diabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-05-20",
+          "quote": "PROBLEM,Diabetes,,,Active,2003-05-20,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She is known to have diabetes.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Diabetes",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F11",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "diabetic renal disease",
+      "name_as_written": "Diabetic renal disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Diabetic renal disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-06-23",
+          "quote": "PROBLEM,Diabetic renal disease,,,Active,2009-06-23,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She has a history of diabetic renal disease.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Diabetic renal disease",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F12",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "Hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Hyperglycemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-05-31",
+          "quote": "PROBLEM,Hyperglycemia,,,Active,2005-05-31,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "Her background includes hyperglycemia.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Hyperglycemia",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F13",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-05-20",
+          "quote": "PROBLEM,Hypertension,,,Active,2003-05-20,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She has a history of hypertension.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Hypertension",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F14",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "Hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Hypertriglyceridemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-05-25",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,2004-05-25,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "Her background includes hypertriglyceridemia.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Hypertriglyceridemia",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F15",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "Metabolic syndrome X",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Metabolic syndrome X",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-05-25",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,2004-05-25,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She has a history of metabolic syndrome x.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Metabolic syndrome X",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R052-F16",
+      "patient_id": "R052",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-05-15",
+          "quote": "PROBLEM,Prediabetes,,,Active,2001-05-15,",
+          "file": "R052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-04",
+          "quote": "She is known to have prediabetes.",
+          "file": "R052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Prediabetes",
+          "file": "R052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

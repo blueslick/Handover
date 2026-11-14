@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CLETUS BARTELL
+ ID      : R012
+ DOB     : 08-Mar-1970    Sex: M
+ Date    : 30-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Sepsis
+  - Cardiac Arrest
+
+[CURRENT MEDICATIONS]
+  1. Tramal 50 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R034,"Williamson, Pei",2003-10-08,F,2021-09-26,ALLERGY,Shellfish,,,Active,2004-07-13,swelling (angioedema); nausea
+R034,"Williamson, Pei",2003-10-08,F,2021-09-26,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-09-16,
+R034,"Williamson, Pei",2003-10-08,F,2021-09-26,MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2021-09-16,

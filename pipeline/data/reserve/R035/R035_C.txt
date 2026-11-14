@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MI HOMENICK
+ ID      : R035
+ DOB     : 17-Nov-1945    Sex: F
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Hyperlipidemia
+  - Osteoarthritis of knee
+
+[CURRENT MEDICATIONS]
+  1. Nurofen 400 mg TDS
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

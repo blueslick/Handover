@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ORALIA WILLIAMSON
+ ID      : R063
+ DOB     : 10-Aug-2000    Sex: F
+ Date    : 22-Jun-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Yaz OD
+
+[DISCONTINUED]
+  1. Aleve - stopped 21-Dec-2020
+  2. Natazia - stopped 09-Jul-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

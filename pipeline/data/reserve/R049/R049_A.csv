@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,ALLERGY,No known allergies,,,,,
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,PROBLEM,Prediabetes,,,Active,1981-04-03,
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,PROBLEM,Anemia,,,Active,1987-04-10,
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,PROBLEM,Osteoarthritis of knee,,,Active,1995-02-10,
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,PROBLEM,Fibromyalgia,,,Active,2014-02-02,
+R049,"Feliciano, Fernando",1950-01-20,M,2021-11-09,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-05-21,

@@ -1,0 +1,37 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MICKEY OBERBRUNNER
+ ID      : R050
+ DOB     : 28-Nov-1962    Sex: M
+ Date    : 04-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (skin rash)
+  - Cow's milk (hives)
+  - Egg (hives)
+  - Grass pollen
+  - House dust mite
+  - Zestril (cough)
+  - Mould (sneezing)
+  - Penicillin (cough, swelling (angioedema))
+  - Tree nuts (anaphylaxis, cough)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Epilepsy
+  - Seizure disorder
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 5 mg OD
+  2. Plavix 75 mg OD
+  3. Nitrolingual 0.4 mg PRN
+  4. Zocor 20 mg ON
+  5. Rivotril 0.25 mg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

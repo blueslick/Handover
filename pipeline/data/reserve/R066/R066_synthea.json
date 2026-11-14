@@ -1,0 +1,132 @@
+{
+  "patient_id": "R066",
+  "synthea_id": "1f276bd6-37f3-f5e8-5f02-6118235e2988",
+  "sex": "F",
+  "birth_date": "2011-05-08",
+  "age_on_reference_date": 10,
+  "age_band": "0-19",
+  "first_name": "Kori",
+  "last_name": "Gleichner",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Lisinopril",
+      "category": "medication",
+      "reactions": [],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2013-07-21",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2013-07-21",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "2013-07-03"
+    },
+    {
+      "description": "Childhood asthma",
+      "code": "233678006",
+      "start": "2015-03-13"
+    },
+    {
+      "description": "Perennial allergic rhinitis",
+      "code": "446096008",
+      "start": "2017-03-31"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-05-17",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-05-17",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

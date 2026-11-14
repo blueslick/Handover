@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,ALLERGY,Soya,,,Active,1979-02-17,diarrhoea
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,PROBLEM,Hypertension,,,Active,1996-07-31,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2020-12-17,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Ferrous sulfate,325 mg,once daily,Active,2017-02-03,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Lisinopril,10 mg,once daily,Active,2020-12-17,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Norelgestromin / ethinyl estradiol,,once weekly,Discontinued,2017-09-16,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2020-03-27,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Norethisterone,0.35 mg,once daily,Discontinued,2018-10-28,
+R002,"Bauch, Ulrike",1978-06-07,F,2021-01-16,MEDICATION,Levonorgestrel,19.5 mg,intrauterine system (lasts 5 years),Discontinued,2020-10-21,

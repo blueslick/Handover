@@ -1,0 +1,37 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LOU CROOKS
+ ID      : R059
+ DOB     : 28-Jul-1952    Sex: M
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, shortness of breath)
+  - Egg
+  - Grass pollen
+  - Mould (wheezing, runny nose)
+  - Tree nuts (anaphylaxis, swelling (angioedema))
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Prediabetes
+  - Diabetes
+  - Hypertension
+  - Anemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Hyperglycemia
+  - Neuropathy due to type 2 diabetes mellitus
+
+[CURRENT MEDICATIONS]
+  1. Glucophage XR 500 mg OD
+  2. Panadol 325 mg PRN
+  3. Norvasc 2.5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

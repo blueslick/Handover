@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,ALLERGY,No known allergies,,,,,
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,PROBLEM,Cardiac Arrest,,,Active,1985-04-05,
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,PROBLEM,Miscarriage in first trimester,,,Active,2000-05-12,
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,PROBLEM,Prediabetes,,,Active,2010-04-16,
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,PROBLEM,Anemia,,,Active,2011-04-22,
+R005,"Schuppe, Luanna",1958-04-04,F,2019-10-27,MEDICATION,Paracetamol,325 mg,as needed,Active,2019-10-27,

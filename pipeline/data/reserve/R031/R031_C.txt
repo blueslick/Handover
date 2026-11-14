@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : REFUGIO RATKE
+ ID      : R031
+ DOB     : 06-Jul-1999    Sex: M
+ Date    : 27-Jan-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic pain
+  - Chronic intractable migraine without aura
+  - Impacted molars
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

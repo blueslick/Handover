@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Isaac Marks
+Hospital ID: R064
+Date of birth: 17 March 1989
+Date of visit: 8 August 2021
+
+Dear Doctor,
+
+I reviewed this 32-year-old man in the medical clinic today. He has a history of seizure disorder.
+
+He has no known allergies.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

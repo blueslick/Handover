@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,ALLERGY,Animal dander,,,Active,2011-11-19,cough; hay fever symptoms
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,ALLERGY,Grass pollen,,,Active,2011-11-19,
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,ALLERGY,House dust mite,,,Active,2011-11-19,
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,ALLERGY,Mould,,,Active,2011-11-19,
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,ALLERGY,Peanut,,,Active,2011-11-19,hives; swelling (angioedema)
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,PROBLEM,Atopic dermatitis,,,Active,2014-02-07,
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,PROBLEM,Seasonal allergic rhinitis,,,Active,2015-03-06,
+R017,"Friesen, Sunshine",2010-09-09,F,2021-09-26,MEDICATION,No current medications,,,,,

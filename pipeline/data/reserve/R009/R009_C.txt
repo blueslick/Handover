@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BRUNILDA TOY
+ ID      : R009
+ DOB     : 21-Dec-1997    Sex: F
+ Date    : 03-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Anemia
+  - Normal pregnancy
+
+[CURRENT MEDICATIONS]
+  1. Feosol 162.5 mg OD
+
+[DISCONTINUED]
+  1. Augmentin - stopped 02-May-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,213 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R054",
+  "run_id": null,
+  "built_from": [
+    "R054_A.csv",
+    "R054_B.txt",
+    "R054_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R054-F01",
+      "patient_id": "R054",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash, swelling (angioedema)",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-03",
+      "quote": "She is allergic to penicillin, which causes skin rash and swelling (angioedema).",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-18",
+          "quote": "- Penicillin (skin rash, swelling (angioedema))",
+          "file": "R054_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-03",
+          "quote": "She is allergic to penicillin, which causes skin rash and swelling (angioedema).",
+          "file": "R054_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R054-F02",
+      "patient_id": "R054",
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "nausea, cough",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-03",
+      "quote": "She is allergic to shellfish, which causes nausea and cough.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-18",
+          "quote": "- Shellfish (nausea, cough)",
+          "file": "R054_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-03",
+          "quote": "She is allergic to shellfish, which causes nausea and cough.",
+          "file": "R054_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1991-07-19",
+          "quote": "ALLERGY,Shellfish,,,Active,1991-07-19,nausea; cough"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R054-F03",
+      "patient_id": "R054",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-14",
+      "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-14,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-14",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-14,",
+          "file": "R054_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-10-03",
+          "quote": "She is on lisinopril 5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R054-F04",
+      "patient_id": "R054",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-01-18",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-18",
+          "quote": "Nil regular medications",
+          "file": "R054_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R054-F05",
+      "patient_id": "R054",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-03",
+      "quote": "She has a history of hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-12-21",
+          "quote": "PROBLEM,Hypertension,,,Active,2008-12-21,",
+          "file": "R054_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-18",
+          "quote": "- Hypertension",
+          "file": "R054_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-03",
+          "quote": "She has a history of hypertension.",
+          "file": "R054_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R054-F06",
+      "patient_id": "R054",
+      "type": "diagnosis",
+      "name": "normal pregnancy",
+      "name_as_written": "normal pregnancy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-03",
+      "quote": "She has a history of normal pregnancy.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-22",
+          "quote": "PROBLEM,Normal pregnancy,,,Active,2021-08-22,",
+          "file": "R054_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-03",
+          "quote": "She has a history of normal pregnancy.",
+          "file": "R054_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

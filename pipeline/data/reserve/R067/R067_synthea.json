@@ -1,0 +1,125 @@
+{
+  "patient_id": "R067",
+  "synthea_id": "7c3602b6-35ed-df2b-3c8b-cb5b55689217",
+  "sex": "F",
+  "birth_date": "1977-08-28",
+  "age_on_reference_date": 44,
+  "age_band": "20-44",
+  "first_name": "Danette",
+  "last_name": "Stehr",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Abdominal pain (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Soya bean (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1979-02-12",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1979-02-12",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Chronic intractable migraine without aura",
+      "code": "124171000119105",
+      "start": "1992-11-24"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1995-10-29"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-03-28",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-03-28",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-03-28",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

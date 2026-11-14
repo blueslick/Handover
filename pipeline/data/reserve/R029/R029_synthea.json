@@ -1,0 +1,37 @@
+{
+  "patient_id": "R029",
+  "synthea_id": "7442e18c-ac59-805d-6140-6db8778408b5",
+  "sex": "F",
+  "birth_date": "2006-11-03",
+  "age_on_reference_date": 15,
+  "age_band": "0-19",
+  "first_name": "Kristeen",
+  "last_name": "Paucek",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "start": "2021-10-28",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-07-01"
+    },
+    {
+      "description": "Ibuprofen 100 MG Oral Tablet",
+      "code": "198405",
+      "last_stop": "2017-09-01"
+    }
+  ],
+  "dose_changes": []
+}

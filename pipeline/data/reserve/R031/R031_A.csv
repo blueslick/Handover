@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,ALLERGY,No known allergies,,,,,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,PROBLEM,Chronic pain,,,Active,2013-10-07,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,PROBLEM,Chronic intractable migraine without aura,,,Active,2013-12-27,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,PROBLEM,Impacted molars,,,Active,2015-02-28,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,PROBLEM,Hypertension,,,Active,2017-08-29,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,PROBLEM,Drug overdose,,,Active,2021-10-14,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-09-21,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-21,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-21,
+R031,"Ratke, Refugio",1999-07-06,M,2021-11-02,MEDICATION,Paracetamol / hydrocodone,,as needed,Discontinued,2021-09-30,

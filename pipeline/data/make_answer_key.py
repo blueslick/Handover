@@ -24,7 +24,7 @@ Output: P014_key.json next to the records, compiled shape, kind "answer_key".
 Usage:
     python pipeline/data/make_answer_key.py --written path/to/P014_written.json [...]
     python pipeline/data/make_answer_key.py --patients P001 P002   (chosen patients, from the T12 templates)
-    python pipeline/data/make_answer_key.py --all     (every working and held-out patient; that is T16)
+    python pipeline/data/make_answer_key.py --all     (every working, held-out and reserve patient; T16, reserve added by T59)
 
 Held-out and reserve patients: the script reads and writes their files but only
 prints patient IDs and counts, never fact contents (CLAUDE.md, Held-out patients).
@@ -287,13 +287,13 @@ def written_facts_from_templates(patient_id):
 
 
 def scored_ids():
-    """The working and held-out patient IDs (P001-style), from patients.csv.
-    Reserve rows are left out (used only if the team decides to expand), and the demo
+    """The working, held-out and reserve patient IDs (P001/R001-style), from patients.csv.
+    Reserve rows are included since T59 added them to the held-out set. The demo
     patient D001 is not in this file (make_demo_patient.py builds its key)."""
     # The split/*.txt files hold Synthea's long IDs, not P-numbers, so read patients.csv.
     with (DATA / "patients.csv").open(encoding="utf-8", newline="") as f:
         return [r["patient_id"] for r in csv.DictReader(f)
-                if r["split"] in ("working", "heldout")]
+                if r["split"] in ("working", "heldout", "reserve")]
 
 
 def write_key(patient_id, records, out_dir=None, strict_quotes=True):
@@ -318,7 +318,7 @@ def write_key(patient_id, records, out_dir=None, strict_quotes=True):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--written", nargs="*", default=[], help="written-facts JSON files, one per patient, named <ID>_written.json or holding {'patient_id', 'records'}")
-    ap.add_argument("--all", action="store_true", help="every working and held-out patient, from the T12 templates (not reserve, not the demo patient)")
+    ap.add_argument("--all", action="store_true", help="every working, held-out and reserve patient, from the T12 templates (not the demo patient)")
     ap.add_argument("--patients", nargs="+", default=[], metavar="ID", help="only these patients, from the T12 templates, e.g. --patients P001 P002")
     ap.add_argument("--out", type=Path, help="write keys here instead of the patient folders (for tests)")
     ap.add_argument("--no-quote-check", action="store_true", help="skip the record-file quote check")

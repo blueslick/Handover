@@ -1,0 +1,40 @@
+{
+  "patient_id": "R039",
+  "synthea_id": "8baeb614-ce03-cedf-2694-92b70f894886",
+  "sex": "F",
+  "birth_date": "2013-09-16",
+  "age_on_reference_date": 8,
+  "age_band": "0-19",
+  "first_name": "Emilie",
+  "last_name": "Kozey",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2015-01-11",
+      "active": true
+    },
+    {
+      "name": "Wheat (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "2015-01-11",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Penicillin V Potassium 250 MG Oral Tablet",
+      "code": "834061",
+      "last_stop": "2021-03-09"
+    }
+  ],
+  "dose_changes": []
+}

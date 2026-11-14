@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R071,"Gleason, Vicente",2005-12-27,M,2018-08-28,ALLERGY,No known allergies,,,,,
+R071,"Gleason, Vicente",2005-12-27,M,2018-08-28,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2018-07-29,
+R071,"Gleason, Vicente",2005-12-27,M,2018-08-28,MEDICATION,Amoxicillin,500 mg,three times daily,Active,2018-08-28,

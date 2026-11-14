@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,ALLERGY,No known allergies,,,,,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Prediabetes,,,Active,1954-11-18,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Miscarriage in first trimester,,,Active,1957-07-18,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Hyperlipidemia,,,Active,1965-09-16,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Cardiac Arrest,,,Active,1972-12-07,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Osteoarthritis of hip,,,Active,1973-07-27,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Malignant neoplasm of breast,,,Active,1990-05-21,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,PROBLEM,Atrial Fibrillation,,,Active,2019-05-23,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-11-05,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-09-23,
+R011,"Otero, Elena",1923-09-06,F,2021-11-05,MEDICATION,Verapamil,40 mg,three times daily,Active,2021-06-03,

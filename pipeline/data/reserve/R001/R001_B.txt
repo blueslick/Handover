@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Arron Labadie
+Hospital ID: R001
+Date of birth: 24 December 1996
+Date of visit: 31 October 2021
+
+Dear Doctor,
+
+I reviewed this 24-year-old man in the medical clinic today. He is known to have prediabetes.
+
+He is allergic to mould, which causes skin rash. He is allergic to wheat.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

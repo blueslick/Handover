@@ -1,0 +1,47 @@
+{
+  "patient_id": "R049",
+  "synthea_id": "e3d999ee-c61a-18cd-6045-7e958c87773b",
+  "sex": "M",
+  "birth_date": "1950-01-20",
+  "age_on_reference_date": 71,
+  "age_band": "65+",
+  "first_name": "Fernando",
+  "last_name": "Feliciano",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1981-04-03"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1987-04-10"
+    },
+    {
+      "description": "Osteoarthritis of knee",
+      "code": "239873007",
+      "start": "1995-02-10"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-02"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-05-21",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Reyes White
+Hospital ID: R004
+Date of birth: 19 April 2001
+Date of visit: 25 August 2021
+
+Dear Doctor,
+
+I reviewed this 20-year-old man in the medical clinic today. He has a history of chronic sinusitis. His background includes hypertension.
+
+He has no known allergies.
+
+He is on hydrochlorothiazide 25 mg once a day. He continues on amlodipine 2.5 mg once a day. He is on lisinopril 10 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ARRON LABADIE
+ ID      : R001
+ DOB     : 24-Dec-1996    Sex: M
+ Date    : 21-May-2021
+========================================================
+
+[ALLERGIES]
+  - Mould (skin rash)
+
+[PROBLEM LIST]
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

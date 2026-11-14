@@ -1,0 +1,45 @@
+{
+  "patient_id": "R053",
+  "synthea_id": "073967cc-9195-3de9-8ce1-e0cd81461da4",
+  "sex": "F",
+  "birth_date": "1912-10-07",
+  "age_on_reference_date": 109,
+  "age_band": "65+",
+  "first_name": "Otha",
+  "last_name": "Wintheiser",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1936-11-02"
+    },
+    {
+      "description": "Tubal pregnancy",
+      "code": "79586000",
+      "start": "1937-08-23"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1940-12-16"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1947-06-11"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "2003-05-26"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

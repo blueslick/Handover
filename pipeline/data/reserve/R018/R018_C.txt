@@ -1,0 +1,34 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SHANA ZIEMANN
+ ID      : R018
+ DOB     : 09-Sep-2003    Sex: F
+ Date    : 06-Sep-2019
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Disprin
+  - Egg
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Peanut (skin rash, vomiting)
+  - Tree nuts (anaphylaxis, cough)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Perennial allergic rhinitis with seasonal variation
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+[DISCONTINUED]
+  1. NuvaRing - stopped 29-Aug-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

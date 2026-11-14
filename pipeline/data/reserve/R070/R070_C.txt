@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CHANELL SKILES
+ ID      : R070
+ DOB     : 07-May-2016    Sex: F
+ Date    : 31-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Childhood asthma
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+
+[DISCONTINUED]
+  1. Amoxil - stopped 23-Apr-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : FERNANDO FELICIANO
+ ID      : R049
+ DOB     : 20-Jan-1950    Sex: M
+ Date    : 24-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Anemia
+  - Osteoarthritis of knee
+  - Fibromyalgia
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

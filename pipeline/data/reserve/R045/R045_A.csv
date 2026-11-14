@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R045,"Kozey, Yelena",2005-01-10,F,2020-12-19,ALLERGY,No known allergies,,,,,
+R045,"Kozey, Yelena",2005-01-10,F,2020-12-19,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2020-12-19,
+R045,"Kozey, Yelena",2005-01-10,F,2020-12-19,MEDICATION,Ibuprofen,100 mg,as needed,Discontinued,2017-03-17,
+R045,"Kozey, Yelena",2005-01-10,F,2020-12-19,MEDICATION,Naproxen,220 mg,twice daily,Discontinued,2018-05-02,

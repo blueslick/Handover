@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R038,"Wehner, Jeff",2011-10-27,M,2021-11-09,ALLERGY,No known allergies,,,,,
+R038,"Wehner, Jeff",2011-10-27,M,2021-11-09,PROBLEM,Chronic sinusitis,,,Active,2021-08-19,
+R038,"Wehner, Jeff",2011-10-27,M,2021-11-09,PROBLEM,Hypoxemia,,,Active,2021-08-19,
+R038,"Wehner, Jeff",2011-10-27,M,2021-11-09,MEDICATION,Enoxaparin,40 mg,once daily,Active,2021-11-09,
+R038,"Wehner, Jeff",2011-10-27,M,2021-11-09,MEDICATION,Paracetamol,500 mg,as needed,Active,2021-08-19,

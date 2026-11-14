@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,ALLERGY,No known allergies,,,,,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,PROBLEM,Chronic sinusitis,,,Active,1977-06-20,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,PROBLEM,Miscarriage in first trimester,,,Active,1986-05-29,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,PROBLEM,Osteoporosis,,,Active,1999-01-14,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,PROBLEM,Fibromyalgia,,,Active,2014-02-01,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-05-27,
+R023,"Marquardt, Sierra",1938-11-17,F,2021-07-25,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-05-25,

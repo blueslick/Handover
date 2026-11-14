@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R080,"Strosin, Cesar",1951-10-06,M,2021-03-27,ALLERGY,No known allergies,,,,,
+R080,"Strosin, Cesar",1951-10-06,M,2021-03-27,PROBLEM,Hypertension,,,Active,1969-11-29,
+R080,"Strosin, Cesar",1951-10-06,M,2021-03-27,PROBLEM,Coronary Heart Disease,,,Active,2001-05-27,
+R080,"Strosin, Cesar",1951-10-06,M,2021-03-27,PROBLEM,Hyperlipidemia,,,Active,2017-08-27,
+R080,"Strosin, Cesar",1951-10-06,M,2021-03-27,MEDICATION,No current medications,,,,,

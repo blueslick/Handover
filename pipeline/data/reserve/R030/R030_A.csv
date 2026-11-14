@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R030,"Effertz, Jimmie",2020-01-21,M,2020-11-17,ALLERGY,Fish,,,Active,2020-10-18,skin rash
+R030,"Effertz, Jimmie",2020-01-21,M,2020-11-17,MEDICATION,Fexofenadine,30 mg,twice daily,Active,2020-10-18,
+R030,"Effertz, Jimmie",2020-01-21,M,2020-11-17,MEDICATION,Epinephrine,0.3 mg,as needed,Active,2020-10-18,

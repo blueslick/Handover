@@ -1,0 +1,38 @@
+{
+  "patient_id": "R075",
+  "synthea_id": "db827d6a-d1c7-cd51-9b86-626ab88d58da",
+  "sex": "M",
+  "birth_date": "2010-02-06",
+  "age_on_reference_date": 11,
+  "age_band": "0-19",
+  "first_name": "Donny",
+  "last_name": "Howe",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Child attention deficit disorder",
+      "code": "192127007",
+      "start": "2021-10-10"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Methylphenidate Hydrochloride 20 MG Oral Tablet",
+      "code": "1091392",
+      "start": "2021-10-11",
+      "reason": "Child attention deficit disorder"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Ibuprofen 100 MG Oral Tablet",
+      "code": "198405",
+      "last_stop": "2019-03-04"
+    }
+  ],
+  "dose_changes": []
+}

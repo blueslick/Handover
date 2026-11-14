@@ -1,0 +1,35 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MARISOL HILLL
+ ID      : R044
+ DOB     : 15-Jun-1967    Sex: F
+ Date    : 08-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Bee venom (skin rash)
+  - Cow's milk (vomiting, hives)
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Tree nuts (anaphylaxis, cough)
+  - Tree pollen
+  - Wheat
+
+[PROBLEM LIST]
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Norvasc 5 mg OD
+  3. Plavix 75 mg OD
+  4. Ventolin 90 mcg PRN
+  5. Nitrolingual 0.4 mg PRN
+  6. Zocor 20 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

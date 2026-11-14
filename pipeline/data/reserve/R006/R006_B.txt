@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Chauncey Baumbach
+Hospital ID: R006
+Date of birth: 14 October 1973
+Date of visit: 13 September 2021
+
+Dear Doctor,
+
+I reviewed this 47-year-old man in the medical clinic today. He has a history of hypertension. His background includes prediabetes. He is known to have anemia.
+
+He is allergic to egg, which causes anaphylaxis. He is allergic to penicillin.
+
+He continues on hydrochlorothiazide 25 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

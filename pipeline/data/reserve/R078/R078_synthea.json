@@ -1,0 +1,104 @@
+{
+  "patient_id": "R078",
+  "synthea_id": "f75ea7e0-0e86-8de5-2093-c7ae709ab0c6",
+  "sex": "F",
+  "birth_date": "1934-11-06",
+  "age_on_reference_date": 87,
+  "age_band": "65+",
+  "first_name": "Maximina",
+  "last_name": "Lehner",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "1938-12-19"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1952-12-30"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1965-09-21"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1977-05-17"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1978-05-23"
+    },
+    {
+      "description": "Chronic pain",
+      "code": "82423001",
+      "start": "1990-02-01"
+    },
+    {
+      "description": "Chronic intractable migraine without aura",
+      "code": "124171000119105",
+      "start": "1990-04-16"
+    },
+    {
+      "description": "Impacted molars",
+      "code": "196416002",
+      "start": "1990-11-25"
+    },
+    {
+      "description": "Drug overdose",
+      "code": "55680006",
+      "start": "1999-05-28"
+    },
+    {
+      "description": "Stroke",
+      "code": "230690007",
+      "start": "2021-07-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-01-19",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-01-19",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Alteplase 100 MG Injection",
+      "code": "1804799",
+      "last_stop": "2021-07-20"
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "last_stop": "2021-07-20"
+    },
+    {
+      "description": "Hydrocortisone 10 MG/ML Topical Cream",
+      "code": "106258",
+      "last_stop": "2020-01-16"
+    },
+    {
+      "description": "cycloSPORINE  modified 100 MG Oral Capsule",
+      "code": "241834",
+      "last_stop": "2020-01-16"
+    }
+  ],
+  "dose_changes": []
+}

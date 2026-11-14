@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DENNY WATSICA
+ ID      : R040
+ DOB     : 22-Jun-2007    Sex: M
+ Date    : 15-Mar-2018
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Fish (shortness of breath, hay fever symptoms)
+  - Grass pollen
+  - House dust mite
+  - Mould (wheezing, runny nose)
+  - Shellfish (swelling (angioedema), nausea)
+  - Tree nuts (anaphylaxis, cough)
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Perennial allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  1. Augmentin TDS
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

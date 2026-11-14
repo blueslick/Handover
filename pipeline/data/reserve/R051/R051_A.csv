@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,ALLERGY,Egg,,,Active,1965-02-20,hives
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,ALLERGY,Penicillin,,,Active,1965-02-20,dizziness
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,ALLERGY,Tree pollen,,,Active,1965-02-20,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Hypertension,,,Active,1982-06-18,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Chronic sinusitis,,,Active,1984-11-25,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Coronary Heart Disease,,,Active,2003-10-17,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Fibromyalgia,,,Active,2014-02-01,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Anemia,,,Active,2020-09-23,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Non-small cell lung cancer,,,Active,2020-09-23,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,PROBLEM,Non-small cell carcinoma of lung  TNM stage 1,,,Active,2020-09-26,
+R051,"Lesch, Carol",1964-04-23,M,2020-12-03,MEDICATION,No current medications,,,,,

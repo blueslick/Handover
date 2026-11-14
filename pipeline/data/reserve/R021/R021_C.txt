@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : THELMA BAYER
+ ID      : R021
+ DOB     : 14-Sep-1972    Sex: F
+ Date    : 07-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Transformed migraine
+  - Diabetes
+  - Miscarriage in first trimester
+  - Tubal pregnancy
+  - Anemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Hyperglycemia
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  1. Glucophage XR 250 mg OD
+  2. Percocet PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

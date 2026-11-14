@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R054,"Hilpert, Eleni",1990-10-28,F,2021-11-14,ALLERGY,Shellfish,,,Active,1991-07-19,nausea; cough
+R054,"Hilpert, Eleni",1990-10-28,F,2021-11-14,PROBLEM,Hypertension,,,Active,2008-12-21,
+R054,"Hilpert, Eleni",1990-10-28,F,2021-11-14,PROBLEM,Normal pregnancy,,,Active,2021-08-22,
+R054,"Hilpert, Eleni",1990-10-28,F,2021-11-14,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-14,

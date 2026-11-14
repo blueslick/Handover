@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,ALLERGY,No known allergies,,,,,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,PROBLEM,Hypertension,,,Active,1993-10-11,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,PROBLEM,Hypoxemia,,,Active,2021-02-06,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,MEDICATION,Enoxaparin,40 mg,once daily,Active,2021-02-06,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,MEDICATION,Enoxaparin,150 mg,once daily,Active,2021-11-06,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,MEDICATION,Paracetamol,500 mg,as needed,Active,2021-02-06,
+R036,"Boyer, Lawrence",1975-08-18,M,2021-11-06,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-07-27,

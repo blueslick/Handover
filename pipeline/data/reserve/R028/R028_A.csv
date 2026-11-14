@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R028,"Heller, Eugene",2005-12-13,M,2021-08-15,ALLERGY,No known allergies,,,,,
+R028,"Heller, Eugene",2005-12-13,M,2021-08-15,PROBLEM,Hypoxemia,,,Active,2021-08-11,
+R028,"Heller, Eugene",2005-12-13,M,2021-08-15,MEDICATION,Enoxaparin,20 mg,once daily,Active,2021-08-15,
+R028,"Heller, Eugene",2005-12-13,M,2021-08-15,MEDICATION,Paracetamol,500 mg,as needed,Active,2021-08-11,
+R028,"Heller, Eugene",2005-12-13,M,2021-08-15,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-08-11,

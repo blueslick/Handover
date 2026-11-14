@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ELWOOD GOTTLIEB
+ ID      : R008
+ DOB     : 07-Mar-2014    Sex: M
+ Date    : 03-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould (skin rash)
+  - Soya (vomiting, diarrhoea)
+  - Tree nuts (cough, hives)
+  - Tree pollen
+  - Wheat
+
+[PROBLEM LIST]
+  - Seasonal allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

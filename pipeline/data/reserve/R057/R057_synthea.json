@@ -1,0 +1,55 @@
+{
+  "patient_id": "R057",
+  "synthea_id": "918e387f-cb9a-ec9f-ab54-65467a4df548",
+  "sex": "M",
+  "birth_date": "1995-04-12",
+  "age_on_reference_date": 26,
+  "age_band": "20-44",
+  "first_name": "Frederick",
+  "last_name": "Conroy",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Lisinopril",
+      "category": "medication",
+      "reactions": [],
+      "start": "2000-05-12",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-05-12",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2004-02-17"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Azithromycin 250mg",
+      "code": "212446",
+      "last_stop": "2019-05-31"
+    }
+  ],
+  "dose_changes": []
+}

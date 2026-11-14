@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : REYES WHITE
+ ID      : R004
+ DOB     : 19-Apr-2001    Sex: M
+ Date    : 16-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Norvasc 2.5 mg OD
+  3. Zestril 5 mg OD
+  4. Augmentin TDS
+
+[DISCONTINUED]
+  1. Ritalin - stopped 03-Apr-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

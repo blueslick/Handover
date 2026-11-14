@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R009,"Toy, Brunilda",1997-12-21,F,2020-12-08,ALLERGY,Shellfish,,,Active,1998-11-13,anaphylaxis; nausea
+R009,"Toy, Brunilda",1997-12-21,F,2020-12-08,PROBLEM,Prediabetes,,,Active,2020-02-23,
+R009,"Toy, Brunilda",1997-12-21,F,2020-12-08,MEDICATION,No current medications,,,,,
+R009,"Toy, Brunilda",1997-12-21,F,2020-12-08,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2018-11-14,
+R009,"Toy, Brunilda",1997-12-21,F,2020-12-08,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2016-11-24,

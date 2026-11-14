@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : FREDERICK CONROY
+ ID      : R057
+ DOB     : 12-Apr-1995    Sex: M
+ Date    : 13-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Zestril
+  - Penicillin (skin rash, hives)
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Zithromax - stopped 31-May-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

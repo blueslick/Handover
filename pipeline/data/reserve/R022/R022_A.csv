@@ -1,0 +1,3 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R022,"O'Reilly, Ahmed",2013-06-12,M,2018-01-09,ALLERGY,Fish,,,Active,2014-12-14,shortness of breath; vomiting
+R022,"O'Reilly, Ahmed",2013-06-12,M,2018-01-09,MEDICATION,Amoxicillin,500 mg,three times daily,Active,2018-01-09,

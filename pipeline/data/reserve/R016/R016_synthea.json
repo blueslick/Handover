@@ -1,0 +1,138 @@
+{
+  "patient_id": "R016",
+  "synthea_id": "a7624ac9-6308-e015-1c5c-115c97c631fe",
+  "sex": "F",
+  "birth_date": "1959-11-02",
+  "age_on_reference_date": 62,
+  "age_band": "45-64",
+  "first_name": "Esther",
+  "last_name": "Runolfsson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1960-05-21",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Abdominal pain (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1960-05-21",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Diarrhea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1960-05-21",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1960-05-21",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1960-05-21",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1960-05-21",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1985-05-27"
+    },
+    {
+      "description": "Tubal pregnancy",
+      "code": "79586000",
+      "start": "1990-01-15"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2017-08-07"
+    },
+    {
+      "description": "Osteoarthritis of knee",
+      "code": "239873007",
+      "start": "2020-03-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-08-30",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-08-30",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "start": "2020-03-20",
+      "reason": "Osteoarthritis of knee"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-08-27",
+      "reason": "Hyperlipidemia"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "code": "562251",
+      "last_stop": "2017-11-01"
+    }
+  ],
+  "dose_changes": []
+}

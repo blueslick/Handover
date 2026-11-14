@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,ALLERGY,No known allergies,,,,,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,PROBLEM,Hypertension,,,Active,1981-03-02,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,PROBLEM,Hyperlipidemia,,,Active,2003-07-07,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,PROBLEM,Prediabetes,,,Active,2006-07-24,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,PROBLEM,Anemia,,,Active,2008-08-04,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,PROBLEM,Osteoarthritis of knee,,,Active,2011-05-05,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,MEDICATION,No current medications,,,,,
+R074,"Tremblay, Johnie",1963-01-07,M,2020-10-23,MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2017-12-17,

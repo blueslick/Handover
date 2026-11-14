@@ -1,0 +1,149 @@
+{
+  "patient_id": "R015",
+  "synthea_id": "c24c5971-3c20-aeab-95da-9dba58dad4a3",
+  "sex": "F",
+  "birth_date": "1960-11-13",
+  "age_on_reference_date": 61,
+  "age_band": "45-64",
+  "first_name": "Demetrice",
+  "last_name": "Collier",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Sneezing",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1962-04-11",
+      "active": true
+    },
+    {
+      "name": "Soya bean (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Diarrhea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1962-04-11",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1979-12-03"
+    },
+    {
+      "description": "Seizure disorder",
+      "code": "128613002",
+      "start": "2010-12-25"
+    },
+    {
+      "description": "Epilepsy",
+      "code": "84757009",
+      "start": "2010-12-26"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "2021-09-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-09-06",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Alendronic acid 10 MG Oral Tablet",
+      "code": "904419",
+      "start": "2021-09-06",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-09-06",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

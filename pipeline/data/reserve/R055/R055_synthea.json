@@ -1,0 +1,38 @@
+{
+  "patient_id": "R055",
+  "synthea_id": "c98f8278-af04-a31b-ebee-65d34ae0466f",
+  "sex": "M",
+  "birth_date": "1984-12-24",
+  "age_on_reference_date": 36,
+  "age_band": "20-44",
+  "first_name": "Rodrigo",
+  "last_name": "Thompson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2003-02-17"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-05-31",
+      "reason": null
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-05-31",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

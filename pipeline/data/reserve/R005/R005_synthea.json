@@ -1,0 +1,53 @@
+{
+  "patient_id": "R005",
+  "synthea_id": "7683e3a1-996d-1f2a-8bca-a463ad969cc1",
+  "sex": "F",
+  "birth_date": "1958-04-04",
+  "age_on_reference_date": 63,
+  "age_band": "45-64",
+  "first_name": "Luanna",
+  "last_name": "Schuppe",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Cardiac Arrest",
+      "code": "410429000",
+      "start": "1985-04-05"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "2000-05-12"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2010-04-16"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2011-04-22"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-06-18",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-11-05"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R001,"Labadie, Arron",1996-12-24,M,2021-09-06,ALLERGY,Mould,,,Active,1997-12-27,skin rash
+R001,"Labadie, Arron",1996-12-24,M,2021-09-06,ALLERGY,Wheat,,,Active,1997-12-27,
+R001,"Labadie, Arron",1996-12-24,M,2021-09-06,PROBLEM,Prediabetes,,,Active,2019-02-26,
+R001,"Labadie, Arron",1996-12-24,M,2021-09-06,MEDICATION,No current medications,,,,,

@@ -1,0 +1,80 @@
+{
+  "patient_id": "R036",
+  "synthea_id": "3e1a89ae-50ce-1b40-e1b6-2a9e9dcac7a3",
+  "sex": "M",
+  "birth_date": "1975-08-18",
+  "age_on_reference_date": 46,
+  "age_band": "45-64",
+  "first_name": "Lawrence",
+  "last_name": "Boyer",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1993-10-11"
+    },
+    {
+      "description": "Hypoxemia (disorder)",
+      "code": "389087006",
+      "start": "2021-02-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe",
+      "code": "854235",
+      "start": "2021-02-06",
+      "reason": null
+    },
+    {
+      "description": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe",
+      "code": "854252",
+      "start": "2021-02-17",
+      "reason": "Acute deep venous thrombosis (disorder)"
+    },
+    {
+      "description": "Acetaminophen 500 MG Oral Tablet",
+      "code": "198440",
+      "start": "2021-02-06",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-07-27",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-07-27",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-08-06"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 500 MG Oral Tablet",
+        "strength": "500 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2021-08-06"
+      }
+    }
+  ]
+}

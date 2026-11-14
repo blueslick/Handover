@@ -1,0 +1,39 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JESSE SENGER
+ ID      : R003
+ DOB     : 18-Sep-1951    Sex: M
+ Date    : 22-Dec-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Diabetes
+  - Anemia
+  - Hyperglycemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Prediabetes
+  - Neuropathy due to type 2 diabetes mellitus
+  - Diabetic retinopathy associated with type II diabetes mellitus
+  - Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Chronic sinusitis
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Demerol 50 mg PRN
+
+[DISCONTINUED]
+  1. Panadol - stopped 21-Nov-2020
+  2. Zinnat - stopped 21-Nov-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

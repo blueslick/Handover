@@ -1,0 +1,3 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R056,"Jakubowski, Alicia",2020-02-14,F,2021-01-25,ALLERGY,No known allergies,,,,,
+R056,"Jakubowski, Alicia",2020-02-14,F,2021-01-25,MEDICATION,No current medications,,,,,

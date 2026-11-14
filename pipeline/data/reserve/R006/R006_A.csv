@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,ALLERGY,Egg,,,Active,1975-02-07,anaphylaxis
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,PROBLEM,Hypertension,,,Active,1991-12-08,
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,PROBLEM,Prediabetes,,,Active,2017-04-30,
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,PROBLEM,Anemia,,,Active,2018-05-06,
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-05-24,
+R006,"Baumbach, Chauncey",1973-10-14,M,2021-10-30,MEDICATION,Naproxen,220 mg,twice daily,Discontinued,2021-08-01,

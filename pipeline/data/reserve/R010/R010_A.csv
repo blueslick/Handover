@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,ALLERGY,No known allergies,,,,,
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,PROBLEM,Hypertension,,,Active,2003-01-25,
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,PROBLEM,Fibromyalgia,,,Active,2014-02-03,
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,MEDICATION,Oxycodone,10 mg,twice daily,Active,2021-11-08,
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-05-08,
+R010,"Willms, Ross",1984-12-01,M,2021-11-08,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-05-08,

@@ -1,0 +1,956 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R003",
+  "run_id": null,
+  "built_from": [
+    "R003_A.csv",
+    "R003_B.txt",
+    "R003_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R003-F01",
+      "patient_id": "R003",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- NKA",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-26",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He has no known allergies.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F02",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He continues on amlodipine 5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He continues on amlodipine 5 mg once a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F03",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "cefuroxime",
+      "name_as_written": "Zinnat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-11-21",
+      "quote": "2. Zinnat - stopped 21-Nov-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-21",
+          "quote": "2. Zinnat - stopped 21-Nov-2020",
+          "file": "R003_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F04",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He continues on clopidogrel 75 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He continues on clopidogrel 75 mg once a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F05",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "fentanyl",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He continues on fentanyl 25 mcg as a patch changed every 72 hours.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He continues on fentanyl 25 mcg as a patch changed every 72 hours.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F06",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": "10 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He takes hydrocodone 10 mg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He takes hydrocodone 10 mg twice a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F07",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "insulin isophane / insulin regular",
+      "name_as_written": "insulin isophane and insulin regular",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He takes insulin isophane and insulin regular twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He takes insulin isophane and insulin regular twice a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F08",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He continues on lisinopril 10 mg once a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F09",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "meperidine",
+      "name_as_written": "meperidine",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2020-12-30",
+      "quote": "His meperidine was stopped on 30 December 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-12-30",
+          "quote": "His meperidine was stopped on 30 December 2020.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "50 mg",
+          "frequency": "as_needed",
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "1. Demerol 50 mg PRN"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F10",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "metformin",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is on metformin 500 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is on metformin 500 mg once a day.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F11",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is on nitroglycerin 0.4 mg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is on nitroglycerin 0.4 mg when needed.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F12",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-11-21",
+      "quote": "1. Panadol - stopped 21-Nov-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-21",
+          "quote": "1. Panadol - stopped 21-Nov-2020",
+          "file": "R003_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F13",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "paracetamol and oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He continues on paracetamol and oxycodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He continues on paracetamol and oxycodone when needed.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F14",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is on simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is on simvastatin 20 mg at night.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F15",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "tramadol",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is on tramadol 50 mg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is on tramadol 50 mg when needed.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F16",
+      "patient_id": "R003",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-07-26",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-26",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R003_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F17",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He has a history of anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-02-11",
+          "quote": "PROBLEM,Anemia,,,Active,1986-02-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Anemia",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He has a history of anemia.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F18",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "chronic kidney disease stage 1",
+      "name_as_written": "chronic kidney disease stage 1",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "His background includes chronic kidney disease stage 1.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2002-04-30",
+          "quote": "PROBLEM,Chronic kidney disease stage 1,,,Active,2002-04-30,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Chronic kidney disease stage 1",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "His background includes chronic kidney disease stage 1.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F19",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-01-13",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,2003-01-13,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Chronic sinusitis",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have chronic sinusitis.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F20",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "His background includes coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-01-20",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2009-01-20,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Coronary Heart Disease",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "His background includes coronary heart disease.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F21",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He has a history of diabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1985-02-05",
+          "quote": "PROBLEM,Diabetes,,,Active,1985-02-05,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Diabetes",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He has a history of diabetes.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F22",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "diabetic renal disease",
+      "name_as_written": "diabetic renal disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "His background includes diabetic renal disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2002-04-30",
+          "quote": "PROBLEM,Diabetic renal disease,,,Active,2002-04-30,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Diabetic renal disease",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "His background includes diabetic renal disease.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F23",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "diabetic retinopathy associated with type ii diabetes mellitus",
+      "name_as_written": "diabetic retinopathy associated with type ii diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He has a history of diabetic retinopathy associated with type ii diabetes mellitus.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-05-08",
+          "quote": "PROBLEM,Diabetic retinopathy associated with type II diabetes mellitus,,,Active,2001-05-08,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Diabetic retinopathy associated with type II diabetes mellitus",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He has a history of diabetic retinopathy associated with type ii diabetes mellitus.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F24",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have hyperglycemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-02-11",
+          "quote": "PROBLEM,Hyperglycemia,,,Active,1986-02-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Hyperglycemia",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have hyperglycemia.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F25",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1969-11-11",
+          "quote": "PROBLEM,Hypertension,,,Active,1969-11-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Hypertension",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have hypertension.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F26",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have hypertriglyceridemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-02-11",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,1986-02-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Hypertriglyceridemia",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have hypertriglyceridemia.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F27",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have metabolic syndrome x.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-02-11",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,1986-02-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Metabolic syndrome X",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have metabolic syndrome x.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F28",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "neuropathy due to type 2 diabetes mellitus",
+      "name_as_written": "neuropathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He has a history of neuropathy due to type 2 diabetes mellitus.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1987-02-17",
+          "quote": "PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,1987-02-17,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Neuropathy due to type 2 diabetes mellitus",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He has a history of neuropathy due to type 2 diabetes mellitus.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F29",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "name_as_written": "nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "He is known to have nonproliferative diabetic retinopathy due to type 2 diabetes mellitus.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-05-08",
+          "quote": "PROBLEM,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,,,Active,2001-05-08,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "He is known to have nonproliferative diabetic retinopathy due to type 2 diabetes mellitus.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R003-F30",
+      "patient_id": "R003",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-05",
+      "quote": "His background includes prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-02-11",
+          "quote": "PROBLEM,Prediabetes,,,Active,1986-02-11,",
+          "file": "R003_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-22",
+          "quote": "- Prediabetes",
+          "file": "R003_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-05",
+          "quote": "His background includes prediabetes.",
+          "file": "R003_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

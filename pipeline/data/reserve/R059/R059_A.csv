@@ -1,0 +1,22 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Animal dander,,,Active,1953-07-05,cough; shortness of breath
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Egg,,,Active,1953-07-05,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Grass pollen,,,Active,1953-07-05,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Mould,,,Active,1953-07-05,wheezing; runny nose
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Penicillin,,,Active,1953-07-05,skin rash; shortness of breath
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Tree nuts,,,Active,1953-07-05,anaphylaxis; swelling (angioedema)
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,ALLERGY,Tree pollen,,,Active,1953-07-05,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Atopic dermatitis,,,Active,1955-05-19,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Prediabetes,,,Active,1989-10-16,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Diabetes,,,Active,1992-08-03,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Hypertension,,,Active,1992-08-03,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Anemia,,,Active,1993-08-09,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Hypertriglyceridemia,,,Active,1993-08-09,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Metabolic syndrome X,,,Active,1993-08-09,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Hyperglycemia,,,Active,1994-08-15,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,2005-05-16,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,MEDICATION,Metformin,500 mg,once daily,Active,2021-06-21,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-06-21,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-06-21,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,MEDICATION,Doxycycline,100 mg,twice daily,Active,2021-06-18,
+R059,"Crooks, Lou",1952-07-28,M,2021-07-30,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-07-02,

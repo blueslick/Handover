@@ -1,0 +1,63 @@
+{
+  "patient_id": "R028",
+  "synthea_id": "050358a1-fcf7-1182-7ad1-6b663afa3002",
+  "sex": "M",
+  "birth_date": "2005-12-13",
+  "age_on_reference_date": 15,
+  "age_band": "0-19",
+  "first_name": "Eugene",
+  "last_name": "Heller",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypoxemia (disorder)",
+      "code": "389087006",
+      "start": "2021-08-11"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe",
+      "code": "854235",
+      "start": "2021-08-11",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 500 MG Oral Tablet",
+      "code": "198440",
+      "start": "2021-08-11",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-08-11",
+      "reason": "Hypoxemia (disorder)"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-01-01"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 500 MG Oral Tablet",
+        "strength": "500 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2017-01-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Alycia Muller
+Hospital ID: R060
+Date of birth: 29 July 1955
+Date of visit: 29 October 2020
+
+Dear Doctor,
+
+I reviewed this 65-year-old woman in the medical clinic today. Her background includes hypertension. Her background includes miscarriage in first trimester. She is known to have hyperlipidemia. Her background includes localized  primary osteoarthritis of the hand. She is known to have chronic sinusitis.
+
+She has no known allergies.
+
+She takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

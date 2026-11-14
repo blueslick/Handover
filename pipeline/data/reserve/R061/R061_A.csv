@@ -1,0 +1,14 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Animal dander,,,Active,1997-07-25,hay fever symptoms; shortness of breath
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Aspirin,,,Active,1997-07-25,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Fish,,,Active,1997-07-25,vomiting; hay fever symptoms
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Grass pollen,,,Active,1997-07-25,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,House dust mite,,,Active,1997-07-25,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Mould,,,Active,1997-07-25,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Peanut,,,Active,1997-07-25,hives; swelling (angioedema)
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,ALLERGY,Tree pollen,,,Active,1997-07-25,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,PROBLEM,Chronic sinusitis,,,Active,1997-05-03,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2020-12-07,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,MEDICATION,Paracetamol / codeine,,as needed,Active,2020-12-07,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,MEDICATION,Paracetamol,325 mg,as needed,Active,2020-12-07,
+R061,"Zulauf, Sebastian",1996-09-09,M,2021-09-14,MEDICATION,Salbutamol,90 mcg,as needed,Active,2020-12-07,

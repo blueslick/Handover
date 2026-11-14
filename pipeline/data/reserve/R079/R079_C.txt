@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : KENTON LOWE
+ ID      : R079
+ DOB     : 24-Sep-1956    Sex: M
+ Date    : 12-Mar-2017
+========================================================
+
+[ALLERGIES]
+  - Shellfish (swelling (angioedema), nausea)
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Anemia
+  - Bleeding from anus
+  - Protracted diarrhea
+
+[CURRENT MEDICATIONS]
+  1. Actilyse 100 mg STAT
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,200 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R041",
+  "run_id": null,
+  "built_from": [
+    "R041_A.csv",
+    "R041_B.txt",
+    "R041_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R041-F01",
+      "patient_id": "R041",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-13",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2016-12-17",
+          "quote": "He has no known allergies.",
+          "file": "R041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-18",
+          "quote": "- NKA",
+          "file": "R041_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-13",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R041_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R041-F02",
+      "patient_id": "R041",
+      "type": "medicine",
+      "name": "atomoxetine",
+      "name_as_written": "Strattera",
+      "dose": "100 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2016-12-25",
+      "quote": "1. Strattera - stopped 25-Dec-2016",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2016-12-25",
+          "quote": "1. Strattera - stopped 25-Dec-2016",
+          "file": "R041_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "100 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2016-12-17",
+          "quote": "He continues on atomoxetine 100 mg once a day."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R041-F03",
+      "patient_id": "R041",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Durogesic",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-18",
+      "quote": "1. Durogesic 25 mcg as a patch changed every 72 hours",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-28",
+          "quote": "MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-03-28,",
+          "file": "R041_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-18",
+          "quote": "1. Durogesic 25 mcg as a patch changed every 72 hours",
+          "file": "R041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R041-F04",
+      "patient_id": "R041",
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Vicodin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-18",
+      "quote": "2. Vicodin PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-07-18",
+          "quote": "2. Vicodin PRN",
+          "file": "R041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R041-F05",
+      "patient_id": "R041",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-26",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-07-26,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-26",
+          "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-07-26,",
+          "file": "R041_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R041-F06",
+      "patient_id": "R041",
+      "type": "diagnosis",
+      "name": "fibromyalgia",
+      "name_as_written": "Fibromyalgia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-18",
+      "quote": "- Fibromyalgia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-26",
+          "quote": "PROBLEM,Fibromyalgia,,,Active,2021-01-26,",
+          "file": "R041_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-18",
+          "quote": "- Fibromyalgia",
+          "file": "R041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

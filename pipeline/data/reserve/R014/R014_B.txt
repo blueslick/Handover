@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Merrill Jones
+Hospital ID: R014
+Date of birth: 20 October 1938
+Date of visit: 8 November 2021
+
+Dear Doctor,
+
+I reviewed this 83-year-old man in the medical clinic today. His background includes hyperlipidemia. He is known to have chronic sinusitis.
+
+He has no known allergies.
+
+He continues on simvastatin 10 mg at night. His paracetamol and oxycodone was stopped on 18 August 2021.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JOHNIE TREMBLAY
+ ID      : R074
+ DOB     : 07-Jan-1963    Sex: M
+ Date    : 19-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Hyperlipidemia
+  - Prediabetes
+  - Anemia
+  - Osteoarthritis of knee
+
+[CURRENT MEDICATIONS]
+  1. Zocor 10 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

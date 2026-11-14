@@ -1,0 +1,79 @@
+{
+  "patient_id": "R010",
+  "synthea_id": "5172375b-b342-9aed-8497-6840f37b5297",
+  "sex": "M",
+  "birth_date": "1984-12-01",
+  "age_on_reference_date": 36,
+  "age_band": "20-44",
+  "first_name": "Ross",
+  "last_name": "Willms",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2003-01-25"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-03"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 10 MG Extended Release Oral Tablet [Oxycontin]",
+      "code": "1049504",
+      "start": "2021-05-08",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-05-08",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-05-08",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-05-08",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-10-07"
+    },
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2017-09-25"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+        "strength": "300 MG / 5 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2019-10-07"
+      }
+    }
+  ]
+}

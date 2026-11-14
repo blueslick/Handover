@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,ALLERGY,No known allergies,,,,,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,PROBLEM,Anemia,,,Active,1974-01-26,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,PROBLEM,Prediabetes,,,Active,1974-01-26,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,PROBLEM,Hyperlipidemia,,,Active,1989-12-02,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,PROBLEM,Osteoarthritis of knee,,,Active,1993-02-18,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-04-10,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2020-12-15,
+R035,"Homenick, Mi",1945-11-17,F,2021-08-01,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-01-04,

@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R055,"Thompson, Rodrigo",1984-12-24,M,2020-11-29,ALLERGY,No known allergies,,,,,
+R055,"Thompson, Rodrigo",1984-12-24,M,2020-11-29,PROBLEM,Hypertension,,,Active,2003-02-17,
+R055,"Thompson, Rodrigo",1984-12-24,M,2020-11-29,MEDICATION,No current medications,,,,,

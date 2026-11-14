@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R014,"Jones, Merrill",1938-10-20,M,2021-09-30,ALLERGY,No known allergies,,,,,
+R014,"Jones, Merrill",1938-10-20,M,2021-09-30,PROBLEM,Hyperlipidemia,,,Active,1984-11-08,
+R014,"Jones, Merrill",1938-10-20,M,2021-09-30,PROBLEM,Chronic sinusitis,,,Active,2014-04-08,
+R014,"Jones, Merrill",1938-10-20,M,2021-09-30,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-09-30,
+R014,"Jones, Merrill",1938-10-20,M,2021-09-30,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-08-08,

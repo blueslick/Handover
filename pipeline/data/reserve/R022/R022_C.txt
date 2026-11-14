@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : AHMED O'REILLY
+ ID      : R022
+ DOB     : 12-Jun-2013    Sex: M
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Fish (shortness of breath, vomiting)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Amoxil - stopped 15-Jan-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

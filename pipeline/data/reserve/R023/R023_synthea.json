@@ -1,0 +1,66 @@
+{
+  "patient_id": "R023",
+  "synthea_id": "67107cd9-d6ed-6020-e1c2-a16e8e613242",
+  "sex": "F",
+  "birth_date": "1938-11-17",
+  "age_on_reference_date": 83,
+  "age_band": "65+",
+  "first_name": "Sierra",
+  "last_name": "Marquardt",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1977-06-20"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1986-05-29"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "1999-01-14"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-05-27",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-05-25"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+        "strength": "300 MG / 5 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2018-05-25"
+      }
+    }
+  ]
+}

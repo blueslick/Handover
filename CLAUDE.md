@@ -81,13 +81,13 @@ The fixed lists are spelled one way only:
 
 ## Held-out patients
 
-There are 20 working patients (P001-P020), 80 held-out patients (P021-P100) and an 80-patient reserve (R001-R080) that is used only if the team decides to expand before any held-out result is seen. The ID lists are in `pipeline/data/split/` and never change after they are committed. Reserve patients count as held-out for every rule below.
+There are 20 working patients (P001-P020) and 160 held-out patients: P021-P100 plus the reserve R001-R080, which T59 added to the held-out set on 14 Nov, before any result was seen. That gives 20 held-out patients per age band x sex group. Reserve patients keep their R IDs and live in `pipeline/data/reserve/`; they count as held-out for every rule below and are scored with the held-out patients. The ID lists are in `pipeline/data/split/` and never change after they are committed.
 
 - Tune, test and debug on working patients only.
 - In a session run by Daniel, do not open, print, summarise or inspect any held-out record, answer key or output. Scripts may read and write those files, but their contents must not be shown. Daniel tunes the prompt, so he must not see them.
 - Only Abby's sessions may open held-out files, and only for the answer-key spot-check and for scoring after the freeze.
 - Do not run the tool on held-out patients before the `freeze` tag exists. The held-out run happens once (T36).
-- Never change the split or the number of patients.
+- Never change the split or the number of patients again (the T59 expansion was the one allowed change, made before any result).
 - The demo patient is separate. It is not in either list and is never scored.
 
 ## After the freeze

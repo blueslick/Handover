@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MERRILL JONES
+ ID      : R014
+ DOB     : 20-Oct-1938    Sex: M
+ Date    : 07-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hyperlipidemia
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  1. Zocor 5 mg ON
+  2. Percocet PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

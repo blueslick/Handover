@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Cesar Strosin
+Hospital ID: R080
+Date of birth: 6 October 1951
+Date of visit: 9 September 2021
+
+Dear Doctor,
+
+I reviewed this 69-year-old man in the medical clinic today. He has a history of hypertension. He is known to have coronary heart disease. He has a history of hyperlipidemia.
+
+He has no known allergies.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

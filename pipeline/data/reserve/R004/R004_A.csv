@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R004,"White, Reyes",2001-04-19,M,2021-10-29,ALLERGY,No known allergies,,,,,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,PROBLEM,Chronic sinusitis,,,Active,2018-01-30,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,PROBLEM,Hypertension,,,Active,2019-06-13,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-06-25,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-06-25,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-10-29,
+R004,"White, Reyes",2001-04-19,M,2021-10-29,MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2021-08-19,

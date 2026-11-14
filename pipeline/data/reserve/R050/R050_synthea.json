@@ -1,0 +1,186 @@
+{
+  "patient_id": "R050",
+  "synthea_id": "5052e0b3-d90b-e3cb-4e81-e3ba03482677",
+  "sex": "M",
+  "birth_date": "1962-11-28",
+  "age_on_reference_date": 58,
+  "age_band": "45-64",
+  "first_name": "Mickey",
+  "last_name": "Oberbrunner",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Lisinopril",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Sneezing",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        },
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1963-12-03",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1963-12-03",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Epilepsy",
+      "code": "84757009",
+      "start": "2015-04-12"
+    },
+    {
+      "description": "Seizure disorder",
+      "code": "128613002",
+      "start": "2015-04-12"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2021-01-13"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-01-14",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-01-14",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-01-14",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-01-14",
+      "reason": null
+    },
+    {
+      "description": "clonazePAM 0.25 MG Oral Tablet",
+      "code": "204892",
+      "start": "2016-12-22",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Diazepam 5 MG Oral Tablet",
+      "code": "197591",
+      "last_stop": "2017-12-14"
+    }
+  ],
+  "dose_changes": []
+}

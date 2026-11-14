@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DARIN WILLIAMSON
+ ID      : R062
+ DOB     : 26-Apr-2009    Sex: M
+ Date    : 11-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Grass pollen
+  - Latex (hives)
+  - Mould (skin rash)
+  - Soya (vomiting)
+  - Tree pollen
+  - Wheat
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Seasonal allergic rhinitis
+  - Childhood asthma
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

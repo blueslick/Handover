@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JAMAL SCHMITT
+ ID      : R041
+ DOB     : 22-Dec-2002    Sex: M
+ Date    : 18-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Fibromyalgia
+
+[CURRENT MEDICATIONS]
+  1. Durogesic 25 mcg as a patch changed every 72 hours
+  2. Vicodin PRN
+
+[DISCONTINUED]
+  1. Strattera - stopped 25-Dec-2016
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

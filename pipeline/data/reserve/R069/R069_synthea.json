@@ -1,0 +1,38 @@
+{
+  "patient_id": "R069",
+  "synthea_id": "fc8dfe9b-047b-4457-610f-75aff8e51692",
+  "sex": "M",
+  "birth_date": "1999-09-07",
+  "age_on_reference_date": 22,
+  "age_band": "20-44",
+  "first_name": "Colin",
+  "last_name": "Barrows",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2002-04-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2020-11-17",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-08-27"
+    }
+  ],
+  "dose_changes": []
+}

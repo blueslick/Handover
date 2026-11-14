@@ -27,7 +27,7 @@ The seed is fixed (20261114), so rerunning it gives the same lists. To check, re
 | `patients.csv` | patient_id, synthea_id, sex, age_band, split, drug_allergy |
 | `split/working_ids.txt` | 20 working patients (P001-P020) |
 | `split/heldout_ids.txt` | 80 held-out patients (P021-P100), 10 per age band x sex |
-| `split/heldout_ext_ids.txt` | 80 reserve patients (R001-R080), same rule. Used only if we decide to expand before seeing any held-out result |
+| `split/heldout_ext_ids.txt` | 80 reserve patients (R001-R080), same rule. Added to the held-out set by T59 (decided before any result was seen), so held-out is 160 patients, 20 per age band x sex |
 
 Age bands use age on 18 Nov 2021 (the last date in the sample): 0-19, 20-44, 45-64, 65+.
 In each held-out group, up to 3 patients with a drug allergy are taken first, then the rest at random. The write-up must say this.

@@ -1,0 +1,39 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JESICA SCHUMM
+ ID      : R033
+ DOB     : 14-Oct-1970    Sex: F
+ Date    : 31-Dec-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Egg
+  - Fish (shortness of breath, skin rash)
+  - Mould
+  - Shellfish (anaphylaxis, swelling (angioedema))
+  - Tree nuts (anaphylaxis, hives)
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Miscarriage in first trimester
+  - Prediabetes
+  - Anemia
+  - Polyp of colon
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Depo-Provera - stopped 03-Jan-2020
+  2. Panadol - stopped 17-Dec-2019
+  3. Zinnat - stopped 17-Dec-2019
+  4. Nexplanon - stopped 08-Jan-2019
+  5. Dermacort - stopped 16-Nov-2017
+  6. Neoral - stopped 16-Nov-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

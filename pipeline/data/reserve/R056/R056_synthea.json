@@ -1,0 +1,110 @@
+{
+  "patient_id": "R056",
+  "synthea_id": "6895f047-ab31-c293-b335-374256e01eb1",
+  "sex": "F",
+  "birth_date": "2020-02-14",
+  "age_on_reference_date": 1,
+  "age_band": "0-19",
+  "first_name": "Alicia",
+  "last_name": "Jakubowski",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "Soya bean (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2021-02-15",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2021-02-15",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Loratadine 5 MG Chewable Tablet",
+      "code": "665078",
+      "start": "2021-02-15",
+      "reason": null
+    },
+    {
+      "description": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+      "code": "1870230",
+      "start": "2021-02-15",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

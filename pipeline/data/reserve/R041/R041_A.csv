@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R041,"Schmitt, Jamal",2002-12-22,M,2021-11-13,ALLERGY,No known allergies,,,,,
+R041,"Schmitt, Jamal",2002-12-22,M,2021-11-13,PROBLEM,Fibromyalgia,,,Active,2021-01-26,
+R041,"Schmitt, Jamal",2002-12-22,M,2021-11-13,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-03-28,
+R041,"Schmitt, Jamal",2002-12-22,M,2021-11-13,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-07-26,

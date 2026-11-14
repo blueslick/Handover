@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,ALLERGY,No known allergies,,,,,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Anemia,,,Active,1999-08-30,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Diabetes,,,Active,1999-08-30,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Hyperglycemia,,,Active,2000-09-04,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Hypertriglyceridemia,,,Active,2000-09-04,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Metabolic syndrome X,,,Active,2000-09-04,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Prediabetes,,,Active,2000-09-04,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Chronic kidney disease stage 1,,,Active,2002-09-16,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Diabetic renal disease,,,Active,2002-09-16,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,PROBLEM,Hyperlipidemia,,,Active,2012-11-12,
+R042,"Koss, Abraham",1946-08-12,M,2017-05-05,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Active,2017-05-05,

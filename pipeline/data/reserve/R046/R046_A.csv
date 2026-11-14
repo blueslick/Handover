@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R046,"Kozey, Miki",1979-12-17,F,2021-11-13,ALLERGY,Cow's milk,,,Active,1981-05-17,
+R046,"Kozey, Miki",1979-12-17,F,2021-11-13,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-03-30,
+R046,"Kozey, Miki",1979-12-17,F,2021-11-13,MEDICATION,Nitrofurantoin,50 mg,four times daily,Discontinued,2018-02-25,

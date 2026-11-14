@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Eugene Heller
+Hospital ID: R028
+Date of birth: 13 December 2005
+Date of visit: 28 August 2020
+
+Dear Doctor,
+
+I reviewed this 14-year-old boy in the medical clinic today.
+
+He has no known allergies.
+
+He takes no regular medicines. His paracetamol was stopped on 1 January 2017.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

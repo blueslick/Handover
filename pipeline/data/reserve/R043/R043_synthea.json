@@ -1,0 +1,112 @@
+{
+  "patient_id": "R043",
+  "synthea_id": "55c5b8d3-99d0-58ad-8444-e42bb81bd5c7",
+  "sex": "M",
+  "birth_date": "1941-12-04",
+  "age_on_reference_date": 79,
+  "age_band": "65+",
+  "first_name": "Jospeh",
+  "last_name": "Gerhold",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1973-02-15"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1973-02-15"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1974-02-21"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1974-02-21"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1974-02-21"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "1978-03-16"
+    },
+    {
+      "description": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+      "code": "422034002",
+      "start": "1993-06-10"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "1996-06-27"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "1998-07-09"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "1998-07-09"
+    },
+    {
+      "description": "Alzheimer's disease (disorder)",
+      "code": "26929004",
+      "start": "2015-03-05"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-11-04",
+      "reason": null
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-11-04",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-11-04",
+      "reason": null
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-11-04",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-11-04",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-02-12"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,50 @@
+{
+  "patient_id": "R046",
+  "synthea_id": "0288c42c-43a1-9878-4a9d-6b96caa12c40",
+  "sex": "F",
+  "birth_date": "1979-12-17",
+  "age_on_reference_date": 41,
+  "age_band": "20-44",
+  "first_name": "Miki",
+  "last_name": "Kozey",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1981-05-17",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-03-30",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "NITROFURANTOIN  MACROCRYSTALS 50 MG Oral Capsule",
+      "code": "311995",
+      "last_stop": "2018-02-25"
+    },
+    {
+      "description": "Nitrofurantoin 5 MG/ML Oral Suspension",
+      "code": "311989",
+      "last_stop": "2018-02-18"
+    },
+    {
+      "description": "Phenazopyridine hydrochloride 100 MG Oral Tablet",
+      "code": "1094107",
+      "last_stop": "2018-02-25"
+    }
+  ],
+  "dose_changes": []
+}

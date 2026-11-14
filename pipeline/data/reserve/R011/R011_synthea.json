@@ -1,0 +1,96 @@
+{
+  "patient_id": "R011",
+  "synthea_id": "8b831e48-9db7-f037-8b8a-e94be939d2ea",
+  "sex": "F",
+  "birth_date": "1923-09-06",
+  "age_on_reference_date": 98,
+  "age_band": "65+",
+  "first_name": "Elena",
+  "last_name": "Otero",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1954-11-18"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1957-07-18"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "1965-09-16"
+    },
+    {
+      "description": "Cardiac Arrest",
+      "code": "410429000",
+      "start": "1972-12-07"
+    },
+    {
+      "description": "Osteoarthritis of hip",
+      "code": "239872002",
+      "start": "1973-07-27"
+    },
+    {
+      "description": "Malignant neoplasm of breast (disorder)",
+      "code": "254837009",
+      "start": "1990-05-21"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "2019-05-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-06-03",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-09-23",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-06-03",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-06-03",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG Oral Capsule",
+      "code": "308182",
+      "last_stop": "2019-02-17"
+    },
+    {
+      "description": "Meperidine Hydrochloride 50 MG Oral Tablet",
+      "code": "861467",
+      "last_stop": "2019-03-01"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2019-02-17"
+    }
+  ],
+  "dose_changes": []
+}

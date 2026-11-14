@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,ALLERGY,No known allergies,,,,,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,PROBLEM,Chronic sinusitis,,,Active,1973-10-17,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,PROBLEM,Hypertension,,,Active,1980-07-08,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,PROBLEM,Atrial Fibrillation,,,Active,2011-08-23,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-02-23,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,MEDICATION,Verapamil,40 mg,three times daily,Active,2021-02-23,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,MEDICATION,Warfarin,5 mg,once daily,Active,2021-02-23,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-07-15,
+R077,"Breitenberg, Barton",1962-05-15,M,2021-07-15,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-23,

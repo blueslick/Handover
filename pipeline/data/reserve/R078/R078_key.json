@@ -1,0 +1,587 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R078",
+  "run_id": null,
+  "built_from": [
+    "R078_A.csv",
+    "R078_B.txt",
+    "R078_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R078-F01",
+      "patient_id": "R078",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-10",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- NKA",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She has no known allergies.",
+          "file": "R078_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-10",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F02",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "alteplase",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-07-20",
+      "quote": "Her alteplase was stopped on 20 July 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "Her alteplase was stopped on 20 July 2021.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F03",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She is on amlodipine 2.5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "2. Norvasc 2.5 mg OD",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is on amlodipine 2.5 mg once a day.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F04",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "ciclosporin",
+      "name_as_written": "Neoral",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-01-16",
+      "quote": "2. Neoral - stopped 16-Jan-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-01-16",
+          "quote": "2. Neoral - stopped 16-Jan-2020",
+          "file": "R078_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F05",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-07-20",
+      "quote": "Her clopidogrel was stopped on 20 July 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "Her clopidogrel was stopped on 20 July 2021.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F06",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-10",
+      "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-10,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She takes hydrochlorothiazide 25 mg once a day.",
+          "file": "R078_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-10",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-10,",
+          "file": "R078_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": "daily",
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "1. Hydrodiuril 12.5 mg OD"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F07",
+      "patient_id": "R078",
+      "type": "medicine",
+      "name": "hydrocortisone",
+      "name_as_written": "Dermacort",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-01-16",
+      "quote": "1. Dermacort - stopped 16-Jan-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-01-16",
+          "quote": "1. Dermacort - stopped 16-Jan-2020",
+          "file": "R078_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F08",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She has a history of anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1978-05-23",
+          "quote": "PROBLEM,Anemia,,,Active,1978-05-23,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Anemia",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She has a history of anemia.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F09",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "atopic dermatitis",
+      "name_as_written": "atopic dermatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She has a history of atopic dermatitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1938-12-19",
+          "quote": "PROBLEM,Atopic dermatitis,,,Active,1938-12-19,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Atopic dermatitis",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She has a history of atopic dermatitis.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F10",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "Her background includes chronic intractable migraine without aura.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-04-16",
+          "quote": "PROBLEM,Chronic intractable migraine without aura,,,Active,1990-04-16,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Chronic intractable migraine without aura",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "Her background includes chronic intractable migraine without aura.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F11",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She has a history of chronic pain.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-02-01",
+          "quote": "PROBLEM,Chronic pain,,,Active,1990-02-01,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Chronic pain",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She has a history of chronic pain.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F12",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "drug overdose",
+      "name_as_written": "drug overdose",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "Her background includes drug overdose.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-05-28",
+          "quote": "PROBLEM,Drug overdose,,,Active,1999-05-28,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Drug overdose",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "Her background includes drug overdose.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F13",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "Her background includes hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-12-30",
+          "quote": "PROBLEM,Hypertension,,,Active,1952-12-30,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Hypertension",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "Her background includes hypertension.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F14",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "impacted molars",
+      "name_as_written": "impacted molars",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "Her background includes impacted molars.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-11-25",
+          "quote": "PROBLEM,Impacted molars,,,Active,1990-11-25,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Impacted molars",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "Her background includes impacted molars.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F15",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She is known to have miscarriage in first trimester.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1965-09-21",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1965-09-21,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Miscarriage in first trimester",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is known to have miscarriage in first trimester.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F16",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "She is known to have prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1977-05-17",
+          "quote": "PROBLEM,Prediabetes,,,Active,1977-05-17,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-18",
+          "quote": "- Prediabetes",
+          "file": "R078_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is known to have prediabetes.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R078-F17",
+      "patient_id": "R078",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-24",
+      "quote": "Her background includes stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-20",
+          "quote": "PROBLEM,Stroke,,,Active,2021-07-20,",
+          "file": "R078_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "Her background includes stroke.",
+          "file": "R078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

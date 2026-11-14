@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R024,"Green, Robbin",1973-02-09,F,2021-09-15,ALLERGY,No known allergies,,,,,
+R024,"Green, Robbin",1973-02-09,F,2021-09-15,PROBLEM,Malignant neoplasm of breast,,,Active,1982-05-24,
+R024,"Green, Robbin",1973-02-09,F,2021-09-15,PROBLEM,Anemia,,,Active,2015-02-20,
+R024,"Green, Robbin",1973-02-09,F,2021-09-15,PROBLEM,Prediabetes,,,Active,2015-02-20,
+R024,"Green, Robbin",1973-02-09,F,2021-09-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Active,2021-01-15,

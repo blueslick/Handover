@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : TIANA FAY
+ ID      : R027
+ DOB     : 22-Jun-1970    Sex: F
+ Date    : 18-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Disprin (abdominal pain)
+  - Bee venom
+  - Grass pollen
+  - House dust mite
+  - Mould (runny nose)
+  - Peanut (hives, swelling (angioedema))
+  - Tree pollen
+  - Omnicef (anaphylaxis)
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

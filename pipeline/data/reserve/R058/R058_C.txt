@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : XIOMARA SPORER
+ ID      : R058
+ DOB     : 20-Oct-1956    Sex: F
+ Date    : 03-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Prediabetes
+  - Anemia
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Zocor 10 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

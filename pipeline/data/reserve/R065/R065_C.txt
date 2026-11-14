@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : VICTORIA ALVA
+ ID      : R065
+ DOB     : 01-Nov-1987    Sex: F
+ Date    : 15-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hives)
+  - Disprin
+  - Egg (hives)
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Hypertension
+  - Anemia
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  1. Durogesic 25 mcg as a patch changed every 72 hours
+  2. Vicodin PRN
+  3. Camila 0.35 mg OD
+  4. Hydrodiuril 25 mg OD
+  5. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

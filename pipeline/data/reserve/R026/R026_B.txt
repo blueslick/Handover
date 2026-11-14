@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Esteban Moore
+Hospital ID: R026
+Date of birth: 18 July 1946
+Date of visit: 24 April 2019
+
+Dear Doctor,
+
+I reviewed this 72-year-old man in the medical clinic today. He has a history of osteoarthritis of knee. He is known to have prediabetes. He is known to have anemia.
+
+He has no known allergies.
+
+He continues on paracetamol 325 mg when needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

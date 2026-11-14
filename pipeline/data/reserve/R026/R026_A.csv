@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,ALLERGY,No known allergies,,,,,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,PROBLEM,Osteoarthritis of knee,,,Active,1979-04-08,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,PROBLEM,Prediabetes,,,Active,1996-07-18,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,PROBLEM,Anemia,,,Active,1998-07-30,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,PROBLEM,Coronary Heart Disease,,,Active,2020-12-03,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,MEDICATION,Amlodipine,5 mg,once daily,Active,2020-12-04,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2020-12-04,
+R026,"Moore, Esteban",1946-07-18,M,2021-11-13,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2020-12-04,

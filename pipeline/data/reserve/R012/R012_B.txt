@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Cletus Bartell
+Hospital ID: R012
+Date of birth: 8 March 1970
+Date of visit: 5 September 2021
+
+Dear Doctor,
+
+I reviewed this 51-year-old man in the medical clinic today. He is known to have anemia. He has a history of prediabetes. He is known to have sepsis. His background includes cardiac arrest.
+
+He has no known allergies.
+
+He takes paracetamol 325 mg when needed. He continues on tramadol 50 mg when needed. His paracetamol and dextromethorphan and doxylamine was stopped on 25 September 2020.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

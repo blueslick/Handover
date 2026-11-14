@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R007,"Bernier, Dewitt",1953-09-21,M,2021-07-03,ALLERGY,No known allergies,,,,,
+R007,"Bernier, Dewitt",1953-09-21,M,2021-07-03,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2020-12-29,
+R007,"Bernier, Dewitt",1953-09-21,M,2021-07-03,MEDICATION,Paracetamol,325 mg,as needed,Active,2020-12-29,
+R007,"Bernier, Dewitt",1953-09-21,M,2021-07-03,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2020-12-29,
+R007,"Bernier, Dewitt",1953-09-21,M,2021-07-03,MEDICATION,Tramadol,50 mg,as needed,Active,2020-12-29,

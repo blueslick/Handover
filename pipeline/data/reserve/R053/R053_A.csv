@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,ALLERGY,No known allergies,,,,,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,PROBLEM,Miscarriage in first trimester,,,Active,1936-11-02,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,PROBLEM,Tubal pregnancy,,,Active,1937-08-23,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,PROBLEM,Prediabetes,,,Active,1940-12-16,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,PROBLEM,Chronic sinusitis,,,Active,1947-06-11,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,PROBLEM,Osteoporosis,,,Active,2003-05-26,
+R053,"Wintheiser, Otha",1912-10-07,F,2021-05-24,MEDICATION,No current medications,,,,,

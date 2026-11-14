@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SEBASTIAN ZULAUF
+ ID      : R061
+ DOB     : 09-Sep-1996    Sex: M
+ Date    : 10-Oct-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, shortness of breath)
+  - Disprin
+  - Fish (vomiting, hay fever symptoms)
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Peanut (hives, swelling (angioedema))
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

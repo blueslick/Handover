@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : IRENE BÉTANCOURT
+ ID      : R020
+ DOB     : 11-Jan-1984    Sex: F
+ Date    : 23-Mar-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Augmentin TDS
+
+[DISCONTINUED]
+  1. Panadol - stopped 17-Sep-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

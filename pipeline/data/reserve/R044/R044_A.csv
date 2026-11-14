@@ -1,0 +1,16 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Animal dander,,,Active,1968-07-29,hay fever symptoms; skin rash
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Bee venom,,,Active,1968-07-29,skin rash
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Cow's milk,,,Active,1968-07-29,vomiting; hives
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Grass pollen,,,Active,1968-07-29,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,House dust mite,,,Active,1968-07-29,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Mould,,,Active,1968-07-29,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Tree nuts,,,Active,1968-07-29,anaphylaxis; cough
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Tree pollen,,,Active,1968-07-29,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,ALLERGY,Wheat,,,Active,1968-07-29,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,PROBLEM,Coronary Heart Disease,,,Active,2004-11-25,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-02-25,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-02-25,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-02-25,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-02-25,
+R044,"Hilll, Marisol",1967-06-15,F,2021-11-13,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-02-25,

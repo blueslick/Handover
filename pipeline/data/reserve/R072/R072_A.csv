@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,ALLERGY,No known allergies,,,,,
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,PROBLEM,Recurrent urinary tract infection,,,Active,1990-08-25,
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,PROBLEM,Hypoxemia,,,Active,2021-01-14,
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,MEDICATION,Enoxaparin,40 mg,once daily,Active,2021-01-14,
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,MEDICATION,Enoxaparin,75 mg,once daily,Active,2021-10-05,
+R072,"Hyatt, Katlyn",1965-11-08,F,2021-10-05,MEDICATION,Paracetamol,500 mg,as needed,Active,2021-01-14,

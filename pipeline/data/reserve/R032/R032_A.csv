@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,ALLERGY,No known allergies,,,,,
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,PROBLEM,Hypertension,,,Active,2019-11-15,
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2020-11-20,
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,MEDICATION,Lisinopril,5 mg,once daily,Active,2021-04-30,
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2020-09-10,
+R032,"Brown, Pauletta",2001-09-21,F,2021-04-30,MEDICATION,Etonogestrel / ethinyl estradiol,,one ring for 3 weeks then 1 week off,Discontinued,2019-09-16,

@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ELENI HILPERT
+ ID      : R054
+ DOB     : 28-Oct-1990    Sex: F
+ Date    : 18-Jan-2021
+========================================================
+
+[ALLERGIES]
+  - Penicillin (skin rash, swelling (angioedema))
+  - Shellfish (nausea, cough)
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

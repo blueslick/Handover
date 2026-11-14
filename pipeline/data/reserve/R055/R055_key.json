@@ -1,0 +1,173 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R055",
+  "run_id": null,
+  "built_from": [
+    "R055_A.csv",
+    "R055_B.txt",
+    "R055_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R055-F01",
+      "patient_id": "R055",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-29",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R055_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "He has no known allergies.",
+          "file": "R055_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- NKA",
+          "file": "R055_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R055-F02",
+      "patient_id": "R055",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "1. Nurofen 400 mg TDS",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "1. Nurofen 400 mg TDS",
+          "file": "R055_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "200 mg",
+          "frequency": "three_times_daily",
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "He is on ibuprofen 200 mg three times a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R055-F03",
+      "patient_id": "R055",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-20",
+      "quote": "He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "He continues on lisinopril 10 mg once a day.",
+          "file": "R055_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R055-F04",
+      "patient_id": "R055",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2020-11-29",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-29",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R055_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R055-F05",
+      "patient_id": "R055",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-02-17",
+          "quote": "PROBLEM,Hypertension,,,Active,2003-02-17,",
+          "file": "R055_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-20",
+          "quote": "He has a history of hypertension.",
+          "file": "R055_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Hypertension",
+          "file": "R055_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ULRIKE BAUCH
+ ID      : R002
+ DOB     : 07-Jun-1978    Sex: F
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Depo-Provera 150 mg every 3 months
+  2. Feosol 325 mg OD
+  3. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Nexplanon - stopped 16-Oct-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

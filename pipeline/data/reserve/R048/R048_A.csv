@@ -1,0 +1,16 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,ALLERGY,Aspirin,,,Active,1980-08-15,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,ALLERGY,Shellfish,,,Active,1980-08-15,swelling (angioedema); nausea
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Diabetes,,,Active,2007-12-05,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Hypertension,,,Active,2007-12-05,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Anemia,,,Active,2008-12-10,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Hyperglycemia,,,Active,2008-12-10,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Hypertriglyceridemia,,,Active,2008-12-10,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Metabolic syndrome X,,,Active,2008-12-10,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Prediabetes,,,Active,2008-12-10,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,2009-12-16,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,PROBLEM,Chronic obstructive bronchitis,,,Active,2020-02-12,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,MEDICATION,Metformin,500 mg,once daily,Active,2021-07-28,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-07-28,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-07-28,
+R048,"Conn, Quincy",1979-09-26,M,2021-09-29,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-07-28,

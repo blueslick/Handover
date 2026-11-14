@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ALICIA JAKUBOWSKI
+ ID      : R056
+ DOB     : 14-Feb-2020    Sex: F
+ Date    : 18-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Fish (shortness of breath, vomiting)
+  - Grass pollen
+  - House dust mite
+  - Mould (skin rash)
+  - Soya (vomiting)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Clarityne 2.5 mg OD
+  2. EpiPen 0.3 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

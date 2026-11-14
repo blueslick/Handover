@@ -1,0 +1,32 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : KORI GLEICHNER
+ ID      : R066
+ DOB     : 08-May-2011    Sex: F
+ Date    : 01-Jan-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Disprin
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Zestril
+  - Mould (skin rash)
+  - Penicillin (hives)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Childhood asthma
+  - Perennial allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,186 @@
+{
+  "patient_id": "R003",
+  "synthea_id": "a3ccbf19-ad9a-7ae1-b926-ba3b0543fe1b",
+  "sex": "M",
+  "birth_date": "1951-09-18",
+  "age_on_reference_date": 70,
+  "age_band": "65+",
+  "first_name": "Jesse",
+  "last_name": "Senger",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1969-11-11"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1985-02-05"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1986-02-11"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "1986-02-11"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1986-02-11"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1986-02-11"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1986-02-11"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "1987-02-17"
+    },
+    {
+      "description": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+      "code": "422034002",
+      "start": "2001-05-08"
+    },
+    {
+      "description": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)",
+      "code": "1551000119108",
+      "start": "2001-05-08"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "2002-04-30"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "2002-04-30"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2003-01-13"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2009-01-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "12 HR Hydrocodone Bitartrate 10 MG Extended Release Oral Capsule",
+      "code": "1860491",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-09-21",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+      "code": "245134",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-09-21",
+      "reason": null
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-09-21",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-09-21",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "tramadol hydrochloride 50 MG Oral Tablet",
+      "code": "835603",
+      "start": "2021-09-21",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-11-21"
+    },
+    {
+      "description": "Cefuroxime 250 MG Oral Tablet",
+      "code": "309097",
+      "last_stop": "2020-11-21"
+    },
+    {
+      "description": "Meperidine Hydrochloride 50 MG Oral Tablet",
+      "code": "861467",
+      "last_stop": "2020-12-30"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+        "strength": "325 MG / 10 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2020-11-21"
+      }
+    }
+  ]
+}

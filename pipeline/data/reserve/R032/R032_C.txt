@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : PAULETTA BROWN
+ ID      : R032
+ DOB     : 21-Sep-2001    Sex: F
+ Date    : 05-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Evra once weekly
+  2. Hydrodiuril 25 mg OD
+  3. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,102 @@
+{
+  "patient_id": "R002",
+  "synthea_id": "85b3245b-919c-7552-8ab3-8fa82a35b178",
+  "sex": "F",
+  "birth_date": "1978-06-07",
+  "age_on_reference_date": 43,
+  "age_band": "20-44",
+  "first_name": "Ulrike",
+  "last_name": "Bauch",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Soya bean (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Diarrhea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1979-02-17",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1996-07-31"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+      "code": "1000126",
+      "start": "2021-10-16",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2020-12-17",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "ferrous sulfate 325 MG Oral Tablet",
+      "code": "310325",
+      "start": "2017-02-03",
+      "reason": null
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2020-12-17",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+      "code": "1534809",
+      "last_stop": "2017-09-16"
+    },
+    {
+      "description": "Etonogestrel 68 MG Drug Implant",
+      "code": "389221",
+      "last_stop": "2021-10-16"
+    },
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2020-03-27"
+    },
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "last_stop": "2018-10-28"
+    },
+    {
+      "description": "Kyleena 19.5 MG Intrauterine System",
+      "code": "1856546",
+      "last_stop": "2020-10-21"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "",
+      "current": {
+        "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+        "strength": "1 ML / 150 MG/ML"
+      },
+      "stopped": {
+        "description": "168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System",
+        "strength": "168 HR / 0.00146 MG/HR / 0.00625 MG/HR",
+        "last_stop": "2017-09-16"
+      }
+    }
+  ]
+}

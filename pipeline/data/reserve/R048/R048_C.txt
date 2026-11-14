@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : QUINCY CONN
+ ID      : R048
+ DOB     : 26-Sep-1979    Sex: M
+ Date    : 07-Mar-2018
+========================================================
+
+[ALLERGIES]
+  - Disprin
+  - Shellfish (swelling (angioedema), nausea)
+
+[PROBLEM LIST]
+  - Diabetes
+  - Hypertension
+  - Anemia
+  - Hyperglycemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Prediabetes
+  - Neuropathy due to type 2 diabetes mellitus
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

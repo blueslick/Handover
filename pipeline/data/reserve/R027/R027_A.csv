@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Animal dander,,,Active,1971-02-03,cough; hay fever symptoms
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Bee venom,,,Active,1971-02-03,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Grass pollen,,,Active,1971-02-03,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,House dust mite,,,Active,1971-02-03,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Mould,,,Active,1971-02-03,runny nose
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Peanut,,,Active,1971-02-03,hives; swelling (angioedema)
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Tree pollen,,,Active,1971-02-03,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,ALLERGY,Cefdinir,,,Active,1971-02-03,anaphylaxis
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,PROBLEM,Hypertension,,,Active,1988-08-15,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-02-15,
+R027,"Fay, Tiana",1970-06-22,F,2021-03-15,MEDICATION,Lisinopril,5 mg,once daily,Active,2021-03-15,

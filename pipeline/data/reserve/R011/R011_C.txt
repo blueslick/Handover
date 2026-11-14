@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ELENA OTERO
+ ID      : R011
+ DOB     : 06-Sep-1923    Sex: F
+ Date    : 16-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Hyperlipidemia
+  - Cardiac Arrest
+  - Osteoarthritis of hip
+  - Malignant neoplasm of breast
+  - Atrial Fibrillation
+
+[CURRENT MEDICATIONS]
+  1. Lanoxin 0.25 mg OD
+  2. Isoptin 40 mg TDS
+  3. Coumadin 5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

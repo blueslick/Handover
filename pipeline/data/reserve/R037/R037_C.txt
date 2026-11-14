@@ -1,0 +1,37 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SANTINA KUB
+ ID      : R037
+ DOB     : 09-Sep-1934    Sex: F
+ Date    : 22-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Malignant neoplasm of breast
+  - Alzheimer's disease
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 2.5 mg OD
+  2. Plavix 75 mg OD
+  3. Hydrodiuril 25 mg OD
+  4. Nitrolingual 0.4 mg PRN
+  5. Zocor 20 mg ON
+  6. Norvasc 2.5 mg OD
+  7. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Aleve - stopped 16-Jun-2020
+  2. Amoxil - stopped 16-Jun-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

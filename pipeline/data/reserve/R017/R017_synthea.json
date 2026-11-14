@@ -1,0 +1,84 @@
+{
+  "patient_id": "R017",
+  "synthea_id": "ce0cf6c2-6420-9443-5fcf-d60b8398048e",
+  "sex": "F",
+  "birth_date": "2010-09-09",
+  "age_on_reference_date": 11,
+  "age_band": "0-19",
+  "first_name": "Sunshine",
+  "last_name": "Friesen",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2011-11-19",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-11-19",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-11-19",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-11-19",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2011-11-19",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "2014-02-07"
+    },
+    {
+      "description": "Seasonal allergic rhinitis",
+      "code": "367498001",
+      "start": "2015-03-06"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

@@ -1,0 +1,243 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R032",
+  "run_id": null,
+  "built_from": [
+    "R032_A.csv",
+    "R032_B.txt",
+    "R032_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R032-F01",
+      "patient_id": "R032",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She has no known allergies.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-30",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R032_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-05",
+          "quote": "- NKA",
+          "file": "R032_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She has no known allergies.",
+          "file": "R032_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F02",
+      "patient_id": "R032",
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Estradiol valerate / dienogest",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-09-10",
+      "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2020-09-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-09-10",
+          "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2020-09-10,",
+          "file": "R032_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F03",
+      "patient_id": "R032",
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "Etonogestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "other",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-09-16",
+      "quote": "MEDICATION,Etonogestrel / ethinyl estradiol,,one ring for 3 weeks then 1 week off,Discontinued,2019-09-16,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-09-16",
+          "quote": "MEDICATION,Etonogestrel / ethinyl estradiol,,one ring for 3 weeks then 1 week off,Discontinued,2019-09-16,",
+          "file": "R032_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F04",
+      "patient_id": "R032",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-20",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2020-11-20,",
+          "file": "R032_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-05",
+          "quote": "2. Hydrodiuril 25 mg OD",
+          "file": "R032_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is on hydrochlorothiazide 25 mg once a day.",
+          "file": "R032_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F05",
+      "patient_id": "R032",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-09-05",
+          "quote": "3. Zestril 10 mg OD",
+          "file": "R032_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is on lisinopril 10 mg once a day.",
+          "file": "R032_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-04-30",
+          "quote": "MEDICATION,Lisinopril,5 mg,once daily,Active,2021-04-30,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F06",
+      "patient_id": "R032",
+      "type": "medicine",
+      "name": "norelgestromin / ethinyl estradiol",
+      "name_as_written": "Evra",
+      "dose": null,
+      "frequency": "weekly",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-05",
+      "quote": "1. Evra once weekly",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-09-05",
+          "quote": "1. Evra once weekly",
+          "file": "R032_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R032-F07",
+      "patient_id": "R032",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-11-15",
+          "quote": "PROBLEM,Hypertension,,,Active,2019-11-15,",
+          "file": "R032_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-05",
+          "quote": "- Hypertension",
+          "file": "R032_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is known to have hypertension.",
+          "file": "R032_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

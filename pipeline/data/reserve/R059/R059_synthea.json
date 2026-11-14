@@ -1,0 +1,182 @@
+{
+  "patient_id": "R059",
+  "synthea_id": "3beee40e-512b-420f-38a3-28e56cddbc9b",
+  "sex": "M",
+  "birth_date": "1952-07-28",
+  "age_on_reference_date": 69,
+  "age_band": "65+",
+  "first_name": "Lou",
+  "last_name": "Crooks",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheezing",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1953-07-05",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1953-07-05",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "1955-05-19"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1989-10-16"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1992-08-03"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1992-08-03"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1993-08-09"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1993-08-09"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1993-08-09"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "1994-08-15"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "2005-05-16"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-06-21",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-06-21",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-06-21",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "doxycycline hyclate 100 MG",
+      "code": "1649987",
+      "start": "2021-06-18",
+      "reason": "Viral sinusitis (disorder)"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-07-02"
+    }
+  ],
+  "dose_changes": []
+}

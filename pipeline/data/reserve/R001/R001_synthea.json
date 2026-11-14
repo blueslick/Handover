@@ -1,0 +1,45 @@
+{
+  "patient_id": "R001",
+  "synthea_id": "ebe6f5b1-c05d-6043-33d1-83ef3dc4da13",
+  "sex": "M",
+  "birth_date": "1996-12-24",
+  "age_on_reference_date": 24,
+  "age_band": "20-44",
+  "first_name": "Arron",
+  "last_name": "Labadie",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1997-12-27",
+      "active": true
+    },
+    {
+      "name": "Wheat (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1997-12-27",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2019-02-26"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R025,"Trantow, German",1961-08-10,M,2021-04-27,ALLERGY,No known allergies,,,,,
+R025,"Trantow, German",1961-08-10,M,2021-04-27,PROBLEM,Hypertension,,,Active,1979-10-04,
+R025,"Trantow, German",1961-08-10,M,2021-04-27,PROBLEM,Hyperlipidemia,,,Active,2011-03-31,
+R025,"Trantow, German",1961-08-10,M,2021-04-27,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-04-18,
+R025,"Trantow, German",1961-08-10,M,2021-04-27,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-04-27,
+R025,"Trantow, German",1961-08-10,M,2021-04-27,MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2019-09-21,

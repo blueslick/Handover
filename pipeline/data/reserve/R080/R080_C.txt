@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CESAR STROSIN
+ ID      : R080
+ DOB     : 06-Oct-1951    Sex: M
+ Date    : 01-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Coronary Heart Disease
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 5 mg OD
+  2. Plavix 75 mg OD
+  3. Hydrodiuril 25 mg OD
+  4. Nitrolingual 0.4 mg PRN
+  5. Zocor 10 mg ON
+  6. Zocor 20 mg ON
+  7. Norvasc 2.5 mg OD
+  8. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Animal dander,,,Active,2015-01-20,skin rash
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Grass pollen,,,Active,2015-01-20,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,House dust mite,,,Active,2015-01-20,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Mould,,,Active,2015-01-20,skin rash
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Soya,,,Active,2015-01-20,vomiting; diarrhoea
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Tree nuts,,,Active,2015-01-20,cough; hives
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Tree pollen,,,Active,2015-01-20,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,ALLERGY,Wheat,,,Active,2015-01-20,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,PROBLEM,Seasonal allergic rhinitis,,,Active,2018-09-12,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,MEDICATION,No current medications,,,,,
+R008,"Gottlieb, Elwood",2014-03-07,M,2021-09-04,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2018-04-30,

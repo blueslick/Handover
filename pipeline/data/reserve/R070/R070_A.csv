@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R070,"Skiles, Chanell",2016-05-07,F,2021-07-23,ALLERGY,No known allergies,,,,,
+R070,"Skiles, Chanell",2016-05-07,F,2021-07-23,PROBLEM,Childhood asthma,,,Active,2019-03-13,
+R070,"Skiles, Chanell",2016-05-07,F,2021-07-23,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-17,
+R070,"Skiles, Chanell",2016-05-07,F,2021-07-23,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-17,
+R070,"Skiles, Chanell",2016-05-07,F,2021-07-23,MEDICATION,Ibuprofen,100 mg,as needed,Discontinued,2018-04-23,

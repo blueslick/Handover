@@ -1,0 +1,32 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JOSPEH GERHOLD
+ ID      : R043
+ DOB     : 04-Dec-1941    Sex: M
+ Date    : 03-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Diabetes
+  - Hypertension
+  - Anemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Neuropathy due to type 2 diabetes mellitus
+  - Diabetic retinopathy associated with type II diabetes mellitus
+  - Atrial Fibrillation
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Alzheimer's disease
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

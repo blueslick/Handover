@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Animal dander,,,Active,2008-11-21,cough; hay fever symptoms
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Fish,,,Active,2008-11-21,shortness of breath; hay fever symptoms
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Grass pollen,,,Active,2008-11-21,
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,House dust mite,,,Active,2008-11-21,
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Mould,,,Active,2008-11-21,wheezing; runny nose
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Shellfish,,,Active,2008-11-21,swelling (angioedema); nausea
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,ALLERGY,Tree nuts,,,Active,2008-11-21,anaphylaxis; cough
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,PROBLEM,Chronic sinusitis,,,Active,2010-02-12,
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,PROBLEM,Perennial allergic rhinitis,,,Active,2010-05-29,
+R040,"Watsica, Denny",2007-06-22,M,2021-11-07,MEDICATION,No current medications,,,,,

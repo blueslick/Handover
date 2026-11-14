@@ -1,0 +1,25 @@
+{
+  "patient_id": "R064",
+  "synthea_id": "2c622c62-af49-25e3-4f67-3ab19a455bb2",
+  "sex": "M",
+  "birth_date": "1989-03-17",
+  "age_on_reference_date": 32,
+  "age_band": "20-44",
+  "first_name": "Isaac",
+  "last_name": "Marks",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Seizure disorder",
+      "code": "128613002",
+      "start": "1989-12-25"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

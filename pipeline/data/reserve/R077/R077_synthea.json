@@ -1,0 +1,66 @@
+{
+  "patient_id": "R077",
+  "synthea_id": "e51b6686-8e11-03a1-9699-ae0ecfde0bb6",
+  "sex": "M",
+  "birth_date": "1962-05-15",
+  "age_on_reference_date": 59,
+  "age_band": "45-64",
+  "first_name": "Barton",
+  "last_name": "Breitenberg",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1973-10-17"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1980-07-08"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "2011-08-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-02-23",
+      "reason": null
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-02-23",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-02-23",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-02-23",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-02-23",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

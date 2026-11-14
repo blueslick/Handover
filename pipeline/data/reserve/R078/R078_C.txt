@@ -1,0 +1,35 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MAXIMINA LEHNER
+ ID      : R078
+ DOB     : 06-Nov-1934    Sex: F
+ Date    : 18-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Hypertension
+  - Miscarriage in first trimester
+  - Prediabetes
+  - Anemia
+  - Chronic pain
+  - Chronic intractable migraine without aura
+  - Impacted molars
+  - Drug overdose
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 12.5 mg OD
+  2. Norvasc 2.5 mg OD
+
+[DISCONTINUED]
+  1. Dermacort - stopped 16-Jan-2020
+  2. Neoral - stopped 16-Jan-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

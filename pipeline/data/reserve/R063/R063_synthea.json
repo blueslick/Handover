@@ -1,0 +1,42 @@
+{
+  "patient_id": "R063",
+  "synthea_id": "752a3c69-44d7-d6af-0340-7d3e748f6060",
+  "sex": "F",
+  "birth_date": "2000-08-10",
+  "age_on_reference_date": 21,
+  "age_band": "20-44",
+  "first_name": "Oralia",
+  "last_name": "Williamson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "start": "2021-07-04",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2020-12-21"
+    },
+    {
+      "description": "Natazia 28 Day Pack",
+      "code": "978950",
+      "last_stop": "2020-07-09"
+    },
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "last_stop": "2021-07-04"
+    }
+  ],
+  "dose_changes": []
+}

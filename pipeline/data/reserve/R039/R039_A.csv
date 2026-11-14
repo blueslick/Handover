@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R039,"Kozey, Emilie",2013-09-16,F,2021-02-25,ALLERGY,Mould,,,Active,2015-01-11,
+R039,"Kozey, Emilie",2013-09-16,F,2021-02-25,ALLERGY,Wheat,,,Active,2015-01-11,
+R039,"Kozey, Emilie",2013-09-16,F,2021-02-25,MEDICATION,Penicillin v,250 mg,four times daily,Active,2021-02-25,

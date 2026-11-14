@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : YELENA KOZEY
+ ID      : R045
+ DOB     : 10-Jan-2005    Sex: F
+ Date    : 05-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Nexplanon 68 mg implant under the skin (lasts 3 years)
+
+[DISCONTINUED]
+  1. Levora - stopped 31-Dec-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DANETTE STEHR
+ ID      : R067
+ DOB     : 28-Aug-1977    Sex: F
+ Date    : 29-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Egg
+  - Grass pollen
+  - House dust mite
+  - Mould (skin rash)
+  - Soya
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Chronic intractable migraine without aura
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Norvasc 2.5 mg OD
+  3. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

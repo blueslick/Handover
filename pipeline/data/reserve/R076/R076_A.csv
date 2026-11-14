@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R076,"Ratke, Levi",1964-08-20,M,2021-08-12,ALLERGY,No known allergies,,,,,
+R076,"Ratke, Levi",1964-08-20,M,2021-08-12,PROBLEM,Hyperlipidemia,,,Active,2012-09-13,
+R076,"Ratke, Levi",1964-08-20,M,2021-08-12,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-03-25,
+R076,"Ratke, Levi",1964-08-20,M,2021-08-12,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2017-03-23,

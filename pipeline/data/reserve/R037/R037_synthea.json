@@ -1,0 +1,104 @@
+{
+  "patient_id": "R037",
+  "synthea_id": "9cbf47d8-b59a-ef34-c330-77accc084c17",
+  "sex": "F",
+  "birth_date": "1934-09-09",
+  "age_on_reference_date": 87,
+  "age_band": "65+",
+  "first_name": "Santina",
+  "last_name": "Kub",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1953-11-08"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1961-12-24"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1973-09-09"
+    },
+    {
+      "description": "Malignant neoplasm of breast (disorder)",
+      "code": "254837009",
+      "start": "1997-11-25"
+    },
+    {
+      "description": "Alzheimer's disease (disorder)",
+      "code": "26929004",
+      "start": "2013-10-13"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2020-07-26"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2020-11-22",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2020-11-22",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2020-11-22",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2020-11-22",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2020-11-22",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2020-11-22",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2020-11-22",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG Oral Capsule",
+      "code": "308182",
+      "last_stop": "2020-06-16"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2020-06-16"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,15 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,Animal dander,,,Active,1960-05-21,hay fever symptoms; hives
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,Aspirin,,,Active,1960-05-21,abdominal pain
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,Cow's milk,,,Active,1960-05-21,diarrhoea
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,House dust mite,,,Active,1960-05-21,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,Mould,,,Active,1960-05-21,runny nose
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,ALLERGY,Tree pollen,,,Active,1960-05-21,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,PROBLEM,Miscarriage in first trimester,,,Active,1985-05-27,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,PROBLEM,Tubal pregnancy,,,Active,1990-01-15,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,PROBLEM,Hyperlipidemia,,,Active,2017-08-07,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,PROBLEM,Osteoarthritis of knee,,,Active,2020-03-20,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-08-30,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-08-30,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,MEDICATION,Naproxen,220 mg,twice daily,Active,2020-03-20,
+R016,"Runolfsson, Esther",1959-11-02,F,2021-09-08,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-08-27,

@@ -123,7 +123,7 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     record_path = args.record if args.record.is_absolute() else (Path.cwd() / args.record)
-    if "heldout" in record_path.resolve().parts:
+    if {"heldout", "reserve"} & set(record_path.resolve().parts):
         print("STOP: this test must not send a held-out record. Use the demo or a working record.")
         return 2
     if not record_path.exists():

@@ -479,7 +479,9 @@ def check_tables():
     # Every medicine and allergy in every trimmed patient must be in the tables.
     # Only counts are printed, so nothing from a held-out patient is shown.
     missing_medicines = missing_allergies = patients = 0
-    for path in sorted(DATA_DIR.glob("*/P*/P*_synthea.json")) + sorted(DATA_DIR.glob("demo/*/*_synthea.json")):
+    paths = (sorted(DATA_DIR.glob("*/P*/P*_synthea.json")) + sorted(DATA_DIR.glob("reserve/R*/R*_synthea.json"))
+             + sorted(DATA_DIR.glob("demo/*/*_synthea.json")))
+    for path in paths:
         trimmed = json.loads(path.read_text(encoding="utf-8"))
         patients += 1
         for m in trimmed["current_medicines"] + trimmed["stopped_medicines"]:

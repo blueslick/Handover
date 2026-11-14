@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : RACHELL LESCH
+ ID      : R068
+ DOB     : 19-Apr-2006    Sex: F
+ Date    : 28-Apr-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Egg
+  - House dust mite
+  - Latex (hives)
+  - Mould (skin rash)
+  - Tree nuts (hives, shortness of breath)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Childhood asthma
+  - Perennial allergic rhinitis with seasonal variation
+
+[CURRENT MEDICATIONS]
+  1. Trinessa OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

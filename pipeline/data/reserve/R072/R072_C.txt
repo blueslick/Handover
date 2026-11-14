@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : KATLYN HYATT
+ ID      : R072
+ DOB     : 08-Nov-1965    Sex: F
+ Date    : 08-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Recurrent urinary tract infection
+  - Hypoxemia
+
+[CURRENT MEDICATIONS]
+  1. Clexane 40 mg OD
+  2. Clexane 150 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

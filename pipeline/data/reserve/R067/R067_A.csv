@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Animal dander,,,Active,1979-02-12,cough; hay fever symptoms
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Aspirin,,,Active,1979-02-12,abdominal pain
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Egg,,,Active,1979-02-12,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Grass pollen,,,Active,1979-02-12,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,House dust mite,,,Active,1979-02-12,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Mould,,,Active,1979-02-12,skin rash
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Soya,,,Active,1979-02-12,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,ALLERGY,Tree pollen,,,Active,1979-02-12,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,PROBLEM,Chronic intractable migraine without aura,,,Active,1992-11-24,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,PROBLEM,Hypertension,,,Active,1995-10-29,
+R067,"Stehr, Danette",1977-08-28,F,2020-08-11,MEDICATION,No current medications,,,,,

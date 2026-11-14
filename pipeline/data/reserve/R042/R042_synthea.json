@@ -1,0 +1,110 @@
+{
+  "patient_id": "R042",
+  "synthea_id": "06629c1a-687d-5121-1e28-ae123c1fe647",
+  "sex": "M",
+  "birth_date": "1946-08-12",
+  "age_on_reference_date": 75,
+  "age_band": "65+",
+  "first_name": "Abraham",
+  "last_name": "Koss",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1999-08-30"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1999-08-30"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "2000-09-04"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2000-09-04"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "2000-09-04"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2000-09-04"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "2002-09-16"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "2002-09-16"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2012-11-12"
+    },
+    {
+      "description": "Non-small cell lung cancer (disorder)",
+      "code": "254637007",
+      "start": "2019-03-16"
+    },
+    {
+      "description": "Non-small cell carcinoma of lung  TNM stage 1 (disorder)",
+      "code": "424132000",
+      "start": "2019-03-18"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-06-07",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2020-12-01",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-06-07",
+      "reason": "Diabetes"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2017-05-11"
+    },
+    {
+      "description": "Cisplatin 50 MG Injection",
+      "code": "1736854",
+      "last_stop": "2021-10-29"
+    },
+    {
+      "description": "PACLitaxel 100 MG Injection",
+      "code": "583214",
+      "last_stop": "2021-10-29"
+    }
+  ],
+  "dose_changes": []
+}

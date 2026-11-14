@@ -2,19 +2,20 @@
 
 Reads the raw Synthea CSVs in pipeline/data/synthea_raw/csv/ (git-ignored, see
 pipeline/data/README.md) and the split in pipeline/data/patients.csv. Writes one JSON
-file per working and held-out patient, for example:
+file per working, held-out and reserve patient, for example:
 
     pipeline/data/working/P001/P001_synthea.json
     pipeline/data/heldout/P021/P021_synthea.json
+    pipeline/data/reserve/R001/R001_synthea.json
 
-Reserve patients (R001-R080) are skipped for now.
+Reserve patients (R001-R080) were added to the held-out set by T59 and are trimmed too.
 
 Run from the repo root:
 
-    python pipeline/data/trim_patients.py           # all 100 patients
+    python pipeline/data/trim_patients.py           # all 180 patients
     python pipeline/data/trim_patients.py --test    # only P001 and P002 (working)
 
-For held-out patients only totals are printed. Their contents are never printed.
+For held-out and reserve patients only totals are printed. Their contents are never printed.
 """
 
 import argparse
@@ -29,7 +30,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent
 RAW_CSV_DIR = DATA_DIR / "synthea_raw" / "csv"
 SPLIT_FILE = DATA_DIR / "patients.csv"
-OUT_DIRS = {"working": DATA_DIR / "working", "heldout": DATA_DIR / "heldout"}
+OUT_DIRS = {"working": DATA_DIR / "working", "heldout": DATA_DIR / "heldout", "reserve": DATA_DIR / "reserve"}
 TEST_PATIENTS = ("P001", "P002")
 
 # The reference date is the last date in the sample. The window is the 5 years before it.
@@ -98,7 +99,7 @@ def split_medicine(description):
 
 
 def read_split():
-    # Read pipeline/data/patients.csv. Keep the working and held-out rows; reserve rows are skipped.
+    # Read pipeline/data/patients.csv. Keep the working, held-out and reserve rows (reserve added to held-out by T59).
     with SPLIT_FILE.open(encoding="utf-8", newline="") as handle:
         rows = list(csv.DictReader(handle))
     return [row for row in rows if row["split"] in OUT_DIRS]
@@ -290,13 +291,10 @@ def main():
     parser.add_argument("--test", action="store_true", help="only P001 and P002 (working patients)")
     args = parser.parse_args()
 
-    # Choose which patients to run. Reserve patients are never run here.
+    # Choose which patients to run: working, held-out and reserve (T59 added reserve to held-out).
     split_rows = read_split()
     if args.test:
         split_rows = [row for row in split_rows if row["patient_id"] in TEST_PATIENTS]
-    reserve_skipped = 0
-    with SPLIT_FILE.open(encoding="utf-8", newline="") as handle:
-        reserve_skipped = sum(1 for row in csv.DictReader(handle) if row["split"] == "reserve")
     wanted = {row["synthea_id"] for row in split_rows}
 
     # Read the raw files once, keeping only the rows for the chosen patients.
@@ -339,20 +337,18 @@ def main():
                 f"dose changes {counts['dose_changes']}"
             )
         else:
-            # Held-out patients: add to the totals only.
+            # Held-out and reserve patients: add to the totals only.
             held_out_files += 1
             held_out_totals.update(counts)
 
     if held_out_files:
         print(
-            f"Held-out: {held_out_files} files written. Totals: "
+            f"Held-out and reserve: {held_out_files} files written. Totals: "
             f"allergies {held_out_totals['allergies']}, "
             f"current medicines {held_out_totals['current']}, "
             f"stopped medicines {held_out_totals['stopped']}, "
             f"dose changes {held_out_totals['dose_changes']}"
         )
-    if not args.test:
-        print(f"Reserve patients skipped: {reserve_skipped} (not trimmed yet).")
 
 
 if __name__ == "__main__":

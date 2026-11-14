@@ -1,0 +1,276 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R025",
+  "run_id": null,
+  "built_from": [
+    "R025_A.csv",
+    "R025_B.txt",
+    "R025_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R025-F01",
+      "patient_id": "R025",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-27",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R025_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He has no known allergies.",
+          "file": "R025_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- NKA",
+          "file": "R025_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F02",
+      "patient_id": "R025",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Amoxicillin / clavulanate",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-09-21",
+      "quote": "MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2019-09-21,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-09-21",
+          "quote": "MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2019-09-21,",
+          "file": "R025_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F03",
+      "patient_id": "R025",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-21",
+      "quote": "He takes hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He takes hydrochlorothiazide 25 mg once a day.",
+          "file": "R025_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F04",
+      "patient_id": "R025",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "2. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He continues on lisinopril 10 mg once a day.",
+          "file": "R025_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "2. Zestril 10 mg OD",
+          "file": "R025_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F05",
+      "patient_id": "R025",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-05-02",
+      "quote": "His paracetamol was stopped on 2 May 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-05-02",
+          "quote": "His paracetamol was stopped on 2 May 2021.",
+          "file": "R025_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "A",
+          "date": "2021-04-27",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-04-27,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F06",
+      "patient_id": "R025",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "1. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-18",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-04-18,",
+          "file": "R025_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He is on simvastatin 10 mg at night.",
+          "file": "R025_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "1. Zocor 10 mg ON",
+          "file": "R025_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F07",
+      "patient_id": "R025",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-03-31",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2011-03-31,",
+          "file": "R025_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He is known to have hyperlipidemia.",
+          "file": "R025_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Hyperlipidemia",
+          "file": "R025_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R025-F08",
+      "patient_id": "R025",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1979-10-04",
+          "quote": "PROBLEM,Hypertension,,,Active,1979-10-04,",
+          "file": "R025_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-21",
+          "quote": "He is known to have hypertension.",
+          "file": "R025_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Hypertension",
+          "file": "R025_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

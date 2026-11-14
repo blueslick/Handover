@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Rodrigo Thompson
+Hospital ID: R055
+Date of birth: 24 December 1984
+Date of visit: 20 July 2021
+
+Dear Doctor,
+
+I reviewed this 36-year-old man in the medical clinic today. He has a history of hypertension.
+
+He has no known allergies.
+
+He is on ibuprofen 200 mg three times a day. He continues on lisinopril 10 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

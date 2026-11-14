@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Animal dander,,,Active,2009-08-27,hay fever symptoms
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Grass pollen,,,Active,2009-08-27,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Latex,,,Active,2009-08-27,hives
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Mould,,,Active,2009-08-27,skin rash
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Soya,,,Active,2009-08-27,vomiting
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Tree pollen,,,Active,2009-08-27,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,ALLERGY,Wheat,,,Active,2009-08-27,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,PROBLEM,Atopic dermatitis,,,Active,2009-08-11,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,PROBLEM,Seasonal allergic rhinitis,,,Active,2012-02-18,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,PROBLEM,Childhood asthma,,,Active,2013-05-19,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-16,
+R062,"Williamson, Darin",2009-04-26,M,2021-07-16,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-16,

@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Animal dander,,,Active,1962-04-11,hay fever symptoms; skin rash
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Aspirin,,,Active,1962-04-11,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Cow's milk,,,Active,1962-04-11,hives
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Fish,,,Active,1962-04-11,hay fever symptoms
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Grass pollen,,,Active,1962-04-11,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,House dust mite,,,Active,1962-04-11,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Mould,,,Active,1962-04-11,sneezing
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,ALLERGY,Soya,,,Active,1962-04-11,vomiting; diarrhoea
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,PROBLEM,Chronic sinusitis,,,Active,1979-12-03,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,PROBLEM,Seizure disorder,,,Active,2010-12-25,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,PROBLEM,Epilepsy,,,Active,2010-12-26,
+R015,"Collier, Demetrice",1960-11-13,F,2020-09-27,MEDICATION,No current medications,,,,,

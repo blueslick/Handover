@@ -1,0 +1,20 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Animal dander,,,Active,1963-12-03,skin rash
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Cow's milk,,,Active,1963-12-03,hives
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Egg,,,Active,1963-12-03,hives
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Grass pollen,,,Active,1963-12-03,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,House dust mite,,,Active,1963-12-03,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Lisinopril,,,Active,1963-12-03,cough
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Mould,,,Active,1963-12-03,sneezing
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Penicillin,,,Active,1963-12-03,cough; swelling (angioedema)
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Tree nuts,,,Active,1963-12-03,anaphylaxis; cough
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,ALLERGY,Tree pollen,,,Active,1963-12-03,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,PROBLEM,Epilepsy,,,Active,2015-04-12,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,PROBLEM,Seizure disorder,,,Active,2015-04-12,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,PROBLEM,Coronary Heart Disease,,,Active,2021-01-13,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-01-14,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-01-14,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-01-14,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-01-14,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Clonazepam,0.25 mg,twice daily,Active,2016-12-22,
+R050,"Oberbrunner, Mickey",1962-11-28,M,2021-11-12,MEDICATION,Diazepam,5 mg,as needed,Discontinued,2017-12-14,

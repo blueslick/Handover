@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R057,"Conroy, Frederick",1995-04-12,M,2019-05-24,ALLERGY,Lisinopril,,,Active,2000-05-12,
+R057,"Conroy, Frederick",1995-04-12,M,2019-05-24,ALLERGY,Penicillin,,,Active,2000-05-12,skin rash; hives
+R057,"Conroy, Frederick",1995-04-12,M,2019-05-24,PROBLEM,Chronic sinusitis,,,Active,2004-02-17,
+R057,"Conroy, Frederick",1995-04-12,M,2019-05-24,MEDICATION,Azithromycin,250 mg,once daily,Active,2019-05-24,

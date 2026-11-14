@@ -1,0 +1,14 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Animal dander,,,Active,2004-12-14,hay fever symptoms; skin rash
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Aspirin,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Egg,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Grass pollen,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,House dust mite,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Mould,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Peanut,,,Active,2004-12-14,skin rash; vomiting
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Tree nuts,,,Active,2004-12-14,anaphylaxis; cough
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,ALLERGY,Tree pollen,,,Active,2004-12-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,PROBLEM,Atopic dermatitis,,,Active,2005-11-17,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2009-09-14,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,MEDICATION,No current medications,,,,,
+R018,"Ziemann, Shana",2003-09-09,F,2021-07-24,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2019-09-10,

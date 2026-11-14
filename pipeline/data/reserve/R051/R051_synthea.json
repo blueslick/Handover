@@ -1,0 +1,146 @@
+{
+  "patient_id": "R051",
+  "synthea_id": "0e78dfee-9af0-046c-39bb-33fdcb910976",
+  "sex": "M",
+  "birth_date": "1964-04-23",
+  "age_on_reference_date": 57,
+  "age_band": "45-64",
+  "first_name": "Carol",
+  "last_name": "Lesch",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1965-02-20",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Dizziness (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1965-02-20",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1965-02-20",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1982-06-18"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1984-11-25"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2003-10-17"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-01"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2020-09-23"
+    },
+    {
+      "description": "Non-small cell lung cancer (disorder)",
+      "code": "254637007",
+      "start": "2020-09-23"
+    },
+    {
+      "description": "Non-small cell carcinoma of lung  TNM stage 1 (disorder)",
+      "code": "424132000",
+      "start": "2020-09-26"
+    },
+    {
+      "description": "Familial Alzheimer's disease of early onset (disorder)",
+      "code": "230265002",
+      "start": "2021-01-21"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-07-02",
+      "reason": null
+    },
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-07-02",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-07-02",
+      "reason": null
+    },
+    {
+      "description": "Galantamine 4 MG Oral Tablet",
+      "code": "310436",
+      "start": "2021-01-22",
+      "reason": "Familial Alzheimer's disease of early onset (disorder)"
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-07-02",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-07-02",
+      "reason": null
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-07-02",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Cisplatin 50 MG Injection",
+      "code": "1736854",
+      "last_stop": "2021-11-18"
+    },
+    {
+      "description": "PACLitaxel 100 MG Injection",
+      "code": "583214",
+      "last_stop": "2021-11-18"
+    }
+  ],
+  "dose_changes": []
+}

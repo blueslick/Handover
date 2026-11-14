@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DONNELL KSHLERIN
+ ID      : R073
+ DOB     : 16-Sep-1975    Sex: M
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Appendicitis
+  - Rupture of appendix
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

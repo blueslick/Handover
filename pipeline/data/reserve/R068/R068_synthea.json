@@ -1,0 +1,127 @@
+{
+  "patient_id": "R068",
+  "synthea_id": "ad95e4f9-ac42-a37b-9844-01a21e8fd5db",
+  "sex": "F",
+  "birth_date": "2006-04-19",
+  "age_on_reference_date": 15,
+  "age_band": "0-19",
+  "first_name": "Rachell",
+  "last_name": "Lesch",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2006-10-31",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2006-10-31",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Childhood asthma",
+      "code": "233678006",
+      "start": "2009-12-08"
+    },
+    {
+      "description": "Perennial allergic rhinitis with seasonal variation",
+      "code": "232353008",
+      "start": "2012-04-12"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-05-27",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-05-27",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Trinessa 28 Day Pack",
+      "code": "751905",
+      "start": "2021-04-14",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

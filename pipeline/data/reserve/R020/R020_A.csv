@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R020,"Bétancourt, Irene",1984-01-11,F,2021-11-12,ALLERGY,No known allergies,,,,,
+R020,"Bétancourt, Irene",1984-01-11,F,2021-11-12,PROBLEM,Hypertension,,,Active,2002-03-06,
+R020,"Bétancourt, Irene",1984-01-11,F,2021-11-12,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-12,
+R020,"Bétancourt, Irene",1984-01-11,F,2021-11-12,MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2020-04-02,

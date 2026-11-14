@@ -1,0 +1,73 @@
+{
+  "patient_id": "R024",
+  "synthea_id": "5a0b111e-9440-a534-f2b9-12c100d89868",
+  "sex": "F",
+  "birth_date": "1973-02-09",
+  "age_on_reference_date": 48,
+  "age_band": "45-64",
+  "first_name": "Robbin",
+  "last_name": "Green",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Malignant neoplasm of breast (disorder)",
+      "code": "254837009",
+      "start": "1982-05-24"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2015-02-20"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2015-02-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "start": "2021-01-15",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Etonogestrel 68 MG Drug Implant",
+      "code": "389221",
+      "last_stop": "2018-01-31"
+    },
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "last_stop": "2019-01-26"
+    },
+    {
+      "description": "Natazia 28 Day Pack",
+      "code": "978950",
+      "last_stop": "2020-01-21"
+    },
+    {
+      "description": "Nitrofurantoin 5 MG/ML Oral Suspension",
+      "code": "311989",
+      "last_stop": "2017-05-08"
+    },
+    {
+      "description": "Phenazopyridine hydrochloride 100 MG Oral Tablet",
+      "code": "1094107",
+      "last_stop": "2017-05-08"
+    },
+    {
+      "description": "Trinessa 28 Day Pack",
+      "code": "751905",
+      "last_stop": "2017-02-05"
+    }
+  ],
+  "dose_changes": []
+}

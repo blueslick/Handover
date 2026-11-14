@@ -1,0 +1,340 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "R077",
+  "run_id": null,
+  "built_from": [
+    "R077_A.csv",
+    "R077_B.txt",
+    "R077_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R077-F01",
+      "patient_id": "R077",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-21",
+          "quote": "- NKA",
+          "file": "R077_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-15",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He has no known allergies.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F02",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is on amlodipine 2.5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is on amlodipine 2.5 mg once a day.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-07-15",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-07-15,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F03",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "digoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is on digoxin 0.125 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-23",
+          "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-02-23,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is on digoxin 0.125 mg once a day.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F04",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-23",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-23,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He continues on lisinopril 10 mg once a day.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F05",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "verapamil",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He continues on verapamil 40 mg three times a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-23",
+          "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-02-23,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He continues on verapamil 40 mg three times a day.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F06",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-02-23",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-02-23,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-23",
+          "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-02-23,",
+          "file": "R077_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F07",
+      "patient_id": "R077",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-12-21",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-21",
+          "quote": "Nil regular medications",
+          "file": "R077_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F08",
+      "patient_id": "R077",
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is known to have atrial fibrillation.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-08-23",
+          "quote": "PROBLEM,Atrial Fibrillation,,,Active,2011-08-23,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-21",
+          "quote": "- Atrial Fibrillation",
+          "file": "R077_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is known to have atrial fibrillation.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F09",
+      "patient_id": "R077",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is known to have chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-10-17",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1973-10-17,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-21",
+          "quote": "- Chronic sinusitis",
+          "file": "R077_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is known to have chronic sinusitis.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R077-F10",
+      "patient_id": "R077",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1980-07-08",
+          "quote": "PROBLEM,Hypertension,,,Active,1980-07-08,",
+          "file": "R077_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-12-21",
+          "quote": "- Hypertension",
+          "file": "R077_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is known to have hypertension.",
+          "file": "R077_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

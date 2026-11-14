@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LAWRENCE BOYER
+ ID      : R036
+ DOB     : 18-Aug-1975    Sex: M
+ Date    : 12-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Hypoxemia
+
+[CURRENT MEDICATIONS]
+  1. Clexane 40 mg OD
+  2. Clexane 75 mg OD
+  3. Panadol 500 mg PRN
+  4. Hydrodiuril 25 mg OD
+  5. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Panadol - stopped 06-Aug-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

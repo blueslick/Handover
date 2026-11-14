@@ -1,0 +1,67 @@
+{
+  "patient_id": "R034",
+  "synthea_id": "c9b4f8c6-d7be-6563-0560-c90cfe6b12ca",
+  "sex": "F",
+  "birth_date": "2003-10-08",
+  "age_on_reference_date": 18,
+  "age_band": "0-19",
+  "first_name": "Pei",
+  "last_name": "Williamson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "2004-07-13",
+      "active": true
+    },
+    {
+      "name": "Shellfish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Nausea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2004-07-13",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-11-12",
+      "reason": null
+    },
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "start": "2021-09-16",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "1 ML medroxyprogesterone acetate 150 MG/ML Injection",
+      "code": "1000126",
+      "last_stop": "2020-09-21"
+    },
+    {
+      "description": "Natazia 28 Day Pack",
+      "code": "978950",
+      "last_stop": "2021-09-16"
+    }
+  ],
+  "dose_changes": []
+}

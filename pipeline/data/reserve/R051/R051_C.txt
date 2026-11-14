@@ -1,0 +1,36 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CAROL LESCH
+ ID      : R051
+ DOB     : 23-Apr-1964    Sex: M
+ Date    : 15-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Egg (hives)
+  - Penicillin (dizziness)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Hypertension
+  - Chronic sinusitis
+  - Coronary Heart Disease
+  - Fibromyalgia
+  - Anemia
+  - Non-small cell lung cancer
+  - Non-small cell carcinoma of lung  TNM stage 1
+  - Familial Alzheimer's disease of early onset
+
+[CURRENT MEDICATIONS]
+  1. Percocet PRN
+  2. Plavix 75 mg OD
+  3. Reminyl 4 mg BD
+  4. Nitrolingual 0.4 mg PRN
+  5. Zocor 20 mg ON
+  6. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

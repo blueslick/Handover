@@ -1,0 +1,90 @@
+{
+  "patient_id": "R021",
+  "synthea_id": "165a4435-31ff-0493-eb3f-3a86106f3a59",
+  "sex": "F",
+  "birth_date": "1972-09-14",
+  "age_on_reference_date": 49,
+  "age_band": "45-64",
+  "first_name": "Thelma",
+  "last_name": "Bayer",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Transformed migraine (disorder)",
+      "code": "427419006",
+      "start": "2014-02-01"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "2015-02-19"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "2015-04-16"
+    },
+    {
+      "description": "Tubal pregnancy",
+      "code": "79586000",
+      "start": "2016-01-14"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2016-02-25"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2016-02-25"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "2016-02-25"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "2018-03-08"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2018-03-08"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-03-25",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-03-25",
+      "reason": null
+    },
+    {
+      "description": "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring",
+      "code": "1367439",
+      "start": "2021-09-10",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "last_stop": "2021-09-10"
+    }
+  ],
+  "dose_changes": []
+}

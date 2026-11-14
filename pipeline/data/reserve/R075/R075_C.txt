@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DONNY HOWE
+ ID      : R075
+ DOB     : 06-Feb-2010    Sex: M
+ Date    : 04-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Child attention deficit disorder
+
+[CURRENT MEDICATIONS]
+  1. Ritalin 20 mg BD
+
+[DISCONTINUED]
+  1. Nurofen - stopped 04-Mar-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

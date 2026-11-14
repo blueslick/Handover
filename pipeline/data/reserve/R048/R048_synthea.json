@@ -1,0 +1,120 @@
+{
+  "patient_id": "R048",
+  "synthea_id": "9c532b25-cd38-f13a-f2de-2f5538326ed6",
+  "sex": "M",
+  "birth_date": "1979-09-26",
+  "age_on_reference_date": 42,
+  "age_band": "20-44",
+  "first_name": "Quincy",
+  "last_name": "Conn",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "1980-08-15",
+      "active": true
+    },
+    {
+      "name": "Shellfish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Nausea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1980-08-15",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "2007-12-05"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2007-12-05"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2008-12-10"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "2008-12-10"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2008-12-10"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "2008-12-10"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2008-12-10"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "2009-12-16"
+    },
+    {
+      "description": "Chronic obstructive bronchitis (disorder)",
+      "code": "185086009",
+      "start": "2020-02-12"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-07-28",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+      "code": "896209",
+      "start": "2021-07-28",
+      "reason": "Chronic obstructive bronchitis (disorder)"
+    },
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-07-28",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-07-28",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-03-20"
+    }
+  ],
+  "dose_changes": []
+}

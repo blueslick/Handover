@@ -1,0 +1,68 @@
+{
+  "patient_id": "R006",
+  "synthea_id": "2afc9195-bd76-87d7-9ae4-290e5036c2fa",
+  "sex": "M",
+  "birth_date": "1973-10-14",
+  "age_on_reference_date": 48,
+  "age_band": "45-64",
+  "first_name": "Chauncey",
+  "last_name": "Baumbach",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        }
+      ],
+      "start": "1975-02-07",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [],
+      "start": "1975-02-07",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1991-12-08"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2017-04-30"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2018-05-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-05-24",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2021-08-01"
+    }
+  ],
+  "dose_changes": []
+}

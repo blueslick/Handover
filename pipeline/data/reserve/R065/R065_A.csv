@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,ALLERGY,Animal dander,,,Active,1989-04-18,hives
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,ALLERGY,Aspirin,,,Active,1989-04-18,
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,ALLERGY,Egg,,,Active,1989-04-18,hives
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,PROBLEM,Chronic sinusitis,,,Active,2004-07-02,
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,PROBLEM,Hypertension,,,Active,2005-12-25,
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,PROBLEM,Anemia,,,Active,2010-01-17,
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,PROBLEM,Prediabetes,,,Active,2010-01-17,
+R065,"Alva, Victoria",1987-11-01,F,2020-09-26,MEDICATION,No current medications,,,,,

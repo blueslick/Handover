@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,ALLERGY,No known allergies,,,,,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,PROBLEM,Prediabetes,,,Active,1998-10-05,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,PROBLEM,Anemia,,,Active,2002-10-14,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,PROBLEM,Bleeding from anus,,,Active,2006-07-11,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,PROBLEM,Protracted diarrhea,,,Active,2006-07-11,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,PROBLEM,Stroke,,,Active,2017-03-20,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,MEDICATION,No current medications,,,,,
+R079,"Lowe, Kenton",1956-09-24,M,2021-11-12,MEDICATION,Alteplase,100 mg,once,Discontinued,2017-03-20,

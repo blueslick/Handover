@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ROBBIN GREEN
+ ID      : R024
+ DOB     : 09-Feb-1973    Sex: F
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Malignant neoplasm of breast
+  - Anemia
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  1. Yaz OD
+
+[DISCONTINUED]
+  1. Natazia - stopped 21-Jan-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

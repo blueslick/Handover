@@ -1,0 +1,76 @@
+{
+  "patient_id": "R019",
+  "synthea_id": "fb6add40-7cd4-b320-e630-e0c2bd86c9c9",
+  "sex": "F",
+  "birth_date": "1952-08-21",
+  "age_on_reference_date": 69,
+  "age_band": "65+",
+  "first_name": "Hiedi",
+  "last_name": "Mills",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1963-08-12"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1970-10-15"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1985-08-15"
+    },
+    {
+      "description": "Malignant neoplasm of breast (disorder)",
+      "code": "254837009",
+      "start": "1997-09-30"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2021-07-29"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-07-29",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-08-19",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-07-29",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-07-29",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-07-19"
+    }
+  ],
+  "dose_changes": []
+}

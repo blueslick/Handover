@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GERMAN TRANTOW
+ ID      : R025
+ DOB     : 10-Aug-1961    Sex: M
+ Date    : 04-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Zocor 10 mg ON
+  2. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

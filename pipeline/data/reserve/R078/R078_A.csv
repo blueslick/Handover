@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,ALLERGY,No known allergies,,,,,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Atopic dermatitis,,,Active,1938-12-19,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Hypertension,,,Active,1952-12-30,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Miscarriage in first trimester,,,Active,1965-09-21,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Prediabetes,,,Active,1977-05-17,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Anemia,,,Active,1978-05-23,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Chronic pain,,,Active,1990-02-01,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Chronic intractable migraine without aura,,,Active,1990-04-16,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Impacted molars,,,Active,1990-11-25,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Drug overdose,,,Active,1999-05-28,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,PROBLEM,Stroke,,,Active,2021-07-20,
+R078,"Lehner, Maximina",1934-11-06,F,2021-11-10,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-10,

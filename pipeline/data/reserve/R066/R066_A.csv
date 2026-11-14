@@ -1,0 +1,14 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Animal dander,,,Active,2013-07-21,hay fever symptoms
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Aspirin,,,Active,2013-07-21,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Grass pollen,,,Active,2013-07-21,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,House dust mite,,,Active,2013-07-21,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Latex,,,Active,2013-07-21,hives
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Lisinopril,,,Active,2013-07-21,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Mould,,,Active,2013-07-21,skin rash
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Penicillin,,,Active,2013-07-21,hives
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,ALLERGY,Tree pollen,,,Active,2013-07-21,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,PROBLEM,Atopic dermatitis,,,Active,2013-07-03,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,PROBLEM,Childhood asthma,,,Active,2015-03-13,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,PROBLEM,Perennial allergic rhinitis,,,Active,2017-03-31,
+R066,"Gleichner, Kori",2011-05-08,F,2021-11-16,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-17,

@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,ALLERGY,No known allergies,,,,,
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,PROBLEM,Miscarriage in first trimester,,,Active,1977-12-24,
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,PROBLEM,Prediabetes,,,Active,2009-11-07,
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,PROBLEM,Anemia,,,Active,2012-11-24,
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,PROBLEM,Hyperlipidemia,,,Active,2014-12-06,
+R058,"Sporer, Xiomara",1956-10-20,F,2021-04-19,MEDICATION,Simvastatin,5 mg,at bedtime,Active,2021-04-19,

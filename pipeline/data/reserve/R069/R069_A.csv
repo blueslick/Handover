@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+R069,"Barrows, Colin",1999-09-07,M,2017-08-20,ALLERGY,No known allergies,,,,,
+R069,"Barrows, Colin",1999-09-07,M,2017-08-20,PROBLEM,Chronic sinusitis,,,Active,2002-04-23,
+R069,"Barrows, Colin",1999-09-07,M,2017-08-20,MEDICATION,Paracetamol,325 mg,as needed,Active,2017-08-20,

@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Jesse Senger
+Hospital ID: R003
+Date of birth: 18 September 1951
+Date of visit: 5 November 2021
+
+Dear Doctor,
+
+I reviewed this 70-year-old man in the medical clinic today. He is known to have hypertension. He has a history of diabetes. He has a history of anemia. He is known to have hyperglycemia. He is known to have hypertriglyceridemia. He is known to have metabolic syndrome x. His background includes prediabetes. He has a history of neuropathy due to type 2 diabetes mellitus. He has a history of diabetic retinopathy associated with type ii diabetes mellitus. He is known to have nonproliferative diabetic retinopathy due to type 2 diabetes mellitus. His background includes chronic kidney disease stage 1. His background includes diabetic renal disease. He is known to have chronic sinusitis. His background includes coronary heart disease.
+
+He has no known allergies.
+
+He takes hydrocodone 10 mg twice a day. He is on metformin 500 mg once a day. He continues on fentanyl 25 mcg as a patch changed every 72 hours. He continues on paracetamol and oxycodone when needed. He continues on amlodipine 5 mg once a day. He continues on clopidogrel 75 mg once a day. He is on nitroglycerin 0.4 mg when needed. He is on simvastatin 20 mg at night. He takes insulin isophane and insulin regular twice a day. He continues on lisinopril 10 mg once a day. He is on tramadol 50 mg when needed. His meperidine was stopped on 30 December 2020.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic
