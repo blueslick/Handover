@@ -1,5 +1,151 @@
 name,kind
+abemaciclib,medicine
+alendronic acid,medicine
+allopurinol,medicine
+alteplase,medicine
+amiodarone,medicine
+amlodipine,medicine
+amoxicillin,medicine
+amoxicillin / clavulanate,medicine
+anastrozole,medicine
+animal dander,allergy
+aspirin,allergy
+atomoxetine,medicine
+atorvastatin,medicine
+atropine,medicine
+azithromycin,medicine
+aztreonam,medicine
+baricitinib,medicine
+bee venom,allergy
+buprenorphine,medicine
+buprenorphine / naloxone,medicine
+captopril,medicine
+carbamazepine,medicine
+carvedilol,medicine
+cefdinir,allergy
+cefuroxime,medicine
+cetirizine,medicine
+ciclosporin,medicine
+cisplatin,medicine
+clavulanate,medicine
+clindamycin,medicine
+clonazepam,medicine
+clopidogrel,medicine
+co-trimoxazole,allergy
+codeine,medicine
+colchicine,medicine
+cow's milk,allergy
+cyanocobalamin,medicine
+cyclophosphamide,medicine
+dextromethorphan,medicine
+diazepam,medicine
+dienogest,medicine
+digoxin,medicine
+docetaxel,medicine
+donepezil,medicine
+donepezil / memantine,medicine
+doxorubicin,medicine
+doxycycline,medicine
+doxylamine,medicine
+drospirenone,medicine
+drospirenone / ethinyl estradiol,medicine
+duloxetine,medicine
+egg,allergy
+enoxaparin,medicine
+epinephrine,medicine
+epirubicin,medicine
+estradiol valerate,medicine
+estradiol valerate / dienogest,medicine
+ethinyl estradiol,medicine
+etonogestrel,medicine
+etonogestrel / ethinyl estradiol,medicine
+fentanyl,medicine
+ferrous sulfate,medicine
+fexofenadine,medicine
+fish,allergy
+fluticasone,medicine
+fluticasone / salmeterol,medicine
+fulvestrant,medicine
+furosemide,medicine
+galantamine,medicine
+grass pollen,allergy
+heparin,medicine
+house dust mite,allergy
+hydrochlorothiazide,medicine
+hydrocodone,medicine
+hydrocortisone,medicine
+ibuprofen,allergy
+ibuprofen,medicine
+insulin isophane,medicine
+insulin isophane / insulin regular,medicine
+insulin regular,medicine
+isoflurane,medicine
+latex,allergy
+leucovorin,medicine
+leuprolide,medicine
+levonorgestrel,medicine
+levonorgestrel / ethinyl estradiol,medicine
+lisinopril,allergy
+lisinopril,medicine
+loratadine,medicine
+losartan,medicine
+medroxyprogesterone,medicine
+memantine,medicine
+meperidine,medicine
 metformin,medicine
+methotrexate,medicine
+methylphenidate,medicine
+midazolam,medicine
+milnacipran,medicine
+morphine,medicine
+mould,allergy
+naloxone,medicine
+naproxen,medicine
+nitrofurantoin,medicine
+nitroglycerin,medicine
+norelgestromin,medicine
+norelgestromin / ethinyl estradiol,medicine
+norepinephrine,medicine
+norethisterone,medicine
+norgestimate,medicine
+norgestimate / ethinyl estradiol,medicine
+ondansetron,medicine
+oxaliplatin,medicine
+oxycodone,medicine
+paclitaxel,medicine
+palbociclib,medicine
 paracetamol,medicine
+paracetamol / codeine,medicine
+paracetamol / dextromethorphan / doxylamine,medicine
+paracetamol / hydrocodone,medicine
+paracetamol / oxycodone,medicine
+peanut,allergy
 penicillin,allergy
+penicillin v,medicine
+phenazopyridine,medicine
+piperacillin,medicine
+piperacillin / tazobactam,medicine
+prednisone,medicine
+pregabalin,medicine
+propofol,medicine
+remifentanil,medicine
+rocuronium,medicine
+sacubitril,medicine
+sacubitril / valsartan,medicine
+salbutamol,medicine
+salmeterol,medicine
+shellfish,allergy
+simvastatin,medicine
+sodium chloride,medicine
+soya,allergy
+tamoxifen,medicine
+tazobactam,medicine
+tramadol,medicine
+tree nuts,allergy
+tree pollen,allergy
+valsartan,medicine
+vancomycin,medicine
+vasopressin,medicine
+verapamil,medicine
 warfarin,medicine
+wheat,allergy
