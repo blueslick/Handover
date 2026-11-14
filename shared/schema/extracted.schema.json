@@ -13,7 +13,8 @@
     "run_id": {"type": "string"},
     "model": {"type": "string", "description": "Exact pinned model ID, e.g. claude-sonnet-5-5"},
     "prompt_version": {"type": "string", "pattern": "^v\\d+[a-z0-9_-]*$"},
-    "temperature": {"const": 0},
+    "temperature": {"type": ["number", "null"], "description": "null: Claude 5.5 models refuse the temperature setting (T08, T56)"},
+    "settings": {"type": "string", "description": "Model settings used, in words, e.g. 'thinking between_tools, fixed JSON shape, default sampling' (T56)"},
     "attempt": {"enum": [1, 2], "description": "2 = the one retry after a failed check"},
     "usage": {
       "type": "object",
