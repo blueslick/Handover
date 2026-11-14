@@ -44,6 +44,12 @@ Ask the person who they are (Abby, Daniel or Theo) and which task ID they are wo
 - If a pull causes a conflict in a file you do not own, stop and tell the person.
 - Daniel tags the freeze commit as `freeze`. Do not move or delete that tag.
 
+### Who commits are credited to
+
+- The author of every commit is the person whose computer made it (Daniel, Theo or Abby), using their own git name and email. Never set the author or committer to Claude, and never change anyone's git settings.
+- Before the first commit of a session, run `git config user.name` and `git config user.email`. If either is empty or not the person's GitHub name and email, stop and ask them to fix it.
+- End every commit message with Claude's `Co-Authored-By:` line. Claude Code adds it by default; never remove it. This is how the history shows that Claude helped, as the hackathon rules ask us to credit coding assistants.
+
 ## Parallel agents (Paradev workspaces)
 
 Some sessions run in a Paradev workspace: its own git worktree, on its own local branch. You are in one if `git branch --show-current` prints anything other than `main`. Several of these can run at once. These rules add to the git rules above.
