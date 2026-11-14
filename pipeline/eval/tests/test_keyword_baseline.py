@@ -3,8 +3,6 @@
 import sys
 from pathlib import Path
 
-import pytest
-
 EVAL = Path(__file__).resolve().parents[1]
 SHARED = EVAL.parents[1] / "shared"
 sys.path.insert(0, str(EVAL))
@@ -14,6 +12,7 @@ import keyword_baseline as kb  # noqa: E402
 import validate  # noqa: E402  (shared/validate.py)
 
 NAMES = kb.load_names()
+KINDS = kb.load_kinds()
 PATTERN = kb.build_pattern(NAMES)
 
 
@@ -21,7 +20,7 @@ PATTERN = kb.build_pattern(NAMES)
 def facts_from(tmp_path, body, hospital="B"):
     path = tmp_path / f"T001_{hospital}.txt"
     path.write_text("Date of visit: 14 July 2021\n" + body, encoding="utf-8")
-    return kb.extract_record(path, hospital, NAMES, PATTERN)
+    return kb.extract_record(path, hospital, NAMES, KINDS, PATTERN)
 
 
 def test_brand_becomes_generic_and_keeps_the_dose(tmp_path):
@@ -48,6 +47,36 @@ def test_allergy_line_becomes_an_allergy_with_no_dose(tmp_path):
     assert fact["flags"] == []
 
 
+def test_allergy_only_word_is_an_allergy_without_the_word_allergy(tmp_path):
+    # "egg" is allergy-only in the drug list, so this line needs no "allerg" to be an allergy.
+    [fact] = facts_from(tmp_path, "Hives after egg.")
+    assert fact["type"] == "allergy"
+    assert fact["name"] == "egg"
+    assert fact["flags"] == []
+
+
+def test_brand_of_an_allergy_only_drug_is_an_allergy(tmp_path):
+    # Disprin is aspirin, and aspirin is allergy-only in the drug list.
+    [fact] = facts_from(tmp_path, "Disprin 300 mg")
+    assert fact["type"] == "allergy"
+    assert fact["name"] == "aspirin"
+    assert fact["dose"] is None
+
+
+def test_medicine_only_name_without_allerg_stays_a_medicine(tmp_path):
+    [fact] = facts_from(tmp_path, "Warfarin 5 mg daily")
+    assert fact["type"] == "medicine"
+    assert fact["dose"] == "5 mg"
+
+
+def test_name_listed_as_both_kinds_follows_the_allerg_word(tmp_path):
+    # Lisinopril is listed as both a medicine and an allergy, so the line decides.
+    [as_medicine] = facts_from(tmp_path, "Lisinopril 10 mg")
+    assert as_medicine["type"] == "medicine"
+    [as_allergy] = facts_from(tmp_path, "Allergic to lisinopril")
+    assert as_allergy["type"] == "allergy"
+
+
 def test_medicine_with_no_dose_gets_missing_dose(tmp_path):
     [fact] = facts_from(tmp_path, "She takes warfarin.")
     assert fact["dose"] is None
@@ -62,7 +91,7 @@ def test_stop_wording_is_ignored(tmp_path):
 
 def test_demo_patient_warfarin_is_current_and_the_file_validates(tmp_path):
     # End to end on the demo patient (Nora). The baseline should keep warfarin as current.
-    record = kb.run_patient("D001", NAMES, PATTERN)
+    record = kb.run_patient("D001", NAMES, KINDS, PATTERN)
     warfarin = [f for f in record["facts"] if f["name"] == "warfarin"]
     assert warfarin and all(f["status"] == "current" for f in warfarin)
     # Write to a temporary folder and check it against the shared compiled schema and rules.

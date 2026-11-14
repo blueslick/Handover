@@ -91,7 +91,7 @@
     {
       "fact_id": "P002-F04",
       "patient_id": "P002",
-      "type": "medicine",
+      "type": "allergy",
       "name": "peanut",
       "name_as_written": "Peanut",
       "dose": null,
@@ -110,9 +110,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {

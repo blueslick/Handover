@@ -2,8 +2,10 @@
 
 For each hospital record it looks for every drug name in shared/drug_list.csv and every
 brand name in shared/brand_to_generic.csv (a brand becomes its generic name). Each match
-becomes one fact with status current. A match on a line that also contains "allerg"
-becomes an allergy instead. No stop words, no dose-change logic, no negation handling.
+becomes one fact with status current. The drug list's kind column decides allergy or
+medicine: an allergy-only name (egg, fish, aspirin ...) is an allergy. Other names are
+allergies only when their line says "allerg" (this covers ibuprofen and lisinopril, which
+the list gives both kinds). No stop words, no dose-change logic, no negation handling.
 Then stack_merge.py keeps every fact from every hospital.
 
 Usage (from the repo root, with the project venv):
@@ -51,6 +53,28 @@ def load_names():
     return names
 
 
+# Read the drug list's kind column: for each generic name, the set of kinds it has
+# ("medicine", "allergy", or both for ibuprofen and lisinopril).
+def load_kinds():
+    kinds = {}
+    with (SHARED / "drug_list.csv").open(encoding="utf-8", newline="") as f:
+        for row in csv.DictReader(f):
+            kinds.setdefault(row["name"].strip().lower(), set()).add(row["kind"].strip().lower())
+    return kinds
+
+
+# Decide whether a matched name is an allergy or a medicine.
+# An allergy-only word in the drug list (egg, fish, aspirin ...) is always an allergy.
+# Otherwise (medicine-only names, and names listed as both) it is an allergy only when
+# its line says "allerg", as in the first version of this baseline.
+def classify_name(generic, line, kinds):
+    if kinds.get(generic, set()) == {"allergy"}:
+        return "allergy"
+    if "allerg" in line.lower():
+        return "allergy"
+    return "medicine"
+
+
 # One pattern that finds any name. Longest names first, so "amoxicillin / clavulanate"
 # wins over "amoxicillin". The look-arounds stop a name matching inside a longer word.
 def build_pattern(names):
@@ -92,7 +116,7 @@ def dose_after(line, position):
 
 
 # Find every name in one hospital record and return facts in the extracted shape.
-def extract_record(path, hospital, names, pattern):
+def extract_record(path, hospital, names, kinds, pattern):
     text = path.read_text(encoding="utf-8")
     date = visit_date(path, hospital, text)
     facts = []
@@ -100,18 +124,17 @@ def extract_record(path, hospital, names, pattern):
         line = raw_line.strip()
         if not line:
             continue
-        allergy_line = "allerg" in line.lower()
         for match in pattern.finditer(line):
             written = match.group(0)
-            if allergy_line:
-                fact_type, dose = "allergy", None
-            else:
-                fact_type, dose = "medicine", dose_after(line, match.end())
+            generic = names[written.lower()]
+            fact_type = classify_name(generic, line, kinds)
+            # Only medicines carry a dose (the schema allows dose on medicine facts only).
+            dose = dose_after(line, match.end()) if fact_type == "medicine" else None
             # A current medicine with no dose must carry missing_dose (validate.py rule).
             flags = ["missing_dose"] if fact_type == "medicine" and dose is None else []
             facts.append({
                 "type": fact_type,
-                "name": names[written.lower()],
+                "name": generic,
                 "name_as_written": written,
                 "dose": dose,
                 "frequency": None,
@@ -131,7 +154,7 @@ def record_files(patient_id):
 
 
 # Run the keyword pass on one patient and merge with stack_merge().
-def run_patient(patient_id, names, pattern):
+def run_patient(patient_id, names, kinds, pattern):
     files = record_files(patient_id)
     if len(files) != 3:
         raise SystemExit(f"{patient_id}: expected 3 hospital records, found {len(files)}")
@@ -142,7 +165,7 @@ def run_patient(patient_id, names, pattern):
             "patient_id": patient_id,
             "hospital": hospital,
             "source_file": path.name,
-            "facts": extract_record(path, hospital, names, pattern),
+            "facts": extract_record(path, hospital, names, kinds, pattern),
         })
     return build_record("baseline_keyword", patient_id, None, extractions)
 
@@ -162,9 +185,10 @@ def main():
             ap.error(f"{pid} is not allowed: only D001 and P001-P020 (held-out and reserve IDs are refused)")
 
     names = load_names()
+    kinds = load_kinds()
     pattern = build_pattern(names)
     for pid in dict.fromkeys(ids):  # keep order, drop repeats
-        record = run_patient(pid, names, pattern)
+        record = run_patient(pid, names, kinds, pattern)
         out = Path(args.out_dir) / f"{pid}.json"
         write_record(record, out)
         print(f"{pid}: {len(record['facts'])} facts -> {out}")

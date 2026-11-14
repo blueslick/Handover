@@ -464,7 +464,7 @@
     {
       "fact_id": "P018-F19",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "animal dander",
       "name_as_written": "Animal dander",
       "dose": null,
@@ -483,15 +483,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F20",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "bee venom",
       "name_as_written": "Bee venom",
       "dose": null,
@@ -510,15 +508,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F21",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "fish",
       "name_as_written": "Fish",
       "dose": null,
@@ -537,15 +533,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F22",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "grass pollen",
       "name_as_written": "Grass pollen",
       "dose": null,
@@ -564,15 +558,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F23",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "house dust mite",
       "name_as_written": "House dust mite",
       "dose": null,
@@ -591,15 +583,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F24",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "mould",
       "name_as_written": "Mould",
       "dose": null,
@@ -618,15 +608,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P018-F25",
       "patient_id": "P018",
-      "type": "medicine",
+      "type": "allergy",
       "name": "tree pollen",
       "name_as_written": "Tree pollen",
       "dose": null,
@@ -645,9 +633,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {

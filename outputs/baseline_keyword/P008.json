@@ -312,7 +312,7 @@
     {
       "fact_id": "P008-F13",
       "patient_id": "P008",
-      "type": "medicine",
+      "type": "allergy",
       "name": "animal dander",
       "name_as_written": "Animal dander",
       "dose": null,
@@ -331,15 +331,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P008-F14",
       "patient_id": "P008",
-      "type": "medicine",
+      "type": "allergy",
       "name": "grass pollen",
       "name_as_written": "Grass pollen",
       "dose": null,
@@ -358,15 +356,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P008-F15",
       "patient_id": "P008",
-      "type": "medicine",
+      "type": "allergy",
       "name": "house dust mite",
       "name_as_written": "House dust mite",
       "dose": null,
@@ -385,15 +381,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P008-F16",
       "patient_id": "P008",
-      "type": "medicine",
+      "type": "allergy",
       "name": "tree pollen",
       "name_as_written": "Tree pollen",
       "dose": null,
@@ -412,9 +406,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {

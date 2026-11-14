@@ -718,7 +718,7 @@
     {
       "fact_id": "P012-F29",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "animal dander",
       "name_as_written": "Animal dander",
       "dose": null,
@@ -737,15 +737,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F30",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "fish",
       "name_as_written": "Fish",
       "dose": null,
@@ -764,15 +762,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F31",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "grass pollen",
       "name_as_written": "Grass pollen",
       "dose": null,
@@ -791,15 +787,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F32",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "house dust mite",
       "name_as_written": "House dust mite",
       "dose": null,
@@ -818,15 +812,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F33",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "mould",
       "name_as_written": "Mould",
       "dose": null,
@@ -845,15 +837,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F34",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "co-trimoxazole",
       "name_as_written": "Bactrim",
       "dose": null,
@@ -872,15 +862,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P012-F35",
       "patient_id": "P012",
-      "type": "medicine",
+      "type": "allergy",
       "name": "tree pollen",
       "name_as_written": "Tree pollen",
       "dose": null,
@@ -899,9 +887,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {

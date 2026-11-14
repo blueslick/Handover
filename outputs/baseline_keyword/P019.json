@@ -37,7 +37,7 @@
     {
       "fact_id": "P019-F02",
       "patient_id": "P019",
-      "type": "medicine",
+      "type": "allergy",
       "name": "cefdinir",
       "name_as_written": "Omnicef",
       "dose": null,
@@ -56,9 +56,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     }
   ]

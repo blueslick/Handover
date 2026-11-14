@@ -662,7 +662,7 @@
     {
       "fact_id": "P015-F27",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "animal dander",
       "name_as_written": "Animal dander",
       "dose": null,
@@ -681,15 +681,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F28",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "egg",
       "name_as_written": "Egg",
       "dose": null,
@@ -708,15 +706,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F29",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "grass pollen",
       "name_as_written": "Grass pollen",
       "dose": null,
@@ -735,15 +731,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F30",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "house dust mite",
       "name_as_written": "House dust mite",
       "dose": null,
@@ -762,15 +756,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F31",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "latex",
       "name_as_written": "Latex",
       "dose": null,
@@ -789,15 +781,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F32",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "mould",
       "name_as_written": "Mould",
       "dose": null,
@@ -816,15 +806,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F33",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "peanut",
       "name_as_written": "Peanut",
       "dose": null,
@@ -843,15 +831,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F34",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "tree nuts",
       "name_as_written": "Tree nuts",
       "dose": null,
@@ -870,15 +856,13 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
       "fact_id": "P015-F35",
       "patient_id": "P015",
-      "type": "medicine",
+      "type": "allergy",
       "name": "wheat",
       "name_as_written": "Wheat",
       "dose": null,
@@ -897,9 +881,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {

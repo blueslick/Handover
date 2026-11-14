@@ -64,7 +64,7 @@
     {
       "fact_id": "P007-F03",
       "patient_id": "P007",
-      "type": "medicine",
+      "type": "allergy",
       "name": "aspirin",
       "name_as_written": "Disprin",
       "dose": null,
@@ -83,9 +83,7 @@
         }
       ],
       "history": [],
-      "flags": [
-        "missing_dose"
-      ],
+      "flags": [],
       "conflict_group": null
     },
     {
