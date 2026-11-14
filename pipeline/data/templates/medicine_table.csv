@@ -1,0 +1,147 @@
+synthea_description,generic,dose,frequency,directions_other,brand,also_known_as
+0.25 ML Leuprolide Acetate 30 MG/ML Prefilled Syringe,leuprolide,7.5 mg,other,every month,Eligard,
+0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe,enoxaparin,40 mg,daily,,Clexane,
+1 ML DOCEtaxel 20 MG/ML Injection,docetaxel,20 mg,other,every 3 weeks,Taxotere,
+1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe,enoxaparin,150 mg,daily,,Clexane,
+1 ML Epinephrine 1 MG/ML Injection,epinephrine,1 mg,once,,Adrenalin,adrenaline
+1 ML Morphine Sulfate 5 MG/ML Injection,morphine,5 mg,as_needed,,Duramorph,
+1 ML Vasopressin (USP) 20 UNT/ML Injection,vasopressin,20 units,once,,Vasostrict,
+1 ML heparin sodium  porcine 5000 UNT/ML Injection,heparin,5000 units,twice_daily,,,
+1 ML medroxyPROGESTERone acetate 150 MG/ML Injection,medroxyprogesterone,150 mg,other,every 3 months,Depo-Provera,
+1 ML medroxyprogesterone acetate 150 MG/ML Injection,medroxyprogesterone,150 mg,other,every 3 months,Depo-Provera,
+10 ML Doxorubicin Hydrochloride 2 MG/ML Injection,doxorubicin,20 mg,other,every 3 weeks,Adriamycin,
+10 ML Furosemide 10 MG/ML Injection,furosemide,100 mg,once,,Lasix,frusemide
+10 ML oxaliplatin 5 MG/ML Injection,oxaliplatin,50 mg,other,every 2 weeks,Eloxatin,
+100 ML Epirubicin Hydrochloride 2 MG/ML Injection,epirubicin,200 mg,other,every 3 weeks,Ellence,
+100 ML Propofol 10 MG/ML Injection,propofol,1000 mg,once,,Diprivan,
+12 HR Hydrocodone Bitartrate 10 MG Extended Release Oral Capsule,hydrocodone,10 mg,twice_daily,,Zohydro ER,
+120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler,fluticasone,44 mcg,twice_daily,,Flixotide,
+150 ML vancomycin 5 MG/ML Injection,vancomycin,750 mg,twice_daily,,Vancocin,
+168 HR Ethinyl Estradiol 0.00146 MG/HR / norelgestromin 0.00625 MG/HR Transdermal System,norelgestromin / ethinyl estradiol,,weekly,,Evra,
+2 ML Ondansetron 2 MG/ML Injection,ondansetron,4 mg,as_needed,,Zofran,
+24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule,donepezil / memantine,,daily,,Namzaric,
+24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet,metformin,500 mg,daily,,Glucophage XR,
+3 ML Amiodarone hydrocholoride 50 MG/ML Prefilled Syringe,amiodarone,150 mg,once,,Cordarone,
+4 ML Norepinephrine 1 MG/ML Injection,norepinephrine,4 mg,once,,Levophed,noradrenaline
+4 ML norepinephrine 1 MG/ML Injection,norepinephrine,4 mg,once,,Levophed,noradrenaline
+5 ML fulvestrant 50 MG/ML Prefilled Syringe,fulvestrant,250 mg,other,every month,Faslodex,
+60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler,fluticasone / salmeterol,,twice_daily,,Seretide,
+72 HR Fentanyl 0.025 MG/HR Transdermal System,fentanyl,25 mcg,other,as a patch changed every 72 hours,Durogesic,
+Abuse-Deterrent 12 HR Oxycodone Hydrochloride 10 MG Extended Release Oral Tablet [Oxycontin],oxycodone,10 mg,twice_daily,,OxyContin,
+Abuse-Deterrent 12 HR Oxycodone Hydrochloride 15 MG Extended Release Oral Tablet,oxycodone,15 mg,twice_daily,,OxyContin,
+Acetaminophen 160 MG Chewable Tablet,paracetamol,160 mg,as_needed,,Panadol,acetaminophen
+Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution,paracetamol / dextromethorphan / doxylamine,,at_night,,NyQuil,acetaminophen / dextromethorphan / doxylamine
+Acetaminophen 300 MG / Codeine Phosphate 15 MG Oral Tablet,paracetamol / codeine,,as_needed,,Tylenol with Codeine,acetaminophen / codeine
+Acetaminophen 300 MG / HYDROcodone Bitartrate 5 MG Oral Tablet,paracetamol / hydrocodone,,as_needed,,Vicodin,acetaminophen / hydrocodone
+Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet,paracetamol / hydrocodone,,as_needed,,Vicodin,acetaminophen / hydrocodone
+Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet,paracetamol / hydrocodone,,as_needed,,Norco,acetaminophen / hydrocodone
+Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet],paracetamol / oxycodone,,as_needed,,Percocet,acetaminophen / oxycodone
+Acetaminophen 325 MG / Oxycodone Hydrochloride 5 MG Oral Tablet,paracetamol / oxycodone,,as_needed,,Percocet,acetaminophen / oxycodone
+Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet,paracetamol / oxycodone,,as_needed,,Percocet,acetaminophen / oxycodone
+Acetaminophen 325 MG Oral Tablet,paracetamol,325 mg,as_needed,,Panadol,acetaminophen
+Acetaminophen 325 MG Oral Tablet [Tylenol],paracetamol,325 mg,as_needed,,Panadol,acetaminophen
+Acetaminophen 500 MG Oral Tablet,paracetamol,500 mg,as_needed,,Panadol,acetaminophen
+Albuterol 5 MG/ML Inhalation Solution,salbutamol,,four_times_daily,,Ventolin Nebules,albuterol
+Alendronic acid 10 MG Oral Tablet,alendronic acid,10 mg,daily,,Fosamax,alendronate
+Allopurinol 100 MG Oral Tablet,allopurinol,100 mg,daily,,Zyloric,
+Alteplase 100 MG Injection,alteplase,100 mg,once,,Actilyse,
+Amlodipine 5 MG Oral Tablet,amlodipine,5 mg,daily,,Norvasc,
+Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet,amoxicillin / clavulanate,,three_times_daily,,Augmentin,co-amoxiclav
+Amoxicillin 250 MG Oral Capsule,amoxicillin,250 mg,three_times_daily,,Amoxil,
+Amoxicillin 500 MG Oral Tablet,amoxicillin,500 mg,three_times_daily,,Amoxil,
+Atorvastatin 80 MG Oral Tablet,atorvastatin,80 mg,at_night,,Lipitor,
+Atropine Sulfate 1 MG/ML Injectable Solution,atropine,,once,,,
+Azithromycin 250mg,azithromycin,250 mg,daily,,Zithromax,
+Aztreonam 2000 MG Injection,aztreonam,2000 mg,three_times_daily,,Azactam,
+Camila 28 Day Pack,norethisterone,0.35 mg,daily,,Camila,norethindrone
+Captopril 25 MG Oral Tablet,captopril,25 mg,twice_daily,,Capoten,
+Carbamazepine[Tegretol],carbamazepine,,twice_daily,,Tegretol,
+Cefuroxime 250 MG Oral Tablet,cefuroxime,250 mg,twice_daily,,Zinnat,
+Cisplatin 50 MG Injection,cisplatin,50 mg,other,every 3 weeks,Platinol,
+Clindamycin 300mg,clindamycin,300 mg,four_times_daily,,Dalacin C,
+Clopidogrel 75 MG Oral Tablet,clopidogrel,75 mg,daily,,Plavix,
+Colchicine 0.6 MG Oral Tablet,colchicine,0.6 mg,twice_daily,,Colcrys,
+Cyclophosphamide 1000 MG Injection,cyclophosphamide,1000 mg,other,every 3 weeks,Endoxan,
+Diazepam 5 MG Oral Tablet,diazepam,5 mg,as_needed,,Valium,
+Digoxin 0.125 MG Oral Tablet,digoxin,0.125 mg,daily,,Lanoxin,
+Errin 28 Day Pack,norethisterone,0.35 mg,daily,,Errin,norethindrone
+Etonogestrel 68 MG Drug Implant,etonogestrel,68 mg,other,implant under the skin (lasts 3 years),Nexplanon,
+Fexofenadine hydrochloride 30 MG Oral Tablet,fexofenadine,30 mg,twice_daily,,Telfast,
+Furosemide 40 MG Oral Tablet,furosemide,40 mg,daily,,Lasix,frusemide
+Galantamine 4 MG Oral Tablet,galantamine,4 mg,twice_daily,,Reminyl,
+Hydrochlorothiazide 25 MG Oral Tablet,hydrochlorothiazide,25 mg,daily,,Hydrodiuril,
+Hydrocortisone 10 MG/ML Topical Cream,hydrocortisone,,twice_daily,,Dermacort,
+Ibuprofen 100 MG Oral Tablet,ibuprofen,100 mg,as_needed,,Nurofen,
+Ibuprofen 200 MG Oral Tablet,ibuprofen,200 mg,as_needed,,Nurofen,
+Ibuprofen 400 MG Oral Tablet [Ibu],ibuprofen,400 mg,three_times_daily,,Nurofen,
+Isoflurane 999 MG/ML Inhalant Solution,isoflurane,,once,,Forane,
+Jolivette 28 Day Pack,norethisterone,0.35 mg,daily,,Jolivette,norethindrone
+Kyleena 19.5 MG Intrauterine System,levonorgestrel,19.5 mg,other,intrauterine system (lasts 5 years),Kyleena,
+Leucovorin 100 MG Injection,leucovorin,100 mg,other,every 2 weeks,Wellcovorin,calcium folinate
+Levora 0.15/30 28 Day Pack,levonorgestrel / ethinyl estradiol,,daily,,Levora,
+Liletta 52 MG Intrauterine System,levonorgestrel,52 mg,other,intrauterine system (lasts 6 years),Liletta,
+Loratadine 10 MG Oral Tablet,loratadine,10 mg,daily,,Clarityne,
+Loratadine 5 MG Chewable Tablet,loratadine,5 mg,daily,,Clarityne,
+Meperidine Hydrochloride 50 MG Oral Tablet,meperidine,50 mg,as_needed,,Demerol,pethidine
+Methotrexate 2.5 MG Oral Tablet,methotrexate,2.5 mg,weekly,,Trexall,
+Methylphenidate Hydrochloride 20 MG Oral Tablet,methylphenidate,20 mg,twice_daily,,Ritalin,
+Midazolam 1 MG/ML Injectable Solution,midazolam,,once,,Dormicum,
+Milnacipran hydrochloride 100 MG Oral Tablet,milnacipran,100 mg,twice_daily,,Savella,
+Mirena 52 MG Intrauterine System,levonorgestrel,52 mg,other,intrauterine system (lasts 5 years),Mirena,
+NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler,salbutamol,90 mcg,as_needed,,Ventolin,albuterol
+NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector,epinephrine,0.3 mg,as_needed,,EpiPen,adrenaline
+NITROFURANTOIN  MACROCRYSTALS 50 MG Oral Capsule,nitrofurantoin,50 mg,four_times_daily,,Macrodantin,
+Naproxen 500 MG Oral Tablet,naproxen,500 mg,twice_daily,,Naprosyn,
+Naproxen sodium 220 MG Oral Tablet,naproxen,220 mg,twice_daily,,Aleve,
+Natazia 28 Day Pack,estradiol valerate / dienogest,,daily,,Natazia,
+Nitrofurantoin 5 MG/ML Oral Suspension,nitrofurantoin,,four_times_daily,,Furadantin,
+Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray,nitroglycerin,0.4 mg,as_needed,,Nitrolingual,glyceryl trinitrate
+NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring,etonogestrel / ethinyl estradiol,,other,one ring for 3 weeks then 1 week off,NuvaRing,
+PACLitaxel 100 MG Injection,paclitaxel,100 mg,weekly,,Taxol,
+Paclitaxel 100 MG Injection,paclitaxel,100 mg,weekly,,Taxol,
+Penicillin V Potassium 250 MG Oral Tablet,penicillin v,250 mg,four_times_daily,,Pen-Vee K,phenoxymethylpenicillin
+Penicillin V Potassium 500 MG Oral Tablet,penicillin v,500 mg,four_times_daily,,Pen-Vee K,phenoxymethylpenicillin
+Phenazopyridine hydrochloride 100 MG Oral Tablet,phenazopyridine,100 mg,three_times_daily,,Pyridium,
+Piperacillin 4000 MG / tazobactam 500 MG Injection,piperacillin / tazobactam,,three_times_daily,,Tazocin,
+Rocuronium bromide 10 MG/ML Injectable Solution,rocuronium,,once,,Esmeron,
+Seasonique 91 Day Pack,levonorgestrel / ethinyl estradiol,,daily,,Seasonique,
+Simvastatin 10 MG Oral Tablet,simvastatin,10 mg,at_night,,Zocor,
+Simvastatin 20 MG Oral Tablet,simvastatin,20 mg,at_night,,Zocor,
+Sodium Chloride 9 MG/ML Injectable Solution,sodium chloride,,once,,,normal saline
+Tamoxifen 10 MG Oral Tablet,tamoxifen,10 mg,twice_daily,,Nolvadex,
+Trinessa 28 Day Pack,norgestimate / ethinyl estradiol,,daily,,Trinessa,
+Verapamil Hydrochloride 40 MG,verapamil,40 mg,three_times_daily,,Isoptin,
+Verzenio 100 MG Oral Tablet,abemaciclib,100 mg,twice_daily,,Verzenio,
+Vitamin B 12 5 MG/ML Injectable Solution,cyanocobalamin,,other,every month,,vitamin b12
+Warfarin Sodium 5 MG Oral Tablet,warfarin,5 mg,daily,,Coumadin,
+Yaz 28 Day Pack,drospirenone / ethinyl estradiol,,daily,,Yaz,
+amLODIPine 2.5 MG Oral Tablet,amlodipine,2.5 mg,daily,,Norvasc,
+anastrozole 1 MG Oral Tablet,anastrozole,1 mg,daily,,Arimidex,
+atomoxetine 100 MG Oral Capsule,atomoxetine,100 mg,daily,,Strattera,
+baricitinib 2 MG Oral Tablet,baricitinib,2 mg,daily,,Olumiant,
+buprenorphine 2 MG / naloxone 0.5 MG Sublingual Tablet,buprenorphine / naloxone,,daily,,Suboxone,
+carvedilol 25 MG Oral Tablet,carvedilol,25 mg,twice_daily,,Dilatrend,
+cetirizine hydrochloride 10 MG Oral Tablet,cetirizine,10 mg,daily,,Zyrtec,
+cetirizine hydrochloride 5 MG Oral Tablet,cetirizine,5 mg,daily,,Zyrtec,
+clonazePAM 0.25 MG Oral Tablet,clonazepam,0.25 mg,twice_daily,,Rivotril,
+cycloSPORINE  modified 100 MG Oral Capsule,ciclosporin,100 mg,twice_daily,,Neoral,cyclosporine
+doxycycline hyclate 100 MG,doxycycline,100 mg,twice_daily,,Vibramycin,
+duloxetine 20 MG Delayed Release Oral Capsule,duloxetine,20 mg,daily,,Cymbalta,
+ferrous sulfate 325 MG Oral Tablet,ferrous sulfate,325 mg,daily,,Feosol,
+insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin],insulin isophane / insulin regular,,twice_daily,,Humulin 70/30,
+lisinopril 10 MG Oral Tablet,lisinopril,10 mg,daily,,Zestril,
+lisinopril 20 MG Oral Tablet,lisinopril,20 mg,daily,,Zestril,
+losartan potassium 25 MG Oral Tablet,losartan,25 mg,daily,,Cozaar,
+losartan potassium 50 MG Oral Tablet,losartan,50 mg,daily,,Cozaar,
+palbociclib 100 MG Oral Capsule,palbociclib,100 mg,daily,,Ibrance,
+piperacillin 2000 MG / tazobactam 250 MG Injection,piperacillin / tazobactam,,three_times_daily,,Tazocin,
+piperacillin 4000 MG / tazobactam 500 MG Injection,piperacillin / tazobactam,,three_times_daily,,Tazocin,
+predniSONE 5 MG Oral Tablet,prednisone,5 mg,daily,,Deltasone,
+pregabalin 100 MG Oral Capsule,pregabalin,100 mg,twice_daily,,Lyrica,
+remifentanil 2 MG Injection,remifentanil,2 mg,once,,Ultiva,
+sacubitril 97 MG / valsartan 103 MG Oral Tablet,sacubitril / valsartan,,twice_daily,,Entresto,
+tramadol hydrochloride 50 MG Oral Tablet,tramadol,50 mg,as_needed,,Tramal,
+vancomycin 1000 MG Injection,vancomycin,1000 mg,twice_daily,,Vancocin,
+DEMO Metformin 1000 MG Oral Tablet,metformin,1000 mg,twice_daily,,Glucophage,
+DEMO Metformin 500 MG Oral Tablet,metformin,500 mg,twice_daily,,Glucophage,
+DEMO Paracetamol 1000 MG Oral Tablet,paracetamol,1000 mg,as_needed,,Panadol,acetaminophen

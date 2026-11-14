@@ -1,0 +1,22 @@
+synthea_name,name,category,brand
+Animal dander (substance),animal dander,environment,
+Bee venom (substance),bee venom,environment,
+Grass pollen (substance),grass pollen,environment,
+House dust mite (organism),house dust mite,environment,
+Latex (substance),latex,environment,
+Mold (organism),mould,environment,
+Tree pollen (substance),tree pollen,environment,
+Cow's milk (substance),cow's milk,food,
+Eggs (edible) (substance),egg,food,
+Fish (substance),fish,food,
+Peanut (substance),peanut,food,
+Shellfish (substance),shellfish,food,
+Soya bean (substance),soya,food,
+Tree nut (substance),tree nuts,food,
+Wheat (substance),wheat,food,
+Aspirin,aspirin,medication,Disprin
+Ibuprofen,ibuprofen,medication,Nurofen
+Lisinopril,lisinopril,medication,Zestril
+Penicillin V,penicillin,medication,
+Sulfamethoxazole / Trimethoprim,co-trimoxazole,medication,Bactrim
+cefdinir,cefdinir,medication,Omnicef
