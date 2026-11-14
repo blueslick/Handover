@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,ALLERGY,No known allergies,,,,,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,PROBLEM,Chronic sinusitis,,,Active,1951-09-06,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,PROBLEM,Hypertension,,,Active,1966-03-09,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,PROBLEM,Hyperlipidemia,,,Active,1989-07-19,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,PROBLEM,Osteoarthritis of knee,,,Active,1999-07-23,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,MEDICATION,Hydrochlorothiazide,12.5 mg,once daily,Active,2021-01-29,
+P003,"Reilly, Ethelene",1948-01-14,F,2021-01-29,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-01-13,

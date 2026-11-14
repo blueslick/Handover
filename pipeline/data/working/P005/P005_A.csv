@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,ALLERGY,No known allergies,,,,,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,PROBLEM,Anemia,,,Active,2007-08-05,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,PROBLEM,Prediabetes,,,Active,2007-08-05,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,PROBLEM,Polyp of colon,,,Active,2017-07-20,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,PROBLEM,Recurrent rectal polyp,,,Active,2018-09-12,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,MEDICATION,Oxaliplatin,50 mg,every 2 weeks,Active,2018-10-22,
+P005,"Paucek, Forrest",1952-07-20,M,2021-10-14,MEDICATION,Leucovorin,100 mg,every 2 weeks,Active,2018-10-22,

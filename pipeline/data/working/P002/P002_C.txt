@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LOUIS SENGER
+ ID      : P002
+ DOB     : 27-Sep-2005    Sex: M
+ Date    : 05-Feb-2019
+========================================================
+
+[ALLERGIES]
+  - Peanut (hives, skin rash)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Augmentin TDS
+
+[DISCONTINUED]
+  1. Panadol - stopped 18-Oct-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

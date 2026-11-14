@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : FORREST PAUCEK
+ ID      : P005
+ DOB     : 20-Jul-1952    Sex: M
+ Date    : 14-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Polyp of colon
+  - Recurrent rectal polyp
+
+[CURRENT MEDICATIONS]
+  1. Zohydro ER 10 mg BD
+  2. Durogesic 25 mcg as a patch changed every 72 hours
+  3. Wellcovorin 100 mg every 2 weeks
+  4. Tramal 50 mg PRN
+
+[DISCONTINUED]
+  1. Augmentin - stopped 06-Jun-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

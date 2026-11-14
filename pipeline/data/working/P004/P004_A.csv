@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P004,"Powlowski, Lin",2001-09-30,F,2021-11-15,ALLERGY,No known allergies,,,,,
+P004,"Powlowski, Lin",2001-09-30,F,2021-11-15,PROBLEM,Chronic sinusitis,,,Active,2011-04-11,
+P004,"Powlowski, Lin",2001-09-30,F,2021-11-15,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-08-29,
+P004,"Powlowski, Lin",2001-09-30,F,2021-11-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,

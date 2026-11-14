@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Ethelene Reilly
+Hospital ID: P003
+Date of birth: 14 January 1948
+Date of visit: 14 November 2021
+
+Dear Doctor,
+
+I reviewed this 73-year-old woman in the medical clinic today. She is known to have chronic sinusitis. Her background includes hypertension. She has a history of hyperlipidemia. She is known to have osteoarthritis of knee.
+
+She has no known allergies.
+
+She continues on hydrochlorothiazide 25 mg once a day. She continues on lisinopril 10 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

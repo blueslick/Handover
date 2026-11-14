@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Glendora Hettinger
+Hospital ID: P001
+Date of birth: 4 June 2003
+Date of visit: 12 August 2021
+
+Dear Doctor,
+
+I reviewed this 18-year-old woman in the medical clinic today. She is known to have hypertension.
+
+She has no known allergies.
+
+She continues on amlodipine 5 mg once a day. She takes lisinopril 10 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

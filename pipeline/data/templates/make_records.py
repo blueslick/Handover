@@ -21,7 +21,8 @@ A visit looks like this (all dates YYYY-MM-DD):
       "allergies":  [{"synthea_name": "Aspirin", "reactions": ["Wheal (finding)"], "start": "1994-06-19"}],
       "diagnoses":  [{"description": "Hypertension", "start": "2021-07-28"}],
       "medicines":  [{"synthea_description": "lisinopril 10 MG Oral Tablet",
-                      "status": "current" or "stopped", "date": "start date, or stop date if stopped"}]
+                      "status": "current" or "stopped", "date": "start date, or stop date if stopped",
+                      "dose": "5 mg"}]     <- optional. Overrides the table's dose (T13 uses it to plant a dose change)
     }
 
 An empty allergy list is written as "no known allergies". A visit with no current medicine
@@ -191,6 +192,11 @@ def dose_for_c(dose):
     return dose
 
 
+def dose_of(medicine, info):
+    # The visit may give its own dose (a planted dose change, T13). Otherwise use the table's dose.
+    return medicine.get("dose") or info["dose"]
+
+
 def generic_for_prose(generic):
     # "amoxicillin / clavulanate" -> "amoxicillin and clavulanate"
     return generic.replace(" / ", " and ")
@@ -258,9 +264,10 @@ def render_a(visit):
         info = medicine_info(medicine["synthea_description"])
         shown = info["generic"].capitalize()
         status = "Active" if medicine["status"] == "current" else "Discontinued"
-        add(["MEDICATION", shown, info["dose"], frequency_words("A", info) or "", status, medicine["date"], ""],
+        dose = dose_of(medicine, info)
+        add(["MEDICATION", shown, dose, frequency_words("A", info) or "", status, medicine["date"], ""],
             written("medicine", info["generic"], shown, medicine["status"], medicine["date"], None,
-                    dose=info["dose"] or None, frequency=info["frequency"] or None))
+                    dose=dose or None, frequency=info["frequency"] or None))
 
     text = csv_line(CSV_HEADER) + "\n" + "\n".join(rows) + "\n"
     return check_written(text, facts)
@@ -318,14 +325,15 @@ def render_b(visit):
     for medicine in current:
         info = medicine_info(medicine["synthea_description"])
         name = generic_for_prose(info["generic"])
-        parts = [name] + ([info["dose"]] if info["dose"] else [])
+        dose = dose_of(medicine, info)
+        parts = [name] + ([dose] if dose else [])
         how = frequency_words("B", info)
         if how:
             parts.append(how)
         opener = rng.choice([f"{she} takes", f"{she} is on", f"{she} continues on"])
         say(f"{opener} {' '.join(parts)}.",
             written("medicine", info["generic"], name, "current", visit["visit_date"], None,
-                    dose=info["dose"] or None, frequency=info["frequency"] or None))
+                    dose=dose or None, frequency=info["frequency"] or None))
     for medicine in stopped:
         info = medicine_info(medicine["synthea_description"])
         name = generic_for_prose(info["generic"])
@@ -406,14 +414,15 @@ def render_c(visit):
     for number, medicine in enumerate(current, 1):
         info = medicine_info(medicine["synthea_description"])
         shown = info["brand"] or info["generic"].capitalize()
+        dose = dose_of(medicine, info)
         parts = [shown]
-        if dose_for_c(info["dose"]):
-            parts.append(dose_for_c(info["dose"]))
+        if dose_for_c(dose):
+            parts.append(dose_for_c(dose))
         if frequency_words("C", info):
             parts.append(frequency_words("C", info))
         line(f"  {number}. {' '.join(parts)}",
              written("medicine", info["generic"], shown, "current", visit["visit_date"], None,
-                     dose=info["dose"] or None, frequency=info["frequency"] or None))
+                     dose=dose or None, frequency=info["frequency"] or None))
 
     if stopped:
         line("")
