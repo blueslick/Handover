@@ -1,0 +1,77 @@
+{
+  "patient_id": "P065",
+  "synthea_id": "41deca00-d1c8-0478-3ff7-a074db2cf397",
+  "sex": "M",
+  "birth_date": "1958-06-17",
+  "age_on_reference_date": 63,
+  "age_band": "45-64",
+  "first_name": "Joey",
+  "last_name": "Stoltenberg",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1976-08-10"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1996-07-13"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2017-03-28"
+    },
+    {
+      "description": "Stroke",
+      "code": "230690007",
+      "start": "2018-11-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-04-20",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-04-20",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-04-20",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-04-20",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-04-20",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Alteplase 100 MG Injection",
+      "code": "1804799",
+      "last_stop": "2018-11-20"
+    }
+  ],
+  "dose_changes": []
+}

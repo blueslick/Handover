@@ -1,0 +1,219 @@
+{
+  "patient_id": "P079",
+  "synthea_id": "20a75f26-b297-4120-72e6-602ee5e9f4e4",
+  "sex": "M",
+  "birth_date": "1991-12-13",
+  "age_on_reference_date": 29,
+  "age_band": "20-44",
+  "first_name": "Leif",
+  "last_name": "Rath",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Abdominal pain (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Sneezing",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheezing (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Shellfish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        },
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1993-05-27",
+      "active": true
+    },
+    {
+      "name": "Wheat (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1993-05-27",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2010-02-05"
+    },
+    {
+      "description": "Hypoxemia (disorder)",
+      "code": "389087006",
+      "start": "2020-05-02"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe",
+      "code": "854235",
+      "start": "2020-05-03",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 500 MG Oral Tablet",
+      "code": "198440",
+      "start": "2020-05-03",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-04-09",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-04-09",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-09-12"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 500 MG Oral Tablet",
+        "strength": "500 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2018-09-12"
+      }
+    }
+  ]
+}

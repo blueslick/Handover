@@ -1,0 +1,42 @@
+{
+  "patient_id": "P020",
+  "synthea_id": "1d3d0ba6-5475-07c2-0b40-562ad75fdf26",
+  "sex": "F",
+  "birth_date": "1960-01-21",
+  "age_on_reference_date": 61,
+  "age_band": "45-64",
+  "first_name": "Laurena",
+  "last_name": "Heidenreich",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1976-04-01"
+    },
+    {
+      "description": "Recurrent urinary tract infection",
+      "code": "197927001",
+      "start": "1994-01-29"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2015-02-19"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-03-10",
+      "reason": "Hyperlipidemia"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

@@ -1,0 +1,31 @@
+{
+  "patient_id": "P009",
+  "synthea_id": "be86cb71-0481-f2c6-c89b-e8ea1136a893",
+  "sex": "F",
+  "birth_date": "1957-02-12",
+  "age_on_reference_date": 64,
+  "age_band": "45-64",
+  "first_name": "Isadora",
+  "last_name": "Tremblay",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1978-06-27"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "code": "562251",
+      "last_stop": "2018-03-21"
+    }
+  ],
+  "dose_changes": []
+}

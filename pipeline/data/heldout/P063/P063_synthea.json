@@ -1,0 +1,161 @@
+{
+  "patient_id": "P063",
+  "synthea_id": "153c68e6-08e5-a751-1f6b-4439d279681d",
+  "sex": "M",
+  "birth_date": "1951-11-27",
+  "age_on_reference_date": 69,
+  "age_band": "65+",
+  "first_name": "Brain",
+  "last_name": "Wuckert",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Sulfamethoxazole / Trimethoprim",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1952-06-15",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1952-06-15",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Appendicitis",
+      "code": "74400008",
+      "start": "1958-12-31"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "1996-06-18"
+    },
+    {
+      "description": "Localized  primary osteoarthritis of the hand",
+      "code": "201834006",
+      "start": "1999-03-27"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2007-08-21"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-11-09",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-11-09",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-11-09",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-11-09",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-11-09",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-07-03",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-11-09",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

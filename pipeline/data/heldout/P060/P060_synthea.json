@@ -1,0 +1,32 @@
+{
+  "patient_id": "P060",
+  "synthea_id": "a90e1118-edb5-4c62-e17e-de38e6720cc0",
+  "sex": "F",
+  "birth_date": "1975-07-12",
+  "age_on_reference_date": 46,
+  "age_band": "45-64",
+  "first_name": "Janiece",
+  "last_name": "White",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-02-14",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-02-14",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

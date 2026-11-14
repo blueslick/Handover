@@ -1,0 +1,61 @@
+{
+  "patient_id": "P006",
+  "synthea_id": "e26891fb-8959-8553-d12a-f92bd5c3bafa",
+  "sex": "F",
+  "birth_date": "2002-07-09",
+  "age_on_reference_date": 19,
+  "age_band": "0-19",
+  "first_name": "Mae",
+  "last_name": "D'Amore",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2020-09-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-09-07",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Natazia 28 Day Pack",
+      "code": "978950",
+      "start": "2021-06-12",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-09-07",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-09-07",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+      "code": "1000126",
+      "last_stop": "2018-06-28"
+    },
+    {
+      "description": "Camila 28 Day Pack",
+      "code": "748962",
+      "last_stop": "2019-06-23"
+    }
+  ],
+  "dose_changes": []
+}

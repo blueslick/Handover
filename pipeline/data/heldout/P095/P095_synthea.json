@@ -1,0 +1,49 @@
+{
+  "patient_id": "P095",
+  "synthea_id": "c2b9dc8a-cfe1-da50-5e72-140b66e43996",
+  "sex": "M",
+  "birth_date": "1999-03-22",
+  "age_on_reference_date": 22,
+  "age_band": "20-44",
+  "first_name": "Erin",
+  "last_name": "Mann",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2017-05-15"
+    },
+    {
+      "description": "Severe anxiety (panic) (finding",
+      "code": "80583007",
+      "start": "2021-06-07"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-06-08",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-06-08",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-06-08",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

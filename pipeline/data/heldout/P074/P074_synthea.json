@@ -1,0 +1,100 @@
+{
+  "patient_id": "P074",
+  "synthea_id": "41ba25b8-f5ca-3bce-c26f-64b5ce13e525",
+  "sex": "M",
+  "birth_date": "1970-10-24",
+  "age_on_reference_date": 51,
+  "age_band": "45-64",
+  "first_name": "Lucius",
+  "last_name": "Gerlach",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "1975-11-26",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1988-12-17"
+    },
+    {
+      "description": "Hypoxemia (disorder)",
+      "code": "389087006",
+      "start": "2021-03-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe",
+      "code": "854235",
+      "start": "2021-03-06",
+      "reason": null
+    },
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-06-19",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Acetaminophen 500 MG Oral Tablet",
+      "code": "198440",
+      "start": "2021-03-06",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-06-19",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-06-19",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-06-19",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-06-19",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-03-16"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 500 MG Oral Tablet",
+        "strength": "500 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2020-03-16"
+      }
+    }
+  ]
+}

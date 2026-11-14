@@ -1,0 +1,27 @@
+{
+  "patient_id": "P070",
+  "synthea_id": "b24f84f8-7adf-2b2e-dfb3-1c1c466d0a74",
+  "sex": "M",
+  "birth_date": "2002-04-24",
+  "age_on_reference_date": 19,
+  "age_band": "0-19",
+  "first_name": "Barney",
+  "last_name": "Ledner",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "2004-09-28",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

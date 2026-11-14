@@ -1,0 +1,31 @@
+{
+  "patient_id": "P046",
+  "synthea_id": "bb79a5f5-c5bd-7c04-02b6-9589fd41e840",
+  "sex": "M",
+  "birth_date": "2010-08-11",
+  "age_on_reference_date": 11,
+  "age_band": "0-19",
+  "first_name": "Valentine",
+  "last_name": "Sanford",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Perennial allergic rhinitis",
+      "code": "446096008",
+      "start": "2015-10-22"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2019-09-03"
+    }
+  ],
+  "dose_changes": []
+}

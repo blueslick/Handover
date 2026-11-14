@@ -1,0 +1,156 @@
+{
+  "patient_id": "P037",
+  "synthea_id": "08c062dd-284c-1b1c-3475-8122032000fc",
+  "sex": "F",
+  "birth_date": "1974-08-10",
+  "age_on_reference_date": 47,
+  "age_band": "45-64",
+  "first_name": "Jennie",
+  "last_name": "Leuschke",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Diarrhea (finding)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Lisinopril",
+      "category": "medication",
+      "reactions": [],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1975-12-11",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1975-12-11",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Seizure disorder",
+      "code": "128613002",
+      "start": "1974-11-24"
+    },
+    {
+      "description": "Epilepsy",
+      "code": "84757009",
+      "start": "1974-11-25"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1992-10-03"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-03-13",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-03-13",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "start": "2021-01-11",
+      "reason": null
+    },
+    {
+      "description": "losartan potassium 25 MG Oral Tablet",
+      "code": "979485",
+      "start": "2021-03-13",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Etonogestrel 68 MG Drug Implant",
+      "code": "389221",
+      "last_stop": "2021-01-11"
+    },
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2018-06-22"
+    },
+    {
+      "description": "Mirena 52 MG Intrauterine System",
+      "code": "807283",
+      "last_stop": "2016-11-18"
+    }
+  ],
+  "dose_changes": []
+}

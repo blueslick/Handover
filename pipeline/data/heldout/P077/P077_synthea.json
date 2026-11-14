@@ -1,0 +1,74 @@
+{
+  "patient_id": "P077",
+  "synthea_id": "2e555528-3530-497a-222a-7a3bbb35d938",
+  "sex": "M",
+  "birth_date": "1948-08-17",
+  "age_on_reference_date": 73,
+  "age_band": "65+",
+  "first_name": "Bob",
+  "last_name": "Waelchi",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Appendicitis",
+      "code": "74400008",
+      "start": "1950-02-23"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1966-10-11"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1991-02-26"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1992-03-03"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2009-06-09"
+    },
+    {
+      "description": "Stroke",
+      "code": "230690007",
+      "start": "2020-06-02"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-06-27",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-08-17",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Alteplase 100 MG Injection",
+      "code": "1804799",
+      "last_stop": "2020-06-02"
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "last_stop": "2020-06-02"
+    }
+  ],
+  "dose_changes": []
+}

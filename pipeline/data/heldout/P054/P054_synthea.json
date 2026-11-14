@@ -1,0 +1,85 @@
+{
+  "patient_id": "P054",
+  "synthea_id": "785e3f1f-b850-ab06-3f0e-39c860cf74fd",
+  "sex": "M",
+  "birth_date": "1993-01-07",
+  "age_on_reference_date": 28,
+  "age_band": "20-44",
+  "first_name": "Justin",
+  "last_name": "Larson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-06-03",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-06-03",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2020-08-11"
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-06-09"
+    },
+    {
+      "description": "Penicillin V Potassium 500 MG Oral Tablet",
+      "code": "834102",
+      "last_stop": "2017-11-10"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+        "strength": "325 MG / 10 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+        "strength": "21.7 MG/ML / 1 MG/ML / 0.417 MG/ML",
+        "last_stop": "2020-08-11"
+      }
+    },
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+        "strength": "325 MG / 10 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2017-06-09"
+      }
+    },
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+        "strength": "325 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+        "strength": "21.7 MG/ML / 1 MG/ML / 0.417 MG/ML",
+        "last_stop": "2020-08-11"
+      }
+    }
+  ]
+}

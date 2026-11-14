@@ -1,0 +1,52 @@
+{
+  "patient_id": "P068",
+  "synthea_id": "e544e83b-edb5-ff7e-d31a-f4d40ee884d6",
+  "sex": "M",
+  "birth_date": "2011-07-14",
+  "age_on_reference_date": 10,
+  "age_band": "0-19",
+  "first_name": "José Emilio",
+  "last_name": "Niño",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2012-05-20",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2012-05-20",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

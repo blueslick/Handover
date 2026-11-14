@@ -1,0 +1,77 @@
+{
+  "patient_id": "P066",
+  "synthea_id": "9d92805b-c25a-c7ad-60ca-80c93ffb80b1",
+  "sex": "M",
+  "birth_date": "1938-09-30",
+  "age_on_reference_date": 83,
+  "age_band": "65+",
+  "first_name": "Frances",
+  "last_name": "Smitham",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Osteoarthritis of hip",
+      "code": "239872002",
+      "start": "1985-02-23"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "1994-11-04"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-02"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "2015-02-27"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-04-02",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-04-02",
+      "reason": null
+    },
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-04-02",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-11-18",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-04-02",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-04-02",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

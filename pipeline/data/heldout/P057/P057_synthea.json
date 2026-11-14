@@ -1,0 +1,142 @@
+{
+  "patient_id": "P057",
+  "synthea_id": "b9c610cd-28a6-4636-ccb6-c7a0d2a4cb85",
+  "sex": "M",
+  "birth_date": "2019-02-17",
+  "age_on_reference_date": 2,
+  "age_band": "0-19",
+  "first_name": "Damon",
+  "last_name": "Langosh",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Sneezing",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Shellfish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    },
+    {
+      "name": "Soya bean (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Diarrhea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2020-02-17",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "NDA020800 0.3 ML Epinephrine 1 MG/ML Auto-Injector",
+      "code": "1870230",
+      "start": "2020-02-17",
+      "reason": null
+    },
+    {
+      "description": "cetirizine hydrochloride 5 MG Oral Tablet",
+      "code": "1014676",
+      "start": "2020-02-17",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

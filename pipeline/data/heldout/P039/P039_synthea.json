@@ -1,0 +1,135 @@
+{
+  "patient_id": "P039",
+  "synthea_id": "d637aa7b-6fbc-ef23-c55a-d9c33b3d376d",
+  "sex": "F",
+  "birth_date": "1993-05-17",
+  "age_on_reference_date": 28,
+  "age_band": "20-44",
+  "first_name": "Zona",
+  "last_name": "Koss",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Itching (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1994-08-04",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1994-08-04",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Otitis media",
+      "code": "65363002",
+      "start": "2021-03-21"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-03-29",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG Oral Capsule",
+      "code": "308182",
+      "last_stop": "2021-04-04"
+    },
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2021-10-12"
+    },
+    {
+      "description": "Trinessa 28 Day Pack",
+      "code": "751905",
+      "last_stop": "2019-03-17"
+    }
+  ],
+  "dose_changes": []
+}

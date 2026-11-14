@@ -1,0 +1,49 @@
+{
+  "patient_id": "P011",
+  "synthea_id": "1f528581-7613-2b96-dce3-68c7cf967ea1",
+  "sex": "F",
+  "birth_date": "1985-04-03",
+  "age_on_reference_date": 36,
+  "age_band": "20-44",
+  "first_name": "Bonita",
+  "last_name": "Bernier",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "cefdinir",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2011-03-26",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Normal pregnancy",
+      "code": "72892002",
+      "start": "2021-08-25"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Etonogestrel 68 MG Drug Implant",
+      "code": "389221",
+      "last_stop": "2020-05-19"
+    },
+    {
+      "description": "Seasonique 91 Day Pack",
+      "code": "749762",
+      "last_stop": "2021-05-14"
+    }
+  ],
+  "dose_changes": []
+}

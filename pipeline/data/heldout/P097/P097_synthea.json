@@ -1,0 +1,64 @@
+{
+  "patient_id": "P097",
+  "synthea_id": "c1b61a52-e15f-0bd4-58d3-eb581ecb6192",
+  "sex": "F",
+  "birth_date": "1970-02-02",
+  "age_on_reference_date": 51,
+  "age_band": "45-64",
+  "first_name": "Johana",
+  "last_name": "Wunsch",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "2010-04-05"
+    },
+    {
+      "description": "Fibromyalgia (disorder)",
+      "code": "203082005",
+      "start": "2014-02-05"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-10-04",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-10-04",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2021-05-03"
+    },
+    {
+      "description": "Errin 28 Day Pack",
+      "code": "831533",
+      "last_stop": "2020-06-06"
+    },
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "last_stop": "2018-06-17"
+    },
+    {
+      "description": "Kyleena 19.5 MG Intrauterine System",
+      "code": "1856546",
+      "last_stop": "2017-06-22"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,116 @@
+{
+  "patient_id": "P083",
+  "synthea_id": "ce54be47-1a8f-e1eb-9b4d-ca61378d9f41",
+  "sex": "F",
+  "birth_date": "1924-12-04",
+  "age_on_reference_date": 96,
+  "age_band": "65+",
+  "first_name": "Trinh",
+  "last_name": "Sanford",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "1925-10-16",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1925-10-16",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1943-01-28"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1944-02-03"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1944-02-03"
+    },
+    {
+      "description": "Osteoarthritis of hip",
+      "code": "239872002",
+      "start": "1970-07-09"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1972-01-13"
+    },
+    {
+      "description": "Tubal pregnancy",
+      "code": "79586000",
+      "start": "1974-09-26"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2005-01-20"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-04-22",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-04-22",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-02-06",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-04-22",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-04-22",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-12-28"
+    }
+  ],
+  "dose_changes": []
+}

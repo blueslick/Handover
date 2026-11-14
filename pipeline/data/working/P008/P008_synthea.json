@@ -1,0 +1,89 @@
+{
+  "patient_id": "P008",
+  "synthea_id": "426cade9-82be-f335-7340-c4413e4bdd6a",
+  "sex": "M",
+  "birth_date": "2008-04-26",
+  "age_on_reference_date": 13,
+  "age_band": "0-19",
+  "first_name": "Erich",
+  "last_name": "Gulgowski",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2008-08-19",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2008-08-19",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2008-08-19",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2008-08-19",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2008-08-19",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "2008-08-01"
+    },
+    {
+      "description": "Perennial allergic rhinitis with seasonal variation",
+      "code": "232353008",
+      "start": "2011-09-28"
+    },
+    {
+      "description": "Childhood asthma",
+      "code": "233678006",
+      "start": "2012-08-18"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-05-23",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-05-23",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

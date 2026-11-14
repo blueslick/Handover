@@ -1,0 +1,53 @@
+{
+  "patient_id": "P061",
+  "synthea_id": "17ad4670-1e85-702d-c7b5-eac3e87f90ed",
+  "sex": "F",
+  "birth_date": "1998-07-09",
+  "age_on_reference_date": 23,
+  "age_band": "20-44",
+  "first_name": "Stephanie",
+  "last_name": "Gibson",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic intractable migraine without aura",
+      "code": "124171000119105",
+      "start": "2014-01-03"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2016-09-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-10-01",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-09-16"
+    },
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "last_stop": "2019-06-03"
+    },
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "last_stop": "2017-06-13"
+    }
+  ],
+  "dose_changes": []
+}

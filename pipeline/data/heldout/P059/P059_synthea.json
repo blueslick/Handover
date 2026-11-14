@@ -1,0 +1,137 @@
+{
+  "patient_id": "P059",
+  "synthea_id": "307b6419-5147-4716-10b1-bb458ac191c3",
+  "sex": "F",
+  "birth_date": "2003-07-19",
+  "age_on_reference_date": 18,
+  "age_band": "0-19",
+  "first_name": "Micheal",
+  "last_name": "Shields",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Cough (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2005-01-01",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2005-01-01",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2005-01-01",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2005-01-01",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2005-01-01",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2005-01-01",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Childhood asthma",
+      "code": "233678006",
+      "start": "2006-09-29"
+    },
+    {
+      "description": "Perennial allergic rhinitis",
+      "code": "446096008",
+      "start": "2007-07-29"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2021-09-11"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-09-12",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-09-12",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-09-12",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-10-12",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "last_stop": "2020-07-03"
+    },
+    {
+      "description": "Natazia 28 Day Pack",
+      "code": "978950",
+      "last_stop": "2018-07-14"
+    }
+  ],
+  "dose_changes": []
+}

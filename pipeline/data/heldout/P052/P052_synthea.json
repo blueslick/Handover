@@ -1,0 +1,119 @@
+{
+  "patient_id": "P052",
+  "synthea_id": "ce6fbb19-19f4-b597-7df8-8bb192f78da8",
+  "sex": "F",
+  "birth_date": "1956-09-23",
+  "age_on_reference_date": 65,
+  "age_band": "65+",
+  "first_name": "Hulda",
+  "last_name": "Reichel",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1958-01-20",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1958-01-20",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1958-01-20",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1958-01-20",
+      "active": true
+    },
+    {
+      "name": "Shellfish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Nausea (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1958-01-20",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1958-01-20",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1981-11-29"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1981-11-29"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "2016-11-20"
+    },
+    {
+      "description": "Polyp of colon",
+      "code": "68496003",
+      "start": "2021-09-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Alendronic acid 10 MG Oral Tablet",
+      "code": "904419",
+      "start": "2016-11-20",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-11-29"
+    }
+  ],
+  "dose_changes": []
+}

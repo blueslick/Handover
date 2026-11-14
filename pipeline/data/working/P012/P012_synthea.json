@@ -1,0 +1,155 @@
+{
+  "patient_id": "P012",
+  "synthea_id": "af7711e2-9168-bf9a-63de-9fe3e5bad22d",
+  "sex": "M",
+  "birth_date": "1996-01-06",
+  "age_on_reference_date": 25,
+  "age_band": "20-44",
+  "first_name": "Oren",
+  "last_name": "Vandervort",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "Sulfamethoxazole / Trimethoprim",
+      "category": "medication",
+      "reactions": [],
+      "start": "1996-12-17",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1996-12-17",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2014-03-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-04-10",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+      "code": "245134",
+      "start": "2021-04-10",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+      "code": "1049625",
+      "start": "2021-04-10",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-04-10",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-04-10",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-04-10",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-04-10",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-09-25"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG / Oxycodone Hydrochloride 10 MG Oral Tablet [Percocet]",
+        "strength": "325 MG / 10 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2020-09-25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "patient_id": "P081",
+  "synthea_id": "54cc4555-29a2-17ca-1b62-b537b35515a5",
+  "sex": "F",
+  "birth_date": "1979-01-17",
+  "age_on_reference_date": 42,
+  "age_band": "20-44",
+  "first_name": "Jenny",
+  "last_name": "Krajcik",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1980-03-10",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Finding of vomiting (finding)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1980-03-10",
+      "active": true
+    },
+    {
+      "name": "Sulfamethoxazole / Trimethoprim",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1980-03-10",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "1980-06-25"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-07-28",
+      "reason": null
+    },
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-07-28",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-07-28",
+      "reason": null
+    },
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "start": "2021-01-09",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-07-28",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-07-28",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring",
+      "code": "1367439",
+      "last_stop": "2021-01-09"
+    }
+  ],
+  "dose_changes": []
+}

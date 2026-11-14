@@ -1,0 +1,150 @@
+{
+  "patient_id": "P026",
+  "synthea_id": "e6178711-3936-e332-814d-19d8851e314d",
+  "sex": "M",
+  "birth_date": "1916-03-28",
+  "age_on_reference_date": 105,
+  "age_band": "65+",
+  "first_name": "Warren",
+  "last_name": "Ullrich",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1953-06-16"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1953-06-16"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1956-04-03"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "1957-04-09"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1957-04-09"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1957-04-09"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "1958-04-15"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "1958-04-15"
+    },
+    {
+      "description": "Alcoholism",
+      "code": "7200002",
+      "start": "1964-10-20"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "1994-11-22"
+    },
+    {
+      "description": "Carcinoma in situ of prostate (disorder)",
+      "code": "92691004",
+      "start": "1994-11-22"
+    },
+    {
+      "description": "Neoplasm of prostate",
+      "code": "126906006",
+      "start": "1994-11-22"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "1996-04-16"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2008-05-13"
+    },
+    {
+      "description": "Stroke",
+      "code": "230690007",
+      "start": "2014-06-03"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2021-11-02",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-11-02",
+      "reason": null
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-11-02",
+      "reason": "Diabetes"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

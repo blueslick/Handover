@@ -1,0 +1,86 @@
+{
+  "patient_id": "P088",
+  "synthea_id": "0cf08145-a634-329f-54d3-9cbd04ba18cc",
+  "sex": "F",
+  "birth_date": "2000-07-14",
+  "age_on_reference_date": 21,
+  "age_band": "20-44",
+  "first_name": "Cathryn",
+  "last_name": "Reynolds",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2001-04-09",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2001-04-09",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2018-09-07"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-09-24",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Seasonique 91 Day Pack",
+      "code": "749762",
+      "start": "2021-06-07",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-09-24",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-09-24",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-12-03"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2020-09-08"
+    }
+  ],
+  "dose_changes": []
+}

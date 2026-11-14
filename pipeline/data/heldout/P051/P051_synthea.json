@@ -1,0 +1,55 @@
+{
+  "patient_id": "P051",
+  "synthea_id": "284ef746-0103-40df-9c1b-28870ec27d62",
+  "sex": "M",
+  "birth_date": "2006-10-17",
+  "age_on_reference_date": 15,
+  "age_band": "0-19",
+  "first_name": "Pablo",
+  "last_name": "Rojo",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet",
+      "code": "857005",
+      "start": "2020-09-22",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-10-29"
+    },
+    {
+      "description": "Amoxicillin 500 MG Oral Tablet",
+      "code": "308192",
+      "last_stop": "2019-03-25"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2019-03-25"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 325 MG / HYDROcodone Bitartrate 7.5 MG Oral Tablet",
+        "strength": "325 MG / 7.5 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2020-10-29"
+      }
+    }
+  ]
+}

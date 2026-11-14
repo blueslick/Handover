@@ -1,0 +1,61 @@
+{
+  "patient_id": "P017",
+  "synthea_id": "c09c4a85-e909-cfce-863a-7e363c9813a6",
+  "sex": "M",
+  "birth_date": "1955-05-18",
+  "age_on_reference_date": 66,
+  "age_band": "65+",
+  "first_name": "Antony",
+  "last_name": "Nikolaus",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic intractable migraine without aura",
+      "code": "124171000119105",
+      "start": "1998-02-20"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2019-08-07"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-08-18",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-08-18",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-08-18",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-08-18",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2020-08-01"
+    }
+  ],
+  "dose_changes": []
+}

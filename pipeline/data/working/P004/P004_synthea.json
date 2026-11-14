@@ -1,0 +1,43 @@
+{
+  "patient_id": "P004",
+  "synthea_id": "a2ac2a39-b1eb-a338-3aca-7598d56e4501",
+  "sex": "F",
+  "birth_date": "2001-09-30",
+  "age_on_reference_date": 20,
+  "age_band": "20-44",
+  "first_name": "Lin",
+  "last_name": "Powlowski",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2011-04-11"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Seasonique 91 Day Pack",
+      "code": "749762",
+      "start": "2021-08-29",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-07-10"
+    },
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "last_stop": "2020-09-03"
+    }
+  ],
+  "dose_changes": []
+}

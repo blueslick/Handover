@@ -1,0 +1,25 @@
+{
+  "patient_id": "P029",
+  "synthea_id": "f8d9fe9e-f635-5340-41cc-935771d6dec0",
+  "sex": "M",
+  "birth_date": "2001-12-05",
+  "age_on_reference_date": 19,
+  "age_band": "0-19",
+  "first_name": "Dino",
+  "last_name": "Huel",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2016-12-28"
+    }
+  ],
+  "dose_changes": []
+}

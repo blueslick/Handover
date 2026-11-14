@@ -1,0 +1,70 @@
+{
+  "patient_id": "P024",
+  "synthea_id": "d688932a-65c6-3833-4978-3729c3027871",
+  "sex": "M",
+  "birth_date": "1938-10-13",
+  "age_on_reference_date": 83,
+  "age_band": "65+",
+  "first_name": "Shannon",
+  "last_name": "Fisher",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1956-12-06"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1976-03-25"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1977-03-31"
+    },
+    {
+      "description": "Stroke",
+      "code": "230690007",
+      "start": "2000-06-15"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2010-10-14"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-11-01",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2020-12-10",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2020-12-10",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-08-27"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,38 @@
+{
+  "patient_id": "P042",
+  "synthea_id": "e37d530a-3b67-0a3c-0da4-ed338900d916",
+  "sex": "M",
+  "birth_date": "1998-09-26",
+  "age_on_reference_date": 23,
+  "age_band": "20-44",
+  "first_name": "Rodrick",
+  "last_name": "Douglas",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2016-12-27",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-09-18",
+      "reason": null
+    },
+    {
+      "description": "tramadol hydrochloride 50 MG Oral Tablet",
+      "code": "835603",
+      "start": "2021-09-18",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

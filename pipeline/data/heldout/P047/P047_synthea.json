@@ -1,0 +1,117 @@
+{
+  "patient_id": "P047",
+  "synthea_id": "49e94ea9-a534-15f8-fd74-3c739f2c0eb2",
+  "sex": "F",
+  "birth_date": "2005-09-29",
+  "age_on_reference_date": 16,
+  "age_band": "0-19",
+  "first_name": "Gillian",
+  "last_name": "Langworth",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2006-12-28",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "2006-12-28",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheezing (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2006-12-28",
+      "active": true
+    },
+    {
+      "name": "Eggs (edible) (substance)",
+      "category": "food",
+      "reactions": [],
+      "start": "2006-12-28",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2006-12-28",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2006-12-28",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Cerebral palsy (disorder)",
+      "code": "128188000",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Epilepsy (disorder)",
+      "code": "84757009",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Gastroesophageal reflux disease (disorder)",
+      "code": "235595009",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Intellectual disability (disorder)",
+      "code": "110359009",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Pneumonia (disorder)",
+      "code": "233604007",
+      "start": "2005-10-29"
+    },
+    {
+      "description": "Perennial allergic rhinitis with seasonal variation",
+      "code": "232353008",
+      "start": "2008-01-28"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

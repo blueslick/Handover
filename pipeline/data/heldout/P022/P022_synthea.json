@@ -1,0 +1,50 @@
+{
+  "patient_id": "P022",
+  "synthea_id": "5ac6dd24-2c5c-0ac0-91f2-7c10348c139a",
+  "sex": "M",
+  "birth_date": "1958-11-26",
+  "age_on_reference_date": 62,
+  "age_band": "45-64",
+  "first_name": "Denis",
+  "last_name": "Abshire",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2016-01-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-02-03",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-02-03",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-02-03",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-02-03",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

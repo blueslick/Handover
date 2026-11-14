@@ -1,0 +1,43 @@
+{
+  "patient_id": "P019",
+  "synthea_id": "c23879ce-c23c-dbb3-8812-1ecdcbbdfe6f",
+  "sex": "F",
+  "birth_date": "1969-06-18",
+  "age_on_reference_date": 52,
+  "age_band": "45-64",
+  "first_name": "Tajuana",
+  "last_name": "Boyle",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "cefdinir",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Anaphylaxis (disorder)",
+          "severity": "SEVERE"
+        }
+      ],
+      "start": "1991-04-16",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Cardiac Arrest",
+      "code": "410429000",
+      "start": "2014-07-09"
+    },
+    {
+      "description": "Osteoarthritis of knee",
+      "code": "239873007",
+      "start": "2016-10-15"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

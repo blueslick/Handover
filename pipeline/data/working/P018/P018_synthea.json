@@ -1,0 +1,129 @@
+{
+  "patient_id": "P018",
+  "synthea_id": "05877654-69c4-d607-400e-e162ea103642",
+  "sex": "F",
+  "birth_date": "1994-02-06",
+  "age_on_reference_date": 27,
+  "age_band": "20-44",
+  "first_name": "Yuonne",
+  "last_name": "Dooley",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "Fish (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheezing",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1994-10-11",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1994-10-11",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2012-04-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-05-24",
+      "reason": null
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-05-24",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-07-26"
+    },
+    {
+      "description": "Mirena 52 MG Intrauterine System",
+      "code": "807283",
+      "last_stop": "2020-12-06"
+    },
+    {
+      "description": "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring",
+      "code": "1367439",
+      "last_stop": "2016-12-24"
+    },
+    {
+      "description": "Seasonique 91 Day Pack",
+      "code": "749762",
+      "last_stop": "2019-12-09"
+    }
+  ],
+  "dose_changes": []
+}

@@ -1,0 +1,54 @@
+{
+  "patient_id": "P069",
+  "synthea_id": "fa311677-035c-7329-3dec-2a01c9afd965",
+  "sex": "M",
+  "birth_date": "1958-09-06",
+  "age_on_reference_date": 63,
+  "age_band": "45-64",
+  "first_name": "Jeremy",
+  "last_name": "Witting",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1976-10-30"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1981-11-28"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1983-12-10"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-07-10",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-07-10",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2019-12-29"
+    }
+  ],
+  "dose_changes": []
+}

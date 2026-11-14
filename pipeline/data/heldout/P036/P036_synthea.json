@@ -1,0 +1,67 @@
+{
+  "patient_id": "P036",
+  "synthea_id": "25314ff5-8aa4-e3c1-e3d1-8947945764b8",
+  "sex": "F",
+  "birth_date": "1966-12-08",
+  "age_on_reference_date": 54,
+  "age_band": "45-64",
+  "first_name": "Macie",
+  "last_name": "O'Connell",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2013-01-03"
+    },
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2016-12-08"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-01-01",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-01-01",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-01-01",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-01-23",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-01-01",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Penicillin V Potassium 500 MG Oral Tablet",
+      "code": "834102",
+      "last_stop": "2017-04-16"
+    }
+  ],
+  "dose_changes": []
+}

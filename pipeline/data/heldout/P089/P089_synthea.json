@@ -1,0 +1,60 @@
+{
+  "patient_id": "P089",
+  "synthea_id": "5ca89081-9140-56a3-7aea-e831160b357b",
+  "sex": "F",
+  "birth_date": "1939-03-12",
+  "age_on_reference_date": 82,
+  "age_band": "65+",
+  "first_name": "Lenora",
+  "last_name": "Cartwright",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Sulfamethoxazole / Trimethoprim",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1973-10-04",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "1967-05-21"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1970-05-24"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1995-12-26"
+    },
+    {
+      "description": "Osteoporosis (disorder)",
+      "code": "64859006",
+      "start": "2019-09-01"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Alendronic acid 10 MG Oral Tablet",
+      "code": "904419",
+      "start": "2019-09-01",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

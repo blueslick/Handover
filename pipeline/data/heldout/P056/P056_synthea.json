@@ -1,0 +1,66 @@
+{
+  "patient_id": "P056",
+  "synthea_id": "859e5c6f-f1db-308d-0e33-57d392c1bf04",
+  "sex": "M",
+  "birth_date": "2009-09-19",
+  "age_on_reference_date": 12,
+  "age_band": "0-19",
+  "first_name": "Augustine",
+  "last_name": "Gorczany",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Coronary Heart Disease",
+      "code": "53741008",
+      "start": "2011-02-26"
+    },
+    {
+      "description": "Myocardial Infarction",
+      "code": "22298006",
+      "start": "2013-01-19"
+    },
+    {
+      "description": "Appendicitis",
+      "code": "74400008",
+      "start": "2020-02-17"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Amlodipine 5 MG Oral Tablet",
+      "code": "197361",
+      "start": "2021-10-10",
+      "reason": null
+    },
+    {
+      "description": "Clopidogrel 75 MG Oral Tablet",
+      "code": "309362",
+      "start": "2021-10-10",
+      "reason": null
+    },
+    {
+      "description": "Nitroglycerin 0.4 MG/ACTUAT Mucosal Spray",
+      "code": "705129",
+      "start": "2021-10-10",
+      "reason": null
+    },
+    {
+      "description": "Simvastatin 20 MG Oral Tablet",
+      "code": "312961",
+      "start": "2021-10-10",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-02-28"
+    }
+  ],
+  "dose_changes": []
+}

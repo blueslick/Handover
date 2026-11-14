@@ -1,0 +1,174 @@
+{
+  "patient_id": "P084",
+  "synthea_id": "c07fdd29-a5c1-6e59-32f4-ce41a4633cd5",
+  "sex": "F",
+  "birth_date": "1943-08-28",
+  "age_on_reference_date": 78,
+  "age_band": "65+",
+  "first_name": "Bee",
+  "last_name": "Macejkovic",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Dyspnea (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1943-12-21",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1943-12-21",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "1943-12-04"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1952-07-02"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1961-10-21"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1992-02-15"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "1992-04-11"
+    },
+    {
+      "description": "Pulmonary emphysema (disorder)",
+      "code": "87433001",
+      "start": "2001-06-02"
+    },
+    {
+      "description": "Chronic pain",
+      "code": "82423001",
+      "start": "2014-07-30"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "60 ACTUAT Fluticasone propionate 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Dry Powder Inhaler",
+      "code": "896209",
+      "start": "2021-09-26",
+      "reason": "Pulmonary emphysema (disorder)"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-04-26",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-09-26",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-09-26",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+      "code": "1049221",
+      "last_stop": "2020-12-01"
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-12-06"
+    },
+    {
+      "description": "Ibuprofen 200 MG Oral Tablet",
+      "code": "310965",
+      "last_stop": "2021-02-28"
+    }
+  ],
+  "dose_changes": []
+}

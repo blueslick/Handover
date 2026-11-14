@@ -1,0 +1,68 @@
+{
+  "patient_id": "P076",
+  "synthea_id": "9f2b1e2f-f8e2-9990-8b39-6906a5721ac2",
+  "sex": "M",
+  "birth_date": "2002-06-24",
+  "age_on_reference_date": 19,
+  "age_band": "0-19",
+  "first_name": "Arron",
+  "last_name": "Morar",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Appendicitis",
+      "code": "74400008",
+      "start": "2005-11-18"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+      "code": "245134",
+      "start": "2021-08-30",
+      "reason": null
+    },
+    {
+      "description": "Abuse-Deterrent 12 HR Oxycodone Hydrochloride 10 MG Extended Release Oral Tablet [Oxycontin]",
+      "code": "1049504",
+      "start": "2021-08-30",
+      "reason": null
+    },
+    {
+      "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+      "code": "856987",
+      "start": "2021-08-30",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2019-04-26"
+    },
+    {
+      "description": "atomoxetine 100 MG Oral Capsule",
+      "code": "608139",
+      "last_stop": "2020-06-29"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "Acetaminophen",
+      "current": {
+        "description": "Acetaminophen 300 MG / Hydrocodone Bitartrate 5 MG Oral Tablet",
+        "strength": "300 MG / 5 MG"
+      },
+      "stopped": {
+        "description": "Acetaminophen 325 MG Oral Tablet",
+        "strength": "325 MG",
+        "last_stop": "2019-04-26"
+      }
+    }
+  ]
+}

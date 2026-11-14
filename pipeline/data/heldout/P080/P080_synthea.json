@@ -1,0 +1,37 @@
+{
+  "patient_id": "P080",
+  "synthea_id": "1fe68d61-36a2-f78d-b342-9b5012e903ae",
+  "sex": "F",
+  "birth_date": "2005-03-01",
+  "age_on_reference_date": 16,
+  "age_band": "0-19",
+  "first_name": "Francisca",
+  "last_name": "Hammes",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Errin 28 Day Pack",
+      "code": "831533",
+      "start": "2021-02-18",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2018-05-04"
+    },
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "last_stop": "2021-02-18"
+    }
+  ],
+  "dose_changes": []
+}

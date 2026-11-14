@@ -1,0 +1,89 @@
+{
+  "patient_id": "P078",
+  "synthea_id": "94ece286-bfa5-d195-26a7-70ada019e082",
+  "sex": "F",
+  "birth_date": "1993-05-10",
+  "age_on_reference_date": 28,
+  "age_band": "20-44",
+  "first_name": "Emilia",
+  "last_name": "Uribe",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "12 HR Hydrocodone Bitartrate 10 MG Extended Release Oral Capsule",
+      "code": "1860491",
+      "start": "2021-03-29",
+      "reason": null
+    },
+    {
+      "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+      "code": "245134",
+      "start": "2021-03-29",
+      "reason": null
+    },
+    {
+      "description": "tramadol hydrochloride 50 MG Oral Tablet",
+      "code": "835603",
+      "start": "2021-03-29",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+      "code": "1000126",
+      "last_stop": "2020-03-30"
+    },
+    {
+      "description": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "code": "562251",
+      "last_stop": "2020-12-15"
+    },
+    {
+      "description": "Levora 0.15/30 28 Day Pack",
+      "code": "748879",
+      "last_stop": "2019-04-05"
+    },
+    {
+      "description": "Trinessa 28 Day Pack",
+      "code": "751905",
+      "last_stop": "2018-04-10"
+    },
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "last_stop": "2017-04-15"
+    }
+  ],
+  "dose_changes": [
+    {
+      "name": "",
+      "current": {
+        "description": "12 HR Hydrocodone Bitartrate 10 MG Extended Release Oral Capsule",
+        "strength": "12 HR / 10 MG"
+      },
+      "stopped": {
+        "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+        "strength": "1 ML / 150 MG/ML",
+        "last_stop": "2020-03-30"
+      }
+    },
+    {
+      "name": "",
+      "current": {
+        "description": "72 HR Fentanyl 0.025 MG/HR Transdermal System",
+        "strength": "72 HR / 0.025 MG/HR"
+      },
+      "stopped": {
+        "description": "1 ML medroxyPROGESTERone acetate 150 MG/ML Injection",
+        "strength": "1 ML / 150 MG/ML",
+        "last_stop": "2020-03-30"
+      }
+    }
+  ]
+}

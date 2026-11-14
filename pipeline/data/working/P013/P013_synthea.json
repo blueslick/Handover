@@ -1,0 +1,42 @@
+{
+  "patient_id": "P013",
+  "synthea_id": "41998d9e-8d92-3272-1252-cabbd55696a6",
+  "sex": "F",
+  "birth_date": "1956-05-17",
+  "age_on_reference_date": 65,
+  "age_band": "65+",
+  "first_name": "Debora",
+  "last_name": "Conn",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1967-11-11"
+    },
+    {
+      "description": "Osteoarthritis of knee",
+      "code": "239873007",
+      "start": "2005-08-03"
+    },
+    {
+      "description": "Polyp of colon",
+      "code": "68496003",
+      "start": "2021-05-17"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet [Tylenol]",
+      "code": "209387",
+      "start": "2021-08-12",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

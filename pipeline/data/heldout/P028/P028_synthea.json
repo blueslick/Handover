@@ -1,0 +1,39 @@
+{
+  "patient_id": "P028",
+  "synthea_id": "e92c1f65-ac3e-4732-1199-fcaefa803406",
+  "sex": "M",
+  "birth_date": "1969-06-17",
+  "age_on_reference_date": 52,
+  "age_band": "45-64",
+  "first_name": "Ernesto",
+  "last_name": "Jaramillo",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Ibuprofen",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1972-09-10",
+      "active": true
+    },
+    {
+      "name": "Lisinopril",
+      "category": "medication",
+      "reactions": [],
+      "start": "1972-09-10",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

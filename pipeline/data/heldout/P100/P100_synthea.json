@@ -1,0 +1,85 @@
+{
+  "patient_id": "P100",
+  "synthea_id": "060e72d3-912e-55cd-0c92-5faa6cb7a6db",
+  "sex": "M",
+  "birth_date": "1969-01-03",
+  "age_on_reference_date": 52,
+  "age_band": "45-64",
+  "first_name": "Benny",
+  "last_name": "Tillman",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "2017-01-27"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "2017-01-27"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "2017-01-27"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2018-02-02"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "2018-02-02"
+    },
+    {
+      "description": "Chronic kidney disease stage 1 (disorder)",
+      "code": "431855005",
+      "start": "2020-01-10"
+    },
+    {
+      "description": "Diabetic renal disease (disorder)",
+      "code": "127013003",
+      "start": "2020-01-10"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "amLODIPine 2.5 MG Oral Tablet",
+      "code": "308136",
+      "start": "2021-08-13",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "insulin human  isophane 70 UNT/ML / Regular Insulin  Human 30 UNT/ML Injectable Suspension [Humulin]",
+      "code": "106892",
+      "start": "2021-08-13",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-08-13",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet",
+      "code": "562251",
+      "last_stop": "2017-10-19"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2018-12-12"
+    }
+  ],
+  "dose_changes": []
+}

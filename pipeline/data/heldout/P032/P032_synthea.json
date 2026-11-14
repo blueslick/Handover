@@ -1,0 +1,55 @@
+{
+  "patient_id": "P032",
+  "synthea_id": "cce90058-f5c7-79b8-1d70-aa6825e6089c",
+  "sex": "M",
+  "birth_date": "1937-03-27",
+  "age_on_reference_date": 84,
+  "age_band": "65+",
+  "first_name": "Jackson",
+  "last_name": "Veum",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1955-05-21"
+    },
+    {
+      "description": "Alzheimer's disease (disorder)",
+      "code": "26929004",
+      "start": "2017-05-06"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule",
+      "code": "1599803",
+      "start": "2018-11-15",
+      "reason": "Alzheimer's disease (disorder)"
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-05-29",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-05-29",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Galantamine 4 MG Oral Tablet",
+      "code": "310436",
+      "last_stop": "2018-11-15"
+    }
+  ],
+  "dose_changes": []
+}

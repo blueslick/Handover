@@ -1,0 +1,32 @@
+{
+  "patient_id": "P064",
+  "synthea_id": "70da0834-3ef3-7dfe-ad2a-8a00b5f87749",
+  "sex": "F",
+  "birth_date": "2000-04-28",
+  "age_on_reference_date": 21,
+  "age_band": "20-44",
+  "first_name": "Reynalda",
+  "last_name": "Metz",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [],
+  "current_medicines": [
+    {
+      "description": "Ibuprofen 400 MG Oral Tablet [Ibu]",
+      "code": "206905",
+      "start": "2021-07-09",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+      "code": "1043400",
+      "last_stop": "2017-07-14"
+    }
+  ],
+  "dose_changes": []
+}

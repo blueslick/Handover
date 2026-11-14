@@ -1,0 +1,33 @@
+{
+  "patient_id": "P007",
+  "synthea_id": "77d8177a-0da0-a91f-da5e-9ac05a96def0",
+  "sex": "F",
+  "birth_date": "1992-04-07",
+  "age_on_reference_date": 29,
+  "age_band": "20-44",
+  "first_name": "Georgene",
+  "last_name": "Romaguera",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [],
+      "start": "1994-06-19",
+      "active": true
+    }
+  ],
+  "diagnoses": [],
+  "current_medicines": [],
+  "stopped_medicines": [
+    {
+      "description": "Jolivette 28 Day Pack",
+      "code": "757594",
+      "last_stop": "2017-06-15"
+    }
+  ],
+  "dose_changes": []
+}

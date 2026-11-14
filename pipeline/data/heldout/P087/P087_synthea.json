@@ -1,0 +1,86 @@
+{
+  "patient_id": "P087",
+  "synthea_id": "c1075300-aae7-596d-df5a-c944d763a663",
+  "sex": "M",
+  "birth_date": "1913-07-15",
+  "age_on_reference_date": 108,
+  "age_band": "65+",
+  "first_name": "Zachariah",
+  "last_name": "Bergstrom",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1973-01-21"
+    },
+    {
+      "description": "Carcinoma in situ of prostate (disorder)",
+      "code": "92691004",
+      "start": "1983-11-08"
+    },
+    {
+      "description": "Neoplasm of prostate",
+      "code": "126906006",
+      "start": "1983-11-08"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "2020-06-02"
+    },
+    {
+      "description": "Streptococcal sore throat (disorder)",
+      "code": "43878008",
+      "start": "2021-11-13"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2021-06-08",
+      "reason": null
+    },
+    {
+      "description": "Penicillin V Potassium 500 MG Oral Tablet",
+      "code": "834102",
+      "start": "2021-11-13",
+      "reason": "Streptococcal sore throat (disorder)"
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2021-06-08",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2021-06-08",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG / oxyCODONE Hydrochloride 5 MG Oral Tablet",
+      "code": "1049221",
+      "last_stop": "2017-05-24"
+    },
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2017-04-15"
+    },
+    {
+      "description": "Naproxen sodium 220 MG Oral Tablet",
+      "code": "849574",
+      "last_stop": "2017-06-20"
+    }
+  ],
+  "dose_changes": []
+}

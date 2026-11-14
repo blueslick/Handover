@@ -1,0 +1,50 @@
+{
+  "patient_id": "P030",
+  "synthea_id": "d6a7458f-9502-ef68-1ff8-539bda019f8c",
+  "sex": "M",
+  "birth_date": "2009-11-18",
+  "age_on_reference_date": 12,
+  "age_band": "0-19",
+  "first_name": "Claudio",
+  "last_name": "Swift",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Cystic Fibrosis",
+      "code": "190905008",
+      "start": "2009-12-13"
+    },
+    {
+      "description": "Male Infertility",
+      "code": "427089005",
+      "start": "2009-12-13"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "2015-11-04"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "2015-11-04"
+    },
+    {
+      "description": "Infection caused by Pseudomonas aeruginosa",
+      "code": "11218009",
+      "start": "2016-03-02"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "2016-11-09"
+    }
+  ],
+  "current_medicines": [],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

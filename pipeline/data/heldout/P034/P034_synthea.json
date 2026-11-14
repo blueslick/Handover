@@ -1,0 +1,231 @@
+{
+  "patient_id": "P034",
+  "synthea_id": "9ef4db86-c427-ddfe-a607-737f08ffb0c1",
+  "sex": "F",
+  "birth_date": "1973-04-02",
+  "age_on_reference_date": 48,
+  "age_band": "45-64",
+  "first_name": "Terrilyn",
+  "last_name": "Murphy",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Aspirin",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Abdominal pain (finding)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Bee venom (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Tree nut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        }
+      ],
+      "start": "1974-02-17",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "1974-02-17",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1991-05-27"
+    },
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1995-06-19"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1996-06-24"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1996-06-24"
+    },
+    {
+      "description": "Hyperglycemia (disorder)",
+      "code": "80394007",
+      "start": "2000-07-17"
+    },
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2000-07-17"
+    },
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "2008-06-23"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2010-02-21"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "2012-09-24"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2020-11-16"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "24 HR Metformin hydrochloride 500 MG Extended Release Oral Tablet",
+      "code": "860975",
+      "start": "2020-11-16",
+      "reason": "Diabetes"
+    },
+    {
+      "description": "Camila 28 Day Pack",
+      "code": "748962",
+      "start": "2021-05-16",
+      "reason": null
+    },
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2020-11-16",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2020-12-07",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2020-11-16",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Etonogestrel 68 MG Drug Implant",
+      "code": "389221",
+      "last_stop": "2019-05-27"
+    },
+    {
+      "description": "Kyleena 19.5 MG Intrauterine System",
+      "code": "1856546",
+      "last_stop": "2017-06-06"
+    },
+    {
+      "description": "NuvaRing 0.12/0.015 MG per 24HR 21 Day Vaginal Ring",
+      "code": "1367439",
+      "last_stop": "2021-05-16"
+    }
+  ],
+  "dose_changes": []
+}

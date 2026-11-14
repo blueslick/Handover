@@ -4,7 +4,7 @@
 !.env.example
 
 # The raw Synthea download (58 MB). Each person downloads it; see pipeline/data/README.md
-pipeline/data/synthea_raw/
+pipeline/data/synthea_raw
 
 # Python
 __pycache__/

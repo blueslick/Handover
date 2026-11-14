@@ -1,0 +1,136 @@
+{
+  "patient_id": "P090",
+  "synthea_id": "eebbb6c9-87b3-9978-5eab-84edacbccc7c",
+  "sex": "M",
+  "birth_date": "1999-02-25",
+  "age_on_reference_date": 22,
+  "age_band": "20-44",
+  "first_name": "Salvador",
+  "last_name": "Tromp",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Rhinoconjunctivitis (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Cow's milk (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Nose running",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Peanut (substance)",
+      "category": "food",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2000-06-23",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2000-06-23",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Prediabetes",
+      "code": "15777000",
+      "start": "2020-05-07"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-05-13",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-05-13",
+      "reason": "Childhood asthma"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

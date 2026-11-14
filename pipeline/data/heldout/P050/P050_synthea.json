@@ -1,0 +1,37 @@
+{
+  "patient_id": "P050",
+  "synthea_id": "3ccff3bb-35a0-bf09-e87e-ff16b4fd6a66",
+  "sex": "F",
+  "birth_date": "2007-01-05",
+  "age_on_reference_date": 14,
+  "age_band": "0-19",
+  "first_name": "Reyna",
+  "last_name": "Kemmer",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic paralysis due to lesion of spinal cord",
+      "code": "698754002",
+      "start": "2008-12-03"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2012-01-21"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Yaz 28 Day Pack",
+      "code": "748856",
+      "start": "2021-01-04",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

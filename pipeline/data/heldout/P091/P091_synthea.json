@@ -1,0 +1,67 @@
+{
+  "patient_id": "P091",
+  "synthea_id": "d1ac7006-362b-cc1d-d516-f11d65055473",
+  "sex": "F",
+  "birth_date": "1932-09-18",
+  "age_on_reference_date": 89,
+  "age_band": "65+",
+  "first_name": "Nita",
+  "last_name": "McLaughlin",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Miscarriage in first trimester",
+      "code": "19169002",
+      "start": "1973-07-15"
+    },
+    {
+      "description": "Atrial Fibrillation",
+      "code": "49436004",
+      "start": "2005-09-18"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2020-12-14",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Digoxin 0.125 MG Oral Tablet",
+      "code": "197604",
+      "start": "2020-12-14",
+      "reason": null
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2020-12-14",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Verapamil Hydrochloride 40 MG",
+      "code": "897718",
+      "start": "2020-12-14",
+      "reason": null
+    },
+    {
+      "description": "Warfarin Sodium 5 MG Oral Tablet",
+      "code": "855332",
+      "start": "2020-12-14",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [
+    {
+      "description": "Acetaminophen 325 MG Oral Tablet",
+      "code": "313782",
+      "last_stop": "2018-04-14"
+    }
+  ],
+  "dose_changes": []
+}

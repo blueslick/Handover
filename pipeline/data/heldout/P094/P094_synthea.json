@@ -1,0 +1,84 @@
+{
+  "patient_id": "P094",
+  "synthea_id": "58eb83f7-ab23-104b-697b-ec5be0624367",
+  "sex": "M",
+  "birth_date": "1949-06-17",
+  "age_on_reference_date": 72,
+  "age_band": "65+",
+  "first_name": "Elliott",
+  "last_name": "Nikolaus",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Diabetes",
+      "code": "44054006",
+      "start": "1981-10-30"
+    },
+    {
+      "description": "Anemia (disorder)",
+      "code": "271737000",
+      "start": "1982-11-05"
+    },
+    {
+      "description": "Hypertriglyceridemia (disorder)",
+      "code": "302870006",
+      "start": "1982-11-05"
+    },
+    {
+      "description": "Metabolic syndrome X (disorder)",
+      "code": "237602007",
+      "start": "1982-11-05"
+    },
+    {
+      "description": "Diabetic retinopathy associated with type II diabetes mellitus (disorder)",
+      "code": "422034002",
+      "start": "1989-12-15"
+    },
+    {
+      "description": "Neuropathy due to type 2 diabetes mellitus (disorder)",
+      "code": "368581000119106",
+      "start": "1989-12-15"
+    },
+    {
+      "description": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)",
+      "code": "1551000119108",
+      "start": "2004-03-05"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "2008-03-28"
+    },
+    {
+      "description": "Macular edema and retinopathy due to type 2 diabetes mellitus (disorder)",
+      "code": "97331000119101",
+      "start": "2015-05-08"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "120 ACTUAT Fluticasone propionate 0.044 MG/ACTUAT Metered Dose Inhaler",
+      "code": "895994",
+      "start": "2021-06-11",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+      "code": "2123111",
+      "start": "2021-06-11",
+      "reason": "Childhood asthma"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-04-15",
+      "reason": "Hyperlipidemia"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

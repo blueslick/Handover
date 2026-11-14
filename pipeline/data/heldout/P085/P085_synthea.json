@@ -1,0 +1,129 @@
+{
+  "patient_id": "P085",
+  "synthea_id": "01f8bbfd-cfc6-3b97-8bc1-8da6f0b4a9a8",
+  "sex": "F",
+  "birth_date": "2011-01-15",
+  "age_on_reference_date": 10,
+  "age_band": "0-19",
+  "first_name": "Eustolia",
+  "last_name": "Barton",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [
+    {
+      "name": "Animal dander (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Eruption of skin (disorder)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "Grass pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "House dust mite (organism)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "Latex (substance)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Allergic angioedema (disorder)",
+          "severity": "MODERATE"
+        },
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "Mold (organism)",
+      "category": "environment",
+      "reactions": [
+        {
+          "reaction": "Sneezing",
+          "severity": "MILD"
+        },
+        {
+          "reaction": "Allergic skin rash",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "Penicillin V",
+      "category": "medication",
+      "reactions": [
+        {
+          "reaction": "Wheal (finding)",
+          "severity": "MILD"
+        }
+      ],
+      "start": "2011-09-13",
+      "active": true
+    },
+    {
+      "name": "Tree pollen (substance)",
+      "category": "environment",
+      "reactions": [],
+      "start": "2011-09-13",
+      "active": true
+    }
+  ],
+  "diagnoses": [
+    {
+      "description": "Atopic dermatitis",
+      "code": "24079001",
+      "start": "2011-08-30"
+    },
+    {
+      "description": "Perennial allergic rhinitis",
+      "code": "446096008",
+      "start": "2014-07-27"
+    },
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "2019-12-13"
+    },
+    {
+      "description": "Acute viral pharyngitis (disorder)",
+      "code": "195662009",
+      "start": "2021-11-10"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Clindamycin 300mg",
+      "code": "284215",
+      "start": "2021-11-10",
+      "reason": null
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}

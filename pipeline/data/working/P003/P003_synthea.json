@@ -1,0 +1,59 @@
+{
+  "patient_id": "P003",
+  "synthea_id": "25e2030b-e0c7-3b91-d434-57693cb72659",
+  "sex": "F",
+  "birth_date": "1948-01-14",
+  "age_on_reference_date": 73,
+  "age_band": "65+",
+  "first_name": "Ethelene",
+  "last_name": "Reilly",
+  "window": {
+    "reference_date": "2021-11-18",
+    "window_start": "2016-11-18"
+  },
+  "allergies": [],
+  "diagnoses": [
+    {
+      "description": "Chronic sinusitis (disorder)",
+      "code": "40055000",
+      "start": "1951-09-06"
+    },
+    {
+      "description": "Hypertension",
+      "code": "59621000",
+      "start": "1966-03-09"
+    },
+    {
+      "description": "Hyperlipidemia",
+      "code": "55822004",
+      "start": "1989-07-19"
+    },
+    {
+      "description": "Osteoarthritis of knee",
+      "code": "239873007",
+      "start": "1999-07-23"
+    }
+  ],
+  "current_medicines": [
+    {
+      "description": "Hydrochlorothiazide 25 MG Oral Tablet",
+      "code": "310798",
+      "start": "2021-01-13",
+      "reason": "Hypertension"
+    },
+    {
+      "description": "Simvastatin 10 MG Oral Tablet",
+      "code": "314231",
+      "start": "2021-08-01",
+      "reason": "Hyperlipidemia"
+    },
+    {
+      "description": "lisinopril 10 MG Oral Tablet",
+      "code": "314076",
+      "start": "2021-01-13",
+      "reason": "Hypertension"
+    }
+  ],
+  "stopped_medicines": [],
+  "dose_changes": []
+}
