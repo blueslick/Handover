@@ -12,6 +12,7 @@ handover/
 ├── shared/                       one writer at a time; say it in chat first
 │   ├── record_format.md          T01 spec
 │   ├── folders_and_names.md      this file
+│   ├── store_layout.md           T25: the facts table, index and published/
 │   ├── fixed_lists.json
 │   ├── hospital_formats.md       T12: the three formats and the CSV header
 │   ├── schema/                   extracted.schema.json, compiled.schema.json
@@ -79,11 +80,11 @@ Add a short suffix only if you rerun the same thing on the same day: `20261115-v
 | --- | --- | --- |
 | `extracted/<run_id>/` | `P014_A.json`, plus `P014_A.raw.txt` (the model's exact reply) | Never edited after it's written. Retry is saved as `P014_A.attempt2.json` |
 | `checked/<run_id>/` | `P014_A.json` | Same shape as extracted, after brand conversion and quote checks |
-| `compiled/<run_id>/` | `P014.json` | Compiled shape, `kind: compiled` |
+| `compiled/<run_id>/` | `P014.json`, plus `facts.jsonl` and `index.json` | Compiled shape, `kind: compiled`. The two extra files are rebuilt by `store.py build` (shared/store_layout.md) |
 | `omission/<run_id>/` | `P014.json` | Possible-missed flags |
 | `baseline_keyword/`, `baseline_medspacy/` | `P014.json` | Compiled shape. No model, so no run ID |
 | `results/<run_id>/` | `build_up_table.csv`, `by_age_sex.csv`, `failures.md` | Scores |
-| `published/` | `compiled/`, `baseline_keyword/`, `results/`, `extraction_walkthrough/` | Only the frozen run plus the demo patient. This is what the app reads |
+| `published/` | `index.json`, `compiled/`, `baseline_keyword/`, `results/`, `extraction_walkthrough/` | Only the frozen run plus the demo patient. This is what the app reads. Filled by `store.py publish` (shared/store_layout.md) |
 
 ## Who writes where in outputs/
 
