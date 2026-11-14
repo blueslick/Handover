@@ -122,3 +122,17 @@ All three people direct the code through Claude Code and check it by reading. No
 - If something is unclear, ask one question before building. Do not guess.
 - Do one task at a time. Do not start a "Should" task while a "Must" task for the same person is unfinished.
 - Do not say a task is done unless you ran it and saw it work.
+
+## Team rules
+
+Rules that the rest of this file does not already cover. Branches, folder owners, held-out data, freeze and API keys are all set out above.
+
+### Formats
+
+- Every JSON fact follows `shared/record_format.md`. Run `python shared/validate.py <file>` before committing outputs, answer keys or the sample.
+- Folder and file names follow `shared/folders_and_names.md`.
+- Every app tab and the write-up carry this line: "This project is a prototype and is not medical advice."
+
+### Shared folder
+
+- When you finish a change to `shared/`, tell the team chat that it is done, so the next person knows they can write there.

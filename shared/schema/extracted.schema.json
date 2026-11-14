@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "handover/extracted.schema.json",
+  "title": "Extracted record: facts from ONE hospital record (output of sections 4 and 5)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format_version", "patient_id", "hospital", "source_file", "run_id", "model", "prompt_version", "temperature", "attempt", "usage", "facts"],
+  "properties": {
+    "format_version": {"const": "1.0"},
+    "patient_id": {"$ref": "#/$defs/patient_id"},
+    "hospital": {"enum": ["A", "B", "C"]},
+    "source_file": {"type": "string", "pattern": "^(P|D)\\d{3}_[ABC]\\.(csv|txt)$"},
+    "run_id": {"type": "string"},
+    "model": {"type": "string", "description": "Exact pinned model ID, e.g. claude-sonnet-5-5"},
+    "prompt_version": {"type": "string", "pattern": "^v\\d+[a-z0-9_-]*$"},
+    "temperature": {"const": 0},
+    "attempt": {"enum": [1, 2], "description": "2 = the one retry after a failed check"},
+    "usage": {
+      "type": "object",
+      "required": ["input_tokens", "output_tokens"],
+      "properties": {"input_tokens": {"type": "integer"}, "output_tokens": {"type": "integer"}}
+    },
+    "facts": {"type": "array", "items": {"$ref": "#/$defs/fact"}}
+  },
+  "$defs": {
+    "patient_id": {"type": "string", "pattern": "^(P\\d{3}|D\\d{3})$"},
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "name", "name_as_written", "dose", "frequency", "reaction", "status", "date", "quote", "flags"],
+      "properties": {
+        "type": {"enum": ["allergy", "medicine", "diagnosis", "operation"]},
+        "name": {"type": ["string", "null"], "description": "Generic lowercase. The model may leave null; the Check step fills it from the brand table or sets unknown_name"},
+        "name_as_written": {"type": ["string", "null"]},
+        "dose": {"type": ["string", "null"], "pattern": "^\\d+(\\.\\d+)? (mg|mcg|g|mL|units|puffs|drops)$"},
+        "frequency": {"enum": [null, "once", "daily", "twice_daily", "three_times_daily", "four_times_daily", "at_night", "weekly", "as_needed", "other"]},
+        "reaction": {"type": ["string", "null"]},
+        "status": {"enum": ["current", "stopped", "none_recorded", "suspected", "family_history", "planned", "side_effect"]},
+        "date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "quote": {"type": "string", "minLength": 1, "description": "Verbatim substring of the source record"},
+        "flags": {"type": "array", "uniqueItems": true, "items": {"enum": ["unverified", "missing_dose", "possible_missed", "unknown_name"]}}
+      }
+    }
+  }
+}

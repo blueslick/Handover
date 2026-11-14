@@ -1,0 +1,45 @@
+{
+  "format_version": "1.0",
+
+  "record_types": ["allergy", "medicine", "diagnosis", "operation"],
+
+  "statuses": ["current", "stopped", "none_recorded", "suspected", "family_history", "planned", "side_effect"],
+
+  "statuses_allowed_by_type": {
+    "allergy":   ["current", "suspected", "none_recorded", "side_effect"],
+    "medicine":  ["current", "stopped", "planned", "none_recorded"],
+    "diagnosis": ["current", "stopped", "suspected", "family_history"],
+    "operation": ["current", "planned"]
+  },
+
+  "flags": ["unverified", "conflict", "missing_dose", "possible_missed", "dose_changed", "unknown_name"],
+
+  "hospitals": {
+    "A": {"format": "csv_table",    "extension": ".csv", "description": "CSV table, UTF-8, one row per fact"},
+    "B": {"format": "free_text",    "extension": ".txt", "description": "Free-text clinic note"},
+    "C": {"format": "brand_layout", "extension": ".txt", "description": "Structured layout that writes brand names (e.g. Panadol)"}
+  },
+
+  "dose_units": ["mg", "mcg", "g", "mL", "units", "puffs", "drops"],
+
+  "frequencies": ["once", "daily", "twice_daily", "three_times_daily", "four_times_daily", "at_night", "weekly", "as_needed", "other"],
+
+  "record_kinds": ["compiled", "answer_key", "baseline_keyword", "baseline_medspacy"],
+
+  "display_labels": {
+    "status": {
+      "allergy":   {"current": "Allergy", "suspected": "Suspected allergy", "none_recorded": "No known allergies", "side_effect": "Side effect, not an allergy"},
+      "medicine":  {"current": "Current", "stopped": "Stopped", "planned": "Planned", "none_recorded": "No regular medicines recorded"},
+      "diagnosis": {"current": "Current", "stopped": "Resolved", "suspected": "Suspected", "family_history": "Family history"},
+      "operation": {"current": "Done", "planned": "Planned"}
+    },
+    "flag": {
+      "unverified": "Not verified against the source",
+      "conflict": "Hospitals disagree",
+      "missing_dose": "Dose not recorded",
+      "possible_missed": "Possibly missed",
+      "dose_changed": "Dose changed",
+      "unknown_name": "Unknown drug name"
+    }
+  }
+}
