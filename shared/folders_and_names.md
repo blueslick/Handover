@@ -78,7 +78,7 @@ Add a short suffix only if you rerun the same thing on the same day: `20261115-v
 
 | Folder | File names | Notes |
 | --- | --- | --- |
-| `extracted/<run_id>/` | `P014_A.json`, plus `P014_A.raw.txt` (the model's exact reply) | Never edited after it's written. Retry is saved as `P014_A.attempt2.json` |
+| `extracted/<run_id>/` | `P014_A.json`, plus `P014_A.raw.txt` (the model's exact reply), `P014_A.call.json` (model, settings sent, tokens, fingerprints of the record and prompt) and one `usage.csv` per run (tokens per call) | Never edited after it's written. Retry is saved as `P014_A.attempt2.json` (and `.attempt2.raw.txt`, `.attempt2.call.json`). `.raw.txt` and `.call.json` are written by `pipeline/tool/saved_calls.py` (T20); `usage.csv` is rebuilt by `saved_calls.py usage <run_id>` |
 | `checked/<run_id>/` | `P014_A.json` | Same shape as extracted, after brand conversion and quote checks |
 | `compiled/<run_id>/` | `P014.json`, plus `facts.jsonl` and `index.json` | Compiled shape, `kind: compiled`. The two extra files are rebuilt by `store.py build` (shared/store_layout.md) |
 | `omission/<run_id>/` | `P014.json` | Possible-missed flags |
