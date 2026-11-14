@@ -1,0 +1,16 @@
+# Secrets: the API key lives here and must never be committed
+.env
+
+# The raw Synthea download (58 MB). Each person downloads it; see pipeline/data/README.md
+pipeline/data/synthea_raw/
+
+# Python
+__pycache__/
+.venv/
+
+# App
+app/node_modules/
+app/.next/
+
+# macOS
+.DS_Store
