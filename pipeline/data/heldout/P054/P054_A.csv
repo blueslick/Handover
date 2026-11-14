@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P054,"Larson, Justin",1993-01-07,M,2020-08-02,ALLERGY,No known allergies,,,,,
+P054,"Larson, Justin",1993-01-07,M,2020-08-02,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Active,2020-08-02,
+P054,"Larson, Justin",1993-01-07,M,2020-08-02,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2017-06-09,
+P054,"Larson, Justin",1993-01-07,M,2020-08-02,MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2017-11-10,

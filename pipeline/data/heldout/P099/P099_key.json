@@ -1,0 +1,270 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P099",
+  "run_id": null,
+  "built_from": [
+    "P099_A.csv",
+    "P099_B.txt",
+    "P099_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P099-F01",
+      "patient_id": "P099",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis, hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "He is allergic to aspirin, which causes anaphylaxis and hives.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-06-16",
+          "quote": "- Disprin (anaphylaxis, hives)",
+          "file": "P099_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "He is allergic to aspirin, which causes anaphylaxis and hives.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F02",
+      "patient_id": "P099",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "He is allergic to mould.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-09-06",
+          "quote": "ALLERGY,Mould,,,Active,1973-09-06,",
+          "file": "P099_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-06-16",
+          "quote": "- Mould",
+          "file": "P099_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "He is allergic to mould.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F03",
+      "patient_id": "P099",
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "Actilyse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-07-04",
+      "quote": "1. Actilyse - stopped 04-Jul-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-07-04",
+          "quote": "1. Actilyse - stopped 04-Jul-2020",
+          "file": "P099_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F04",
+      "patient_id": "P099",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-07-04",
+      "quote": "2. Plavix - stopped 04-Jul-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-07-04",
+          "quote": "2. Plavix - stopped 04-Jul-2020",
+          "file": "P099_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F05",
+      "patient_id": "P099",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "naproxen",
+      "dose": "220 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-06-23",
+      "quote": "His naproxen was stopped on 23 June 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-06-23",
+          "quote": "His naproxen was stopped on 23 June 2021.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "220 mg",
+          "frequency": "twice_daily",
+          "hospital": "C",
+          "date": "2021-06-16",
+          "quote": "1. Aleve 220 mg BD"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F06",
+      "patient_id": "P099",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-10",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P099_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "He takes no regular medicines.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F07",
+      "patient_id": "P099",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "His background includes chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1992-07-25",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1992-07-25,",
+          "file": "P099_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-06-16",
+          "quote": "- Chronic sinusitis",
+          "file": "P099_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "His background includes chronic sinusitis.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P099-F08",
+      "patient_id": "P099",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "He has a history of stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-07-04",
+          "quote": "PROBLEM,Stroke,,,Active,2020-07-04,",
+          "file": "P099_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-06-16",
+          "quote": "- Stroke",
+          "file": "P099_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "He has a history of stroke.",
+          "file": "P099_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

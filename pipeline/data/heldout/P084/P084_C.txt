@@ -1,0 +1,37 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BEE MACEJKOVIC
+ ID      : P084
+ DOB     : 28-Aug-1943    Sex: F
+ Date    : 16-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould (runny nose)
+  - Peanut (hives, shortness of breath)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Chronic sinusitis
+  - Hypertension
+  - Miscarriage in first trimester
+  - Hyperlipidemia
+  - Pulmonary emphysema
+  - Chronic pain
+
+[CURRENT MEDICATIONS]
+  1. Zocor 5 mg ON
+
+[DISCONTINUED]
+  1. Percocet - stopped 01-Dec-2020
+  2. Nurofen - stopped 28-Feb-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

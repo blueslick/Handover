@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DINO HUEL
+ ID      : P029
+ DOB     : 05-Dec-2001    Sex: M
+ Date    : 01-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Nurofen - stopped 28-Dec-2016
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

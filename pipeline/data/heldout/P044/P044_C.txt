@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : AISHA KASSULKE
+ ID      : P044
+ DOB     : 30-Sep-1990    Sex: F
+ Date    : 04-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Disprin
+  - Latex
+
+[PROBLEM LIST]
+  - Hypertension
+  - Pulmonary emphysema
+
+[CURRENT MEDICATIONS]
+  1. Seretide BD
+  2. Percocet PRN
+  3. Panadol 325 mg PRN
+  4. Hydrodiuril 25 mg OD
+  5. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Evra - stopped 03-Feb-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

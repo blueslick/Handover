@@ -1,0 +1,34 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JENNIE LEUSCHKE
+ ID      : P037
+ DOB     : 10-Aug-1974    Sex: F
+ Date    : 13-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Cow's milk (diarrhoea, hives)
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Zestril
+  - Mould
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Seizure disorder
+  - Epilepsy
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Ventolin 90 mcg PRN
+  3. Yaz OD
+  4. Cozaar 25 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

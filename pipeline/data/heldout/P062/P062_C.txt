@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GERI PADBERG
+ ID      : P062
+ DOB     : 18-Nov-1944    Sex: F
+ Date    : 28-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Chronic intractable migraine without aura
+  - Chronic pain
+  - Impacted molars
+  - Drug overdose
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Zocor 10 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

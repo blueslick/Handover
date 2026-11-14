@@ -1,0 +1,47 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : TERRILYN MURPHY
+ ID      : P034
+ DOB     : 02-Apr-1973    Sex: F
+ Date    : 12-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Disprin (abdominal pain)
+  - Bee venom (skin rash)
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Mould (runny nose)
+  - Peanut (hives, swelling (angioedema))
+  - Tree nuts (hives, swelling (angioedema))
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Hypertension
+  - Diabetes
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Hyperglycemia
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Chronic sinusitis
+  - Neuropathy due to type 2 diabetes mellitus
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Glucophage XR 500 mg OD
+  2. Camila 0.35 mg OD
+  3. Hydrodiuril 25 mg OD
+  4. Zocor 10 mg ON
+  5. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. NuvaRing - stopped 16-May-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

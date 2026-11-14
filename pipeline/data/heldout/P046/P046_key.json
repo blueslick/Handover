@@ -1,0 +1,152 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P046",
+  "run_id": null,
+  "built_from": [
+    "P046_A.csv",
+    "P046_B.txt",
+    "P046_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P046-F01",
+      "patient_id": "P046",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-15",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-08-21",
+          "quote": "- NKA",
+          "file": "P046_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-08-01",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P046_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-15",
+          "quote": "He has no known allergies.",
+          "file": "P046_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P046-F02",
+      "patient_id": "P046",
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-09-03",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2019-09-03,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-09-03",
+          "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2019-09-03,",
+          "file": "P046_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2019-08-21",
+          "quote": "1. NyQuil ON"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P046-F03",
+      "patient_id": "P046",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-15",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-01",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P046_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-15",
+          "quote": "He takes no regular medicines.",
+          "file": "P046_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P046-F04",
+      "patient_id": "P046",
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis",
+      "name_as_written": "perennial allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-15",
+      "quote": "He is known to have perennial allergic rhinitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-10-22",
+          "quote": "PROBLEM,Perennial allergic rhinitis,,,Active,2015-10-22,",
+          "file": "P046_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2019-08-21",
+          "quote": "- Perennial allergic rhinitis",
+          "file": "P046_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-15",
+          "quote": "He is known to have perennial allergic rhinitis.",
+          "file": "P046_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

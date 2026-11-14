@@ -1,0 +1,36 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ALLEN FERRY
+ ID      : P098
+ DOB     : 31-Dec-1940    Sex: M
+ Date    : 29-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hives, skin rash)
+  - Peanut (anaphylaxis, hives)
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Hypertension
+  - Anemia
+  - Prediabetes
+  - Opioid abuse
+  - Atrial Fibrillation
+  - Carcinoma in situ of prostate
+  - Neoplasm of prostate
+  - Chronic intractable migraine without aura
+  - Alzheimer's disease
+
+[CURRENT MEDICATIONS]
+  1. Lanoxin 0.125 mg OD
+  2. Reminyl 4 mg BD
+  3. Isoptin 40 mg TDS
+  4. Coumadin 5 mg OD
+  5. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

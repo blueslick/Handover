@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,ALLERGY,No known allergies,,,,,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,PROBLEM,Miscarriage in first trimester,,,Active,1973-07-15,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,PROBLEM,Atrial Fibrillation,,,Active,2005-09-18,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2020-12-14,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,MEDICATION,Digoxin,0.25 mg,once daily,Active,2021-08-12,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,MEDICATION,Salbutamol,90 mcg,as needed,Active,2020-12-14,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,MEDICATION,Verapamil,40 mg,three times daily,Active,2020-12-14,
+P091,"McLaughlin, Nita",1932-09-18,F,2021-08-12,MEDICATION,Warfarin,5 mg,once daily,Active,2020-12-14,

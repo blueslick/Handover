@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,ALLERGY,No known allergies,,,,,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,PROBLEM,Osteoarthritis of hip,,,Active,1985-02-23,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,PROBLEM,Hyperlipidemia,,,Active,1994-11-04,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,PROBLEM,Fibromyalgia,,,Active,2014-02-02,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,PROBLEM,Atrial Fibrillation,,,Active,2015-02-27,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-04-02,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-04-02,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-04-02,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,MEDICATION,Verapamil,40 mg,three times daily,Active,2021-04-02,
+P066,"Smitham, Frances",1938-09-30,M,2021-05-17,MEDICATION,Warfarin,2.5 mg,once daily,Active,2021-05-17,

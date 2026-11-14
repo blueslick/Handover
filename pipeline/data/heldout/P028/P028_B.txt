@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Ernesto Jaramillo
+Hospital ID: P028
+Date of birth: 17 June 1969
+Date of visit: 11 October 2020
+
+Dear Doctor,
+
+I reviewed this 51-year-old man in the medical clinic today.
+
+He is allergic to ibuprofen, which causes hay fever symptoms. He is allergic to lisinopril.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

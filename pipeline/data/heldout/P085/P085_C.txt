@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : EUSTOLIA BARTON
+ ID      : P085
+ DOB     : 15-Jan-2011    Sex: F
+ Date    : 17-Mar-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hives, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Latex (swelling (angioedema), hives)
+  - Mould (sneezing, skin rash)
+  - Penicillin (hives)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Perennial allergic rhinitis
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

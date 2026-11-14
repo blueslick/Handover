@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,ALLERGY,Lisinopril,,,Active,1951-06-14,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,ALLERGY,Shellfish,,,Active,1951-06-14,swelling (angioedema); skin rash
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Hypertension,,,Active,1968-02-02,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Opioid abuse,,,Active,1970-02-13,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Prediabetes,,,Active,2001-08-11,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Anemia,,,Active,2003-08-23,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Chronic sinusitis,,,Active,2005-10-19,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Carcinoma in situ of prostate,,,Active,2014-10-25,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,PROBLEM,Neoplasm of prostate,,,Active,2014-10-25,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,MEDICATION,Paracetamol,325 mg,as needed,Active,2020-11-28,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-08,
+P096,"Gaylord, Kirk",1949-12-09,M,2021-11-08,MEDICATION,Losartan,25 mg,once daily,Active,2020-11-28,

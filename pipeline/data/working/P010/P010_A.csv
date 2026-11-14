@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P010,"Kovacek, Alexander",1977-12-09,M,2018-07-04,ALLERGY,No known allergies,,,,,
+P010,"Kovacek, Alexander",1977-12-09,M,2018-07-04,PROBLEM,Hypertension,,,Active,1996-02-02,
+P010,"Kovacek, Alexander",1977-12-09,M,2018-07-04,MEDICATION,Ibuprofen,200 mg,as needed,Active,2018-07-04,

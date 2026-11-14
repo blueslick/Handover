@@ -1,0 +1,650 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P048",
+  "run_id": null,
+  "built_from": [
+    "P048_A.csv",
+    "P048_B.txt",
+    "P048_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P048-F01",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Animal dander (hay fever symptoms, skin rash)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms and skin rash.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Animal dander (hay fever symptoms, skin rash)",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Animal dander,,,Active,2007-02-02,hay fever symptoms; skin rash"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F02",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Disprin",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Aspirin,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Disprin",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F03",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Bee venom",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Bee venom,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to bee venom.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Bee venom",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F04",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Grass pollen,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Grass pollen",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F05",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,House dust mite,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- House dust mite",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F06",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Mould",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Mould,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to mould.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Mould",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F07",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema), cough",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Peanut (swelling (angioedema), cough)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to peanut, which causes swelling (angioedema) and cough.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Peanut (swelling (angioedema), cough)",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Peanut,,,Active,2007-02-02,swelling (angioedema); cough"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F08",
+      "patient_id": "P048",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-02-02",
+          "quote": "ALLERGY,Tree pollen,,,Active,2007-02-02,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is allergic to tree pollen.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Tree pollen",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F09",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "1. Norvasc 5 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She continues on amlodipine 5 mg once a day.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "1. Norvasc 5 mg OD",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F10",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "2. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is on clopidogrel 75 mg once a day.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F11",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-15",
+      "quote": "She is on fluticasone 44 mcg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is on fluticasone 44 mcg twice a day.",
+          "file": "P048_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F12",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "4. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She takes nitroglycerin 0.4 mg when needed.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "4. Nitrolingual 0.4 mg PRN",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F13",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "norethisterone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-03-08",
+      "quote": "Her norethisterone was stopped on 8 March 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-03-08",
+          "quote": "Her norethisterone was stopped on 8 March 2021.",
+          "file": "P048_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F14",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Ventolin",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "3. Ventolin 90 mcg PRN",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She continues on salbutamol 90 mcg when needed.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "3. Ventolin 90 mcg PRN",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F15",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "5. Zocor 20 mg ON",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is on simvastatin 20 mg at night.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "5. Zocor 20 mg ON",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F16",
+      "patient_id": "P048",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-01-01",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-01",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P048_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F17",
+      "patient_id": "P048",
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Childhood asthma",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-10-05",
+          "quote": "PROBLEM,Childhood asthma,,,Active,2010-10-05,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "Her background includes childhood asthma.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Childhood asthma",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F18",
+      "patient_id": "P048",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2016-03-22",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2016-03-22,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "Her background includes coronary heart disease.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Coronary Heart Disease",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P048-F19",
+      "patient_id": "P048",
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis with seasonal variation",
+      "name_as_written": "Perennial allergic rhinitis with seasonal variation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Perennial allergic rhinitis with seasonal variation",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-31",
+          "quote": "PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2010-01-31,",
+          "file": "P048_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "She is known to have perennial allergic rhinitis with seasonal variation.",
+          "file": "P048_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Perennial allergic rhinitis with seasonal variation",
+          "file": "P048_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

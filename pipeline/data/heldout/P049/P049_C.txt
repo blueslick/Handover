@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : OLEN O'REILLY
+ ID      : P049
+ DOB     : 16-Jan-1996    Sex: M
+ Date    : 02-Nov-2018
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic pain
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

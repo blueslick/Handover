@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,ALLERGY,No known allergies,,,,,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Hydrocodone,5 mg,twice daily,Active,2021-04-30,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-03-29,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Tramadol,50 mg,as needed,Active,2021-03-29,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Medroxyprogesterone,150 mg,every 3 months,Discontinued,2020-03-30,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2020-12-15,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-04-05,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Norgestimate / ethinyl estradiol,,once daily,Discontinued,2018-04-10,
+P078,"Uribe, Emilia",1993-05-10,F,2021-04-30,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2017-04-15,

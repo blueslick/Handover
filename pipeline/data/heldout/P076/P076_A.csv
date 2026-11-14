@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P076,"Morar, Arron",2002-06-24,M,2021-11-15,ALLERGY,No known allergies,,,,,
+P076,"Morar, Arron",2002-06-24,M,2021-11-15,PROBLEM,Appendicitis,,,Active,2005-11-18,
+P076,"Morar, Arron",2002-06-24,M,2021-11-15,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-08-30,
+P076,"Morar, Arron",2002-06-24,M,2021-11-15,MEDICATION,Oxycodone,10 mg,twice daily,Active,2021-11-15,
+P076,"Morar, Arron",2002-06-24,M,2021-11-15,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-08-30,

@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : TRINH SANFORD
+ ID      : P083
+ DOB     : 04-Dec-1924    Sex: F
+ Date    : 03-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Peanut
+  - Penicillin (skin rash, hives)
+
+[PROBLEM LIST]
+  - Hypertension
+  - Anemia
+  - Prediabetes
+  - Osteoarthritis of hip
+  - Miscarriage in first trimester
+  - Tubal pregnancy
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+  2. Hydrodiuril 25 mg OD
+  3. Zocor 10 mg ON
+  4. Norvasc 2.5 mg OD
+  5. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

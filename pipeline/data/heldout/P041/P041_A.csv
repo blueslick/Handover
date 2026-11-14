@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,ALLERGY,No known allergies,,,,,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Anemia,,,Active,1989-02-10,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Prediabetes,,,Active,1989-02-10,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Primary fibromyalgia syndrome,,,Active,1993-05-23,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Chronic sinusitis,,,Active,1994-08-31,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Idiopathic atrophic hypothyroidism,,,Active,1996-09-16,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,PROBLEM,Polyp of colon,,,Active,2018-01-22,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-07-03,
+P041,"Heathcote, Brett",1943-01-22,F,2021-10-30,MEDICATION,Duloxetine,20 mg,once daily,Discontinued,2020-08-15,

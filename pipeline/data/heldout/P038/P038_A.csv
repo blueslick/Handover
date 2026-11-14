@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P038,"Botsford, Von",2012-05-05,M,2020-09-26,ALLERGY,No known allergies,,,,,
+P038,"Botsford, Von",2012-05-05,M,2020-09-26,PROBLEM,Coronary Heart Disease,,,Active,2020-05-02,
+P038,"Botsford, Von",2012-05-05,M,2020-09-26,MEDICATION,No current medications,,,,,

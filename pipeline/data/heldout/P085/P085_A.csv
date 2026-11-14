@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,Animal dander,,,Active,2011-09-13,hives; skin rash
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,Grass pollen,,,Active,2011-09-13,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,House dust mite,,,Active,2011-09-13,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,Latex,,,Active,2011-09-13,swelling (angioedema); hives
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,Mould,,,Active,2011-09-13,sneezing; skin rash
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,ALLERGY,Tree pollen,,,Active,2011-09-13,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,PROBLEM,Atopic dermatitis,,,Active,2011-08-30,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,PROBLEM,Perennial allergic rhinitis,,,Active,2014-07-27,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,PROBLEM,Chronic sinusitis,,,Active,2019-12-13,
+P085,"Barton, Eustolia",2011-01-15,F,2021-09-04,MEDICATION,No current medications,,,,,

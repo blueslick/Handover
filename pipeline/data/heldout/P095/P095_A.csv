@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,ALLERGY,No known allergies,,,,,
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,PROBLEM,Hypertension,,,Active,2017-05-15,
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,PROBLEM,Severe anxiety (panic) (finding,,,Active,2021-06-07,
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,MEDICATION,Hydrochlorothiazide,12.5 mg,once daily,Active,2021-09-28,
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-06-08,
+P095,"Mann, Erin",1999-03-22,M,2021-09-28,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-06-08,

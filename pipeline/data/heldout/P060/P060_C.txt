@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JANIECE WHITE
+ ID      : P060
+ DOB     : 12-Jul-1975    Sex: F
+ Date    : 05-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

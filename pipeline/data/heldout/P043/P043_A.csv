@@ -1,0 +1,17 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Animal dander,,,Active,1995-07-11,cough; hives
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Egg,,,Active,1995-07-11,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Fish,,,Active,1995-07-11,shortness of breath; skin rash
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Grass pollen,,,Active,1995-07-11,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,House dust mite,,,Active,1995-07-11,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Mould,,,Active,1995-07-11,skin rash
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Shellfish,,,Active,1995-07-11,skin rash; shortness of breath
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Tree pollen,,,Active,1995-07-11,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,ALLERGY,Wheat,,,Active,1995-07-11,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,PROBLEM,Hypertension,,,Active,2013-11-29,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,PROBLEM,Miscarriage in first trimester,,,Active,2015-07-31,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,PROBLEM,Chronic intractable migraine without aura,,,Active,2021-05-28,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-01-08,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-01-08,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,MEDICATION,Paracetamol / oxycodone,,as needed,Discontinued,2021-06-04,
+P043,"Orn, Magdalene",1994-09-30,F,2021-09-06,MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2021-08-09,

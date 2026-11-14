@@ -1,0 +1,212 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P067",
+  "run_id": null,
+  "built_from": [
+    "P067_A.csv",
+    "P067_B.txt",
+    "P067_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P067-F01",
+      "patient_id": "P067",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-16",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-14",
+          "quote": "He is allergic to grass pollen.",
+          "file": "P067_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-16",
+          "quote": "- Grass pollen",
+          "file": "P067_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P067-C1"
+    },
+    {
+      "fact_id": "P067-F02",
+      "patient_id": "P067",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2017-03-17",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-03-17",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P067_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P067-C1"
+    },
+    {
+      "fact_id": "P067-F03",
+      "patient_id": "P067",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2017-03-31",
+      "quote": "1. Panadol - stopped 31-Mar-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-03-31",
+          "quote": "1. Panadol - stopped 31-Mar-2017",
+          "file": "P067_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "A",
+          "date": "2017-03-17",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2017-03-17,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P067-F04",
+      "patient_id": "P067",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-16",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-14",
+          "quote": "He takes no regular medicines.",
+          "file": "P067_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-16",
+          "quote": "Nil regular medications",
+          "file": "P067_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P067-F05",
+      "patient_id": "P067",
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "Chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-16",
+      "quote": "- Chronic pain",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-09-10",
+          "quote": "PROBLEM,Chronic pain,,,Active,2001-09-10,",
+          "file": "P067_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-14",
+          "quote": "His background includes chronic pain.",
+          "file": "P067_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-16",
+          "quote": "- Chronic pain",
+          "file": "P067_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P067-F06",
+      "patient_id": "P067",
+      "type": "diagnosis",
+      "name": "drug overdose",
+      "name_as_written": "Drug overdose",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-16",
+      "quote": "- Drug overdose",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-01-11",
+          "quote": "PROBLEM,Drug overdose,,,Active,2012-01-11,",
+          "file": "P067_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-14",
+          "quote": "He has a history of drug overdose.",
+          "file": "P067_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-16",
+          "quote": "- Drug overdose",
+          "file": "P067_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

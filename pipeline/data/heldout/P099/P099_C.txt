@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ISIAH JACOBS
+ ID      : P099
+ DOB     : 19-Sep-1970    Sex: M
+ Date    : 16-Jun-2021
+========================================================
+
+[ALLERGIES]
+  - Disprin (anaphylaxis, hives)
+  - Mould
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Stroke
+
+[CURRENT MEDICATIONS]
+  1. Aleve 220 mg BD
+
+[DISCONTINUED]
+  1. Actilyse - stopped 04-Jul-2020
+  2. Plavix - stopped 04-Jul-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

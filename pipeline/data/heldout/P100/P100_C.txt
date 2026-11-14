@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BENNY TILLMAN
+ ID      : P100
+ DOB     : 03-Jan-1969    Sex: M
+ Date    : 31-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Diabetes
+  - Hypertension
+  - Neuropathy due to type 2 diabetes mellitus
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

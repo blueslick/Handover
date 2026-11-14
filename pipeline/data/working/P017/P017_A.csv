@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,ALLERGY,No known allergies,,,,,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,PROBLEM,Chronic intractable migraine without aura,,,Active,1998-02-20,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,PROBLEM,Coronary Heart Disease,,,Active,2019-08-07,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-08-18,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-08-18,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-08-18,
+P017,"Nikolaus, Antony",1955-05-18,M,2021-11-07,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-08-18,

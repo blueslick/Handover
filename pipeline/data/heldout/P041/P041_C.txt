@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BRETT HEATHCOTE
+ ID      : P041
+ DOB     : 22-Jan-1943    Sex: F
+ Date    : 28-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Primary fibromyalgia syndrome
+  - Chronic sinusitis
+  - Idiopathic atrophic hypothyroidism
+  - Polyp of colon
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P046,"Sanford, Valentine",2010-08-11,M,2021-08-01,ALLERGY,No known allergies,,,,,
+P046,"Sanford, Valentine",2010-08-11,M,2021-08-01,PROBLEM,Perennial allergic rhinitis,,,Active,2015-10-22,
+P046,"Sanford, Valentine",2010-08-11,M,2021-08-01,MEDICATION,No current medications,,,,,
+P046,"Sanford, Valentine",2010-08-11,M,2021-08-01,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2019-09-03,

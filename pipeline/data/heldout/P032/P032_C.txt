@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JACKSON VEUM
+ ID      : P032
+ DOB     : 27-Mar-1937    Sex: M
+ Date    : 18-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Alzheimer's disease
+
+[CURRENT MEDICATIONS]
+  1. Namzaric OD
+  2. Hydrodiuril 25 mg OD
+  3. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Reminyl - stopped 15-Nov-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

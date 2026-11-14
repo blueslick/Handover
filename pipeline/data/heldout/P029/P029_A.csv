@@ -1,0 +1,3 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P029,"Huel, Dino",2001-12-05,M,2021-09-17,ALLERGY,No known allergies,,,,,
+P029,"Huel, Dino",2001-12-05,M,2021-09-17,MEDICATION,No current medications,,,,,

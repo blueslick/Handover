@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Animal dander,,,Active,2000-10-05,cough; hay fever symptoms
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Bee venom,,,Active,2000-10-05,skin rash
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Grass pollen,,,Active,2000-10-05,
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,House dust mite,,,Active,2000-10-05,
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Lisinopril,,,Active,2000-10-05,cough; high potassium
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Mould,,,Active,2000-10-05,
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Peanut,,,Active,2000-10-05,anaphylaxis; hives
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Shellfish,,,Active,2000-10-05,anaphylaxis; swelling (angioedema)
+P082,"King, Heath",2000-05-04,M,2018-11-05,ALLERGY,Tree nuts,,,Active,2000-10-05,anaphylaxis; cough
+P082,"King, Heath",2000-05-04,M,2018-11-05,MEDICATION,Paracetamol,325 mg,as needed,Active,2018-11-05,

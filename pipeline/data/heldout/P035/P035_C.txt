@@ -1,0 +1,38 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : EMILIE NADER
+ ID      : P035
+ DOB     : 06-Nov-1966    Sex: F
+ Date    : 06-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Disprin (abdominal pain)
+  - Grass pollen
+  - House dust mite
+  - Latex
+  - Mould (sneezing, skin rash)
+  - Peanut (hives, swelling (angioedema))
+  - Penicillin (skin rash, swelling (angioedema))
+  - Wheat
+
+[PROBLEM LIST]
+  - Hypertension
+  - Prediabetes
+  - Anemia
+  - Sepsis
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Vancocin 750 mg BD
+  3. Levophed 4 mg STAT
+  4. Azactam 2 g TDS
+  5. Ventolin 90 mcg PRN
+  6. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

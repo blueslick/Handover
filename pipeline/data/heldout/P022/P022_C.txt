@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DENIS ABSHIRE
+ ID      : P022
+ DOB     : 26-Nov-1958    Sex: M
+ Date    : 28-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 5 mg OD
+  2. Plavix 37.5 mg OD
+  3. Nitrolingual 0.4 mg PRN
+  4. Zocor 20 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

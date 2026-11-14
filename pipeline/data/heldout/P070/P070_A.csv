@@ -1,0 +1,3 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P070,"Ledner, Barney",2002-04-24,M,2021-10-06,ALLERGY,Aspirin,,,Active,2004-09-28,
+P070,"Ledner, Barney",2002-04-24,M,2021-10-06,MEDICATION,No current medications,,,,,

@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MAN HOWELL
+ ID      : P067
+ DOB     : 09-Jun-1987    Sex: M
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Grass pollen
+
+[PROBLEM LIST]
+  - Chronic pain
+  - Drug overdose
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Panadol - stopped 31-Mar-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

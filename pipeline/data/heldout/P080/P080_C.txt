@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : FRANCISCA HAMMES
+ ID      : P080
+ DOB     : 01-Mar-2005    Sex: F
+ Date    : 10-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Yaz OD
+
+[DISCONTINUED]
+  1. NyQuil - stopped 04-May-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

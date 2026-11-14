@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P042,"Douglas, Rodrick",1998-09-26,M,2021-10-31,ALLERGY,No known allergies,,,,,
+P042,"Douglas, Rodrick",1998-09-26,M,2021-10-31,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-09-18,
+P042,"Douglas, Rodrick",1998-09-26,M,2021-10-31,MEDICATION,Tramadol,50 mg,as needed,Active,2021-09-18,

@@ -1,0 +1,157 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P010",
+  "run_id": null,
+  "built_from": [
+    "P010_A.csv",
+    "P010_B.txt",
+    "P010_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P010-F01",
+      "patient_id": "P010",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-07-04",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P010_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "He has no known allergies.",
+          "file": "P010_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- NKA",
+          "file": "P010_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P010-F02",
+      "patient_id": "P010",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "1. Hydrodiuril 25 mg OD",
+          "file": "P010_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "He takes hydrochlorothiazide 12.5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P010-F03",
+      "patient_id": "P010",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2018-07-08",
+      "quote": "His ibuprofen was stopped on 8 July 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-07-08",
+          "quote": "His ibuprofen was stopped on 8 July 2018.",
+          "file": "P010_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "200 mg",
+          "frequency": "as_needed",
+          "hospital": "A",
+          "date": "2018-07-04",
+          "quote": "MEDICATION,Ibuprofen,200 mg,as needed,Active,2018-07-04,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P010-F04",
+      "patient_id": "P010",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-02-02",
+          "quote": "PROBLEM,Hypertension,,,Active,1996-02-02,",
+          "file": "P010_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "His background includes hypertension.",
+          "file": "P010_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Hypertension",
+          "file": "P010_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

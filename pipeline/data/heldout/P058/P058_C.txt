@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ZELDA ERNSER
+ ID      : P058
+ DOB     : 15-Dec-1960    Sex: F
+ Date    : 12-Sep-2018
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Osteoarthritis of hip
+
+[CURRENT MEDICATIONS]
+  1. Pen-Vee K 500 mg QID
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

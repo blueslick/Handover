@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,ALLERGY,No known allergies,,,,,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Diabetes,,,Active,2017-01-27,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Hypertension,,,Active,2017-01-27,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,2017-01-27,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Hypertriglyceridemia,,,Active,2018-02-02,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Metabolic syndrome X,,,Active,2018-02-02,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Chronic kidney disease stage 1,,,Active,2020-01-10,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,PROBLEM,Diabetic renal disease,,,Active,2020-01-10,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-08-13,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-08-13,
+P100,"Tillman, Benny",1969-01-03,M,2021-11-16,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-08-13,

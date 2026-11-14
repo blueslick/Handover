@@ -1,0 +1,37 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MAGDALENE ORN
+ ID      : P043
+ DOB     : 30-Sep-1994    Sex: F
+ Date    : 12-May-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hives)
+  - Egg
+  - Fish (shortness of breath, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould (skin rash)
+  - Shellfish (skin rash, shortness of breath)
+  - Wheat
+
+[PROBLEM LIST]
+  - Hypertension
+  - Miscarriage in first trimester
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 2.5 mg OD
+  2. Zestril 10 mg OD
+
+[DISCONTINUED]
+  1. Evra - stopped 13-Aug-2017
+  2. Aleve - stopped 19-May-2019
+  3. Furadantin - stopped 09-Feb-2019
+  4. Pyridium - stopped 09-Feb-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

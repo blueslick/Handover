@@ -1,0 +1,19 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Animal dander,,,Active,1943-12-21,hay fever symptoms; skin rash
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Grass pollen,,,Active,1943-12-21,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,House dust mite,,,Active,1943-12-21,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Latex,,,Active,1943-12-21,hives
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Mould,,,Active,1943-12-21,runny nose
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Peanut,,,Active,1943-12-21,hives; shortness of breath
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,ALLERGY,Tree pollen,,,Active,1943-12-21,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Atopic dermatitis,,,Active,1943-12-04,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Chronic sinusitis,,,Active,1952-07-02,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Hypertension,,,Active,1961-10-21,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Miscarriage in first trimester,,,Active,1992-02-15,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Hyperlipidemia,,,Active,1992-04-11,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Pulmonary emphysema,,,Active,2001-06-02,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,PROBLEM,Chronic pain,,,Active,2014-07-30,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-09-26,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-09,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-26,
+P084,"Macejkovic, Bee",1943-08-28,F,2021-11-09,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-26,

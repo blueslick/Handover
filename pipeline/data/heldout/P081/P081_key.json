@@ -1,0 +1,391 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P081",
+  "run_id": null,
+  "built_from": [
+    "P081_A.csv",
+    "P081_B.txt",
+    "P081_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P081-F01",
+      "patient_id": "P081",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Animal dander (hay fever symptoms, skin rash)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms and skin rash.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Animal dander (hay fever symptoms, skin rash)",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1980-03-10",
+          "quote": "ALLERGY,Animal dander,,,Active,1980-03-10,hay fever symptoms; skin rash"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F02",
+      "patient_id": "P081",
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "co-trimoxazole",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-19",
+      "quote": "She is allergic to co-trimoxazole, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1980-03-10",
+          "quote": "ALLERGY,Co-trimoxazole,,,Active,1980-03-10,skin rash",
+          "file": "P081_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She is allergic to co-trimoxazole, which causes skin rash.",
+          "file": "P081_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F03",
+      "patient_id": "P081",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting, hay fever symptoms",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Fish (vomiting, hay fever symptoms)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She is allergic to fish, which causes vomiting and hay fever symptoms.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Fish (vomiting, hay fever symptoms)",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1980-03-10",
+          "quote": "ALLERGY,Fish,,,Active,1980-03-10,vomiting; hay fever symptoms"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F04",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "2. Norvasc 5 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She continues on amlodipine 5 mg once a day.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "2. Norvasc 5 mg OD",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F05",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "3. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She is on clopidogrel 75 mg once a day.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "3. Plavix 75 mg OD",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F06",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "etonogestrel and ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-01-09",
+      "quote": "Her etonogestrel and ethinyl estradiol was stopped on 9 January 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-01-09",
+          "quote": "Her etonogestrel and ethinyl estradiol was stopped on 9 January 2021.",
+          "file": "P081_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F07",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "5. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She takes nitroglycerin 0.4 mg when needed.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "5. Nitrolingual 0.4 mg PRN",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F08",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Jolivette",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "4. Jolivette 0.35 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She is on norethisterone 0.35 mg once a day.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "4. Jolivette 0.35 mg OD",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F09",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "1. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She continues on paracetamol 325 mg when needed.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "1. Panadol 325 mg PRN",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F10",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-19",
+      "quote": "She takes simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She takes simvastatin 20 mg at night.",
+          "file": "P081_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F11",
+      "patient_id": "P081",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2020-11-04",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-04",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P081_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P081-F12",
+      "patient_id": "P081",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1980-06-25",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,1980-06-25,",
+          "file": "P081_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-19",
+          "quote": "She has a history of coronary heart disease.",
+          "file": "P081_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Coronary Heart Disease",
+          "file": "P081_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

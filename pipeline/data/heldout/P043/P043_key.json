@@ -1,0 +1,672 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P043",
+  "run_id": null,
+  "built_from": [
+    "P043_A.csv",
+    "P043_B.txt",
+    "P043_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P043-F01",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to animal dander, which causes cough and hives.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Animal dander (cough, hives)",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to animal dander, which causes cough and hives.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Animal dander,,,Active,1995-07-11,cough; hives"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F02",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to egg.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Egg,,,Active,1995-07-11,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Egg",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to egg.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F03",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "shortness of breath, skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to fish, which causes shortness of breath and skin rash.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Fish (shortness of breath, skin rash)",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to fish, which causes shortness of breath and skin rash.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Fish,,,Active,1995-07-11,shortness of breath; skin rash"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F04",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Grass pollen,,,Active,1995-07-11,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Grass pollen",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F05",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to house dust mite.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,House dust mite,,,Active,1995-07-11,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- House dust mite",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F06",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to mould, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Mould,,,Active,1995-07-11,skin rash",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Mould (skin rash)",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to mould, which causes skin rash.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F07",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash, shortness of breath",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to shellfish, which causes skin rash and shortness of breath.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Shellfish (skin rash, shortness of breath)",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to shellfish, which causes skin rash and shortness of breath.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Shellfish,,,Active,1995-07-11,skin rash; shortness of breath"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F08",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to tree pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Tree pollen,,,Active,1995-07-11,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to tree pollen.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F09",
+      "patient_id": "P043",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-07-11",
+          "quote": "ALLERGY,Wheat,,,Active,1995-07-11,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Wheat",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is allergic to wheat.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F10",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-05-12",
+      "quote": "1. Norvasc 2.5 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-08",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-01-08,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "1. Norvasc 2.5 mg OD",
+          "file": "P043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F11",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Etonogestrel",
+      "dose": "68 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-08-09",
+      "quote": "MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2021-08-09,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-09",
+          "quote": "MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2021-08-09,",
+          "file": "P043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F12",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She takes lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-08",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-01-08,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "2. Zestril 10 mg OD",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She takes lisinopril 10 mg once a day.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F13",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Aleve",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-05-19",
+      "quote": "2. Aleve - stopped 19-May-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-05-19",
+          "quote": "2. Aleve - stopped 19-May-2019",
+          "file": "P043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F14",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "nitrofurantoin",
+      "name_as_written": "Furadantin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-02-09",
+      "quote": "3. Furadantin - stopped 09-Feb-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-02-09",
+          "quote": "3. Furadantin - stopped 09-Feb-2019",
+          "file": "P043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F15",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "norelgestromin / ethinyl estradiol",
+      "name_as_written": "Evra",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2017-08-13",
+      "quote": "1. Evra - stopped 13-Aug-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-08-13",
+          "quote": "1. Evra - stopped 13-Aug-2017",
+          "file": "P043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F16",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-06-04",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Discontinued,2021-06-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-06-04",
+          "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Discontinued,2021-06-04,",
+          "file": "P043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F17",
+      "patient_id": "P043",
+      "type": "medicine",
+      "name": "phenazopyridine",
+      "name_as_written": "Pyridium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-02-09",
+      "quote": "4. Pyridium - stopped 09-Feb-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-02-09",
+          "quote": "4. Pyridium - stopped 09-Feb-2019",
+          "file": "P043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F18",
+      "patient_id": "P043",
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "Her background includes chronic intractable migraine without aura.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-28",
+          "quote": "PROBLEM,Chronic intractable migraine without aura,,,Active,2021-05-28,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "Her background includes chronic intractable migraine without aura.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F19",
+      "patient_id": "P043",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2013-11-29",
+          "quote": "PROBLEM,Hypertension,,,Active,2013-11-29,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Hypertension",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She is known to have hypertension.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P043-F20",
+      "patient_id": "P043",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-29",
+      "quote": "She has a history of miscarriage in first trimester.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-07-31",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,2015-07-31,",
+          "file": "P043_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-12",
+          "quote": "- Miscarriage in first trimester",
+          "file": "P043_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-29",
+          "quote": "She has a history of miscarriage in first trimester.",
+          "file": "P043_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

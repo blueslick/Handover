@@ -1,0 +1,518 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P059",
+  "run_id": null,
+  "built_from": [
+    "P059_A.csv",
+    "P059_B.txt",
+    "P059_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P059-F01",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, hay fever symptoms",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is allergic to animal dander, which causes cough and hay fever symptoms.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Animal dander (cough, hay fever symptoms)",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is allergic to animal dander, which causes cough and hay fever symptoms.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,Animal dander,,,Active,2005-01-01,cough; hay fever symptoms"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F02",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is allergic to egg, which causes hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,Egg,,,Active,2005-01-01,hives",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Egg (hives)",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is allergic to egg, which causes hives.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F03",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,Grass pollen,,,Active,2005-01-01,",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Grass pollen",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F04",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is allergic to house dust mite.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,House dust mite,,,Active,2005-01-01,",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- House dust mite",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F05",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis, swelling (angioedema)",
+      "status": "current",
+      "hospital": "C",
+      "date": "2020-06-20",
+      "quote": "- Latex (anaphylaxis, swelling (angioedema))",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Latex (anaphylaxis, swelling (angioedema))",
+          "file": "P059_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,Latex,,,Active,2005-01-01,anaphylaxis; swelling (angioedema)"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F06",
+      "patient_id": "P059",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is allergic to mould.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-01-01",
+          "quote": "ALLERGY,Mould,,,Active,2005-01-01,",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Mould",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is allergic to mould.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F07",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Natazia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2018-07-14",
+      "quote": "1. Natazia - stopped 14-Jul-2018",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-07-14",
+          "quote": "1. Natazia - stopped 14-Jul-2018",
+          "file": "P059_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F08",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is on fluticasone 44 mcg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is on fluticasone 44 mcg twice a day.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F09",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She continues on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She continues on hydrochlorothiazide 25 mg once a day.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F10",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "levonorgestrel and ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2020-07-03",
+      "quote": "Her levonorgestrel and ethinyl estradiol was stopped on 3 July 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-07-03",
+          "quote": "Her levonorgestrel and ethinyl estradiol was stopped on 3 July 2020.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "daily",
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "1. Levora OD"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F11",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She takes lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She takes lisinopril 10 mg once a day.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F12",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She continues on salbutamol 90 mcg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She continues on salbutamol 90 mcg when needed.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F13",
+      "patient_id": "P059",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-09-01",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-01",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P059_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F14",
+      "patient_id": "P059",
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She has a history of childhood asthma.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2006-09-29",
+          "quote": "PROBLEM,Childhood asthma,,,Active,2006-09-29,",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Childhood asthma",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She has a history of childhood asthma.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F15",
+      "patient_id": "P059",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is known to have hypertension.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P059-F16",
+      "patient_id": "P059",
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis",
+      "name_as_written": "perennial allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is known to have perennial allergic rhinitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-07-29",
+          "quote": "PROBLEM,Perennial allergic rhinitis,,,Active,2007-07-29,",
+          "file": "P059_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-06-20",
+          "quote": "- Perennial allergic rhinitis",
+          "file": "P059_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is known to have perennial allergic rhinitis.",
+          "file": "P059_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

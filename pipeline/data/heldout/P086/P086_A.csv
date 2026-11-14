@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Animal dander,,,Active,2018-01-28,cough; hay fever symptoms
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Cow's milk,,,Active,2018-01-28,swelling (angioedema); hives
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Grass pollen,,,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,House dust mite,,,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Latex,,,Active,2018-01-28,hives
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Mould,,,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Tree pollen,,,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,ALLERGY,Wheat,,,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,PROBLEM,Atopic dermatitis,,,Active,2018-01-08,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,MEDICATION,Fexofenadine,30 mg,twice daily,Active,2018-01-28,
+P086,"Jaskolski, Demetra",2017-02-07,F,2021-07-17,MEDICATION,Epinephrine,0.3 mg,as needed,Active,2018-01-28,

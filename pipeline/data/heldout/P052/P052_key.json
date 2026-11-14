@@ -1,0 +1,438 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P052",
+  "run_id": null,
+  "built_from": [
+    "P052_A.csv",
+    "P052_B.txt",
+    "P052_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P052-F01",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Animal dander (hay fever symptoms, hives)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms and hives.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Animal dander (hay fever symptoms, hives)",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,Animal dander,,,Active,1958-01-20,hay fever symptoms; hives"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F02",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,Grass pollen,,,Active,1958-01-20,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Grass pollen",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F03",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,House dust mite,,,Active,1958-01-20,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- House dust mite",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F04",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Mould (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,Mould,,,Active,1958-01-20,skin rash",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is allergic to mould, which causes skin rash.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Mould (skin rash)",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F05",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "nausea, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Shellfish (nausea, skin rash)",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Shellfish (nausea, skin rash)",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,Shellfish,,,Active,1958-01-20,nausea; skin rash"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F06",
+      "patient_id": "P052",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-01-20",
+          "quote": "ALLERGY,Tree pollen,,,Active,1958-01-20,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is allergic to tree pollen.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Tree pollen",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F07",
+      "patient_id": "P052",
+      "type": "medicine",
+      "name": "alendronic acid",
+      "name_as_written": "Fosamax",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "1. Fosamax 10 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She continues on alendronic acid 10 mg once a day.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "1. Fosamax 10 mg OD",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-03-01",
+          "quote": "MEDICATION,Alendronic acid,5 mg,once daily,Active,2021-03-01,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F08",
+      "patient_id": "P052",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-11-29",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-11-29,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-29",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-11-29,",
+          "file": "P052_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F09",
+      "patient_id": "P052",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1981-11-29",
+          "quote": "PROBLEM,Anemia,,,Active,1981-11-29,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is known to have anemia.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Anemia",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F10",
+      "patient_id": "P052",
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "Osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Osteoporosis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2016-11-20",
+          "quote": "PROBLEM,Osteoporosis,,,Active,2016-11-20,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is known to have osteoporosis.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Osteoporosis",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F11",
+      "patient_id": "P052",
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Polyp of colon",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Polyp of colon",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P052-F12",
+      "patient_id": "P052",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-06",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1981-11-29",
+          "quote": "PROBLEM,Prediabetes,,,Active,1981-11-29,",
+          "file": "P052_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-24",
+          "quote": "She is known to have prediabetes.",
+          "file": "P052_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-06",
+          "quote": "- Prediabetes",
+          "file": "P052_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

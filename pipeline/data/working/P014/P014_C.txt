@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CARROL BOGISICH
+ ID      : P014
+ DOB     : 10-Mar-1981    Sex: M
+ Date    : 29-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 2.5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

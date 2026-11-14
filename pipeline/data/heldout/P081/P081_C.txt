@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JENNY KRAJCIK
+ ID      : P081
+ DOB     : 17-Jan-1979    Sex: F
+ Date    : 15-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Fish (vomiting, hay fever symptoms)
+
+[PROBLEM LIST]
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+  2. Norvasc 5 mg OD
+  3. Plavix 75 mg OD
+  4. Jolivette 0.35 mg OD
+  5. Nitrolingual 0.4 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

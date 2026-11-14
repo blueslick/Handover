@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MICHEAL SHIELDS
+ ID      : P059
+ DOB     : 19-Jul-2003    Sex: F
+ Date    : 20-Jun-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Egg (hives)
+  - Grass pollen
+  - House dust mite
+  - Latex (anaphylaxis, swelling (angioedema))
+  - Mould
+
+[PROBLEM LIST]
+  - Childhood asthma
+  - Perennial allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  1. Levora OD
+
+[DISCONTINUED]
+  1. Natazia - stopped 14-Jul-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

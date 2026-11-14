@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BONITA BERNIER
+ ID      : P011
+ DOB     : 03-Apr-1985    Sex: F
+ Date    : 20-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Omnicef (hives)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,17 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Animal dander,,,Active,1975-12-11,cough; hay fever symptoms
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Cow's milk,,,Active,1975-12-11,diarrhoea; hives
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Grass pollen,,,Active,1975-12-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,House dust mite,,,Active,1975-12-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Latex,,,Active,1975-12-11,hives
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Lisinopril,,,Active,1975-12-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Mould,,,Active,1975-12-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,ALLERGY,Tree pollen,,,Active,1975-12-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,PROBLEM,Seizure disorder,,,Active,1974-11-24,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,PROBLEM,Epilepsy,,,Active,1974-11-25,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,PROBLEM,Hypertension,,,Active,1992-10-03,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-03-13,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-03-13,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Active,2021-01-11,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,MEDICATION,Losartan,25 mg,once daily,Active,2021-03-13,
+P037,"Leuschke, Jennie",1974-08-10,F,2021-08-24,MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2021-01-11,

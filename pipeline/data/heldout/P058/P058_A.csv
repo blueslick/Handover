@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,ALLERGY,No known allergies,,,,,
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,PROBLEM,Miscarriage in first trimester,,,Active,1998-10-29,
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,PROBLEM,Osteoarthritis of hip,,,Active,2011-07-19,
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-10-15,
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-10-15,
+P058,"Ernser, Zelda",1960-12-15,F,2021-11-15,MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2018-09-25,

@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : KIRK GAYLORD
+ ID      : P096
+ DOB     : 09-Dec-1949    Sex: M
+ Date    : 19-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - Shellfish (swelling (angioedema), skin rash)
+
+[PROBLEM LIST]
+  - Hypertension
+  - Opioid abuse
+  - Prediabetes
+  - Anemia
+  - Chronic sinusitis
+  - Carcinoma in situ of prostate
+  - Neoplasm of prostate
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+  2. Hydrodiuril 12.5 mg OD
+  3. Cozaar 25 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

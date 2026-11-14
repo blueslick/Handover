@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P014,"Bogisich, Carrol",1981-03-10,M,2021-09-01,ALLERGY,No known allergies,,,,,
+P014,"Bogisich, Carrol",1981-03-10,M,2021-09-01,PROBLEM,Hypertension,,,Active,1999-05-04,
+P014,"Bogisich, Carrol",1981-03-10,M,2021-09-01,MEDICATION,No current medications,,,,,
+P014,"Bogisich, Carrol",1981-03-10,M,2021-09-01,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,

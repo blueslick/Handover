@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GEORGENE ROMAGUERA
+ ID      : P007
+ DOB     : 07-Apr-1992    Sex: F
+ Date    : 10-Jun-2017
+========================================================
+
+[ALLERGIES]
+  - Disprin
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Jolivette 0.35 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

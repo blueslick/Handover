@@ -1,0 +1,36 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : NIEVES STROSIN
+ ID      : P092
+ DOB     : 26-Feb-1965    Sex: F
+ Date    : 17-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - Bee venom
+  - Zestril
+  - Tree nuts (hives, swelling (angioedema))
+
+[PROBLEM LIST]
+  - Coronary Heart Disease
+  - Anemia
+  - Prediabetes
+  - Diabetes
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Chronic pain
+  - Chronic intractable migraine without aura
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Impacted molars
+  - Miscarriage in first trimester
+  - Drug overdose
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

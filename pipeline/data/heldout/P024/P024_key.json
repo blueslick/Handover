@@ -1,0 +1,361 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P024",
+  "run_id": null,
+  "built_from": [
+    "P024_A.csv",
+    "P024_B.txt",
+    "P024_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P024-F01",
+      "patient_id": "P024",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-01",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- NKA",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He has no known allergies.",
+          "file": "P024_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-01",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P024_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F02",
+      "patient_id": "P024",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-01",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-01,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-01",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-01,",
+          "file": "P024_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He is on amlodipine 5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F03",
+      "patient_id": "P024",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "He takes lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-10",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2020-12-10,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He takes lisinopril 10 mg once a day.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F04",
+      "patient_id": "P024",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2018-08-27",
+      "quote": "His paracetamol was stopped on 27 August 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-08-27",
+          "quote": "His paracetamol was stopped on 27 August 2018.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "1. Panadol 325 mg PRN"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F05",
+      "patient_id": "P024",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-01",
+      "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-01,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-01",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-01,",
+          "file": "P024_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F06",
+      "patient_id": "P024",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "He has a history of anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1977-03-31",
+          "quote": "PROBLEM,Anemia,,,Active,1977-03-31,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- Anemia",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He has a history of anemia.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F07",
+      "patient_id": "P024",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "His background includes hyperlipidemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-10-14",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2010-10-14,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- Hyperlipidemia",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "His background includes hyperlipidemia.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F08",
+      "patient_id": "P024",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "He is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1956-12-06",
+          "quote": "PROBLEM,Hypertension,,,Active,1956-12-06,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- Hypertension",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He is known to have hypertension.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F09",
+      "patient_id": "P024",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "He is known to have prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1976-03-25",
+          "quote": "PROBLEM,Prediabetes,,,Active,1976-03-25,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- Prediabetes",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He is known to have prediabetes.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P024-F10",
+      "patient_id": "P024",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "He has a history of stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2000-06-15",
+          "quote": "PROBLEM,Stroke,,,Active,2000-06-15,",
+          "file": "P024_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2018-08-14",
+          "quote": "- Stroke",
+          "file": "P024_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "He has a history of stroke.",
+          "file": "P024_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

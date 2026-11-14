@@ -1,0 +1,245 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P055",
+  "run_id": null,
+  "built_from": [
+    "P055_A.csv",
+    "P055_B.txt",
+    "P055_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P055-F01",
+      "patient_id": "P055",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-28",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-07-24",
+          "quote": "- NKA",
+          "file": "P055_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "She has no known allergies.",
+          "file": "P055_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-28",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P055_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F02",
+      "patient_id": "P055",
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "alteplase",
+      "dose": "100 mg",
+      "frequency": "once",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2017-07-27",
+      "quote": "Her alteplase was stopped on 27 July 2017.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2017-07-27",
+          "quote": "Her alteplase was stopped on 27 July 2017.",
+          "file": "P055_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "100 mg",
+          "frequency": "once",
+          "hospital": "C",
+          "date": "2017-07-24",
+          "quote": "1. Actilyse 100 mg STAT"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F03",
+      "patient_id": "P055",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2017-07-27",
+      "quote": "Her clopidogrel was stopped on 27 July 2017.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2017-07-27",
+          "quote": "Her clopidogrel was stopped on 27 July 2017.",
+          "file": "P055_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F04",
+      "patient_id": "P055",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-28",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "She takes no regular medicines.",
+          "file": "P055_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-28",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P055_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F05",
+      "patient_id": "P055",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "Her background includes miscarriage in first trimester.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-03-04",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1999-03-04,",
+          "file": "P055_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-07-24",
+          "quote": "- Miscarriage in first trimester",
+          "file": "P055_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "Her background includes miscarriage in first trimester.",
+          "file": "P055_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F06",
+      "patient_id": "P055",
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "She is known to have sepsis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-05",
+          "quote": "PROBLEM,Sepsis,,,Active,1994-10-05,",
+          "file": "P055_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-07-24",
+          "quote": "- Sepsis",
+          "file": "P055_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "She is known to have sepsis.",
+          "file": "P055_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P055-F07",
+      "patient_id": "P055",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-10",
+      "quote": "She is known to have stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-07-27",
+          "quote": "PROBLEM,Stroke,,,Active,2017-07-27,",
+          "file": "P055_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-10",
+          "quote": "She is known to have stroke.",
+          "file": "P055_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

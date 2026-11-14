@@ -1,0 +1,32 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BRENDAN GRADY
+ ID      : P015
+ DOB     : 26-Feb-1965    Sex: M
+ Date    : 04-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Egg
+  - Grass pollen
+  - House dust mite
+  - Latex
+  - Mould
+  - Peanut (hives, swelling (angioedema))
+  - Tree nuts (anaphylaxis, cough)
+  - Wheat
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Osteoarthritis of knee
+
+[CURRENT MEDICATIONS]
+  1. Aleve 110 mg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

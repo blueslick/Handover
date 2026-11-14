@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P067,"Howell, Man",1987-06-09,M,2017-03-17,ALLERGY,No known allergies,,,,,
+P067,"Howell, Man",1987-06-09,M,2017-03-17,PROBLEM,Chronic pain,,,Active,2001-09-10,
+P067,"Howell, Man",1987-06-09,M,2017-03-17,PROBLEM,Drug overdose,,,Active,2012-01-11,
+P067,"Howell, Man",1987-06-09,M,2017-03-17,MEDICATION,Paracetamol,325 mg,as needed,Active,2017-03-17,

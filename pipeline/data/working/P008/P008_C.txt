@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ERICH GULGOWSKI
+ ID      : P008
+ DOB     : 26-Apr-2008    Sex: M
+ Date    : 08-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Grass pollen
+  - House dust mite
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+  - Perennial allergic rhinitis with seasonal variation
+  - Childhood asthma
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

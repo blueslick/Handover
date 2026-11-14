@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ARRON MORAR
+ ID      : P076
+ DOB     : 24-Jun-2002    Sex: M
+ Date    : 15-Jun-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Appendicitis
+
+[CURRENT MEDICATIONS]
+  1. Strattera 100 mg OD
+
+[DISCONTINUED]
+  1. Panadol - stopped 26-Apr-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

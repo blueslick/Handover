@@ -1,0 +1,19 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Animal dander,,,Active,1993-05-27,skin rash
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Aspirin,,,Active,1993-05-27,abdominal pain
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Bee venom,,,Active,1993-05-27,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Cow's milk,,,Active,1993-05-27,vomiting; hives
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Fish,,,Active,1993-05-27,hay fever symptoms; skin rash
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Grass pollen,,,Active,1993-05-27,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,House dust mite,,,Active,1993-05-27,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Mould,,,Active,1993-05-27,sneezing
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Peanut,,,Active,1993-05-27,hives; wheezing
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Shellfish,,,Active,1993-05-27,skin rash; shortness of breath
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Tree nuts,,,Active,1993-05-27,anaphylaxis; cough
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,ALLERGY,Wheat,,,Active,1993-05-27,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,PROBLEM,Hypertension,,,Active,2010-02-05,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,PROBLEM,Hypoxemia,,,Active,2020-05-02,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,MEDICATION,Enoxaparin,40 mg,once daily,Active,2020-05-03,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,MEDICATION,Paracetamol,500 mg,as needed,Active,2020-05-03,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-07,
+P079,"Rath, Leif",1991-12-13,M,2021-11-07,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-09,

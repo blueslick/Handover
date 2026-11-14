@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,ALLERGY,No known allergies,,,,,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,PROBLEM,Chronic sinusitis,,,Active,1973-01-21,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,PROBLEM,Carcinoma in situ of prostate,,,Active,1983-11-08,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,PROBLEM,Neoplasm of prostate,,,Active,1983-11-08,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,MEDICATION,Naproxen,220 mg,twice daily,Active,2017-06-12,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,MEDICATION,Paracetamol / oxycodone,,as needed,Discontinued,2017-05-24,
+P087,"Bergstrom, Zachariah",1913-07-15,M,2017-06-12,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2017-04-15,

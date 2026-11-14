@@ -1,0 +1,25 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Animal dander,,,Active,1974-02-17,hay fever symptoms
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Bee venom,,,Active,1974-02-17,skin rash
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Grass pollen,,,Active,1974-02-17,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,House dust mite,,,Active,1974-02-17,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Latex,,,Active,1974-02-17,hives
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Mould,,,Active,1974-02-17,runny nose
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Peanut,,,Active,1974-02-17,hives; swelling (angioedema)
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Tree nuts,,,Active,1974-02-17,hives; swelling (angioedema)
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,ALLERGY,Tree pollen,,,Active,1974-02-17,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Hypertension,,,Active,1991-05-27,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Diabetes,,,Active,1995-06-19,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Hypertriglyceridemia,,,Active,1996-06-24,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Metabolic syndrome X,,,Active,1996-06-24,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Hyperglycemia,,,Active,2000-07-17,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Prediabetes,,,Active,2000-07-17,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Miscarriage in first trimester,,,Active,2008-06-23,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Chronic sinusitis,,,Active,2010-02-21,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,2012-09-24,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,PROBLEM,Hyperlipidemia,,,Active,2020-11-16,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,MEDICATION,Metformin,500 mg,once daily,Active,2020-11-16,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,MEDICATION,Norethisterone,0.35 mg,once daily,Active,2021-05-16,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2020-11-16,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2020-12-07,
+P034,"Murphy, Terrilyn",1973-04-02,F,2021-07-30,MEDICATION,Lisinopril,10 mg,once daily,Active,2020-11-16,

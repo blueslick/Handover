@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P050,"Kemmer, Reyna",2007-01-05,F,2021-03-26,ALLERGY,No known allergies,,,,,
+P050,"Kemmer, Reyna",2007-01-05,F,2021-03-26,PROBLEM,Chronic paralysis due to lesion of spinal cord,,,Active,2008-12-03,
+P050,"Kemmer, Reyna",2007-01-05,F,2021-03-26,PROBLEM,Chronic sinusitis,,,Active,2012-01-21,
+P050,"Kemmer, Reyna",2007-01-05,F,2021-03-26,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Active,2021-01-04,

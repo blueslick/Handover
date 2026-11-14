@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P006,"D'Amore, Mae",2002-07-09,F,2021-11-04,ALLERGY,No known allergies,,,,,
+P006,"D'Amore, Mae",2002-07-09,F,2021-11-04,PROBLEM,Hypertension,,,Active,2020-09-01,
+P006,"D'Amore, Mae",2002-07-09,F,2021-11-04,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-09-07,
+P006,"D'Amore, Mae",2002-07-09,F,2021-11-04,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-07,
+P006,"D'Amore, Mae",2002-07-09,F,2021-11-04,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-07,

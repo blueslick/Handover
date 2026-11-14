@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Alexander Kovacek
+Hospital ID: P010
+Date of birth: 9 December 1977
+Date of visit: 19 July 2021
+
+Dear Doctor,
+
+I reviewed this 43-year-old man in the medical clinic today. His background includes hypertension.
+
+He has no known allergies.
+
+He takes hydrochlorothiazide 12.5 mg once a day. His ibuprofen was stopped on 8 July 2018.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

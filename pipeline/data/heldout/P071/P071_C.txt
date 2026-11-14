@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : RANDA NADER
+ ID      : P071
+ DOB     : 20-Feb-1996    Sex: F
+ Date    : 14-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

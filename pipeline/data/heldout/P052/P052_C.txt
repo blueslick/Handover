@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : HULDA REICHEL
+ ID      : P052
+ DOB     : 23-Sep-1956    Sex: F
+ Date    : 06-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Grass pollen
+  - House dust mite
+  - Mould (skin rash)
+  - Shellfish (nausea, skin rash)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Osteoporosis
+  - Polyp of colon
+
+[CURRENT MEDICATIONS]
+  1. Fosamax 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

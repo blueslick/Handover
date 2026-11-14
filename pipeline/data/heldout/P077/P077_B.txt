@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Bob Waelchi
+Hospital ID: P077
+Date of birth: 17 August 1948
+Date of visit: 15 August 2021
+
+Dear Doctor,
+
+I reviewed this 72-year-old man in the medical clinic today. His background includes appendicitis. He is known to have hypertension. His background includes prediabetes. He is known to have anemia. He has a history of hyperlipidemia. His background includes stroke.
+
+He has no known allergies.
+
+He takes simvastatin 5 mg at night. His clopidogrel was stopped on 2 June 2020. His alteplase was stopped on 2 June 2020.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

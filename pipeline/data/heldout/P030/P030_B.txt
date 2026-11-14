@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Claudio Swift
+Hospital ID: P030
+Date of birth: 18 November 2009
+Date of visit: 2 November 2021
+
+Dear Doctor,
+
+I reviewed this 11-year-old boy in the medical clinic today. He has a history of cystic fibrosis. His background includes male infertility. He has a history of anemia. His background includes diabetes. His background includes infection caused by pseudomonas aeruginosa. His background includes hypertriglyceridemia.
+
+He has no known allergies.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,ALLERGY,Co-trimoxazole,,,Active,1973-10-04,skin rash
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,PROBLEM,Prediabetes,,,Active,1967-05-21,
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,PROBLEM,Anemia,,,Active,1970-05-24,
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,PROBLEM,Chronic sinusitis,,,Active,1995-12-26,
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,PROBLEM,Osteoporosis,,,Active,2019-09-01,
+P089,"Cartwright, Lenora",1939-03-12,F,2021-01-16,MEDICATION,Alendronic acid,5 mg,once daily,Active,2021-01-16,

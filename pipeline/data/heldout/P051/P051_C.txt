@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : PABLO ROJO
+ ID      : P051
+ DOB     : 17-Oct-2006    Sex: M
+ Date    : 25-Oct-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Norco PRN
+  2. Panadol 325 mg PRN
+
+[DISCONTINUED]
+  1. Amoxil - stopped 25-Mar-2019
+  2. Aleve - stopped 25-Mar-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

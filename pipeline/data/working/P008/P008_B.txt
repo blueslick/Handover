@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Erich Gulgowski
+Hospital ID: P008
+Date of birth: 26 April 2008
+Date of visit: 12 November 2020
+
+Dear Doctor,
+
+I reviewed this 12-year-old boy in the medical clinic today. He is known to have atopic dermatitis. His background includes perennial allergic rhinitis with seasonal variation. He is known to have childhood asthma.
+
+He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

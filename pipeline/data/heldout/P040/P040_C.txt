@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : EZRA MERTZ
+ ID      : P040
+ DOB     : 11-Dec-1966    Sex: M
+ Date    : 18-Jul-2019
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Appendicitis
+  - Sepsis
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

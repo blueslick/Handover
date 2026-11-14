@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : OLIVIA LOVATO
+ ID      : P025
+ DOB     : 15-Jul-2006    Sex: F
+ Date    : 21-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - House dust mite
+  - Mould (sneezing)
+  - Penicillin (hay fever symptoms, shortness of breath)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Perennial allergic rhinitis with seasonal variation
+  - Childhood asthma
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Ventolin 90 mcg PRN
+  3. Natazia OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

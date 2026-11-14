@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MACIE O'CONNELL
+ ID      : P036
+ DOB     : 08-Dec-1966    Sex: F
+ Date    : 07-Jan-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hyperlipidemia
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 2.5 mg OD
+  2. Plavix 75 mg OD
+  3. Nitrolingual 0.4 mg PRN
+  4. Zocor 20 mg ON
+
+[DISCONTINUED]
+  1. Pen-Vee K - stopped 16-Apr-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,32 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LENARD CARROLL
+ ID      : P016
+ DOB     : 04-May-1964    Sex: M
+ Date    : 03-Mar-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Chronic sinusitis
+  - Osteoarthritis of knee
+  - Prediabetes
+  - Anemia
+  - Chronic congestive heart failure
+  - Shock
+
+[CURRENT MEDICATIONS]
+  1. Lasix 20 mg OD
+  2. Hydrodiuril 25 mg OD
+
+[DISCONTINUED]
+  1. Nurofen - stopped 31-Aug-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

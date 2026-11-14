@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DEMETRA JASKOLSKI
+ ID      : P086
+ DOB     : 07-Feb-2017    Sex: F
+ Date    : 05-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Cow's milk (swelling (angioedema), hives)
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Mould
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Atopic dermatitis
+
+[CURRENT MEDICATIONS]
+  1. Telfast 30 mg BD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

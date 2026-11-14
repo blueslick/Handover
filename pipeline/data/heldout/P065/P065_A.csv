@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,ALLERGY,No known allergies,,,,,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,PROBLEM,Hypertension,,,Active,1976-08-10,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,PROBLEM,Chronic sinusitis,,,Active,1996-07-13,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,PROBLEM,Coronary Heart Disease,,,Active,2017-03-28,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,PROBLEM,Stroke,,,Active,2018-11-20,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-04-20,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-04-20,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-04-20,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-04-20,
+P065,"Stoltenberg, Joey",1958-06-17,M,2021-09-08,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-09-08,

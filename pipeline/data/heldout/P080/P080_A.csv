@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P080,"Hammes, Francisca",2005-03-01,F,2021-10-28,ALLERGY,No known allergies,,,,,
+P080,"Hammes, Francisca",2005-03-01,F,2021-10-28,MEDICATION,Norethisterone,0.35 mg,once daily,Active,2021-10-28,
+P080,"Hammes, Francisca",2005-03-01,F,2021-10-28,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2021-02-18,

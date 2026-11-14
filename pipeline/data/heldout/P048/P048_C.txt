@@ -1,0 +1,35 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GENNA STEHR
+ ID      : P048
+ DOB     : 14-Mar-2006    Sex: F
+ Date    : 08-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Disprin
+  - Bee venom
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Peanut (swelling (angioedema), cough)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Perennial allergic rhinitis with seasonal variation
+  - Childhood asthma
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 5 mg OD
+  2. Plavix 75 mg OD
+  3. Ventolin 90 mcg PRN
+  4. Nitrolingual 0.4 mg PRN
+  5. Zocor 20 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

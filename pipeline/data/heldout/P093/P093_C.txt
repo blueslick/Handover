@@ -1,0 +1,40 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SHELBA DICKI
+ ID      : P093
+ DOB     : 11-Apr-1948    Sex: F
+ Date    : 16-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Penicillin (cough, swelling (angioedema))
+  - Soya
+
+[PROBLEM LIST]
+  - Hypertension
+  - Chronic sinusitis
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Polyp of colon
+  - Recurrent rectal polyp
+  - Osteoporosis
+  - Atrial Fibrillation
+  - Severe anxiety (panic) (finding
+  - Stroke
+
+[CURRENT MEDICATIONS]
+  1. Lanoxin 0.125 mg OD
+  2. Hydrodiuril 25 mg OD
+  3. Nurofen 400 mg TDS
+  4. Isoptin 40 mg TDS
+  5. Coumadin 5 mg OD
+
+[DISCONTINUED]
+  1. Actilyse - stopped 10-Oct-2021
+  2. Plavix - stopped 10-Oct-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

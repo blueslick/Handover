@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Dino Huel
+Hospital ID: P029
+Date of birth: 5 December 2001
+Date of visit: 18 December 2016
+
+Dear Doctor,
+
+I reviewed this 15-year-old boy in the medical clinic today.
+
+He has no known allergies.
+
+He is on ibuprofen 200 mg when needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

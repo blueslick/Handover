@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,Animal dander,,,Active,1958-01-20,hay fever symptoms; hives
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,Grass pollen,,,Active,1958-01-20,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,House dust mite,,,Active,1958-01-20,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,Mould,,,Active,1958-01-20,skin rash
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,Shellfish,,,Active,1958-01-20,nausea; skin rash
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,ALLERGY,Tree pollen,,,Active,1958-01-20,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,PROBLEM,Anemia,,,Active,1981-11-29,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,PROBLEM,Prediabetes,,,Active,1981-11-29,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,PROBLEM,Osteoporosis,,,Active,2016-11-20,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,MEDICATION,Alendronic acid,5 mg,once daily,Active,2021-03-01,
+P052,"Reichel, Hulda",1956-09-23,F,2021-03-01,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-11-29,

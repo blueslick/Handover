@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P031,"Waters, Alberta",1969-10-19,F,2021-11-13,ALLERGY,No known allergies,,,,,
+P031,"Waters, Alberta",1969-10-19,F,2021-11-13,PROBLEM,Sprain of wrist,,,Active,2021-11-12,
+P031,"Waters, Alberta",1969-10-19,F,2021-11-13,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2020-12-14,
+P031,"Waters, Alberta",1969-10-19,F,2021-11-13,MEDICATION,Ibuprofen,200 mg,as needed,Active,2021-11-13,
+P031,"Waters, Alberta",1969-10-19,F,2021-11-13,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2020-12-14,

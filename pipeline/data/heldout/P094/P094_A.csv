@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,ALLERGY,No known allergies,,,,,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Diabetes,,,Active,1981-10-30,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Anemia,,,Active,1982-11-05,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Hypertriglyceridemia,,,Active,1982-11-05,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Metabolic syndrome X,,,Active,1982-11-05,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Diabetic retinopathy associated with type II diabetes mellitus,,,Active,1989-12-15,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,1989-12-15,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,,,Active,2004-03-05,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Hyperlipidemia,,,Active,2008-03-28,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,PROBLEM,Macular edema and retinopathy due to type 2 diabetes mellitus,,,Active,2015-05-08,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-06-11,
+P094,"Nikolaus, Elliott",1949-06-17,M,2021-11-16,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-16,

@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JOEY STOLTENBERG
+ ID      : P065
+ DOB     : 17-Jun-1958    Sex: M
+ Date    : 28-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Chronic sinusitis
+  - Coronary Heart Disease
+  - Stroke
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Actilyse - stopped 20-Nov-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

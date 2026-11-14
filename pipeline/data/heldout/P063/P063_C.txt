@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : BRAIN WUCKERT
+ ID      : P063
+ DOB     : 27-Nov-1951    Sex: M
+ Date    : 27-Jan-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, shortness of breath)
+  - Bee venom (skin rash)
+  - Cow's milk (hives)
+  - Grass pollen
+  - Mould
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Appendicitis
+  - Hyperlipidemia
+  - Localized  primary osteoarthritis of the hand
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

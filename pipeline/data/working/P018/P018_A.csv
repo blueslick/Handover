@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Animal dander,,,Active,1994-10-11,hay fever symptoms
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Bee venom,,,Active,1994-10-11,skin rash
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Fish,,,Active,1994-10-11,skin rash
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Grass pollen,,,Active,1994-10-11,
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,House dust mite,,,Active,1994-10-11,
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Mould,,,Active,1994-10-11,wheezing
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,ALLERGY,Tree pollen,,,Active,1994-10-11,
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,PROBLEM,Hypertension,,,Active,2012-04-01,
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-05-24,
+P018,"Dooley, Yuonne",1994-02-06,F,2021-11-09,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-05-24,

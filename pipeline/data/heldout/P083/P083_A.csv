@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,ALLERGY,Peanut,,,Active,1925-10-16,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Hypertension,,,Active,1943-01-28,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Anemia,,,Active,1944-02-03,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Prediabetes,,,Active,1944-02-03,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Osteoarthritis of hip,,,Active,1970-07-09,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Miscarriage in first trimester,,,Active,1972-01-13,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Tubal pregnancy,,,Active,1974-09-26,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,PROBLEM,Hyperlipidemia,,,Active,2005-01-20,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,MEDICATION,No current medications,,,,,
+P083,"Sanford, Trinh",1924-12-04,F,2020-11-11,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2017-12-28,

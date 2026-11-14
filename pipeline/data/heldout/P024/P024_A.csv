@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,ALLERGY,No known allergies,,,,,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,PROBLEM,Hypertension,,,Active,1956-12-06,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,PROBLEM,Prediabetes,,,Active,1976-03-25,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,PROBLEM,Anemia,,,Active,1977-03-31,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,PROBLEM,Stroke,,,Active,2000-06-15,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,PROBLEM,Hyperlipidemia,,,Active,2010-10-14,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-01,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-01,
+P024,"Fisher, Shannon",1938-10-13,M,2021-11-01,MEDICATION,Lisinopril,10 mg,once daily,Active,2020-12-10,

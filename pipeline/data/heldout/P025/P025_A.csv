@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,ALLERGY,Animal dander,,,Active,2009-02-19,cough; hay fever symptoms
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,ALLERGY,House dust mite,,,Active,2009-02-19,
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,ALLERGY,Mould,,,Active,2009-02-19,sneezing
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,ALLERGY,Penicillin,,,Active,2009-02-19,hay fever symptoms; shortness of breath
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,ALLERGY,Tree pollen,,,Active,2009-02-19,
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2009-02-11,
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,PROBLEM,Childhood asthma,,,Active,2009-04-27,
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-08-21,
+P025,"Lovato, Olivia",2006-07-15,F,2021-11-08,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-08-21,

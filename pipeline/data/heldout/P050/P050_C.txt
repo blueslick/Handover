@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : REYNA KEMMER
+ ID      : P050
+ DOB     : 05-Jan-2007    Sex: F
+ Date    : 05-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic paralysis due to lesion of spinal cord
+  - Chronic sinusitis
+
+[CURRENT MEDICATIONS]
+  1. Yaz OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LUCIUS GERLACH
+ ID      : P074
+ DOB     : 24-Oct-1970    Sex: M
+ Date    : 12-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - Disprin
+
+[PROBLEM LIST]
+  - Hypertension
+  - Hypoxemia
+
+[CURRENT MEDICATIONS]
+  1. Clexane 40 mg OD
+  2. Flixotide 44 mcg BD
+  3. Panadol 500 mg PRN
+  4. Hydrodiuril 25 mg OD
+  5. Nurofen 400 mg TDS
+  6. Ventolin 90 mcg PRN
+  7. Zestril 5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

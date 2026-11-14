@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GEORGIANN HEANEY
+ ID      : P045
+ DOB     : 11-Apr-2002    Sex: F
+ Date    : 12-Mar-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Norco PRN
+  2. Levora OD
+
+[DISCONTINUED]
+  1. Aleve - stopped 15-Sep-2018
+  2. Natazia - stopped 06-Apr-2017
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

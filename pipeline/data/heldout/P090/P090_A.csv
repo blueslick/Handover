@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Animal dander,,,Active,2000-06-23,hay fever symptoms; hives
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Grass pollen,,,Active,2000-06-23,
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,House dust mite,,,Active,2000-06-23,
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Latex,,,Active,2000-06-23,hives
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Mould,,,Active,2000-06-23,skin rash; runny nose
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Peanut,,,Active,2000-06-23,hives; skin rash
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,ALLERGY,Tree pollen,,,Active,2000-06-23,
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,PROBLEM,Prediabetes,,,Active,2020-05-07,
+P090,"Tromp, Salvador",1999-02-25,M,2021-11-10,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-13,

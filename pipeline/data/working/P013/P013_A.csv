@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P013,"Conn, Debora",1956-05-17,F,2021-11-05,ALLERGY,No known allergies,,,,,
+P013,"Conn, Debora",1956-05-17,F,2021-11-05,PROBLEM,Chronic sinusitis,,,Active,1967-11-11,
+P013,"Conn, Debora",1956-05-17,F,2021-11-05,PROBLEM,Osteoarthritis of knee,,,Active,2005-08-03,
+P013,"Conn, Debora",1956-05-17,F,2021-11-05,PROBLEM,Polyp of colon,,,Active,2021-05-17,
+P013,"Conn, Debora",1956-05-17,F,2021-11-05,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-08-12,

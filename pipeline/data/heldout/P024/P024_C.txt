@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SHANNON FISHER
+ ID      : P024
+ DOB     : 13-Oct-1938    Sex: M
+ Date    : 14-Aug-2018
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Prediabetes
+  - Anemia
+  - Stroke
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

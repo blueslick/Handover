@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P099,"Jacobs, Isiah",1970-09-19,M,2021-09-10,ALLERGY,Mould,,,Active,1973-09-06,
+P099,"Jacobs, Isiah",1970-09-19,M,2021-09-10,PROBLEM,Chronic sinusitis,,,Active,1992-07-25,
+P099,"Jacobs, Isiah",1970-09-19,M,2021-09-10,PROBLEM,Stroke,,,Active,2020-07-04,
+P099,"Jacobs, Isiah",1970-09-19,M,2021-09-10,MEDICATION,No current medications,,,,,

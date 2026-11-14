@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : SALVADOR TROMP
+ ID      : P090
+ DOB     : 25-Feb-1999    Sex: M
+ Date    : 05-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Cow's milk (skin rash, hives)
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Mould (skin rash, runny nose)
+  - Peanut (hives, skin rash)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Ventolin 90 mcg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

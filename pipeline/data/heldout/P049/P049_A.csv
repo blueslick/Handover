@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P049,"O'Reilly, Olen",1996-01-16,M,2021-09-18,ALLERGY,No known allergies,,,,,
+P049,"O'Reilly, Olen",1996-01-16,M,2021-09-18,PROBLEM,Chronic pain,,,Active,2013-07-02,
+P049,"O'Reilly, Olen",1996-01-16,M,2021-09-18,PROBLEM,Hypertension,,,Active,2014-03-11,
+P049,"O'Reilly, Olen",1996-01-16,M,2021-09-18,MEDICATION,Lisinopril,5 mg,once daily,Active,2021-09-18,
+P049,"O'Reilly, Olen",1996-01-16,M,2021-09-18,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-11-11,

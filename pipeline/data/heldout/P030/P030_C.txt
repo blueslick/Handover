@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CLAUDIO SWIFT
+ ID      : P030
+ DOB     : 18-Nov-2009    Sex: M
+ Date    : 20-Jul-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Cystic Fibrosis
+  - Male Infertility
+  - Anemia
+  - Diabetes
+  - Infection caused by Pseudomonas aeruginosa
+  - Hypertriglyceridemia
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

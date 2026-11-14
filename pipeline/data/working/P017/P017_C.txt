@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ANTONY NIKOLAUS
+ ID      : P017
+ DOB     : 18-May-1955    Sex: M
+ Date    : 23-Jul-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic intractable migraine without aura
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

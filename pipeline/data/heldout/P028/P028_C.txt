@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ERNESTO JARAMILLO
+ ID      : P028
+ DOB     : 17-Jun-1969    Sex: M
+ Date    : 24-Sep-2021
+========================================================
+
+[ALLERGIES]
+  - Nurofen (hay fever symptoms)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

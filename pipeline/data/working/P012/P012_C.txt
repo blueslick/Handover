@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : OREN VANDERVORT
+ ID      : P012
+ DOB     : 06-Jan-1996    Sex: M
+ Date    : 05-Nov-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Fish (hay fever symptoms, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Bactrim
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Panadol - stopped 25-Sep-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

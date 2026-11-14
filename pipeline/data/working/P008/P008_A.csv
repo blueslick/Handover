@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,ALLERGY,Animal dander,,,Active,2008-08-19,hay fever symptoms
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,ALLERGY,Grass pollen,,,Active,2008-08-19,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,ALLERGY,House dust mite,,,Active,2008-08-19,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,ALLERGY,Mould,,,Active,2008-08-19,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,ALLERGY,Tree pollen,,,Active,2008-08-19,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,PROBLEM,Atopic dermatitis,,,Active,2008-08-01,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2011-09-28,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,PROBLEM,Childhood asthma,,,Active,2012-08-18,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-23,
+P008,"Gulgowski, Erich",2008-04-26,M,2021-07-27,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-23,

@@ -1,0 +1,262 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P069",
+  "run_id": null,
+  "built_from": [
+    "P069_A.csv",
+    "P069_B.txt",
+    "P069_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P069-F01",
+      "patient_id": "P069",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-12-20",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P069_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He has no known allergies.",
+          "file": "P069_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- NKA",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F02",
+      "patient_id": "P069",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "1. Hydrodiuril 25 mg OD",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He continues on hydrochlorothiazide 12.5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F03",
+      "patient_id": "P069",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "2. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He is on lisinopril 10 mg once a day.",
+          "file": "P069_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "2. Zestril 10 mg OD",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F04",
+      "patient_id": "P069",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "naproxen",
+      "dose": "220 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2019-12-29",
+      "quote": "His naproxen was stopped on 29 December 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-12-29",
+          "quote": "His naproxen was stopped on 29 December 2019.",
+          "file": "P069_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "220 mg",
+          "frequency": "twice_daily",
+          "hospital": "A",
+          "date": "2019-12-20",
+          "quote": "MEDICATION,Naproxen,220 mg,twice daily,Active,2019-12-20,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F05",
+      "patient_id": "P069",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1983-12-10",
+          "quote": "PROBLEM,Anemia,,,Active,1983-12-10,",
+          "file": "P069_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He is known to have anemia.",
+          "file": "P069_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Anemia",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F06",
+      "patient_id": "P069",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1976-10-30",
+          "quote": "PROBLEM,Hypertension,,,Active,1976-10-30,",
+          "file": "P069_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He has a history of hypertension.",
+          "file": "P069_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Hypertension",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P069-F07",
+      "patient_id": "P069",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1981-11-28",
+          "quote": "PROBLEM,Prediabetes,,,Active,1981-11-28,",
+          "file": "P069_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-13",
+          "quote": "He has a history of prediabetes.",
+          "file": "P069_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Prediabetes",
+          "file": "P069_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

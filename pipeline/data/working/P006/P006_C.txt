@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MAE D'AMORE
+ ID      : P006
+ DOB     : 09-Jul-2002    Sex: F
+ Date    : 22-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Natazia OD
+
+[DISCONTINUED]
+  1. Camila - stopped 23-Jun-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

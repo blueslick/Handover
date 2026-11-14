@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P064,"Metz, Reynalda",2000-04-28,F,2021-11-09,ALLERGY,No known allergies,,,,,
+P064,"Metz, Reynalda",2000-04-28,F,2021-11-09,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-11-09,
+P064,"Metz, Reynalda",2000-04-28,F,2021-11-09,MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2017-07-14,

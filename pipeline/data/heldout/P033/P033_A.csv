@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P033,"Herman, Gerardo",1962-10-02,M,2021-11-15,ALLERGY,No known allergies,,,,,
+P033,"Herman, Gerardo",1962-10-02,M,2021-11-15,PROBLEM,Anemia,,,Active,2004-10-12,
+P033,"Herman, Gerardo",1962-10-02,M,2021-11-15,PROBLEM,Prediabetes,,,Active,2004-10-12,
+P033,"Herman, Gerardo",1962-10-02,M,2021-11-15,MEDICATION,No current medications,,,,,
+P033,"Herman, Gerardo",1962-10-02,M,2021-11-15,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2018-02-28,

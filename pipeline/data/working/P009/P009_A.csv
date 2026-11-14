@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P009,"Tremblay, Isadora",1957-02-12,F,2018-03-10,ALLERGY,No known allergies,,,,,
+P009,"Tremblay, Isadora",1957-02-12,F,2018-03-10,PROBLEM,Miscarriage in first trimester,,,Active,1978-06-27,
+P009,"Tremblay, Isadora",1957-02-12,F,2018-03-10,MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,

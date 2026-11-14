@@ -1,0 +1,5 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P040,"Mertz, Ezra",1966-12-11,M,2021-07-15,ALLERGY,No known allergies,,,,,
+P040,"Mertz, Ezra",1966-12-11,M,2021-07-15,PROBLEM,Appendicitis,,,Active,2002-06-16,
+P040,"Mertz, Ezra",1966-12-11,M,2021-07-15,PROBLEM,Sepsis,,,Active,2009-06-11,
+P040,"Mertz, Ezra",1966-12-11,M,2021-07-15,MEDICATION,No current medications,,,,,

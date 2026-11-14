@@ -1,0 +1,285 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P078",
+  "run_id": null,
+  "built_from": [
+    "P078_A.csv",
+    "P078_B.txt",
+    "P078_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P078-F01",
+      "patient_id": "P078",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-30",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P078_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-25",
+          "quote": "She has no known allergies.",
+          "file": "P078_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "- NKA",
+          "file": "P078_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F02",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Amoxicillin / clavulanate",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-12-15",
+      "quote": "MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2020-12-15,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-15",
+          "quote": "MEDICATION,Amoxicillin / clavulanate,,three times daily,Discontinued,2020-12-15,",
+          "file": "P078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F03",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "Drospirenone / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2017-04-15",
+      "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2017-04-15,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-04-15",
+          "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2017-04-15,",
+          "file": "P078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F04",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Durogesic",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-29",
+          "quote": "MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-03-29,",
+          "file": "P078_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-25",
+          "quote": "She continues on fentanyl 25 mcg as a patch changed every 72 hours.",
+          "file": "P078_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+          "file": "P078_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F05",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "Zohydro ER",
+      "dose": "10 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "1. Zohydro ER 10 mg BD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-25",
+          "quote": "She takes hydrocodone 10 mg twice a day.",
+          "file": "P078_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "1. Zohydro ER 10 mg BD",
+          "file": "P078_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "twice_daily",
+          "hospital": "A",
+          "date": "2021-04-30",
+          "quote": "MEDICATION,Hydrocodone,5 mg,twice daily,Active,2021-04-30,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F06",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-04-05",
+      "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-04-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-04-05",
+          "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-04-05,",
+          "file": "P078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F07",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "medroxyprogesterone",
+      "name_as_written": "Medroxyprogesterone",
+      "dose": "150 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-03-30",
+      "quote": "MEDICATION,Medroxyprogesterone,150 mg,every 3 months,Discontinued,2020-03-30,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-03-30",
+          "quote": "MEDICATION,Medroxyprogesterone,150 mg,every 3 months,Discontinued,2020-03-30,",
+          "file": "P078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F08",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "norgestimate / ethinyl estradiol",
+      "name_as_written": "Norgestimate / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-04-10",
+      "quote": "MEDICATION,Norgestimate / ethinyl estradiol,,once daily,Discontinued,2018-04-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-04-10",
+          "quote": "MEDICATION,Norgestimate / ethinyl estradiol,,once daily,Discontinued,2018-04-10,",
+          "file": "P078_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P078-F09",
+      "patient_id": "P078",
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "tramadol",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-25",
+      "quote": "She continues on tramadol 50 mg when needed.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-29",
+          "quote": "MEDICATION,Tramadol,50 mg,as needed,Active,2021-03-29,",
+          "file": "P078_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-25",
+          "quote": "She continues on tramadol 50 mg when needed.",
+          "file": "P078_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

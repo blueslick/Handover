@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P022,"Abshire, Denis",1958-11-26,M,2020-11-29,ALLERGY,No known allergies,,,,,
+P022,"Abshire, Denis",1958-11-26,M,2020-11-29,PROBLEM,Coronary Heart Disease,,,Active,2016-01-06,
+P022,"Abshire, Denis",1958-11-26,M,2020-11-29,MEDICATION,No current medications,,,,,

@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JOSÉ EMILIO NIÑO
+ ID      : P068
+ DOB     : 14-Jul-2011    Sex: M
+ Date    : 26-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Tree nuts (hives, shortness of breath)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Animal dander,,,Active,1988-10-15,hay fever symptoms; hives
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Aspirin,,,Active,1988-10-15,abdominal pain
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Grass pollen,,,Active,1988-10-15,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,House dust mite,,,Active,1988-10-15,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Mould,,,Active,1988-10-15,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Tree pollen,,,Active,1988-10-15,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,ALLERGY,Wheat,,,Active,1988-10-15,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,PROBLEM,Asthma,,,Active,2010-01-28,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-18,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-18,
+P053,"Pollich, Darrell",1988-01-31,M,2021-07-18,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2017-06-30,

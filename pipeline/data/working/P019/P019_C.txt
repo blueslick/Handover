@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : TAJUANA BOYLE
+ ID      : P019
+ DOB     : 18-Jun-1969    Sex: F
+ Date    : 01-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Omnicef (anaphylaxis)
+
+[PROBLEM LIST]
+  - Cardiac Arrest
+  - Osteoarthritis of knee
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,19 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,ALLERGY,Animal dander,,,Active,1941-07-20,hives; skin rash
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,ALLERGY,Peanut,,,Active,1941-07-20,anaphylaxis; hives
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,ALLERGY,Penicillin,,,Active,1941-07-20,skin rash; hives
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Chronic sinusitis,,,Active,1941-05-15,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Hypertension,,,Active,1959-02-24,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Anemia,,,Active,1973-05-15,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Prediabetes,,,Active,1973-05-15,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Opioid abuse,,,Active,1976-06-01,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Atrial Fibrillation,,,Active,1988-08-09,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Carcinoma in situ of prostate,,,Active,2004-11-03,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Neoplasm of prostate,,,Active,2004-11-03,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Chronic intractable migraine without aura,,,Active,2012-09-01,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,PROBLEM,Alzheimer's disease,,,Active,2021-02-09,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-02-09,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,MEDICATION,Galantamine,4 mg,twice daily,Active,2021-02-09,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,MEDICATION,Verapamil,40 mg,three times daily,Active,2021-02-09,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-10,
+P098,"Ferry, Allen",1940-12-31,M,2021-11-10,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-09,

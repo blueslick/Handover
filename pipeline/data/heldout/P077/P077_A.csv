@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,ALLERGY,No known allergies,,,,,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,PROBLEM,Appendicitis,,,Active,1950-02-23,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,PROBLEM,Hypertension,,,Active,1966-10-11,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,PROBLEM,Prediabetes,,,Active,1991-02-26,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,PROBLEM,Anemia,,,Active,1992-03-03,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,PROBLEM,Hyperlipidemia,,,Active,2009-06-09,
+P077,"Waelchi, Bob",1948-08-17,M,2020-05-26,MEDICATION,Alteplase,100 mg,once,Active,2020-05-26,

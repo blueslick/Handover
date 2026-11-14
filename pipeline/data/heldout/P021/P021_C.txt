@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ORVAL SCHAEFER
+ ID      : P021
+ DOB     : 21-Nov-1977    Sex: M
+ Date    : 25-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Fibromyalgia
+
+[CURRENT MEDICATIONS]
+  1. Durogesic 25 mcg as a patch changed every 72 hours
+  2. Vicodin PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

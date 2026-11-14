@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P055,"McClure, Numbers",1952-10-09,F,2021-10-28,ALLERGY,No known allergies,,,,,
+P055,"McClure, Numbers",1952-10-09,F,2021-10-28,PROBLEM,Sepsis,,,Active,1994-10-05,
+P055,"McClure, Numbers",1952-10-09,F,2021-10-28,PROBLEM,Miscarriage in first trimester,,,Active,1999-03-04,
+P055,"McClure, Numbers",1952-10-09,F,2021-10-28,PROBLEM,Stroke,,,Active,2017-07-27,
+P055,"McClure, Numbers",1952-10-09,F,2021-10-28,MEDICATION,No current medications,,,,,

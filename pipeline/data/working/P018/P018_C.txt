@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : YUONNE DOOLEY
+ ID      : P018
+ DOB     : 06-Feb-1994    Sex: F
+ Date    : 23-Nov-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Bee venom (skin rash)
+  - Fish (skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould (wheezing)
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Mirena 52 mg intrauterine system (lasts 5 years)
+
+[DISCONTINUED]
+  1. Panadol - stopped 26-Jul-2017
+  2. NuvaRing - stopped 24-Dec-2016
+  3. Seasonique - stopped 09-Dec-2019
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : HEATH KING
+ ID      : P082
+ DOB     : 04-May-2000    Sex: M
+ Date    : 03-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (cough, hay fever symptoms)
+  - Bee venom (skin rash)
+  - Grass pollen
+  - House dust mite
+  - Zestril (cough, high potassium)
+  - Mould
+  - Peanut (anaphylaxis, hives)
+  - Shellfish (anaphylaxis, swelling (angioedema))
+  - Tree nuts (anaphylaxis, cough)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Panadol - stopped 08-Nov-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

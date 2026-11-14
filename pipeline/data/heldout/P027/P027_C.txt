@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : MATTHEW O'CONNELL
+ ID      : P027
+ DOB     : 27-Dec-1969    Sex: M
+ Date    : 02-Dec-2017
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Anemia
+  - Diabetes
+  - Hypertension
+  - Hyperglycemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Prediabetes
+
+[CURRENT MEDICATIONS]
+  1. NyQuil ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

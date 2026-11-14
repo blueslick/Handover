@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : VALENTINE SANFORD
+ ID      : P046
+ DOB     : 11-Aug-2010    Sex: M
+ Date    : 21-Aug-2019
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Perennial allergic rhinitis
+
+[CURRENT MEDICATIONS]
+  1. NyQuil ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

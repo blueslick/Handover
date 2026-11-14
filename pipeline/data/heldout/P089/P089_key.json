@@ -1,0 +1,263 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P089",
+  "run_id": null,
+  "built_from": [
+    "P089_A.csv",
+    "P089_B.txt",
+    "P089_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P089-F01",
+      "patient_id": "P089",
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "Bactrim",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-29",
+      "quote": "- Bactrim (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-10-04",
+          "quote": "ALLERGY,Co-trimoxazole,,,Active,1973-10-04,skin rash",
+          "file": "P089_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "- Bactrim (skin rash)",
+          "file": "P089_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P089-C1"
+    },
+    {
+      "fact_id": "P089-F02",
+      "patient_id": "P089",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She has no known allergies.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She has no known allergies.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P089-C1"
+    },
+    {
+      "fact_id": "P089-F03",
+      "patient_id": "P089",
+      "type": "medicine",
+      "name": "alendronic acid",
+      "name_as_written": "alendronic acid",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She takes alendronic acid 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "1. Fosamax 10 mg OD",
+          "file": "P089_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She takes alendronic acid 10 mg once a day.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-01-16",
+          "quote": "MEDICATION,Alendronic acid,5 mg,once daily,Active,2021-01-16,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P089-F04",
+      "patient_id": "P089",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She has a history of anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1970-05-24",
+          "quote": "PROBLEM,Anemia,,,Active,1970-05-24,",
+          "file": "P089_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "- Anemia",
+          "file": "P089_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She has a history of anemia.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P089-F05",
+      "patient_id": "P089",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "Her background includes chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-12-26",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1995-12-26,",
+          "file": "P089_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "- Chronic sinusitis",
+          "file": "P089_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "Her background includes chronic sinusitis.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P089-F06",
+      "patient_id": "P089",
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She is known to have osteoporosis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-09-01",
+          "quote": "PROBLEM,Osteoporosis,,,Active,2019-09-01,",
+          "file": "P089_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "- Osteoporosis",
+          "file": "P089_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She is known to have osteoporosis.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P089-F07",
+      "patient_id": "P089",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "She has a history of prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1967-05-21",
+          "quote": "PROBLEM,Prediabetes,,,Active,1967-05-21,",
+          "file": "P089_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-29",
+          "quote": "- Prediabetes",
+          "file": "P089_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "She has a history of prediabetes.",
+          "file": "P089_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

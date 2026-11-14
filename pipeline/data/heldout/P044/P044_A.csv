@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,ALLERGY,Latex,,,Active,1993-03-10,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,PROBLEM,Hypertension,,,Active,2008-11-23,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,PROBLEM,Pulmonary emphysema,,,Active,2012-12-16,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-02-01,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-02-01,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-02-01,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-02-01,
+P044,"Kassulke, Aisha",1990-09-30,F,2021-10-02,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-01,

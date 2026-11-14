@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ZONA KOSS
+ ID      : P039
+ DOB     : 17-May-1993    Sex: F
+ Date    : 02-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms)
+  - Fish (shortness of breath, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Latex (itching, shortness of breath)
+  - Mould (runny nose)
+  - Tree nuts (hives, shortness of breath)
+
+[PROBLEM LIST]
+  - Otitis media
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+
+[DISCONTINUED]
+  1. Nurofen - stopped 12-Oct-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

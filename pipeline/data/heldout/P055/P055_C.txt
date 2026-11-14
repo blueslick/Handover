@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : NUMBERS MCCLURE
+ ID      : P055
+ DOB     : 09-Oct-1952    Sex: F
+ Date    : 24-Jul-2017
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Sepsis
+  - Miscarriage in first trimester
+
+[CURRENT MEDICATIONS]
+  1. Actilyse 100 mg STAT
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

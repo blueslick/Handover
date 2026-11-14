@@ -1,0 +1,373 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P044",
+  "run_id": null,
+  "built_from": [
+    "P044_A.csv",
+    "P044_B.txt",
+    "P044_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P044-F01",
+      "patient_id": "P044",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Disprin",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-01-26",
+          "quote": "She is allergic to aspirin.",
+          "file": "P044_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Disprin",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F02",
+      "patient_id": "P044",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Latex",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-03-10",
+          "quote": "ALLERGY,Latex,,,Active,1993-03-10,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-01-26",
+          "quote": "She is allergic to latex.",
+          "file": "P044_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Latex",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F03",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "fluticasone / salmeterol",
+      "name_as_written": "Seretide",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "1. Seretide BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-01",
+          "quote": "MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-02-01,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "1. Seretide BD",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F04",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "4. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-01",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-02-01,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "4. Hydrodiuril 25 mg OD",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F05",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "levonorgestrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2018-12-11",
+      "quote": "Her levonorgestrel was stopped on 11 December 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-12-11",
+          "quote": "Her levonorgestrel was stopped on 11 December 2018.",
+          "file": "P044_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F06",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "5. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-01",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-01,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "5. Zestril 10 mg OD",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F07",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "norelgestromin / ethinyl estradiol",
+      "name_as_written": "Evra",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-02-03",
+      "quote": "1. Evra - stopped 03-Feb-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-02-03",
+          "quote": "1. Evra - stopped 03-Feb-2020",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "weekly",
+          "hospital": "B",
+          "date": "2020-01-26",
+          "quote": "She takes norelgestromin and ethinyl estradiol once a week."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F08",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "3. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-01",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-02-01,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "3. Panadol 325 mg PRN",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F09",
+      "patient_id": "P044",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Percocet",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "2. Percocet PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-01",
+          "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-02-01,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "2. Percocet PRN",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F10",
+      "patient_id": "P044",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-11-23",
+          "quote": "PROBLEM,Hypertension,,,Active,2008-11-23,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-01-26",
+          "quote": "She is known to have hypertension.",
+          "file": "P044_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Hypertension",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P044-F11",
+      "patient_id": "P044",
+      "type": "diagnosis",
+      "name": "pulmonary emphysema",
+      "name_as_written": "Pulmonary emphysema",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-04",
+      "quote": "- Pulmonary emphysema",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-12-16",
+          "quote": "PROBLEM,Pulmonary emphysema,,,Active,2012-12-16,",
+          "file": "P044_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-01-26",
+          "quote": "She has a history of pulmonary emphysema.",
+          "file": "P044_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-04",
+          "quote": "- Pulmonary emphysema",
+          "file": "P044_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

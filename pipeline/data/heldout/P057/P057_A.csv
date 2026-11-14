@@ -1,0 +1,12 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Animal dander,,,Active,2020-02-17,hay fever symptoms; skin rash
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Aspirin,,,Active,2020-02-17,
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Cow's milk,,,Active,2020-02-17,vomiting; swelling (angioedema)
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Grass pollen,,,Active,2020-02-17,
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,House dust mite,,,Active,2020-02-17,
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Latex,,,Active,2020-02-17,hives
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Mould,,,Active,2020-02-17,sneezing
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Shellfish,,,Active,2020-02-17,swelling (angioedema); skin rash
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,ALLERGY,Soya,,,Active,2020-02-17,vomiting; diarrhoea
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,MEDICATION,Epinephrine,0.3 mg,as needed,Active,2020-02-17,
+P057,"Langosh, Damon",2019-02-17,M,2021-09-25,MEDICATION,Cetirizine,5 mg,once daily,Active,2020-02-17,

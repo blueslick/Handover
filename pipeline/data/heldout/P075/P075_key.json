@@ -1,0 +1,183 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P075",
+  "run_id": null,
+  "built_from": [
+    "P075_A.csv",
+    "P075_B.txt",
+    "P075_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P075-F01",
+      "patient_id": "P075",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-05-05",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P075_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She has no known allergies.",
+          "file": "P075_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- NKA",
+          "file": "P075_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P075-F02",
+      "patient_id": "P075",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Errin",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "1. Errin 0.35 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "1. Errin 0.35 mg OD",
+          "file": "P075_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "0.35 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2020-05-05",
+          "quote": "MEDICATION,Norethisterone,0.35 mg,once daily,Active,2020-05-05,"
+        },
+        {
+          "status": "stopped",
+          "dose": null,
+          "frequency": null,
+          "hospital": "B",
+          "date": "2020-05-11",
+          "quote": "Her norethisterone was stopped on 11 May 2020."
+        },
+        {
+          "status": "current",
+          "dose": "0.7 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She continues on norethisterone 0.7 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P075-F03",
+      "patient_id": "P075",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-04-21",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-04-21,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-04-21",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-04-21,",
+          "file": "P075_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P075-F04",
+      "patient_id": "P075",
+      "type": "medicine",
+      "name": "penicillin v",
+      "name_as_written": "Penicillin v",
+      "dose": "500 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-12-21",
+      "quote": "MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2018-12-21,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-12-21",
+          "quote": "MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2018-12-21,",
+          "file": "P075_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P075-F05",
+      "patient_id": "P075",
+      "type": "diagnosis",
+      "name": "severe anxiety (panic) (finding",
+      "name_as_written": "Severe anxiety (panic) (finding",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Severe anxiety (panic) (finding",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She is known to have severe anxiety (panic) (finding.",
+          "file": "P075_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Severe anxiety (panic) (finding",
+          "file": "P075_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

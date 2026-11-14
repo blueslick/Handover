@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P068,"Niño, José Emilio",2011-07-14,M,2021-11-14,ALLERGY,Animal dander,,,Active,2012-05-20,cough; hay fever symptoms
+P068,"Niño, José Emilio",2011-07-14,M,2021-11-14,ALLERGY,Tree nuts,,,Active,2012-05-20,hives; shortness of breath
+P068,"Niño, José Emilio",2011-07-14,M,2021-11-14,MEDICATION,No current medications,,,,,

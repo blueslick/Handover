@@ -1,0 +1,32 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ELLIOTT NIKOLAUS
+ ID      : P094
+ DOB     : 17-Jun-1949    Sex: M
+ Date    : 29-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Diabetes
+  - Anemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Diabetic retinopathy associated with type II diabetes mellitus
+  - Neuropathy due to type 2 diabetes mellitus
+  - Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus
+  - Hyperlipidemia
+  - Macular edema and retinopathy due to type 2 diabetes mellitus
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Ventolin 90 mcg PRN
+  3. Zocor 5 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

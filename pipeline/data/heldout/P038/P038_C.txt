@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : VON BOTSFORD
+ ID      : P038
+ DOB     : 05-May-2012    Sex: M
+ Date    : 08-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Coronary Heart Disease
+
+[CURRENT MEDICATIONS]
+  1. Norvasc 5 mg OD
+  2. Plavix 75 mg OD
+  3. Zocor 20 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

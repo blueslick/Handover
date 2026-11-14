@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Olen O'Reilly
+Hospital ID: P049
+Date of birth: 16 January 1996
+Date of visit: 31 October 2021
+
+Dear Doctor,
+
+I reviewed this 25-year-old man in the medical clinic today. His background includes chronic pain. His background includes hypertension.
+
+He has no known allergies.
+
+He continues on lisinopril 10 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

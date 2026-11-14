@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Joey Stoltenberg
+Hospital ID: P065
+Date of birth: 17 June 1958
+Date of visit: 1 November 2021
+
+Dear Doctor,
+
+I reviewed this 63-year-old man in the medical clinic today. His background includes hypertension. He is known to have chronic sinusitis. He is known to have coronary heart disease. He is known to have stroke.
+
+He has no known allergies.
+
+He is on amlodipine 5 mg once a day. He is on clopidogrel 75 mg once a day. He is on simvastatin 20 mg at night. He is on amlodipine 2.5 mg once a day.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

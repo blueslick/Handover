@@ -1,0 +1,16 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Animal dander,,,Active,1996-12-17,hay fever symptoms; hives
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Fish,,,Active,1996-12-17,hay fever symptoms; skin rash
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Grass pollen,,,Active,1996-12-17,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,House dust mite,,,Active,1996-12-17,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Mould,,,Active,1996-12-17,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Co-trimoxazole,,,Active,1996-12-17,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,ALLERGY,Tree pollen,,,Active,1996-12-17,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,PROBLEM,Hypertension,,,Active,2014-03-01,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-10,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-04-10,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-04-10,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-08,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-10,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-04-10,
+P012,"Vandervort, Oren",1996-01-06,M,2021-11-08,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-10,

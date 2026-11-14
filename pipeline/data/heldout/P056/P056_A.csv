@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,ALLERGY,No known allergies,,,,,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,PROBLEM,Coronary Heart Disease,,,Active,2011-02-26,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,PROBLEM,Myocardial Infarction,,,Active,2013-01-19,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,PROBLEM,Appendicitis,,,Active,2020-02-17,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-10-10,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-10-10,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-10-10,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-10-10,
+P056,"Gorczany, Augustine",2009-09-19,M,2021-11-15,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2019-02-28,

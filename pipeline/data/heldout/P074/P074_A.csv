@@ -1,0 +1,11 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,ALLERGY,Aspirin,,,Active,1975-11-26,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,PROBLEM,Hypertension,,,Active,1988-12-17,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,PROBLEM,Hypoxemia,,,Active,2021-03-06,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Enoxaparin,40 mg,once daily,Active,2021-03-06,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-06-19,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Paracetamol,500 mg,as needed,Active,2021-03-06,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-06-19,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-06-19,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-06-19,
+P074,"Gerlach, Lucius",1970-10-24,M,2021-10-31,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-10-31,

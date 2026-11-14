@@ -1,0 +1,314 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P056",
+  "run_id": null,
+  "built_from": [
+    "P056_A.csv",
+    "P056_B.txt",
+    "P056_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P056-F01",
+      "patient_id": "P056",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-15",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-02-23",
+          "quote": "- NKA",
+          "file": "P056_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "He has no known allergies.",
+          "file": "P056_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-15",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F02",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-10",
+      "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-10-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-10",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-10-10,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F03",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-10",
+      "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-10-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-10",
+          "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-10-10,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F04",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-10",
+      "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-10-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-10",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-10-10,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F05",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-02-28",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2019-02-28,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-02-28",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2019-02-28,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "C",
+          "date": "2019-02-23",
+          "quote": "1. Panadol 325 mg PRN"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F06",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-10",
+      "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-10-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-10",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-10-10,",
+          "file": "P056_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F07",
+      "patient_id": "P056",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-09-05",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "He takes no regular medicines.",
+          "file": "P056_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F08",
+      "patient_id": "P056",
+      "type": "diagnosis",
+      "name": "appendicitis",
+      "name_as_written": "appendicitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-05",
+      "quote": "He has a history of appendicitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-02-17",
+          "quote": "PROBLEM,Appendicitis,,,Active,2020-02-17,",
+          "file": "P056_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "He has a history of appendicitis.",
+          "file": "P056_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F09",
+      "patient_id": "P056",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-05",
+      "quote": "He is known to have coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-02-26",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2011-02-26,",
+          "file": "P056_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2019-02-23",
+          "quote": "- Coronary Heart Disease",
+          "file": "P056_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "He is known to have coronary heart disease.",
+          "file": "P056_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P056-F10",
+      "patient_id": "P056",
+      "type": "diagnosis",
+      "name": "myocardial infarction",
+      "name_as_written": "myocardial infarction",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-05",
+      "quote": "He is known to have myocardial infarction.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2013-01-19",
+          "quote": "PROBLEM,Myocardial Infarction,,,Active,2013-01-19,",
+          "file": "P056_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2019-02-23",
+          "quote": "- Myocardial Infarction",
+          "file": "P056_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "He is known to have myocardial infarction.",
+          "file": "P056_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P051,"Rojo, Pablo",2006-10-17,M,2021-07-20,ALLERGY,No known allergies,,,,,
+P051,"Rojo, Pablo",2006-10-17,M,2021-07-20,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2020-09-22,
+P051,"Rojo, Pablo",2006-10-17,M,2021-07-20,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-10-29,

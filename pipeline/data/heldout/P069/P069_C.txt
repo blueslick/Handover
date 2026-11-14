@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JEREMY WITTING
+ ID      : P069
+ DOB     : 06-Sep-1958    Sex: M
+ Date    : 14-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Hypertension
+  - Prediabetes
+  - Anemia
+
+[CURRENT MEDICATIONS]
+  1. Hydrodiuril 25 mg OD
+  2. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

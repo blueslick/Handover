@@ -1,0 +1,30 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DAMON LANGOSH
+ ID      : P057
+ DOB     : 17-Feb-2019    Sex: M
+ Date    : 25-Oct-2020
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, skin rash)
+  - Cow's milk (vomiting, swelling (angioedema))
+  - Grass pollen
+  - House dust mite
+  - Latex (hives)
+  - Mould (sneezing)
+  - Shellfish (swelling (angioedema), skin rash)
+  - Soya (vomiting, diarrhoea)
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. EpiPen 0.3 mg PRN
+  2. Zyrtec 5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

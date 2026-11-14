@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Benny Tillman
+Hospital ID: P100
+Date of birth: 3 January 1969
+Date of visit: 22 December 2020
+
+Dear Doctor,
+
+I reviewed this 51-year-old man in the medical clinic today. He is known to have diabetes. His background includes hypertension. His background includes neuropathy due to type 2 diabetes mellitus. He is known to have hypertriglyceridemia. He has a history of metabolic syndrome x. He is known to have chronic kidney disease stage 1. He is known to have diabetic renal disease.
+
+He has no known allergies.
+
+He takes no regular medicines. His amoxicillin and clavulanate was stopped on 19 October 2017. His naproxen was stopped on 12 December 2018.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

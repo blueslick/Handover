@@ -1,0 +1,349 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P036",
+  "run_id": null,
+  "built_from": [
+    "P036_A.csv",
+    "P036_B.txt",
+    "P036_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P036-F01",
+      "patient_id": "P036",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "- NKA",
+          "file": "P036_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She has no known allergies.",
+          "file": "P036_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P036_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F02",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-11-16,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She continues on amlodipine 5 mg once a day.",
+          "file": "P036_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-11-16,",
+          "file": "P036_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "2.5 mg",
+          "frequency": "daily",
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "1. Norvasc 2.5 mg OD"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F03",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "She continues on clopidogrel 75 mg once a day.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "P036_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She continues on clopidogrel 75 mg once a day.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F04",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "She is on nitroglycerin 0.4 mg when needed.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-01",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-01-01,",
+          "file": "P036_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "3. Nitrolingual 0.4 mg PRN",
+          "file": "P036_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She is on nitroglycerin 0.4 mg when needed.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F05",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "penicillin v",
+      "name_as_written": "Pen-Vee K",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2017-04-16",
+      "quote": "1. Pen-Vee K - stopped 16-Apr-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-04-16",
+          "quote": "1. Pen-Vee K - stopped 16-Apr-2017",
+          "file": "P036_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F06",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "She takes simvastatin 10 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She takes simvastatin 10 mg at night.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "20 mg",
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "4. Zocor 20 mg ON"
+        },
+        {
+          "status": "current",
+          "dose": "10 mg",
+          "frequency": "at_night",
+          "hospital": "A",
+          "date": "2021-01-23",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-01-23,"
+        }
+      ],
+      "flags": [
+        "dose_changed",
+        "conflict"
+      ],
+      "conflict_group": "P036-C1"
+    },
+    {
+      "fact_id": "P036-F07",
+      "patient_id": "P036",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "She takes simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She takes simvastatin 20 mg at night.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "20 mg",
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "4. Zocor 20 mg ON"
+        },
+        {
+          "status": "current",
+          "dose": "10 mg",
+          "frequency": "at_night",
+          "hospital": "A",
+          "date": "2021-01-23",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-01-23,"
+        }
+      ],
+      "flags": [
+        "dose_changed",
+        "conflict"
+      ],
+      "conflict_group": "P036-C1"
+    },
+    {
+      "fact_id": "P036-F08",
+      "patient_id": "P036",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "Her background includes coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2016-12-08",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2016-12-08,",
+          "file": "P036_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "- Coronary Heart Disease",
+          "file": "P036_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "Her background includes coronary heart disease.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P036-F09",
+      "patient_id": "P036",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-18",
+      "quote": "She has a history of hyperlipidemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2013-01-03",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2013-01-03,",
+          "file": "P036_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-07",
+          "quote": "- Hyperlipidemia",
+          "file": "P036_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-18",
+          "quote": "She has a history of hyperlipidemia.",
+          "file": "P036_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

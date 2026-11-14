@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Pablo Rojo
+Hospital ID: P051
+Date of birth: 17 October 2006
+Date of visit: 14 November 2021
+
+Dear Doctor,
+
+I reviewed this 15-year-old boy in the medical clinic today.
+
+He has no known allergies.
+
+He takes paracetamol and hydrocodone when needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

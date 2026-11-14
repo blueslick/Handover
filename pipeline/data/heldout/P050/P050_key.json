@@ -1,0 +1,163 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P050",
+  "run_id": null,
+  "built_from": [
+    "P050_A.csv",
+    "P050_B.txt",
+    "P050_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P050-F01",
+      "patient_id": "P050",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-06",
+      "quote": "She has no known allergies.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-26",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-05",
+          "quote": "- NKA",
+          "file": "P050_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-06",
+          "quote": "She has no known allergies.",
+          "file": "P050_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P050-F02",
+      "patient_id": "P050",
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "drospirenone and ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-06",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-04",
+          "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Active,2021-01-04,",
+          "file": "P050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-05",
+          "quote": "1. Yaz OD",
+          "file": "P050_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-06",
+          "quote": "She continues on drospirenone and ethinyl estradiol once a day.",
+          "file": "P050_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P050-F03",
+      "patient_id": "P050",
+      "type": "diagnosis",
+      "name": "chronic paralysis due to lesion of spinal cord",
+      "name_as_written": "chronic paralysis due to lesion of spinal cord",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-06",
+      "quote": "She is known to have chronic paralysis due to lesion of spinal cord.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-12-03",
+          "quote": "PROBLEM,Chronic paralysis due to lesion of spinal cord,,,Active,2008-12-03,",
+          "file": "P050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-05",
+          "quote": "- Chronic paralysis due to lesion of spinal cord",
+          "file": "P050_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-06",
+          "quote": "She is known to have chronic paralysis due to lesion of spinal cord.",
+          "file": "P050_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P050-F04",
+      "patient_id": "P050",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-06",
+      "quote": "Her background includes chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-01-21",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,2012-01-21,",
+          "file": "P050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-05",
+          "quote": "- Chronic sinusitis",
+          "file": "P050_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-06",
+          "quote": "Her background includes chronic sinusitis.",
+          "file": "P050_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

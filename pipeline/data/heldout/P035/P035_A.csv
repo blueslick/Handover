@@ -1,0 +1,18 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Animal dander,,,Active,1967-08-16,hay fever symptoms
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Aspirin,,,Active,1967-08-16,abdominal pain
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Grass pollen,,,Active,1967-08-16,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,House dust mite,,,Active,1967-08-16,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Latex,,,Active,1967-08-16,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Mould,,,Active,1967-08-16,sneezing; skin rash
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Peanut,,,Active,1967-08-16,hives; swelling (angioedema)
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Penicillin,,,Active,1967-08-16,skin rash; swelling (angioedema)
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,ALLERGY,Wheat,,,Active,1967-08-16,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,PROBLEM,Hypertension,,,Active,1984-12-30,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,PROBLEM,Prediabetes,,,Active,2013-06-09,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,PROBLEM,Anemia,,,Active,2014-06-15,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,PROBLEM,Sepsis,,,Active,2019-06-30,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,MEDICATION,Vancomycin,750 mg,twice daily,Active,2019-07-01,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,MEDICATION,Norepinephrine,4 mg,once,Active,2019-07-10,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,MEDICATION,Aztreonam,2000 mg,three times daily,Active,2019-07-01,
+P035,"Nader, Emilie",1966-11-06,F,2021-02-12,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2017-10-27,

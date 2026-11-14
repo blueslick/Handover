@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : STEPHANIE GIBSON
+ ID      : P061
+ DOB     : 09-Jul-1998    Sex: F
+ Date    : 28-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic intractable migraine without aura
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  1. Zestril 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

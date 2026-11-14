@@ -1,0 +1,8 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,ALLERGY,No known allergies,,,,,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,PROBLEM,Hyperlipidemia,,,Active,2013-01-03,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,PROBLEM,Coronary Heart Disease,,,Active,2016-12-08,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-11-16,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-01-01,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-01-23,
+P036,"O'Connell, Macie",1966-12-08,F,2021-11-16,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-01-01,

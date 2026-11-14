@@ -1,0 +1,17 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Animal dander,,,Active,1966-05-05,hay fever symptoms; hives
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Aspirin,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Egg,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Grass pollen,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,House dust mite,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Latex,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Mould,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Peanut,,,Active,1966-05-05,hives; swelling (angioedema)
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Tree nuts,,,Active,1966-05-05,anaphylaxis; cough
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,ALLERGY,Wheat,,,Active,1966-05-05,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,PROBLEM,Anemia,,,Active,1995-06-30,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,PROBLEM,Prediabetes,,,Active,1995-06-30,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,PROBLEM,Osteoarthritis of knee,,,Active,2019-03-19,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-07-03,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-07-03,
+P015,"Grady, Brendan",1965-02-26,M,2021-11-07,MEDICATION,Naproxen,220 mg,twice daily,Active,2021-11-07,

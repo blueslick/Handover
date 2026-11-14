@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P069,"Witting, Jeremy",1958-09-06,M,2019-12-20,ALLERGY,No known allergies,,,,,
+P069,"Witting, Jeremy",1958-09-06,M,2019-12-20,PROBLEM,Hypertension,,,Active,1976-10-30,
+P069,"Witting, Jeremy",1958-09-06,M,2019-12-20,PROBLEM,Prediabetes,,,Active,1981-11-28,
+P069,"Witting, Jeremy",1958-09-06,M,2019-12-20,PROBLEM,Anemia,,,Active,1983-12-10,
+P069,"Witting, Jeremy",1958-09-06,M,2019-12-20,MEDICATION,Naproxen,220 mg,twice daily,Active,2019-12-20,

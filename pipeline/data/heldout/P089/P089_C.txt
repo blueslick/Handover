@@ -1,0 +1,25 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LENORA CARTWRIGHT
+ ID      : P089
+ DOB     : 12-Mar-1939    Sex: F
+ Date    : 29-Aug-2021
+========================================================
+
+[ALLERGIES]
+  - Bactrim (skin rash)
+
+[PROBLEM LIST]
+  - Prediabetes
+  - Anemia
+  - Chronic sinusitis
+  - Osteoporosis
+
+[CURRENT MEDICATIONS]
+  1. Fosamax 10 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

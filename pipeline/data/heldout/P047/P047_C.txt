@@ -1,0 +1,33 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : GILLIAN LANGWORTH
+ ID      : P047
+ DOB     : 29-Sep-2005    Sex: F
+ Date    : 02-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Bee venom (skin rash)
+  - Cow's milk (wheezing)
+  - Egg
+  - Mould
+  - Tree pollen
+
+[PROBLEM LIST]
+  - Cerebral palsy
+  - Epilepsy
+  - Gastroesophageal reflux disease
+  - Intellectual disability
+  - Osteoporosis
+  - Pneumonia
+  - Perennial allergic rhinitis with seasonal variation
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

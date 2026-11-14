@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Gerardo Herman
+Hospital ID: P033
+Date of birth: 2 October 1962
+Date of visit: 25 February 2018
+
+Dear Doctor,
+
+I reviewed this 55-year-old man in the medical clinic today. He is known to have anemia. His background includes prediabetes.
+
+He has no known allergies.
+
+He takes ibuprofen 200 mg when needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

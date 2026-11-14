@@ -1,0 +1,17 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,ALLERGY,Penicillin,,,Active,1949-08-15,cough; swelling (angioedema)
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,ALLERGY,Soya,,,Active,1949-08-15,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Hypertension,,,Active,1966-06-05,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Chronic sinusitis,,,Active,1968-12-24,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Prediabetes,,,Active,1978-08-13,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Miscarriage in first trimester,,,Active,1993-02-07,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Polyp of colon,,,Active,1998-04-12,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Recurrent rectal polyp,,,Active,1999-05-25,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Osteoporosis,,,Active,2009-02-01,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Atrial Fibrillation,,,Active,2020-04-05,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,PROBLEM,Severe anxiety (panic) (finding,,,Active,2021-04-11,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,MEDICATION,Digoxin,0.25 mg,once daily,Active,2021-08-29,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-04-11,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-04-11,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,MEDICATION,Verapamil,40 mg,three times daily,Active,2021-04-11,
+P093,"Dicki, Shelba",1948-04-11,F,2021-08-29,MEDICATION,Warfarin,5 mg,once daily,Active,2021-04-11,

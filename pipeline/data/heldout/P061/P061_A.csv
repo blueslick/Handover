@@ -1,0 +1,7 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,ALLERGY,No known allergies,,,,,
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,PROBLEM,Chronic intractable migraine without aura,,,Active,2014-01-03,
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,PROBLEM,Hypertension,,,Active,2016-09-01,
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,MEDICATION,Norethisterone,0.35 mg,once daily,Active,2019-05-31,
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-09-16,
+P061,"Gibson, Stephanie",1998-07-09,F,2019-05-31,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2017-06-13,

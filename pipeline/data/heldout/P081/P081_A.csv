@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P081,"Krajcik, Jenny",1979-01-17,F,2020-11-04,ALLERGY,Animal dander,,,Active,1980-03-10,hay fever symptoms; skin rash
+P081,"Krajcik, Jenny",1979-01-17,F,2020-11-04,ALLERGY,Fish,,,Active,1980-03-10,vomiting; hay fever symptoms
+P081,"Krajcik, Jenny",1979-01-17,F,2020-11-04,ALLERGY,Co-trimoxazole,,,Active,1980-03-10,skin rash
+P081,"Krajcik, Jenny",1979-01-17,F,2020-11-04,PROBLEM,Coronary Heart Disease,,,Active,1980-06-25,
+P081,"Krajcik, Jenny",1979-01-17,F,2020-11-04,MEDICATION,No current medications,,,,,

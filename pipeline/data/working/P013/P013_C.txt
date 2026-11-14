@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DEBORA CONN
+ ID      : P013
+ DOB     : 17-May-1956    Sex: F
+ Date    : 16-Jul-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Osteoarthritis of knee
+  - Polyp of colon
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P045,"Heaney, Georgiann",2002-04-11,F,2021-08-09,ALLERGY,No known allergies,,,,,
+P045,"Heaney, Georgiann",2002-04-11,F,2021-08-09,PROBLEM,Hypertension,,,Active,2020-06-04,
+P045,"Heaney, Georgiann",2002-04-11,F,2021-08-09,MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2018-06-29,
+P045,"Heaney, Georgiann",2002-04-11,F,2021-08-09,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-06-11,
+P045,"Heaney, Georgiann",2002-04-11,F,2021-08-09,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-06-11,

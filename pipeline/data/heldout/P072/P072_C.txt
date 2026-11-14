@@ -1,0 +1,31 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : PHUONG LYNCH
+ ID      : P072
+ DOB     : 01-Jun-1975    Sex: F
+ Date    : 13-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Sepsis
+  - Anemia
+  - Prediabetes
+  - Miscarriage in first trimester
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Panadol 325 mg PRN
+  2. Liletta 52 mg intrauterine system (lasts 6 years)
+  3. Zocor 10 mg ON
+
+[DISCONTINUED]
+  1. Depo-Provera - stopped 29-Jun-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

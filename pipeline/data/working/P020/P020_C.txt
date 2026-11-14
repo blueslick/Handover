@@ -1,0 +1,24 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LAURENA HEIDENREICH
+ ID      : P020
+ DOB     : 21-Jan-1960    Sex: F
+ Date    : 01-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Recurrent urinary tract infection
+  - Hyperlipidemia
+
+[CURRENT MEDICATIONS]
+  1. Zocor 10 mg ON
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

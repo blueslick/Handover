@@ -1,0 +1,15 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Animal dander,,,Active,2006-12-28,hay fever symptoms; hives
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Bee venom,,,Active,2006-12-28,skin rash
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Cow's milk,,,Active,2006-12-28,wheezing
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Egg,,,Active,2006-12-28,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Mould,,,Active,2006-12-28,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,ALLERGY,Tree pollen,,,Active,2006-12-28,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Cerebral palsy,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Epilepsy,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Gastroesophageal reflux disease,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Intellectual disability,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Osteoporosis,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Pneumonia,,,Active,2005-10-29,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2008-01-28,
+P047,"Langworth, Gillian",2005-09-29,F,2021-11-09,MEDICATION,No current medications,,,,,

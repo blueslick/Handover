@@ -1,0 +1,23 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : EMILIA URIBE
+ ID      : P078
+ DOB     : 10-May-1993    Sex: F
+ Date    : 31-Oct-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Nil
+
+[CURRENT MEDICATIONS]
+  1. Zohydro ER 10 mg BD
+  2. Durogesic 25 mcg as a patch changed every 72 hours
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

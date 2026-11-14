@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Ezra Mertz
+Hospital ID: P040
+Date of birth: 11 December 1966
+Date of visit: 11 November 2021
+
+Dear Doctor,
+
+I reviewed this 54-year-old man in the medical clinic today. He has a history of appendicitis. He is known to have sepsis.
+
+He has no known allergies.
+
+He takes no regular medicines. His paracetamol was stopped on 26 July 2019.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

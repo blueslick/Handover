@@ -1,0 +1,36 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : WARREN ULLRICH
+ ID      : P026
+ DOB     : 28-Mar-1916    Sex: M
+ Date    : 26-Mar-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Anemia
+  - Prediabetes
+  - Diabetes
+  - Hyperglycemia
+  - Hypertriglyceridemia
+  - Metabolic syndrome X
+  - Chronic kidney disease stage 1
+  - Diabetic renal disease
+  - Alcoholism
+  - Atrial Fibrillation
+  - Carcinoma in situ of prostate
+  - Neoplasm of prostate
+  - Osteoporosis
+  - Coronary Heart Disease
+  - Stroke
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,463 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P072",
+  "run_id": null,
+  "built_from": [
+    "P072_A.csv",
+    "P072_B.txt",
+    "P072_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P072-F01",
+      "patient_id": "P072",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-06-24",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She has no known allergies.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- NKA",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F02",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Estradiol valerate / dienogest",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2017-03-11",
+      "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2017-03-11,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-03-11",
+          "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2017-03-11,",
+          "file": "P072_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F03",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Etonogestrel",
+      "dose": "68 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-07-04",
+      "quote": "MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-07-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-07-04",
+          "quote": "MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-07-04,",
+          "file": "P072_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F04",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "Liletta",
+      "dose": "52 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "2. Liletta 52 mg intrauterine system (lasts 6 years)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is on levonorgestrel 52 mg intrauterine system (lasts 6 years).",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "2. Liletta 52 mg intrauterine system (lasts 6 years)",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F05",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2019-07-10",
+      "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-07-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-07-10",
+          "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-07-10,",
+          "file": "P072_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F06",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "medroxyprogesterone",
+      "name_as_written": "Depo-Provera",
+      "dose": "150 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2021-06-29",
+      "quote": "1. Depo-Provera - stopped 29-Jun-2021",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-06-29",
+          "quote": "1. Depo-Provera - stopped 29-Jun-2021",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "150 mg",
+          "frequency": "other",
+          "hospital": "A",
+          "date": "2021-06-24",
+          "quote": "MEDICATION,Medroxyprogesterone,150 mg,every 3 months,Active,2021-06-24,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F07",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "1. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-28",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-03-28,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is on paracetamol 325 mg when needed.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "1. Panadol 325 mg PRN",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "stopped",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "A",
+          "date": "2021-01-10",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-01-10,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F08",
+      "patient_id": "P072",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "3. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She takes simvastatin 10 mg at night.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "3. Zocor 10 mg ON",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "at_night",
+          "hospital": "A",
+          "date": "2021-06-24",
+          "quote": "MEDICATION,Simvastatin,5 mg,at bedtime,Active,2021-06-24,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F09",
+      "patient_id": "P072",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-08-10",
+          "quote": "PROBLEM,Anemia,,,Active,2003-08-10,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is known to have anemia.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Anemia",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F10",
+      "patient_id": "P072",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2016-02-28",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2016-02-28,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "Her background includes hyperlipidemia.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Hyperlipidemia",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F11",
+      "patient_id": "P072",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Miscarriage in first trimester",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-07-18",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,2004-07-18,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She has a history of miscarriage in first trimester.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Miscarriage in first trimester",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F12",
+      "patient_id": "P072",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-08-10",
+          "quote": "PROBLEM,Prediabetes,,,Active,2003-08-10,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "Her background includes prediabetes.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Prediabetes",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P072-F13",
+      "patient_id": "P072",
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "Sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Sepsis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-02-02",
+          "quote": "PROBLEM,Sepsis,,,Active,1999-02-02,",
+          "file": "P072_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She has a history of sepsis.",
+          "file": "P072_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Sepsis",
+          "file": "P072_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

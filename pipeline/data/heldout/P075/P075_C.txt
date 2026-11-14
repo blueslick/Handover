@@ -1,0 +1,22 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : KIMBRA BOGAN
+ ID      : P075
+ DOB     : 03-May-1983    Sex: F
+ Date    : 11-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Severe anxiety (panic) (finding
+
+[CURRENT MEDICATIONS]
+  1. Errin 0.35 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

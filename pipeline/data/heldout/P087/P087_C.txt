@@ -1,0 +1,28 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : ZACHARIAH BERGSTROM
+ ID      : P087
+ DOB     : 15-Jul-1913    Sex: M
+ Date    : 13-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Chronic sinusitis
+  - Carcinoma in situ of prostate
+  - Neoplasm of prostate
+  - Atrial Fibrillation
+  - Streptococcal sore throat
+
+[CURRENT MEDICATIONS]
+  1. Lanoxin 0.125 mg OD
+  2. Pen-Vee K 500 mg QID
+  3. Isoptin 40 mg TDS
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

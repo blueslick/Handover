@@ -1,0 +1,145 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P080",
+  "run_id": null,
+  "built_from": [
+    "P080_A.csv",
+    "P080_B.txt",
+    "P080_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P080-F01",
+      "patient_id": "P080",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-28",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-10",
+          "quote": "- NKA",
+          "file": "P080_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-22",
+          "quote": "She has no known allergies.",
+          "file": "P080_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-28",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P080_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P080-F02",
+      "patient_id": "P080",
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "Drospirenone / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-02-18",
+      "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2021-02-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-18",
+          "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2021-02-18,",
+          "file": "P080_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "daily",
+          "hospital": "C",
+          "date": "2021-02-10",
+          "quote": "1. Yaz OD"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P080-F03",
+      "patient_id": "P080",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Norethisterone",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-28",
+      "quote": "MEDICATION,Norethisterone,0.35 mg,once daily,Active,2021-10-28,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-28",
+          "quote": "MEDICATION,Norethisterone,0.35 mg,once daily,Active,2021-10-28,",
+          "file": "P080_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "0.7 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-09-22",
+          "quote": "She is on norethisterone 0.7 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P080-F04",
+      "patient_id": "P080",
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "NyQuil",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2018-05-04",
+      "quote": "1. NyQuil - stopped 04-May-2018",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-05-04",
+          "quote": "1. NyQuil - stopped 04-May-2018",
+          "file": "P080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

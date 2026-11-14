@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Debora Conn
+Hospital ID: P013
+Date of birth: 17 May 1956
+Date of visit: 16 January 2021
+
+Dear Doctor,
+
+I reviewed this 64-year-old woman in the medical clinic today. Her background includes chronic sinusitis. She has a history of osteoarthritis of knee.
+
+She has no known allergies.
+
+She takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

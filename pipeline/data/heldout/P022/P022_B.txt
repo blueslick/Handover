@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Denis Abshire
+Hospital ID: P022
+Date of birth: 26 November 1958
+Date of visit: 31 October 2021
+
+Dear Doctor,
+
+I reviewed this 62-year-old man in the medical clinic today. He has a history of coronary heart disease.
+
+He has no known allergies.
+
+He is on amlodipine 5 mg once a day. He is on clopidogrel 75 mg once a day. He is on nitroglycerin 0.4 mg when needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

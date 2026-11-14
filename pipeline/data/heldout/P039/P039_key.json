@@ -1,0 +1,433 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "P039",
+  "run_id": null,
+  "built_from": [
+    "P039_A.csv",
+    "P039_B.txt",
+    "P039_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P039-F01",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Animal dander (hay fever symptoms)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,Animal dander,,,Active,1994-08-04,hay fever symptoms",
+          "file": "P039_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Animal dander (hay fever symptoms)",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F02",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "shortness of breath, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Fish (shortness of breath, skin rash)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to fish, which causes shortness of breath and skin rash.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Fish (shortness of breath, skin rash)",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,Fish,,,Active,1994-08-04,shortness of breath; skin rash"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F03",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,Grass pollen,,,Active,1994-08-04,",
+          "file": "P039_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Grass pollen",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F04",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,House dust mite,,,Active,1994-08-04,",
+          "file": "P039_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- House dust mite",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F05",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "itching, shortness of breath",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Latex (itching, shortness of breath)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to latex, which causes itching and shortness of breath.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Latex (itching, shortness of breath)",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,Latex,,,Active,1994-08-04,itching; shortness of breath"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F06",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "runny nose",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Mould (runny nose)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to mould, which causes runny nose.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Mould (runny nose)",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F07",
+      "patient_id": "P039",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, shortness of breath",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Tree nuts (hives, shortness of breath)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to tree nuts, which causes hives and shortness of breath.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Tree nuts (hives, shortness of breath)",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "1994-08-04",
+          "quote": "ALLERGY,Tree nuts,,,Active,1994-08-04,hives; shortness of breath"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F08",
+      "patient_id": "P039",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "amoxicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-04-04",
+      "quote": "Her amoxicillin was stopped on 4 April 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-04-04",
+          "quote": "Her amoxicillin was stopped on 4 April 2021.",
+          "file": "P039_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F09",
+      "patient_id": "P039",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2021-10-12",
+      "quote": "1. Nurofen - stopped 12-Oct-2021",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-12",
+          "quote": "1. Nurofen - stopped 12-Oct-2021",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "200 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She takes ibuprofen 200 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F10",
+      "patient_id": "P039",
+      "type": "medicine",
+      "name": "norgestimate / ethinyl estradiol",
+      "name_as_written": "norgestimate and ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2019-03-17",
+      "quote": "Her norgestimate and ethinyl estradiol was stopped on 17 March 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-03-17",
+          "quote": "Her norgestimate and ethinyl estradiol was stopped on 17 March 2019.",
+          "file": "P039_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F11",
+      "patient_id": "P039",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "1. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-29",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-03-29,",
+          "file": "P039_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She continues on paracetamol 325 mg when needed.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "1. Panadol 325 mg PRN",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P039-F12",
+      "patient_id": "P039",
+      "type": "diagnosis",
+      "name": "otitis media",
+      "name_as_written": "Otitis media",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-02",
+      "quote": "- Otitis media",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-21",
+          "quote": "PROBLEM,Otitis media,,,Active,2021-03-21,",
+          "file": "P039_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "Her background includes otitis media.",
+          "file": "P039_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-02",
+          "quote": "- Otitis media",
+          "file": "P039_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

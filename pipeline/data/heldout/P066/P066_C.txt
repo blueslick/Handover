@@ -1,0 +1,29 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : FRANCES SMITHAM
+ ID      : P066
+ DOB     : 30-Sep-1938    Sex: M
+ Date    : 18-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Osteoarthritis of hip
+  - Hyperlipidemia
+  - Fibromyalgia
+  - Atrial Fibrillation
+
+[CURRENT MEDICATIONS]
+  1. Vicodin PRN
+  2. Percocet PRN
+  3. Lanoxin 0.125 mg OD
+  4. Zocor 10 mg ON
+  5. Coumadin 5 mg OD
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P023,"Arroyo, Cecilia",2004-01-21,F,2021-11-09,ALLERGY,No known allergies,,,,,
+P023,"Arroyo, Cecilia",2004-01-21,F,2021-11-09,PROBLEM,Perennial allergic rhinitis,,,Active,2007-06-26,
+P023,"Arroyo, Cecilia",2004-01-21,F,2021-11-09,MEDICATION,No current medications,,,,,

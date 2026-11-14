@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : DARRELL POLLICH
+ ID      : P053
+ DOB     : 31-Jan-1988    Sex: M
+ Date    : 24-Jun-2017
+========================================================
+
+[ALLERGIES]
+  - Animal dander (hay fever symptoms, hives)
+  - Grass pollen
+  - House dust mite
+  - Mould
+  - Tree pollen
+  - Wheat
+
+[PROBLEM LIST]
+  - Asthma
+
+[CURRENT MEDICATIONS]
+  1. Nurofen 200 mg PRN
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,26 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : NITA MCLAUGHLIN
+ ID      : P091
+ DOB     : 18-Sep-1932    Sex: F
+ Date    : 04-Oct-2020
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Atrial Fibrillation
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Panadol - stopped 14-Apr-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

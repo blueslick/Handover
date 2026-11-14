@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : JOHANA WUNSCH
+ ID      : P097
+ DOB     : 02-Feb-1970    Sex: F
+ Date    : 05-Nov-2021
+========================================================
+
+[ALLERGIES]
+  - NKA
+
+[PROBLEM LIST]
+  - Miscarriage in first trimester
+  - Fibromyalgia
+
+[CURRENT MEDICATIONS]
+  1. Flixotide 44 mcg BD
+  2. Ventolin 90 mcg PRN
+
+[DISCONTINUED]
+  1. Panadol - stopped 03-May-2021
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

@@ -1,0 +1,9 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,Animal dander,,,Active,1994-08-04,hay fever symptoms
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,Fish,,,Active,1994-08-04,shortness of breath; skin rash
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,Grass pollen,,,Active,1994-08-04,
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,House dust mite,,,Active,1994-08-04,
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,Latex,,,Active,1994-08-04,itching; shortness of breath
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,ALLERGY,Tree nuts,,,Active,1994-08-04,hives; shortness of breath
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,PROBLEM,Otitis media,,,Active,2021-03-21,
+P039,"Koss, Zona",1993-05-17,F,2021-10-13,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-03-29,

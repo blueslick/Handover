@@ -1,0 +1,38 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : LEIF RATH
+ ID      : P079
+ DOB     : 13-Dec-1991    Sex: M
+ Date    : 31-Mar-2021
+========================================================
+
+[ALLERGIES]
+  - Animal dander (skin rash)
+  - Disprin (abdominal pain)
+  - Bee venom
+  - Cow's milk (vomiting, hives)
+  - Fish (hay fever symptoms, skin rash)
+  - Grass pollen
+  - House dust mite
+  - Mould (sneezing)
+  - Peanut (hives, wheezing)
+  - Shellfish (skin rash, shortness of breath)
+  - Tree nuts (anaphylaxis, cough)
+  - Wheat
+
+[PROBLEM LIST]
+  - Hypertension
+  - Hypoxemia
+
+[CURRENT MEDICATIONS]
+  1. Clexane 40 mg OD
+  2. Panadol 500 mg PRN
+
+[DISCONTINUED]
+  1. Panadol - stopped 12-Sep-2018
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

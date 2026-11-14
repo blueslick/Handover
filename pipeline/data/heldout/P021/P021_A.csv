@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P021,"Schaefer, Orval",1977-11-21,M,2020-12-04,ALLERGY,No known allergies,,,,,
+P021,"Schaefer, Orval",1977-11-21,M,2020-12-04,PROBLEM,Fibromyalgia,,,Active,2014-02-05,
+P021,"Schaefer, Orval",1977-11-21,M,2020-12-04,MEDICATION,No current medications,,,,,

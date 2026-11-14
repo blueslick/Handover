@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P028,"Jaramillo, Ernesto",1969-06-17,M,2021-11-08,ALLERGY,Ibuprofen,,,Active,1972-09-10,hay fever symptoms
+P028,"Jaramillo, Ernesto",1969-06-17,M,2021-11-08,ALLERGY,Lisinopril,,,Active,1972-09-10,
+P028,"Jaramillo, Ernesto",1969-06-17,M,2021-11-08,MEDICATION,No current medications,,,,,

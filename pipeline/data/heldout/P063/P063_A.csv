@@ -1,0 +1,13 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Animal dander,,,Active,1952-06-15,hay fever symptoms; shortness of breath
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Bee venom,,,Active,1952-06-15,skin rash
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Cow's milk,,,Active,1952-06-15,hives
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Grass pollen,,,Active,1952-06-15,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Mould,,,Active,1952-06-15,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Co-trimoxazole,,,Active,1952-06-15,skin rash; hives
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,ALLERGY,Tree pollen,,,Active,1952-06-15,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,PROBLEM,Appendicitis,,,Active,1958-12-31,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,PROBLEM,Hyperlipidemia,,,Active,1996-06-18,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,PROBLEM,Localized  primary osteoarthritis of the hand,,,Active,1999-03-27,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,PROBLEM,Coronary Heart Disease,,,Active,2007-08-21,
+P063,"Wuckert, Brain",1951-11-27,M,2021-09-25,MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-07-03,

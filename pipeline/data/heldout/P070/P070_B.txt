@@ -1,0 +1,20 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Barney Ledner
+Hospital ID: P070
+Date of birth: 24 April 2002
+Date of visit: 10 November 2021
+
+Dear Doctor,
+
+I reviewed this 19-year-old man in the medical clinic today.
+
+He is allergic to aspirin.
+
+He takes no regular medicines.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

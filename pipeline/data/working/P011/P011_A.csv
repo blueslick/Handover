@@ -1,0 +1,4 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P011,"Bernier, Bonita",1985-04-03,F,2021-05-06,ALLERGY,Cefdinir,,,Active,2011-03-26,hives
+P011,"Bernier, Bonita",1985-04-03,F,2021-05-06,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,
+P011,"Bernier, Bonita",1985-04-03,F,2021-05-06,MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-05-19,

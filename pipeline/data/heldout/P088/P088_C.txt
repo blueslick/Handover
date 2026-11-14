@@ -1,0 +1,27 @@
+========================================================
+ SERI BAYU MEDICAL CENTRE
+ MEDICATION RECONCILIATION SHEET
+========================================================
+ Name    : CATHRYN REYNOLDS
+ ID      : P088
+ DOB     : 14-Jul-2000    Sex: F
+ Date    : 12-Feb-2021
+========================================================
+
+[ALLERGIES]
+  - Disprin (hives)
+  - Egg (hives)
+
+[PROBLEM LIST]
+  - Hypertension
+
+[CURRENT MEDICATIONS]
+  Nil regular medications
+
+[DISCONTINUED]
+  1. Panadol - stopped 03-Dec-2018
+  2. Aleve - stopped 08-Sep-2020
+
+========================================================
+ Reconciled by: Pharmacy, Seri Bayu Medical Centre
+========================================================

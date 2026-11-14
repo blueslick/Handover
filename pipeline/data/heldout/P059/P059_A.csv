@@ -1,0 +1,10 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,Animal dander,,,Active,2005-01-01,cough; hay fever symptoms
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,Egg,,,Active,2005-01-01,hives
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,Grass pollen,,,Active,2005-01-01,
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,House dust mite,,,Active,2005-01-01,
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,Latex,,,Active,2005-01-01,anaphylaxis; swelling (angioedema)
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,ALLERGY,Mould,,,Active,2005-01-01,
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,PROBLEM,Childhood asthma,,,Active,2006-09-29,
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,PROBLEM,Perennial allergic rhinitis,,,Active,2007-07-29,
+P059,"Shields, Micheal",2003-07-19,F,2021-09-01,MEDICATION,No current medications,,,,,

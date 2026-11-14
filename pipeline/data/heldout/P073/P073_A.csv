@@ -1,0 +1,6 @@
+MRN,PatientName,DOB,Sex,EncounterDate,RecordType,Description,Strength,Directions,Status,StatusDate,Reaction
+P073,"Veum, Shonta",1941-01-11,F,2021-09-23,ALLERGY,No known allergies,,,,,
+P073,"Veum, Shonta",1941-01-11,F,2021-09-23,PROBLEM,Hyperlipidemia,,,Active,1983-01-22,
+P073,"Veum, Shonta",1941-01-11,F,2021-09-23,PROBLEM,Prediabetes,,,Active,1983-01-22,
+P073,"Veum, Shonta",1941-01-11,F,2021-09-23,MEDICATION,Simvastatin,5 mg,at bedtime,Active,2021-09-23,
+P073,"Veum, Shonta",1941-01-11,F,2021-09-23,MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-10-09,
