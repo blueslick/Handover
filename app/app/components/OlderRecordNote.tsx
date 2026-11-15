@@ -4,6 +4,7 @@
 // is hidden and nothing relies on colour alone.
 import { statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
+import { formatDate } from "@/lib/dates";
 
 export default function OlderRecordNote({ facts }: { facts: Fact[] }) {
   if (facts.length === 0) return null;
@@ -21,7 +22,7 @@ export default function OlderRecordNote({ facts }: { facts: Fact[] }) {
         {facts.flatMap((fact) =>
           fact.sources.map((s) => (
             <li key={`${fact.fact_id}-${s.file}-${s.date}`} className="break-words">
-              {statusLabel(fact)} (Hospital {s.hospital}, {s.date}): “{s.quote}”
+              {statusLabel(fact)} (Hospital {s.hospital}, {formatDate(s.date)}): “{s.quote}”
             </li>
           )),
         )}
