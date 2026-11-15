@@ -226,7 +226,9 @@
       "retried": false,
       "passed": true,
       "problems": [],
-      "notes": [],
+      "notes": [
+        "fact 3 (diagnosis 'childhood asthma'): name 'asthma' changed to the record's words 'childhood asthma'"
+      ],
       "facts": 9,
       "unverified": 0,
       "unknown_name": 0

@@ -76,7 +76,7 @@
     },
     {
       "type": "diagnosis",
-      "name": "perennial allergic rhinitis",
+      "name": "perennial allergic rhinitis with seasonal variation",
       "name_as_written": "Perennial allergic rhinitis with seasonal variation",
       "dose": null,
       "frequency": null,
@@ -88,7 +88,7 @@
     },
     {
       "type": "diagnosis",
-      "name": "asthma",
+      "name": "childhood asthma",
       "name_as_written": "Childhood asthma",
       "dose": null,
       "frequency": null,

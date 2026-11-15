@@ -273,31 +273,6 @@
       "fact_id": "P008-F09",
       "patient_id": "P008",
       "type": "diagnosis",
-      "name": "asthma",
-      "name_as_written": "childhood asthma",
-      "dose": null,
-      "frequency": null,
-      "reaction": null,
-      "status": "current",
-      "hospital": "B",
-      "date": "2020-11-12",
-      "quote": "He is known to have childhood asthma.",
-      "sources": [
-        {
-          "hospital": "B",
-          "date": "2020-11-12",
-          "quote": "He is known to have childhood asthma.",
-          "file": "P008_B.txt"
-        }
-      ],
-      "history": [],
-      "flags": [],
-      "conflict_group": null
-    },
-    {
-      "fact_id": "P008-F10",
-      "patient_id": "P008",
-      "type": "diagnosis",
       "name": "atopic dermatitis",
       "name_as_written": "Atopic dermatitis",
       "dose": null,
@@ -332,7 +307,7 @@
       "conflict_group": null
     },
     {
-      "fact_id": "P008-F11",
+      "fact_id": "P008-F10",
       "patient_id": "P008",
       "type": "diagnosis",
       "name": "childhood asthma",
@@ -352,6 +327,12 @@
           "file": "P008_A.csv"
         },
         {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is known to have childhood asthma.",
+          "file": "P008_B.txt"
+        },
+        {
           "hospital": "C",
           "date": "2021-11-08",
           "quote": "- Childhood asthma",
@@ -363,7 +344,7 @@
       "conflict_group": null
     },
     {
-      "fact_id": "P008-F12",
+      "fact_id": "P008-F11",
       "patient_id": "P008",
       "type": "diagnosis",
       "name": "perennial allergic rhinitis",
@@ -388,7 +369,7 @@
       "conflict_group": null
     },
     {
-      "fact_id": "P008-F13",
+      "fact_id": "P008-F12",
       "patient_id": "P008",
       "type": "diagnosis",
       "name": "perennial allergic rhinitis with seasonal variation",

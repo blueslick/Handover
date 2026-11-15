@@ -236,7 +236,10 @@
       "retried": false,
       "passed": true,
       "problems": [],
-      "notes": [],
+      "notes": [
+        "fact 6 (diagnosis 'Perennial allergic rhinitis with seasonal variation'): name 'perennial allergic rhinitis' changed to the record's words 'perennial allergic rhinitis with seasonal variation'",
+        "fact 7 (diagnosis 'Childhood asthma'): name 'asthma' changed to the record's words 'childhood asthma'"
+      ],
       "facts": 8,
       "unverified": 0,
       "unknown_name": 0
