@@ -96,11 +96,12 @@ Once the `freeze` tag exists, do not change the extraction prompt, the model, th
 
 ## Model calls
 
-- One model, pinned by its exact ID, temperature 0, no extended thinking, JSON output that matches the record format. Daniel picks the model in T21.
+- One model, pinned by its exact ID. Daniel picks the model in T21.
+- Settings (T56): Claude 5.5 models refuse `temperature` (any value) and refuse thinking "disabled", so do not send `temperature`, `top_p` or `top_k`. Use the lowest thinking setting the model accepts (Sonnet 5.5: `between_tools`; Haiku 5.5: leave thinking out). Ask for a fixed JSON shape (`output_config`) that matches the record format. Results are repeatable because every reply is saved and later steps read the saved reply, never a new call. Extracted files record `temperature: null` and a `settings` line in words.
 - Save every model response to `outputs/`, with the `usage` field (input and output tokens).
 - Check, omission check, compile and scoring read saved outputs. They must not make new calls.
 - Before any run of more than 10 calls, tell the person how many calls it will make and wait for a yes.
-- One retry only, and only when an extraction fails the Check step.
+- One retry only, and only when an extraction fails the Check step. `pipeline/tool/run_records.py` runs many records and makes this retry; never write a second way of calling the model.
 - The model never labels data or grades its own output. People write answer keys and labels.
 
 ## Secrets
