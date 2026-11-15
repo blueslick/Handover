@@ -7,7 +7,7 @@ export default function BaselineSummary({ handover, baseline }: { handover: Comp
   const lines = baselineDifferences(handover, baseline);
   return (
     <section aria-labelledby="baseline-diff" className="mt-4 border-2 border-zinc-800 rounded p-4 bg-white">
-      <h3 id="baseline-diff" className="font-bold">How the baseline differs from Handover for this patient</h3>
+      <h2 id="baseline-diff" className="font-bold">How the baseline differs from Handover for this patient</h2>
       {lines.length === 0 ? (
         <p className="mt-1">For this patient, the baseline lists the same allergies and medicines as Handover.</p>
       ) : (
