@@ -23,30 +23,40 @@ function Section({ title, facts }: { title: string; facts: Fact[] }) {
 }
 
 // Links to the sample IDs, shown under the box and on the unknown-ID message.
+// T68 item 5: grouped and labelled, so it is clear D001 is the demo patient and the
+// P IDs are the working patients the tool was tuned on.
 // On Daniel's laptop, live runs (T58) are listed too; on the public link there are none.
 function SampleIds() {
   const live = liveRuns();
+  const demo = SAMPLE_IDS.filter((id) => id.startsWith("D"));
+  const working = SAMPLE_IDS.filter((id) => !id.startsWith("D"));
+  const links = (ids: string[]) =>
+    ids.map((id) => (
+      <Link key={id} href={`/?id=${id}`} className="underline font-medium mr-2 inline-block">
+        {id}
+      </Link>
+    ));
   return (
-    <>
-      <p className="mt-2 text-sm">
-        Sample IDs:{" "}
-        {SAMPLE_IDS.map((id) => (
-          <Link key={id} href={`/?id=${id}`} className="underline font-medium mr-2">
-            {id}
-          </Link>
-        ))}
-      </p>
-      {live.length > 0 && (
-        <p className="mt-1 text-sm">
-          Live runs on this laptop:{" "}
-          {live.map((p) => (
-            <Link key={p.patient_id} href={`/?id=${p.patient_id}`} className="underline font-medium mr-2">
-              {p.patient_id}
-            </Link>
-          ))}
+    <div className="mt-2 text-sm">
+      {demo.length > 0 && (
+        <p>
+          <span className="text-zinc-700">Demo patient: </span>
+          {links(demo)}
         </p>
       )}
-    </>
+      {working.length > 0 && (
+        <p className="mt-1">
+          <span className="text-zinc-700">Working patients (used to tune the tool): </span>
+          {links(working)}
+        </p>
+      )}
+      {live.length > 0 && (
+        <p className="mt-1">
+          <span className="text-zinc-700">Live runs on this laptop: </span>
+          {links(live.map((p) => p.patient_id))}
+        </p>
+      )}
+    </div>
   );
 }
 
@@ -168,7 +178,8 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
     return (
       <div role="alert" className="mt-6 border-2 border-zinc-700 rounded p-4">
         <p className="font-semibold">No record found for “{id}”.</p>
-        <p className="mt-1">Try one of the sample IDs: {SAMPLE_IDS.join(", ")}.</p>
+        <p className="mt-1">There is no published patient with that ID. Try one of these:</p>
+        <SampleIds />
       </div>
     );
   }
