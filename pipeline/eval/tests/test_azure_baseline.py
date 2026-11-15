@@ -95,6 +95,18 @@ def test_stopped_and_planned():
     assert one(text, ent(text, "metformin", conditionality="hypothetical"))[0]["status"] == "planned"
 
 
+def test_negated_medicine_on_a_stopped_line_is_stopped():
+    # Correction T76: Azure writes a stopped medicine as "negative"; the line says it was stopped.
+    text = "Warfarin was stopped on 20 June 2021."
+    [fact] = one(text, ent(text, "Warfarin", certainty="negative"))
+    assert (fact["type"], fact["status"]) == ("medicine", "stopped")
+
+
+def test_negated_allergy_on_a_stopped_line_stays_no_fact():
+    text = "Penicillin allergy was discontinued."
+    assert one(text, ent(text, "Penicillin", "Allergen", certainty="negative")) == []
+
+
 def test_course_without_stop_word_stays_current():
     text = "Warfarin was increased."
     course = [ent(text, "Warfarin"), ent(text, "increased", "Course")]

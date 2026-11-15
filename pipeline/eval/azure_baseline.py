@@ -20,7 +20,7 @@ What it does, for each hospital record:
     outputs/baseline_azure_rules/<P>.json  Azure facts through compile_patient() unchanged, as
                                            rules_row.py does, kind baseline_azure_rules
   Raw replies go to outputs/baseline_azure/replies/ and the run summary (model version, documents,
-  characters, text records, calls) to outputs/baseline_azure/azure_run.json.
+  characters, text records, calls) to outputs/baseline_azure/replies/azure_run.json.
 
 Azure is called through its REST API (api-version 2023-04-01) with httpx, which the project already
 has. The azure-ai-textanalytics SDK is not used: it drops the "temporal" label (past / future).
@@ -81,6 +81,7 @@ POLL_LIMIT = 150          # about 5 minutes per job, then stop
 
 # The medSpaCy baseline's stop words (its added ConText rules "stopped" and "discontinued").
 STOP_WORDS = ("stopped", "discontinued")
+STOP_LINE_RE = re.compile(r"\b(?:stopped|discontinued)\b", re.IGNORECASE)
 COUNTED_CATEGORIES = ("MedicationName", "Allergen")
 
 
@@ -177,26 +178,23 @@ def call_azure(documents, key, endpoint):
     }
     headers = {"Ocp-Apim-Subscription-Key": key, "Content-Type": "application/json"}
     calls = 0
+    # Any refusal stops the run at once. 401/403 (key or billing) and 429 (quota or rate) are never retried.
+    stop_codes = (401, 403, 429)
     with httpx.Client(timeout=60) as client:
-        # Submit the job. A 429 (too many requests) was not accepted, so waiting and sending again is safe.
-        for _ in range(5):
-            calls += 1
-            post = client.post(f"{endpoint}/language/analyze-text/jobs",
-                               params={"api-version": API_VERSION}, json=body, headers=headers)
-            if post.status_code != 429:
-                break
-            time.sleep(float(post.headers.get("Retry-After", 10)))
+        calls += 1
+        post = client.post(f"{endpoint}/language/analyze-text/jobs",
+                           params={"api-version": API_VERSION}, json=body, headers=headers)
         if post.status_code != 202:
-            raise SystemExit(f"STOP: Azure refused the job (HTTP {post.status_code}). Nothing was saved.")
+            hint = " (billing, key or quota problem: stopped, nothing else sent)" if post.status_code in stop_codes else ""
+            raise SystemExit(f"STOP: Azure refused the job, HTTP {post.status_code}{hint}. Nothing was saved.")
         location = post.headers["operation-location"]
         # Wait for the job to finish.
         for _ in range(POLL_LIMIT):
             time.sleep(POLL_SECONDS)
             calls += 1
             got = client.get(location, headers=headers)
-            if got.status_code == 429:
-                continue
-            got.raise_for_status()
+            if got.status_code != 200:
+                raise SystemExit(f"STOP: Azure status check returned HTTP {got.status_code}. Nothing more was sent.")
             reply = got.json()
             if reply.get("status") in ("succeeded", "failed", "partiallyCompleted", "cancelled"):
                 return body, reply, calls
@@ -277,16 +275,24 @@ def translate(doc, doc_text, rows, date, names, kinds):
             unnamed += 1
             continue
         a = ent.get("assertion") or {}
+        quote = quote_at(doc_text, rows, ent["offset"])
         # Rules 4, 5 and 8: about someone else, negated, or conditional -> no fact.
         if a.get("association") == "other":
             continue
-        if a.get("certainty") in ("negative", "negativePossible"):
+        if a.get("certainty") == "negativePossible":
+            continue
+        # Rule 3: allergy or medicine.
+        fact_type = "allergy" if category == "Allergen" else classify_name(generic, quote, kinds)
+        # Correction T76 (working patients only, once): Azure marks a stopped medicine as "negative"
+        # (the stop is written as a negation), so on a line that says "stopped" or "discontinued" a
+        # medicine is kept as stopped, as the medSpaCy baseline keeps it. Any other negated item is
+        # still no fact.
+        stopped_line = bool(STOP_LINE_RE.search(quote))
+        stopped_by_negation = a.get("certainty") == "negative" and stopped_line and fact_type == "medicine"
+        if a.get("certainty") == "negative" and not stopped_by_negation:
             continue
         if a.get("conditionality") == "conditional":
             continue
-        quote = quote_at(doc_text, rows, ent["offset"])
-        # Rule 3: allergy or medicine.
-        fact_type = "allergy" if category == "Allergen" else classify_name(generic, quote, kinds)
         dose = None
         if fact_type == "allergy":
             # Rule 6: a possible allergy is suspected.
@@ -294,7 +300,7 @@ def translate(doc, doc_text, rows, date, names, kinds):
             status = "suspected" if possible else "current"
         else:
             # Rules 7, 8, 9: stopped, planned, otherwise current.
-            if a.get("temporality") == "past" or i in course_stop:
+            if a.get("temporality") == "past" or i in course_stop or stopped_by_negation:
                 status = "stopped"
             elif a.get("temporality") == "future" or a.get("conditionality") == "hypothetical":
                 status = "planned"
@@ -411,7 +417,7 @@ def main():
 
     # Held-out guard: the freeze tag and git-ignored folders, checked before any record is opened.
     outputs = ([out_dir / f"{p}.json" for p in ids] + [rules_dir / f"{p}.json" for p in ids]
-               + [replies_dir / "batch_0001.json", out_dir / "azure_run.json"])
+               + [replies_dir / "batch_0001.json", replies_dir / "azure_run.json"])
     hidden = heldout_guard.guard_run(ids, outputs)
     if hidden:
         heldout_guard.require_three_records(ids, record_files)
@@ -451,7 +457,7 @@ def main():
         "documents_sent_this_run": len(missing), "http_calls_this_run": calls,
         "facts_stacked": total_facts, "items_with_no_name_in_our_lists": unnamed,
     }
-    run_file = out_dir / "azure_run.json"
+    run_file = replies_dir / "azure_run.json"
     if run_file.exists():
         before = json.loads(run_file.read_text(encoding="utf-8"))
         summary["http_calls_all_runs"] = before.get("http_calls_all_runs", 0) + calls
