@@ -1,0 +1,231 @@
+patient_id,kind,key_fact_id,output_fact_id,type,name,key_status,output_status,key_critical,output_critical,duplicate,key_quote,output_quote
+P001,missed,P001-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P001,missed,P001-F03,,medicine,etonogestrel,stopped,,False,,False,1. Nexplanon - stopped 19-May-2020,
+P001,missed,P001-F04,,medicine,levonorgestrel / ethinyl estradiol,stopped,,False,,False,2. Levora - stopped 30-May-2018,
+P001,wrong_status,P001-F06,P001-F06,medicine,,none_recorded,current,False,True,False,Nil regular medications,1. Nexplanon - stopped 19-May-2020
+P001,false_alarm,,P001-F03,diagnosis,hypertension,,current,,False,True,,She is known to have hypertension.
+P001,false_alarm,,P001-F04,medicine,amlodipine,,current,,True,True,,She continues on amlodipine 5 mg once a day.
+P001,false_alarm,,P001-F07,medicine,,,current,,True,False,,2. Levora - stopped 30-May-2018
+P002,missed,P002-F02,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P002,wrong_status,P002-F03,P002-F02,medicine,amoxicillin / clavulanate,stopped,current,False,True,False,His amoxicillin and clavulanate was stopped on 8 February 2019.,His amoxicillin and clavulanate was stopped on 8 February 2019.
+P002,wrong_status,P002-F04,P002-F05,medicine,paracetamol,stopped,current,False,True,False,1. Panadol - stopped 18-Oct-2017,1. Panadol - stopped 18-Oct-2017
+P002,missed,P002-F05,,medicine,,none_recorded,,False,,False,"MEDICATION,No current medications,,,,,",
+P002,false_alarm,,P002-F03,allergy,peanut,,current,,True,True,,"- Peanut (hives, skin rash)"
+P002,false_alarm,,P002-F04,medicine,amoxicillin / clavulanate,,current,,True,False,,1. Augmentin TDS
+P003,missed,P003-F01,,allergy,,none_recorded,,True,,False,She has no known allergies.,
+P003,false_alarm,,P003-F05,medicine,hydrochlorothiazide,,current,,True,True,,"MEDICATION,Hydrochlorothiazide,12.5 mg,once daily,Active,2021-01-29,"
+P003,false_alarm,,P003-F07,diagnosis,chronic sinusitis,,current,,False,True,,She is known to have chronic sinusitis.
+P003,false_alarm,,P003-F08,diagnosis,hypertension,,current,,False,True,,Her background includes hypertension.
+P003,false_alarm,,P003-F09,diagnosis,hyperlipidemia,,current,,False,True,,She has a history of hyperlipidemia.
+P003,false_alarm,,P003-F10,diagnosis,osteoarthritis of knee,,current,,False,True,,She is known to have osteoarthritis of knee.
+P003,false_alarm,,P003-F12,medicine,lisinopril,,current,,True,True,,She continues on lisinopril 10 mg once a day.
+P003,false_alarm,,P003-F13,diagnosis,chronic sinusitis,,current,,False,True,,- Chronic sinusitis
+P003,false_alarm,,P003-F14,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P003,false_alarm,,P003-F15,diagnosis,hyperlipidemia,,current,,False,True,,- Hyperlipidemia
+P003,false_alarm,,P003-F16,diagnosis,osteoarthritis of knee,,current,,False,True,,- Osteoarthritis of knee
+P003,false_alarm,,P003-F17,medicine,hydrochlorothiazide,,current,,True,True,,1. Hydrodiuril 25 mg OD
+P003,false_alarm,,P003-F19,medicine,lisinopril,,current,,True,True,,3. Zestril 10 mg OD
+P004,missed,P004-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P004,wrong_status,P004-F02,P004-F03,medicine,drospirenone / ethinyl estradiol,stopped,current,False,True,False,"MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,","MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,"
+P004,wrong_status,P004-F04,P004-F06,medicine,paracetamol,stopped,current,False,True,False,Her paracetamol was stopped on 10 July 2018.,Her paracetamol was stopped on 10 July 2018.
+P004,false_alarm,,P004-F04,diagnosis,chronic sinusitis,,current,,False,True,,Her background includes chronic sinusitis.
+P004,false_alarm,,P004-F05,medicine,drospirenone / ethinyl estradiol,,current,,True,False,,She continues on drospirenone and ethinyl estradiol once a day.
+P004,false_alarm,,P004-F07,diagnosis,chronic sinusitis,,current,,False,True,,- Chronic sinusitis
+P004,false_alarm,,P004-F08,medicine,,,current,,True,False,,1. Seasonique OD
+P005,missed,P005-F01,,allergy,,none_recorded,,True,,False,- NKA,
+P005,wrong_status,P005-F02,P005-F13,medicine,amoxicillin / clavulanate,stopped,current,False,True,False,1. Augmentin - stopped 06-Jun-2019,He takes amoxicillin and clavulanate three times a day.
+P005,wrong_status,P005-F05,P005-F14,medicine,ibuprofen,stopped,current,False,True,False,His ibuprofen was stopped on 10 October 2018.,His ibuprofen was stopped on 10 October 2018.
+P005,false_alarm,,P005-F07,diagnosis,anemia,,current,,False,True,,He is known to have anemia.
+P005,false_alarm,,P005-F08,diagnosis,prediabetes,,current,,False,True,,His background includes prediabetes.
+P005,false_alarm,,P005-F09,diagnosis,polyp of colon,,current,,False,True,,He is known to have polyp of colon.
+P005,false_alarm,,P005-F10,diagnosis,recurrent rectal polyp,,current,,False,True,,His background includes recurrent rectal polyp.
+P005,false_alarm,,P005-F11,medicine,oxaliplatin,,current,,True,True,,He continues on oxaliplatin 50 mg every 2 weeks.
+P005,false_alarm,,P005-F12,medicine,leucovorin,,current,,True,True,,He continues on leucovorin 100 mg every 2 weeks.
+P005,false_alarm,,P005-F15,diagnosis,anemia,,current,,False,True,,- Anemia
+P005,false_alarm,,P005-F16,diagnosis,prediabetes,,current,,False,True,,- Prediabetes
+P005,false_alarm,,P005-F17,diagnosis,polyp of colon,,current,,False,True,,- Polyp of colon
+P005,false_alarm,,P005-F18,diagnosis,recurrent rectal polyp,,current,,False,True,,- Recurrent rectal polyp
+P005,false_alarm,,P005-F21,medicine,leucovorin,,current,,True,True,,3. Wellcovorin 100 mg every 2 weeks
+P005,false_alarm,,P005-F23,medicine,amoxicillin / clavulanate,,current,,True,False,,1. Augmentin - stopped 06-Jun-2019
+P006,missed,P006-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P006,missed,P006-F03,,medicine,estradiol valerate / dienogest,current,,True,,False,1. Natazia OD,
+P006,wrong_status,P006-F06,P006-F06,medicine,medroxyprogesterone,stopped,current,False,True,False,Her medroxyprogesterone was stopped on 28 June 2018.,Her medroxyprogesterone was stopped on 28 June 2018.
+P006,wrong_status,P006-F07,P006-F05,medicine,norethisterone,stopped,current,False,True,False,1. Camila - stopped 23-Jun-2019,She is on norethisterone 0.35 mg once a day.
+P006,false_alarm,,P006-F07,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P006,false_alarm,,P006-F08,medicine,,,current,,True,False,,1. Natazia OD
+P006,false_alarm,,P006-F09,medicine,,,current,,True,False,,1. Camila - stopped 23-Jun-2019
+P007,missed,P007-F02,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P007,wrong_status,P007-F03,P007-F02,medicine,norethisterone,stopped,current,False,True,False,Her norethisterone was stopped on 15 June 2017.,Her norethisterone was stopped on 15 June 2017.
+P007,missed,P007-F04,,medicine,,none_recorded,,False,,False,She takes no regular medicines.,
+P007,false_alarm,,P007-F03,allergy,aspirin,,current,,True,True,,- Disprin
+P007,false_alarm,,P007-F04,medicine,norethisterone,,current,,True,False,,1. Jolivette 0.35 mg OD
+P008,missed,P008-F08,,medicine,,none_recorded,,False,,False,He takes no regular medicines.,
+P008,false_alarm,,P008-F11,diagnosis,atopic dermatitis,,current,,False,True,,He is known to have atopic dermatitis.
+P008,false_alarm,,P008-F12,diagnosis,perennial allergic rhinitis,,current,,False,False,,His background includes perennial allergic rhinitis with seasonal variation.
+P008,false_alarm,,P008-F13,diagnosis,asthma,,current,,False,False,,He is known to have childhood asthma.
+P008,false_alarm,,P008-F14,allergy,animal dander,,current,,True,True,,"He is allergic to animal dander, which causes hay fever symptoms."
+P008,false_alarm,,P008-F15,allergy,grass pollen,,current,,True,True,,He is allergic to grass pollen.
+P008,false_alarm,,P008-F16,allergy,house dust mite,,current,,True,True,,He is allergic to house dust mite.
+P008,false_alarm,,P008-F17,allergy,mould,,current,,True,True,,He is allergic to mould.
+P008,false_alarm,,P008-F18,allergy,tree pollen,,current,,True,True,,He is allergic to tree pollen.
+P008,false_alarm,,P008-F19,allergy,animal dander,,current,,True,True,,- Animal dander (hay fever symptoms)
+P008,false_alarm,,P008-F20,allergy,grass pollen,,current,,True,True,,- Grass pollen
+P008,false_alarm,,P008-F21,allergy,house dust mite,,current,,True,True,,- House dust mite
+P008,false_alarm,,P008-F22,allergy,tree pollen,,current,,True,True,,- Tree pollen
+P008,false_alarm,,P008-F23,diagnosis,atopic dermatitis,,current,,False,True,,- Atopic dermatitis
+P008,false_alarm,,P008-F24,diagnosis,perennial allergic rhinitis with seasonal variation,,current,,False,True,,- Perennial allergic rhinitis with seasonal variation
+P008,false_alarm,,P008-F25,diagnosis,childhood asthma,,current,,False,True,,- Childhood asthma
+P008,false_alarm,,P008-F26,medicine,fluticasone,,current,,True,True,,1. Flixotide 44 mcg BD
+P009,missed,P009-F01,,allergy,,none_recorded,,True,,False,- NKA,
+P009,wrong_status,P009-F02,P009-F02,medicine,amoxicillin / clavulanate,stopped,current,False,True,False,Her amoxicillin and clavulanate was stopped on 21 March 2018.,"MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,"
+P009,missed,P009-F03,,medicine,,none_recorded,,False,,False,Nil regular medications,
+P009,false_alarm,,P009-F03,diagnosis,miscarriage,,current,,False,False,,She has a history of miscarriage in first trimester.
+P009,false_alarm,,P009-F04,medicine,amoxicillin / clavulanate,,current,,True,False,,Her amoxicillin and clavulanate was stopped on 21 March 2018.
+P009,false_alarm,,P009-F05,diagnosis,miscarriage in first trimester,,current,,False,True,,- Miscarriage in first trimester
+P010,missed,P010-F01,,allergy,,none_recorded,,True,,False,- NKA,
+P010,wrong_status,P010-F03,P010-F02,medicine,ibuprofen,stopped,current,False,True,False,His ibuprofen was stopped on 8 July 2018.,"MEDICATION,Ibuprofen,200 mg,as needed,Active,2018-07-04,"
+P010,false_alarm,,P010-F03,diagnosis,hypertension,,current,,False,True,,His background includes hypertension.
+P010,false_alarm,,P010-F04,medicine,hydrochlorothiazide,,current,,True,True,,He takes hydrochlorothiazide 12.5 mg once a day.
+P010,false_alarm,,P010-F05,medicine,ibuprofen,,current,,True,False,,His ibuprofen was stopped on 8 July 2018.
+P010,false_alarm,,P010-F06,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P011,missed,P011-F02,,allergy,,none_recorded,,True,,False,She has no known allergies.,
+P011,wrong_status,P011-F03,P011-F03,medicine,etonogestrel,stopped,current,False,True,False,"MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-05-19,","MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-05-19,"
+P011,wrong_status,P011-F04,P011-F02,medicine,levonorgestrel / ethinyl estradiol,stopped,current,False,True,False,Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.,"MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,"
+P011,missed,P011-F05,,medicine,,none_recorded,,False,,False,She takes no regular medicines.,
+P011,false_alarm,,P011-F05,medicine,levonorgestrel / ethinyl estradiol,,current,,True,False,,Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.
+P011,false_alarm,,P011-F06,allergy,cefdinir,,current,,True,True,,- Omnicef (hives)
+P012,wrong_status,P012-F13,P012-F25,medicine,paracetamol,stopped,current,False,True,False,1. Panadol - stopped 25-Sep-2020,He is on paracetamol and oxycodone when needed.
+P012,missed,P012-F16,,medicine,,none_recorded,,False,,False,Nil regular medications,
+P012,false_alarm,,P012-F16,diagnosis,hypertension,,current,,False,True,,His background includes hypertension.
+P012,false_alarm,,P012-F17,allergy,animal dander,,current,,True,True,,"He is allergic to animal dander, which causes hay fever symptoms and hives."
+P012,false_alarm,,P012-F18,allergy,fish,,current,,True,True,,"He is allergic to fish, which causes hay fever symptoms and skin rash."
+P012,false_alarm,,P012-F19,allergy,grass pollen,,current,,True,True,,He is allergic to grass pollen.
+P012,false_alarm,,P012-F20,allergy,house dust mite,,current,,True,True,,He is allergic to house dust mite.
+P012,false_alarm,,P012-F21,allergy,mould,,current,,True,True,,He is allergic to mould.
+P012,false_alarm,,P012-F22,allergy,tree pollen,,current,,True,True,,He is allergic to tree pollen.
+P012,false_alarm,,P012-F23,medicine,fluticasone,,current,,True,True,,He takes fluticasone 44 mcg twice a day.
+P012,false_alarm,,P012-F24,medicine,fentanyl,,current,,True,True,,He takes fentanyl 25 mcg as a patch changed every 72 hours.
+P012,false_alarm,,P012-F26,medicine,oxycodone,,current,,True,False,,He is on paracetamol and oxycodone when needed.
+P012,false_alarm,,P012-F27,medicine,hydrochlorothiazide,,current,,True,True,,He continues on hydrochlorothiazide 12.5 mg once a day.
+P012,false_alarm,,P012-F28,medicine,salbutamol,,current,,True,True,,He continues on salbutamol 90 mcg when needed.
+P012,false_alarm,,P012-F29,medicine,amlodipine,,current,,True,True,,He takes amlodipine 2.5 mg once a day.
+P012,false_alarm,,P012-F30,medicine,lisinopril,,current,,True,True,,He continues on lisinopril 10 mg once a day.
+P012,false_alarm,,P012-F31,allergy,animal dander,,current,,True,True,,"- Animal dander (hay fever symptoms, hives)"
+P012,false_alarm,,P012-F32,allergy,fish,,current,,True,True,,"- Fish (hay fever symptoms, skin rash)"
+P012,false_alarm,,P012-F33,allergy,grass pollen,,current,,True,True,,- Grass pollen
+P012,false_alarm,,P012-F34,allergy,house dust mite,,current,,True,True,,- House dust mite
+P012,false_alarm,,P012-F35,allergy,mould,,current,,True,True,,- Mould
+P012,false_alarm,,P012-F36,allergy,sulfamethoxazole / trimethoprim,,current,,True,False,,- Bactrim
+P012,false_alarm,,P012-F37,allergy,tree pollen,,current,,True,True,,- Tree pollen
+P012,false_alarm,,P012-F38,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P012,false_alarm,,P012-F39,medicine,paracetamol,,current,,True,False,,1. Panadol - stopped 25-Sep-2020
+P013,missed,P013-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P013,missed,P013-F03,,medicine,,none_recorded,,False,,False,Nil regular medications,
+P013,false_alarm,,P013-F05,diagnosis,chronic sinusitis,,current,,False,True,,Her background includes chronic sinusitis.
+P013,false_alarm,,P013-F06,diagnosis,osteoarthritis of knee,,current,,False,True,,She has a history of osteoarthritis of knee.
+P013,false_alarm,,P013-F07,diagnosis,chronic sinusitis,,current,,False,True,,- Chronic sinusitis
+P013,false_alarm,,P013-F08,diagnosis,osteoarthritis of knee,,current,,False,True,,- Osteoarthritis of knee
+P013,false_alarm,,P013-F09,diagnosis,polyp of colon,,current,,False,True,,- Polyp of colon
+P014,missed,P014-F01,,allergy,,none_recorded,,True,,False,- NKA,
+P014,wrong_status,P014-F03,P014-F02,medicine,ibuprofen,stopped,current,False,True,False,"MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,","MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,"
+P014,wrong_status,P014-F04,P014-F05,medicine,naproxen,stopped,current,False,True,False,His naproxen was stopped on 29 March 2018.,His naproxen was stopped on 29 March 2018.
+P014,missed,P014-F05,,medicine,,none_recorded,,False,,False,"MEDICATION,No current medications,,,,,",
+P014,false_alarm,,P014-F03,diagnosis,hypertension,,current,,False,True,,He is known to have hypertension.
+P014,false_alarm,,P014-F04,medicine,ibuprofen,,current,,True,False,,He continues on ibuprofen 200 mg when needed.
+P014,false_alarm,,P014-F06,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P015,false_alarm,,P015-F17,diagnosis,anemia,,current,,False,True,,His background includes anemia.
+P015,false_alarm,,P015-F18,diagnosis,prediabetes,,current,,False,True,,His background includes prediabetes.
+P015,false_alarm,,P015-F19,diagnosis,osteoarthritis of knee,,current,,False,True,,His background includes osteoarthritis of knee.
+P015,false_alarm,,P015-F20,allergy,animal dander,,current,,True,True,,"He is allergic to animal dander, which causes hay fever symptoms and hives."
+P015,false_alarm,,P015-F21,allergy,aspirin,,current,,True,True,,He is allergic to aspirin.
+P015,false_alarm,,P015-F22,allergy,egg,,current,,True,True,,He is allergic to egg.
+P015,false_alarm,,P015-F23,allergy,grass pollen,,current,,True,True,,He is allergic to grass pollen.
+P015,false_alarm,,P015-F24,allergy,house dust mite,,current,,True,True,,He is allergic to house dust mite.
+P015,false_alarm,,P015-F25,allergy,latex,,current,,True,True,,He is allergic to latex.
+P015,false_alarm,,P015-F26,allergy,mould,,current,,True,True,,He is allergic to mould.
+P015,false_alarm,,P015-F27,allergy,peanut,,current,,True,True,,"He is allergic to peanut, which causes hives and swelling (angioedema)."
+P015,false_alarm,,P015-F28,allergy,tree nuts,,current,,True,True,,"He is allergic to tree nuts, which causes anaphylaxis and cough."
+P015,false_alarm,,P015-F29,allergy,wheat,,current,,True,True,,He is allergic to wheat.
+P015,false_alarm,,P015-F30,medicine,fluticasone,,current,,True,True,,He continues on fluticasone 44 mcg twice a day.
+P015,false_alarm,,P015-F31,medicine,salbutamol,,current,,True,True,,He is on salbutamol 90 mcg when needed.
+P015,false_alarm,,P015-F32,medicine,naproxen,,current,,True,True,,He continues on naproxen 220 mg twice a day.
+P015,false_alarm,,P015-F33,allergy,animal dander,,current,,True,True,,"- Animal dander (hay fever symptoms, hives)"
+P015,false_alarm,,P015-F34,allergy,egg,,current,,True,True,,- Egg
+P015,false_alarm,,P015-F35,allergy,grass pollen,,current,,True,True,,- Grass pollen
+P015,false_alarm,,P015-F36,allergy,house dust mite,,current,,True,True,,- House dust mite
+P015,false_alarm,,P015-F37,allergy,latex,,current,,True,True,,- Latex
+P015,false_alarm,,P015-F38,allergy,mould,,current,,True,True,,- Mould
+P015,false_alarm,,P015-F39,allergy,peanut,,current,,True,True,,"- Peanut (hives, swelling (angioedema))"
+P015,false_alarm,,P015-F40,allergy,tree nuts,,current,,True,True,,"- Tree nuts (anaphylaxis, cough)"
+P015,false_alarm,,P015-F41,allergy,wheat,,current,,True,True,,- Wheat
+P015,false_alarm,,P015-F42,diagnosis,anemia,,current,,False,True,,- Anemia
+P015,false_alarm,,P015-F43,diagnosis,prediabetes,,current,,False,True,,- Prediabetes
+P015,false_alarm,,P015-F44,diagnosis,osteoarthritis of knee,,current,,False,True,,- Osteoarthritis of knee
+P015,false_alarm,,P015-F45,medicine,naproxen,,current,,True,True,,1. Aleve 110 mg BD
+P016,missed,P016-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P016,wrong_status,P016-F04,P016-F27,medicine,ibuprofen,stopped,current,False,True,False,1. Nurofen - stopped 31-Aug-2017,1. Nurofen - stopped 31-Aug-2017
+P016,false_alarm,,P016-F09,diagnosis,hypertension,,current,,False,True,,His background includes hypertension.
+P016,false_alarm,,P016-F10,diagnosis,chronic sinusitis,,current,,False,True,,His background includes chronic sinusitis.
+P016,false_alarm,,P016-F11,diagnosis,osteoarthritis of knee,,current,,False,True,,His background includes osteoarthritis of knee.
+P016,false_alarm,,P016-F12,diagnosis,prediabetes,,current,,False,True,,He is known to have prediabetes.
+P016,false_alarm,,P016-F13,diagnosis,anemia,,current,,False,True,,He has a history of anemia.
+P016,false_alarm,,P016-F14,diagnosis,chronic congestive heart failure,,current,,False,True,,His background includes chronic congestive heart failure.
+P016,false_alarm,,P016-F15,diagnosis,shock,,current,,False,True,,His background includes shock.
+P016,false_alarm,,P016-F16,medicine,furosemide,,current,,True,True,,He is on furosemide 40 mg once a day.
+P016,false_alarm,,P016-F18,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P016,false_alarm,,P016-F19,diagnosis,chronic sinusitis,,current,,False,True,,- Chronic sinusitis
+P016,false_alarm,,P016-F20,diagnosis,osteoarthritis of knee,,current,,False,True,,- Osteoarthritis of knee
+P016,false_alarm,,P016-F21,diagnosis,prediabetes,,current,,False,True,,- Prediabetes
+P016,false_alarm,,P016-F22,diagnosis,anemia,,current,,False,True,,- Anemia
+P016,false_alarm,,P016-F23,diagnosis,chronic congestive heart failure,,current,,False,True,,- Chronic congestive heart failure
+P016,false_alarm,,P016-F24,diagnosis,shock,,current,,False,True,,- Shock
+P016,false_alarm,,P016-F25,medicine,furosemide,,current,,True,True,,1. Lasix 20 mg OD
+P016,false_alarm,,P016-F26,medicine,hydrochlorothiazide,,current,,True,True,,2. Hydrodiuril 25 mg OD
+P017,missed,P017-F01,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P017,wrong_status,P017-F05,P017-F09,medicine,paracetamol,stopped,current,False,True,False,His paracetamol was stopped on 1 August 2020.,His paracetamol was stopped on 1 August 2020.
+P017,missed,P017-F07,,medicine,,none_recorded,,False,,False,He takes no regular medicines.,
+P017,false_alarm,,P017-F07,diagnosis,chronic intractable migraine without aura,,current,,False,True,,He is known to have chronic intractable migraine without aura.
+P017,false_alarm,,P017-F08,diagnosis,coronary heart disease,,current,,False,True,,His background includes coronary heart disease.
+P017,false_alarm,,P017-F10,diagnosis,chronic intractable migraine without aura,,current,,False,True,,- Chronic intractable migraine without aura
+P017,false_alarm,,P017-F11,diagnosis,coronary heart disease,,current,,False,True,,- Coronary Heart Disease
+P017,false_alarm,,P017-F12,medicine,paracetamol,,current,,True,False,,1. Panadol 325 mg PRN
+P018,missed,P018-F09,,medicine,etonogestrel / ethinyl estradiol,stopped,,False,,False,2. NuvaRing - stopped 24-Dec-2016,
+P018,wrong_status,P018-F11,P018-F20,medicine,levonorgestrel,stopped,current,False,True,False,Her levonorgestrel was stopped on 6 December 2020.,Her levonorgestrel was stopped on 6 December 2020.
+P018,missed,P018-F12,,medicine,levonorgestrel / ethinyl estradiol,stopped,,False,,False,3. Seasonique - stopped 09-Dec-2019,
+P018,wrong_status,P018-F13,P018-F30,medicine,paracetamol,stopped,current,False,True,False,1. Panadol - stopped 26-Jul-2017,1. Panadol - stopped 26-Jul-2017
+P018,false_alarm,,P018-F11,diagnosis,hypertension,,current,,False,True,,Her background includes hypertension.
+P018,false_alarm,,P018-F12,allergy,animal dander,,current,,True,True,,"She is allergic to animal dander, which causes hay fever symptoms."
+P018,false_alarm,,P018-F13,allergy,bee venom,,current,,True,True,,"She is allergic to bee venom, which causes skin rash."
+P018,false_alarm,,P018-F14,allergy,grass pollen,,current,,True,True,,She is allergic to grass pollen.
+P018,false_alarm,,P018-F15,allergy,house dust mite,,current,,True,True,,She is allergic to house dust mite.
+P018,false_alarm,,P018-F16,allergy,mould,,current,,True,True,,"She is allergic to mould, which causes wheezing."
+P018,false_alarm,,P018-F17,allergy,tree pollen,,current,,True,True,,She is allergic to tree pollen.
+P018,false_alarm,,P018-F18,medicine,ibuprofen,,current,,True,True,,She continues on ibuprofen 400 mg three times a day.
+P018,false_alarm,,P018-F19,medicine,amlodipine,,current,,True,True,,She is on amlodipine 2.5 mg once a day.
+P018,false_alarm,,P018-F21,allergy,animal dander,,current,,True,True,,- Animal dander (hay fever symptoms)
+P018,false_alarm,,P018-F22,allergy,bee venom,,current,,True,True,,- Bee venom (skin rash)
+P018,false_alarm,,P018-F23,allergy,fish,,current,,True,True,,- Fish (skin rash)
+P018,false_alarm,,P018-F24,allergy,grass pollen,,current,,True,True,,- Grass pollen
+P018,false_alarm,,P018-F25,allergy,house dust mite,,current,,True,True,,- House dust mite
+P018,false_alarm,,P018-F26,allergy,mould,,current,,True,True,,- Mould (wheezing)
+P018,false_alarm,,P018-F27,allergy,tree pollen,,current,,True,True,,- Tree pollen
+P018,false_alarm,,P018-F28,diagnosis,hypertension,,current,,False,True,,- Hypertension
+P018,false_alarm,,P018-F29,medicine,levonorgestrel,,current,,True,False,,1. Mirena 52 mg intrauterine system (lasts 5 years)
+P018,false_alarm,,P018-F31,medicine,etonogestrel / ethinylestradiol,,current,,True,False,,2. NuvaRing - stopped 24-Dec-2016
+P018,false_alarm,,P018-F32,medicine,levonorgestrel / ethinylestradiol,,current,,True,False,,3. Seasonique - stopped 09-Dec-2019
+P019,missed,P019-F02,,allergy,,none_recorded,,True,,False,"ALLERGY,No known allergies,,,,,",
+P019,missed,P019-F03,,medicine,,none_recorded,,False,,False,"MEDICATION,No current medications,,,,,",
+P019,false_alarm,,P019-F03,diagnosis,cardiac arrest,,current,,False,True,,Her background includes cardiac arrest.
+P019,false_alarm,,P019-F04,diagnosis,osteoarthritis of knee,,current,,False,True,,She is known to have osteoarthritis of knee.
+P019,false_alarm,,P019-F06,allergy,cefdinir,,current,,True,True,,- Omnicef (anaphylaxis)
+P019,false_alarm,,P019-F07,diagnosis,cardiac arrest,,current,,False,True,,- Cardiac Arrest
+P019,false_alarm,,P019-F08,diagnosis,osteoarthritis of knee,,current,,False,True,,- Osteoarthritis of knee
+P020,missed,P020-F01,,allergy,,none_recorded,,True,,False,- NKA,
+P020,missed,P020-F03,,medicine,,none_recorded,,False,,False,"MEDICATION,No current medications,,,,,",
+P020,false_alarm,,P020-F04,diagnosis,miscarriage in first trimester,,current,,False,True,,Her background includes miscarriage in first trimester.
+P020,false_alarm,,P020-F05,diagnosis,recurrent urinary tract infection,,current,,False,True,,She is known to have recurrent urinary tract infection.
+P020,false_alarm,,P020-F06,diagnosis,hyperlipidemia,,current,,False,True,,She is known to have hyperlipidemia.
+P020,false_alarm,,P020-F07,medicine,simvastatin,,current,,True,True,,She continues on simvastatin 5 mg at night.
+P020,false_alarm,,P020-F08,diagnosis,miscarriage in first trimester,,current,,False,True,,- Miscarriage in first trimester
+P020,false_alarm,,P020-F09,diagnosis,recurrent urinary tract infection,,current,,False,True,,- Recurrent urinary tract infection
+P020,false_alarm,,P020-F10,diagnosis,hyperlipidemia,,current,,False,True,,- Hyperlipidemia
