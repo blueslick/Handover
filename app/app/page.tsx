@@ -6,6 +6,8 @@ import { isKnownId, liveRun, liveRuns, loadRecordState, parseView, SAMPLE_IDS, t
 import type { Fact } from "@/lib/types";
 import { loadOmission } from "@/lib/omission";
 import { isOlderNoMedicinesLine } from "@/lib/olderRecord";
+import { formatDate, joinWords } from "@/lib/dates";
+import { summariseSources } from "@/lib/sourcesSummary";
 import FactList from "./components/FactList";
 import OlderRecordNote from "./components/OlderRecordNote";
 import OmissionBox from "./components/OmissionBox";
@@ -196,6 +198,7 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   // Word-search hint (T64), Handover view only, and only from the same run as the record.
   const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
   const live = view === "handover" ? liveRun(record.patient_id) : undefined;
+  const src = summariseSources(facts);
 
   return (
     <>
@@ -212,6 +215,13 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
           ? `Every line the keyword search found in ${record.built_from.length} hospital records: ${facts.length} entries.`
           : `Merged from ${record.built_from.length} hospital records: ${facts.length} facts.`}
       </p>
+      {/* T68 item 7: where the record came from and how recent it is. */}
+      {src.hospitals.length > 0 && (
+        <p className="text-sm text-zinc-700">
+          From Hospital{src.hospitals.length > 1 ? "s" : ""} {joinWords(src.hospitals)}.
+          {src.latestDate && ` Most recent entry: ${formatDate(src.latestDate)} (Hospital ${src.latestHospital}).`}
+        </p>
+      )}
       <div className="mt-4">
         <WarningBanner facts={facts} />
       </div>
