@@ -227,7 +227,15 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
       </div>
       <Section title="Allergies" facts={ofType("allergy")} />
       <Section title="Current medicines" facts={meds.filter((f) => f.status === "current")} />
-      <Section title="Other medicines (stopped or planned)" facts={meds.filter((f) => f.status !== "current")} />
+      {/* T68 item 19: stopped medicines straight under current ones, with a plain warning heading. */}
+      <Section
+        title="Stopped medicines: do not continue without checking"
+        facts={meds.filter((f) => f.status === "stopped")}
+      />
+      <Section
+        title="Other medicines (planned, or none recorded)"
+        facts={meds.filter((f) => f.status !== "current" && f.status !== "stopped")}
+      />
       <OlderRecordNote facts={olderMeds} />
       <Section title="Diagnoses" facts={ofType("diagnosis")} />
       <Section title="Operations" facts={ofType("operation")} />
