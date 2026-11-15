@@ -24,11 +24,14 @@ export const metadata: Metadata = {
 // so every tab shows them (CLAUDE.md app rule).
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`h-full ${lexend.variable}`}>
-      <body className="min-h-full flex flex-col lg:p-5">
-        <div className="flex-1 flex flex-col lg:flex-row bg-rail lg:rounded-[2.5rem] overflow-hidden">
+    <html lang="en" className={lexend.variable}>
+      <body className="lg:p-5">
+        {/* T75 fix: the window is an ordinary block that is at least as tall as the screen and
+            grows with the page, so the whole page scrolls. (Before, it was squeezed to the
+            screen's height in Safari and the rest of the page was cut off.) */}
+        <div className="flex min-h-screen flex-col bg-rail lg:min-h-[calc(100vh-2.5rem)] lg:flex-row lg:rounded-[2.5rem] lg:overflow-hidden">
           <TabNav />
-          <div className="flex-1 min-w-0 flex flex-col xl:flex-row bg-mint lg:rounded-l-[2.5rem] overflow-hidden">
+          <div className="flex min-w-0 flex-auto flex-col bg-mint lg:flex-1 lg:rounded-l-[2.5rem] xl:flex-row">
             {children}
           </div>
         </div>
