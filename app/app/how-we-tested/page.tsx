@@ -9,13 +9,13 @@ export const metadata = { title: "How we tested · Handover" };
 
 // A count, or the words "Not run yet" when there is no number.
 function count(n: number | null): string {
-  return n === null ? "Not run yet" : String(n);
+  return n === null ? "Not run yet" : n.toLocaleString("en-GB");
 }
 
 // "3 of 120" when both numbers exist, otherwise just the count.
 function outOf(n: number | null, total: number | null): string {
   if (n === null) return "Not run yet";
-  return total === null ? String(n) : `${n} of ${total}`;
+  return total === null ? n.toLocaleString("en-GB") : `${n.toLocaleString("en-GB")} of ${total.toLocaleString("en-GB")}`;
 }
 
 // T71 item 30: the two rows the headline compares get a tag in words and a thick left
