@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P001",
+  "hospital": "A",
+  "source_file": "P001_A.csv",
+  "run_id": "20261115-v2-plain-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2551,
+    "output_tokens": 211
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-28",
+      "quote": "PROBLEM,Hypertension,,,Active,2021-07-28,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-11-14",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-14,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

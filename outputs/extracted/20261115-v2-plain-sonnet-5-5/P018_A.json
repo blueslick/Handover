@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P018",
+  "hospital": "A",
+  "source_file": "P018_A.csv",
+  "run_id": "20261115-v2-plain-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2986,
+    "output_tokens": 992
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Animal dander,,,Active,1994-10-11,hay fever symptoms",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Bee venom,,,Active,1994-10-11,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Fish,,,Active,1994-10-11,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Grass pollen,,,Active,1994-10-11,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1994-10-11",
+      "quote": "ALLERGY,House dust mite,,,Active,1994-10-11,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "wheezing",
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Mould,,,Active,1994-10-11,wheezing",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1994-10-11",
+      "quote": "ALLERGY,Tree pollen,,,Active,1994-10-11,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2012-04-01",
+      "quote": "PROBLEM,Hypertension,,,Active,2012-04-01,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "date": "2021-05-24",
+      "quote": "MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-05-24,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-05-24",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-05-24,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

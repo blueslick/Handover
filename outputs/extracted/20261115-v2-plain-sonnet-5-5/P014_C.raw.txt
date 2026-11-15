@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"hypertension","name_as_written":"Hypertension","dose":null,"frequency":null,"reaction":null,"date":"2021-10-29","quote":"- Hypertension"},{"type":"medicine","name":"amlodipine","name_as_written":"Norvasc","dose":"2.5 mg","frequency":"daily","reaction":null,"date":"2021-10-29","quote":"1. Norvasc 2.5 mg OD"}]}

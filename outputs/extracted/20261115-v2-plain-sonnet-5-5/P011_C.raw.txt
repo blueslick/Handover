@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"cefdinir","name_as_written":"Omnicef","dose":null,"frequency":null,"reaction":"hives","date":"2021-08-20","quote":"- Omnicef (hives)"}]}

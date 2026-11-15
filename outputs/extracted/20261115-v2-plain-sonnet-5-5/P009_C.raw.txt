@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"miscarriage in first trimester","name_as_written":"Miscarriage in first trimester","dose":null,"frequency":null,"reaction":null,"date":"2021-11-10","quote":"- Miscarriage in first trimester"}]}

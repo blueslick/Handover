@@ -1,0 +1,44 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P007",
+  "hospital": "B",
+  "source_file": "P007_B.txt",
+  "run_id": "20261115-v2-plain-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2530,
+    "output_tokens": 170
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-11-02",
+      "quote": "She is allergic to aspirin.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "norethisterone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2017-06-15",
+      "quote": "Her norethisterone was stopped on 15 June 2017.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

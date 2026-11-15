@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"hypertension","name_as_written":"Hypertension","dose":null,"frequency":null,"reaction":null,"date":"2021-11-13","quote":"- Hypertension"},{"type":"medicine","name":"hydrochlorothiazide","name_as_written":"Hydrodiuril","dose":"25 mg","frequency":"daily","reaction":null,"date":"2021-11-13","quote":"1. Hydrodiuril 25 mg OD"}]}

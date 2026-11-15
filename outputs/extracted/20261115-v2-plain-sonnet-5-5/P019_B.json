@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P019",
+  "hospital": "B",
+  "source_file": "P019_B.txt",
+  "run_id": "20261115-v2-plain-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2551,
+    "output_tokens": 283
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "cardiac arrest",
+      "name_as_written": "cardiac arrest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-01-29",
+      "quote": "Her background includes cardiac arrest.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-01-29",
+      "quote": "She is known to have osteoarthritis of knee.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "cefdinir",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis",
+      "date": "2021-01-29",
+      "quote": "She is allergic to cefdinir, which causes anaphylaxis.",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

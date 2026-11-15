@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P010",
+  "hospital": "A",
+  "source_file": "P010_A.csv",
+  "run_id": "20261115-v2-plain-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2550,
+    "output_tokens": 212
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1996-02-02",
+      "quote": "PROBLEM,Hypertension,,,Active,1996-02-02,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2018-07-04",
+      "quote": "MEDICATION,Ibuprofen,200 mg,as needed,Active,2018-07-04,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}
