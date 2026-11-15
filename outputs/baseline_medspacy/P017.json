@@ -1,0 +1,263 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_medspacy",
+  "patient_id": "P017",
+  "run_id": null,
+  "built_from": [
+    "P017_A.csv",
+    "P017_B.txt",
+    "P017_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P017-F01",
+      "patient_id": "P017",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,ALLERGY,No known allergies,,,,,",
+          "file": "P017_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F02",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-08-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Amlodipine,5 mg,once daily,Active,2021-08-18,",
+          "file": "P017_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F03",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Clopidogrel",
+      "dose": "75 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-08-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-08-18,",
+          "file": "P017_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F04",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-08-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-08-18,",
+          "file": "P017_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F05",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "20 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-08-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P017,\"Nikolaus, Antony\",1955-05-18,M,2021-11-07,MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-08-18,",
+          "file": "P017_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F06",
+      "patient_id": "P017",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-08-15",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "He has no known allergies.",
+          "file": "P017_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F07",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-08-15",
+      "quote": "He takes no regular medicines. His paracetamol was stopped on 1 August 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "He takes no regular medicines. His paracetamol was stopped on 1 August 2020.",
+          "file": "P017_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F08",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-08-15",
+      "quote": "He takes no regular medicines. His paracetamol was stopped on 1 August 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-15",
+          "quote": "He takes no regular medicines. His paracetamol was stopped on 1 August 2020.",
+          "file": "P017_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F09",
+      "patient_id": "P017",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2020-07-23",
+      "quote": "1. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-07-23",
+          "quote": "1. Panadol 325 mg PRN",
+          "file": "P017_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P017-F10",
+      "patient_id": "P017",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-07-23",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-07-23",
+          "quote": "- NKA",
+          "file": "P017_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

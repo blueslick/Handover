@@ -1,0 +1,188 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_medspacy",
+  "patient_id": "P007",
+  "run_id": null,
+  "built_from": [
+    "P007_A.csv",
+    "P007_B.txt",
+    "P007_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P007-F01",
+      "patient_id": "P007",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-09-24",
+      "quote": "P007,\"Romaguera, Georgene\",1992-04-07,F,2021-09-24,ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-24",
+          "quote": "P007,\"Romaguera, Georgene\",1992-04-07,F,2021-09-24,ALLERGY,No known allergies,,,,,",
+          "file": "P007_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F02",
+      "patient_id": "P007",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-09-24",
+      "quote": "P007,\"Romaguera, Georgene\",1992-04-07,F,2021-09-24,MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-24",
+          "quote": "P007,\"Romaguera, Georgene\",1992-04-07,F,2021-09-24,MEDICATION,No current medications,,,,,",
+          "file": "P007_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F03",
+      "patient_id": "P007",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "She is allergic to aspirin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "She is allergic to aspirin.",
+          "file": "P007_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F04",
+      "patient_id": "P007",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "She takes no regular medicines. Her norethisterone was stopped on 15 June 2017.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "She takes no regular medicines. Her norethisterone was stopped on 15 June 2017.",
+          "file": "P007_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F05",
+      "patient_id": "P007",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "norethisterone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-11-02",
+      "quote": "She takes no regular medicines. Her norethisterone was stopped on 15 June 2017.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-02",
+          "quote": "She takes no regular medicines. Her norethisterone was stopped on 15 June 2017.",
+          "file": "P007_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F06",
+      "patient_id": "P007",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2017-06-10",
+      "quote": "- Disprin",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-06-10",
+          "quote": "- Disprin",
+          "file": "P007_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P007-F07",
+      "patient_id": "P007",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Jolivette",
+      "dose": "0.35 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2017-06-10",
+      "quote": "1. Jolivette 0.35 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-06-10",
+          "quote": "1. Jolivette 0.35 mg OD",
+          "file": "P007_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}
