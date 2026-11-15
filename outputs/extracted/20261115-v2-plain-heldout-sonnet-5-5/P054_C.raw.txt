@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"Percocet","dose":null,"frequency":"as_needed","reaction":null,"date":"2021-09-25","quote":"1. Percocet PRN"},{"type":"medicine","name":"paracetamol","name_as_written":"Panadol","dose":"325 mg","frequency":"as_needed","reaction":null,"date":"2021-09-25","quote":"2. Panadol 325 mg PRN"}]}

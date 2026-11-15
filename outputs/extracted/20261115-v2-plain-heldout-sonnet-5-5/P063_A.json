@@ -1,0 +1,162 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P063",
+  "hospital": "A",
+  "source_file": "P063_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3115,
+    "output_tokens": 1256
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; shortness of breath",
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Animal dander,,,Active,1952-06-15,hay fever symptoms; shortness of breath",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Bee venom,,,Active,1952-06-15,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "Cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Cow's milk,,,Active,1952-06-15,hives",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Grass pollen,,,Active,1952-06-15,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Mould,,,Active,1952-06-15,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "Co-trimoxazole",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash; hives",
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Co-trimoxazole,,,Active,1952-06-15,skin rash; hives",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1952-06-15",
+      "quote": "ALLERGY,Tree pollen,,,Active,1952-06-15,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "appendicitis",
+      "name_as_written": "Appendicitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1958-12-31",
+      "quote": "PROBLEM,Appendicitis,,,Active,1958-12-31,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1996-06-18",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,1996-06-18,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "localized primary osteoarthritis of the hand",
+      "name_as_written": "Localized  primary osteoarthritis of the hand",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1999-03-27",
+      "quote": "PROBLEM,Localized  primary osteoarthritis of the hand,,,Active,1999-03-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2007-08-21",
+      "quote": "PROBLEM,Coronary Heart Disease,,,Active,2007-08-21,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "date": "2021-07-03",
+      "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-07-03,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

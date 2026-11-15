@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"coronary heart disease","name_as_written":"Coronary Heart Disease","dose":null,"frequency":null,"reaction":null,"date":"2020-05-02","quote":"PROBLEM,Coronary Heart Disease,,,Active,2020-05-02,"}]}

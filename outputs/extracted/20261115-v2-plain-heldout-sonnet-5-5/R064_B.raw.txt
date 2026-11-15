@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"seizure disorder","name_as_written":"seizure disorder","dose":null,"frequency":null,"reaction":null,"date":"2021-08-08","quote":"He has a history of seizure disorder."}]}

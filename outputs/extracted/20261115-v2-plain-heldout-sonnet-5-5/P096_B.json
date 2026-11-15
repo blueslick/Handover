@@ -1,0 +1,140 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P096",
+  "hospital": "B",
+  "source_file": "P096_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2643,
+    "output_tokens": 861
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "His background includes hypertension.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "opioid abuse",
+      "name_as_written": "opioid abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "His background includes opioid abuse.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "He is known to have prediabetes.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "He is known to have anemia.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "He has a history of chronic sinusitis.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "carcinoma in situ of prostate",
+      "name_as_written": "carcinoma in situ of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "He has a history of carcinoma in situ of prostate.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "neoplasm of prostate",
+      "name_as_written": "neoplasm of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "His background includes neoplasm of prostate.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-10-18",
+      "quote": "He is allergic to lisinopril.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema) and skin rash",
+      "date": "2020-10-18",
+      "quote": "He is allergic to shellfish, which causes swelling (angioedema) and skin rash.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "naproxen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-03-04",
+      "quote": "His naproxen was stopped on 4 March 2020.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

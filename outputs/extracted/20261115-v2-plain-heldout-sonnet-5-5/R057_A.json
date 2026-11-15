@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R057",
+  "hospital": "A",
+  "source_file": "R057_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2622,
+    "output_tokens": 417
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2000-05-12",
+      "quote": "ALLERGY,Lisinopril,,,Active,2000-05-12,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash; hives",
+      "date": "2000-05-12",
+      "quote": "ALLERGY,Penicillin,,,Active,2000-05-12,skin rash; hives",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2004-02-17",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,2004-02-17,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "azithromycin",
+      "name_as_written": "Azithromycin",
+      "dose": "250 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2019-05-24",
+      "quote": "MEDICATION,Azithromycin,250 mg,once daily,Active,2019-05-24,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"mould","name_as_written":"mould","dose":null,"frequency":null,"reaction":null,"date":"2021-10-29","quote":"She is allergic to mould."},{"type":"medicine","name":"penicillin v","name_as_written":"penicillin v","dose":null,"frequency":null,"reaction":null,"date":"2021-03-09","quote":"Her penicillin v was stopped on 9 March 2021."}]}

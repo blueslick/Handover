@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"Zohydro ER","dose":"10 mg","frequency":"twice_daily","reaction":null,"date":"2021-10-31","quote":"1. Zohydro ER 10 mg BD"},{"type":"medicine","name":null,"name_as_written":"Durogesic","dose":"25 mcg","frequency":"other","reaction":null,"date":"2021-10-31","quote":"2. Durogesic 25 mcg as a patch changed every 72 hours"}]}

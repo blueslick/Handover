@@ -1,0 +1,180 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R065",
+  "hospital": "B",
+  "source_file": "R065_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2694,
+    "output_tokens": 1145
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She is known to have chronic sinusitis.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She is known to have hypertension.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "Her background includes anemia.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She is known to have prediabetes.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "date": "2021-09-07",
+      "quote": "She is allergic to animal dander, which causes hives.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "date": "2021-09-07",
+      "quote": "She is allergic to egg, which causes hives.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "fentanyl",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She is on fentanyl 25 mcg as a patch changed every 72 hours.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She takes paracetamol and hydrocodone when needed.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She takes paracetamol and hydrocodone when needed.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "norethisterone",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She takes norethisterone 0.35 mg once a day.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She takes hydrochlorothiazide 25 mg once a day.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-09-07",
+      "quote": "She is on lisinopril 5 mg once a day.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-05-26",
+      "quote": "Her amoxicillin and clavulanate was stopped on 26 May 2021.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

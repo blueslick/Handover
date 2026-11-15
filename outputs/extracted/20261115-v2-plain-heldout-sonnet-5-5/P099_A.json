@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P099",
+  "hospital": "A",
+  "source_file": "P099_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2598,
+    "output_tokens": 289
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1973-09-06",
+      "quote": "ALLERGY,Mould,,,Active,1973-09-06,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1992-07-25",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,1992-07-25,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "Stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-07-04",
+      "quote": "PROBLEM,Stroke,,,Active,2020-07-04,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

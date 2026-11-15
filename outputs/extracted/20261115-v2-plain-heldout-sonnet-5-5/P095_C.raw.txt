@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"hypertension","name_as_written":"Hypertension","dose":null,"frequency":null,"reaction":null,"date":"2021-04-22","quote":"- Hypertension"}]}

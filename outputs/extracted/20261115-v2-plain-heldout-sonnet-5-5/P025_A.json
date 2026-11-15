@@ -1,0 +1,126 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P025",
+  "hospital": "A",
+  "source_file": "P025_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2946,
+    "output_tokens": 973
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "date": "2009-02-19",
+      "quote": "ALLERGY,Animal dander,,,Active,2009-02-19,cough; hay fever symptoms",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-02-19",
+      "quote": "ALLERGY,House dust mite,,,Active,2009-02-19,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "date": "2009-02-19",
+      "quote": "ALLERGY,Mould,,,Active,2009-02-19,sneezing",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; shortness of breath",
+      "date": "2009-02-19",
+      "quote": "ALLERGY,Penicillin,,,Active,2009-02-19,hay fever symptoms; shortness of breath",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-02-19",
+      "quote": "ALLERGY,Tree pollen,,,Active,2009-02-19,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis with seasonal variation",
+      "name_as_written": "Perennial allergic rhinitis with seasonal variation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-02-11",
+      "quote": "PROBLEM,Perennial allergic rhinitis with seasonal variation,,,Active,2009-02-11,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-04-27",
+      "quote": "PROBLEM,Childhood asthma,,,Active,2009-04-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "date": "2021-08-21",
+      "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-08-21,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-08-21",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-08-21,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

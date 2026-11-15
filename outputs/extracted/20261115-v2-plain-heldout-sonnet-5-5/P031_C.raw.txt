@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"levonorgestrel","name_as_written":"Kyleena","dose":"19.5 mg","frequency":null,"reaction":null,"date":"2019-02-07","quote":"1. Kyleena 19.5 mg intrauterine system (lasts 5 years)"}]}

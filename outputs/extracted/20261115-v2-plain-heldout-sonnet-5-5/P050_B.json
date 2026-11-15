@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P050",
+  "hospital": "B",
+  "source_file": "P050_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2558,
+    "output_tokens": 325
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic paralysis due to lesion of spinal cord",
+      "name_as_written": "chronic paralysis due to lesion of spinal cord",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-11-06",
+      "quote": "She is known to have chronic paralysis due to lesion of spinal cord.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-11-06",
+      "quote": "Her background includes chronic sinusitis.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "drospirenone and ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-11-06",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

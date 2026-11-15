@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"norethisterone","name_as_written":"norethisterone","dose":"0.7 mg","frequency":"daily","reaction":null,"date":"2021-09-22","quote":"She is on norethisterone 0.7 mg once a day."}]}

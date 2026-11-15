@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"ibuprofen","name_as_written":"Ibuprofen","dose":"100 mg","frequency":"as_needed","reaction":null,"date":"2019-02-21","quote":"MEDICATION,Ibuprofen,100 mg,as needed,Active,2019-02-21,"}]}

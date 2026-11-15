@@ -1,0 +1,80 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R009",
+  "hospital": "C",
+  "source_file": "R009_C.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2598,
+    "output_tokens": 422
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-03",
+      "quote": "- Prediabetes",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-03",
+      "quote": "- Anemia",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "normal pregnancy",
+      "name_as_written": "Normal pregnancy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-03",
+      "quote": "- Normal pregnancy",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ferrous sulfate",
+      "name_as_written": "Feosol",
+      "dose": "162.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-10-03",
+      "quote": "1. Feosol 162.5 mg OD",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Augmentin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-05-02",
+      "quote": "1. Augmentin - stopped 02-May-2021",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

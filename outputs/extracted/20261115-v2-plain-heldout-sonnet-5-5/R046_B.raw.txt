@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"nitrofurantoin","name_as_written":"nitrofurantoin","dose":"50 mg","frequency":"four_times_daily","reaction":null,"date":"2018-02-14","quote":"She takes nitrofurantoin 50 mg four times a day."}]}

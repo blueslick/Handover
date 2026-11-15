@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"perennial allergic rhinitis","name_as_written":"Perennial allergic rhinitis","dose":null,"frequency":null,"reaction":null,"date":"2007-06-26","quote":"PROBLEM,Perennial allergic rhinitis,,,Active,2007-06-26,"}]}

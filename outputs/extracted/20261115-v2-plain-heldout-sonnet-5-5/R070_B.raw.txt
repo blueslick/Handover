@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"amoxicillin","name_as_written":"amoxicillin","dose":"500 mg","frequency":"three_times_daily","reaction":null,"date":"2018-04-14","quote":"She is on amoxicillin 500 mg three times a day."}]}

@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"etonogestrel","name_as_written":"etonogestrel","dose":"68 mg","frequency":"other","reaction":null,"date":"2021-07-25","quote":"She is on etonogestrel 68 mg implant under the skin (lasts 3 years)."}]}

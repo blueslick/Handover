@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"Vicodin","dose":null,"frequency":"as_needed","reaction":null,"date":"2021-09-17","quote":"1. Vicodin PRN"}]}

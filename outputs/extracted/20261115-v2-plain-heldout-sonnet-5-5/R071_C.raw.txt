@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"Norco","dose":null,"frequency":"as_needed","reaction":null,"date":"2021-11-12","quote":"1. Norco PRN"},{"type":"medicine","name":"amoxicillin","name_as_written":"Amoxil","dose":null,"frequency":null,"reaction":null,"date":"2018-08-31","quote":"1. Amoxil - stopped 31-Aug-2018"}]}

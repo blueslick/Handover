@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"ibuprofen","name_as_written":"Nurofen","dose":null,"frequency":null,"reaction":null,"date":"2016-12-28","quote":"1. Nurofen - stopped 28-Dec-2016"}]}

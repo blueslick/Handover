@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"fluticasone","name_as_written":"Flixotide","dose":"44 mcg","frequency":"twice_daily","reaction":null,"date":"2021-11-05","quote":"1. Flixotide 44 mcg BD"}]}

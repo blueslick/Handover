@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"aspirin","name_as_written":"Aspirin","dose":null,"frequency":null,"reaction":null,"date":"2004-09-28","quote":"ALLERGY,Aspirin,,,Active,2004-09-28,"}]}

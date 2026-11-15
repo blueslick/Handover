@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P068",
+  "hospital": "A",
+  "source_file": "P068_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2558,
+    "output_tokens": 232
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "date": "2012-05-20",
+      "quote": "ALLERGY,Animal dander,,,Active,2012-05-20,cough; hay fever symptoms",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives; shortness of breath",
+      "date": "2012-05-20",
+      "quote": "ALLERGY,Tree nuts,,,Active,2012-05-20,hives; shortness of breath",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

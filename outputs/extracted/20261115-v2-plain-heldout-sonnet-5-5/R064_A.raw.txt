@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"seizure disorder","name_as_written":"Seizure disorder","dose":null,"frequency":null,"reaction":null,"date":"1989-12-25","quote":"PROBLEM,Seizure disorder,,,Active,1989-12-25,"}]}

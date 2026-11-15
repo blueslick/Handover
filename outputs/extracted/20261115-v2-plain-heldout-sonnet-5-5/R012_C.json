@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R012",
+  "hospital": "C",
+  "source_file": "R012_C.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2575,
+    "output_tokens": 401
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-30",
+      "quote": "- Anemia",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-30",
+      "quote": "- Prediabetes",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "Sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-30",
+      "quote": "- Sepsis",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "cardiac arrest",
+      "name_as_written": "Cardiac Arrest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-10-30",
+      "quote": "- Cardiac Arrest",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramal",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-10-30",
+      "quote": "1. Tramal 50 mg PRN",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

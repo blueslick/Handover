@@ -1,0 +1,140 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R008",
+  "hospital": "A",
+  "source_file": "R008_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3060,
+    "output_tokens": 1039
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Animal dander,,,Active,2015-01-20,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Grass pollen,,,Active,2015-01-20,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2015-01-20",
+      "quote": "ALLERGY,House dust mite,,,Active,2015-01-20,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Mould,,,Active,2015-01-20,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting; diarrhoea",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Soya,,,Active,2015-01-20,vomiting; diarrhoea",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hives",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Tree nuts,,,Active,2015-01-20,cough; hives",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Tree pollen,,,Active,2015-01-20,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Wheat,,,Active,2015-01-20,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "seasonal allergic rhinitis",
+      "name_as_written": "Seasonal allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2018-09-12",
+      "quote": "PROBLEM,Seasonal allergic rhinitis,,,Active,2018-09-12,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "date": "2018-04-30",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2018-04-30,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

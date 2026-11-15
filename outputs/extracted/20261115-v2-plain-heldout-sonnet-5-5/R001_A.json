@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R001",
+  "hospital": "A",
+  "source_file": "R001_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2591,
+    "output_tokens": 285
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "1997-12-27",
+      "quote": "ALLERGY,Mould,,,Active,1997-12-27,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1997-12-27",
+      "quote": "ALLERGY,Wheat,,,Active,1997-12-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2019-02-26",
+      "quote": "PROBLEM,Prediabetes,,,Active,2019-02-26,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

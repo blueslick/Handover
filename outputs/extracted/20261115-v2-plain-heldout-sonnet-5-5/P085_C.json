@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P085",
+  "hospital": "C",
+  "source_file": "P085_C.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2658,
+    "output_tokens": 837
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, skin rash",
+      "date": "2021-03-17",
+      "quote": "- Animal dander (hives, skin rash)",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- Grass pollen",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- House dust mite",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema), hives",
+      "date": "2021-03-17",
+      "quote": "- Latex (swelling (angioedema), hives)",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing, skin rash",
+      "date": "2021-03-17",
+      "quote": "- Mould (sneezing, skin rash)",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "date": "2021-03-17",
+      "quote": "- Penicillin (hives)",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- Tree pollen",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atopic dermatitis",
+      "name_as_written": "Atopic dermatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- Atopic dermatitis",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis",
+      "name_as_written": "Perennial allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- Perennial allergic rhinitis",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-03-17",
+      "quote": "- Chronic sinusitis",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

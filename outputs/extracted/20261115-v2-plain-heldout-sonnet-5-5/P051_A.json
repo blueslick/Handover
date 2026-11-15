@@ -1,0 +1,44 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P051",
+  "hospital": "A",
+  "source_file": "P051_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2560,
+    "output_tokens": 240
+  },
+  "facts": [
+    {
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Paracetamol / hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2020-09-22",
+      "quote": "MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2020-09-22,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2020-10-29",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-10-29,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

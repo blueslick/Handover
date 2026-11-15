@@ -1,0 +1,104 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R079",
+  "hospital": "B",
+  "source_file": "R079_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2598,
+    "output_tokens": 596
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-18",
+      "quote": "His background includes prediabetes.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-18",
+      "quote": "He is known to have anemia.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "bleeding from anus",
+      "name_as_written": "bleeding from anus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-18",
+      "quote": "His background includes bleeding from anus.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "protracted diarrhea",
+      "name_as_written": "protracted diarrhea",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-18",
+      "quote": "He has a history of protracted diarrhea.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-07-18",
+      "quote": "His background includes stroke.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema) and nausea",
+      "date": "2021-07-18",
+      "quote": "He is allergic to shellfish, which causes swelling (angioedema) and nausea.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2017-03-20",
+      "quote": "His clopidogrel was stopped on 20 March 2017.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

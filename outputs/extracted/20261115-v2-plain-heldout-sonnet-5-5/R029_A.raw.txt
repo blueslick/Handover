@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"norethisterone","name_as_written":"Norethisterone","dose":"0.35 mg","frequency":"daily","reaction":null,"date":"2021-10-28","quote":"MEDICATION,Norethisterone,0.35 mg,once daily,Active,2021-10-28,"}]}

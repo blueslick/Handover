@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"paracetamol","name_as_written":"paracetamol","dose":null,"frequency":null,"reaction":null,"date":"2017-01-01","quote":"His paracetamol was stopped on 1 January 2017."}]}

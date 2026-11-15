@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"ibuprofen","name_as_written":"Nurofen","dose":null,"frequency":null,"reaction":"hay fever symptoms","date":"2021-09-24","quote":"- Nurofen (hay fever symptoms)"}]}

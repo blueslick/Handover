@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P054",
+  "hospital": "A",
+  "source_file": "P054_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2629,
+    "output_tokens": 375
+  },
+  "facts": [
+    {
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "date": "2020-08-02",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Active,2020-08-02,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2017-06-09",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2017-06-09,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "penicillin v",
+      "name_as_written": "Penicillin v",
+      "dose": "500 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "date": "2017-11-10",
+      "quote": "MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2017-11-10,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

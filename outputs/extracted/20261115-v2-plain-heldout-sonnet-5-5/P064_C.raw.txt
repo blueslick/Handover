@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"NyQuil","dose":null,"frequency":"at_night","reaction":null,"date":"2017-07-05","quote":"1. NyQuil ON"}]}

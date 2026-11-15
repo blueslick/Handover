@@ -1,0 +1,166 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P072",
+  "hospital": "A",
+  "source_file": "P072_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3207,
+    "output_tokens": 1327
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "Sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "1999-02-02",
+      "quote": "PROBLEM,Sepsis,,,Active,1999-02-02,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2003-08-10",
+      "quote": "PROBLEM,Anemia,,,Active,2003-08-10,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2003-08-10",
+      "quote": "PROBLEM,Prediabetes,,,Active,2003-08-10,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2004-07-18",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,2004-07-18,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2016-02-28",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,2016-02-28,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-03-28",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-03-28,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "5 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "date": "2021-06-24",
+      "quote": "MEDICATION,Simvastatin,5 mg,at bedtime,Active,2021-06-24,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "medroxyprogesterone",
+      "name_as_written": "Medroxyprogesterone",
+      "dose": "150 mg",
+      "frequency": "other",
+      "reaction": null,
+      "date": "2021-06-24",
+      "quote": "MEDICATION,Medroxyprogesterone,150 mg,every 3 months,Active,2021-06-24,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-01-10",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-01-10,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Etonogestrel",
+      "dose": "68 mg",
+      "frequency": "other",
+      "reaction": null,
+      "date": "2020-07-04",
+      "quote": "MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-07-04,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Estradiol valerate / dienogest",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2017-03-11",
+      "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2017-03-11,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2019-07-10",
+      "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Discontinued,2019-07-10,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

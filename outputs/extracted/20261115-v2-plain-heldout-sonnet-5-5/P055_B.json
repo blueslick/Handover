@@ -1,0 +1,82 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P055",
+  "hospital": "B",
+  "source_file": "P055_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2580,
+    "output_tokens": 424
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-10",
+      "quote": "She is known to have sepsis.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-10",
+      "quote": "Her background includes miscarriage in first trimester.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-09-10",
+      "quote": "She is known to have stroke.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2017-07-27",
+      "quote": "Her clopidogrel was stopped on 27 July 2017.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "alteplase",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2017-07-27",
+      "quote": "Her alteplase was stopped on 27 July 2017.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

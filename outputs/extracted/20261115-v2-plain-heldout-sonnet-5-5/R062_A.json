@@ -1,0 +1,162 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R062",
+  "hospital": "A",
+  "source_file": "R062_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3084,
+    "output_tokens": 1204
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Animal dander,,,Active,2009-08-27,hay fever symptoms",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Grass pollen,,,Active,2009-08-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Latex,,,Active,2009-08-27,hives",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Mould,,,Active,2009-08-27,skin rash",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting",
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Soya,,,Active,2009-08-27,vomiting",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Tree pollen,,,Active,2009-08-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-08-27",
+      "quote": "ALLERGY,Wheat,,,Active,2009-08-27,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atopic dermatitis",
+      "name_as_written": "Atopic dermatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2009-08-11",
+      "quote": "PROBLEM,Atopic dermatitis,,,Active,2009-08-11,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "seasonal allergic rhinitis",
+      "name_as_written": "Seasonal allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2012-02-18",
+      "quote": "PROBLEM,Seasonal allergic rhinitis,,,Active,2012-02-18,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2013-05-19",
+      "quote": "PROBLEM,Childhood asthma,,,Active,2013-05-19,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "date": "2021-05-16",
+      "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-16,",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-05-16",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-16,",
+      "status": "current",
+      "flags": []
+    }
+  ]
+}

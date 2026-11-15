@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":null,"name_as_written":"Yaz","dose":null,"frequency":"daily","reaction":null,"date":"2021-02-10","quote":"1. Yaz OD"},{"type":"medicine","name":null,"name_as_written":"NyQuil","dose":null,"frequency":null,"reaction":null,"date":"2018-05-04","quote":"1. NyQuil - stopped 04-May-2018"}]}

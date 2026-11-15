@@ -1,0 +1,84 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P045",
+  "hospital": "B",
+  "source_file": "P045_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2582,
+    "output_tokens": 490
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2021-11-02",
+      "quote": "She has a history of hypertension.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-11-02",
+      "quote": "She continues on paracetamol and hydrocodone when needed.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-11-02",
+      "quote": "She continues on paracetamol and hydrocodone when needed.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-11-02",
+      "quote": "She continues on hydrochlorothiazide 25 mg once a day.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "levonorgestrel and ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2020-03-21",
+      "quote": "Her levonorgestrel and ethinyl estradiol was stopped on 21 March 2020.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

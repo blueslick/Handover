@@ -1,0 +1,1 @@
+{"facts":[{"type":"medicine","name":"ibuprofen","name_as_written":"ibuprofen","dose":"200 mg","frequency":"three_times_daily","reaction":null,"date":"2021-09-23","quote":"She is on ibuprofen 200 mg three times a day."}]}

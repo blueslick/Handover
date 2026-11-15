@@ -1,0 +1,44 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P071",
+  "hospital": "B",
+  "source_file": "P071_B.txt",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2542,
+    "output_tokens": 217
+  },
+  "facts": [
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "date": "2021-11-04",
+      "quote": "She is on paracetamol 325 mg when needed.",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "etonogestrel and ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "date": "2019-12-29",
+      "quote": "Her etonogestrel and ethinyl estradiol was stopped on 29 December 2019.",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

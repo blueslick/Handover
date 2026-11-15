@@ -1,0 +1,58 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R034",
+  "hospital": "A",
+  "source_file": "R034_A.csv",
+  "run_id": "20261115-v2-plain-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2-plain",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling, plain lists (no status asked for; every fact saved as current)",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2585,
+    "output_tokens": 379
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema); nausea",
+      "date": "2004-07-13",
+      "quote": "ALLERGY,Shellfish,,,Active,2004-07-13,swelling (angioedema); nausea",
+      "status": "current",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-09-16",
+      "quote": "MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-09-16,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Estradiol valerate / dienogest",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "date": "2021-09-16",
+      "quote": "MEDICATION,Estradiol valerate / dienogest,,once daily,Discontinued,2021-09-16,",
+      "status": "current",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

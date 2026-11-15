@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"animal dander","name_as_written":"animal dander","dose":null,"frequency":null,"reaction":"cough and hay fever symptoms","date":"2020-09-02","quote":"He is allergic to animal dander, which causes cough and hay fever symptoms."}]}

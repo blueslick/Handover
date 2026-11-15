@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"appendicitis","name_as_written":"Appendicitis","dose":null,"frequency":null,"reaction":null,"date":"2002-06-16","quote":"PROBLEM,Appendicitis,,,Active,2002-06-16,"},{"type":"diagnosis","name":"sepsis","name_as_written":"Sepsis","dose":null,"frequency":null,"reaction":null,"date":"2009-06-11","quote":"PROBLEM,Sepsis,,,Active,2009-06-11,"}]}

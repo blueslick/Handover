@@ -1,0 +1,1 @@
+{"facts":[{"type":"diagnosis","name":"hypertension","name_as_written":"Hypertension","dose":null,"frequency":null,"reaction":null,"date":"2021-11-03","quote":"- Hypertension"},{"type":"medicine","name":"ibuprofen","name_as_written":"Nurofen","dose":"400 mg","frequency":"three_times_daily","reaction":null,"date":"2021-11-03","quote":"1. Nurofen 400 mg TDS"}]}
