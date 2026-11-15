@@ -1,0 +1,520 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure_rules",
+  "patient_id": "P012",
+  "run_id": null,
+  "built_from": [
+    "P012_A.csv",
+    "P012_B.txt",
+    "P012_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P012-F01",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Animal dander,,,Active,1996-12-17,hay fever symptoms; hives",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Animal dander,,,Active,1996-12-17,hay fever symptoms; hives",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F02",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "Co-trimoxazole",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Co-trimoxazole,,,Active,1996-12-17,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-05",
+          "quote": "- Bactrim",
+          "file": "P012_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Co-trimoxazole,,,Active,1996-12-17,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F03",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Fish,,,Active,1996-12-17,hay fever symptoms; skin rash",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-05",
+          "quote": "- Fish (hay fever symptoms, skin rash)",
+          "file": "P012_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Fish,,,Active,1996-12-17,hay fever symptoms; skin rash",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F04",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Grass pollen,,,Active,1996-12-17,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Grass pollen,,,Active,1996-12-17,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F05",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,House dust mite,,,Active,1996-12-17,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,House dust mite,,,Active,1996-12-17,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F06",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Mould,,,Active,1996-12-17,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Mould,,,Active,1996-12-17,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F07",
+      "patient_id": "P012",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Tree pollen,,,Active,1996-12-17,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-05",
+          "quote": "- Tree pollen",
+          "file": "P012_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to fish, which causes hay fever symptoms and skin rash. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,ALLERGY,Tree pollen,,,Active,1996-12-17,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F08",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-04-10,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-04-10,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F09",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Fentanyl",
+      "dose": "25 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-04-10,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-04-10,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F10",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "25 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-10,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "44 mcg",
+          "frequency": null,
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F11",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-08,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-08,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": null,
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F12",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-10,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P012,\"Vandervort, Oren\",1996-01-06,M,2021-11-08,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-10,",
+          "file": "P012_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F13",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "oxycodone",
+      "name_as_written": "oxycodone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-28",
+      "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F14",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-28",
+      "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "stopped",
+          "dose": null,
+          "frequency": null,
+          "hospital": "C",
+          "date": "2020-11-05",
+          "quote": "1. Panadol - stopped 25-Sep-2020"
+        }
+      ],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F15",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "salbutamol",
+      "dose": "90 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-28",
+      "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-28",
+          "quote": "He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.",
+          "file": "P012_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P012-F16",
+      "patient_id": "P012",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-11-05",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-11-05",
+          "quote": "Nil regular medications",
+          "file": "P012_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

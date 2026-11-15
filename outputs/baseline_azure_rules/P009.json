@@ -1,0 +1,149 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure_rules",
+  "patient_id": "P009",
+  "run_id": null,
+  "built_from": [
+    "P009_A.csv",
+    "P009_B.txt",
+    "P009_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P009-F01",
+      "patient_id": "P009",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-03-10",
+          "quote": "P009,\"Tremblay, Isadora\",1957-02-12,F,2018-03-10,ALLERGY,No known allergies,,,,,",
+          "file": "P009_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She has no known allergies.",
+          "file": "P009_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- NKA",
+          "file": "P009_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P009-F02",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "amoxicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-09-15",
+      "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+          "file": "P009_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2018-03-10",
+          "quote": "P009,\"Tremblay, Isadora\",1957-02-12,F,2018-03-10,MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P009-F03",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": "clavulanate",
+      "name_as_written": "clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-09-15",
+      "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+          "file": "P009_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": null,
+          "hospital": "A",
+          "date": "2018-03-10",
+          "quote": "P009,\"Tremblay, Isadora\",1957-02-12,F,2018-03-10,MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P009-F04",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+          "file": "P009_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "Nil regular medications",
+          "file": "P009_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

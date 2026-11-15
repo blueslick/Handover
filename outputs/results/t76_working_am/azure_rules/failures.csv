@@ -1,0 +1,26 @@
+patient_id,kind,key_fact_id,output_fact_id,type,name,key_status,output_status,key_critical,output_critical,duplicate,key_quote,output_quote
+P002,missed,P002-F03,,medicine,amoxicillin / clavulanate,stopped,,False,,False,His amoxicillin and clavulanate was stopped on 8 February 2019.,
+P002,false_alarm,,P002-F03,medicine,amoxicillin,,stopped,,False,False,,He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.
+P002,false_alarm,,P002-F04,medicine,clavulanate,,stopped,,False,False,,He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.
+P004,wrong_status,P004-F02,P004-F03,medicine,drospirenone / ethinyl estradiol,stopped,current,False,True,False,"MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,",She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.
+P004,false_alarm,,P004-F02,medicine,drospirenone,,stopped,,False,False,,"P004,""Powlowski, Lin"",2001-09-30,F,2021-11-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,"
+P004,false_alarm,,P004-F04,medicine,ethinyl estradiol,,current,,True,False,,"P004,""Powlowski, Lin"",2001-09-30,F,2021-11-15,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-08-29,"
+P004,false_alarm,,P004-F05,medicine,ethinyl estradiol,,stopped,,False,False,,"P004,""Powlowski, Lin"",2001-09-30,F,2021-11-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,"
+P004,false_alarm,,P004-F06,medicine,levonorgestrel,,current,,True,False,,"P004,""Powlowski, Lin"",2001-09-30,F,2021-11-15,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-08-29,"
+P005,missed,P005-F08,,medicine,tramadol,current,,True,,False,4. Tramal 50 mg PRN,
+P005,false_alarm,,P005-F02,medicine,amoxicillin,,current,,True,False,,He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.
+P005,false_alarm,,P005-F04,medicine,clavulanate,,current,,True,False,,He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.
+P006,wrong_status,P006-F07,P006-F07,medicine,norethisterone,stopped,current,False,True,False,1. Camila - stopped 23-Jun-2019,1. Camila - stopped 23-Jun-2019
+P008,missed,P008-F07,,medicine,salbutamol,current,,True,,False,"MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-23,",
+P009,missed,P009-F02,,medicine,amoxicillin / clavulanate,stopped,,False,,False,Her amoxicillin and clavulanate was stopped on 21 March 2018.,
+P009,false_alarm,,P009-F02,medicine,amoxicillin,,stopped,,False,False,,She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.
+P009,false_alarm,,P009-F03,medicine,clavulanate,,stopped,,False,False,,She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.
+P011,false_alarm,,P011-F03,medicine,ethinyl estradiol,,current,,True,False,,"P011,""Bernier, Bonita"",1985-04-03,F,2021-05-06,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,"
+P011,false_alarm,,P011-F05,medicine,levonorgestrel,,current,,True,False,,"P011,""Bernier, Bonita"",1985-04-03,F,2021-05-06,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,"
+P012,wrong_status,P012-F13,P012-F14,medicine,paracetamol,stopped,current,False,True,False,1. Panadol - stopped 25-Sep-2020,He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.
+P012,missed,P012-F14,,medicine,paracetamol / oxycodone,current,,True,,False,He is on paracetamol and oxycodone when needed.,
+P012,false_alarm,,P012-F13,medicine,oxycodone,,current,,True,False,,He takes fluticasone 44 mcg twice a day. He takes fentanyl 25 mcg as a patch changed every 72 hours. He is on paracetamol and oxycodone when needed. He continues on hydrochlorothiazide 12.5 mg once a day. He continues on salbutamol 90 mcg when needed. He takes amlodipine 2.5 mg once a day. He continues on lisinopril 10 mg once a day.
+P013,missed,P013-F02,,medicine,paracetamol,current,,True,,False,"MEDICATION,Paracetamol,325 mg,as needed,Active,2021-08-12,",
+P014,wrong_status,P014-F03,P014-F03,medicine,ibuprofen,stopped,current,False,True,False,"MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,",He continues on ibuprofen 200 mg when needed. His naproxen was stopped on 29 March 2018.
+P017,missed,P017-F04,,medicine,nitroglycerin,current,,True,,False,"MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-08-18,",
+P018,missed,P018-F12,,medicine,levonorgestrel / ethinyl estradiol,stopped,,False,,False,3. Seasonique - stopped 09-Dec-2019,

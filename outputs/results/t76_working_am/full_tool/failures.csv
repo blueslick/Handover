@@ -1,0 +1,3 @@
+patient_id,kind,key_fact_id,output_fact_id,type,name,key_status,output_status,key_critical,output_critical,duplicate,key_quote,output_quote
+P012,wrong_status,P012-F13,P012-F14,medicine,paracetamol,stopped,current,False,True,False,1. Panadol - stopped 25-Sep-2020,He is on paracetamol and oxycodone when needed.
+P012,false_alarm,,P012-F13,medicine,oxycodone,,current,,True,False,,He is on paracetamol and oxycodone when needed.

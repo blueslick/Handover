@@ -1,0 +1,763 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure",
+  "patient_id": "P015",
+  "run_id": null,
+  "built_from": [
+    "P015_A.csv",
+    "P015_B.txt",
+    "P015_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P015-F01",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Animal dander,,,Active,1966-05-05,hay fever symptoms; hives",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Animal dander,,,Active,1966-05-05,hay fever symptoms; hives",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F02",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Aspirin,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Aspirin,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F03",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "Egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Egg,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Egg,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F04",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Grass pollen,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Grass pollen,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F05",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,House dust mite,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,House dust mite,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F06",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Latex,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Latex,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F07",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Mould,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Mould,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F08",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Peanut,,,Active,1966-05-05,hives; swelling (angioedema)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Peanut,,,Active,1966-05-05,hives; swelling (angioedema)",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F09",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Tree nuts,,,Active,1966-05-05,anaphylaxis; cough",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Tree nuts,,,Active,1966-05-05,anaphylaxis; cough",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F10",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Wheat,,,Active,1966-05-05,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,ALLERGY,Wheat,,,Active,1966-05-05,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F11",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-07-03,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-07-03,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F12",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Naproxen",
+      "dose": "220 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,MEDICATION,Naproxen,220 mg,twice daily,Active,2021-11-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "P015,\"Grady, Brendan\",1965-02-26,M,2021-11-07,MEDICATION,Naproxen,220 mg,twice daily,Active,2021-11-07,",
+          "file": "P015_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F13",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F14",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F15",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F16",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F17",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F18",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F19",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F20",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F21",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F22",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and hives. He is allergic to aspirin. He is allergic to egg. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to latex. He is allergic to mould. He is allergic to peanut, which causes hives and swelling (angioedema). He is allergic to tree nuts, which causes anaphylaxis and cough. He is allergic to wheat.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F23",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "fluticasone",
+      "dose": "44 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F24",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "salbutamol",
+      "dose": "90 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F25",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "naproxen",
+      "dose": "220 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-10",
+      "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-10",
+          "quote": "He continues on fluticasone 44 mcg twice a day. He is on salbutamol 90 mcg when needed. He continues on naproxen 220 mg twice a day.",
+          "file": "P015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F26",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-02-04",
+      "quote": "- Latex",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-04",
+          "quote": "- Latex",
+          "file": "P015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F27",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-02-04",
+      "quote": "- Peanut (hives, swelling (angioedema))",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-04",
+          "quote": "- Peanut (hives, swelling (angioedema))",
+          "file": "P015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F28",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-02-04",
+      "quote": "- Tree nuts (anaphylaxis, cough)",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-04",
+          "quote": "- Tree nuts (anaphylaxis, cough)",
+          "file": "P015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F29",
+      "patient_id": "P015",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-02-04",
+      "quote": "- Wheat",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-04",
+          "quote": "- Wheat",
+          "file": "P015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P015-F30",
+      "patient_id": "P015",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Aleve",
+      "dose": "110 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-02-04",
+      "quote": "1. Aleve 110 mg BD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-04",
+          "quote": "1. Aleve 110 mg BD",
+          "file": "P015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

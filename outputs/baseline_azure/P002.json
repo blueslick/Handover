@@ -1,0 +1,213 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure",
+  "patient_id": "P002",
+  "run_id": null,
+  "built_from": [
+    "P002_A.csv",
+    "P002_B.txt",
+    "P002_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P002-F01",
+      "patient_id": "P002",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "P002,\"Senger, Louis\",2005-09-27,M,2021-11-16,ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "P002,\"Senger, Louis\",2005-09-27,M,2021-11-16,ALLERGY,No known allergies,,,,,",
+          "file": "P002_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F02",
+      "patient_id": "P002",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "P002,\"Senger, Louis\",2005-09-27,M,2021-11-16,MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "P002,\"Senger, Louis\",2005-09-27,M,2021-11-16,MEDICATION,No current medications,,,,,",
+          "file": "P002_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F03",
+      "patient_id": "P002",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-30",
+      "quote": "He is allergic to peanut, which causes hives and skin rash.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-30",
+          "quote": "He is allergic to peanut, which causes hives and skin rash.",
+          "file": "P002_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F04",
+      "patient_id": "P002",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "amoxicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-08-30",
+      "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-30",
+          "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+          "file": "P002_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F05",
+      "patient_id": "P002",
+      "type": "medicine",
+      "name": "clavulanate",
+      "name_as_written": "clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-08-30",
+      "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-30",
+          "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+          "file": "P002_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F06",
+      "patient_id": "P002",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-08-30",
+      "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-30",
+          "quote": "He takes no regular medicines. His amoxicillin and clavulanate was stopped on 8 February 2019.",
+          "file": "P002_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F07",
+      "patient_id": "P002",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2019-02-05",
+      "quote": "- Peanut (hives, skin rash)",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-02-05",
+          "quote": "- Peanut (hives, skin rash)",
+          "file": "P002_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P002-F08",
+      "patient_id": "P002",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-02-05",
+      "quote": "1. Panadol - stopped 18-Oct-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-02-05",
+          "quote": "1. Panadol - stopped 18-Oct-2017",
+          "file": "P002_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

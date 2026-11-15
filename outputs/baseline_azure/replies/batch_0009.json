@@ -1,0 +1,2488 @@
+{
+ "request": {
+  "displayName": "handover-t76",
+  "analysisInput": {
+   "documents": [
+    {
+     "id": "P013_B",
+     "language": "en",
+     "text": "RIVERSIDE COMMUNITY HOSPITAL\nMedical Outpatient Clinic\n\nPatient: Debora Conn\nHospital ID: P013\nDate of birth: 17 May 1956\nDate of visit: 16 January 2021\n\nDear Doctor,\n\nI reviewed this 64-year-old woman in the medical clinic today. Her background includes chronic sinusitis. She has a history of osteoarthritis of knee.\n\nShe has no known allergies.\n\nShe takes no regular medicines.\n\nPlan: no changes today. Review in clinic in three months.\n\nYours sincerely,\nMedical Outpatient Clinic\n"
+    },
+    {
+     "id": "P013_C",
+     "language": "en",
+     "text": "========================================================\n SERI BAYU MEDICAL CENTRE\n MEDICATION RECONCILIATION SHEET\n========================================================\n Name    : DEBORA CONN\n ID      : P013\n DOB     : 17-May-1956    Sex: F\n Date    : 16-Jul-2021\n========================================================\n\n[ALLERGIES]\n  - NKA\n\n[PROBLEM LIST]\n  - Chronic sinusitis\n  - Osteoarthritis of knee\n  - Polyp of colon\n\n[CURRENT MEDICATIONS]\n  Nil regular medications\n\n========================================================\n Reconciled by: Pharmacy, Seri Bayu Medical Centre\n========================================================\n"
+    },
+    {
+     "id": "P014_A",
+     "language": "en",
+     "text": "P014 , \"Bogisich ,  Carrol\" , 1981-03-10 , M , 2021-09-01 , ALLERGY , No known allergies ,  ,  ,  ,  , \nP014 , \"Bogisich ,  Carrol\" , 1981-03-10 , M , 2021-09-01 , PROBLEM , Hypertension ,  ,  , Active , 1999-05-04 , \nP014 , \"Bogisich ,  Carrol\" , 1981-03-10 , M , 2021-09-01 , MEDICATION , No current medications ,  ,  ,  ,  , \nP014 , \"Bogisich ,  Carrol\" , 1981-03-10 , M , 2021-09-01 , MEDICATION , Ibuprofen , 200 mg , as needed , Discontinued , 2019-05-26 , "
+    },
+    {
+     "id": "P014_B",
+     "language": "en",
+     "text": "RIVERSIDE COMMUNITY HOSPITAL\nMedical Outpatient Clinic\n\nPatient: Carrol Bogisich\nHospital ID: P014\nDate of birth: 10 March 1981\nDate of visit: 14 May 2019\n\nDear Doctor,\n\nI reviewed this 38-year-old man in the medical clinic today. He is known to have hypertension.\n\nHe has no known allergies.\n\nHe continues on ibuprofen 200 mg when needed. His naproxen was stopped on 29 March 2018.\n\nPlan: no changes today. Review in clinic in three months.\n\nYours sincerely,\nMedical Outpatient Clinic\n"
+    },
+    {
+     "id": "P014_C",
+     "language": "en",
+     "text": "========================================================\n SERI BAYU MEDICAL CENTRE\n MEDICATION RECONCILIATION SHEET\n========================================================\n Name    : CARROL BOGISICH\n ID      : P014\n DOB     : 10-Mar-1981    Sex: M\n Date    : 29-Oct-2021\n========================================================\n\n[ALLERGIES]\n  - NKA\n\n[PROBLEM LIST]\n  - Hypertension\n\n[CURRENT MEDICATIONS]\n  1. Norvasc 2.5 mg OD\n\n========================================================\n Reconciled by: Pharmacy, Seri Bayu Medical Centre\n========================================================\n"
+    }
+   ]
+  },
+  "tasks": [
+   {
+    "kind": "Healthcare",
+    "taskName": "health",
+    "parameters": {
+     "modelVersion": "latest",
+     "stringIndexType": "UnicodeCodePoint"
+    }
+   }
+  ]
+ },
+ "reply": {
+  "jobId": "b487bb65-7e27-41ce-843c-0260bb180a30",
+  "lastUpdatedDateTime": "2026-11-15T11:01:49Z",
+  "createdDateTime": "2026-11-15T11:01:42Z",
+  "expirationDateTime": "2026-11-16T11:01:42Z",
+  "status": "succeeded",
+  "errors": [],
+  "displayName": "handover-t76",
+  "tasks": {
+   "completed": 1,
+   "failed": 0,
+   "inProgress": 0,
+   "total": 1,
+   "items": [
+    {
+     "kind": "HealthcareLROResults",
+     "taskName": "health",
+     "lastUpdateDateTime": "2026-11-15T11:01:49.2987008Z",
+     "status": "succeeded",
+     "results": {
+      "documents": [
+       {
+        "id": "P013_B",
+        "entities": [
+         {
+          "offset": 29,
+          "length": 25,
+          "text": "Medical Outpatient Clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.96
+         },
+         {
+          "offset": 110,
+          "length": 11,
+          "text": "17 May 1956",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 130,
+          "length": 5,
+          "text": "visit",
+          "category": "AdministrativeEvent",
+          "confidenceScore": 0.83
+         },
+         {
+          "offset": 137,
+          "length": 15,
+          "text": "16 January 2021",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 184,
+          "length": 11,
+          "text": "64-year-old",
+          "category": "Age",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 196,
+          "length": 5,
+          "text": "woman",
+          "category": "Gender",
+          "confidenceScore": 1.0,
+          "name": "Woman",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0043210"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000014451"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0018392"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000013181"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U005036"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85147274"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT4"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D014930"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "23450"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "Ua0Wg"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "E-4957"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "L-85B00"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "224526002"
+           }
+          ]
+         },
+         {
+          "offset": 209,
+          "length": 14,
+          "text": "medical clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 224,
+          "length": 5,
+          "text": "today",
+          "category": "Time",
+          "confidenceScore": 0.93
+         },
+         {
+          "offset": 255,
+          "length": 17,
+          "text": "chronic sinusitis",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Chronic sinusitis",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0149516"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00664"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0000903"
+           },
+           {
+            "dataSource": "CCS",
+            "id": "8.1.5.2"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000016598"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U000364"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0011109"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD9CM",
+            "id": "473.9"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "R75003"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10009137"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "31351"
+           },
+           {
+            "dataSource": "MTHICD9",
+            "id": "473.9"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C35151"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU037623"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "H13.."
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D2-01150"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "40055000"
+           }
+          ]
+         },
+         {
+          "offset": 295,
+          "length": 22,
+          "text": "osteoarthritis of knee",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Osteoarthritis, Knee",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0409959"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000032782"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0005086"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "M17.9"
+           },
+           {
+            "dataSource": "ICPC",
+            "id": "L90"
+           },
+           {
+            "dataSource": "ICPC2EENG",
+            "id": "L90"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "L90001"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10023476"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "94030"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D020370"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU006579"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "X703L"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "239873007"
+           }
+          ]
+         },
+         {
+          "offset": 328,
+          "length": 18,
+          "text": "no known allergies",
+          "category": "Diagnosis",
+          "confidenceScore": 0.97,
+          "name": "No known allergy",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0262580"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "U000454"
+           },
+           {
+            "dataSource": "ICNP",
+            "id": "716186003"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C167417"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "716186003"
+           }
+          ]
+         },
+         {
+          "offset": 362,
+          "length": 17,
+          "text": "regular medicines",
+          "category": "TreatmentName",
+          "confidenceScore": 0.9,
+          "assertion": {
+           "certainty": "negative"
+          }
+         },
+         {
+          "offset": 399,
+          "length": 5,
+          "text": "today",
+          "category": "Time",
+          "confidenceScore": 0.98
+         },
+         {
+          "offset": 416,
+          "length": 6,
+          "text": "clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 423,
+          "length": 15,
+          "text": "in three months",
+          "category": "Time",
+          "confidenceScore": 0.86
+         },
+         {
+          "offset": 458,
+          "length": 25,
+          "text": "Medical Outpatient Clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.96
+         }
+        ],
+        "relations": [
+         {
+          "confidenceScore": 1.0,
+          "relationType": "TimeOfEvent",
+          "entities": [
+           {
+            "ref": "#/results/documents/0/entities/2",
+            "role": "Event"
+           },
+           {
+            "ref": "#/results/documents/0/entities/3",
+            "role": "Time"
+           }
+          ]
+         }
+        ],
+        "warnings": []
+       },
+       {
+        "id": "P013_C",
+        "entities": [
+         {
+          "offset": 223,
+          "length": 11,
+          "text": "17-May-1956",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 243,
+          "length": 1,
+          "text": "F",
+          "category": "Gender",
+          "confidenceScore": 1.0,
+          "name": "Woman",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0043210"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000014451"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0018392"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000013181"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U005036"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85147274"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT4"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D014930"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "23450"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "Ua0Wg"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "E-4957"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "L-85B00"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "224526002"
+           }
+          ]
+         },
+         {
+          "offset": 256,
+          "length": 11,
+          "text": "16-Jul-2021",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 342,
+          "length": 3,
+          "text": "NKA",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "No known allergy",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0262580"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "U000454"
+           },
+           {
+            "dataSource": "ICNP",
+            "id": "716186003"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C167417"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "716186003"
+           }
+          ]
+         },
+         {
+          "offset": 366,
+          "length": 17,
+          "text": "Chronic sinusitis",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Chronic sinusitis",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0149516"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00664"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0000903"
+           },
+           {
+            "dataSource": "CCS",
+            "id": "8.1.5.2"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000016598"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U000364"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0011109"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "J32.9"
+           },
+           {
+            "dataSource": "ICD9CM",
+            "id": "473.9"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "R75003"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10009137"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "31351"
+           },
+           {
+            "dataSource": "MTHICD9",
+            "id": "473.9"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C35151"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU037623"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "H13.."
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D2-01150"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "40055000"
+           }
+          ]
+         },
+         {
+          "offset": 388,
+          "length": 22,
+          "text": "Osteoarthritis of knee",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Osteoarthritis, Knee",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0409959"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000032782"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0005086"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "M17.9"
+           },
+           {
+            "dataSource": "ICPC",
+            "id": "L90"
+           },
+           {
+            "dataSource": "ICPC2EENG",
+            "id": "L90"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "L90001"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10023476"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "94030"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D020370"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU006579"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "X703L"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "239873007"
+           }
+          ]
+         },
+         {
+          "offset": 415,
+          "length": 14,
+          "text": "Polyp of colon",
+          "category": "Diagnosis",
+          "confidenceScore": 0.99,
+          "name": "Colonic Polyps",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0009376"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00227"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "1017462"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000003174"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "192"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "4006-0027"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U000800"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "K63.5"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "K63.5"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "K63.5"
+           },
+           {
+            "dataSource": "ICPC2ICD10ENG",
+            "id": "MTHU017288"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "D78003"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LA10557-9"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10010003"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "336198"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "3134"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D003111"
+           },
+           {
+            "dataSource": "MTH",
+            "id": "192"
+           },
+           {
+            "dataSource": "MTHMST",
+            "id": "MT090114"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C2954"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU036752"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "X78Oa"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D5-41170"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "68496003"
+           }
+          ]
+         },
+         {
+          "offset": 459,
+          "length": 19,
+          "text": "regular medications",
+          "category": "TreatmentName",
+          "confidenceScore": 0.9,
+          "assertion": {
+           "certainty": "negative"
+          }
+         }
+        ],
+        "relations": [],
+        "warnings": []
+       },
+       {
+        "id": "P014_A",
+        "entities": [
+         {
+          "offset": 30,
+          "length": 10,
+          "text": "1981-03-10",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 43,
+          "length": 1,
+          "text": "M",
+          "category": "Gender",
+          "confidenceScore": 0.87,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 47,
+          "length": 10,
+          "text": "2021-09-01",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 70,
+          "length": 18,
+          "text": "No known allergies",
+          "category": "Diagnosis",
+          "confidenceScore": 0.81,
+          "name": "No known allergy",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0262580"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "U000454"
+           },
+           {
+            "dataSource": "ICNP",
+            "id": "716186003"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C167417"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "716186003"
+           }
+          ]
+         },
+         {
+          "offset": 104,
+          "length": 4,
+          "text": "P014",
+          "category": "Allergen",
+          "confidenceScore": 0.62
+         },
+         {
+          "offset": 134,
+          "length": 10,
+          "text": "1981-03-10",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 147,
+          "length": 1,
+          "text": "M",
+          "category": "Gender",
+          "confidenceScore": 0.86,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 151,
+          "length": 10,
+          "text": "2021-09-01",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 174,
+          "length": 12,
+          "text": "Hypertension",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Hypertensive disease",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0020538"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000023317"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00001"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "1017493"
+           },
+           {
+            "dataSource": "CCS",
+            "id": "7.1"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000015800"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "397"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "0571-5243"
+           },
+           {
+            "dataSource": "CST",
+            "id": "HYPERTENS"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U002034"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0000822"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "I10"
+           },
+           {
+            "dataSource": "ICD9CM",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "ICPC2ICD10ENG",
+            "id": "MTHU035456"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "K85004"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002317"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85063723"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LA14293-7"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10020772"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "33288"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "34"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D006973"
+           },
+           {
+            "dataSource": "MTH",
+            "id": "005"
+           },
+           {
+            "dataSource": "MTHICD9",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "NANDA-I",
+            "id": "00905"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C3117"
+           },
+           {
+            "dataSource": "NOC",
+            "id": "060808"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU002068"
+           },
+           {
+            "dataSource": "PCDS",
+            "id": "PRB_11000.06"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000686951"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "23830"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "XE0Ub"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "F-70700"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D3-02000"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "38341003"
+           },
+           {
+            "dataSource": "WHO",
+            "id": "0210"
+           }
+          ]
+         },
+         {
+          "offset": 204,
+          "length": 10,
+          "text": "1999-05-04",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 248,
+          "length": 10,
+          "text": "1981-03-10",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 261,
+          "length": 1,
+          "text": "M",
+          "category": "Gender",
+          "confidenceScore": 0.89,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 265,
+          "length": 10,
+          "text": "2021-09-01",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 359,
+          "length": 10,
+          "text": "1981-03-10",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 372,
+          "length": 1,
+          "text": "M",
+          "category": "Gender",
+          "confidenceScore": 0.96,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 376,
+          "length": 10,
+          "text": "2021-09-01",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 402,
+          "length": 9,
+          "text": "Ibuprofen",
+          "category": "MedicationName",
+          "confidenceScore": 1.0,
+          "assertion": {
+           "certainty": "negative",
+           "conditionality": "conditional"
+          },
+          "name": "ibuprofen",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0020740"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000019879"
+           },
+           {
+            "dataSource": "ATC",
+            "id": "M01AE01"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0046165"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000006519"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "2270-2077"
+           },
+           {
+            "dataSource": "DRUGBANK",
+            "id": "DB01050"
+           },
+           {
+            "dataSource": "GS",
+            "id": "1611"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh97005926"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LP16165-0"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "40458"
+           },
+           {
+            "dataSource": "MMSL",
+            "id": "d00015"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D007052"
+           },
+           {
+            "dataSource": "MTHSPL",
+            "id": "WK2XYI10QM"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C561"
+           },
+           {
+            "dataSource": "NDDF",
+            "id": "002377"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000040475"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "x02MO"
+           },
+           {
+            "dataSource": "RXNORM",
+            "id": "5640"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "E-7772"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "C-603C0"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "387207008"
+           },
+           {
+            "dataSource": "USP",
+            "id": "m39860"
+           },
+           {
+            "dataSource": "USPMG",
+            "id": "MTHU000060"
+           },
+           {
+            "dataSource": "VANDF",
+            "id": "4017840"
+           }
+          ]
+         },
+         {
+          "offset": 414,
+          "length": 6,
+          "text": "200 mg",
+          "category": "Dosage",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 423,
+          "length": 9,
+          "text": "as needed",
+          "category": "Frequency",
+          "confidenceScore": 0.95
+         },
+         {
+          "offset": 435,
+          "length": 12,
+          "text": "Discontinued",
+          "category": "Course",
+          "confidenceScore": 0.84
+         },
+         {
+          "offset": 450,
+          "length": 10,
+          "text": "2019-05-26",
+          "category": "Date",
+          "confidenceScore": 1.0
+         }
+        ],
+        "relations": [
+         {
+          "confidenceScore": 1.0,
+          "relationType": "DosageOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/2/entities/16",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/2/entities/17",
+            "role": "Dosage"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "FrequencyOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/2/entities/16",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/2/entities/18",
+            "role": "Frequency"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "CourseOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/2/entities/16",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/2/entities/19",
+            "role": "Course"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 0.67,
+          "relationType": "TimeOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/2/entities/16",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/2/entities/20",
+            "role": "Time"
+           }
+          ]
+         }
+        ],
+        "warnings": []
+       },
+       {
+        "id": "P014_B",
+        "entities": [
+         {
+          "offset": 29,
+          "length": 25,
+          "text": "Medical Outpatient Clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.96
+         },
+         {
+          "offset": 114,
+          "length": 13,
+          "text": "10 March 1981",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 136,
+          "length": 5,
+          "text": "visit",
+          "category": "AdministrativeEvent",
+          "confidenceScore": 0.81
+         },
+         {
+          "offset": 143,
+          "length": 11,
+          "text": "14 May 2019",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 186,
+          "length": 11,
+          "text": "38-year-old",
+          "category": "Age",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 198,
+          "length": 3,
+          "text": "man",
+          "category": "Gender",
+          "confidenceScore": 0.99,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 209,
+          "length": 14,
+          "text": "medical clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 224,
+          "length": 5,
+          "text": "today",
+          "category": "Time",
+          "confidenceScore": 0.92
+         },
+         {
+          "offset": 251,
+          "length": 12,
+          "text": "hypertension",
+          "category": "Diagnosis",
+          "confidenceScore": 0.99,
+          "name": "Hypertensive disease",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0020538"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000023317"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00001"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "1017493"
+           },
+           {
+            "dataSource": "CCS",
+            "id": "7.1"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000015800"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "397"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "0571-5243"
+           },
+           {
+            "dataSource": "CST",
+            "id": "HYPERTENS"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U002034"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0000822"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "I10"
+           },
+           {
+            "dataSource": "ICD9CM",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "ICPC2ICD10ENG",
+            "id": "MTHU035456"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "K85004"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002317"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85063723"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LA14293-7"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10020772"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "33288"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "34"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D006973"
+           },
+           {
+            "dataSource": "MTH",
+            "id": "005"
+           },
+           {
+            "dataSource": "MTHICD9",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "NANDA-I",
+            "id": "00905"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C3117"
+           },
+           {
+            "dataSource": "NOC",
+            "id": "060808"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU002068"
+           },
+           {
+            "dataSource": "PCDS",
+            "id": "PRB_11000.06"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000686951"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "23830"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "XE0Ub"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "F-70700"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D3-02000"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "38341003"
+           },
+           {
+            "dataSource": "WHO",
+            "id": "0210"
+           }
+          ]
+         },
+         {
+          "offset": 273,
+          "length": 18,
+          "text": "no known allergies",
+          "category": "Diagnosis",
+          "confidenceScore": 0.97,
+          "name": "No known allergy",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0262580"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "U000454"
+           },
+           {
+            "dataSource": "ICNP",
+            "id": "716186003"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C167417"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "716186003"
+           }
+          ]
+         },
+         {
+          "offset": 297,
+          "length": 9,
+          "text": "continues",
+          "category": "Course",
+          "confidenceScore": 0.55
+         },
+         {
+          "offset": 310,
+          "length": 9,
+          "text": "ibuprofen",
+          "category": "MedicationName",
+          "confidenceScore": 1.0,
+          "name": "ibuprofen",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0020740"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000019879"
+           },
+           {
+            "dataSource": "ATC",
+            "id": "M01AE01"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "0046165"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000006519"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "2270-2077"
+           },
+           {
+            "dataSource": "DRUGBANK",
+            "id": "DB01050"
+           },
+           {
+            "dataSource": "GS",
+            "id": "1611"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh97005926"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LP16165-0"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "40458"
+           },
+           {
+            "dataSource": "MMSL",
+            "id": "d00015"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D007052"
+           },
+           {
+            "dataSource": "MTHSPL",
+            "id": "WK2XYI10QM"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C561"
+           },
+           {
+            "dataSource": "NDDF",
+            "id": "002377"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000040475"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "x02MO"
+           },
+           {
+            "dataSource": "RXNORM",
+            "id": "5640"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "E-7772"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "C-603C0"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "387207008"
+           },
+           {
+            "dataSource": "USP",
+            "id": "m39860"
+           },
+           {
+            "dataSource": "USPMG",
+            "id": "MTHU000060"
+           },
+           {
+            "dataSource": "VANDF",
+            "id": "4017840"
+           }
+          ]
+         },
+         {
+          "offset": 320,
+          "length": 6,
+          "text": "200 mg",
+          "category": "Dosage",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 327,
+          "length": 11,
+          "text": "when needed",
+          "category": "Frequency",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 344,
+          "length": 8,
+          "text": "naproxen",
+          "category": "MedicationName",
+          "confidenceScore": 1.0,
+          "assertion": {
+           "certainty": "negative"
+          },
+          "name": "naproxen",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0027396"
+           },
+           {
+            "dataSource": "ATC",
+            "id": "G02CC02"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000008483"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "4001-0089"
+           },
+           {
+            "dataSource": "DRUGBANK",
+            "id": "DB00788"
+           },
+           {
+            "dataSource": "GS",
+            "id": "2014"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U003120"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85089785"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LP16215-3"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "40460"
+           },
+           {
+            "dataSource": "MMSL",
+            "id": "d00019"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D009288"
+           },
+           {
+            "dataSource": "MTHSPL",
+            "id": "57Y76R9ATQ"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C680"
+           },
+           {
+            "dataSource": "NDDF",
+            "id": "002380"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000040222"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "j2c.."
+           },
+           {
+            "dataSource": "RXNORM",
+            "id": "7258"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "E-7772"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "C-60410"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "372588000"
+           },
+           {
+            "dataSource": "USP",
+            "id": "m55760"
+           },
+           {
+            "dataSource": "USPMG",
+            "id": "MTHU000071"
+           },
+           {
+            "dataSource": "VANDF",
+            "id": "4018847"
+           }
+          ]
+         },
+         {
+          "offset": 357,
+          "length": 7,
+          "text": "stopped",
+          "category": "Course",
+          "confidenceScore": 0.97
+         },
+         {
+          "offset": 368,
+          "length": 13,
+          "text": "29 March 2018",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 401,
+          "length": 5,
+          "text": "today",
+          "category": "Time",
+          "confidenceScore": 0.98
+         },
+         {
+          "offset": 418,
+          "length": 6,
+          "text": "clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.99
+         },
+         {
+          "offset": 425,
+          "length": 15,
+          "text": "in three months",
+          "category": "Time",
+          "confidenceScore": 0.86
+         },
+         {
+          "offset": 460,
+          "length": 25,
+          "text": "Medical Outpatient Clinic",
+          "category": "CareEnvironment",
+          "confidenceScore": 0.96
+         }
+        ],
+        "relations": [
+         {
+          "confidenceScore": 0.99,
+          "relationType": "TimeOfEvent",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/2",
+            "role": "Event"
+           },
+           {
+            "ref": "#/results/documents/3/entities/3",
+            "role": "Time"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "CourseOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/10",
+            "role": "Course"
+           },
+           {
+            "ref": "#/results/documents/3/entities/11",
+            "role": "Medication"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "DosageOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/11",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/3/entities/12",
+            "role": "Dosage"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "FrequencyOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/11",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/3/entities/13",
+            "role": "Frequency"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "CourseOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/14",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/3/entities/15",
+            "role": "Course"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "TimeOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/3/entities/14",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/3/entities/16",
+            "role": "Time"
+           }
+          ]
+         }
+        ],
+        "warnings": []
+       },
+       {
+        "id": "P014_C",
+        "entities": [
+         {
+          "offset": 227,
+          "length": 11,
+          "text": "10-Mar-1981",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 247,
+          "length": 1,
+          "text": "M",
+          "category": "Gender",
+          "confidenceScore": 1.0,
+          "name": "Male population group",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0025266"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000026918"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000007919"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002897"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85083510"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "HT24"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D008571"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C14366"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "30625"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "339947000"
+           }
+          ]
+         },
+         {
+          "offset": 260,
+          "length": 11,
+          "text": "29-Oct-2021",
+          "category": "Date",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 346,
+          "length": 3,
+          "text": "NKA",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "No known allergy",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0262580"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "U000454"
+           },
+           {
+            "dataSource": "ICNP",
+            "id": "716186003"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C167417"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "716186003"
+           }
+          ]
+         },
+         {
+          "offset": 370,
+          "length": 12,
+          "text": "Hypertension",
+          "category": "Diagnosis",
+          "confidenceScore": 1.0,
+          "name": "Hypertensive disease",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0020538"
+           },
+           {
+            "dataSource": "AOD",
+            "id": "0000023317"
+           },
+           {
+            "dataSource": "BI",
+            "id": "BI00001"
+           },
+           {
+            "dataSource": "CCPSS",
+            "id": "1017493"
+           },
+           {
+            "dataSource": "CCS",
+            "id": "7.1"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000015800"
+           },
+           {
+            "dataSource": "COSTAR",
+            "id": "397"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "0571-5243"
+           },
+           {
+            "dataSource": "CST",
+            "id": "HYPERTENS"
+           },
+           {
+            "dataSource": "DXP",
+            "id": "U002034"
+           },
+           {
+            "dataSource": "HPO",
+            "id": "HP:0000822"
+           },
+           {
+            "dataSource": "ICD10",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10AM",
+            "id": "I10-I15.9"
+           },
+           {
+            "dataSource": "ICD10CM",
+            "id": "I10"
+           },
+           {
+            "dataSource": "ICD9CM",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "ICPC2ICD10ENG",
+            "id": "MTHU035456"
+           },
+           {
+            "dataSource": "ICPC2P",
+            "id": "K85004"
+           },
+           {
+            "dataSource": "LCH",
+            "id": "U002317"
+           },
+           {
+            "dataSource": "LCH_NW",
+            "id": "sh85063723"
+           },
+           {
+            "dataSource": "LNC",
+            "id": "LA14293-7"
+           },
+           {
+            "dataSource": "MDR",
+            "id": "10020772"
+           },
+           {
+            "dataSource": "MEDCIN",
+            "id": "33288"
+           },
+           {
+            "dataSource": "MEDLINEPLUS",
+            "id": "34"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D006973"
+           },
+           {
+            "dataSource": "MTH",
+            "id": "005"
+           },
+           {
+            "dataSource": "MTHICD9",
+            "id": "997.91"
+           },
+           {
+            "dataSource": "NANDA-I",
+            "id": "00905"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C3117"
+           },
+           {
+            "dataSource": "NOC",
+            "id": "060808"
+           },
+           {
+            "dataSource": "OMIM",
+            "id": "MTHU002068"
+           },
+           {
+            "dataSource": "PCDS",
+            "id": "PRB_11000.06"
+           },
+           {
+            "dataSource": "PDQ",
+            "id": "CDR0000686951"
+           },
+           {
+            "dataSource": "PSY",
+            "id": "23830"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "XE0Ub"
+           },
+           {
+            "dataSource": "SNM",
+            "id": "F-70700"
+           },
+           {
+            "dataSource": "SNMI",
+            "id": "D3-02000"
+           },
+           {
+            "dataSource": "SNOMEDCT_US",
+            "id": "38341003"
+           },
+           {
+            "dataSource": "WHO",
+            "id": "0210"
+           }
+          ]
+         },
+         {
+          "offset": 411,
+          "length": 7,
+          "text": "Norvasc",
+          "category": "MedicationName",
+          "confidenceScore": 1.0,
+          "name": "Norvasc",
+          "links": [
+           {
+            "dataSource": "UMLS",
+            "id": "C0162712"
+           },
+           {
+            "dataSource": "CHV",
+            "id": "0000017957"
+           },
+           {
+            "dataSource": "CSP",
+            "id": "4008-0003"
+           },
+           {
+            "dataSource": "MMSL",
+            "id": "2698"
+           },
+           {
+            "dataSource": "MSH",
+            "id": "D017311"
+           },
+           {
+            "dataSource": "NCI",
+            "id": "C28820"
+           },
+           {
+            "dataSource": "RCD",
+            "id": "x02fz"
+           },
+           {
+            "dataSource": "RXNORM",
+            "id": "58927"
+           }
+          ]
+         },
+         {
+          "offset": 419,
+          "length": 6,
+          "text": "2.5 mg",
+          "category": "Dosage",
+          "confidenceScore": 1.0
+         },
+         {
+          "offset": 426,
+          "length": 2,
+          "text": "OD",
+          "category": "MedicationRoute",
+          "confidenceScore": 0.99
+         }
+        ],
+        "relations": [
+         {
+          "confidenceScore": 1.0,
+          "relationType": "DosageOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/4/entities/5",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/4/entities/6",
+            "role": "Dosage"
+           }
+          ]
+         },
+         {
+          "confidenceScore": 1.0,
+          "relationType": "RouteOfMedication",
+          "entities": [
+           {
+            "ref": "#/results/documents/4/entities/5",
+            "role": "Medication"
+           },
+           {
+            "ref": "#/results/documents/4/entities/7",
+            "role": "Route"
+           }
+          ]
+         }
+        ],
+        "warnings": []
+       }
+      ],
+      "errors": [],
+      "modelVersion": "2023-12-01"
+     }
+    }
+   ]
+  }
+ }
+}

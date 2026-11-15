@@ -1,0 +1,16 @@
+{
+  "task": "T76",
+  "api_version": "2023-04-01",
+  "model_versions": [
+    "2023-12-01"
+  ],
+  "patients": 21,
+  "documents": 63,
+  "characters": 42603,
+  "text_records": 68,
+  "documents_sent_this_run": 0,
+  "http_calls_this_run": 0,
+  "facts_stacked": 237,
+  "items_with_no_name_in_our_lists": 10,
+  "http_calls_all_runs": 0
+}

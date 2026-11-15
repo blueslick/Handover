@@ -1,0 +1,238 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure",
+  "patient_id": "P016",
+  "run_id": null,
+  "built_from": [
+    "P016_A.csv",
+    "P016_B.txt",
+    "P016_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P016-F01",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Furosemide",
+      "dose": "40 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P016,\"Carroll, Lenard\",1964-05-04,M,2021-11-08,MEDICATION,Furosemide,40 mg,once daily,Active,2021-11-08,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P016,\"Carroll, Lenard\",1964-05-04,M,2021-11-08,MEDICATION,Furosemide,40 mg,once daily,Active,2021-11-08,",
+          "file": "P016_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F02",
+      "patient_id": "P016",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "P016,\"Carroll, Lenard\",1964-05-04,M,2021-11-08,ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "P016,\"Carroll, Lenard\",1964-05-04,M,2021-11-08,ALLERGY,No known allergies,,,,,",
+          "file": "P016_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F03",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "furosemide",
+      "dose": "40 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-17",
+      "quote": "He is on furosemide 40 mg once a day. He is on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He is on furosemide 40 mg once a day. He is on hydrochlorothiazide 25 mg once a day.",
+          "file": "P016_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F04",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-07-17",
+      "quote": "He is on furosemide 40 mg once a day. He is on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He is on furosemide 40 mg once a day. He is on hydrochlorothiazide 25 mg once a day.",
+          "file": "P016_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F05",
+      "patient_id": "P016",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-07-17",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He has no known allergies.",
+          "file": "P016_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F06",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": "20 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-03-03",
+      "quote": "1. Lasix 20 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-03",
+          "quote": "1. Lasix 20 mg OD",
+          "file": "P016_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F07",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-03-03",
+      "quote": "2. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-03",
+          "quote": "2. Hydrodiuril 25 mg OD",
+          "file": "P016_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F08",
+      "patient_id": "P016",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2021-03-03",
+      "quote": "1. Nurofen - stopped 31-Aug-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-03",
+          "quote": "1. Nurofen - stopped 31-Aug-2017",
+          "file": "P016_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P016-F09",
+      "patient_id": "P016",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-03-03",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-03",
+          "quote": "- NKA",
+          "file": "P016_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure_rules",
+  "patient_id": "P020",
+  "run_id": null,
+  "built_from": [
+    "P020_A.csv",
+    "P020_B.txt",
+    "P020_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P020-F01",
+      "patient_id": "P020",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-21",
+          "quote": "P020,\"Heidenreich, Laurena\",1960-01-21,F,2021-02-21,ALLERGY,No known allergies,,,,,",
+          "file": "P020_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She has no known allergies.",
+          "file": "P020_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- NKA",
+          "file": "P020_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P020-F02",
+      "patient_id": "P020",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "1. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "1. Zocor 10 mg ON",
+          "file": "P020_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": null,
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She continues on simvastatin 5 mg at night."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P020-F03",
+      "patient_id": "P020",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-02-21",
+      "quote": "P020,\"Heidenreich, Laurena\",1960-01-21,F,2021-02-21,MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-21",
+          "quote": "P020,\"Heidenreich, Laurena\",1960-01-21,F,2021-02-21,MEDICATION,No current medications,,,,,",
+          "file": "P020_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

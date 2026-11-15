@@ -1,0 +1,111 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_azure_rules",
+  "patient_id": "P010",
+  "run_id": null,
+  "built_from": [
+    "P010_A.csv",
+    "P010_B.txt",
+    "P010_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P010-F01",
+      "patient_id": "P010",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-07-04",
+          "quote": "P010,\"Kovacek, Alexander\",1977-12-09,M,2018-07-04,ALLERGY,No known allergies,,,,,",
+          "file": "P010_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "He has no known allergies.",
+          "file": "P010_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- NKA",
+          "file": "P010_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P010-F02",
+      "patient_id": "P010",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "1. Hydrodiuril 25 mg OD",
+          "file": "P010_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": null,
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "He takes hydrochlorothiazide 12.5 mg once a day. His ibuprofen was stopped on 8 July 2018."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P010-F03",
+      "patient_id": "P010",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-07-19",
+      "quote": "He takes hydrochlorothiazide 12.5 mg once a day. His ibuprofen was stopped on 8 July 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-19",
+          "quote": "He takes hydrochlorothiazide 12.5 mg once a day. His ibuprofen was stopped on 8 July 2018.",
+          "file": "P010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}
