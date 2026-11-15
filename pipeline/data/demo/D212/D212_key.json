@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D212",
+  "run_id": null,
+  "built_from": [
+    "D212_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D212-F01",
+      "patient_id": "D212",
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": "81 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D212_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D212-F02",
+      "patient_id": "D212",
+      "type": "medicine",
+      "name": "insulin isophane",
+      "name_as_written": "Humulin N. Insulin",
+      "dose": "50 units",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D212_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D212-F03",
+      "patient_id": "D212",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "HCTZ",
+      "dose": "50 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D212_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D212-F04",
+      "patient_id": "D212",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D212_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D212-F05",
+      "patient_id": "D212",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D212_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D208",
+  "run_id": null,
+  "built_from": [
+    "D208_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D208-F01",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "Asprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F02",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "potassium chloride",
+      "name_as_written": "Potassium chloride",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F03",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F04",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "levothyroxine",
+      "name_as_written": "Levothyroxine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F05",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F06",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "amiodarone",
+      "name_as_written": "Pacerone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F07",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "pantoprazole",
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F08",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "metoprolol",
+      "name_as_written": "Toprol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F09",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "vitamin b",
+      "name_as_written": "Vitamin B",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F10",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "ezetimibe",
+      "name_as_written": "Zetia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D208-F11",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "cetirizine",
+      "name_as_written": "Zyrtec",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

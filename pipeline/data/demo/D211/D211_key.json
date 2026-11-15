@@ -1,0 +1,142 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D211",
+  "run_id": null,
+  "built_from": [
+    "D211_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D211-F01",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": "lovastatin",
+      "name_as_written": "Lovastatin",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D211-F02",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": "propranolol",
+      "name_as_written": "Propranolol",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D211-F03",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": "pantoprazole",
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D211-F04",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": "tamsulosin",
+      "name_as_written": "Flomax",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D211-F05",
+      "patient_id": "D211",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "None",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

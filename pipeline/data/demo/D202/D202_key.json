@@ -1,0 +1,340 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D202",
+  "run_id": null,
+  "built_from": [
+    "D202_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D202-F01",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "perocet",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D202-F02",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "cephalexin",
+      "name_as_written": "keflex",
+      "dose": "500 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F03",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "clonidine",
+      "name_as_written": "clonidine",
+      "dose": "0.2 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F04",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "conjugated estrogens / medroxyprogesterone",
+      "name_as_written": "prempro",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D202-F05",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "diclofenac",
+      "name_as_written": "diclofenac",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F06",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "enalapril",
+      "name_as_written": "enalapril",
+      "dose": "10 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F07",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "glimepiride",
+      "name_as_written": "Amaryl",
+      "dose": "2 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F08",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F09",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Glucophage",
+      "dose": "100 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F10",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "nifedipine",
+      "name_as_written": "Nifedipine extended release",
+      "dose": "60 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F11",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "omeprazole",
+      "name_as_written": "Omeprazole",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F12",
+      "patient_id": "D202",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D202-F13",
+      "patient_id": "D202",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D202_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

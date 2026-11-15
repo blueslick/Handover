@@ -1,0 +1,89 @@
+Note,Type,Name as written,Generic name,Dose,How often,Status,Reaction,Notes,Labelled by
+M001,medicine,analgesics,,,,stopped,,,Daniel
+M001,medicine,klonopin ,clonazepam,,,stopped,,,Daniel
+M001,medicine,lithium ,lithium,,,stopped,,,Daniel
+M001,medicine,codeine ,codeine,,,stopped,,,Daniel
+M001,medicine,clonidine ,clonidine,,,planned,,,Daniel
+M001,medicine,phenergan ,promethazine,,,planned,,,Daniel
+M002,medicine,perocet ,paracetamol / oxycodone,,as_needed,current,,,Daniel
+M002,medicine,keflex,cephalexin,500mg,three_times_daily,current,,,Daniel
+M002,medicine,clonidine ,clonidine,0.2mg,twice_daily,current,,,Daniel
+M002,medicine,prempro,conjugated estrogens / medroxyprogesterone,,,current,,,Daniel
+M002,medicine,diclofenac,diclofenac,75mg,daily,current,,,Daniel
+M002,medicine,enalapril,enalapril,10mg,twice_daily,current,,,Daniel
+M002,medicine,Amaryl ,glimepiride,2mg,daily,current,,,Daniel
+M002,medicine,Hydrochlorothiazide ,hydrochlorothiazide,25mg,daily,current,,,Daniel
+M002,medicine,Glucophage ,metformin,100mg,twice_daily,current,,,Daniel
+M002,medicine,Nifedipine extended release ,nifedipine,60mg,twice_daily,current,,,Daniel
+M002,medicine,Omeprazole ,omeprazole,20mg,daily,current,,,Daniel
+M002,medicine,Zocor ,simvastatin,20mg,at_night,current,,,Daniel
+M004,medicine,Lorazepam,lorazepam,0.5mg,,current,,,Daniel
+M004,medicine,Tylenol PM,paracetamol / diphenhydramine,,,current,,"Came with ""PM"" unit - unsure what that refers to ",Daniel
+M004,medicine,Klor-Con,potassium chloride,10 mEq,,current,,unsure what mEq means,Daniel
+M004,medicine,Lexapro,escitalopram,,,current,,,Daniel
+M004,medicine,calcium with vitamin D,calcium / vitamin d,,,current,,,Daniel
+M004,allergy,Penicillin,penicillin,,,current,,,Daniel
+M004,medicine,morphine,morphine,,,planned,,,Daniel
+M004,medicine,zofran,ondansetron,,,planned,,,Daniel
+M004,medicine,sliding scale insulin ,insulin,,,planned,,Unsure if sliding scale Insluin is a medication ,Daniel
+M004,medicine,Lasix ,furosemide,,,planned,,,Daniel
+M005,medicine,Colestid ,colestipol,1g ,daily,current,,,Daniel
+M005,medicine,Actos ,pioglitazone,30mg,daily,current,,,Daniel
+M005,medicine,Amaryl ,glimepiride,2mg ,daily,current,,,Daniel
+M005,medicine,Soma ,carisoprodol,,,current,,,Daniel
+M005,medicine,meloxicam,meloxicam,,,current,,,Daniel
+M005,allergy,caffeine,caffeine,,,side_effect,tachycardic ,,Daniel
+M005,allergy,sudafed,pseudoephedrine,,,side_effect,tachycardic ,,Daniel
+M005,allergy,phenylpropanolmine ,phenylpropanolamine,,,side_effect,tachycardic ,,Daniel
+M006,medicine,bacitracin ,bacitracin,,,current,,,Daniel
+M006,medicine,Bactrim ,co-trimoxazole,,,planned,,"""we should treat for MRSA with Bactrim p.o"" - unsure what p.o is ",Daniel
+M006,medicine,Hibiclens,chlorhexidine,,,planned,,Unsure if (1) these are medications (2) patient is intended to consume them,Daniel
+M006,medicine,Bactroban ,mupirocin,,,planned,,"Unsure if (1) these are medications (2) patient is intended to consume them
+",Daniel
+M007,medicine,Atrovent ,ipratropium,,,current,,,Daniel
+M007,medicine,albuterol nebulizers,salbutamol,,,current,,,Daniel
+M007,medicine,Azithromycin,azithromycin,,,current,,,Daniel
+M007,medicine,Potassium chloride ,potassium chloride,10mEq,,current,,Unsure what mEq means ,Daniel
+M007,medicine,Furosemide,furosemide,20mg,four_times_daily,current,,,Daniel
+M007,medicine,Enoxaparin ,enoxaparin,40mg,daily,current,,,Daniel
+M007,medicine,Ceftriaxone ,ceftriaxone,,,current,,,Daniel
+M007,medicine,Lisinopril ,lisinopril,10mg,daily,current,,Unsure what p.o means ,Daniel
+M008,medicine,Asprin,aspirin,,,current,,,Daniel
+M008,medicine,Potassium chloride ,potassium chloride,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Lasix ,furosemide,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Levothyroxine,levothyroxine,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Lisinopril ,lisinopril,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Pacerone,amiodarone,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Protonix,pantoprazole,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Toprol,metoprolol,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Vitamin B,vitamin b,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Zetia,ezetimibe,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M008,medicine,Zyrtec ,cetirizine,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M009,medicine,insulin ,insulin,70 units / 6 units times 4 years ,,current,,Unsure what the units refer to ,Daniel
+M009,medicine,aspirin,aspirin,81mg,,current,,,Daniel
+M009,medicine,actos ,pioglitazone,15mg,,current,,,Daniel
+M009,medicine,Crestor,rosuvastatin,10mg,,current,,,Daniel
+M009,medicine,CellCept,mycophenolate mofetil,500mg,twice_daily,current,,,Daniel
+M010,medicine,IV Flagyl ,metronidazole,,,planned,,Unsure if IV Flagyl is a procedure or medication ,Daniel
+M010,medicine,vancomycin,vancomycin,,,planned,,Usure what p.o means ,Daniel
+M010,medicine,Florastor ,saccharomyces boulardii,,,planned,,,Daniel
+M011,medicine,Pain medications ,,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M011,medicine,Thyroid supplementation ,,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M011,medicine,Lovastatin ,lovastatin,20mg ,daily,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M011,medicine,Propranolol ,propranolol,20,twice_daily,current,,"no unit, Current or planned was unspecified, assumed current   ",Daniel
+M011,medicine,Protonix ,pantoprazole,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M011,medicine,Flomax ,tamsulosin,,,current,,"Current or planned was unspecified, assumed current  ",Daniel
+M012,medicine,aspirin ,aspirin,81mg,daily,current,,,Daniel
+M012,medicine,Humulin N. Insulin ,insulin isophane,50 units,daily,current,,"""Humulin N. insulin 50 units in a.m"" - unsure if they are 2 separate drugs, also unsure of units  ",Daniel
+M012,medicine,HCTZ,hydrochlorothiazide,50mg ,daily,current,,,Daniel
+M012,medicine,Nitroglycerin ,nitroglycerin,,as_needed,current,,Unsure what 1/150 means ,Daniel
+M012,allergy,Penicillin,penicillin,,,current,,,Daniel
+M001,allergy,NONE,,,,none_recorded,,From 'ALLERGIES: NONE.' (row added by Claude at Daniel's request),Daniel
+M002,allergy,No known allergies,,,,none_recorded,,From 'ALLERGIES: No known allergies.' (row added by Claude at Daniel's request),Daniel
+M003,allergy,no known medical allergies,,,,none_recorded,,From 'ALLERGIES: She has no known medical allergies.' (row added by Claude at Daniel's request),Daniel
+M007,allergy,No known drug allergies,,,,none_recorded,,From 'ALLERGIES: No known drug allergies.' (row added by Claude at Daniel's request),Daniel
+M009,allergy,no known drug allergies,,,,none_recorded,,From 'ALLERGIES: She has no known drug allergies.' (row added by Claude at Daniel's request),Daniel
+M010,allergy,NO KNOWN DRUG ALLERGIES,,,,none_recorded,,From 'ALLERGIES: NO KNOWN DRUG ALLERGIES.' (row added by Claude at Daniel's request),Daniel
+M011,allergy,None,,,,none_recorded,,From 'ALLERGIES: None.' (row added by Claude at Daniel's request),Daniel
+M005,allergy,no allergies,,,,none_recorded,,From 'She has no allergies; however...' (row added by Claude at Daniel's request; tricky-case rule),Daniel
+M006,allergy,allergies,,,,none_recorded,,"From 'No hospitalization, surgeries, allergies.' (row added by Claude at Daniel's request)",Daniel

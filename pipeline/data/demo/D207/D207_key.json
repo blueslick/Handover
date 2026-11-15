@@ -1,0 +1,246 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D207",
+  "run_id": null,
+  "built_from": [
+    "D207_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D207-F01",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "ipratropium",
+      "name_as_written": "Atrovent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D207-F02",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "albuterol nebulizers",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D207-F03",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "azithromycin",
+      "name_as_written": "Azithromycin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D207-F04",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "potassium chloride",
+      "name_as_written": "Potassium chloride",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D207-F05",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Furosemide",
+      "dose": "20 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D207-F06",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "enoxaparin",
+      "name_as_written": "Enoxaparin",
+      "dose": "40 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D207-F07",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "ceftriaxone",
+      "name_as_written": "Ceftriaxone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D207-F08",
+      "patient_id": "D207",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D207-F09",
+      "patient_id": "D207",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known drug allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D207_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

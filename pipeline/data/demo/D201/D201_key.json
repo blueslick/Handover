@@ -1,0 +1,161 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D201",
+  "run_id": null,
+  "built_from": [
+    "D201_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D201-F01",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "clonazepam",
+      "name_as_written": "klonopin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D201-F02",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "lithium",
+      "name_as_written": "lithium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D201-F03",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "codeine",
+      "name_as_written": "codeine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D201-F04",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "clonidine",
+      "name_as_written": "clonidine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D201-F05",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "promethazine",
+      "name_as_written": "phenergan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D201-F06",
+      "patient_id": "D201",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NONE",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

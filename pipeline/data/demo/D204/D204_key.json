@@ -1,0 +1,269 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D204",
+  "run_id": null,
+  "built_from": [
+    "D204_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D204-F01",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "lorazepam",
+      "name_as_written": "Lorazepam",
+      "dose": "0.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D204-F02",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "paracetamol / diphenhydramine",
+      "name_as_written": "Tylenol PM",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D204-F03",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "potassium chloride",
+      "name_as_written": "Klor-Con",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D204-F04",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "escitalopram",
+      "name_as_written": "Lexapro",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D204-F05",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "calcium / vitamin d",
+      "name_as_written": "calcium with vitamin D",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D204-F06",
+      "patient_id": "D204",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D204-F07",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "morphine",
+      "name_as_written": "morphine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D204-F08",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "ondansetron",
+      "name_as_written": "zofran",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D204-F09",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "insulin",
+      "name_as_written": "sliding scale insulin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D204-F10",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D210",
+  "run_id": null,
+  "built_from": [
+    "D210_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D210-F01",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": "metronidazole",
+      "name_as_written": "IV Flagyl",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D210-F02",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": "vancomycin",
+      "name_as_written": "vancomycin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D210-F03",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": "saccharomyces boulardii",
+      "name_as_written": "Florastor",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D210-F04",
+      "patient_id": "D210",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NO KNOWN DRUG ALLERGIES",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

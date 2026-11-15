@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D206",
+  "run_id": null,
+  "built_from": [
+    "D206_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D206-F01",
+      "patient_id": "D206",
+      "type": "medicine",
+      "name": "bacitracin",
+      "name_as_written": "bacitracin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D206_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D206-F02",
+      "patient_id": "D206",
+      "type": "medicine",
+      "name": "co-trimoxazole",
+      "name_as_written": "Bactrim",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D206_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D206-F03",
+      "patient_id": "D206",
+      "type": "medicine",
+      "name": "chlorhexidine",
+      "name_as_written": "Hibiclens",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D206_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D206-F04",
+      "patient_id": "D206",
+      "type": "medicine",
+      "name": "mupirocin",
+      "name_as_written": "Bactroban",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D206_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D206-F05",
+      "patient_id": "D206",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D206_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

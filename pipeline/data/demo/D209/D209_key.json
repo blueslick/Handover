@@ -1,0 +1,163 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D209",
+  "run_id": null,
+  "built_from": [
+    "D209_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D209-F01",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "insulin",
+      "name_as_written": "insulin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "fact_id": "D209-F02",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": "81 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D209-F03",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "pioglitazone",
+      "name_as_written": "actos",
+      "dose": "15 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D209-F04",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "rosuvastatin",
+      "name_as_written": "Crestor",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D209-F05",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "mycophenolate mofetil",
+      "name_as_written": "CellCept",
+      "dose": "500 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    },
+    {
+      "fact_id": "D209-F06",
+      "patient_id": "D209",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known drug allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}

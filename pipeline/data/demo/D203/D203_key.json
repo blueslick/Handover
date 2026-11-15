@@ -1,0 +1,36 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D203",
+  "run_id": null,
+  "built_from": [
+    "D203_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D203-F01",
+      "patient_id": "D203",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known medical allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": null,
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": null,
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "conflict_group": null,
+      "flags": []
+    }
+  ]
+}
