@@ -65,7 +65,7 @@ The seven labels stay exactly as the plan listed them. Rather than add "resolved
 ## File wrappers
 
 - **Extracted** (`outputs/extracted/<run_id>/P001_A.json`): `patient_id`, `hospital`, `source_file`, `run_id`, `model`, `prompt_version`, `temperature` (`null`: Claude 5.5 models refuse the setting, T56), `settings` (optional, the model settings used, in words), `attempt` (1, or 2 for the one retry), `usage` (input and output tokens from the API response), `facts`.
-- **Compiled** (`outputs/compiled/<run_id>/P001.json`, also answer keys and baselines): `kind` (compiled, answer_key, baseline_keyword, baseline_medspacy), `patient_id`, `run_id` (`null` for answer keys and the hand-written sample), `built_from` (the record file names), `facts`.
+- **Compiled** (`outputs/compiled/<run_id>/P001.json`, also answer keys and baselines): `kind` (compiled, answer_key, baseline_keyword, baseline_medspacy, baseline_rules_row), `patient_id`, `run_id` (`null` for answer keys and the hand-written sample), `built_from` (the record file names), `facts`.
 
 ## Added beyond the plan's draft, so please check these on Sunday
 
