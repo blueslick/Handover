@@ -3,8 +3,11 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { CompiledRecord } from "./types";
 
-// Patient IDs that have a file in app/data/. Add an ID here when its file is added.
-export const SAMPLE_IDS = ["D001"];
+import publishedIndex from "../data/index.json";
+
+// Patient IDs the app may show: read from app/data/index.json, which
+// scripts/sync-data.mjs copies from outputs/published/ (T34). Not typed in by hand.
+export const SAMPLE_IDS: string[] = publishedIndex.patients.map((p) => p.patient_id);
 
 // Which record to show (T27): the tool's merged record, or the keyword baseline
 // for the same patient. File names in app/data/: <ID>_compiled.json and
