@@ -41,7 +41,7 @@ function details(fact: Fact): string {
   return parts.join(", ");
 }
 
-export default function FactCard({ fact }: { fact: Fact }) {
+export default function FactCard({ fact, idPrefix = "" }: { fact: Fact; idPrefix?: string }) {
   const detail = details(fact);
   const style = statusStyle(fact);
   // Other hospitals that state the same current value (the latest one is shown above).
@@ -50,7 +50,7 @@ export default function FactCard({ fact }: { fact: Fact }) {
   );
 
   return (
-    <article id={factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded p-4 flex-1 min-w-0 ${style.card}`}>
+    <article id={idPrefix + factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded p-4 flex-1 min-w-0 ${style.card}`}>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className={`text-lg font-semibold break-words ${style.struck ? "line-through decoration-2" : ""}`}>
           {headline(fact)}

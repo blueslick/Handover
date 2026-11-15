@@ -61,6 +61,14 @@ const FILE_SUFFIX: Record<View, string> = {
   baseline: "baseline_keyword",
 };
 
+// What the doctor screen shows: one of the two records, or both side by side (T68 item 21).
+export type PageView = View | "compare";
+
+export function parsePageView(raw: string | string[] | undefined): PageView {
+  const v = Array.isArray(raw) ? raw[0] : raw;
+  return v === "compare" ? "compare" : parseView(v);
+}
+
 // Reads the view from the address (?view=baseline). Anything else means Handover.
 export function parseView(raw: string | string[] | undefined): View {
   const v = Array.isArray(raw) ? raw[0] : raw;

@@ -4,7 +4,8 @@ import type { Fact } from "@/lib/types";
 import FactCard from "./FactCard";
 import { conflictAnchor } from "@/lib/banner";
 
-export default function FactList({ facts }: { facts: Fact[] }) {
+// idPrefix keeps page ids unique when two records share a page (Compare view, T68 item 21).
+export default function FactList({ facts, idPrefix = "" }: { facts: Fact[]; idPrefix?: string }) {
   // Walk the facts in order; the first fact of a group pulls in the rest of its group.
   const seenGroups = new Set<string>();
   const blocks: React.ReactNode[] = [];
@@ -17,7 +18,7 @@ export default function FactList({ facts }: { facts: Fact[] }) {
       blocks.push(
         <section
           key={fact.conflict_group}
-          id={conflictAnchor(fact.conflict_group)}
+          id={idPrefix + conflictAnchor(fact.conflict_group)}
           aria-label={`Hospitals disagree (${fact.conflict_group})`}
           className="scroll-mt-4 border-2 border-dashed border-amber-700 rounded p-3"
         >
@@ -26,13 +27,13 @@ export default function FactList({ facts }: { facts: Fact[] }) {
           </p>
           <div className="flex flex-col md:flex-row gap-3">
             {group.map((f) => (
-              <FactCard key={f.fact_id} fact={f} />
+              <FactCard key={f.fact_id} fact={f} idPrefix={idPrefix} />
             ))}
           </div>
         </section>,
       );
     } else {
-      blocks.push(<FactCard key={fact.fact_id} fact={fact} />);
+      blocks.push(<FactCard key={fact.fact_id} fact={fact} idPrefix={idPrefix} />);
     }
   }
 

@@ -2,12 +2,13 @@
 // Reads JSON from app/data/ only: no model calls, no key.
 import Link from "next/link";
 import { Suspense } from "react";
-import { isKnownId, liveRun, liveRuns, loadRecordState, parseView, SAMPLE_IDS, type LiveRun, type View } from "@/lib/records";
+import { isKnownId, liveRun, liveRuns, loadRecordState, parsePageView, SAMPLE_IDS, type LiveRun, type PageView, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
 import { loadOmission } from "@/lib/omission";
-import { isOlderNoMedicinesLine } from "@/lib/olderRecord";
+import { splitSections } from "@/lib/sections";
 import { formatDate, joinWords } from "@/lib/dates";
 import { summariseSources } from "@/lib/sourcesSummary";
+import CompareView from "./components/CompareView";
 import FactList from "./components/FactList";
 import OlderRecordNote from "./components/OlderRecordNote";
 import OmissionBox from "./components/OmissionBox";
@@ -90,15 +91,17 @@ type SearchParams = Promise<{ id?: string | string[]; view?: string | string[] }
 // The two-way switch (T27). Two links, so it works without JavaScript and the
 // address says which view is showing. The current choice is marked in words and
 // with a solid fill, not by colour alone.
-function ViewSwitch({ id, view }: { id: string; view: View }) {
-  const options: { value: View; label: string; href: string }[] = [
+function ViewSwitch({ id, view }: { id: string; view: PageView }) {
+  const options: { value: PageView; label: string; href: string }[] = [
     { value: "handover", label: "Handover (our tool)", href: `/?id=${encodeURIComponent(id)}` },
     { value: "baseline", label: "Baseline (keyword search)", href: `/?id=${encodeURIComponent(id)}&view=baseline` },
+    // T68 item 21: both records side by side.
+    { value: "compare", label: "Compare side by side", href: `/?id=${encodeURIComponent(id)}&view=compare` },
   ];
   return (
     <nav aria-label="Choose which record to show" className="mt-6">
       <p className="font-medium">Show:</p>
-      <ul className="mt-1 inline-flex border-2 border-zinc-800 rounded overflow-hidden">
+      <ul className="mt-1 inline-flex flex-wrap border-2 border-zinc-800 rounded overflow-hidden">
         {options.map((o) => {
           const current = o.value === view;
           return (
@@ -139,7 +142,9 @@ function BaselineNote() {
 async function Record({ searchParams }: { searchParams: SearchParams }) {
   const { id: rawId, view: rawView } = await searchParams;
   const typed = (Array.isArray(rawId) ? rawId[0] : rawId)?.trim() ?? "";
-  const view = parseView(rawView);
+  const pageView = parsePageView(rawView);
+  // Which file the single view reads (Compare reads both, below).
+  const view: View = pageView === "compare" ? "handover" : pageView;
 
   // T68 item 2: with no ID in the address, open the demo patient so the first
   // screen shows a record. If D001 is ever not published, use the first sample ID.
@@ -149,6 +154,27 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   }
 
   const load = await loadRecordState(id, view);
+
+  // T68 item 21: Compare view needs both records; if the baseline is missing, say so.
+  if (pageView === "compare" && load.state === "ok") {
+    const base = await loadRecordState(id, "baseline");
+    return (
+      <>
+        <ViewSwitch id={load.record.patient_id} view={pageView} />
+        <h2 className="mt-6 text-2xl font-semibold">
+          Patient {load.record.patient_id}<span className="font-normal">: Handover and baseline side by side</span>
+        </h2>
+        {base.state === "ok" ? (
+          <CompareView handover={load.record} baseline={base.record} />
+        ) : (
+          <div role="alert" className="mt-6 border-2 border-zinc-700 rounded p-4">
+            <p className="font-semibold">No baseline record to compare for “{id}”.</p>
+            <p className="mt-1">Switch back to Handover to see this patient&rsquo;s merged record.</p>
+          </div>
+        )}
+      </>
+    );
+  }
 
   // A known patient with no baseline file: keep the switch so the doctor can go back.
   if (view === "baseline" && load.state === "missing" && isKnownId(id)) {
@@ -188,13 +214,7 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
 
   const record = load.record;
   const facts = record.facts;
-  const ofType = (t: Fact["type"]) => facts.filter((f) => f.type === t);
-  // T67: in the Handover view, an older "no regular medicines" line moves to a greyed
-  // history box when a later record lists current medicines. The baseline view lists
-  // every line as found, so it is left alone.
-  const olderMeds =
-    view === "handover" ? ofType("medicine").filter((f) => isOlderNoMedicinesLine(f, facts)) : [];
-  const meds = ofType("medicine").filter((f) => !olderMeds.includes(f));
+  const { sections, olderMeds } = splitSections(facts, view);
   // Word-search hint (T64), Handover view only, and only from the same run as the record.
   const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
   const live = view === "handover" ? liveRun(record.patient_id) : undefined;
@@ -225,20 +245,13 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
       <div className="mt-4">
         <WarningBanner facts={facts} />
       </div>
-      <Section title="Allergies" facts={ofType("allergy")} />
-      <Section title="Current medicines" facts={meds.filter((f) => f.status === "current")} />
-      {/* T68 item 19: stopped medicines straight under current ones, with a plain warning heading. */}
-      <Section
-        title="Stopped medicines: do not continue without checking"
-        facts={meds.filter((f) => f.status === "stopped")}
-      />
-      <Section
-        title="Other medicines (planned, or none recorded)"
-        facts={meds.filter((f) => f.status !== "current" && f.status !== "stopped")}
-      />
+      {sections.slice(0, 4).map((sec) => (
+        <Section key={sec.title} title={sec.title} facts={sec.facts} />
+      ))}
       <OlderRecordNote facts={olderMeds} />
-      <Section title="Diagnoses" facts={ofType("diagnosis")} />
-      <Section title="Operations" facts={ofType("operation")} />
+      {sections.slice(4).map((sec) => (
+        <Section key={sec.title} title={sec.title} facts={sec.facts} />
+      ))}
       {omission && <OmissionBox load={omission} />}
     </div>
     </>
@@ -248,8 +261,8 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
 // Keeps the chosen view when a new ID is typed in. Its own small part so the
 // rest of the page can show before the address is read.
 async function KeepView({ searchParams }: { searchParams: SearchParams }) {
-  const view = parseView((await searchParams).view);
-  return view === "baseline" ? <input type="hidden" name="view" value="baseline" /> : null;
+  const view = parsePageView((await searchParams).view);
+  return view === "handover" ? null : <input type="hidden" name="view" value={view} />;
 }
 
 export default function Home({ searchParams }: { searchParams: SearchParams }) {
