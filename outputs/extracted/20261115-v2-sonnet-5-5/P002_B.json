@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P002",
+  "hospital": "B",
+  "source_file": "P002_B.txt",
+  "run_id": "20261115-v2-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2984,
+    "output_tokens": 298
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives and skin rash",
+      "status": "current",
+      "date": "2021-08-30",
+      "quote": "He is allergic to peanut, which causes hives and skin rash.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-30",
+      "quote": "He takes no regular medicines.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2019-02-08",
+      "quote": "His amoxicillin and clavulanate was stopped on 8 February 2019.",
+      "flags": []
+    }
+  ]
+}

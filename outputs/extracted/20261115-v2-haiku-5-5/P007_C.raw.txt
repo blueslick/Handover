@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"aspirin","name_as_written":"Disprin","dose":null,"frequency":null,"reaction":null,"status":"current","date":"2017-06-10","quote":"- Disprin"},{"type":"medicine","name":null,"name_as_written":"Jolivette","dose":"0.35 mg","frequency":"daily","reaction":null,"status":"current","date":"2017-06-10","quote":"1. Jolivette 0.35 mg OD"}]}

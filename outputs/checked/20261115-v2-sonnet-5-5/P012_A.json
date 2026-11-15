@@ -1,0 +1,200 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P012",
+  "hospital": "A",
+  "source_file": "P012_A.csv",
+  "run_id": "20261115-v2-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3763,
+    "output_tokens": 1654
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; hives",
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Animal dander,,,Active,1996-12-17,hay fever symptoms; hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; skin rash",
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Fish,,,Active,1996-12-17,hay fever symptoms; skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Grass pollen,,,Active,1996-12-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,House dust mite,,,Active,1996-12-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Mould,,,Active,1996-12-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "Co-trimoxazole",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Co-trimoxazole,,,Active,1996-12-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1996-12-17",
+      "quote": "ALLERGY,Tree pollen,,,Active,1996-12-17,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2014-03-01",
+      "quote": "PROBLEM,Hypertension,,,Active,2014-03-01,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-10,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Fentanyl",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Fentanyl,25 mcg,as a patch changed every 72 hours,Active,2021-04-10,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-04-10,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-08",
+      "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-08,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-10,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-04-10,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-10",
+      "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-10,",
+      "flags": []
+    }
+  ]
+}

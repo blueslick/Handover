@@ -1,0 +1,102 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P005",
+  "hospital": "A",
+  "source_file": "P005_A.csv",
+  "run_id": "20261115-v2-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3237,
+    "output_tokens": 746
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-10-14",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2007-08-05",
+      "quote": "PROBLEM,Anemia,,,Active,2007-08-05,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2007-08-05",
+      "quote": "PROBLEM,Prediabetes,,,Active,2007-08-05,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2017-07-20",
+      "quote": "PROBLEM,Polyp of colon,,,Active,2017-07-20,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "recurrent rectal polyp",
+      "name_as_written": "Recurrent rectal polyp",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-09-12",
+      "quote": "PROBLEM,Recurrent rectal polyp,,,Active,2018-09-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "oxaliplatin",
+      "name_as_written": "Oxaliplatin",
+      "dose": "50 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-10-22",
+      "quote": "MEDICATION,Oxaliplatin,50 mg,every 2 weeks,Active,2018-10-22,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "leucovorin",
+      "name_as_written": "Leucovorin",
+      "dose": "100 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-10-22",
+      "quote": "MEDICATION,Leucovorin,100 mg,every 2 weeks,Active,2018-10-22,",
+      "flags": []
+    }
+  ]
+}

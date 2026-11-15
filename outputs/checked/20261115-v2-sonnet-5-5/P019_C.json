@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P019",
+  "hospital": "C",
+  "source_file": "P019_C.txt",
+  "run_id": "20261115-v2-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3011,
+    "output_tokens": 370
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "Omnicef",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis",
+      "status": "current",
+      "date": "2021-08-01",
+      "quote": "- Omnicef (anaphylaxis)",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "cardiac arrest",
+      "name_as_written": "Cardiac Arrest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-01",
+      "quote": "- Cardiac Arrest",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "Osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-01",
+      "quote": "- Osteoarthritis of knee",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-01",
+      "quote": "Nil regular medications",
+      "flags": []
+    }
+  ]
+}

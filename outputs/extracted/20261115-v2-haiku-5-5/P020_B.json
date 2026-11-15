@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P020",
+  "hospital": "B",
+  "source_file": "P020_B.txt",
+  "run_id": "20261115-v2-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3004,
+    "output_tokens": 806
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-05",
+      "quote": "Her background includes miscarriage in first trimester.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "recurrent urinary tract infection",
+      "name_as_written": "recurrent urinary tract infection",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-05",
+      "quote": "She is known to have recurrent urinary tract infection.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-05",
+      "quote": "She is known to have hyperlipidemia.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-05",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "5 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-05",
+      "quote": "She continues on simvastatin 5 mg at night.",
+      "flags": []
+    }
+  ]
+}
