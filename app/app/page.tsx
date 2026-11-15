@@ -16,12 +16,12 @@ import OmissionBox from "./components/OmissionBox";
 import WarningBanner from "./components/WarningBanner";
 
 // A titled group of facts; renders nothing when empty.
-function Section({ title, facts }: { title: string; facts: Fact[] }) {
+function Section({ title, facts, foldQuotes = false }: { title: string; facts: Fact[]; foldQuotes?: boolean }) {
   if (facts.length === 0) return null;
   return (
     <section className="mt-6">
       <h2 className="text-xl font-semibold mb-2">{title}</h2>
-      <FactList facts={facts} />
+      <FactList facts={facts} foldQuotes={foldQuotes} />
     </section>
   );
 }
@@ -250,11 +250,11 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
         <WarningBanner facts={facts} />
       </div>
       {sections.slice(0, 4).map((sec) => (
-        <Section key={sec.title} title={sec.title} facts={sec.facts} />
+        <Section key={sec.title} title={sec.title} facts={sec.facts} foldQuotes={view === "baseline"} />
       ))}
       <OlderRecordNote facts={olderMeds} />
       {sections.slice(4).map((sec) => (
-        <Section key={sec.title} title={sec.title} facts={sec.facts} />
+        <Section key={sec.title} title={sec.title} facts={sec.facts} foldQuotes={view === "baseline"} />
       ))}
       {omission && <OmissionBox load={omission} />}
     </div>

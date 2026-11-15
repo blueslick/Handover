@@ -5,7 +5,15 @@ import FactCard from "./FactCard";
 import { conflictAnchor } from "@/lib/banner";
 
 // idPrefix keeps page ids unique when two records share a page (Compare view, T68 item 21).
-export default function FactList({ facts, idPrefix = "" }: { facts: Fact[]; idPrefix?: string }) {
+export default function FactList({
+  facts,
+  idPrefix = "",
+  foldQuotes = false,
+}: {
+  facts: Fact[];
+  idPrefix?: string;
+  foldQuotes?: boolean;
+}) {
   // Walk the facts in order; the first fact of a group pulls in the rest of its group.
   const seenGroups = new Set<string>();
   const blocks: React.ReactNode[] = [];
@@ -27,13 +35,13 @@ export default function FactList({ facts, idPrefix = "" }: { facts: Fact[]; idPr
           </p>
           <div className="flex flex-col md:flex-row gap-3">
             {group.map((f) => (
-              <FactCard key={f.fact_id} fact={f} idPrefix={idPrefix} />
+              <FactCard key={f.fact_id} fact={f} idPrefix={idPrefix} foldQuotes={foldQuotes} />
             ))}
           </div>
         </section>,
       );
     } else {
-      blocks.push(<FactCard key={fact.fact_id} fact={fact} idPrefix={idPrefix} />);
+      blocks.push(<FactCard key={fact.fact_id} fact={fact} idPrefix={idPrefix} foldQuotes={foldQuotes} />);
     }
   }
 

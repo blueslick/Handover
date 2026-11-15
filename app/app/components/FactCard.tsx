@@ -41,7 +41,17 @@ function details(fact: Fact): string {
   return parts.join(", ");
 }
 
-export default function FactCard({ fact, idPrefix = "" }: { fact: Fact; idPrefix?: string }) {
+// foldQuotes (T68 item 23): the baseline's quotes are whole table rows with the patient's
+// name and date of birth, so they are folded behind "Show quote" to keep the page readable.
+export default function FactCard({
+  fact,
+  idPrefix = "",
+  foldQuotes = false,
+}: {
+  fact: Fact;
+  idPrefix?: string;
+  foldQuotes?: boolean;
+}) {
   const detail = details(fact);
   const style = statusStyle(fact);
   // Other hospitals that state the same current value (the latest one is shown above).
@@ -66,9 +76,21 @@ export default function FactCard({ fact, idPrefix = "" }: { fact: Fact; idPrefix
       <p className="mt-2 text-sm text-zinc-700">
         <span className="font-medium">Latest source:</span> Hospital {fact.hospital}, {formatDate(fact.date)}
       </p>
-      <blockquote className="mt-1 border-l-4 border-zinc-400 pl-3 text-sm italic break-words">
-        <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
-      </blockquote>
+      {(() => {
+        const quote = (
+          <blockquote className="mt-1 border-l-4 border-zinc-400 pl-3 text-sm italic break-words">
+            <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
+          </blockquote>
+        );
+        return foldQuotes ? (
+          <details className="mt-1 text-sm">
+            <summary className="cursor-pointer underline">Show quote</summary>
+            {quote}
+          </details>
+        ) : (
+          quote
+        );
+      })()}
 
       {otherSources.length > 0 && (
         <div className="mt-2 text-sm text-zinc-700">

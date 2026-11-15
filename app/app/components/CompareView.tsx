@@ -59,7 +59,7 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
             </div>
             <div className="flex flex-col gap-2 min-w-0">
               <SideLabel which="baseline" />
-              {r.right.length > 0 ? <FactList facts={r.right} idPrefix="baseline-" /> : <Empty />}
+              {r.right.length > 0 ? <FactList facts={r.right} idPrefix="baseline-" foldQuotes /> : <Empty />}
             </div>
           </div>
         </section>
