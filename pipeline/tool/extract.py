@@ -23,10 +23,11 @@ there, so the file is valid: `missing_dose` on a current medicine with no dose, 
 `unknown_name` when the model gave no generic name. Everything else is the model's own
 answer. Brand conversion and quote checks are the Check step (T22).
 
-Settings (T56 still to agree them with the team): Claude 5.5 models refuse
-`temperature` and refuse thinking "disabled" (found in T08). So: default sampling,
-the lowest thinking setting each model accepts, and a fixed JSON shape. The
-saved reply is what makes later steps repeatable.
+Settings (agreed in T56): Claude 5.5 models refuse `temperature` and refuse
+thinking "disabled" (found in T08). So: temperature, top_p and top_k are not sent
+(default sampling), thinking is at the lowest setting each model accepts, and the
+reply must follow a fixed JSON shape. The saved reply is what makes later steps
+repeatable.
 
 Run it (one call, one record):
 
@@ -36,8 +37,9 @@ Run it (one call, one record):
     --run-id <id>        default <YYYYMMDD>-<prompt>-<model short name>
     --dry-run            print what would be sent, make no call (no key needed)
 
-T19 runs one record at a time on purpose, and only demo or working records.
-Running many records, and held-out ones, comes later (T20, T21, T36).
+This command runs one record at a time, and only demo or working records. To run
+many records, with the one retry after a failed Check, use run_records.py, which
+calls extract_with_retry() below.
 """
 import argparse
 import datetime as dt
@@ -152,7 +154,7 @@ def build_record(*, patient_id, hospital, source_file, run_id, model, prompt_ver
         "run_id": run_id,
         "model": model,
         "prompt_version": prompt_version,
-        "temperature": None,   # the model refuses temperature (T08); see T56
+        "temperature": None,   # the model refuses temperature (T08, T56): not sent
         "settings": settings,
         "attempt": attempt,
         "usage": usage,
@@ -190,6 +192,111 @@ def build_request(model, system, record_text):
 
 def _no_call(**_):
     raise RuntimeError("a saved reply exists, so no call should be made")
+
+
+# ---------------------------------------------------------------------------------
+# The one retry (T22 + T19 join-up). Used by run_records.py for many records.
+# ---------------------------------------------------------------------------------
+
+RETRY_NOTE = (
+    "Your reply above failed these checks against the record:\n{problems}\n\n"
+    "Reply again with the full list of facts for this record, following the same rules. "
+    "Copy every quote word for word from the record, and only give a dose or a name "
+    "that appears in its quote."
+)
+
+
+def build_retry_request(first_request, first_reply_text, problems):
+    """The request for the one retry: the same settings and record, plus the first reply
+    and the list of problems the Check step found, so the model can fix them."""
+    request = dict(first_request)
+    note = RETRY_NOTE.format(problems="\n".join(f"- {p}" for p in problems))
+    request["messages"] = list(first_request["messages"]) + [
+        {"role": "assistant", "content": first_reply_text},
+        {"role": "user", "content": note},
+    ]
+    return request
+
+
+class ExtractFailed(Exception):
+    """A record could not be read into facts (reply cut off, or not the expected JSON).
+    The exact reply is saved; the message says what happened, in plain words."""
+
+
+def extract_once(*, model, record_path, prompt_version, run_id, client, attempt=1,
+                 problems=None, first_reply_text=None, outputs=None):
+    """Get one record's facts (attempt 1, or 2 for the retry), making at most one call.
+
+    If the saved file for this attempt already exists, it is read and NO call is made,
+    so a long run that stopped halfway can simply be started again.
+    Returns (record dict, reply text, made_a_call).
+    """
+    outputs = outputs or OUTPUTS
+    patient_id, hospital = RECORD_NAME.match(record_path.name).group(1, 2)
+    prompt_file = PROMPTS / f"extract_{prompt_version}.md"
+    system = prompt_file.read_text(encoding="utf-8")
+    record_text = record_path.read_text(encoding="utf-8")
+    out_dir = outputs / "extracted" / run_id
+    stem = record_path.stem + ("" if attempt == 1 else ".attempt2")
+    out_json = out_dir / f"{stem}.json"
+
+    request, settings = build_request(model, system, record_text)
+    if attempt == 2:
+        request = build_retry_request(request, first_reply_text, problems)
+        settings += ", retry after failed Check"
+
+    if out_json.exists():   # already done in this run: replay, no call
+        saved = saved_calls.load_saved(run_id, patient_id, hospital, attempt, outputs,
+                                       record_path=record_path, prompt_path=prompt_file)
+        return json.loads(out_json.read_text(encoding="utf-8")), saved.text, False
+
+    saved = saved_calls.call_or_replay(run_id, patient_id, hospital, record_path, prompt_file,
+                                       prompt_version, request, client.messages.create,
+                                       attempt=attempt, outputs=outputs)
+    if saved.details.get("stop_reason") == "max_tokens":
+        raise ExtractFailed(f"{stem}: the reply was cut off at {MAX_TOKENS} tokens")
+    try:
+        facts = json.loads(saved.text)["facts"]
+    except (json.JSONDecodeError, KeyError, TypeError) as e:
+        raise ExtractFailed(f"{stem}: the reply is not the expected JSON ({type(e).__name__})")
+
+    usage = {k: saved.usage[k] for k in ("input_tokens", "output_tokens")}
+    record = build_record(patient_id=patient_id, hospital=hospital, source_file=record_path.name,
+                          run_id=run_id, model=model, prompt_version=prompt_version,
+                          attempt=attempt, usage=usage, facts=facts, settings=settings)
+    out_json.write_text(json.dumps(record, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return record, saved.text, not saved.replayed
+
+
+def extract_with_retry(*, model, record_path, prompt_version, run_id, client, outputs=None):
+    """Extract one record, check it, and retry ONCE only if the Check step fails it
+    (CLAUDE.md, Model calls). Uses check.check_with_retry(), so the rule for which try
+    is kept lives in one place (check.py: fewer problems wins, the retry wins a tie).
+
+    Returns a short summary: calls made, whether it retried, which attempt was kept,
+    and how many problems are left. The checked files themselves are written by
+    check.run() afterwards, from the saved files.
+    """
+    import check  # pipeline/tool/check.py
+
+    first, first_text, called1 = extract_once(model=model, record_path=record_path,
+                                              prompt_version=prompt_version, run_id=run_id,
+                                              client=client, outputs=outputs)
+    source_text = record_path.read_text(encoding="utf-8")
+    calls = {"made": int(called1)}
+
+    def extract_again(problems):
+        second, _, called2 = extract_once(model=model, record_path=record_path,
+                                          prompt_version=prompt_version, run_id=run_id,
+                                          client=client, attempt=2, problems=problems,
+                                          first_reply_text=first_text, outputs=outputs)
+        calls["made"] += int(called2)
+        return second
+
+    result = check.check_with_retry(first, source_text, extract_again)
+    return {"calls": calls["made"], "retried": result["retried"], "attempt_kept": result["attempt"],
+            "problems_left": len(result["problems"]),
+            "facts": len(result["checked"]["facts"]) if result["checked"] else 0}
 
 
 def show(path):
