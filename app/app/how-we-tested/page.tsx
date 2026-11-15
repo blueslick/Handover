@@ -31,13 +31,14 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
       held-out answer keys (allergies, medicines, diagnoses and operations). Rows 1 to 7
       each add one step to the row above. Row 8 is the full tool again on a second, cheaper model.
     </p>
+    <p className="mt-2 text-sm text-zinc-700 sm:hidden">Scroll sideways to see every column.</p>
     <div className="mt-2 overflow-x-auto">
       <table className="min-w-full border border-zinc-400 text-sm">
         <caption className="sr-only">Results for each method, one row per method</caption>
         <thead className="bg-zinc-100">
           <tr>
             <th scope="col" className="border border-zinc-400 px-2 py-1 text-left">Row</th>
-            <th scope="col" className="border border-zinc-400 px-2 py-1 text-left">Method</th>
+            <th scope="col" className="border border-zinc-400 px-2 py-1 text-left min-w-[16rem]">Method</th>
             <th scope="col" className="border border-zinc-400 px-2 py-1 text-left">Uses AI</th>
             <th scope="col" className="border border-zinc-400 px-2 py-1 text-left">Missed</th>
             <th scope="col" className="border border-zinc-400 px-2 py-1 text-left">False alarms</th>
@@ -315,7 +316,10 @@ export default function HowWeTested() {
             The prompt was tuned on 20 working patients only. The tool was then frozen and run once on 160 held-out
             patients it had never seen, 20 in each age band and sex group.
           </li>
-          <li>Each row of the table adds one step, so you can see what each step adds.</li>
+          <li>
+            Rows 1 to 7 of the table each add one step, so you can see what each step adds. Row 8 runs the full tool
+            on a second, cheaper model.
+          </li>
         </ul>
       </section>
 
