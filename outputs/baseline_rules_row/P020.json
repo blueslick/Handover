@@ -1,0 +1,49 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P020",
+  "run_id": null,
+  "built_from": [
+    "P020_A.csv",
+    "P020_B.txt",
+    "P020_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P020-F01",
+      "patient_id": "P020",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "1. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "1. Zocor 10 mg ON",
+          "file": "P020_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": null,
+          "hospital": "B",
+          "date": "2021-09-05",
+          "quote": "She continues on simvastatin 5 mg at night."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    }
+  ]
+}

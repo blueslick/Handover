@@ -1,0 +1,154 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P004",
+  "run_id": null,
+  "built_from": [
+    "P004_A.csv",
+    "P004_B.txt",
+    "P004_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P004-F01",
+      "patient_id": "P004",
+      "type": "medicine",
+      "name": "drospirenone",
+      "name_as_written": "drospirenone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2020-08-23",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-08-23",
+          "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+          "file": "P004_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P004-F02",
+      "patient_id": "P004",
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "Drospirenone / ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-15",
+      "quote": "P004,\"Powlowski, Lin\",2001-09-30,F,2021-11-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-15",
+          "quote": "P004,\"Powlowski, Lin\",2001-09-30,F,2021-11-15,MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Discontinued,2020-09-03,",
+          "file": "P004_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P004-F03",
+      "patient_id": "P004",
+      "type": "medicine",
+      "name": "ethinyl estradiol",
+      "name_as_written": "ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2020-08-23",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-08-23",
+          "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+          "file": "P004_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P004-F04",
+      "patient_id": "P004",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-15",
+      "quote": "P004,\"Powlowski, Lin\",2001-09-30,F,2021-11-15,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-08-29,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-08-31",
+          "quote": "1. Seasonique OD",
+          "file": "P004_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-15",
+          "quote": "P004,\"Powlowski, Lin\",2001-09-30,F,2021-11-15,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-08-29,",
+          "file": "P004_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P004-F05",
+      "patient_id": "P004",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2020-08-23",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-08-23",
+          "quote": "She continues on drospirenone and ethinyl estradiol once a day. Her paracetamol was stopped on 10 July 2018.",
+          "file": "P004_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    }
+  ]
+}

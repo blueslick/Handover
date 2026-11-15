@@ -1,0 +1,264 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P005",
+  "run_id": null,
+  "built_from": [
+    "P005_A.csv",
+    "P005_B.txt",
+    "P005_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P005-F01",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "amoxicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-05-26",
+      "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F02",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Augmentin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "1. Augmentin - stopped 06-Jun-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "1. Augmentin - stopped 06-Jun-2019",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F03",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "clavulanate",
+      "name_as_written": "clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-05-26",
+      "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F04",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Durogesic",
+      "dose": "25 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F05",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "Zohydro ER",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "1. Zohydro ER 10 mg BD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "1. Zohydro ER 10 mg BD",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F06",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-05-26",
+      "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F07",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "leucovorin",
+      "name_as_written": "Wellcovorin",
+      "dose": "100 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "3. Wellcovorin 100 mg every 2 weeks",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-14",
+          "quote": "P005,\"Paucek, Forrest\",1952-07-20,M,2021-10-14,MEDICATION,Leucovorin,100 mg,every 2 weeks,Active,2018-10-22,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "3. Wellcovorin 100 mg every 2 weeks",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F08",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "oxaliplatin",
+      "name_as_written": "Oxaliplatin",
+      "dose": "50 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-14",
+      "quote": "P005,\"Paucek, Forrest\",1952-07-20,M,2021-10-14,MEDICATION,Oxaliplatin,50 mg,every 2 weeks,Active,2018-10-22,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks. He continues on leucovorin 100 mg every 2 weeks. He takes amoxicillin and clavulanate three times a day. His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-14",
+          "quote": "P005,\"Paucek, Forrest\",1952-07-20,M,2021-10-14,MEDICATION,Oxaliplatin,50 mg,every 2 weeks,Active,2018-10-22,",
+          "file": "P005_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F09",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramal",
+      "dose": "50 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "4. Tramal 50 mg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "4. Tramal 50 mg PRN",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P006",
+  "run_id": null,
+  "built_from": [
+    "P006_A.csv",
+    "P006_B.txt",
+    "P006_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P006-F01",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-07,",
+          "file": "P006_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P006-F02",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "estradiol valerate / dienogest",
+      "name_as_written": "Natazia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-22",
+      "quote": "1. Natazia OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-07-22",
+          "quote": "1. Natazia OD",
+          "file": "P006_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P006-F03",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-09-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-09-07,",
+          "file": "P006_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P006-F04",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "P006,\"D'Amore, Mae\",2002-07-09,F,2021-11-04,MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-07,",
+          "file": "P006_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P006-F05",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "medroxyprogesterone",
+      "name_as_written": "medroxyprogesterone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-06-09",
+      "quote": "She is on norethisterone 0.35 mg once a day. Her medroxyprogesterone was stopped on 28 June 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-06-09",
+          "quote": "She is on norethisterone 0.35 mg once a day. Her medroxyprogesterone was stopped on 28 June 2018.",
+          "file": "P006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P006-F06",
+      "patient_id": "P006",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Camila",
+      "dose": "0.35 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-22",
+      "quote": "1. Camila - stopped 23-Jun-2019",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-06-09",
+          "quote": "She is on norethisterone 0.35 mg once a day. Her medroxyprogesterone was stopped on 28 June 2018.",
+          "file": "P006_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-22",
+          "quote": "1. Camila - stopped 23-Jun-2019",
+          "file": "P006_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P008",
+  "run_id": null,
+  "built_from": [
+    "P008_A.csv",
+    "P008_B.txt",
+    "P008_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P008-F01",
+      "patient_id": "P008",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Animal dander (hay fever symptoms)",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P008_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,Animal dander,,,Active,2008-08-19,hay fever symptoms",
+          "file": "P008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Animal dander (hay fever symptoms)",
+          "file": "P008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F02",
+      "patient_id": "P008",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P008_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,Grass pollen,,,Active,2008-08-19,",
+          "file": "P008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Grass pollen",
+          "file": "P008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F03",
+      "patient_id": "P008",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P008_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,House dust mite,,,Active,2008-08-19,",
+          "file": "P008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- House dust mite",
+          "file": "P008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F04",
+      "patient_id": "P008",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-27",
+      "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,Mould,,,Active,2008-08-19,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P008_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,Mould,,,Active,2008-08-19,",
+          "file": "P008_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F05",
+      "patient_id": "P008",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms. He is allergic to grass pollen. He is allergic to house dust mite. He is allergic to mould. He is allergic to tree pollen.",
+          "file": "P008_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,ALLERGY,Tree pollen,,,Active,2008-08-19,",
+          "file": "P008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "- Tree pollen",
+          "file": "P008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F06",
+      "patient_id": "P008",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-08",
+      "quote": "1. Flixotide 44 mcg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-23,",
+          "file": "P008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-08",
+          "quote": "1. Flixotide 44 mcg BD",
+          "file": "P008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P008-F07",
+      "patient_id": "P008",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-27",
+      "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-23,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-27",
+          "quote": "P008,\"Gulgowski, Erich\",2008-04-26,M,2021-07-27,MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-23,",
+          "file": "P008_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

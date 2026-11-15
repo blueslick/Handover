@@ -1,0 +1,94 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P009",
+  "run_id": null,
+  "built_from": [
+    "P009_A.csv",
+    "P009_B.txt",
+    "P009_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P009-F01",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "amoxicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-15",
+      "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+          "file": "P009_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P009-F02",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Amoxicillin / clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2018-03-10",
+      "quote": "P009,\"Tremblay, Isadora\",1957-02-12,F,2018-03-10,MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-03-10",
+          "quote": "P009,\"Tremblay, Isadora\",1957-02-12,F,2018-03-10,MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2018-03-10,",
+          "file": "P009_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P009-F03",
+      "patient_id": "P009",
+      "type": "medicine",
+      "name": "clavulanate",
+      "name_as_written": "clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-15",
+      "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-15",
+          "quote": "She takes no regular medicines. Her amoxicillin and clavulanate was stopped on 21 March 2018.",
+          "file": "P009_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    }
+  ]
+}

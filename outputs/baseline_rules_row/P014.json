@@ -1,0 +1,96 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_rules_row",
+  "patient_id": "P014",
+  "run_id": null,
+  "built_from": [
+    "P014_A.csv",
+    "P014_B.txt",
+    "P014_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P014-F01",
+      "patient_id": "P014",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-29",
+      "quote": "1. Norvasc 2.5 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-29",
+          "quote": "1. Norvasc 2.5 mg OD",
+          "file": "P014_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P014-F02",
+      "patient_id": "P014",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "200 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-01",
+      "quote": "P014,\"Bogisich, Carrol\",1981-03-10,M,2021-09-01,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-14",
+          "quote": "He continues on ibuprofen 200 mg when needed. His naproxen was stopped on 29 March 2018.",
+          "file": "P014_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-09-01",
+          "quote": "P014,\"Bogisich, Carrol\",1981-03-10,M,2021-09-01,MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2019-05-26,",
+          "file": "P014_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P014-F03",
+      "patient_id": "P014",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "naproxen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-05-14",
+      "quote": "He continues on ibuprofen 200 mg when needed. His naproxen was stopped on 29 March 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-14",
+          "quote": "He continues on ibuprofen 200 mg when needed. His naproxen was stopped on 29 March 2018.",
+          "file": "P014_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    }
+  ]
+}
