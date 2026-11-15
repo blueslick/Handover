@@ -2,6 +2,7 @@
 // the source quote, and any warning. Nothing here relies on colour alone.
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
+import { factAnchor } from "@/lib/banner";
 
 // Builds the headline, e.g. "Panadol (paracetamol)" or "Penicillin".
 function headline(fact: Fact): string {
@@ -30,7 +31,7 @@ export default function FactCard({ fact }: { fact: Fact }) {
   );
 
   return (
-    <article className="border border-zinc-400 rounded p-4 bg-white flex-1 min-w-0">
+    <article id={factAnchor(fact.fact_id)} className="scroll-mt-4 border border-zinc-400 rounded p-4 bg-white flex-1 min-w-0">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h3 className="text-lg font-semibold break-words">{headline(fact)}</h3>
         <span className="border border-zinc-700 rounded px-2 py-0.5 text-sm font-medium">

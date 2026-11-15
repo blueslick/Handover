@@ -13,7 +13,13 @@ import type { Fact } from "./types";
 export interface BannerLine {
   key: string;
   text: string;
+  // The id of the card (or side-by-side box) the line jumps to (T68 item 11).
+  target: string;
 }
+
+// Page ids for cards and conflict boxes, used by the banner links and FactList.
+export const factAnchor = (factId: string) => `fact-${factId}`;
+export const conflictAnchor = (group: string) => `conflict-${group}`;
 
 const isCritical = (f: Fact) => f.type === "allergy" || f.type === "medicine";
 
@@ -66,6 +72,7 @@ export function bannerLines(facts: Fact[]): BannerLine[] {
     const type = f.type === "allergy" ? "Allergy" : "Medicine";
     lines.push({
       key: `conflict-${f.conflict_group}`,
+      target: conflictAnchor(f.conflict_group),
       text: `${type}, hospitals disagree: ${group.map(conflictSide).join(". ")}.`,
     });
   }
@@ -77,6 +84,7 @@ export function bannerLines(facts: Fact[]): BannerLine[] {
     const olderCurrent = f.history.some((h) => h.status === "current");
     lines.push({
       key: `stopped-${f.fact_id}`,
+      target: f.conflict_group ? conflictAnchor(f.conflict_group) : factAnchor(f.fact_id),
       text:
         `${factName(f)}: stopped ${formatDate(f.date)} (Hospital ${f.hospital}).` +
         (olderCurrent ? " An older record lists it as current." : ""),
@@ -91,6 +99,7 @@ export function bannerLines(facts: Fact[]): BannerLine[] {
     const change = doseChange(f);
     lines.push({
       key: `dose-${f.fact_id}`,
+      target: f.conflict_group ? conflictAnchor(f.conflict_group) : factAnchor(f.fact_id),
       text: change
         ? `${factName(f)}: dose changed from ${change.from} to ${change.to}.`
         : `${factName(f)}: dose changed (the earlier dose is not recorded).`,
@@ -103,6 +112,7 @@ export function bannerLines(facts: Fact[]): BannerLine[] {
     if (other.length === 0) continue;
     lines.push({
       key: `flags-${f.fact_id}`,
+      target: f.conflict_group ? conflictAnchor(f.conflict_group) : factAnchor(f.fact_id),
       text: `${factName(f)}: ${other.map((flag) => FLAG_LABELS[flag].toLowerCase()).join(", ")}.`,
     });
   }

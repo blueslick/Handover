@@ -16,3 +16,9 @@ body {
   color: var(--foreground);
   font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
+
+/* T68 item 11: the card a banner link jumps to gets a thick outline, so the eye finds it. */
+:target {
+  outline: 4px solid #b45309;
+  outline-offset: 4px;
+}
