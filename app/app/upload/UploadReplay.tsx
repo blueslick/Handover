@@ -179,7 +179,8 @@ export default function UploadReplay({
           disabled={elapsed !== null && !finished}
           className="border border-zinc-800 bg-zinc-800 text-white rounded px-4 py-2 disabled:opacity-60"
         >
-          {elapsed === null ? "Read all three records" : finished ? "Play again" : "Playing…"}
+          {/* T68 item 25: the button says it is a replay. */}
+          {elapsed === null ? "Replay: read all three records" : finished ? "Replay again" : "Playing…"}
         </button>
         <p aria-live="polite" className="text-sm font-medium">
           {spoken}
