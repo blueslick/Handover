@@ -1,0 +1,5 @@
+part,scope,patients,key_facts,output_facts,matched,missed,false_alarms,wrong_status,duplicates,dose_correct,dose_wrong,dose_not_applicable,conflict_facts,conflict_shown,combination_keys_with_dose,recall,precision
+tested,all,40,35,37,35,0,2,0,0,20,0,3,0,0,0,1.0,0.946
+tested,critical,40,29,29,29,0,0,0,0,15,0,2,0,0,0,1.0,1.0
+background,all,40,40,40,40,0,0,0,0,40,0,0,0,0,0,1.0,1.0
+background,critical,40,40,40,40,0,0,0,0,40,0,0,0,0,0,1.0,1.0

@@ -51,6 +51,7 @@ handover/
 │   ├── results/heldout/          T37: held-out totals only, no patient IDs (Abby)
 │   ├── results/row4_plain_stack/, row5_labels_stack/, row6_check_stack/   working scores, build-up rows 4-6 (Abby)
 │   ├── results/t43_mtsamples/    T43: public MTSamples notes D201-D212, allergies and medicines (Abby)
+│   ├── results/t40_traps/        T40: public trap notes D101-D140, tested fact apart from the background line (Abby)
 │   ├── results_heldout/          git-ignored: held-out detail (Abby)
 │   └── published/                the frozen files the app shows
 └── app/                          Theo. Next.js. Vercel's root directory
@@ -92,6 +93,7 @@ Add a short suffix only if you rerun the same thing on the same day: `20261115-v
 | `results/heldout/` | `buildup_table.csv`, `by_age_sex.csv`, `traps_by_type.csv`, `omission_line.csv`, `cost_per_patient.csv` | T37. Held-out totals only: no patient IDs, no quotes, so it can be committed. Writer: Abby (`pipeline/eval/heldout_table.py`, `score_traps.py`, `omission_line.py`, `cost_line.py`). The per-patient detail stays in the git-ignored `outputs/results_heldout/` |
 | `results/row4_plain_stack/`, `results/row5_labels_stack/`, `results/row6_check_stack/` | `per_patient.csv`, `summary.csv`, `failures.csv` | Working scores (P001-P020) for build-up rows 4-6. Writer: Abby |
 | `results/t43_mtsamples/` | `summary.csv`, `per_patient.csv`, `failures.csv`, `miss_causes.csv` | T43: 12 public MTSamples notes (CC0), allergies and medicines, zone rule; may be committed. Writer: Abby (`pipeline/eval/score_single_notes.py`) |
+| `results/t40_traps/` | `summary.csv`, `per_note.csv`, `pairs.csv`, `failures.csv` | T40: 40 public trap notes (20 traps + 20 twins), tested fact scored apart from the atorvastatin background line; may be committed. Writer: Abby (`pipeline/eval/score_single_notes.py`) |
 | `results_heldout/` | `baseline_keyword/`, `baseline_medspacy/`, `baseline_rules_row/` (rows 1-3), `row4/`, `row5/`, `row6/` (stacked records), `omission/<run_id>/`, `scores/row<N>/heldout/` and `reserve/`, `traps/` | Git-ignored: held-out baselines, rows 4-6 stacked records, omission flags and score detail. It holds patient IDs and quotes, so it is never committed. Writer: Abby |
 | `published/` | `index.json`, `compiled/`, `baseline_keyword/`, `results/`, `extraction_walkthrough/` | Only the frozen run plus the demo patient. This is what the app reads. Filled by `store.py publish` (shared/store_layout.md) |
 

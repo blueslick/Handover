@@ -1,16 +1,16 @@
-"""Score the single-note public sets (T43): allergies and medicines only.
+"""Score the single-note public sets (T43, T40).
 
 Usage (from the repo root, with the project venv):
     .venv/bin/python pipeline/eval/score_single_notes.py --set mtsamples
+    .venv/bin/python pipeline/eval/score_single_notes.py --set traps
 
---set mtsamples scores the 12 MTSamples notes D201-D212. Every number comes from score.py:
-this script only prepares the two sides and then calls score.score_patient and adds the counts
-up with score._sum_counts and score._ratio, exactly as score.py does. Matching is not copied or
-changed here. It reads files and makes no model calls. Only the IDs of the chosen set are
-accepted (D201-D212 for mtsamples); anything else, held-out and reserve IDs included, is
-refused before any file is opened.
+Every number comes from score.py: this script only prepares the two sides and then calls
+score.score_patient and adds the counts up with score._sum_counts and score._ratio, exactly as
+score.py does. Matching is not copied or changed here. It reads files and makes no model calls.
+Only the IDs of the chosen set are accepted (D201-D212 for mtsamples, D101-D140 for traps);
+anything else, held-out and reserve IDs included, is refused before any file is opened.
 
-What is kept (the same two rules on every note):
+--set mtsamples (T43): the 12 MTSamples notes D201-D212. Files go to outputs/results/t43_mtsamples/.
 - Type filter: only facts of type allergy or medicine, on BOTH sides (answer key and tool).
 - Zone rule, tool side only. The answer keys were labelled inside the zone (the sections of a
   note the labellers read: pipeline/data/mtsamples/zones/<Mxxx>_zone.txt), so a tool fact from
@@ -18,28 +18,37 @@ What is kept (the same two rules on every note):
   if its quote is inside the zone text, after all whitespace in both is collapsed to single
   spaces (so a quote that spreads over a line break still counts). A tool fact with no quote
   is kept, so it can only count against the tool. The number of facts the rule removes is printed.
+- Files: per_patient.csv, summary.csv, failures.csv, and miss_causes.csv: one row per missed key
+  fact with a cause: "wrong status", "found, no standard name" or "check by hand".
 
-Files written to outputs/results/t43_mtsamples/ (same columns as score.py where score.py has them):
-per_patient.csv, summary.csv, failures.csv, and miss_causes.csv: one row per missed key fact
-with a cause: "wrong status", "found, no standard name" or "check by hand".
-
-A later --set traps (T40 trap notes D101-D140) is meant to be added to SETS below; it is not built yet.
+--set traps (T40): the 40 trap notes D101-D140, 20 pairs of a trap note and its twin
+(pipeline/data/traps/trap_notes_pairs.csv). Files go to outputs/results/t40_traps/.
+- Every note carries the same background line (atorvastatin, a medicine). Both sides are split
+  into "background" (a medicine named atorvastatin) and "tested" (everything else), and each part
+  is scored separately with score.score_patient. No zone rule and no type filter: all fact types count.
+- A note is "right" when its tested part has 0 missed and 0 false alarms.
+- Files: summary.csv (tested and background, all and critical), per_note.csv, pairs.csv
+  (a pair is right-or-wrong for the trap note and for its twin), failures.csv.
+- For the pair whose dose changed (pair 9) the script also prints a note on the tool's dose,
+  history and dose_changed flag against the key. score.py does not score flags, so this is a
+  note, not a count.
 """
 
 import argparse
 import csv
+import re
 import sys
 from pathlib import Path
 
 import score
 
-# The two fact types this scoring looks at.
+# The two fact types the MTSamples scoring looks at.
 KEEP_TYPES = ("allergy", "medicine")
 
 DATA = score.DATA
 RESULTS = score.REPO / "outputs" / "results"
 
-# One entry per set. Add the traps set here later (Prompt 5).
+# One entry per set.
 SETS = {
     "mtsamples": {
         "ids": [f"D{n}" for n in range(201, 213)],
@@ -48,6 +57,13 @@ SETS = {
         "id_map": DATA / "mtsamples" / "id_map.csv",
         "zones_dir": DATA / "mtsamples" / "zones",
         "out_dir": RESULTS / "t43_mtsamples",
+    },
+    "traps": {
+        "ids": [f"D{n}" for n in range(101, 141)],
+        "compiled_dir": score.REPO / "outputs" / "compiled" / "20261115-v2-traps-sonnet-5-5",
+        "keys_dir": DATA / "demo",
+        "pairs": DATA / "traps" / "trap_notes_pairs.csv",
+        "out_dir": RESULTS / "t40_traps",
     },
 }
 
@@ -62,6 +78,23 @@ MISS_FIELDS = ["patient_id", "key_fact_id", "name", "name_as_written", "key_stat
 CAUSE_WRONG_STATUS = "wrong status"
 CAUSE_NO_STANDARD_NAME = "found, no standard name"
 CAUSE_BY_HAND = "check by hand"
+
+# --- Traps: the background line, the two parts and the pairs file --------------------------
+
+BACKGROUND_NAME = "atorvastatin"
+PARTS = ("tested", "background")
+# The counts shown per part in per_note.csv (all facts; the critical split is in summary.csv).
+NOTE_FIELDS = ["key_facts", "output_facts", "matched", "missed", "false_alarms", "wrong_status",
+               "duplicates", "dose_correct", "dose_wrong", "dose_not_applicable"]
+PER_NOTE_FIELDS = (["patient_id", "pair", "role", "tested_right"]
+                   + [f"{part}_{field}" for part in PARTS for field in NOTE_FIELDS])
+PAIR_FIELDS = ["pair", "trap_id", "twin_id", "trap_role", "twin_role", "what_is_tested", "twin_tests",
+               "trap_right", "twin_right"]
+TRAP_FAILURE_FIELDS = FAILURE_FIELDS + ["part", "what_is_tested"]
+SUMMARY_FIELDS = ["part", "scope", "patients"] + score.COUNT_FIELDS + ["recall", "precision"]
+PARTNER_RE = re.compile(r"Pair: (D\d{3})")
+# The pair whose dose changed: a note, not a count (score.py does not score flags).
+DOSE_CHANGE_PAIR = 9
 
 
 def collapse_whitespace(text):
@@ -153,6 +186,92 @@ def miss_causes(key, compiled, result):
     return rows
 
 
+# --- Traps helpers ------------------------------------------------------------------------
+
+def is_background(fact):
+    """The background line: a medicine whose standard name is atorvastatin."""
+    return fact["type"] == "medicine" and (fact.get("name") or "").strip().lower() == BACKGROUND_NAME
+
+
+def split_note(compiled, key):
+    """Split one note into its two parts, on both sides. Returns {"tested": (compiled, key),
+    "background": (compiled, key)}. The tested part is every fact that is not the background line.
+    The inputs are not changed."""
+    parts = {}
+    for part in PARTS:
+        want_background = part == "background"
+        tool = [f for f in compiled["facts"] if is_background(f) == want_background]
+        keys = [f for f in key["facts"] if is_background(f) == want_background]
+        parts[part] = ({**compiled, "facts": tool}, {**key, "facts": keys})
+    return parts
+
+
+def note_is_right(tested_result):
+    """A note is right when its tested part has 0 missed and 0 false alarms."""
+    counts = tested_result["counts"]["all"]
+    return counts["missed"] == 0 and counts["false_alarms"] == 0
+
+
+def load_pairs(path):
+    """Read trap_notes_pairs.csv. Returns (notes, pairs).
+
+    notes: {ID: row of the file}. pairs: a list, one per pair, in file order, each with the pair
+    number (1, 2, ...), the trap note and the twin note. The partner of a note is named in its
+    what_is_tested text ("Pair: D121"). The trap side is the row whose role starts with "trap"
+    (trap or trap-control); the twin side starts with "twin". Checked so a typo cannot pair the wrong notes.
+    """
+    with open(path, encoding="utf-8", newline="") as handle:
+        notes = {row["ID"]: row for row in csv.DictReader(handle)}
+    pairs = []
+    for note_id, row in notes.items():
+        if not row["trap_or_twin"].startswith("trap"):
+            continue
+        match = PARTNER_RE.search(row["what_is_tested"])
+        partner = notes.get(match.group(1)) if match else None
+        if partner is None or not partner["trap_or_twin"].startswith("twin"):
+            raise ValueError(f"{note_id}: its partner is missing or is not a twin note")
+        back = PARTNER_RE.search(partner["what_is_tested"])
+        if not back or back.group(1) != note_id:
+            raise ValueError(f"{note_id} and {partner['ID']} do not name each other as partners")
+        pairs.append({"pair": len(pairs) + 1, "trap": row, "twin": partner})
+    paired = {p["trap"]["ID"] for p in pairs} | {p["twin"]["ID"] for p in pairs}
+    if paired != set(notes):
+        raise ValueError("some notes in the pairs file are not in a pair")
+    return notes, pairs
+
+
+def _fact_text(fact):
+    """One fact in a few words, for printing: type name status."""
+    return f"{fact['type']} {fact.get('name')} {fact['status']}"
+
+
+def dose_change_note(key, compiled):
+    """Plain lines comparing the tool's dose, history and dose_changed flag with the key, for each
+    non-background medicine in the note. A note, not a count: score.py does not score flags."""
+    lines = []
+    for key_fact in key["facts"]:
+        if key_fact["type"] != "medicine" or is_background(key_fact):
+            continue
+        tool_fact = next((f for f in compiled["facts"]
+                          if f["type"] == "medicine" and f.get("name") == key_fact.get("name")), None)
+
+        def history(fact):
+            return [f"{h.get('dose')} {h.get('status')}" for h in fact["history"]]
+
+        if tool_fact is None:
+            lines.append(f"{key['patient_id']} {key_fact.get('name')}: the tool has no fact with this name")
+            continue
+        same_dose = score.dose_correct(key_fact, tool_fact)
+        lines.append(
+            f"{key['patient_id']} {key_fact.get('name')}: "
+            f"key dose {key_fact.get('dose')}, history {history(key_fact)}, "
+            f"dose_changed {'yes' if 'dose_changed' in key_fact['flags'] else 'no'}; "
+            f"tool dose {tool_fact.get('dose')}, history {history(tool_fact)}, "
+            f"dose_changed {'yes' if 'dose_changed' in tool_fact['flags'] else 'no'}; "
+            f"dose matches the key: {'yes' if same_dose else 'no' if same_dose is False else 'not applicable'}")
+    return lines
+
+
 def _check_ids(patient_ids, allowed_ids):
     """Refuse any ID outside the chosen set. Runs before any file is opened."""
     for pid in patient_ids:
@@ -167,20 +286,42 @@ def _unique_fact_ids(record, what):
         raise ValueError(f"{record['patient_id']}: duplicate fact_id in the {what}")
 
 
-def main(argv=None):
-    """Score the chosen single-note set and write the four CSV files."""
-    parser = argparse.ArgumentParser(description="Score single-note public sets (T43), allergies and medicines only.")
-    parser.add_argument("--set", dest="set_name", required=True, choices=sorted(SETS), help="which set to score")
-    parser.add_argument("--patients", nargs="+", metavar="ID",
-                        help="a subset of the set's IDs (default: all of them)")
-    parser.add_argument("--out-dir", type=Path, help="folder for the CSV files (default: outputs/results/t43_<set>)")
-    args = parser.parse_args(argv)
+def _summary_rows(results, patient_count):
+    """Totals from the counts, then recall and precision from the totals, as score.py does.
+    Returns one row per scope."""
+    totals = score._sum_counts(results)
+    rows = []
+    for scope in score.SCOPES:
+        counts = totals[scope]
+        rows.append({
+            "scope": scope,
+            "patients": patient_count,
+            **counts,
+            "recall": score._ratio(counts["matched"], counts["key_facts"]),
+            "precision": score._ratio(counts["matched"], counts["output_facts"]),
+        })
+    return rows
 
-    config = SETS[args.set_name]
-    patient_ids = list(dict.fromkeys(args.patients or config["ids"]))
-    _check_ids(patient_ids, config["ids"])
-    out_dir = args.out_dir or config["out_dir"]
 
+def _count_row(pid, result):
+    """One row of per_patient.csv for one note (age band and sex are blank for demo notes)."""
+    row = {"patient_id": pid, "age_band": "", "sex": ""}
+    for scope in score.SCOPES:
+        for field in score.COUNT_FIELDS:
+            row[f"{field}_{scope}"] = result["counts"][scope][field]
+    return row
+
+
+def _print_warnings(result):
+    """Print score.py's warnings (they name only the patient and fact) to stderr."""
+    for warning in result["warnings"]:
+        print(warning["message"], file=sys.stderr)
+
+
+# --- Running a set ------------------------------------------------------------------------
+
+def run_mtsamples(config, patient_ids, out_dir):
+    """Score the MTSamples notes and write the four CSV files."""
     id_map = load_id_map(config["id_map"])
     results, rows, failure_rows, miss_rows = [], [], [], []
     removed_by_note = {}
@@ -203,29 +344,12 @@ def main(argv=None):
         # The scoring itself is score.py's, unchanged.
         result = score.score_patient(compiled, key)
         results.append(result)
-        for warning in result["warnings"]:
-            print(warning["message"], file=sys.stderr)
-        row = {"patient_id": pid, "age_band": "", "sex": ""}
-        for scope in score.SCOPES:
-            for field in score.COUNT_FIELDS:
-                row[f"{field}_{scope}"] = result["counts"][scope][field]
-        rows.append(row)
+        _print_warnings(result)
+        rows.append(_count_row(pid, result))
         failure_rows.extend(result["problems"])
         miss_rows.extend(miss_causes(key, compiled, result))
 
-    # Totals are summed from the counts, then recall and precision are worked out from the totals.
-    totals = score._sum_counts(results)
-    summary_rows = []
-    for scope in score.SCOPES:
-        counts = totals[scope]
-        summary_rows.append({
-            "scope": scope,
-            "patients": len(patient_ids),
-            **counts,
-            "recall": score._ratio(counts["matched"], counts["key_facts"]),
-            "precision": score._ratio(counts["matched"], counts["output_facts"]),
-        })
-
+    summary_rows = _summary_rows(results, len(patient_ids))
     out_dir.mkdir(parents=True, exist_ok=True)
     score._write_csv(out_dir / "per_patient.csv", score._per_patient_fields(), rows)
     score._write_csv(out_dir / "summary.csv",
@@ -233,7 +357,7 @@ def main(argv=None):
     score._write_csv(out_dir / "failures.csv", FAILURE_FIELDS, failure_rows)
     score._write_csv(out_dir / "miss_causes.csv", MISS_FIELDS, miss_rows)
 
-    print(f"Scored {len(patient_ids)} note(s) of set {args.set_name}: {', '.join(patient_ids)}")
+    print(f"Scored {len(patient_ids)} note(s) of set mtsamples: {', '.join(patient_ids)}")
     for summary in summary_rows:
         print(f"{summary['scope']:>8}: key {summary['key_facts']}, tool {summary['output_facts']}, "
               f"matched {summary['matched']}, missed {summary['missed']}, "
@@ -251,6 +375,121 @@ def main(argv=None):
     print(f"Tool allergy/medicine facts scored: {len(tool_facts_scored)}; with an empty standard name: "
           f"{empty_name}; carrying the unknown_name flag: {unknown}")
     print(f"Wrote per_patient.csv, summary.csv, failures.csv and miss_causes.csv in {out_dir}")
+
+
+def run_traps(config, patient_ids, out_dir):
+    """Score the trap notes, each split into a tested part and a background part, and write the four CSV files."""
+    notes, pairs = load_pairs(config["pairs"])
+    role_of = {}
+    pair_of = {}
+    for pair in pairs:
+        for side in ("trap", "twin"):
+            role_of[pair[side]["ID"]] = pair[side]["trap_or_twin"]
+            pair_of[pair[side]["ID"]] = pair["pair"]
+
+    results = {part: [] for part in PARTS}
+    per_note, failure_rows = [], []
+    right = {}
+    records = {}
+    for pid in patient_ids:
+        compiled = score.load_json(config["compiled_dir"] / f"{pid}.json")
+        key = score.load_json(score._find_key(config["keys_dir"], pid))
+        _unique_fact_ids(compiled, "tool record")
+        _unique_fact_ids(key, "answer key")
+        records[pid] = (compiled, key)
+
+        parts = split_note(compiled, key)
+        row = {"patient_id": pid, "pair": pair_of[pid], "role": role_of[pid]}
+        for part in PARTS:
+            part_compiled, part_key = parts[part]
+            # The scoring itself is score.py's, unchanged.
+            result = score.score_patient(part_compiled, part_key)
+            results[part].append(result)
+            _print_warnings(result)
+            for field in NOTE_FIELDS:
+                row[f"{part}_{field}"] = result["counts"]["all"][field]
+            for problem in result["problems"]:
+                failure_rows.append({**problem, "part": part, "what_is_tested": notes[pid]["what_is_tested"]})
+            if part == "tested":
+                right[pid] = note_is_right(result)
+        row["tested_right"] = right[pid]
+        per_note.append(row)
+
+    pair_rows = []
+    for pair in pairs:
+        trap_id, twin_id = pair["trap"]["ID"], pair["twin"]["ID"]
+        if trap_id not in right or twin_id not in right:
+            continue  # a subset run: only pairs with both notes scored
+        pair_rows.append({
+            "pair": pair["pair"], "trap_id": trap_id, "twin_id": twin_id,
+            "trap_role": pair["trap"]["trap_or_twin"], "twin_role": pair["twin"]["trap_or_twin"],
+            "what_is_tested": pair["trap"]["what_is_tested"], "twin_tests": pair["twin"]["what_is_tested"],
+            "trap_right": right[trap_id], "twin_right": right[twin_id],
+        })
+
+    summary_rows = []
+    for part in PARTS:
+        for row in _summary_rows(results[part], len(patient_ids)):
+            summary_rows.append({"part": part, **row})
+
+    out_dir.mkdir(parents=True, exist_ok=True)
+    score._write_csv(out_dir / "summary.csv", SUMMARY_FIELDS, summary_rows)
+    score._write_csv(out_dir / "per_note.csv", PER_NOTE_FIELDS, per_note)
+    score._write_csv(out_dir / "pairs.csv", PAIR_FIELDS, pair_rows)
+    score._write_csv(out_dir / "failures.csv", TRAP_FAILURE_FIELDS, failure_rows)
+
+    print(f"Scored {len(patient_ids)} note(s) of set traps")
+    for row in summary_rows:
+        print(f"{row['part']:>10} {row['scope']:>8}: key {row['key_facts']}, tool {row['output_facts']}, "
+              f"matched {row['matched']}, missed {row['missed']}, false alarms {row['false_alarms']}, "
+              f"wrong status {row['wrong_status']}, duplicates {row['duplicates']}, "
+              f"dose correct {row['dose_correct']}, dose wrong {row['dose_wrong']}, "
+              f"dose n/a {row['dose_not_applicable']}, recall {row['recall']}, precision {row['precision']}")
+    print(f"Trap notes right: {sum(r['trap_right'] for r in pair_rows)} of {len(pair_rows)} "
+          f"(roles: {sum(1 for r in pair_rows if r['trap_role'] == 'trap-control')} trap-control)")
+    print(f"Twin notes right: {sum(r['twin_right'] for r in pair_rows)} of {len(pair_rows)} "
+          f"(roles: {sum(1 for r in pair_rows if r['twin_role'] == 'twin-control')} twin-control)")
+    background = results["background"]
+    totals = score._sum_counts(background)["all"]
+    print(f"Background line: matched {totals['matched']} of {totals['key_facts']}; "
+          f"dose correct {totals['dose_correct']}, dose wrong {totals['dose_wrong']}")
+    tested_totals = score._sum_counts(results["tested"])["all"]
+    print(f"Tested part: dose correct {tested_totals['dose_correct']}, dose wrong {tested_totals['dose_wrong']}")
+    print(f"Failure rows: {len(failure_rows)}")
+    for failure in failure_rows:
+        tests = PARTNER_RE.sub("", notes[failure["patient_id"]]["what_is_tested"]).strip()
+        key_side = (f"{failure['type']} {failure['name']} {failure['key_status']}"
+                    if failure["key_fact_id"] else "-")
+        tool_side = (f"{failure['type']} {failure['name']} {failure['output_status']}"
+                     if failure["output_fact_id"] else "-")
+        print(f"  {failure['patient_id']} [{failure['part']}] {failure['kind']} | tests: {tests} | "
+              f"key: {key_side} | tool: {tool_side}")
+    for pair in pairs:
+        if pair["pair"] == DOSE_CHANGE_PAIR and pair["trap"]["ID"] in records and pair["twin"]["ID"] in records:
+            print(f"Pair {DOSE_CHANGE_PAIR} dose-change note (flags are not scored):")
+            for side in ("trap", "twin"):
+                compiled, key = records[pair[side]["ID"]]
+                for line in dose_change_note(key, compiled):
+                    print(f"  {line}")
+    print(f"Wrote summary.csv, per_note.csv, pairs.csv and failures.csv in {out_dir}")
+
+
+RUNNERS = {"mtsamples": run_mtsamples, "traps": run_traps}
+
+
+def main(argv=None):
+    """Score the chosen single-note set and write its CSV files."""
+    parser = argparse.ArgumentParser(description="Score single-note public sets (T43 MTSamples, T40 traps).")
+    parser.add_argument("--set", dest="set_name", required=True, choices=sorted(SETS), help="which set to score")
+    parser.add_argument("--patients", nargs="+", metavar="ID",
+                        help="a subset of the set's IDs (default: all of them)")
+    parser.add_argument("--out-dir", type=Path, help="folder for the CSV files (default: the set's results folder)")
+    args = parser.parse_args(argv)
+
+    config = SETS[args.set_name]
+    patient_ids = list(dict.fromkeys(args.patients or config["ids"]))
+    _check_ids(patient_ids, config["ids"])
+    RUNNERS[args.set_name](config, patient_ids, args.out_dir or config["out_dir"])
     return 0
 
 

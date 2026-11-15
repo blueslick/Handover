@@ -1,0 +1,3 @@
+patient_id,kind,key_fact_id,output_fact_id,type,name,key_status,output_status,key_critical,output_critical,duplicate,key_quote,output_quote,part,what_is_tested
+D107,false_alarm,,D107-F02,medicine,warfarin,,planned,,False,False,,We will consider warfarin 5 mg once daily at her next review.,tested,Medicine only being considered. Tests a false alarm. Pair: D127
+D120,false_alarm,,D120-F02,medicine,paracetamol,,planned,,False,False,,"If her pain returns, she will be given paracetamol 1 g four times a day.",tested,Conditional plan ('If her pain returns'). Tests a false alarm. Pair: D140

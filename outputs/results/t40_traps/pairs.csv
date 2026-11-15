@@ -1,0 +1,21 @@
+pair,trap_id,twin_id,trap_role,twin_role,what_is_tested,twin_tests,trap_right,twin_right
+1,D101,D121,trap,twin,Negated allergy ('is not allergic'). Tests a false alarm. Pair: D121,Allergy stated plainly. Tests a missed case. Pair: D101,True,True
+2,D102,D122,trap,twin,Relative's allergy ('Her mother'). Tests a false alarm. Pair: D122,Patient's own allergy. Tests a missed case. Pair: D102,True,True
+3,D103,D123,trap,twin,"Side effect, not an allergy (dry cough). Tests a false alarm. Pair: D123","Same cough, now called an allergy. Tests a missed case. Pair: D103",True,True
+4,D104,D124,trap,twin,Suspected allergy ('may be allergic'). Tests a false alarm. Pair: D124,Confirmed allergy. Tests a missed case. Pair: D104,True,True
+5,D105,D125,trap,twin,No known allergies written as NKA. Tests a false alarm. Pair: D125,Allergy written in the same slot. Tests a missed case. Pair: D105,True,True
+6,D106,D126,trap,twin,Stopped medicine ('discontinued at this visit'). Tests a false alarm. Pair: D126,"Same medicine, continued. Tests a missed case. Pair: D106",True,True
+7,D107,D127,trap,twin,Medicine only being considered. Tests a false alarm. Pair: D127,Medicine decided to start. Tests a missed case. Pair: D107,False,True
+8,D108,D128,trap,twin,Past medicine ('previously on'). Tests a false alarm. Pair: D128,"Same medicine, current. Tests a missed case. Pair: D108",True,True
+9,D109,D129,trap,twin,"REAL dose change, 2.5 mg to 5 mg. Direction reversed for row 9: this trap holds the real change, so it tests a missed case. Pair: D129",NO dose change (5 mg throughout). Direction reversed for row 9: this twin tests a false alarm (no invented dose change). Pair: D109,True,True
+10,D110,D130,trap-control,twin-control,"Control pair. Dose written in grams (1 g). Score converts g to mg, so both sides should score the same. Pair: D130",Control pair. Same dose written in mg (1000 mg). Pair: D110,True,True
+11,D111,D131,trap-control,twin-control,Control pair. Brand name (Norvasc). Pair: D131,Control pair. Generic name (amlodipine). Pair: D111,True,True
+12,D112,D132,trap,twin,"Combination medicine written as 'and'. Tests a false alarm (must be one fact, not two). Pair: D132","Single drug, no combination. Tests a missed case. Pair: D112",True,True
+13,D113,D133,trap,twin,"Stopped, then restarted at 5 mg. Tests a false alarm (must not stay stopped). Pair: D133",Stopped and not restarted. Tests a missed case. Pair: D113,True,True
+14,D114,D134,trap,twin,Relative takes the medicine ('Her son'). Tests a false alarm. Pair: D134,Patient takes the medicine. Tests a missed case. Pair: D114,True,True
+15,D115,D135,trap,twin,Medicine not started ('was not started'). Tests a false alarm. Pair: D135,Medicine started ('was started'). Tests a missed case. Pair: D115,True,True
+16,D116,D136,trap,twin,Negative skin test (no allergy). Tests a false alarm. Pair: D136,Positive skin test (allergy). Tests a missed case. Pair: D116. Key decision: positive test = current allergy,True,True
+17,D117,D137,trap,twin,Same allergy written twice. Tests a false alarm (duplicate). Pair: D137,"Second, different allergy (peanut). Tests a missed case. Pair: D117",True,True
+18,D118,D138,trap,twin,Same drug under brand and generic (Panadol and paracetamol). Tests a false alarm (duplicate). Pair: D138,"Second, different drug (tramadol). Tests a missed case. Pair: D118",True,True
+19,D119,D139,trap,twin,Stopped ('no longer taking'). Tests a false alarm. Pair: D139,Still taking. Tests a missed case. Pair: D119,True,True
+20,D120,D140,trap,twin,Conditional plan ('If her pain returns'). Tests a false alarm. Pair: D140,Plan stated plainly. Tests a missed case. Pair: D120,False,True
