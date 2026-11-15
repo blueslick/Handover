@@ -13,9 +13,11 @@ import { loadOmission } from "@/lib/omission";
 import { splitSections } from "@/lib/sections";
 import { formatDate, joinWords } from "@/lib/dates";
 import { bannerLines } from "@/lib/banner";
+import { conflictPlan } from "@/lib/checkOptions";
 import { factName } from "@/lib/names";
 import { hospitalEntries } from "@/lib/timeline";
 import BaselineSummary from "./components/BaselineSummary";
+import CheckOptionsBox from "./components/CheckOptionsBox";
 import CompareView from "./components/CompareView";
 import ConflictView, { HospitalDot, recordsRisk } from "./components/ConflictView";
 import FactList from "./components/FactList";
@@ -492,6 +494,8 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
           <p className="text-soft">Both records are shown. The tool does not pick one.</p>
         </div>
         <ConflictView facts={group} />
+        {/* T80: the options for checking it, so the doctor is not left with a warning alone. */}
+        <CheckOptionsBox plan={conflictPlan(group)} />
       </Page>
     );
   }
@@ -512,7 +516,7 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
               <h2 className="text-2xl font-medium leading-tight">{conflictTitle(group)}: hospitals disagree</h2>
               <p className="mt-2 text-soft">{line ? line.text.slice(line.text.indexOf(": ") + 2) : "Two hospital records say different things."}</p>
               <Link href={href(pid, { show: `conflict-${g}` })} className="mt-3 inline-block font-medium underline underline-offset-2">
-                See both records
+                See both records and ways to check
               </Link>
             </div>
             {/* A picture of the two sides: orange for the side that records something. */}

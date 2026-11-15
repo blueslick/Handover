@@ -1,10 +1,12 @@
 // Where one fact came from (T75), shown in the right-hand panel when its line is tapped:
 // the latest source and its quote word for word, every other hospital that says the same,
 // the earlier values, and any warning. This is the "fact card" of the Minimal look.
+import { factPlans } from "@/lib/checkOptions";
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import { formatDate } from "@/lib/dates";
 import { factName } from "@/lib/names";
 import type { Fact } from "@/lib/types";
+import CheckOptionsBox from "./CheckOptionsBox";
 import { factDetail } from "./FactRow";
 import Quote, { quoteTerms } from "./Quote";
 
@@ -75,6 +77,11 @@ export default function SourcePanel({ fact, headingId = "source-heading" }: { fa
           ))}
         </ul>
       )}
+
+      {/* T80: for each warning, the options for checking it. */}
+      {factPlans(fact).map((plan) => (
+        <CheckOptionsBox key={plan.key} plan={plan} compact idPrefix={`check-${headingId}`} />
+      ))}
     </section>
   );
 }
