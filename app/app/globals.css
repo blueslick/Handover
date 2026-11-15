@@ -22,3 +22,19 @@ body {
   outline: 4px solid #b45309;
   outline-offset: 4px;
 }
+
+/* T71 item 36: text a little larger on bigger screens (a laptop on a projector), so
+   spacing grows with it. Phones keep the default size. One root size, nothing else. */
+@media (min-width: 640px) {
+  html {
+    font-size: 106.25%;
+  }
+}
+@media (min-width: 1024px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+body {
+  line-height: 1.6;
+}
