@@ -47,7 +47,7 @@ const freq = (x: string | null) => (x ? (FREQUENCY_LABELS[x] ?? x) : "");
 
 // The old and new dose, in words. The frequency is said once when it did not change
 // ("500 mg to 1000 mg twice a day") and on both sides when it did.
-export function doseChange(f: Fact): { from: string; to: string } | null {
+export function doseChange(f: Fact): { from: string; to: string; sameFreq: boolean } | null {
   const earlier = [...f.history]
     .filter((h) => h.dose && h.dose !== f.dose)
     .sort((a, b) => (a.date < b.date ? -1 : 1))
@@ -56,7 +56,7 @@ export function doseChange(f: Fact): { from: string; to: string } | null {
   const sameFreq = (earlier.frequency ?? "") === (f.frequency ?? "");
   const from = sameFreq ? earlier.dose! : [earlier.dose, freq(earlier.frequency)].filter(Boolean).join(" ");
   const to = [f.dose, freq(f.frequency)].filter(Boolean).join(" ");
-  return { from, to };
+  return { from, to, sameFreq };
 }
 
 export function bannerLines(facts: Fact[]): BannerLine[] {

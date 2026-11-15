@@ -2,7 +2,7 @@
 // the source quote, and any warning. Nothing here relies on colour alone.
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
-import { factAnchor } from "@/lib/banner";
+import { doseChange, factAnchor } from "@/lib/banner";
 import { statusStyle } from "@/lib/statusStyle";
 import { factName } from "@/lib/names";
 
@@ -22,10 +22,18 @@ function headline(fact: Fact): string {
 }
 
 // Dose, frequency and reaction, joined into one line when present.
+// T68 item 15: when the dose changed, the old and new dose sit on one line:
+// "500 mg → 1000 mg, twice a day".
 function details(fact: Fact): string {
   const parts: string[] = [];
-  if (fact.dose) parts.push(fact.dose);
-  if (fact.frequency) parts.push(FREQUENCY_LABELS[fact.frequency] ?? fact.frequency);
+  const change = fact.flags.includes("dose_changed") ? doseChange(fact) : null;
+  if (change) {
+    parts.push(change.sameFreq ? `${change.from} → ${fact.dose}` : `${change.from} → ${change.to}`);
+    if (change.sameFreq && fact.frequency) parts.push(FREQUENCY_LABELS[fact.frequency] ?? fact.frequency);
+  } else {
+    if (fact.dose) parts.push(fact.dose);
+    if (fact.frequency) parts.push(FREQUENCY_LABELS[fact.frequency] ?? fact.frequency);
+  }
   if (fact.reaction) parts.push(`reaction: ${fact.reaction}`);
   return parts.join(", ");
 }
