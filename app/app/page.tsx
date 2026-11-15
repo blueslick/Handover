@@ -222,6 +222,10 @@ export default function Home({ searchParams }: { searchParams: SearchParams }) {
   return (
     <main className="flex-1 p-4 sm:p-8 max-w-5xl w-full mx-auto">
       <h1 className="text-3xl font-semibold">Handover</h1>
+      {/* T68 item 1: one-line pitch, so the first screen says what this is. */}
+      <p className="mt-1 text-lg text-zinc-800">
+        One patient record merged from three hospitals, with the source of every fact.
+      </p>
 
       {/* A plain GET form: submitting it puts the ID in the address. */}
       <form action="/" method="get" className="mt-4">
