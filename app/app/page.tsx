@@ -8,6 +8,7 @@ import { loadOmission } from "@/lib/omission";
 import { splitSections } from "@/lib/sections";
 import { formatDate, joinWords } from "@/lib/dates";
 import { summariseSources } from "@/lib/sourcesSummary";
+import BaselineSummary from "./components/BaselineSummary";
 import CompareView from "./components/CompareView";
 import FactList from "./components/FactList";
 import OlderRecordNote from "./components/OlderRecordNote";
@@ -219,11 +220,14 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
   const live = view === "handover" ? liveRun(record.patient_id) : undefined;
   const src = summariseSources(facts);
+  // T68 item 22: in the baseline view, the Handover record is loaded too, to work out the differences.
+  const handoverForDiff = view === "baseline" ? await loadRecordState(record.patient_id, "handover") : null;
 
   return (
     <>
     <ViewSwitch id={record.patient_id} view={view} />
     {view === "baseline" && <BaselineNote />}
+    {handoverForDiff?.state === "ok" && <BaselineSummary handover={handoverForDiff.record} baseline={record} />}
     {live && <LiveNote run={live} />}
     <div className="mt-6">
       <h2 className="text-2xl font-semibold">

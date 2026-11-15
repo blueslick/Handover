@@ -4,6 +4,7 @@
 import { splitSections } from "@/lib/sections";
 import type { CompiledRecord } from "@/lib/types";
 import FactList from "./FactList";
+import BaselineSummary from "./BaselineSummary";
 import WarningBanner from "./WarningBanner";
 
 function SideLabel({ which }: { which: "handover" | "baseline" }) {
@@ -44,6 +45,7 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
           <p className="border-2 border-dashed border-zinc-500 rounded p-4">
             The baseline gives no warnings: it has no checks, no conflict rule and no stop rule.
           </p>
+          <BaselineSummary handover={handover} baseline={baseline} />
         </div>
       </div>
 
