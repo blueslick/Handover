@@ -1,0 +1,33 @@
+row,name,scope,age_band,sex,patients,key_facts,output_facts,matched,missed,false_alarms,wrong_status,duplicates,dose_correct,dose_wrong,dose_not_applicable,conflict_shown,conflict_facts,recall,precision
+1,"Keyword search, stack everything",all,0-19,F,20,198,324,116,82,208,24,163,30,0,5,0,8,0.586,0.358
+1,"Keyword search, stack everything",critical,0-19,F,20,125,324,116,9,208,24,163,30,0,5,0,8,0.928,0.358
+1,"Keyword search, stack everything",all,0-19,M,20,136,194,64,72,130,20,86,23,0,5,0,6,0.471,0.33
+1,"Keyword search, stack everything",critical,0-19,M,20,79,194,64,15,130,20,86,23,0,5,0,6,0.81,0.33
+1,"Keyword search, stack everything",all,20-44,F,20,191,300,96,95,204,48,132,42,0,6,0,6,0.503,0.32
+1,"Keyword search, stack everything",critical,20-44,F,20,107,300,96,11,204,48,132,42,0,6,0,6,0.897,0.32
+1,"Keyword search, stack everything",all,20-44,M,20,165,250,91,74,159,14,127,34,0,6,0,2,0.552,0.364
+1,"Keyword search, stack everything",critical,20-44,M,20,103,250,91,12,159,14,127,34,0,6,0,2,0.883,0.364
+1,"Keyword search, stack everything",all,45-64,F,20,271,393,135,136,258,31,203,60,0,7,0,4,0.498,0.344
+1,"Keyword search, stack everything",critical,45-64,F,20,147,393,135,12,258,31,203,60,0,7,0,4,0.918,0.344
+1,"Keyword search, stack everything",all,45-64,M,20,189,197,79,110,118,17,80,56,0,3,0,4,0.418,0.401
+1,"Keyword search, stack everything",critical,45-64,M,20,94,197,79,15,118,17,80,56,0,3,0,4,0.84,0.401
+1,"Keyword search, stack everything",all,65+,F,20,236,180,68,168,112,28,76,48,0,2,0,2,0.288,0.378
+1,"Keyword search, stack everything",critical,65+,F,20,85,180,68,17,112,28,76,48,0,2,0,2,0.8,0.378
+1,"Keyword search, stack everything",all,65+,M,20,282,226,103,179,123,20,80,76,0,7,0,6,0.365,0.456
+1,"Keyword search, stack everything",critical,65+,M,20,121,226,103,18,123,20,80,76,0,7,0,6,0.851,0.456
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,0-19,F,20,198,200,198,0,2,0,0,38,0,36,8,8,1.0,0.99
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,0-19,F,20,125,127,125,0,2,0,0,30,0,6,8,8,1.0,0.984
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,0-19,M,20,136,143,134,2,9,2,0,30,0,30,6,6,0.985,0.937
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,0-19,M,20,79,88,79,0,9,2,0,23,0,5,6,6,1.0,0.898
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,20-44,F,20,191,195,191,0,4,0,0,54,0,52,6,6,1.0,0.979
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,20-44,F,20,107,111,107,0,4,0,0,42,0,6,6,6,1.0,0.964
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,20-44,M,20,165,169,164,1,5,1,0,41,0,25,2,2,0.994,0.97
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,20-44,M,20,103,108,103,0,5,1,0,34,0,6,2,2,1.0,0.954
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,45-64,F,20,271,275,270,1,5,0,0,69,0,38,4,4,0.996,0.982
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,45-64,F,20,147,151,146,1,5,0,0,60,0,7,4,4,0.993,0.967
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,45-64,M,20,189,194,188,1,6,0,0,64,0,25,4,4,0.995,0.969
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,45-64,M,20,94,99,94,0,5,0,0,56,0,3,4,4,1.0,0.949
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,65+,F,20,236,237,234,2,3,0,0,55,0,33,2,2,0.992,0.987
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,65+,F,20,85,86,84,1,2,0,0,48,0,2,2,2,0.988,0.977
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,65+,M,20,282,289,276,6,13,2,0,86,0,26,6,6,0.979,0.955
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,65+,M,20,121,129,119,2,10,2,0,76,0,7,6,6,0.983,0.922

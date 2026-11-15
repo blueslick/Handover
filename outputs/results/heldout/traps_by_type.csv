@@ -1,0 +1,11 @@
+trap_type,row,method,traps,caught,caught_dose_not_checked,not_caught,label_overtaken,key_fact_not_found,caught_of_scored
+silent_medicine,1,"Keyword search, stack everything",62,62,62,0,0,0,1.0
+silent_medicine,7,"Claude, status labels + Check + six merge rules (the full tool)",62,62,62,0,0,0,1.0
+dose_change,1,"Keyword search, stack everything",54,1,54,53,0,0,0.019
+dose_change,7,"Claude, status labels + Check + six merge rules (the full tool)",54,54,54,0,0,0,1.0
+stop_one_hospital,1,"Keyword search, stack everything",77,0,0,74,3,0,0.0
+stop_one_hospital,7,"Claude, status labels + Check + six merge rules (the full tool)",77,72,72,2,3,0,0.973
+allergy_missed,1,"Keyword search, stack everything",67,67,67,0,0,0,1.0
+allergy_missed,7,"Claude, status labels + Check + six merge rules (the full tool)",67,67,67,0,0,0,1.0
+all,1,"Keyword search, stack everything",260,130,183,127,3,0,0.506
+all,7,"Claude, status labels + Check + six merge rules (the full tool)",260,255,255,2,3,0,0.992

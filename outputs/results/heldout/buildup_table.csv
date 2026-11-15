@@ -1,0 +1,17 @@
+row,name,scope,patients,key_facts,output_facts,matched,missed,false_alarms,wrong_status,duplicates,dose_correct,dose_wrong,dose_not_applicable,conflict_shown,conflict_facts,recall,precision
+1,"Keyword search, stack everything",all,160,1668,2064,752,916,1312,202,947,369,0,41,0,38,0.451,0.364
+1,"Keyword search, stack everything",critical,160,861,2064,752,109,1312,202,947,369,0,41,0,38,0.873,0.364
+2,"medSpaCy, stack everything",all,160,1668,2426,1157,511,1269,0,1183,403,35,273,0,38,0.694,0.477
+2,"medSpaCy, stack everything",critical,160,861,2075,861,0,1214,0,1140,367,2,46,0,38,1.0,0.415
+3,Keyword search + six merge rules,all,160,1668,1049,752,916,297,202,3,369,0,41,10,38,0.451,0.717
+3,Keyword search + six merge rules,critical,160,861,1049,752,109,297,202,3,369,0,41,10,38,0.873,0.717
+4,"Claude, plain lists, stack everything",all,160,1668,3518,1246,422,2272,205,1843,367,0,32,0,38,0.747,0.354
+4,"Claude, plain lists, stack everything",critical,160,861,2034,741,120,1293,205,886,367,0,32,0,38,0.861,0.364
+5,"Claude, status labels, stack everything",all,160,1668,3934,1620,48,2314,3,2040,402,33,235,0,38,0.971,0.412
+5,"Claude, status labels, stack everything",critical,160,861,2098,844,17,1254,3,1049,366,0,32,0,38,0.98,0.402
+6,"Claude, status labels + Check, stack everything",all,160,1668,3934,1659,9,2275,1,2138,405,33,268,0,38,0.995,0.422
+6,"Claude, status labels + Check, stack everything",critical,160,861,2098,857,4,1241,1,1128,369,0,42,0,38,0.995,0.408
+7,"Claude, status labels + Check + six merge rules (the full tool)",all,160,1668,1702,1655,13,47,5,0,437,0,265,38,38,0.992,0.972
+7,"Claude, status labels + Check + six merge rules (the full tool)",critical,160,861,899,857,4,42,5,0,369,0,42,38,38,0.995,0.953
+8,"The full tool (row 7) on Claude Haiku 5.5, a cheaper second model, for comparison",all,160,1668,1712,1652,16,60,6,6,437,0,262,38,38,0.99,0.965
+8,"The full tool (row 7) on Claude Haiku 5.5, a cheaper second model, for comparison",critical,160,861,904,857,4,47,6,6,369,0,42,38,38,0.995,0.948
