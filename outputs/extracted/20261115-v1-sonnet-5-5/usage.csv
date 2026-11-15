@@ -1,0 +1,16 @@
+patient_id,hospital,attempt,model,prompt_version,input_tokens,output_tokens,called_at_utc
+P001,A,1,claude-sonnet-5-5,v1,2902,310,2026-11-15T00:12:22Z
+P001,B,1,claude-sonnet-5-5,v1,2893,354,2026-11-15T00:12:26Z
+P001,C,1,claude-sonnet-5-5,v1,2941,338,2026-11-15T00:12:29Z
+P002,A,1,claude-sonnet-5-5,v1,2820,185,2026-11-15T00:12:32Z
+P002,B,1,claude-sonnet-5-5,v1,2894,298,2026-11-15T00:12:35Z
+P002,C,1,claude-sonnet-5-5,v1,2933,284,2026-11-15T00:12:38Z
+P003,A,1,claude-sonnet-5-5,v1,3157,771,2026-11-15T00:12:40Z
+P003,B,1,claude-sonnet-5-5,v1,2943,655,2026-11-15T00:12:45Z
+P003,C,1,claude-sonnet-5-5,v1,2969,719,2026-11-15T00:12:49Z
+P004,A,1,claude-sonnet-5-5,v1,2982,485,2026-11-15T00:12:54Z
+P004,B,1,claude-sonnet-5-5,v1,2904,389,2026-11-15T00:12:57Z
+P004,C,1,claude-sonnet-5-5,v1,2898,252,2026-11-15T00:13:00Z
+P005,A,1,claude-sonnet-5-5,v1,3147,746,2026-11-15T00:13:03Z
+P005,B,1,claude-sonnet-5-5,v1,2978,838,2026-11-15T00:13:07Z
+P005,C,1,claude-sonnet-5-5,v1,3031,911,2026-11-15T00:13:12Z

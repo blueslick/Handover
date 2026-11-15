@@ -1,0 +1,400 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P005",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "built_from": [
+    "P005_A.csv",
+    "P005_B.txt",
+    "P005_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P005-F01",
+      "patient_id": "P005",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He has no known allergies.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-14",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- NKA",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F02",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Augmentin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-06-06",
+      "quote": "1. Augmentin - stopped 06-Jun-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-06-06",
+          "quote": "1. Augmentin - stopped 06-Jun-2019",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "three_times_daily",
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He takes amoxicillin and clavulanate three times a day."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F03",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Durogesic",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "2. Durogesic 25 mcg as a patch changed every 72 hours",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F04",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "Zohydro ER",
+      "dose": "10 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "1. Zohydro ER 10 mg BD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "1. Zohydro ER 10 mg BD",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F05",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2018-10-10",
+      "quote": "His ibuprofen was stopped on 10 October 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-10-10",
+          "quote": "His ibuprofen was stopped on 10 October 2018.",
+          "file": "P005_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F06",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "leucovorin",
+      "name_as_written": "Wellcovorin",
+      "dose": "100 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "3. Wellcovorin 100 mg every 2 weeks",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-10-22",
+          "quote": "MEDICATION,Leucovorin,100 mg,every 2 weeks,Active,2018-10-22,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on leucovorin 100 mg every 2 weeks.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "3. Wellcovorin 100 mg every 2 weeks",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F07",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "oxaliplatin",
+      "name_as_written": "oxaliplatin",
+      "dose": "50 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2019-05-26",
+      "quote": "He continues on oxaliplatin 50 mg every 2 weeks.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-10-22",
+          "quote": "MEDICATION,Oxaliplatin,50 mg,every 2 weeks,Active,2018-10-22,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He continues on oxaliplatin 50 mg every 2 weeks.",
+          "file": "P005_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F08",
+      "patient_id": "P005",
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramal",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "4. Tramal 50 mg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "4. Tramal 50 mg PRN",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F09",
+      "patient_id": "P005",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-08-05",
+          "quote": "PROBLEM,Anemia,,,Active,2007-08-05,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He is known to have anemia.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Anemia",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F10",
+      "patient_id": "P005",
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Polyp of colon",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-07-20",
+          "quote": "PROBLEM,Polyp of colon,,,Active,2017-07-20,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "He is known to have polyp of colon.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Polyp of colon",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F11",
+      "patient_id": "P005",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-08-05",
+          "quote": "PROBLEM,Prediabetes,,,Active,2007-08-05,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "His background includes prediabetes.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Prediabetes",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P005-F12",
+      "patient_id": "P005",
+      "type": "diagnosis",
+      "name": "recurrent rectal polyp",
+      "name_as_written": "Recurrent rectal polyp",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-14",
+      "quote": "- Recurrent rectal polyp",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-09-12",
+          "quote": "PROBLEM,Recurrent rectal polyp,,,Active,2018-09-12,",
+          "file": "P005_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-05-26",
+          "quote": "His background includes recurrent rectal polyp.",
+          "file": "P005_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-14",
+          "quote": "- Recurrent rectal polyp",
+          "file": "P005_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

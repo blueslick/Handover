@@ -1,0 +1,217 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P001",
+  "run_id": "20261115-v1-haiku-5-5",
+  "built_from": [
+    "P001_A.csv",
+    "P001_B.txt",
+    "P001_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P001-F01",
+      "patient_id": "P001",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-14",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-20",
+          "quote": "- NKA",
+          "file": "P001_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-12",
+          "quote": "She has no known allergies.",
+          "file": "P001_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-14",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P001_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F02",
+      "patient_id": "P001",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-14",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-14,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-14",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-11-14,",
+          "file": "P001_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-08-12",
+          "quote": "She continues on amlodipine 5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F03",
+      "patient_id": "P001",
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Nexplanon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-05-19",
+      "quote": "1. Nexplanon - stopped 19-May-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-05-19",
+          "quote": "1. Nexplanon - stopped 19-May-2020",
+          "file": "P001_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F04",
+      "patient_id": "P001",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levora",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2018-05-30",
+      "quote": "2. Levora - stopped 30-May-2018",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-05-30",
+          "quote": "2. Levora - stopped 30-May-2018",
+          "file": "P001_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F05",
+      "patient_id": "P001",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-12",
+      "quote": "She takes lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-08-12",
+          "quote": "She takes lisinopril 10 mg once a day.",
+          "file": "P001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F06",
+      "patient_id": "P001",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-12-20",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-20",
+          "quote": "Nil regular medications",
+          "file": "P001_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P001-F07",
+      "patient_id": "P001",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-12",
+      "quote": "She is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-28",
+          "quote": "PROBLEM,Hypertension,,,Active,2021-07-28,",
+          "file": "P001_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-12",
+          "quote": "She is known to have hypertension.",
+          "file": "P001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

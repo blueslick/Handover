@@ -1,0 +1,68 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P004",
+  "hospital": "B",
+  "source_file": "P004_B.txt",
+  "run_id": "20261115-v1-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2905,
+    "output_tokens": 725
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-23",
+      "quote": "Her background includes chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-08-23",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "drospirenone and ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-23",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-07-10",
+      "quote": "Her paracetamol was stopped on 10 July 2018.",
+      "flags": []
+    }
+  ]
+}

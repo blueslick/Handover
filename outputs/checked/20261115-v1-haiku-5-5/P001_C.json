@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P001",
+  "hospital": "C",
+  "source_file": "P001_C.txt",
+  "run_id": "20261115-v1-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2942,
+    "output_tokens": 339
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-12-20",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-12-20",
+      "quote": "Nil regular medications",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Nexplanon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2020-05-19",
+      "quote": "1. Nexplanon - stopped 19-May-2020",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levora",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-05-30",
+      "quote": "2. Levora - stopped 30-May-2018",
+      "flags": []
+    }
+  ]
+}

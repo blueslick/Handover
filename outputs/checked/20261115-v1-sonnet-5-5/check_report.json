@@ -1,0 +1,157 @@
+{
+  "run_id": "20261115-v1-sonnet-5-5",
+  "records": {
+    "P001_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P001_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P001_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P002_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P002_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P002_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P003_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P003_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P003_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P004_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P004_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P004_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P005_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P005_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P005_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    }
+  },
+  "needs_retry": [],
+  "failed": []
+}

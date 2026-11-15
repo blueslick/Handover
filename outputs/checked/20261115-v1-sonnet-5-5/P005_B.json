@@ -1,0 +1,128 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P005",
+  "hospital": "B",
+  "source_file": "P005_B.txt",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2978,
+    "output_tokens": 838
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "He is known to have anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "His background includes prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "He is known to have polyp of colon.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "recurrent rectal polyp",
+      "name_as_written": "recurrent rectal polyp",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "His background includes recurrent rectal polyp.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2019-05-26",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "oxaliplatin",
+      "name_as_written": "oxaliplatin",
+      "dose": "50 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "He continues on oxaliplatin 50 mg every 2 weeks.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "leucovorin",
+      "name_as_written": "leucovorin",
+      "dose": "100 mg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "He continues on leucovorin 100 mg every 2 weeks.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-26",
+      "quote": "He takes amoxicillin and clavulanate three times a day.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-10-10",
+      "quote": "His ibuprofen was stopped on 10 October 2018.",
+      "flags": []
+    }
+  ]
+}

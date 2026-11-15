@@ -1,0 +1,16 @@
+patient_id,hospital,attempt,model,prompt_version,input_tokens,output_tokens,called_at_utc
+P001,A,1,claude-haiku-5-5,v1,2903,1019,2026-11-15T00:13:21Z
+P001,B,1,claude-haiku-5-5,v1,2894,355,2026-11-15T00:13:27Z
+P001,C,1,claude-haiku-5-5,v1,2942,339,2026-11-15T00:13:29Z
+P002,A,1,claude-haiku-5-5,v1,2821,246,2026-11-15T00:13:31Z
+P002,B,1,claude-haiku-5-5,v1,2895,683,2026-11-15T00:13:33Z
+P002,C,1,claude-haiku-5-5,v1,2934,849,2026-11-15T00:13:36Z
+P003,A,1,claude-haiku-5-5,v1,3158,1381,2026-11-15T00:13:40Z
+P003,B,1,claude-haiku-5-5,v1,2944,1022,2026-11-15T00:13:46Z
+P003,C,1,claude-haiku-5-5,v1,2970,720,2026-11-15T00:13:50Z
+P004,A,1,claude-haiku-5-5,v1,2983,1306,2026-11-15T00:13:53Z
+P004,B,1,claude-haiku-5-5,v1,2905,725,2026-11-15T00:13:58Z
+P004,C,1,claude-haiku-5-5,v1,2899,253,2026-11-15T00:14:02Z
+P005,A,1,claude-haiku-5-5,v1,3148,1453,2026-11-15T00:14:04Z
+P005,B,1,claude-haiku-5-5,v1,2979,1420,2026-11-15T00:14:09Z
+P005,C,1,claude-haiku-5-5,v1,3032,1842,2026-11-15T00:14:14Z
