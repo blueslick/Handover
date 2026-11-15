@@ -46,16 +46,20 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
           ))}
         </div>
       </div>
-      <div className="mt-4 overflow-x-auto">
+      {/* Top padding leaves room for the hover extras, which open above the bars. */}
+      <div className="mt-2 overflow-x-auto pt-14">
         <ol className="flex min-w-[36rem] items-end gap-3">
           {rows.map((r) => {
             const value = r[measure];
-            const full = r.row === 7;
-            const base = r.row === 1;
+            // Same colours as the table: baselines (rows 1 to 3) orange, the full tool (rows 7 and 8) dark green.
+            const full = r.row === 7 || r.row === 8;
+            const base = r.row >= 1 && r.row <= 3;
+            const main = r.row === 7;
             return (
               <li key={r.row} className="flex flex-1 flex-col items-center gap-1.5">
                 <Tip
                   className="w-full flex-col items-center gap-1.5"
+                  up
                   tip={
                     <>
                       <span className="block font-medium">
@@ -67,7 +71,7 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
                     </>
                   }
                 >
-                  <span className={`font-medium ${full ? "text-xl text-rail-ink" : ""}`}>{n(value)}</span>
+                  <span className={`font-medium ${main ? "text-xl text-rail-ink" : ""}`}>{n(value)}</span>
                   <span className="flex h-36 w-full items-end justify-center">
                     <span
                       className={`w-full max-w-12 rounded-t-xl rounded-b ${full ? "bg-rail" : base ? "bg-alert" : "bg-leaf"}`}
@@ -75,7 +79,7 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
                     />
                   </span>
                 </Tip>
-                <span className={`h-12 text-center text-xs leading-tight ${full ? "font-medium text-rail-ink" : "text-soft"}`}>
+                <span className={`h-12 text-center text-xs leading-tight ${main ? "font-medium text-rail-ink" : "text-soft"}`}>
                   {SHORT[r.row] ?? r.method}
                 </span>
               </li>
@@ -83,7 +87,7 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
           })}
         </ol>
       </div>
-      <p className="mt-1 text-sm text-soft">Orange is the keyword baseline. Dark green is the full tool. Shorter is better.</p>
+      <p className="mt-1 text-sm text-soft">Orange bars are the baselines (no AI). Dark green is the full tool. Shorter is better.</p>
     </>
   );
 }

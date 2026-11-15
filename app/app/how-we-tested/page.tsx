@@ -8,7 +8,6 @@
 import { Suspense } from "react";
 import { loadResults, type AgeSexRow, type ResultRow, type Results } from "@/lib/results";
 import Page, { Card } from "../components/Page";
-import Tip from "../components/Tip";
 import CostLine from "./CostLine";
 import StepChart from "./StepChart";
 
@@ -28,12 +27,12 @@ function outOf(n: number | null, total: number | null): string {
 // A section that opens on a tap, with "Show" or "Hide" written on it.
 function Fold({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <details className="group rounded-3xl bg-white">
+    <details className="group/fold rounded-3xl bg-white">
       <summary className="flex items-center justify-between gap-4 p-5 sm:px-6">
         <h2 className="text-lg font-medium">{title}</h2>
         <span className="rounded-full bg-mint px-4 py-1 text-sm font-medium text-rail-ink">
-          <span className="group-open:hidden">Show</span>
-          <span className="hidden group-open:inline">Hide</span>
+          <span className="group-open/fold:hidden">Show</span>
+          <span className="hidden group-open/fold:inline">Hide</span>
         </span>
       </summary>
       <div className="px-5 pb-5 sm:px-6 sm:pb-6">{children}</div>
@@ -41,7 +40,7 @@ function Fold({ title, children }: { title: string; children: React.ReactNode })
   );
 }
 
-// What each column of the table means (shown on hover over the heading, and listed under the table).
+// What each column of the table means, listed under the table.
 const COLUMN_MEANING = {
   missed: "A fact in the answer key that the method did not find.",
   false_alarms: "A fact the method reported that is not in the answer key.",
@@ -50,15 +49,23 @@ const COLUMN_MEANING = {
   conflicts: "Places where hospitals disagree that the method showed side by side.",
 };
 
-// T71 item 30: the two rows the headline compares get a tag in words and their own
-// background, so they don't rely on colour alone.
+// T71 item 30, widened after Abby's review: every baseline row (rows 1 to 3, no AI) has
+// one colour and every full-tool row (row 7, and row 8 on the cheaper model) has another.
+// Each also gets a tag in words, so nothing relies on colour alone. Rows 4 to 6 are the
+// in-between steps and stay plain.
+const BASELINE = { word: "Baseline", row: "bg-peach", tag: "bg-alert text-white" };
+const FULL = { word: "Full tool", row: "bg-leaf", tag: "bg-rail text-white" };
 const ROW_MARKS: Record<number, { word: string; row: string; tag: string }> = {
-  1: { word: "Baseline", row: "bg-peach", tag: "bg-alert text-white" },
-  7: { word: "Full tool", row: "bg-leaf font-medium", tag: "bg-rail text-white" },
+  1: BASELINE,
+  2: BASELINE,
+  3: BASELINE,
+  7: { ...FULL, row: "bg-leaf font-medium" },
+  8: FULL,
 };
 
-const th = "px-3 py-2 text-left text-sm font-normal text-soft whitespace-nowrap";
-const td = "px-3 py-2.5";
+// Cells never break a number over two lines; if the table is wider than the screen it scrolls sideways.
+const th = "px-2 py-2 text-left align-bottom text-sm font-normal text-soft";
+const td = "px-2 py-2.5 whitespace-nowrap";
 
 // The build-up table. Scrolls sideways on a phone rather than squashing the columns.
 function ResultsTable({ rows }: { rows: ResultRow[] }) {
@@ -67,21 +74,22 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
       <p className="text-sm text-soft">
         {rows[0]?.key_facts != null ? `All ${rows[0].key_facts.toLocaleString("en-GB")} facts` : "All facts"} in the
         held-out answer keys (allergies, medicines, diagnoses and operations). Rows 1 to 7 each add one step to the
-        row above. Row 8 is the full tool again on a second, cheaper model.
+        row above. Row 8 is the full tool again on a second, cheaper model. Baseline rows (no AI) are orange and
+        full-tool rows are green.
       </p>
-      <p className="mt-2 text-sm text-soft sm:hidden">Scroll sideways to see every column.</p>
+      <p className="mt-2 text-sm text-soft lg:hidden">Scroll sideways to see every column.</p>
       <div className="mt-2 overflow-x-auto">
-        <table className="min-w-full border-separate border-spacing-y-1">
+        <table className="min-w-full border-separate border-spacing-y-1 text-sm">
           <caption className="sr-only">Results for each method, one row per method</caption>
           <thead>
             <tr>
               <th scope="col" className={th}>Row</th>
-              <th scope="col" className={`${th} min-w-[16rem]`}>Method</th>
+              <th scope="col" className={th}>Method</th>
               <th scope="col" className={th}>Uses AI</th>
-              <th scope="col" className={th}><Tip tip={COLUMN_MEANING.missed}>Missed</Tip></th>
-              <th scope="col" className={th}><Tip tip={COLUMN_MEANING.false_alarms}>False alarms</Tip></th>
-              <th scope="col" className={th}><Tip tip={COLUMN_MEANING.wrong_status}>Wrong status</Tip></th>
-              <th scope="col" className={th}><Tip tip={COLUMN_MEANING.conflicts}>Conflicts shown</Tip></th>
+              <th scope="col" className={th}>Missed</th>
+              <th scope="col" className={th}>False alarms</th>
+              <th scope="col" className={th}>Wrong status</th>
+              <th scope="col" className={th}>Conflicts shown</th>
             </tr>
           </thead>
           <tbody>
@@ -90,12 +98,12 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
               return (
                 <tr key={r.row} className={mark?.row}>
                   <td className={`${td} rounded-l-2xl`}>{r.row}</td>
-                  <th scope="row" className={`${td} text-left font-normal`}>
-                    {mark && <span className={`mr-2 inline-block rounded-full px-3 py-0.5 text-sm font-medium ${mark.tag}`}>{mark.word}</span>}
+                  <th scope="row" className="px-2 py-2.5 text-left font-normal min-w-[11rem] whitespace-normal">
+                    {mark && <span className={`mr-2 inline-block whitespace-nowrap rounded-full px-3 py-0.5 text-xs font-medium ${mark.tag}`}>{mark.word}</span>}
                     {r.method}
                   </th>
                   <td className={td}>{r.uses_ai ? "Yes" : "No"}</td>
-                  <td className={td}>{outOf(r.missed, r.key_facts)}</td>
+                  <td className={td}>{count(r.missed)}</td>
                   <td className={td}>{count(r.false_alarms)}</td>
                   <td className={td}>{count(r.wrong_status)}</td>
                   <td className={`${td} rounded-r-2xl`}>{outOf(r.conflicts_shown, r.conflicts_total ?? null)}</td>
@@ -187,21 +195,22 @@ function AgeSexTable({ groups }: { groups?: AgeSexRow[] }) {
     <>
       <p className="text-sm text-soft">
         Every held-out patient is in one of eight groups: four age bands, each split by sex. The full tool is
-        row 7 of the table and the baseline is row 1.
+        row 7 of the table and the baseline is row 1. The orange row is the weakest group: the one where the full
+        tool missed the largest share of facts.
       </p>
-      <p className="mt-2 text-sm text-soft sm:hidden">Scroll sideways to see every column.</p>
+      <p className="mt-2 text-sm text-soft lg:hidden">Scroll sideways to see every column.</p>
       <div className="mt-2 overflow-x-auto">
-        <table className="min-w-full border-separate border-spacing-y-1">
+        <table className="min-w-full border-separate border-spacing-y-1 text-sm">
           <caption className="sr-only">Missed facts and false alarms for each age band and sex</caption>
           <thead>
             <tr>
               <th scope="col" className={th}>Age band</th>
               <th scope="col" className={th}>Sex</th>
               <th scope="col" className={th}>Patients</th>
-              <th scope="col" className={th}>Full tool: missed</th>
-              <th scope="col" className={th}>Full tool: false alarms</th>
-              <th scope="col" className={th}>Baseline: missed</th>
-              <th scope="col" className={th}>Baseline: false alarms</th>
+              <th scope="col" className={th}>Tool missed</th>
+              <th scope="col" className={th}>Tool false alarms</th>
+              <th scope="col" className={th}>Baseline missed</th>
+              <th scope="col" className={th}>Baseline false alarms</th>
             </tr>
           </thead>
           <tbody>
@@ -212,12 +221,12 @@ function AgeSexTable({ groups }: { groups?: AgeSexRow[] }) {
                   <th scope="row" className={`${td} rounded-l-2xl text-left font-normal`}>{g.age_band}</th>
                   <td className={td}>
                     {g.sex === "F" ? "Female" : g.sex === "M" ? "Male" : g.sex}
-                    {weak && <span className="ml-2 rounded-full bg-alert px-3 py-0.5 text-sm font-medium text-white">Weakest group</span>}
+                    {weak && <span className="ml-2 inline-block whitespace-nowrap rounded-full bg-alert px-3 py-0.5 text-xs font-medium text-white">Weakest group</span>}
                   </td>
                   <td className={td}>{count(g.patients)}</td>
                   <td className={td}>{outOf(g.tool_missed, g.key_facts)}</td>
                   <td className={td}>{count(g.tool_false_alarms)}</td>
-                  <td className={td}>{outOf(g.baseline_missed, g.key_facts)}</td>
+                  <td className={td}>{count(g.baseline_missed)}</td>
                   <td className={`${td} rounded-r-2xl`}>{count(g.baseline_false_alarms)}</td>
                 </tr>
               );
@@ -230,7 +239,7 @@ function AgeSexTable({ groups }: { groups?: AgeSexRow[] }) {
 }
 
 // T71 item 32: the tool's steps as plain boxes (HTML, not an image), each saying whether
-// Claude or plain code does it. Stacks down the page on a phone, runs across on a laptop.
+// Claude or plain code does it. One wide row per step, reading down the page.
 const STEPS: { title: string; who: string; what: string; ai?: boolean }[] = [
   { title: "Three records", who: "Input", what: "One record from each hospital, in three layouts." },
   { title: "Extract", who: "Claude (AI)", what: "Reads each record and lists every fact with a word-for-word quote.", ai: true },
@@ -242,18 +251,21 @@ const STEPS: { title: string; who: string; what: string; ai?: boolean }[] = [
 function WorkflowDiagram() {
   return (
     <>
-      <ol className="flex flex-col gap-2 md:flex-row md:items-stretch md:gap-0">
+      {/* Abby's review: five boxes side by side were too narrow to read, so each step is
+          now one full-width row, top to bottom, with an arrow down between them. */}
+      <ol className="flex flex-col">
         {STEPS.map((s, i) => (
-          <li key={s.title} className="flex flex-col md:flex-row md:flex-1 md:items-center">
-            <div className={`flex-1 rounded-2xl p-3 ${s.ai ? "bg-rail text-white" : "bg-mint"}`}>
-              <p className="font-medium">{s.title}</p>
-              <p className="text-sm font-medium">{s.who}</p>
-              <p className="mt-1 text-sm">{s.what}</p>
+          <li key={s.title} className="flex flex-col">
+            <div className={`flex flex-col gap-x-6 gap-y-1 rounded-2xl px-5 py-3 sm:flex-row sm:items-center ${s.ai ? "bg-rail text-white" : "bg-mint"}`}>
+              <div className="sm:w-40 sm:shrink-0">
+                <p className="font-medium">{s.title}</p>
+                <p className="text-sm">{s.who}</p>
+              </div>
+              <p>{s.what}</p>
             </div>
             {i < STEPS.length - 1 && (
-              <span aria-hidden="true" className="self-center px-1 text-xl text-rail md:px-2">
-                <span className="md:hidden">↓</span>
-                <span className="hidden md:inline">→</span>
+              <span aria-hidden="true" className="self-center py-0.5 text-xl leading-none text-rail">
+                ↓
               </span>
             )}
           </li>
@@ -344,12 +356,12 @@ function Aside({ results }: { results: Results | null }) {
               <ul className="mt-1 divide-y divide-sage">
                 {results.failure_examples.map((ex) => (
                   <li key={ex.title}>
-                    <details className="group py-3">
+                    <details className="group/fail py-3">
                       <summary className="flex items-start justify-between gap-3 font-normal">
                         <span>{ex.title}</span>
                         <span className="shrink-0 text-sm font-medium text-rail-ink underline underline-offset-2">
-                          <span className="group-open:hidden">Show</span>
-                          <span className="hidden group-open:inline">Hide</span>
+                          <span className="group-open/fail:hidden">Show</span>
+                          <span className="hidden group-open/fail:inline">Hide</span>
                         </span>
                       </summary>
                       <p className="mt-2 text-sm">{ex.explanation}</p>

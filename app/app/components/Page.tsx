@@ -9,11 +9,14 @@ export default function Page({ children, aside, asideLabel }: { children: React.
         {children}
         <footer className="mt-auto pt-4 text-sm text-soft flex flex-wrap gap-x-6 gap-y-1">
           <p>This project is a prototype and is not medical advice.</p>
+          {/* Opens in a new tab, so the reader keeps their place in the app (Abby's review). */}
           <a
             href="https://github.com/blueslick/Veritas-AI-Hackathon-"
+            target="_blank"
+            rel="noopener noreferrer"
             className="underline underline-offset-2 hover:text-ink"
           >
-            Handover on GitHub
+            Handover on GitHub<span className="sr-only"> (opens in a new tab)</span>
           </a>
         </footer>
       </main>
