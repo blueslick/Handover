@@ -27,6 +27,9 @@ Methodology (set by the team; do not change it here):
 - Duplicate = unmatched output fact with the same type, name and status as a matched fact.
   It counts as a false alarm, and also in the duplicates column.
 - For matched medicines, dose_correct is true, false or not applicable (the key has no dose).
+  Combination medicines (name contains " / ") are never dose-scored (T12): they always count
+  as not applicable. A combination key that carries a dose gets a warning and a count in
+  combination_keys_with_dose, not an error, so a bad key dose cannot change any score.
 - conflict_shown: a key fact with the conflict flag counts only if its output side and every
   other fact in its conflict group are matched to output facts that also carry the conflict flag.
 - Critical facts = allergies and current medicines. Every count is given for all facts and
@@ -62,8 +65,11 @@ DOSE_RE = re.compile(r"^(\d+(?:\.\d+)?) (mg|mcg|g|mL|units|puffs|drops)$")
 COUNT_FIELDS = [
     "key_facts", "output_facts", "matched", "missed", "false_alarms",
     "wrong_status", "duplicates", "dose_correct", "dose_wrong",
-    "dose_not_applicable", "conflict_facts", "conflict_shown",
+    "dose_not_applicable", "conflict_facts", "conflict_shown", "combination_keys_with_dose",
 ]
+
+# Combination medicines are written as "name / name" (T12). They are never dose-scored.
+COMBINATION_SEP = " / "
 SCOPES = ("all", "critical")
 
 # Patients scored without --include-heldout: the 20 working patients and the demo patient.
@@ -89,6 +95,12 @@ def _name(fact):
     return name.strip().lower() if name else None
 
 
+def is_combination(fact):
+    """True for a combination medicine, such as "levonorgestrel / ethinyl estradiol"."""
+    name = _name(fact)
+    return bool(name) and COMBINATION_SEP in name
+
+
 def _dose_value(dose):
     """Turn a dose into a comparable value. Grams become milligrams, so "1 g" equals "1000 mg"."""
     if dose is None:
@@ -104,8 +116,9 @@ def _dose_value(dose):
 
 
 def dose_correct(key_fact, out_fact):
-    """True or False for a matched medicine. None (not applicable) when the key gives no dose."""
-    if key_fact.get("dose") is None:
+    """True or False for a matched medicine. None (not applicable) when the key gives no dose,
+    or when the key is a combination medicine (never dose-scored, T12)."""
+    if is_combination(key_fact) or key_fact.get("dose") is None:
         return None
     return _dose_value(key_fact["dose"]) == _dose_value(out_fact.get("dose"))
 
@@ -224,11 +237,25 @@ def score_patient(compiled, key):
             counts["critical"][field] += n
 
     problems = []
+    warnings = []
 
     # Walk the key facts. Each one is counted once, by its own criticality.
     for ki, key_fact in enumerate(key_facts):
         key_crit = is_critical(key_fact)
         bump("key_facts", key_crit)
+        # A combination key with a dose is a key error, but it is not dose-scored, so warn and go on.
+        if is_combination(key_fact) and key_fact.get("dose") is not None:
+            bump("combination_keys_with_dose", key_crit)
+            warnings.append({
+                "patient_id": patient_id,
+                "fact_id": key_fact["fact_id"],
+                "name": key_fact["name"],
+                "dose": key_fact["dose"],
+                # The message names only the patient and fact, so no key values reach the log.
+                "message": (f"warning: {patient_id} fact {key_fact['fact_id']}: combination medicine "
+                            "has a dose in its answer key. Combinations are not dose-scored (T12), "
+                            "so no score changes."),
+            })
         if "conflict" in key_fact["flags"]:
             bump("conflict_facts", key_crit)
             if _conflict_shown(ki, key_facts, pairs, out_facts):
@@ -269,7 +296,7 @@ def score_patient(compiled, key):
             bump("false_alarms", out_crit)
             problems.append(_problem(patient_id, "false_alarm", out=out))
 
-    return {"counts": counts, "problems": problems}
+    return {"counts": counts, "problems": problems, "warnings": warnings}
 
 
 def _sum_counts(results):
@@ -388,6 +415,8 @@ def main(argv=None):
         key = load_json(_find_key(args.keys_dir, pid))
         result = score_patient(compiled, key)
         results.append(result)
+        for warning in result["warnings"]:
+            print(warning["message"], file=sys.stderr)
 
         if pid in ages:
             age_band, sex = ages[pid]
@@ -429,7 +458,8 @@ def main(argv=None):
         print(f"{summary['scope']:>8}: key {summary['key_facts']}, output {summary['output_facts']}, "
               f"matched {summary['matched']}, missed {summary['missed']}, "
               f"false alarms {summary['false_alarms']}, wrong status {summary['wrong_status']}, "
-              f"duplicates {summary['duplicates']}, recall {summary['recall']}, precision {summary['precision']}")
+              f"duplicates {summary['duplicates']}, recall {summary['recall']}, precision {summary['precision']}, "
+              f"combination keys with a dose {summary['combination_keys_with_dose']} (warned, not scored)")
     print(f"Wrote {args.out_dir / 'per_patient.csv'}, {args.out_dir / 'summary.csv'}, "
           f"{args.out_dir / 'failures.csv'}")
     return 0

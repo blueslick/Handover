@@ -296,3 +296,79 @@ def test_cli_heldout_run_refused_before_reading_when_out_dir_is_tracked(tmp_path
         score.main(["--compiled-dir", str(tmp_path), "--keys-dir", str(tmp_path), "--patients", "P021",
                     "--include-heldout", "--out-dir", str(tracked)])
     assert not tracked.exists()
+
+
+# --- Combination medicines (T12): never dose-scored --------------------------------------
+
+COMBO = "levonorgestrel / ethinyl estradiol"
+
+
+def test_combination_key_without_dose_is_not_applicable():
+    # The normal case: combinations have no dose in the key, so they are not dose-scored.
+    key = {"patient_id": "P099", "facts": [fact("medicine", COMBO, "current", dose=None)]}
+    out = record([fact("medicine", COMBO, "current", dose="150 mcg")])
+    result = score.score_patient(out, key)
+    counts = all_counts(result)
+    assert counts["matched"] == 1
+    assert counts["dose_not_applicable"] == 1
+    assert counts["dose_correct"] == 0
+    assert counts["dose_wrong"] == 0
+    assert counts["combination_keys_with_dose"] == 0
+    assert result["warnings"] == []
+
+
+def test_combination_key_with_dose_is_not_applicable_and_warns():
+    # A bad key dose on a combination: not dose-scored, so no score changes, but it is warned and counted.
+    key = {"patient_id": "P099", "facts": [fact("medicine", COMBO, "current", dose="150 mcg")]}
+    for out_dose in ("150 mcg", "300 mcg"):
+        out = record([fact("medicine", COMBO, "current", dose=out_dose)])
+        result = score.score_patient(out, key)
+        counts = all_counts(result)
+        assert counts["matched"] == 1
+        assert counts["dose_not_applicable"] == 1
+        assert counts["dose_correct"] == 0
+        assert counts["dose_wrong"] == 0
+        assert counts["combination_keys_with_dose"] == 1
+        assert crit_counts(result)["combination_keys_with_dose"] == 1
+        assert len(result["warnings"]) == 1
+        warning = result["warnings"][0]
+        assert warning["patient_id"] == "P099"
+        assert warning["fact_id"] == "P099-F01"
+        assert "P099-F01" in warning["message"]
+
+
+def test_single_drug_key_is_still_dose_scored():
+    # Single-drug medicines are unchanged: a correct dose scores as dose_correct, with no warning.
+    key = {"patient_id": "P099", "facts": [fact("medicine", "metformin", "current", dose="1000 mg")]}
+    out = record([fact("medicine", "metformin", "current", dose="1 g")])
+    result = score.score_patient(out, key)
+    counts = all_counts(result)
+    assert counts["dose_correct"] == 1
+    assert counts["dose_not_applicable"] == 0
+    assert counts["combination_keys_with_dose"] == 0
+    assert result["warnings"] == []
+
+
+def test_cli_prints_combination_warning_and_counts_it(tmp_path, capsys):
+    # The command line prints the warning (patient and fact ID only) and counts it in summary.csv.
+    combo_fact = fact("medicine", COMBO, "current", dose="150 mcg", fact_id="D001-F01")
+    keys_dir = tmp_path / "keys"
+    (keys_dir / "D001").mkdir(parents=True)
+    compiled_dir = tmp_path / "compiled"
+    compiled_dir.mkdir()
+    key = {"format_version": "1.0", "kind": "answer_key", "patient_id": "D001", "run_id": None,
+           "built_from": ["D001_A.csv"], "facts": [combo_fact]}
+    compiled = dict(key, kind="compiled", facts=[dict(combo_fact)])
+    (keys_dir / "D001" / "D001_key.json").write_text(json.dumps(key), encoding="utf-8")
+    (compiled_dir / "D001.json").write_text(json.dumps(compiled), encoding="utf-8")
+    out_dir = tmp_path / "out"
+
+    score.main(["--compiled-dir", str(compiled_dir), "--keys-dir", str(keys_dir),
+                "--patients", "D001", "--out-dir", str(out_dir)])
+
+    err = capsys.readouterr().err
+    assert "D001" in err and "D001-F01" in err
+    assert "combination medicine" in err
+    with open(out_dir / "summary.csv", encoding="utf-8", newline="") as handle:
+        summary = {r["scope"]: r for r in csv.DictReader(handle)}
+    assert summary["all"]["combination_keys_with_dose"] == "1"
