@@ -3,6 +3,7 @@
 // so every number shows "Not run yet".
 import { Suspense } from "react";
 import { loadResults, type ResultRow, type Results } from "@/lib/results";
+import CostLine from "./CostLine";
 
 export const metadata = { title: "How we tested · Handover" };
 
@@ -22,7 +23,7 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
   return (
     <>
     <p className="mt-2 text-sm text-zinc-700">
-      Allergies and medicines on the held-out patients. Each row adds one step to the row above it.
+      Allergies and medicines on the held-out patients. Rows 1 to 7 each add one step to the row above. Row 8 is the full tool again on a second, cheaper model.
     </p>
     <div className="mt-2 overflow-x-auto">
       <table className="min-w-full border border-zinc-400 text-sm">
@@ -82,6 +83,7 @@ function ResultsSection({ results }: { results: Results }) {
           <span className="font-medium">Omission check: </span>
           {results.omission_check ?? "Not run yet."}
         </p>
+        <CostLine entries={results.cost_per_patient} />
       </section>
 
       <section className="mt-6">

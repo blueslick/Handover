@@ -10,7 +10,12 @@
     { "row": 4, "method": "Claude, plain lists, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
     { "row": 5, "method": "Claude, status labels, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
     { "row": 6, "method": "Claude, status labels + Check, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 7, "method": "Claude, status labels + Check + six merge rules (the full tool)", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null }
+    { "row": 7, "method": "Claude, status labels + Check + six merge rules (the full tool)", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 8, "method": "The full tool (row 7) on Claude Haiku 5.5, a cheaper second model, for comparison", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null }
+  ],
+  "cost_per_patient": [
+    { "model": "Claude Sonnet 5.5 (the model the tool uses)", "us_cents": null },
+    { "model": "Claude Haiku 5.5 (row 8)", "us_cents": null }
   ],
   "omission_check": null,
   "failure_examples": []

@@ -15,6 +15,13 @@ export interface ResultRow {
   conflicts_shown: number | null;
 }
 
+// What the AI calls cost per patient (three hospital records) for one model, in US cents.
+// A null means "not run yet". Filled from the held-out runs' token totals (T36, T62).
+export interface CostEntry {
+  model: string;
+  us_cents: number | null;
+}
+
 // One worked failure example (filled in from T38).
 export interface FailureExample {
   title: string;
@@ -29,6 +36,8 @@ export interface Results {
   rows: ResultRow[];
   omission_check: string | null;
   failure_examples: FailureExample[];
+  // Optional, so an older results file without it still loads.
+  cost_per_patient?: CostEntry[];
 }
 
 // Three outcomes, so the tab can tell "nothing yet" apart from "broken file".
@@ -45,6 +54,7 @@ function looksLikeResults(data: unknown): data is Results {
   if (d.status !== "placeholder" && d.status !== "final") return false;
   if (!Array.isArray(d.rows)) return false;
   if (!Array.isArray(d.failure_examples)) return false;
+  if (d.cost_per_patient !== undefined && !Array.isArray(d.cost_per_patient)) return false;
   return d.rows.every(
     (r) => r && typeof r === "object" && typeof (r as ResultRow).method === "string",
   );
