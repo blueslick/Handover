@@ -6,6 +6,22 @@ import type { CompiledRecord } from "./types";
 // Patient IDs that have a file in app/data/. Add an ID here when its file is added.
 export const SAMPLE_IDS = ["D001"];
 
+// Which record to show (T27): the tool's merged record, or the keyword baseline
+// for the same patient. File names in app/data/: <ID>_compiled.json and
+// <ID>_baseline_keyword.json.
+export type View = "handover" | "baseline";
+
+const FILE_SUFFIX: Record<View, string> = {
+  handover: "compiled",
+  baseline: "baseline_keyword",
+};
+
+// Reads the view from the address (?view=baseline). Anything else means Handover.
+export function parseView(raw: string | string[] | undefined): View {
+  const v = Array.isArray(raw) ? raw[0] : raw;
+  return v === "baseline" ? "baseline" : "handover";
+}
+
 // Three outcomes, so the doctor screen can tell "no such patient" apart from
 // "the file is there but damaged" (T29 failed state).
 export type RecordLoad =
@@ -13,7 +29,7 @@ export type RecordLoad =
   | { state: "missing" }
   | { state: "failed" };
 
-export async function loadRecordState(rawId: string): Promise<RecordLoad> {
+export async function loadRecordState(rawId: string, view: View = "handover"): Promise<RecordLoad> {
   const id = rawId.trim().toUpperCase();
   // Only plain IDs such as D001 or P014 are accepted, so no one can ask for another path.
   if (!/^[A-Z]\d{3}$/.test(id) || !SAMPLE_IDS.includes(id)) return { state: "missing" };
@@ -21,7 +37,7 @@ export async function loadRecordState(rawId: string): Promise<RecordLoad> {
   // A listed ID whose file can't be read is missing; one that can't be parsed is failed.
   let text: string;
   try {
-    const file = path.join(process.cwd(), "data", `${id}_compiled.json`);
+    const file = path.join(process.cwd(), "data", `${id}_${FILE_SUFFIX[view]}.json`);
     text = await readFile(file, { encoding: "utf-8" });
   } catch {
     return { state: "missing" };

@@ -2,7 +2,7 @@
 // Reads JSON from app/data/ only: no model calls, no key.
 import Link from "next/link";
 import { Suspense } from "react";
-import { loadRecordState, SAMPLE_IDS } from "@/lib/records";
+import { loadRecordState, parseView, SAMPLE_IDS, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
 import FactList from "./components/FactList";
 import WarningBanner from "./components/WarningBanner";
@@ -32,24 +32,91 @@ function SampleIds() {
   );
 }
 
+type SearchParams = Promise<{ id?: string | string[]; view?: string | string[] }>;
+
+// The two-way switch (T27). Two links, so it works without JavaScript and the
+// address says which view is showing. The current choice is marked in words and
+// with a solid fill, not by colour alone.
+function ViewSwitch({ id, view }: { id: string; view: View }) {
+  const options: { value: View; label: string; href: string }[] = [
+    { value: "handover", label: "Handover (our tool)", href: `/?id=${encodeURIComponent(id)}` },
+    { value: "baseline", label: "Baseline (keyword search)", href: `/?id=${encodeURIComponent(id)}&view=baseline` },
+  ];
+  return (
+    <nav aria-label="Choose which record to show" className="mt-6">
+      <p className="font-medium">Show:</p>
+      <ul className="mt-1 inline-flex border-2 border-zinc-800 rounded overflow-hidden">
+        {options.map((o) => {
+          const current = o.value === view;
+          return (
+            <li key={o.value}>
+              <Link
+                href={o.href}
+                aria-current={current ? "page" : undefined}
+                className={`inline-block px-4 py-2 ${
+                  current ? "bg-zinc-800 text-white font-semibold" : "bg-white text-zinc-900 underline"
+                }`}
+              >
+                {o.label}
+                {current && <span className="sr-only"> (showing now)</span>}
+              </Link>
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
+  );
+}
+
+// What the baseline is, shown above the baseline record so no one mistakes it for the tool's output.
+function BaselineNote() {
+  return (
+    <div className="mt-4 border-2 border-zinc-700 bg-zinc-50 rounded p-4">
+      <p className="font-bold">This is the baseline, not our tool.</p>
+      <p className="mt-1">
+        A simple keyword search read each hospital record and every line it found is listed, with no
+        merging: no checking against the source, no conflict warnings, and no rule for which hospital
+        is most recent. It is shown so you can compare it with the Handover record.
+      </p>
+    </div>
+  );
+}
+
 // Looks up the ID and shows the record, a prompt (no ID yet) or the unknown-ID message.
-async function Record({ searchParams }: { searchParams: Promise<{ id?: string | string[] }> }) {
-  const { id: rawId } = await searchParams;
+async function Record({ searchParams }: { searchParams: SearchParams }) {
+  const { id: rawId, view: rawView } = await searchParams;
   const id = (Array.isArray(rawId) ? rawId[0] : rawId)?.trim() ?? "";
+  const view = parseView(rawView);
 
   if (!id) {
     return <p className="mt-6">Enter a patient ID above to see the merged record.</p>;
   }
 
-  const load = await loadRecordState(id);
+  const load = await loadRecordState(id, view);
+
+  // A known patient with no baseline file: keep the switch so the doctor can go back.
+  if (view === "baseline" && load.state === "missing" && SAMPLE_IDS.includes(id.toUpperCase())) {
+    return (
+      <>
+        <ViewSwitch id={id} view={view} />
+        <div role="alert" className="mt-6 border-2 border-zinc-700 rounded p-4">
+          <p className="font-semibold">No baseline record for “{id}”.</p>
+          <p className="mt-1">Switch back to Handover to see this patient&rsquo;s merged record.</p>
+        </div>
+      </>
+    );
+  }
 
   // Failed state: the patient is listed but the file could not be read.
   if (load.state === "failed") {
     return (
+      <>
+      <ViewSwitch id={id} view={view} />
       <div role="alert" className="mt-6 border-4 border-amber-700 bg-amber-50 text-amber-950 rounded p-4">
         <p className="font-bold">The record for “{id}” could not be loaded.</p>
         <p className="mt-1">The file is damaged, so nothing is shown rather than part of the record.</p>
       </div>
+      </>
     );
   }
 
@@ -68,9 +135,19 @@ async function Record({ searchParams }: { searchParams: Promise<{ id?: string | 
   const meds = ofType("medicine");
 
   return (
+    <>
+    <ViewSwitch id={record.patient_id} view={view} />
+    {view === "baseline" && <BaselineNote />}
     <div className="mt-6">
-      <h2 className="text-2xl font-semibold">Patient {record.patient_id}</h2>
-      <p className="text-sm text-zinc-700">Merged from {record.built_from.length} hospital records.</p>
+      <h2 className="text-2xl font-semibold">
+        Patient {record.patient_id}
+        {view === "baseline" && <span className="font-normal">: baseline</span>}
+      </h2>
+      <p className="text-sm text-zinc-700">
+        {view === "baseline"
+          ? `Every line the keyword search found in ${record.built_from.length} hospital records: ${facts.length} entries.`
+          : `Merged from ${record.built_from.length} hospital records: ${facts.length} facts.`}
+      </p>
       <div className="mt-4">
         <WarningBanner facts={facts} />
       </div>
@@ -80,10 +157,18 @@ async function Record({ searchParams }: { searchParams: Promise<{ id?: string | 
       <Section title="Diagnoses" facts={ofType("diagnosis")} />
       <Section title="Operations" facts={ofType("operation")} />
     </div>
+    </>
   );
 }
 
-export default function Home({ searchParams }: { searchParams: Promise<{ id?: string | string[] }> }) {
+// Keeps the chosen view when a new ID is typed in. Its own small part so the
+// rest of the page can show before the address is read.
+async function KeepView({ searchParams }: { searchParams: SearchParams }) {
+  const view = parseView((await searchParams).view);
+  return view === "baseline" ? <input type="hidden" name="view" value="baseline" /> : null;
+}
+
+export default function Home({ searchParams }: { searchParams: SearchParams }) {
   // The disclaimer is in layout.tsx, so every tab shows it.
   return (
     <main className="flex-1 p-4 sm:p-8 max-w-5xl w-full mx-auto">
@@ -107,6 +192,9 @@ export default function Home({ searchParams }: { searchParams: Promise<{ id?: st
             Show record
           </button>
         </div>
+        <Suspense fallback={null}>
+          <KeepView searchParams={searchParams} />
+        </Suspense>
         <SampleIds />
       </form>
 
