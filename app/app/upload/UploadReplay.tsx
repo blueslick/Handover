@@ -73,7 +73,8 @@ function StepLine({ label, state }: { label: string; state: StepState }) {
   );
 }
 
-function HospitalRow({ h, elapsed }: { h: WalkthroughHospital; elapsed: number | null }) {
+// openRead (T68 item 27): open "Show what the tool read" by itself once this row is done.
+function HospitalRow({ h, elapsed, openRead = false }: { h: WalkthroughHospital; elapsed: number | null; openRead?: boolean }) {
   const schedule = scheduleFor(h);
   const done = elapsed !== null && elapsed >= schedule[2].end;
   return (
@@ -108,7 +109,7 @@ function HospitalRow({ h, elapsed }: { h: WalkthroughHospital; elapsed: number |
         </pre>
       </details>
       {done && (
-        <details className="mt-2 text-sm">
+        <details className="mt-2 text-sm" open={openRead || undefined}>
           <summary className="cursor-pointer underline">Show what the tool read</summary>
           <div className="mt-2">
             <FactList facts={h.facts} />
@@ -133,6 +134,11 @@ export default function UploadReplay({
   // When Start was pressed (ms), and how long ago that was. null = not started.
   const [startedAt, setStartedAt] = useState<number | null>(null);
   const [elapsed, setElapsed] = useState<number | null>(null);
+
+  // T68 item 27: after the replay, one hospital's reading is already open, so the facts
+  // and their quotes show without a click. The last hospital in the list is used (for
+  // the demo patient that is Hospital C, the brand-name sheet).
+  const showReadFor = ready[ready.length - 1];
 
   const lastRecordEnd = Math.max(0, ...ready.map((h) => scheduleFor(h)[2].end));
   const mergeStart = lastRecordEnd;
@@ -200,7 +206,7 @@ export default function UploadReplay({
 
       <div className="mt-4 grid gap-4 md:grid-cols-3">
         {hospitals.map((h) => (
-          <HospitalRow key={h.hospital} h={h} elapsed={elapsed} />
+          <HospitalRow key={h.hospital} h={h} elapsed={elapsed} openRead={h === showReadFor} />
         ))}
       </div>
 
