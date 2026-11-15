@@ -1,0 +1,17 @@
+{
+  "status": "placeholder",
+  "updated": null,
+  "patients": null,
+  "note": "Placeholder. No results yet: the held-out run (T36) and its scoring (T37) have not happened. T39 replaces this file with the real numbers.",
+  "rows": [
+    { "row": 1, "method": "Keyword search, stack everything", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 2, "method": "medSpaCy, stack everything (only if built)", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 3, "method": "Keyword search + six merge rules", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 4, "method": "Claude, plain lists, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 5, "method": "Claude, status labels, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 6, "method": "Claude, status labels + Check, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
+    { "row": 7, "method": "Claude, status labels + Check + six merge rules (the full tool)", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null }
+  ],
+  "omission_check": null,
+  "failure_examples": []
+}
