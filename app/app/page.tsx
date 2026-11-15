@@ -70,6 +70,9 @@ function LiveNote({ run }: { run: LiveRun }) {
   );
 }
 
+// The patient shown when the address has no ID (T68 item 2).
+const DEFAULT_ID = SAMPLE_IDS.includes("D001") ? "D001" : (SAMPLE_IDS[0] ?? "");
+
 type SearchParams = Promise<{ id?: string | string[]; view?: string | string[] }>;
 
 // The two-way switch (T27). Two links, so it works without JavaScript and the
@@ -123,9 +126,12 @@ function BaselineNote() {
 // Looks up the ID and shows the record, a prompt (no ID yet) or the unknown-ID message.
 async function Record({ searchParams }: { searchParams: SearchParams }) {
   const { id: rawId, view: rawView } = await searchParams;
-  const id = (Array.isArray(rawId) ? rawId[0] : rawId)?.trim() ?? "";
+  const typed = (Array.isArray(rawId) ? rawId[0] : rawId)?.trim() ?? "";
   const view = parseView(rawView);
 
+  // T68 item 2: with no ID in the address, open the demo patient so the first
+  // screen shows a record. If D001 is ever not published, use the first sample ID.
+  const id = typed || DEFAULT_ID;
   if (!id) {
     return <p className="mt-6">Enter a patient ID above to see the merged record.</p>;
   }
