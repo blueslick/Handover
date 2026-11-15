@@ -19,7 +19,7 @@ export function splitSections(facts: Fact[], view: "handover" | "baseline"): { s
     { title: "Allergies", facts: ofType("allergy") },
     { title: "Current medicines", facts: meds.filter((f) => f.status === "current") },
     // T68 item 19: stopped medicines straight under current ones, with a plain warning heading.
-    { title: "Stopped medicines: do not continue without checking", facts: meds.filter((f) => f.status === "stopped") },
+    { title: "Stopped medicines: check before continuing", facts: meds.filter((f) => f.status === "stopped") },
     {
       title: "Other medicines (planned, or none recorded)",
       facts: meds.filter((f) => f.status !== "current" && f.status !== "stopped"),
