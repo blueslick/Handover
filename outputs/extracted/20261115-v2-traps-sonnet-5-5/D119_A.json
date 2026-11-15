@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D119",
+  "hospital": "A",
+  "source_file": "D119_A.txt",
+  "run_id": "20261115-v2-traps-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2959,
+    "output_tokens": 199
+  },
+  "facts": [
+    {
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2021-07-14",
+      "quote": "She is no longer taking warfarin 5 mg once daily.",
+      "flags": []
+    }
+  ]
+}

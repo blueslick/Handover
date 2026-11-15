@@ -1,0 +1,417 @@
+{
+  "run_id": "20261115-v2-traps-sonnet-5-5",
+  "records": {
+    "D101_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 1,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D102_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 1,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D103_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D104_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D105_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D106_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D107_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D108_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D109_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D110_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'paracetamol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D111_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D112_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D113_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D114_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 1,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D115_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 1,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D116_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 1,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D117_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D118_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Panadol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D119_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D120_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'paracetamol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D121_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D122_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D123_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D124_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D125_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D126_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D127_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D128_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D129_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D130_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D131_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D132_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D133_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D134_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D135_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D136_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D137_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D138_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Panadol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D139_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D140_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'paracetamol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    }
+  },
+  "needs_retry": [],
+  "failed": []
+}
