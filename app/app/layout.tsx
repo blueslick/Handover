@@ -17,8 +17,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="min-h-full flex flex-col">
         <TabNav />
         {children}
-        <footer className="p-4 sm:p-8 max-w-5xl w-full mx-auto text-sm text-zinc-700">
-          This project is a prototype and is not medical advice.
+        <footer className="p-4 sm:p-8 max-w-5xl w-full mx-auto text-sm text-zinc-700 flex flex-col gap-1">
+          <p>This project is a prototype and is not medical advice.</p>
+          <p>
+            <a
+              href="https://github.com/blueslick/Veritas-AI-Hackathon-"
+              className="underline underline-offset-2 hover:text-zinc-900"
+            >
+              Handover on GitHub
+            </a>
+          </p>
         </footer>
       </body>
     </html>
