@@ -3,6 +3,7 @@
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
 import { factAnchor } from "@/lib/banner";
+import { statusStyle } from "@/lib/statusStyle";
 
 // Builds the headline, e.g. "Panadol (paracetamol)" or "Penicillin".
 // T68 item 12: a "nothing recorded" line is titled by its status in words
@@ -29,16 +30,19 @@ function details(fact: Fact): string {
 
 export default function FactCard({ fact }: { fact: Fact }) {
   const detail = details(fact);
+  const style = statusStyle(fact);
   // Other hospitals that state the same current value (the latest one is shown above).
   const otherSources = fact.sources.filter(
     (s) => !(s.hospital === fact.hospital && s.date === fact.date && s.quote === fact.quote),
   );
 
   return (
-    <article id={factAnchor(fact.fact_id)} className="scroll-mt-4 border border-zinc-400 rounded p-4 bg-white flex-1 min-w-0">
+    <article id={factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded p-4 flex-1 min-w-0 ${style.card}`}>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className="text-lg font-semibold break-words">{headline(fact)}</h3>
-        <span className="border border-zinc-700 rounded px-2 py-0.5 text-sm font-medium">
+        <h3 className={`text-lg font-semibold break-words ${style.struck ? "line-through decoration-2" : ""}`}>
+          {headline(fact)}
+        </h3>
+        <span className={`rounded px-2 py-0.5 text-sm font-semibold ${style.pill}`}>
           Status: {statusLabel(fact)}
         </span>
       </div>
