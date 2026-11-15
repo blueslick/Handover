@@ -215,6 +215,46 @@ function ResultsSection({ results }: { results: Results }) {
   );
 }
 
+// T71 item 32: the tool's steps as plain boxes (HTML, not an image), each saying whether
+// Claude or plain code does it. Stacks down the page on a phone, runs across on a laptop.
+const STEPS: { title: string; who: string; what: string; ai?: boolean }[] = [
+  { title: "Three records", who: "Input", what: "One record from each hospital, in three layouts." },
+  { title: "Extract", who: "Claude (AI)", what: "Reads each record and lists every fact with a word-for-word quote.", ai: true },
+  { title: "Check", who: "Code, no AI", what: "Checks each quote is word for word and each name is on the drug list, and turns brand names into generic names." },
+  { title: "Merge", who: "Code, no AI", what: "Six fixed rules join the three lists and keep every disagreement." },
+  { title: "One record", who: "Output", what: "One record for the doctor, with the source of every fact." },
+];
+
+function WorkflowDiagram() {
+  return (
+    <section className="mt-6">
+      <h2 className="text-xl font-semibold">How the tool works</h2>
+      <ol className="mt-3 flex flex-col gap-2 md:flex-row md:items-stretch md:gap-0">
+        {STEPS.map((s, i) => (
+          <li key={s.title} className="flex flex-col md:flex-row md:flex-1 md:items-center">
+            <div
+              className={`flex-1 rounded border-2 p-3 ${
+                s.ai ? "border-zinc-900 bg-zinc-100" : "border-zinc-500 bg-white"
+              }`}
+            >
+              <p className="font-semibold">{s.title}</p>
+              <p className="text-sm font-medium">{s.who}</p>
+              <p className="mt-1 text-sm">{s.what}</p>
+            </div>
+            {i < STEPS.length - 1 && (
+              <span aria-hidden="true" className="self-center px-1 text-xl md:px-2">
+                <span className="md:hidden">↓</span>
+                <span className="hidden md:inline">→</span>
+              </span>
+            )}
+          </li>
+        ))}
+      </ol>
+      <p className="mt-2 text-sm text-zinc-700">Only the Extract step uses AI. Check and Merge are plain code.</p>
+    </section>
+  );
+}
+
 // Reads the results file and shows the table, the empty state or the failed state.
 async function ResultsBody() {
   const load = await loadResults();
@@ -260,6 +300,8 @@ export default function HowWeTested() {
           <li>Each row of the table adds one step, so you can see what each step adds.</li>
         </ul>
       </section>
+
+      <WorkflowDiagram />
 
       <Suspense fallback={<p className="mt-6">Loading results…</p>}>
         <ResultsBody />
