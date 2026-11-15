@@ -8,7 +8,7 @@
 //   ../outputs/results/heldout/cost_per_patient.csv  US cents per patient (T37)
 //   ../outputs/results/heldout/omission_line.csv     omission-check counts (T37)
 // Held-out numbers only: working-patient results are never used here.
-// The failure examples already in data/results.json are kept as they are (T38 adds them).
+// The failure examples already in data/results.json are kept as they are (T38: pasted from\n// docs/failure_examples.md, section A).
 // No model calls: this only reads CSV files.
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import path from "node:path";
@@ -93,10 +93,11 @@ if (om.row7_all_misses !== row7.missed) fail("omission_line.csv and buildup_tabl
 const omission_check =
   `A separate word search flagged ${om.possible_missed_flags} words as "possibly missed" across ` +
   `${om.records_checked} hospital records. It pointed at ${om.row7_all_misses_pointed_at_by_a_flag} of the ` +
-  `full tool's ${om.row7_all_misses} misses: it only looks for medicine and allergy words, so it cannot see the ` +
-  `${om.row7_name_absent_type_diagnosis} missed diagnoses, and the ${om.row7_name_absent_type_medicine} missed ` +
-  `medicines (combination medicines read as their two ingredients) still look present by name. ` +
-  `It is a hint for the doctor, not a fact.`;
+  `full tool's ${om.row7_all_misses} misses. ${om.row7_name_absent_type_diagnosis} of those ` +
+  `${om.row7_all_misses} are not real tool mistakes: ${om.row7_name_absent_type_diagnosis} diagnosis names in our ` +
+  `answer key have a double space, so the tool's correct answer was counted as missed (and as a false alarm). ` +
+  `Most of the rest are combination medicines read as their two ingredients, which still look present by name, ` +
+  `so the word search cannot spot them. It is a hint for the doctor, not a fact.`;
 
 // Keep any failure examples already in the file (T38 adds them).
 let failure_examples = [];
