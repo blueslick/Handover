@@ -196,12 +196,18 @@ def _conflict_shown(ki, key_facts, pairs, out_facts):
 
 
 def _problem(patient_id, kind, key=None, out=None, duplicate=False):
-    """One row for failures.csv: a missed case, a wrong status, or a false alarm, with its quote."""
+    """One row for failures.csv: a missed case, a wrong status, or a false alarm, with its quote.
+
+    key_fact_id is the answer-key fact (set for a missed case and a wrong status). output_fact_id
+    is the model's fact (set for a false alarm and a wrong status). The side that does not exist
+    stays blank (None), so a reader can see which fact each ID belongs to.
+    """
     fact = key if key is not None else out
     return {
         "patient_id": patient_id,
         "kind": kind,
-        "fact_id": fact["fact_id"],
+        "key_fact_id": key["fact_id"] if key is not None else None,
+        "output_fact_id": out["fact_id"] if out is not None else None,
         "type": fact["type"],
         "name": fact.get("name"),
         "key_status": key["status"] if key is not None else None,
@@ -449,7 +455,7 @@ def main(argv=None):
     _write_csv(args.out_dir / "summary.csv",
                ["scope", "patients"] + COUNT_FIELDS + ["recall", "precision"], summary_rows)
     _write_csv(args.out_dir / "failures.csv",
-               ["patient_id", "kind", "fact_id", "type", "name", "key_status", "output_status",
+               ["patient_id", "kind", "key_fact_id", "output_fact_id", "type", "name", "key_status", "output_status",
                 "key_critical", "output_critical", "duplicate", "key_quote", "output_quote"],
                failure_rows)
 

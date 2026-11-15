@@ -152,6 +152,32 @@ def test_wrong_status_is_one_missed_and_one_false_alarm():
     assert [p["kind"] for p in result["problems"]] == ["wrong_status"]
 
 
+def test_failure_rows_name_key_and_output_fact_ids_separately():
+    # A wrong status has both sides; a missed case has only the key side; a false alarm has only the output side.
+    key = {"patient_id": "P099", "facts": [
+        fact("medicine", "warfarin", "stopped", n=1, dose="5 mg"),
+        fact("allergy", "penicillin", "current", n=2),
+    ]}
+    out = record([
+        fact("medicine", "warfarin", "current", n=7, dose="5 mg"),
+        fact("medicine", "aspirin", "current", n=8),
+    ])
+    result = score.score_patient(out, key)
+    by_kind = {p["kind"]: p for p in result["problems"]}
+
+    wrong = score._problem("P099", "wrong_status", key=key["facts"][0], out=out["facts"][0])
+    assert (wrong["key_fact_id"], wrong["output_fact_id"]) == ("P099-F01", "P099-F07")
+    assert "fact_id" not in wrong
+    assert by_kind["wrong_status"]["key_fact_id"] == "P099-F01"
+    assert by_kind["wrong_status"]["output_fact_id"] == "P099-F07"
+
+    assert by_kind["missed"]["key_fact_id"] == "P099-F02"
+    assert by_kind["missed"]["output_fact_id"] is None
+
+    assert by_kind["false_alarm"]["key_fact_id"] is None
+    assert by_kind["false_alarm"]["output_fact_id"] == "P099-F08"
+
+
 def test_critical_split_uses_each_facts_own_criticality():
     # A stopped medicine that is missed is not critical; a current medicine that is missed is.
     key = {"patient_id": "P099", "facts": [
@@ -266,6 +292,31 @@ def test_cli_writes_csv_files_for_d001(tmp_path):
     assert summary["all"]["recall"] == "1.0"
     assert summary["all"]["precision"] == "1.0"
     assert (out_dir / "failures.csv").exists()
+
+
+def test_cli_failures_csv_has_separate_key_and_output_fact_id_columns(tmp_path):
+    # The D001 keyword baseline has a real wrong-status case (warfarin), so both ID columns get checked.
+    compiled_dir = tmp_path / "compiled"
+    compiled_dir.mkdir()
+    (compiled_dir / "D001.json").write_text(D001_BASELINE.read_text(encoding="utf-8"), encoding="utf-8")
+    out_dir = tmp_path / "out"
+
+    score.main(["--compiled-dir", str(compiled_dir), "--keys-dir", str(REPO / "pipeline" / "data" / "demo"),
+                "--patients", "D001", "--out-dir", str(out_dir)])
+
+    with open(out_dir / "failures.csv", encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        header = reader.fieldnames
+        rows = list(reader)
+    assert "fact_id" not in header
+    assert "key_fact_id" in header and "output_fact_id" in header
+
+    wrong = [r for r in rows if r["kind"] == "wrong_status"]
+    assert len(wrong) >= 1
+    assert all(r["key_fact_id"] and r["output_fact_id"] for r in wrong)
+    # A false alarm has no key fact, and a missed case has no output fact, so those cells are blank.
+    assert all(r["key_fact_id"] == "" for r in rows if r["kind"] == "false_alarm")
+    assert all(r["output_fact_id"] == "" for r in rows if r["kind"] == "missed")
 
 
 # --- Held-out output must be git-ignored -----------------------------------------------------
