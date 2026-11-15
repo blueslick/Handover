@@ -119,6 +119,28 @@ class RunRecordsTests(unittest.TestCase):
             self.assertNotIn("temperature", kw)
             self.assertNotIn("thinking", kw)                         # Haiku refused between_tools (T08)
 
+    def test_plain_lists_run_is_extract_only(self):
+        """T66, results-table row 4: one call per record, no Check, no retry, no Compile."""
+        plain_bad = {"facts": [{k: v for k, v in BAD_C["facts"][0].items() if k != "status"}]}
+        client = FakeClient([plain_bad])      # a quote the Check step would fail: still no retry
+        code = run_records.main(["--model", "claude-sonnet-5-5", "--patients", "D001", "--run-id", RUN,
+                                 "--prompt", "v2-plain"], client=client)
+        self.assertEqual(code, 0)
+        self.assertEqual(len(client.calls), 3)
+        self.assertFalse(list(self.folder().glob("*.attempt2.*")))
+        self.assertFalse(self.folder("checked").exists())
+        self.assertFalse(self.folder("compiled").exists())
+        self.assertTrue((self.folder() / "usage.csv").exists())
+        saved = json.loads((self.folder() / "D001_C.json").read_text(encoding="utf-8"))
+        self.assertEqual([f["status"] for f in saved["facts"]], ["current"])
+        self.assertEqual(run_records.main(["--model", "claude-sonnet-5-5", "--patients", "D001",
+                                           "--run-id", RUN, "--prompt", "v2-plain"], client=NoCalls()), 0)
+
+    def test_plain_lists_still_refuse_heldout(self):
+        with self.assertRaises(SystemExit):
+            run_records.main(["--model", "claude-sonnet-5-5", "--patients", "P050", "--prompt", "v2-plain",
+                              "--dry-run"])
+
 
 if __name__ == "__main__":
     unittest.main()

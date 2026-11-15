@@ -34,6 +34,9 @@ Examples:
     # T31: all 20 working patients
     python pipeline/tool/run_records.py --model claude-sonnet-5-5 --working
 
+    # T66: results-table row 4, plain lists. Extract only: no Check, no retry, no Compile
+    python pipeline/tool/run_records.py --model claude-sonnet-5-5 --working --prompt v2-plain
+
     --dry-run     show the records and the call count, make no calls (no key needed)
     --yes         go ahead with a run of more than 10 calls
     --prompt v1   which prompt file (default v1)
@@ -139,6 +142,13 @@ def run_one(record, args, run_id, client):
     API was busy or the connection dropped (nothing was saved in that case)."""
     for try_number in (1, 2):
         try:
+            if extract.is_plain(args.prompt):
+                # Row 4 (T66): one call, no Check, no retry.
+                rec, _, called = extract.extract_once(model=args.model, record_path=record,
+                                                      prompt_version=args.prompt, run_id=run_id,
+                                                      client=client)
+                return {"calls": int(called), "retried": False, "attempt_kept": 1,
+                        "problems_left": 0, "facts": len(rec["facts"])}
             return extract.extract_with_retry(model=args.model, record_path=record,
                                               prompt_version=args.prompt, run_id=run_id,
                                               client=client)
@@ -177,6 +187,7 @@ def main(argv=None, client=None):
 
     if not (extract.PROMPTS / f"extract_{args.prompt}.md").exists():
         raise SystemExit(f"STOP: no prompt file pipeline/tool/prompts/extract_{args.prompt}.md.")
+    plain = extract.is_plain(args.prompt)
     ids = choose_patients(args)
     records = [r for pid in ids for r in record_paths(pid)]
     run_id = args.run_id or f"{dt.date.today():%Y%m%d}-{args.prompt}-{extract.short_model(args.model)}"
@@ -189,7 +200,10 @@ def main(argv=None, client=None):
     print(f"Patients: {len(ids)}" + (f" ({n_hidden} held-out/reserve, contents not shown)" if n_hidden else
                                      f" ({' '.join(ids)})"))
     print(f"Records:  {len(records)}    already saved: {len(records) - new_calls}")
-    print(f"New calls: {new_calls}, plus up to {new_calls} retries (only for records that fail the Check step)")
+    if plain:
+        print(f"New calls: {new_calls} (plain lists, results-table row 4: no Check step, no retries, no Compile)")
+    else:
+        print(f"New calls: {new_calls}, plus up to {new_calls} retries (only for records that fail the Check step)")
 
     if args.dry_run:
         print("Dry run: no calls made.")
@@ -221,6 +235,8 @@ def main(argv=None, client=None):
         totals["still_failing"] += r["problems_left"] > 0
         if is_hidden(pid):
             print(f"[{i}/{len(records)}] done")
+        elif plain:
+            print(f"[{i}/{len(records)}] {record.stem}: {r['facts']} facts, {r['calls']} new calls")
         else:
             note = "passed" if not r["problems_left"] else f"{r['problems_left']} problems left"
             if r["retried"]:
@@ -228,19 +244,27 @@ def main(argv=None, client=None):
             print(f"[{i}/{len(records)}] {record.stem}: {r['facts']} facts, {note}, "
                   f"{r['calls']} new calls")
 
-    print(f"\nExtract done: {totals['calls']} new calls, {totals['retried']} records retried "
-          f"({totals['kept_retry']} kept the retry), {totals['still_failing']} still have problems "
-          f"(their facts are kept with the 'unverified' flag).")
+    if plain:
+        print(f"\nExtract done: {totals['calls']} new calls. Plain lists are not checked or retried.")
+    else:
+        print(f"\nExtract done: {totals['calls']} new calls, {totals['retried']} records retried "
+              f"({totals['kept_retry']} kept the retry), {totals['still_failing']} still have problems "
+              f"(their facts are kept with the 'unverified' flag).")
     if totals["unreadable"]:
         print(f"Could not be read: {len(totals['unreadable'])} records. Their exact replies are saved; "
               "send this output to the team.")
 
     # Check: writes outputs/checked/<run_id>/ from the saved files (no calls).
-    print("\n--- Check step ---")
-    check.run(run_id, ids)
+    # Plain lists (row 4) stop after Extract: the row is "Claude plain lists + stack",
+    # and the stacking and scoring are done from outputs/extracted/<run_id>/ in pipeline/eval/.
+    if plain:
+        print("\nPlain lists: Check and Compile skipped on purpose (results-table row 4).")
+    else:
+        print("\n--- Check step ---")
+        check.run(run_id, ids)
 
     # Compile: one merged record per patient (no calls).
-    if not args.no_compile:
+    if not args.no_compile and not plain:
         print("\n--- Compile step ---")
         subprocess.run([sys.executable, str(TOOL / "compile.py"), "--run", run_id, "--patients", *ids],
                        cwd=REPO)

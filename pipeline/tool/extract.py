@@ -37,6 +37,12 @@ Run it (one call, one record):
     --run-id <id>        default <YYYYMMDD>-<prompt>-<model short name>
     --dry-run            print what would be sent, make no call (no key needed)
 
+Plain lists (T66, results-table row 4): a prompt whose version ends in "-plain"
+(extract_v2-plain.md) asks for the same facts with NO status label. The reply shape then
+has no status field, and this file saves every such fact as "current", which is the
+plan's rule for scoring a list with no labels. That row never goes through the Check
+step or the retry (run_records.py runs it as extract only).
+
 This command runs one record at a time, and only demo or working records. To run
 many records, with the one retry after a failed Check, use run_records.py, which
 calls extract_with_retry() below.
@@ -74,8 +80,20 @@ def nullable(schema):
     return {"anyOf": [schema, {"type": "null"}]}
 
 
-def reply_schema():
-    """The fixed JSON shape the model must reply in: the model's part of an extracted fact."""
+def is_plain(prompt_version):
+    """True for a plain-lists prompt (T66, row 4): its version ends in "-plain"."""
+    return prompt_version.endswith("-plain")
+
+
+def label_all_current(facts):
+    """Plain lists carry no status. Save every fact as "current" (plan: "a version with
+    no labels is scored as all current"). Nothing else about the fact is changed."""
+    return [dict(f, status="current") for f in facts]
+
+
+def reply_schema(plain=False):
+    """The fixed JSON shape the model must reply in: the model's part of an extracted fact.
+    With plain=True the shape has no status field (plain lists, T66)."""
     lists = json.loads((SHARED / "fixed_lists.json").read_text(encoding="utf-8"))
     fact = {
         "type": "object",
@@ -94,6 +112,9 @@ def reply_schema():
             "quote": {"type": "string"},
         },
     }
+    if plain:
+        fact["required"].remove("status")
+        del fact["properties"]["status"]
     return {
         "type": "object",
         "additionalProperties": False,
@@ -173,20 +194,22 @@ def quotes_not_in_record(facts, record_text):
     return [f["quote"] for f in facts if f["quote"] not in record_text]
 
 
-def build_request(model, system, record_text):
+def build_request(model, system, record_text, plain=False):
     """The settings sent to the API for one record. Returns (request, settings in words)."""
     request = {
         "model": model,
         "max_tokens": MAX_TOKENS,
         "system": system,
         "messages": [{"role": "user", "content": record_text}],
-        "output_config": {"format": {"type": "json_schema", "schema": reply_schema()}},
+        "output_config": {"format": {"type": "json_schema", "schema": reply_schema(plain)}},
     }
     thinking = THINKING.get(model)
     if thinking:
         request["thinking"] = thinking
     settings = (f"thinking {thinking['type']}" if thinking else "thinking at model default") + \
         ", fixed JSON shape, default sampling"
+    if plain:
+        settings += ", plain lists (no status asked for; every fact saved as current)"
     return request, settings
 
 
@@ -240,7 +263,10 @@ def extract_once(*, model, record_path, prompt_version, run_id, client, attempt=
     stem = record_path.stem + ("" if attempt == 1 else ".attempt2")
     out_json = out_dir / f"{stem}.json"
 
-    request, settings = build_request(model, system, record_text)
+    plain = is_plain(prompt_version)
+    if plain and attempt == 2:
+        raise ValueError("plain lists (row 4) have no Check step, so they are never retried")
+    request, settings = build_request(model, system, record_text, plain)
     if attempt == 2:
         request = build_retry_request(request, first_reply_text, problems)
         settings += ", retry after failed Check"
@@ -259,6 +285,8 @@ def extract_once(*, model, record_path, prompt_version, run_id, client, attempt=
         facts = json.loads(saved.text)["facts"]
     except (json.JSONDecodeError, KeyError, TypeError) as e:
         raise ExtractFailed(f"{stem}: the reply is not the expected JSON ({type(e).__name__})")
+    if plain:
+        facts = label_all_current(facts)
 
     usage = {k: saved.usage[k] for k in ("input_tokens", "output_tokens")}
     record = build_record(patient_id=patient_id, hospital=hospital, source_file=record_path.name,
@@ -350,7 +378,8 @@ def main(argv=None, client=None):
         import anthropic
         client = anthropic.Anthropic(api_key=key)
 
-    request, settings = build_request(args.model, system, record_text)
+    plain = is_plain(args.prompt)
+    request, settings = build_request(args.model, system, record_text, plain)
     print("Using the saved reply (no call) ..." if already_saved else "Sending 1 record (1 call) ...")
     try:
         saved = saved_calls.call_or_replay(run_id, patient_id, hospital, args.record, prompt_file,
@@ -384,6 +413,8 @@ def main(argv=None, client=None):
     except (json.JSONDecodeError, KeyError, TypeError) as e:
         print(f"FAILED: the reply is not the expected JSON ({e}). The exact reply is saved in {args.record.stem}.raw.txt.")
         return 1
+    if plain:
+        facts = label_all_current(facts)
 
     record = build_record(patient_id=patient_id, hospital=hospital, source_file=args.record.name,
                           run_id=run_id, model=args.model, prompt_version=args.prompt, attempt=1,
