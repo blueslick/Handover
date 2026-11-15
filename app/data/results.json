@@ -1,22 +1,108 @@
 {
-  "status": "placeholder",
-  "updated": null,
-  "patients": null,
-  "note": "Placeholder. No results yet: the held-out run (T36) and its scoring (T37) have not happened. T39 replaces this file with the real numbers.",
+  "status": "final",
+  "updated": "2026-11-15",
+  "patients": 160,
+  "note": "Held-out results only (160 patients, never used for tuning). Built by app/scripts/make-results.mjs from outputs/results/heldout/ (T37, commit f48ef99). Missed includes wrong-status cases.",
   "rows": [
-    { "row": 1, "method": "Keyword search, stack everything", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 2, "method": "medSpaCy, stack everything (only if built)", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 3, "method": "Keyword search + six merge rules", "uses_ai": false, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 4, "method": "Claude, plain lists, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 5, "method": "Claude, status labels, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 6, "method": "Claude, status labels + Check, stack everything", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 7, "method": "Claude, status labels + Check + six merge rules (the full tool)", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null },
-    { "row": 8, "method": "The full tool (row 7) on Claude Haiku 5.5, a cheaper second model, for comparison", "uses_ai": true, "key_facts": null, "missed": null, "false_alarms": null, "wrong_status": null, "conflicts_shown": null }
+    {
+      "row": 1,
+      "method": "Keyword search, stack everything",
+      "uses_ai": false,
+      "key_facts": 1668,
+      "missed": 916,
+      "false_alarms": 1312,
+      "wrong_status": 202,
+      "conflicts_shown": 0,
+      "conflicts_total": 38
+    },
+    {
+      "row": 2,
+      "method": "medSpaCy, stack everything",
+      "uses_ai": false,
+      "key_facts": 1668,
+      "missed": 511,
+      "false_alarms": 1269,
+      "wrong_status": 0,
+      "conflicts_shown": 0,
+      "conflicts_total": 38
+    },
+    {
+      "row": 3,
+      "method": "Keyword search + six merge rules",
+      "uses_ai": false,
+      "key_facts": 1668,
+      "missed": 916,
+      "false_alarms": 297,
+      "wrong_status": 202,
+      "conflicts_shown": 10,
+      "conflicts_total": 38
+    },
+    {
+      "row": 4,
+      "method": "Claude, plain lists, stack everything",
+      "uses_ai": true,
+      "key_facts": 1668,
+      "missed": 422,
+      "false_alarms": 2272,
+      "wrong_status": 205,
+      "conflicts_shown": 0,
+      "conflicts_total": 38
+    },
+    {
+      "row": 5,
+      "method": "Claude, status labels, stack everything",
+      "uses_ai": true,
+      "key_facts": 1668,
+      "missed": 48,
+      "false_alarms": 2314,
+      "wrong_status": 3,
+      "conflicts_shown": 0,
+      "conflicts_total": 38
+    },
+    {
+      "row": 6,
+      "method": "Claude, status labels + Check, stack everything",
+      "uses_ai": true,
+      "key_facts": 1668,
+      "missed": 9,
+      "false_alarms": 2275,
+      "wrong_status": 1,
+      "conflicts_shown": 0,
+      "conflicts_total": 38
+    },
+    {
+      "row": 7,
+      "method": "Claude, status labels + Check + six merge rules (the full tool)",
+      "uses_ai": true,
+      "key_facts": 1668,
+      "missed": 13,
+      "false_alarms": 47,
+      "wrong_status": 5,
+      "conflicts_shown": 38,
+      "conflicts_total": 38
+    },
+    {
+      "row": 8,
+      "method": "The full tool (row 7) on Claude Haiku 5.5, a cheaper second model, for comparison",
+      "uses_ai": true,
+      "key_facts": 1668,
+      "missed": 16,
+      "false_alarms": 60,
+      "wrong_status": 6,
+      "conflicts_shown": 38,
+      "conflicts_total": 38
+    }
   ],
   "cost_per_patient": [
-    { "model": "Claude Sonnet 5.5 (the model the tool uses)", "us_cents": null },
-    { "model": "Claude Haiku 5.5 (row 8)", "us_cents": null }
+    {
+      "model": "Claude Sonnet 5.5 (the model the tool uses)",
+      "us_cents": 4.27
+    },
+    {
+      "model": "Claude Haiku 5.5 (row 8)",
+      "us_cents": 0.29
+    }
   ],
-  "omission_check": null,
+  "omission_check": "A separate word search flagged 173 words as \"possibly missed\" across 480 hospital records. It pointed at 1 of the full tool's 13 misses: it only looks for medicine and allergy words, so it cannot see the 4 missed diagnoses, and the 4 missed medicines (combination medicines read as their two ingredients) still look present by name. It is a hint for the doctor, not a fact.",
   "failure_examples": []
 }
