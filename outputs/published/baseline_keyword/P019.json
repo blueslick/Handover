@@ -1,0 +1,63 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_keyword",
+  "patient_id": "P019",
+  "run_id": null,
+  "built_from": [
+    "P019_A.csv",
+    "P019_B.txt",
+    "P019_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P019-F01",
+      "patient_id": "P019",
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "cefdinir",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-01-29",
+      "quote": "She is allergic to cefdinir, which causes anaphylaxis.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-01-29",
+          "quote": "She is allergic to cefdinir, which causes anaphylaxis.",
+          "file": "P019_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P019-F02",
+      "patient_id": "P019",
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "Omnicef",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-01",
+      "quote": "- Omnicef (anaphylaxis)",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-08-01",
+          "quote": "- Omnicef (anaphylaxis)",
+          "file": "P019_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

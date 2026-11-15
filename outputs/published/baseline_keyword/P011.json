@@ -1,0 +1,169 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_keyword",
+  "patient_id": "P011",
+  "run_id": null,
+  "built_from": [
+    "P011_A.csv",
+    "P011_B.txt",
+    "P011_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P011-F01",
+      "patient_id": "P011",
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "Cefdinir",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-05-06",
+      "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,ALLERGY,Cefdinir,,,Active,2011-03-26,hives",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-06",
+          "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,ALLERGY,Cefdinir,,,Active,2011-03-26,hives",
+          "file": "P011_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P011-F02",
+      "patient_id": "P011",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Levonorgestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-05-06",
+      "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-06",
+          "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,MEDICATION,Levonorgestrel / ethinyl estradiol,,once daily,Active,2021-05-06,",
+          "file": "P011_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P011-F03",
+      "patient_id": "P011",
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "Etonogestrel",
+      "dose": "68 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-05-06",
+      "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-05-19,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-06",
+          "quote": "P011,\"Bernier, Bonita\",1985-04-03,F,2021-05-06,MEDICATION,Etonogestrel,68 mg,implant under the skin (lasts 3 years),Discontinued,2020-05-19,",
+          "file": "P011_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P011-F04",
+      "patient_id": "P011",
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "levonorgestrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-08",
+      "quote": "She takes no regular medicines. Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-08",
+          "quote": "She takes no regular medicines. Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.",
+          "file": "P011_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P011-F05",
+      "patient_id": "P011",
+      "type": "medicine",
+      "name": "ethinyl estradiol",
+      "name_as_written": "ethinyl estradiol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-08",
+      "quote": "She takes no regular medicines. Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-08",
+          "quote": "She takes no regular medicines. Her levonorgestrel and ethinyl estradiol was stopped on 14 May 2021.",
+          "file": "P011_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P011-F06",
+      "patient_id": "P011",
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "Omnicef",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-20",
+      "quote": "- Omnicef (hives)",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-08-20",
+          "quote": "- Omnicef (hives)",
+          "file": "P011_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -41,7 +41,9 @@ for (const p of index.patients) {
   if (!existsSync(compiled)) fail(`index lists ${id} but published/compiled/${id}.json is missing.`);
   const rec = JSON.parse(readFileSync(compiled, "utf-8"));
   if (rec.patient_id !== id || rec.kind !== "compiled") fail(`published/compiled/${id}.json is not ${id}'s compiled record.`);
-  if (rec.run_id !== index.compiled_run_id) fail(`${id} is from run ${rec.run_id}, index says ${index.compiled_run_id}.`);
+  // T70: each entry may name its own run (store.py publish --add-run); older indexes use compiled_run_id.
+  const runId = p.run_id ?? index.compiled_run_id;
+  if (rec.run_id !== runId) fail(`${id} is from run ${rec.run_id}, index says ${runId}.`);
   copyFileSync(compiled, path.join(dataDir, `${id}_compiled.json`));
   keep.add(`${id}_compiled.json`);
 
@@ -56,8 +58,8 @@ for (const p of index.patients) {
     const om = path.join(pub, "omission", `${id}.json`);
     if (!existsSync(om)) fail(`index gives ${id} omission flags but published/omission/${id}.json is missing.`);
     const doc = JSON.parse(readFileSync(om, "utf-8"));
-    if (doc.patient_id !== id || doc.kind !== "omission_check" || doc.run_id !== index.compiled_run_id)
-      fail(`published/omission/${id}.json is not ${id}'s omission check for run ${index.compiled_run_id}.`);
+    if (doc.patient_id !== id || doc.kind !== "omission_check" || doc.run_id !== runId)
+      fail(`published/omission/${id}.json is not ${id}'s omission check for run ${runId}.`);
     copyFileSync(om, path.join(dataDir, `${id}_omission.json`));
     keep.add(`${id}_omission.json`);
   }
@@ -73,7 +75,8 @@ for (const f of readdirSync(dataDir)) {
 writeFileSync(path.join(dataDir, "index.json"), JSON.stringify(index, null, 2) + "\n");
 
 console.log(
-  `Synced run ${index.compiled_run_id}: ${index.patients.length} patient(s) ` +
+  `Synced run(s) ${[...new Set(index.patients.map((p) => p.run_id ?? index.compiled_run_id))].join(" + ")}: ` +
+    `${index.patients.length} patient(s) ` +
     `(${index.patients.map((p) => p.patient_id).join(", ")})` +
     (removed.length ? `; removed ${removed.join(", ")}` : ""),
 );

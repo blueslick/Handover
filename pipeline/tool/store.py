@@ -8,6 +8,12 @@ Usage:
     python pipeline/tool/store.py build outputs/compiled/<run_id>
     python pipeline/tool/store.py build outputs/baseline_keyword
     python pipeline/tool/store.py publish --run <run_id> [--patients D001 P021 ...] [--results <run_id>] [--with-omission]
+                                          [--add-run <run_id> [--add-run ...]]
+
+--add-run (T70) also publishes every patient of another compiled run (for example the
+working run next to the demo run). --run stays the main run: it is the index's
+compiled_run_id, and --patients and --with-omission apply to it only. Every index entry
+says which run its record came from ("run_id"). A patient may appear in only one run.
 
 --with-omission (T64) also copies the omission check's flags for the same run
 (outputs/omission/<run_id>/) into published/omission/<ID>.json, one file per patient.
@@ -121,20 +127,38 @@ def load_omission(omission_dir, pid, run_id, built_from):
     return out, n
 
 
-def publish(run_id, outputs, patients=None, results=None, with_omission=False):
-    """Copy one compiled run (and matching keyword baselines) into outputs/published/."""
-    outputs = Path(outputs)
+def load_run(outputs, run_id):
+    """One compiled run's records by patient ID, after all checks."""
     run_dir = outputs / "compiled" / run_id
     if not run_dir.is_dir():
         raise StoreError(f"no such run folder: {run_dir}")
     records = load_checked(run_dir)
     if records[0][1]["kind"] != "compiled":
         raise StoreError(f"{run_dir} holds kind {records[0][1]['kind']}, not compiled")
-    by_id = {rec["patient_id"]: (path, rec) for path, rec in records}
+    return {rec["patient_id"]: (path, rec) for path, rec in records}
+
+
+def publish(run_id, outputs, patients=None, results=None, with_omission=False, add_runs=None):
+    """Copy one compiled run (and matching keyword baselines) into outputs/published/.
+    add_runs (T70): more compiled runs whose patients are published too (all of them)."""
+    outputs = Path(outputs)
+    by_id = load_run(outputs, run_id)
     wanted = patients or sorted(by_id)
     missing = [p for p in wanted if p not in by_id]
     if missing:
         raise StoreError(f"not in run {run_id}: {', '.join(missing)}")
+    plan = [(pid, run_id, by_id[pid]) for pid in wanted]
+    seen = set(wanted)
+    for extra in add_runs or []:
+        if extra == run_id:
+            raise StoreError(f"--add-run {extra} is already the main run")
+        extra_ids = load_run(outputs, extra)
+        clash = sorted(seen & set(extra_ids))
+        if clash:
+            raise StoreError(f"patient(s) in more than one published run: {', '.join(clash)}")
+        for pid in sorted(extra_ids):
+            plan.append((pid, extra, extra_ids[pid]))
+            seen.add(pid)
 
     baseline_dir = outputs / "baseline_keyword"
     baselines = {}
@@ -151,14 +175,13 @@ def publish(run_id, outputs, patients=None, results=None, with_omission=False):
         for old in patient_files(pub / sub):
             old.unlink()
     entries = []
-    for pid in wanted:
-        path, rec = by_id[pid]
+    for pid, rid, (path, rec) in plan:
         shutil.copyfile(path, pub / "compiled" / path.name)
         has_baseline = pid in baselines
         if has_baseline:
             shutil.copyfile(baselines[pid], pub / "baseline_keyword" / f"{pid}.json")
-        entry = {"patient_id": pid, "has_baseline": has_baseline, **counts(rec)}
-        if with_omission:
+        entry = {"patient_id": pid, "run_id": rid, "has_baseline": has_baseline, **counts(rec)}
+        if with_omission and rid == run_id:
             doc, n = load_omission(omission_dir, pid, run_id, rec["built_from"])
             if doc is not None:
                 (pub / "omission" / f"{pid}.json").write_text(
@@ -193,14 +216,18 @@ def main(argv=None):
     p.add_argument("--results", help="results run ID to copy into published/results/")
     p.add_argument("--with-omission", action="store_true",
                    help="also publish the omission check's flags for this run (T64)")
+    p.add_argument("--add-run", action="append", default=[], metavar="RUN_ID",
+                   help="also publish every patient of this compiled run (T70); repeatable")
     p.add_argument("--outputs", default=str(ROOT / "outputs"), help=argparse.SUPPRESS)
     args = ap.parse_args(argv)
     try:
         if args.cmd == "build":
             print(f"built {args.folder}: {summary(build(args.folder))}")
         else:
-            index = publish(args.run, args.outputs, args.patients, args.results, args.with_omission)
-            print(f"published run {args.run}: {summary(index)}")
+            index = publish(args.run, args.outputs, args.patients, args.results, args.with_omission,
+                            args.add_run)
+            runs = " + ".join([args.run] + args.add_run)
+            print(f"published run {runs}: {summary(index)}")
     except StoreError as e:
         print(f"store.py: {e}", file=sys.stderr)
         return 1

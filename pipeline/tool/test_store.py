@@ -184,6 +184,43 @@ def test_publish_with_omission_needs_folder():
             raise AssertionError("--with-omission with no omission folder should stop publish")
 
 
+def test_publish_add_run_joins_two_runs():
+    """T70: the demo run plus every patient of a second run, each entry naming its run."""
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp, pids=())  # main run: D001 only
+        extra = "20261115-test-store-working"
+        extra_dir = Path(tmp) / "compiled" / extra
+        extra_dir.mkdir(parents=True)
+        for p in ("P001", "P002"):
+            d = json.loads((WORKING / p / f"{p}_key.json").read_text(encoding="utf-8"))
+            d["kind"], d["run_id"] = "compiled", extra
+            (extra_dir / f"{p}.json").write_text(json.dumps(d), encoding="utf-8")
+        index = publish(RUN, tmp, add_runs=[extra])
+        assert index["compiled_run_id"] == RUN
+        assert [(e["patient_id"], e["run_id"]) for e in index["patients"]] == [
+            ("D001", RUN), ("P001", extra), ("P002", extra)]
+        pub = Path(tmp) / "published" / "compiled"
+        assert sorted(f.name for f in pub.iterdir()) == ["D001.json", "P001.json", "P002.json"]
+        assert json.loads((pub / "P001.json").read_text(encoding="utf-8"))["run_id"] == extra
+
+
+def test_publish_add_run_overlap_stops():
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp, pids=("P001",))
+        extra = "20261115-test-store-working"
+        extra_dir = Path(tmp) / "compiled" / extra
+        extra_dir.mkdir(parents=True)
+        d = json.loads((WORKING / "P001" / "P001_key.json").read_text(encoding="utf-8"))
+        d["kind"], d["run_id"] = "compiled", extra
+        (extra_dir / "P001.json").write_text(json.dumps(d), encoding="utf-8")
+        try:
+            publish(RUN, tmp, add_runs=[extra])
+        except StoreError as e:
+            assert "more than one published run" in str(e)
+        else:
+            raise AssertionError("expected StoreError")
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

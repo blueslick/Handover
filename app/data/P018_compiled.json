@@ -1,0 +1,474 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P018",
+  "run_id": "20261115-v2-sonnet-5-5",
+  "built_from": [
+    "P018_A.csv",
+    "P018_B.txt",
+    "P018_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P018-F01",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to animal dander, which causes hay fever symptoms.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Animal dander,,,Active,1994-10-11,hay fever symptoms",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Animal dander (hay fever symptoms)",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F02",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to bee venom, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Bee venom,,,Active,1994-10-11,skin rash",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Bee venom (skin rash)",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to bee venom, which causes skin rash.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F03",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2020-11-23",
+      "quote": "- Fish (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Fish,,,Active,1994-10-11,skin rash",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Fish (skin rash)",
+          "file": "P018_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F04",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Grass pollen,,,Active,1994-10-11,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Grass pollen",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F05",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to house dust mite.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,House dust mite,,,Active,1994-10-11,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- House dust mite",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F06",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "wheezing",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to mould, which causes wheezing.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Mould,,,Active,1994-10-11,wheezing",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Mould (wheezing)",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to mould, which causes wheezing.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F07",
+      "patient_id": "P018",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is allergic to tree pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-10-11",
+          "quote": "ALLERGY,Tree pollen,,,Active,1994-10-11,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Tree pollen",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is allergic to tree pollen.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F08",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She is on amlodipine 2.5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-24",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-05-24,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She is on amlodipine 2.5 mg once a day.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F09",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "NuvaRing",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2016-12-24",
+      "quote": "2. NuvaRing - stopped 24-Dec-2016",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2016-12-24",
+          "quote": "2. NuvaRing - stopped 24-Dec-2016",
+          "file": "P018_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F10",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "She continues on ibuprofen 400 mg three times a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-24",
+          "quote": "MEDICATION,Ibuprofen,400 mg,three times daily,Active,2021-05-24,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "She continues on ibuprofen 400 mg three times a day.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F11",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "levonorgestrel",
+      "dose": "52 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2020-12-06",
+      "quote": "Her levonorgestrel was stopped on 6 December 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-12-06",
+          "quote": "Her levonorgestrel was stopped on 6 December 2020.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "52 mg",
+          "frequency": null,
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "1. Mirena 52 mg intrauterine system (lasts 5 years)"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F12",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Seasonique",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-12-09",
+      "quote": "3. Seasonique - stopped 09-Dec-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-12-09",
+          "quote": "3. Seasonique - stopped 09-Dec-2019",
+          "file": "P018_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F13",
+      "patient_id": "P018",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2017-07-26",
+      "quote": "1. Panadol - stopped 26-Jul-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-07-26",
+          "quote": "1. Panadol - stopped 26-Jul-2017",
+          "file": "P018_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P018-F14",
+      "patient_id": "P018",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-06",
+      "quote": "Her background includes hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-04-01",
+          "quote": "PROBLEM,Hypertension,,,Active,2012-04-01,",
+          "file": "P018_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-11-23",
+          "quote": "- Hypertension",
+          "file": "P018_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-06",
+          "quote": "Her background includes hypertension.",
+          "file": "P018_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

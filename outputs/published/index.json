@@ -4,12 +4,193 @@
   "patients": [
     {
       "patient_id": "D001",
+      "run_id": "20261115-v2-demo-sonnet-5-5",
       "has_baseline": true,
       "facts": 7,
       "critical_facts": 5,
       "critical_warnings": 2,
       "conflicts": 1,
       "omission_flags": 0
+    },
+    {
+      "patient_id": "P001",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 7,
+      "critical_facts": 6,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P002",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 5,
+      "critical_facts": 5,
+      "critical_warnings": 2,
+      "conflicts": 1
+    },
+    {
+      "patient_id": "P003",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 8,
+      "critical_facts": 4,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P004",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 5,
+      "critical_facts": 4,
+      "critical_warnings": 1,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P005",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 12,
+      "critical_facts": 8,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P006",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 8,
+      "critical_facts": 7,
+      "critical_warnings": 1,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P007",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 4,
+      "critical_facts": 4,
+      "critical_warnings": 2,
+      "conflicts": 1
+    },
+    {
+      "patient_id": "P008",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 11,
+      "critical_facts": 8,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P009",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 4,
+      "critical_facts": 3,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P010",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 4,
+      "critical_facts": 3,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P011",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 6,
+      "critical_facts": 5,
+      "critical_warnings": 2,
+      "conflicts": 1
+    },
+    {
+      "patient_id": "P012",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 18,
+      "critical_facts": 17,
+      "critical_warnings": 3,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P013",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 6,
+      "critical_facts": 3,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P014",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 6,
+      "critical_facts": 5,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P015",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 16,
+      "critical_facts": 13,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P016",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 11,
+      "critical_facts": 4,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P017",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 9,
+      "critical_facts": 7,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P018",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 14,
+      "critical_facts": 13,
+      "critical_warnings": 0,
+      "conflicts": 0
+    },
+    {
+      "patient_id": "P019",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 5,
+      "critical_facts": 3,
+      "critical_warnings": 2,
+      "conflicts": 1
+    },
+    {
+      "patient_id": "P020",
+      "run_id": "20261115-v2-sonnet-5-5",
+      "has_baseline": true,
+      "facts": 6,
+      "critical_facts": 3,
+      "critical_warnings": 0,
+      "conflicts": 0
     }
   ]
 }

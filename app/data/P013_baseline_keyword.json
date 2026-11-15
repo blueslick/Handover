@@ -1,0 +1,38 @@
+{
+  "format_version": "1.0",
+  "kind": "baseline_keyword",
+  "patient_id": "P013",
+  "run_id": null,
+  "built_from": [
+    "P013_A.csv",
+    "P013_B.txt",
+    "P013_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P013-F01",
+      "patient_id": "P013",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-05",
+      "quote": "P013,\"Conn, Debora\",1956-05-17,F,2021-11-05,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-08-12,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-05",
+          "quote": "P013,\"Conn, Debora\",1956-05-17,F,2021-11-05,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-08-12,",
+          "file": "P013_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}
