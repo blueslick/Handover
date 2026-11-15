@@ -5,7 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const TABS = [
-  { href: "/upload", label: "Hospital upload" },
+  // T68 item 24: nothing can be uploaded here, so the tab says it is a replay.
+  { href: "/upload", label: "Hospital records (replay)" },
   { href: "/", label: "Doctor screen" },
   { href: "/how-we-tested", label: "How we tested" },
 ];

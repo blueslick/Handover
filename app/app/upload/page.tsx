@@ -8,7 +8,7 @@ import { loadWalkthrough, WALKTHROUGH_ID } from "@/lib/walkthrough";
 import publishedIndex from "../../data/index.json";
 import UploadReplay, { type MergedSummary } from "./UploadReplay";
 
-export const metadata = { title: "Hospital upload · Handover" };
+export const metadata = { title: "Hospital records (replay) · Handover" };
 
 async function Replay() {
   const load = await loadWalkthrough(WALKTHROUGH_ID);
@@ -40,10 +40,10 @@ async function Replay() {
 export default function UploadPage() {
   return (
     <main className="flex-1 p-4 sm:p-8 max-w-5xl w-full mx-auto">
-      <h1 className="text-3xl font-semibold">Hospital upload</h1>
+      <h1 className="text-3xl font-semibold">Hospital records (replay)</h1>
       <p className="mt-2">
-        Staff at each hospital send in their record for patient {WALKTHROUGH_ID}. The three hospitals use
-        three different formats: a table, a free-text letter and a sheet with brand names.
+        How the tool reads one patient&rsquo;s records: three hospitals each sent a record for patient{" "}
+        {WALKTHROUGH_ID}, in three different formats: a table, a free-text letter and a sheet with brand names.
       </p>
       <div className="mt-4 border-2 border-zinc-700 bg-zinc-50 rounded p-4">
         <p className="font-bold">This screen replays a saved run.</p>
