@@ -74,6 +74,26 @@ def test_rule1_same_drug_one_fact():
     assert m["history"] == []
 
 
+# Rule 1, brand in the name field (Q02): Hospital A's name field is the brand "Glucophage" itself, so
+# canonical_name() must find it in the brand table. Glucophage in A and metformin in C make ONE fact.
+# The shared format says an extracted name must be a lowercase generic, so this record is NOT valid
+# input (real records keep the brand in name_as_written). It is fed straight to compile_patient to
+# test canonical_name()'s first lookup on its own. Only the compiled output is schema-checked.
+def test_rule1_brand_in_name_field_one_fact():
+    records = [
+        record("A", fact("medicine", "Glucophage", dose="500 mg", date="2021-01-10")),
+        record("C", fact("medicine", "metformin", dose="500 mg", date="2021-03-01")),
+    ]
+    out = compile_patient(PID, records)
+    valid(out, "compiled")
+    facts = out["facts"]
+    assert len(facts) == 1
+    [m] = named(facts, "metformin")
+    assert sorted(s["hospital"] for s in m["sources"]) == ["A", "C"]
+    assert m["history"] == []
+    assert "unknown_name" not in m["flags"]
+
+
 # Rule 2, explicit stop: a later "stopped" wins and the earlier current entry is kept in history.
 def test_rule2_explicit_stop():
     facts = compile_records(
