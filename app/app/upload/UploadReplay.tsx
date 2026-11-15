@@ -6,7 +6,7 @@
 // only there so each step can be seen; the Extract pause is longer for records whose saved
 // reply was longer, so the three rows don't move in lockstep.
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Walkthrough, WalkthroughHospital } from "@/lib/walkthrough";
 import FactList from "../components/FactList";
 
@@ -146,6 +146,17 @@ export default function UploadReplay({
     return () => clearInterval(timer);
   }, [startedAt, finished]);
 
+  // T68 item 26: when the replay ends, bring the "record is ready" box into view and put
+  // the keyboard on its button, so the next step is obvious (and on camera).
+  const readyRef = useRef<HTMLDivElement>(null);
+  const openRef = useRef<HTMLAnchorElement>(null);
+  useEffect(() => {
+    if (!finished || !canMerge) return;
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    readyRef.current?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" });
+    openRef.current?.focus({ preventScroll: true });
+  }, [finished, canMerge]);
+
   const start = () => {
     const now = Date.now();
     setStartedAt(now);
@@ -201,8 +212,8 @@ export default function UploadReplay({
       </section>
 
       {finished && canMerge && (
-        <div role="status" className="mt-4 border-4 border-zinc-800 rounded p-4">
-          <p className="font-semibold">
+        <div ref={readyRef} role="status" className="mt-4 border-4 border-zinc-800 bg-zinc-50 rounded p-5">
+          <p className="text-lg font-semibold">
             {merged
               ? `The record is ready: ${merged.facts} facts and ${merged.conflicts} ${
                   merged.conflicts === 1 ? "conflict" : "conflicts"
@@ -210,10 +221,11 @@ export default function UploadReplay({
               : "The record is ready."}
           </p>
           <Link
+            ref={openRef}
             href={`/?id=${walkthrough.patient_id}`}
-            className="mt-3 inline-block border border-zinc-800 bg-zinc-800 text-white rounded px-4 py-2"
+            className="mt-3 inline-block border-2 border-zinc-900 bg-zinc-900 text-white text-lg font-semibold rounded px-6 py-3 hover:bg-zinc-700"
           >
-            Open the doctor screen for {walkthrough.patient_id}
+            Open the doctor screen for {walkthrough.patient_id} →
           </Link>
         </div>
       )}
