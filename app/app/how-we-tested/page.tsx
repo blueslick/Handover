@@ -18,6 +18,10 @@ function outOf(n: number | null, total: number | null): string {
   return total === null ? String(n) : `${n} of ${total}`;
 }
 
+// T71 item 30: the two rows the headline compares get a tag in words and a thick left
+// edge, so they don't rely on colour alone.
+const ROW_MARKS: Record<number, string> = { 1: "Baseline", 7: "Full tool" };
+
 // The build-up table. Scrolls sideways on a phone rather than squashing the columns.
 function ResultsTable({ rows }: { rows: ResultRow[] }) {
   return (
@@ -40,10 +44,21 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => (
-            <tr key={r.row}>
-              <td className="border border-zinc-400 px-2 py-1">{r.row}</td>
+          {rows.map((r) => {
+            const mark = ROW_MARKS[r.row];
+            return (
+            <tr key={r.row} className={mark ? "bg-zinc-50 font-semibold" : undefined}>
+              <td
+                className={`border border-zinc-400 px-2 py-1 ${mark ? "border-l-8 border-l-zinc-900" : ""}`}
+              >
+                {r.row}
+              </td>
               <th scope="row" className="border border-zinc-400 px-2 py-1 text-left font-medium">
+                {mark && (
+                  <span className="mr-2 inline-block rounded border-2 border-zinc-900 bg-white px-1 text-xs font-bold uppercase">
+                    {mark}
+                  </span>
+                )}
                 {r.method}
               </th>
               <td className="border border-zinc-400 px-2 py-1">{r.uses_ai ? "Yes" : "No"}</td>
@@ -52,7 +67,8 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
               <td className="border border-zinc-400 px-2 py-1">{count(r.wrong_status)}</td>
               <td className="border border-zinc-400 px-2 py-1">{count(r.conflicts_shown)}</td>
             </tr>
-          ))}
+            );
+          })}
         </tbody>
       </table>
     </div>
