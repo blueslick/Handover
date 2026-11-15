@@ -86,6 +86,7 @@ outputs/published/
 
 - Publishing replaces everything in `published/compiled/` and `published/baseline_keyword/`, so no patient from an older run is left behind.
 - Only the frozen run (git tag `freeze`) plus the demo patient go here for the submission (folders_and_names.md). Write the run ID in the Log tab.
+- `--add-run <run_id>` (T70, added 15 Nov) publishes every patient of a second compiled run next to the main one, for example the 20 working patients (run `20261115-v2-sonnet-5-5`) next to demo D001. `--run` stays the main run (the index's `compiled_run_id`; `--patients` and `--with-omission` apply to it only), each index entry gains `"run_id"` naming the run its record came from, and a patient may appear in only one run. Held-out and reserve patients are never published (Q10).
 
 ## Omission flags for the app (T64, added 15 Nov)
 
@@ -122,5 +123,5 @@ outputs/published/
 ```
 python pipeline/tool/store.py build outputs/compiled/<run_id>
 python pipeline/tool/store.py build outputs/baseline_keyword
-python pipeline/tool/store.py publish --run <run_id> [--patients D001 P021 ...] [--results <run_id>]
+python pipeline/tool/store.py publish --run <run_id> [--patients D001 P021 ...] [--results <run_id>] [--with-omission] [--add-run <run_id>]
 ```
