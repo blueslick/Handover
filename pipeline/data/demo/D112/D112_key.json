@@ -1,0 +1,63 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D112",
+  "run_id": null,
+  "built_from": [
+    "D112_A.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D112-F01",
+      "patient_id": "D112",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes amoxicillin and clavulanate three times a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes amoxicillin and clavulanate three times a day.",
+          "file": "D112_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D112-F02",
+      "patient_id": "D112",
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes atorvastatin 20 mg at night.",
+          "file": "D112_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

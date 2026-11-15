@@ -1,0 +1,18 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Test Patient 106
+Hospital ID: D106
+Date of birth: 1 January 1960
+Date of visit: 14 July 2021
+
+Dear Doctor,
+
+I reviewed this patient in the medical clinic today.
+She takes atorvastatin 20 mg at night.
+Her metformin 500 mg twice a day was discontinued at this visit.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

@@ -1,0 +1,61 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D140",
+  "run_id": null,
+  "built_from": [
+    "D140_A.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D140-F01",
+      "patient_id": "D140",
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes atorvastatin 20 mg at night.",
+          "file": "D140_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D140-F02",
+      "patient_id": "D140",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "1000 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "status": "planned",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She will be given paracetamol 1 g four times a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She will be given paracetamol 1 g four times a day.",
+          "file": "D140_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

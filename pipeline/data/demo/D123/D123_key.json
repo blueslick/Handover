@@ -1,0 +1,61 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D123",
+  "run_id": null,
+  "built_from": [
+    "D123_A.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D123-F01",
+      "patient_id": "D123",
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": "dry cough",
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She had a dry cough with lisinopril. This is an allergy.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She had a dry cough with lisinopril. This is an allergy.",
+          "file": "D123_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D123-F02",
+      "patient_id": "D123",
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes atorvastatin 20 mg at night.",
+          "file": "D123_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

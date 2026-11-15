@@ -1,0 +1,61 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D133",
+  "run_id": null,
+  "built_from": [
+    "D133_A.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D133-F01",
+      "patient_id": "D133",
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes atorvastatin 20 mg at night.",
+          "file": "D133_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D133-F02",
+      "patient_id": "D133",
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "warfarin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-05-03",
+      "quote": "Her warfarin was stopped on 3 May 2021",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-03",
+          "quote": "Her warfarin was stopped on 3 May 2021",
+          "file": "D133_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

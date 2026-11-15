@@ -1,0 +1,61 @@
+{
+  "format_version": "1.0",
+  "kind": "answer_key",
+  "patient_id": "D104",
+  "run_id": null,
+  "built_from": [
+    "D104_A.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D104-F01",
+      "patient_id": "D104",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She may be allergic to penicillin.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She may be allergic to penicillin.",
+          "file": "D104_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D104-F02",
+      "patient_id": "D104",
+      "type": "medicine",
+      "name": "atorvastatin",
+      "name_as_written": "atorvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-14",
+      "quote": "She takes atorvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-14",
+          "quote": "She takes atorvastatin 20 mg at night.",
+          "file": "D104_A.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

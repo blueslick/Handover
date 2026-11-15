@@ -1,0 +1,18 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Test Patient 138
+Hospital ID: D138
+Date of birth: 1 January 1960
+Date of visit: 14 July 2021
+
+Dear Doctor,
+
+I reviewed this patient in the medical clinic today.
+She takes atorvastatin 20 mg at night.
+She takes Panadol 1 g as needed. She also takes tramadol 50 mg as needed.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic

@@ -1,0 +1,18 @@
+RIVERSIDE COMMUNITY HOSPITAL
+Medical Outpatient Clinic
+
+Patient: Test Patient 103
+Hospital ID: D103
+Date of birth: 1 January 1960
+Date of visit: 14 July 2021
+
+Dear Doctor,
+
+I reviewed this patient in the medical clinic today.
+She takes atorvastatin 20 mg at night.
+She had a dry cough with lisinopril. This is a side effect, not an allergy.
+
+Plan: no changes today. Review in clinic in three months.
+
+Yours sincerely,
+Medical Outpatient Clinic
