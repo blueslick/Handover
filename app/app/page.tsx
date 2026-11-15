@@ -5,7 +5,9 @@ import { Suspense } from "react";
 import { isKnownId, liveRun, liveRuns, loadRecordState, parseView, SAMPLE_IDS, type LiveRun, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
 import { loadOmission } from "@/lib/omission";
+import { isOlderNoMedicinesLine } from "@/lib/olderRecord";
 import FactList from "./components/FactList";
+import OlderRecordNote from "./components/OlderRecordNote";
 import OmissionBox from "./components/OmissionBox";
 import WarningBanner from "./components/WarningBanner";
 
@@ -168,7 +170,12 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   const record = load.record;
   const facts = record.facts;
   const ofType = (t: Fact["type"]) => facts.filter((f) => f.type === t);
-  const meds = ofType("medicine");
+  // T67: in the Handover view, an older "no regular medicines" line moves to a greyed
+  // history box when a later record lists current medicines. The baseline view lists
+  // every line as found, so it is left alone.
+  const olderMeds =
+    view === "handover" ? ofType("medicine").filter((f) => isOlderNoMedicinesLine(f, facts)) : [];
+  const meds = ofType("medicine").filter((f) => !olderMeds.includes(f));
   // Word-search hint (T64), Handover view only, and only from the same run as the record.
   const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
   const live = view === "handover" ? liveRun(record.patient_id) : undefined;
@@ -194,6 +201,7 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
       <Section title="Allergies" facts={ofType("allergy")} />
       <Section title="Current medicines" facts={meds.filter((f) => f.status === "current")} />
       <Section title="Other medicines (stopped or planned)" facts={meds.filter((f) => f.status !== "current")} />
+      <OlderRecordNote facts={olderMeds} />
       <Section title="Diagnoses" facts={ofType("diagnosis")} />
       <Section title="Operations" facts={ofType("operation")} />
       {omission && <OmissionBox load={omission} />}
