@@ -7,7 +7,7 @@
   "required": ["format_version", "kind", "patient_id", "run_id", "built_from", "facts"],
   "properties": {
     "format_version": {"const": "1.0"},
-    "kind": {"enum": ["compiled", "answer_key", "baseline_keyword", "baseline_medspacy", "baseline_rules_row"]},
+    "kind": {"enum": ["compiled", "answer_key", "baseline_keyword", "baseline_medspacy", "baseline_rules_row", "baseline_azure", "baseline_azure_rules"]},
     "patient_id": {"$ref": "#/$defs/patient_id"},
     "run_id": {"type": ["string", "null"], "description": "Run folder name under outputs/. null for answer keys and the hand-written sample"},
     "built_from": {"type": "array", "items": {"$ref": "#/$defs/file_name"}, "minItems": 1},

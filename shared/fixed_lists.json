@@ -24,7 +24,7 @@
 
   "frequencies": ["once", "daily", "twice_daily", "three_times_daily", "four_times_daily", "at_night", "weekly", "as_needed", "other"],
 
-  "record_kinds": ["compiled", "answer_key", "baseline_keyword", "baseline_medspacy", "baseline_rules_row"],
+  "record_kinds": ["compiled", "answer_key", "baseline_keyword", "baseline_medspacy", "baseline_rules_row", "baseline_azure", "baseline_azure_rules"],
 
   "display_labels": {
     "status": {
