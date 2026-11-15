@@ -2,7 +2,7 @@
 // Reads app/data/results.json only (see lib/results.ts). Until T39 the file is a placeholder,
 // so every number shows "Not run yet".
 import { Suspense } from "react";
-import { loadResults, type ResultRow, type Results } from "@/lib/results";
+import { loadResults, type AgeSexRow, type ResultRow, type Results } from "@/lib/results";
 import CostLine from "./CostLine";
 
 export const metadata = { title: "How we tested · Handover" };
@@ -102,6 +102,57 @@ function Headline({ results }: { results: Results }) {
   );
 }
 
+// T71 item 31: the full tool next to the keyword baseline for each age band and sex,
+// all facts. Says "Not run yet" when the results file has no groups.
+function AgeSexTable({ groups }: { groups?: AgeSexRow[] }) {
+  const cell = "border border-zinc-400 px-2 py-1";
+  return (
+    <section className="mt-6">
+      <h3 className="text-lg font-semibold">By age and sex</h3>
+      {!groups || groups.length === 0 ? (
+        <p className="mt-2">Not run yet.</p>
+      ) : (
+        <>
+          <p className="mt-2 text-sm text-zinc-700">
+            Every held-out patient is in one of eight groups: four age bands, each split by sex. The full tool is
+            row 7 of the table above and the baseline is row 1.
+          </p>
+          <p className="mt-2 text-sm text-zinc-700 sm:hidden">Scroll sideways to see every column.</p>
+          <div className="mt-2 overflow-x-auto">
+            <table className="min-w-full border border-zinc-400 text-sm">
+              <caption className="sr-only">Missed facts and false alarms for each age band and sex</caption>
+              <thead className="bg-zinc-100">
+                <tr>
+                  <th scope="col" className={`${cell} text-left`}>Age band</th>
+                  <th scope="col" className={`${cell} text-left`}>Sex</th>
+                  <th scope="col" className={`${cell} text-left`}>Patients</th>
+                  <th scope="col" className={`${cell} text-left`}>Full tool: missed</th>
+                  <th scope="col" className={`${cell} text-left`}>Full tool: false alarms</th>
+                  <th scope="col" className={`${cell} text-left`}>Baseline: missed</th>
+                  <th scope="col" className={`${cell} text-left`}>Baseline: false alarms</th>
+                </tr>
+              </thead>
+              <tbody>
+                {groups.map((g) => (
+                  <tr key={`${g.age_band}-${g.sex}`}>
+                    <th scope="row" className={`${cell} text-left font-medium`}>{g.age_band}</th>
+                    <td className={cell}>{g.sex === "F" ? "Female" : g.sex === "M" ? "Male" : g.sex}</td>
+                    <td className={cell}>{count(g.patients)}</td>
+                    <td className={cell}>{outOf(g.tool_missed, g.key_facts)}</td>
+                    <td className={cell}>{count(g.tool_false_alarms)}</td>
+                    <td className={cell}>{outOf(g.baseline_missed, g.key_facts)}</td>
+                    <td className={cell}>{count(g.baseline_false_alarms)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )}
+    </section>
+  );
+}
+
 // Everything below the intro, once the results file has loaded.
 function ResultsSection({ results }: { results: Results }) {
   return (
@@ -127,6 +178,7 @@ function ResultsSection({ results }: { results: Results }) {
           {results.omission_check ?? "Not run yet."}
         </p>
         <CostLine entries={results.cost_per_patient} />
+        <AgeSexTable groups={results.by_age_sex} />
       </section>
 
       <section className="mt-6">

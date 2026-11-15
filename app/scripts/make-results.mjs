@@ -7,6 +7,7 @@
 //   ../outputs/results/heldout/buildup_table.csv     rows 1-8, "all" scope (T37)
 //   ../outputs/results/heldout/cost_per_patient.csv  US cents per patient (T37)
 //   ../outputs/results/heldout/omission_line.csv     omission-check counts (T37)
+//   ../outputs/results/heldout/by_age_sex.csv        rows 1 and 7 per age band and sex (T37, used by T71)
 // Held-out numbers only: working-patient results are never used here.
 // The failure examples already in data/results.json are kept as they are (T38: pasted from\n// docs/failure_examples.md, section A).
 // No model calls: this only reads CSV files.
@@ -99,6 +100,44 @@ const omission_check =
   `Most of the rest are combination medicines read as their two ingredients, which still look present by name, ` +
   `so the word search cannot spot them. It is a hint for the doctor, not a fact.`;
 
+// Age and sex groups (T71): the full tool (row 7) next to the keyword baseline (row 1),
+// all facts. Stops if the eight groups don't add up to the build-up table.
+const ageSex = readCsv("by_age_sex.csv").filter((r) => r.scope === "all");
+const groupKey = (r) => `${r.age_band}|${r.sex}`;
+const toolGroups = ageSex.filter((r) => r.row === "7");
+const baseGroups = new Map(ageSex.filter((r) => r.row === "1").map((r) => [groupKey(r), r]));
+if (toolGroups.length !== 8 || baseGroups.size !== 8) {
+  fail(`expected 8 age and sex groups for rows 1 and 7 in by_age_sex.csv, found ${toolGroups.length} and ${baseGroups.size}`);
+}
+const by_age_sex = toolGroups.map((t) => {
+  const b = baseGroups.get(groupKey(t));
+  if (!b) fail(`row 1 has no group ${t.age_band} ${t.sex}`);
+  if (b.patients !== t.patients || b.key_facts !== t.key_facts) fail(`rows 1 and 7 disagree for ${t.age_band} ${t.sex}`);
+  return {
+    age_band: t.age_band,
+    sex: t.sex,
+    patients: int(t.patients, "patients"),
+    key_facts: int(t.key_facts, "key_facts"),
+    tool_missed: int(t.missed, "missed"),
+    tool_false_alarms: int(t.false_alarms, "false_alarms"),
+    baseline_missed: int(b.missed, "missed"),
+    baseline_false_alarms: int(b.false_alarms, "false_alarms"),
+  };
+});
+const sum = (k) => by_age_sex.reduce((a, g) => a + g[k], 0);
+const row1 = rows.find((r) => r.row === 1);
+const checks = [
+  ["patients", sum("patients"), int([...patients][0], "patients")],
+  ["key facts", sum("key_facts"), row7.key_facts],
+  ["full tool missed", sum("tool_missed"), row7.missed],
+  ["full tool false alarms", sum("tool_false_alarms"), row7.false_alarms],
+  ["baseline missed", sum("baseline_missed"), row1.missed],
+  ["baseline false alarms", sum("baseline_false_alarms"), row1.false_alarms],
+];
+for (const [what, got, want] of checks) {
+  if (got !== want) fail(`age and sex groups add up to ${got} ${what}, but the build-up table says ${want}`);
+}
+
 // Keep any failure examples already in the file (T38 adds them).
 let failure_examples = [];
 if (existsSync(outFile)) {
@@ -121,10 +160,11 @@ const results = {
   cost_per_patient,
   omission_check,
   failure_examples,
+  by_age_sex,
 };
 
 writeFileSync(outFile, JSON.stringify(results, null, 2) + "\n");
 console.log(
   `make-results: wrote data/results.json: ${rows.length} rows, ${results.patients} patients, ` +
-    `${failure_examples.length} failure examples`,
+    `${by_age_sex.length} age and sex groups, ${failure_examples.length} failure examples`,
 );

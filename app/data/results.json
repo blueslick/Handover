@@ -117,5 +117,87 @@
       "title": "An opioid is listed twice, once alone and once in a combination",
       "explanation": "A held-out patient's Hospital B note said: \"He takes paracetamol and oxycodone when needed.\" Hospitals A and C name the combination painkiller clearly, and the tool got that right. It also listed oxycodone as a separate current medicine, so the opioid appears twice; it should have shown only the combination. The wrong step was reading Hospital B's note. Extra entries like this appeared for 20 of 160 held-out patients. Low harm: nothing is missing and the quote is shown, but the list is longer and could prompt a needless question."
     }
+  ],
+  "by_age_sex": [
+    {
+      "age_band": "0-19",
+      "sex": "F",
+      "patients": 20,
+      "key_facts": 198,
+      "tool_missed": 0,
+      "tool_false_alarms": 2,
+      "baseline_missed": 82,
+      "baseline_false_alarms": 208
+    },
+    {
+      "age_band": "0-19",
+      "sex": "M",
+      "patients": 20,
+      "key_facts": 136,
+      "tool_missed": 2,
+      "tool_false_alarms": 9,
+      "baseline_missed": 72,
+      "baseline_false_alarms": 130
+    },
+    {
+      "age_band": "20-44",
+      "sex": "F",
+      "patients": 20,
+      "key_facts": 191,
+      "tool_missed": 0,
+      "tool_false_alarms": 4,
+      "baseline_missed": 95,
+      "baseline_false_alarms": 204
+    },
+    {
+      "age_band": "20-44",
+      "sex": "M",
+      "patients": 20,
+      "key_facts": 165,
+      "tool_missed": 1,
+      "tool_false_alarms": 5,
+      "baseline_missed": 74,
+      "baseline_false_alarms": 159
+    },
+    {
+      "age_band": "45-64",
+      "sex": "F",
+      "patients": 20,
+      "key_facts": 271,
+      "tool_missed": 1,
+      "tool_false_alarms": 5,
+      "baseline_missed": 136,
+      "baseline_false_alarms": 258
+    },
+    {
+      "age_band": "45-64",
+      "sex": "M",
+      "patients": 20,
+      "key_facts": 189,
+      "tool_missed": 1,
+      "tool_false_alarms": 6,
+      "baseline_missed": 110,
+      "baseline_false_alarms": 118
+    },
+    {
+      "age_band": "65+",
+      "sex": "F",
+      "patients": 20,
+      "key_facts": 236,
+      "tool_missed": 2,
+      "tool_false_alarms": 3,
+      "baseline_missed": 168,
+      "baseline_false_alarms": 112
+    },
+    {
+      "age_band": "65+",
+      "sex": "M",
+      "patients": 20,
+      "key_facts": 282,
+      "tool_missed": 6,
+      "tool_false_alarms": 13,
+      "baseline_missed": 179,
+      "baseline_false_alarms": 123
+    }
   ]
 }

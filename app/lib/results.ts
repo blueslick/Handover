@@ -31,6 +31,19 @@ export interface FailureExample {
   explanation: string;
 }
 
+// One age band and sex group: the full tool (row 7) next to the keyword baseline (row 1),
+// all facts. Filled by scripts/make-results.mjs from outputs/results/heldout/by_age_sex.csv.
+export interface AgeSexRow {
+  age_band: string;
+  sex: string;
+  patients: number | null;
+  key_facts: number | null;
+  tool_missed: number | null;
+  tool_false_alarms: number | null;
+  baseline_missed: number | null;
+  baseline_false_alarms: number | null;
+}
+
 export interface Results {
   status: "placeholder" | "final";
   updated: string | null;
@@ -41,6 +54,8 @@ export interface Results {
   failure_examples: FailureExample[];
   // Optional, so an older results file without it still loads.
   cost_per_patient?: CostEntry[];
+  // Optional (T71). Missing = the tab says "Not run yet".
+  by_age_sex?: AgeSexRow[];
 }
 
 // Three outcomes, so the tab can tell "nothing yet" apart from "broken file".
@@ -58,6 +73,7 @@ function looksLikeResults(data: unknown): data is Results {
   if (!Array.isArray(d.rows)) return false;
   if (!Array.isArray(d.failure_examples)) return false;
   if (d.cost_per_patient !== undefined && !Array.isArray(d.cost_per_patient)) return false;
+  if (d.by_age_sex !== undefined && !Array.isArray(d.by_age_sex)) return false;
   return d.rows.every(
     (r) => r && typeof r === "object" && typeof (r as ResultRow).method === "string",
   );
