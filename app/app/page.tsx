@@ -243,7 +243,7 @@ export default function Home({ searchParams }: { searchParams: SearchParams }) {
             id="id"
             name="id"
             type="text"
-            placeholder="D001"
+            placeholder="e.g. D001"
             autoComplete="off"
             className="border border-zinc-500 rounded px-3 py-2 w-48"
           />
