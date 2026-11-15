@@ -47,11 +47,15 @@ handover/
 │   ├── baseline_keyword/
 │   ├── baseline_medspacy/
 │   ├── baseline_rules_row/
+│   ├── baseline_azure/           T76: Azure Text Analytics for Health, stacked (replies/ holds the raw Azure replies)
+│   ├── baseline_azure_rules/     T76: Azure facts through the six compile rules
 │   ├── results/<run_id>/
 │   ├── results/heldout/          T37: held-out totals only, no patient IDs (Abby)
 │   ├── results/row4_plain_stack/, row5_labels_stack/, row6_check_stack/   working scores, build-up rows 4-6 (Abby)
 │   ├── results/t43_mtsamples/    T43: public MTSamples notes D201-D212, allergies and medicines (Abby)
 │   ├── results/t40_traps/        T40: public trap notes D101-D140, tested fact apart from the background line (Abby)
+│   ├── results/t76_working_am/   T76: working patients, allergies and medicines only, four methods plus Azure rules (Daniel, covering for Abby)
+│   ├── results/heldout/azure_line.csv   T76: held-out totals, five lines on allergies and medicines (Daniel, covering for Abby)
 │   ├── results_heldout/          git-ignored: held-out detail (Abby)
 │   └── published/                the frozen files the app shows
 └── app/                          Theo. Next.js. Vercel's root directory
@@ -89,12 +93,15 @@ Add a short suffix only if you rerun the same thing on the same day: `20261115-v
 | `compiled/<run_id>/` | `P014.json`, plus `facts.jsonl` and `index.json` | Compiled shape, `kind: compiled`. The two extra files are rebuilt by `store.py build` (shared/store_layout.md) |
 | `omission/<run_id>/` | `P014.json` | Possible-missed flags |
 | `baseline_keyword/`, `baseline_medspacy/`, `baseline_rules_row/` | `P014.json` | Compiled shape. No model, so no run ID. `baseline_rules_row` = keyword facts per hospital put through the six compile rules |
+| `baseline_azure/`, `baseline_azure_rules/` | `P014.json`, plus `replies/` (raw Azure replies, `batch_*.json`) and `replies/azure_run.json` | T76: Azure Text Analytics for Health (API version 2023-04-01, model 2023-12-01). Compiled shape, kinds `baseline_azure` and `baseline_azure_rules`. Not a model: no run ID. Writer: Daniel (covering for Abby) |
 | `results/<run_id>/` | `per_patient.csv`, `summary.csv`, `failures.csv` | Scores for one run (working patients) |
 | `results/heldout/` | `buildup_table.csv`, `by_age_sex.csv`, `traps_by_type.csv`, `omission_line.csv`, `cost_per_patient.csv` | T37. Held-out totals only: no patient IDs, no quotes, so it can be committed. Writer: Abby (`pipeline/eval/heldout_table.py`, `score_traps.py`, `omission_line.py`, `cost_line.py`). The per-patient detail stays in the git-ignored `outputs/results_heldout/` |
 | `results/row4_plain_stack/`, `results/row5_labels_stack/`, `results/row6_check_stack/` | `per_patient.csv`, `summary.csv`, `failures.csv` | Working scores (P001-P020) for build-up rows 4-6. Writer: Abby |
 | `results/t43_mtsamples/` | `summary.csv`, `per_patient.csv`, `failures.csv`, `miss_causes.csv` | T43: 12 public MTSamples notes (CC0), allergies and medicines, zone rule; may be committed. Writer: Abby (`pipeline/eval/score_single_notes.py`) |
 | `results/t40_traps/` | `summary.csv`, `per_note.csv`, `pairs.csv`, `failures.csv` | T40: 40 public trap notes (20 traps + 20 twins), tested fact scored apart from the atorvastatin background line; may be committed. Writer: Abby (`pipeline/eval/score_single_notes.py`) |
-| `results_heldout/` | `baseline_keyword/`, `baseline_medspacy/`, `baseline_rules_row/` (rows 1-3), `row4/`, `row5/`, `row6/` (stacked records), `omission/<run_id>/`, `scores/row<N>/heldout/` and `reserve/`, `traps/` | Git-ignored: held-out baselines, rows 4-6 stacked records, omission flags and score detail. It holds patient IDs and quotes, so it is never committed. Writer: Abby |
+| `results/t76_working_am/` | `lines.csv`, and one folder per method (`keyword/`, `medspacy/`, `full_tool/`, `azure/`, `azure_rules/`) with `summary.csv`, `per_patient.csv`, `failures.csv` | T76: working patients P001-P020, allergies and medicines only, `score.py` unchanged; may be committed. Writer: Daniel (covering for Abby, `pipeline/eval/score_am_subset.py`) |
+| `results/heldout/azure_line.csv` | `method`, `scope`, counts, `recall`, `precision` | T76: held-out totals, five lines on allergies and medicines (keyword, medSpaCy, full tool, Azure stacked, Azure through the rules). No patient IDs, no quotes, so it can be committed. Writer: Daniel (covering for Abby, `pipeline/eval/score_am_subset.py --totals-csv`) |
+| `results_heldout/` | `baseline_keyword/`, `baseline_medspacy/`, `baseline_rules_row/` (rows 1-3), `row4/`, `row5/`, `row6/` (stacked records), `omission/<run_id>/`, `scores/row<N>/heldout/` and `reserve/`, `traps/`, `baseline_azure/`, `baseline_azure_rules/` (T76, with `replies/`), `azure_probe/` (T76, one made-up sentence), `scores/row1/all/`, `row2/all/`, `row7/all/` (T76, all facts, all 160 held-out patients, checked against the committed table), `t76_am/` (T76, allergies and medicines, five methods) | Git-ignored: held-out baselines, rows 4-6 stacked records, omission flags and score detail. It holds patient IDs and quotes, so it is never committed. Writer: Abby; the T76 folders: Daniel (covering for Abby) |
 | `published/` | `index.json`, `compiled/`, `baseline_keyword/`, `results/`, `extraction_walkthrough/` | Only the frozen run plus the demo patient. This is what the app reads. Filled by `store.py publish` (shared/store_layout.md) |
 
 ## Who writes where in outputs/
