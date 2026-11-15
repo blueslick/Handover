@@ -48,12 +48,13 @@ export function baselineDifferences(handover: CompiledRecord, baseline: Compiled
     const doses = new Set(list.map((x) => normDose(x.dose)).filter(Boolean));
     if (list[0].type === "medicine" && doses.size > 1) {
       out.push(`Shows ${name} ${list.length} times with ${doses.size} different doses.`);
-    } else {
+    } else if (!out.some((line) => line.startsWith(`Lists ${name} as current`))) {
+      // (A stopped medicine already named above is not repeated here.)
       plainRepeats.push(`${name} (${list.length})`);
     }
   }
   if (plainRepeats.length > 0) {
-    out.push(`Repeats the same entry once per hospital for ${plural(plainRepeats.length, "name", "names")}: ${plainRepeats.join(", ")}.`);
+    out.push(`Lists the same entry more than once for ${plural(plainRepeats.length, "name", "names")}: ${plainRepeats.join(", ")}.`);
   }
 
   // 3. Disagreements between hospitals that the baseline does not show.
