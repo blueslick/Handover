@@ -1,0 +1,411 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D203",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D203_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D203-F01",
+      "patient_id": "D203",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known medical allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": "ALLERGIES: She has no known medical allergies.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "ALLERGIES: She has no known medical allergies.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F02",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "congestive heart failure",
+      "name_as_written": "congestive heart failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": null,
+      "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F03",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "coronary artery disease",
+      "name_as_written": "coronary artery disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": null,
+      "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F04",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "dyspnea on exertion, uncertain etiology",
+      "name_as_written": "Dyspnea on exertion, uncertain etiology",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Dyspnea on exertion, uncertain etiology.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Dyspnea on exertion, uncertain etiology.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F05",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "heart disease",
+      "name_as_written": "heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She states that she has underlying history of heart disease but is not able to elaborate to any significant extent.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She states that she has underlying history of heart disease but is not able to elaborate to any significant extent.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F06",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F07",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She also has a history of hypertension and type II diabetes but is not currently taking any medication.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She also has a history of hypertension and type II diabetes but is not currently taking any medication.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F08",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "peptic ulcer disease",
+      "name_as_written": "peptic ulcer disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F09",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "pulmonary embolism",
+      "name_as_written": "pulmonary embolism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F10",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "recurrent urinary tract infections",
+      "name_as_written": "recurrent urinary tract infections",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She has also had a history of pulmonary embolism approximately four years ago, hyperlipidemia, peptic ulcer disease, and recurrent urinary tract infections.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F11",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": null,
+      "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Remarkable for coronary artery disease, stroke, and congestive heart failure.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F12",
+      "patient_id": "D203",
+      "type": "diagnosis",
+      "name": "type ii diabetes",
+      "name_as_written": "type II diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "She also has a history of hypertension and type II diabetes but is not currently taking any medication.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "She also has a history of hypertension and type II diabetes but is not currently taking any medication.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F13",
+      "patient_id": "D203",
+      "type": "operation",
+      "name": "appendectomy",
+      "name_as_written": "appendectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F14",
+      "patient_id": "D203",
+      "type": "operation",
+      "name": "cataracts",
+      "name_as_written": "cataracts",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F15",
+      "patient_id": "D203",
+      "type": "operation",
+      "name": "cesarean section",
+      "name_as_written": "cesarean section",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D203-F16",
+      "patient_id": "D203",
+      "type": "operation",
+      "name": "hernia repair",
+      "name_as_written": "hernia repair",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Surgeries include an appendectomy, cesarean section, cataracts, and hernia repair.",
+          "file": "D203_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

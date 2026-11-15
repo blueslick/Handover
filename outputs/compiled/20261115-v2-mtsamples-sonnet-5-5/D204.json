@@ -1,0 +1,685 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D204",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D204_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D204-F01",
+      "patient_id": "D204",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "PENICILLIN",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "SHE IS ALLERGIC TO PENICILLIN.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "SHE IS ALLERGIC TO PENICILLIN.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F02",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F03",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "morphine",
+      "name_as_written": "morphine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F04",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": "ondansetron",
+      "name_as_written": "Zofran",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F05",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Klor-Con",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F06",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Lexapro",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F07",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Lorazepam",
+      "dose": "0.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F08",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Tylenol PM",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F09",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "calcium with vitamin D",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F10",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "clonidine",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F11",
+      "patient_id": "D204",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "sliding scale insulin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F12",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "abdominal pain",
+      "name_as_written": "abdominal pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Diarrhea, vomiting, and abdominal pain.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F13",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "blindness",
+      "name_as_written": "blindness",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F14",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "diarrhea",
+      "name_as_written": "Diarrhea",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Diarrhea, vomiting, and abdominal pain.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F15",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "diverticulosis",
+      "name_as_written": "diverticulosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F16",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "hypercalcemia",
+      "name_as_written": "Hypercalcemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F17",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "Hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F18",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+          "file": "D204_B.txt"
+        },
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F19",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "hypokalemia",
+      "name_as_written": "Hypokalemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "7. Hypokalemia. Will replace per protocol.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "7. Hypokalemia. Will replace per protocol.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F20",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "multiple myeloma",
+      "name_as_written": "multiple myeloma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "hospital": "B",
+      "date": null,
+      "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F21",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "pancreatitis",
+      "name_as_written": "Pancreatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F22",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "protein gap",
+      "name_as_written": "Protein gap",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F23",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "renal failure",
+      "name_as_written": "Renal failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "6. Renal failure. Her baseline is unknown. This is at least partly prerenal. Will replace volume with IV fluids and monitor her renal function.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "6. Renal failure. Her baseline is unknown. This is at least partly prerenal. Will replace volume with IV fluids and monitor her renal function.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F24",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "sciatica",
+      "name_as_written": "sciatica",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F25",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "volume depletion",
+      "name_as_written": "Volume depletion",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. Volume depletion. IV fluids.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. Volume depletion. IV fluids.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D204-F26",
+      "patient_id": "D204",
+      "type": "diagnosis",
+      "name": "vomiting",
+      "name_as_written": "vomiting",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Diarrhea, vomiting, and abdominal pain.",
+          "file": "D204_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

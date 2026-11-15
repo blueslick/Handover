@@ -1,0 +1,152 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D212",
+  "hospital": "B",
+  "source_file": "D212_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3607,
+    "output_tokens": 1197
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "diabetes mellitus type ii",
+      "name_as_written": "Diabetes mellitus type II",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diabetes mellitus type II, hypertension, coronary artery disease, atrial fibrillation, status post PTCA in 1995 by Dr. ABC.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diabetes mellitus type II, hypertension, coronary artery disease, atrial fibrillation, status post PTCA in 1995 by Dr. ABC.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "coronary artery disease",
+      "name_as_written": "coronary artery disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diabetes mellitus type II, hypertension, coronary artery disease, atrial fibrillation, status post PTCA in 1995 by Dr. ABC.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diabetes mellitus type II, hypertension, coronary artery disease, atrial fibrillation, status post PTCA in 1995 by Dr. ABC.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "ptca",
+      "name_as_written": "PTCA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1995-01-01",
+      "quote": "Diabetes mellitus type II, hypertension, coronary artery disease, atrial fibrillation, status post PTCA in 1995 by Dr. ABC.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "coronary artery disease",
+      "name_as_written": "coronary artery disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "date": null,
+      "quote": "FAMILY HISTORY: Positive for coronary artery disease (father & brother).",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "Aspirin",
+      "dose": "81 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Aspirin 81 milligrams QDay.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "insulin isophane",
+      "name_as_written": "Humulin N. insulin",
+      "dose": "50 units",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Humulin N. insulin 50 units in a.m.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "HCTZ",
+      "dose": "50 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "HCTZ 50 mg QDay.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Nitroglycerin 1/150 sublingually PRN chest pain.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "ALLERGIES: Penicillin.",
+      "flags": []
+    }
+  ]
+}

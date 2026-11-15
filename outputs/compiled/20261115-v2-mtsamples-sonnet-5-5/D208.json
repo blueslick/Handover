@@ -1,0 +1,816 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D208",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D208_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D208-F01",
+      "patient_id": "D208",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "SULFA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "SULFA",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "SULFA",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F02",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "amiodarone",
+      "name_as_written": "Pacerone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "6. Pacerone.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "6. Pacerone.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F03",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "Aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Aspirin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Aspirin.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F04",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "cetirizine",
+      "name_as_written": "Zyrtec",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "11. Zyrtec.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "11. Zyrtec.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F05",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. Lasix.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. Lasix.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F06",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. Lisinopril.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Lisinopril.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F07",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Levothyroxine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Levothyroxine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Levothyroxine.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F08",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Potassium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Potassium.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Potassium.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F09",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "7. Protonix.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "7. Protonix.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F10",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Toprol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "8. Toprol.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "8. Toprol.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F11",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Vitamin B",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "9. Vitamin B.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "9. Vitamin B.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F12",
+      "patient_id": "D208",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Zetia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "10. Zetia.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "10. Zetia.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F13",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "aortic aneurysm",
+      "name_as_written": "aortic aneurysm",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "7. History of aortic aneurysm.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "7. History of aortic aneurysm.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F14",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "coronary artery disease",
+      "name_as_written": "Coronary artery disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Coronary artery disease status post CABG at that time.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Coronary artery disease status post CABG at that time.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F15",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "gastroesophageal reflux disease",
+      "name_as_written": "Gastroesophageal reflux disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Gastroesophageal reflux disease.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Gastroesophageal reflux disease.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F16",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "6. Hyperlipidemia.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "6. Hyperlipidemia.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F17",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. Hypertension.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Hypertension.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F18",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "hypothyroidism",
+      "name_as_written": "Hypothyroidism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "10. Hypothyroidism.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "10. Hypothyroidism.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F19",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "mitral regurgitation",
+      "name_as_written": "Mitral regurgitation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. Mitral regurgitation.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. Mitral regurgitation.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F20",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "paroxysmal atrial fibrillation",
+      "name_as_written": "Paroxysmal atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "Paroxysmal atrial fibrillation and no anticoagulation due to history of GI bleed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "Paroxysmal atrial fibrillation and no anticoagulation due to history of GI bleed.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F21",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "peripheral vascular disease",
+      "name_as_written": "Peripheral vascular disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "9. Peripheral vascular disease.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "9. Peripheral vascular disease.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F22",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "pulmonary embolism",
+      "name_as_written": "Pulmonary embolism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Pulmonary embolism diagnosed one year ago.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Pulmonary embolism diagnosed one year ago.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F23",
+      "patient_id": "D208",
+      "type": "diagnosis",
+      "name": "renal artery stenosis",
+      "name_as_written": "renal artery stenosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "8. History of renal artery stenosis.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "8. History of renal artery stenosis.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F24",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "adenoidectomy",
+      "name_as_written": "Adenoidectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. Adenoidectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Adenoidectomy.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F25",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "cabg",
+      "name_as_written": "CABG",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. CABG.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. CABG.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F26",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "cosmetic surgery",
+      "name_as_written": "Cosmetic surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "6. Cosmetic surgery.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "6. Cosmetic surgery.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F27",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "hysterectomy",
+      "name_as_written": "Hysterectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Hysterectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Hysterectomy.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F28",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "ivc filter",
+      "name_as_written": "IVC filter",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. IVC filter.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. IVC filter.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F29",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "renal stent",
+      "name_as_written": "Renal stent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "7. Renal stent.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "7. Renal stent.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F30",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "right femoral stent",
+      "name_as_written": "Right femoral stent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "8. Right femoral stent.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "8. Right femoral stent.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D208-F31",
+      "patient_id": "D208",
+      "type": "operation",
+      "name": "tonsillectomy",
+      "name_as_written": "Tonsillectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Tonsillectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Tonsillectomy.",
+          "file": "D208_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

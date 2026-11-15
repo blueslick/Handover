@@ -1,0 +1,134 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D201",
+  "hospital": "B",
+  "source_file": "D201_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3757,
+    "output_tokens": 877
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "heroin abuse",
+      "name_as_written": "heroin abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin, last use shortly prior to arrival including cocaine.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "alcohol abuse",
+      "name_as_written": "alcohol abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "The patient does have a history of alcohol abuse, but mostly he is concerned about the heroin abuse.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Remarkable for chronic pain.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Klonopin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": null,
+      "quote": "He has previously also been on Klonopin and lithium.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "lithium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": null,
+      "quote": "He has previously also been on Klonopin and lithium.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "codeine",
+      "name_as_written": "codeine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": null,
+      "quote": "He was previously on codeine for this pain.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NONE",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": null,
+      "quote": "ALLERGIES: NONE.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "clonidine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Phenergan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+      "flags": [
+        "unknown_name"
+      ]
+    }
+  ]
+}

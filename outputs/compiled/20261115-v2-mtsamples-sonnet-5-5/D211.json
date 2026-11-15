@@ -1,0 +1,402 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D211",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D211_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D211-F01",
+      "patient_id": "D211",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "None",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": "None.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "None.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F02",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flomax",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "6. Flomax.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "6. Flomax.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F03",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Lovastatin",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. Lovastatin 20 mg daily.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. Lovastatin 20 mg daily.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F04",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Pain medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Pain medications.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Pain medications.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F05",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Propranolol",
+      "dose": "20 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Propranolol 20 b.i.d.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Propranolol 20 b.i.d.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F06",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. Protonix.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. Protonix.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F07",
+      "patient_id": "D211",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Thyroid supplementation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Thyroid supplementation.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Thyroid supplementation.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F08",
+      "patient_id": "D211",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F09",
+      "patient_id": "D211",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F10",
+      "patient_id": "D211",
+      "type": "diagnosis",
+      "name": "parkinson's",
+      "name_as_written": "Parkinson's",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F11",
+      "patient_id": "D211",
+      "type": "diagnosis",
+      "name": "possible seizure disorder",
+      "name_as_written": "possible seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. The patient is a 69-year-old gentleman, admitted with syncopal episode and possible seizure disorder.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. The patient is a 69-year-old gentleman, admitted with syncopal episode and possible seizure disorder.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F12",
+      "patient_id": "D211",
+      "type": "diagnosis",
+      "name": "syncope",
+      "name_as_written": "Syncope",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "REASON FOR CONSULTATION: Syncope.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "REASON FOR CONSULTATION: Syncope.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F13",
+      "patient_id": "D211",
+      "type": "operation",
+      "name": "appendicectomy",
+      "name_as_written": "appendicectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F14",
+      "patient_id": "D211",
+      "type": "operation",
+      "name": "back surgery",
+      "name_as_written": "Back surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D211-F15",
+      "patient_id": "D211",
+      "type": "operation",
+      "name": "shoulder surgery",
+      "name_as_written": "shoulder surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+          "file": "D211_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "records": {
+    "D201_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (medicine 'Klonopin'): 'klonopin' is in neither table, name set to null",
+        "fact 5 (medicine 'lithium'): 'lithium' is in neither table, name set to null",
+        "fact 8 (medicine 'clonidine'): 'clonidine' is in neither table, name set to null",
+        "fact 9 (medicine 'Phenergan'): 'promethazine' is in neither table, name set to null"
+      ],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 4
+    },
+    "D202_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 1 (diagnosis 'Diabetes type II'): name 'type 2 diabetes mellitus' changed to the record's words 'diabetes type ii'",
+        "fact 2 (diagnosis 'High blood pressure'): name 'hypertension' changed to the record's words 'high blood pressure'",
+        "fact 3 (diagnosis 'High cholesterol'): name 'hypercholesterolemia' changed to the record's words 'high cholesterol'",
+        "fact 4 (diagnosis 'Acid reflux disease'): name 'gastroesophageal reflux disease' changed to the record's words 'acid reflux disease'",
+        "fact 6 (operation 'Lap-Band'): name 'lap-band surgery' changed to the record's words 'lap-band'",
+        "fact 9 (medicine 'Keflex'): 'cephalexin' is in neither table, name set to null",
+        "fact 10 (medicine 'Clonidine'): 'clonidine' is in neither table, name set to null",
+        "fact 12 (medicine 'Diclofenac'): 'diclofenac' is in neither table, name set to null",
+        "fact 13 (medicine 'Enalapril'): 'enalapril' is in neither table, name set to null",
+        "fact 14 (medicine 'Amaryl'): 'glimepiride' is in neither table, name set to null",
+        "fact 17 (medicine 'Nifedipine extended release'): 'nifedipine' is in neither table, name set to null",
+        "fact 18 (medicine 'Omeprazole'): 'omeprazole' is in neither table, name set to null"
+      ],
+      "facts": 20,
+      "unverified": 0,
+      "unknown_name": 8
+    },
+    "D203_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 16 (diagnosis 'Dyspnea on exertion, uncertain etiology'): name 'dyspnea on exertion' changed to the record's words 'dyspnea on exertion, uncertain etiology'"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D204_B": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Lorazepam'): 'lorazepam' is in neither table, name set to null",
+        "fact 10 (medicine 'Klor-Con'): 'potassium chloride' is in neither table, name set to null",
+        "fact 11 (medicine 'Lexapro'): 'escitalopram' is in neither table, name set to null",
+        "fact 12 (medicine 'calcium with vitamin D'): 'calcium / vitamin d' is in neither table, name set to null",
+        "fact 19 (medicine 'sliding scale insulin'): 'insulin' is in neither table, name set to null",
+        "fact 21 (medicine 'clonidine'): 'clonidine' is in neither table, name set to null"
+      ],
+      "facts": 27,
+      "unverified": 0,
+      "unknown_name": 7
+    },
+    "D205_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 11 (medicine 'Colestid'): dose '1 g' written as '1000 mg'",
+        "fact 11 (medicine 'Colestid'): 'colestipol' is in neither table, name set to null",
+        "fact 12 (medicine 'Actos'): 'pioglitazone' is in neither table, name set to null",
+        "fact 13 (medicine 'Amaryl'): 'glimepiride' is in neither table, name set to null",
+        "fact 14 (medicine 'Soma'): 'carisoprodol' is in neither table, name set to null",
+        "fact 15 (medicine 'meloxicam'): 'meloxicam' is in neither table, name set to null",
+        "fact 17 (allergy 'caffeine'): 'caffeine' is in neither table, name set to null",
+        "fact 18 (allergy 'Sudafed'): 'pseudoephedrine' is in neither table, name set to null",
+        "fact 19 (allergy 'phenylpropanolamine'): 'phenylpropanolamine' is in neither table, name set to null"
+      ],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 8
+    },
+    "D206_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'bacitracin ointment'): 'bacitracin' is in neither table, name set to null",
+        "fact 4 (medicine 'Bactrim'): name 'trimethoprim / sulfamethoxazole' changed to 'co-trimoxazole' from the tables",
+        "fact 5 (medicine 'Hibiclens'): 'chlorhexidine' is in neither table, name set to null",
+        "fact 6 (medicine 'Bactroban'): 'mupirocin' is in neither table, name set to null"
+      ],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 3
+    },
+    "D207_B": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Atrovent'): 'ipratropium' is in neither table, name set to null",
+        "fact 5 (medicine 'Potassium chloride'): 'potassium chloride' is in neither table, name set to null",
+        "fact 9 (medicine 'Ceftriaxone'): 'ceftriaxone' is in neither table, name set to null",
+        "fact 14 (diagnosis 'Hypertension, controlled'): name 'hypertension' changed to the record's words 'hypertension, controlled'",
+        "fact 15 (diagnosis 'History of falls'): name 'falls' changed to the record's words 'history of falls'"
+      ],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 3
+    },
+    "D208_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 12 (operation 'CABG'): name 'coronary artery bypass graft' changed to the record's words 'cabg'",
+        "fact 21 (medicine 'Potassium'): 'potassium' is in neither table, name set to null",
+        "fact 23 (medicine 'Levothyroxine'): 'levothyroxine' is in neither table, name set to null",
+        "fact 26 (medicine 'Protonix'): 'pantoprazole' is in neither table, name set to null",
+        "fact 27 (medicine 'Toprol'): 'metoprolol' is in neither table, name set to null",
+        "fact 28 (medicine 'Vitamin B'): 'vitamin B' is in neither table, name set to null",
+        "fact 29 (medicine 'Zetia'): 'ezetimibe' is in neither table, name set to null",
+        "fact 31 (allergy 'SULFA'): 'sulfa' is in neither table, name set to null"
+      ],
+      "facts": 31,
+      "unverified": 0,
+      "unknown_name": 7
+    },
+    "D209_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (diagnosis 'prior history of stroke'): name 'stroke' changed to the record's words 'prior history of stroke'",
+        "fact 5 (diagnosis 'history of hepatitis'): name 'hepatitis' changed to the record's words 'history of hepatitis'",
+        "fact 6 (operation 'hysterectomy in 1995 for fibroids'): name 'hysterectomy' changed to the record's words 'hysterectomy in 1995 for fibroids'",
+        "fact 8 (operation 'one ovary removed'): name 'oophorectomy' changed to the record's words 'one ovary removed'",
+        "fact 12 (medicine 'insulin'): 'insulin' is in neither table, name set to null",
+        "fact 14 (medicine 'Actos'): 'pioglitazone' is in neither table, name set to null",
+        "fact 15 (medicine 'Crestor'): 'rosuvastatin' is in neither table, name set to null",
+        "fact 16 (medicine 'CellCept'): 'mycophenolate mofetil' is in neither table, name set to null"
+      ],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 4
+    },
+    "D210_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 1 (diagnosis 'C. diff colitis'): name 'clostridium difficile colitis' changed to the record's words 'c. diff colitis'",
+        "fact 4 (medicine 'atenolol'): 'atenolol' is in neither table, name set to null",
+        "fact 5 (medicine 'Mevacor'): 'lovastatin' is in neither table, name set to null",
+        "fact 7 (medicine 'Flagyl'): 'metronidazole' is in neither table, name set to null",
+        "fact 8 (medicine 'Levaquin'): 'levofloxacin' is in neither table, name set to null",
+        "fact 9 (medicine 'Reglan'): 'metoclopramide' is in neither table, name set to null",
+        "fact 12 (diagnosis 'Bilateral pleural effusion by CT of the chest'): name 'bilateral pleural effusion' changed to the record's words 'bilateral pleural effusion by ct of the chest'",
+        "fact 14 (medicine 'Flagyl'): 'metronidazole' is in neither table, name set to null"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 7
+    },
+    "D211_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (diagnosis 'Parkinson's'): name 'parkinson's disease' changed to the record's words 'parkinson's'",
+        "fact 5 (diagnosis 'possible seizure disorder'): name 'seizure disorder' changed to the record's words 'possible seizure disorder'",
+        "fact 11 (medicine 'Lovastatin'): 'lovastatin' is in neither table, name set to null",
+        "fact 12 (medicine 'Propranolol'): 'propranolol' is in neither table, name set to null",
+        "fact 13 (medicine 'Protonix'): 'pantoprazole' is in neither table, name set to null",
+        "fact 14 (medicine 'Flomax'): 'tamsulosin' is in neither table, name set to null"
+      ],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 6
+    },
+    "D212_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 5 (operation 'PTCA'): name 'percutaneous transluminal coronary angioplasty' changed to the record's words 'ptca'"
+      ],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    }
+  },
+  "needs_retry": [],
+  "failed": []
+}

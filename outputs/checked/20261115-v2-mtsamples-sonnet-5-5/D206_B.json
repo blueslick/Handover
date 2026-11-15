@@ -1,0 +1,97 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D206",
+  "hospital": "B",
+  "source_file": "D206_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3910,
+    "output_tokens": 569
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "methicillin-resistant staphylococcus aureus infection",
+      "name_as_written": "Methicillin-resistant Staphylococcus aureus infection",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "IMPRESSION: Methicillin-resistant Staphylococcus aureus infection.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "bacitracin ointment",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "They put her on bacitracin ointment near the umbilicus.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": null,
+      "quote": "No hospitalization, surgeries, allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "co-trimoxazole",
+      "name_as_written": "Bactrim",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "He states, we should treat for MRSA with Bactrim p.o.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Hibiclens",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "Hibiclens and Bactroban.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Bactroban",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "Hibiclens and Bactroban.",
+      "flags": [
+        "unknown_name"
+      ]
+    }
+  ]
+}

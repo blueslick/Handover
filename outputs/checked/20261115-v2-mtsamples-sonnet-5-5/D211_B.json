@@ -1,0 +1,214 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D211",
+  "hospital": "B",
+  "source_file": "D211_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 4033,
+    "output_tokens": 1471
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "syncope",
+      "name_as_written": "Syncope",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "REASON FOR CONSULTATION: Syncope.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "parkinson's",
+      "name_as_written": "Parkinson's",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recently diagnosed with Parkinson's, as a Parkinson's tremor, admitted for syncopal evaluation.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "possible seizure disorder",
+      "name_as_written": "possible seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "date": null,
+      "quote": "1. The patient is a 69-year-old gentleman, admitted with syncopal episode and possible seizure disorder.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "back surgery",
+      "name_as_written": "Back surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "shoulder surgery",
+      "name_as_written": "shoulder surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "appendicectomy",
+      "name_as_written": "appendicectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST SURGICAL HISTORY: Back surgery, shoulder surgery, and appendicectomy.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Pain medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Pain medications.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Thyroid supplementation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Thyroid supplementation.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Lovastatin",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Lovastatin 20 mg daily.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Propranolol",
+      "dose": "20 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Propranolol 20 b.i.d.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Protonix.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flomax",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Flomax.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "None",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": null,
+      "quote": "None.",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D209",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D209_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D209-F01",
+      "patient_id": "D209",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known drug allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "ALLERGIES: She has no known drug allergies.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "ALLERGIES: She has no known drug allergies.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F02",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": "81 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F03",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Actos",
+      "dose": "15 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F04",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "CellCept",
+      "dose": "500 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F05",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Crestor",
+      "dose": "10 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F06",
+      "patient_id": "D209",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "insulin",
+      "dose": "70 units",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F07",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F08",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "heart disease",
+      "name_as_written": "heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F09",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "history of hepatitis",
+      "name_as_written": "history of hepatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "She does have a history of hepatitis which I will need to further investigate.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "She does have a history of hepatitis which I will need to further investigate.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F10",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "hypercholesterolemia",
+      "name_as_written": "hypercholesterolemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F11",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "D209-C1"
+    },
+    {
+      "fact_id": "D209-F12",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "There is a strong family history of heart disease and hypertension, as well as diabetes on both sides of her family.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "D209-C1"
+    },
+    {
+      "fact_id": "D209-F13",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "prior history of stroke",
+      "name_as_written": "prior history of stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F14",
+      "patient_id": "D209",
+      "type": "diagnosis",
+      "name": "varicose veins",
+      "name_as_written": "varicose veins",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "Her medical conditions driving her toward surgery include hypercholesterolemia, hypertension, varicose veins, prior history of stroke.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F15",
+      "patient_id": "D209",
+      "type": "operation",
+      "name": "hysterectomy in 1995 for fibroids",
+      "name_as_written": "hysterectomy in 1995 for fibroids",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "PAST SURGICAL HISTORY: Includes hysterectomy in 1995 for fibroids and varicose vein removal.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "PAST SURGICAL HISTORY: Includes hysterectomy in 1995 for fibroids and varicose vein removal.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F16",
+      "patient_id": "D209",
+      "type": "operation",
+      "name": "one ovary removed",
+      "name_as_written": "one ovary removed",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "She had one ovary removed at the time of the hysterectomy as well.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "She had one ovary removed at the time of the hysterectomy as well.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D209-F17",
+      "patient_id": "D209",
+      "type": "operation",
+      "name": "varicose vein removal",
+      "name_as_written": "varicose vein removal",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1995-01-01",
+      "quote": "PAST SURGICAL HISTORY: Includes hysterectomy in 1995 for fibroids and varicose vein removal.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1995-01-01",
+          "quote": "PAST SURGICAL HISTORY: Includes hysterectomy in 1995 for fibroids and varicose vein removal.",
+          "file": "D209_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

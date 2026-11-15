@@ -1,0 +1,244 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D201",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D201_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D201-F01",
+      "patient_id": "D201",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NONE",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": "ALLERGIES: NONE.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "ALLERGIES: NONE.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F02",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": "codeine",
+      "name_as_written": "codeine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": "He was previously on codeine for this pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "He was previously on codeine for this pain.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F03",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Klonopin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": "He has previously also been on Klonopin and lithium.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "He has previously also been on Klonopin and lithium.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F04",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Phenergan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F05",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "clonidine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F06",
+      "patient_id": "D201",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "lithium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": "He has previously also been on Klonopin and lithium.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "He has previously also been on Klonopin and lithium.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F07",
+      "patient_id": "D201",
+      "type": "diagnosis",
+      "name": "alcohol abuse",
+      "name_as_written": "alcohol abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "The patient does have a history of alcohol abuse, but mostly he is concerned about the heroin abuse.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "The patient does have a history of alcohol abuse, but mostly he is concerned about the heroin abuse.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F08",
+      "patient_id": "D201",
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Remarkable for chronic pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST MEDICAL HISTORY: Remarkable for chronic pain.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D201-F09",
+      "patient_id": "D201",
+      "type": "diagnosis",
+      "name": "heroin abuse",
+      "name_as_written": "heroin abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin, last use shortly prior to arrival including cocaine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "This is a 52-year-old gentleman with a long history of heroin abuse, who keeps relapsing, presents once again, trying to get off the heroin, last use shortly prior to arrival including cocaine.",
+          "file": "D201_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D210",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D210_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D210-F01",
+      "patient_id": "D210",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NO KNOWN DRUG ALLERGIES",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": null,
+      "quote": "ALLERGIES: NO KNOWN DRUG ALLERGIES.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "ALLERGIES: NO KNOWN DRUG ALLERGIES.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F02",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": "vancomycin",
+      "name_as_written": "vancomycin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F03",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flagyl",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose",
+        "conflict"
+      ],
+      "conflict_group": "D210-C1"
+    },
+    {
+      "fact_id": "D210-F04",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flagyl",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "1. Treat the C. diff aggressively especially given CT appearance and her continued leukocytosis and because of the Levaquin, which could have added additional antibiotic pressure, so I will restart the IV Flagyl.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "1. Treat the C. diff aggressively especially given CT appearance and her continued leukocytosis and because of the Levaquin, which could have added additional antibiotic pressure, so I will restart the IV Flagyl.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "conflict"
+      ],
+      "conflict_group": "D210-C1"
+    },
+    {
+      "fact_id": "D210-F05",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Florastor",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F06",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Levaquin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F07",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Mevacor",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F08",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Reglan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": null,
+      "quote": "2. Diarrhea secondary to above and also could be related Reglan, which was discontinued today.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "2. Diarrhea secondary to above and also could be related Reglan, which was discontinued today.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F09",
+      "patient_id": "D210",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "atenolol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F10",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "bilateral pleural effusion by ct of the chest",
+      "name_as_written": "Bilateral pleural effusion by CT of the chest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "hospital": "B",
+      "date": null,
+      "quote": "4. Bilateral pleural effusion by CT of the chest, although could represent thickening.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "4. Bilateral pleural effusion by CT of the chest, although could represent thickening.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F11",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "c. diff colitis",
+      "name_as_written": "C. diff colitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "REASON FOR CONSULT: I was asked to see the patient for C. diff colitis.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "REASON FOR CONSULT: I was asked to see the patient for C. diff colitis.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F12",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "diffuse colitis",
+      "name_as_written": "diffuse colitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "CT of the abdomen and pelvis is also reviewed on the computer, which showed evidence of diffuse colitis.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "CT of the abdomen and pelvis is also reviewed on the computer, which showed evidence of diffuse colitis.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F13",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recent C. diff colitis, which had resolved based on speaking to Dr. X.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recent C. diff colitis, which had resolved based on speaking to Dr. X.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F14",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "HISTORY OF PRESENTING ILLNESS: Briefly, the patient is a very pleasant 72-year-old female with previous history of hypertension and also recent diagnosis of C. diff for which she was admitted here in 5/2009, who presents to the hospital on 6/18/2009 with abdominal pain, cramping, and persistent diarrhea.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "HISTORY OF PRESENTING ILLNESS: Briefly, the patient is a very pleasant 72-year-old female with previous history of hypertension and also recent diagnosis of C. diff for which she was admitted here in 5/2009, who presents to the hospital on 6/18/2009 with abdominal pain, cramping, and persistent diarrhea.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F15",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "leukocytosis",
+      "name_as_written": "Leukocytosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": null,
+      "quote": "3. Leukocytosis secondary to above, mild improvement today though.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "3. Leukocytosis secondary to above, mild improvement today though.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D210-F16",
+      "patient_id": "D210",
+      "type": "diagnosis",
+      "name": "pneumonia",
+      "name_as_written": "pneumonia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "hospital": "B",
+      "date": null,
+      "quote": "5. New requirement for oxygen, rule out pneumonia.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": null,
+          "quote": "5. New requirement for oxygen, rule out pneumonia.",
+          "file": "D210_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

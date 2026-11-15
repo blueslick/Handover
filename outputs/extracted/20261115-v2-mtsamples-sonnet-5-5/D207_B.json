@@ -1,0 +1,206 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D207",
+  "hospital": "B",
+  "source_file": "D207_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3932,
+    "output_tokens": 1277
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known drug allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": null,
+      "quote": "ALLERGIES: No known drug allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ipratropium",
+      "name_as_written": "Atrovent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Atrovent and albuterol nebulizers.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "albuterol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Atrovent and albuterol nebulizers.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "azithromycin",
+      "name_as_written": "Azithromycin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Azithromycin.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "potassium chloride",
+      "name_as_written": "Potassium chloride",
+      "dose": "10 mEq",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Potassium chloride 10 mEq p.o. daily.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Furosemide",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Furosemide 20 mg IV daily.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "enoxaparin",
+      "name_as_written": "Enoxaparin",
+      "dose": "40 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Enoxaparin 40 mg daily.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Lisinopril 10 mg p.o. daily.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ceftriaxone",
+      "name_as_written": "Ceftriaxone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "7. Ceftriaxone.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: History of hypertension.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "abdominal surgery",
+      "name_as_written": "abdominal surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "History of abdominal surgery.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "pneumonia",
+      "name_as_written": "Pneumonia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Pneumonia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diastolic heart failure",
+      "name_as_written": "Diastolic heart failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Diastolic heart failure, not contributing to his present problem.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension, controlled",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Hypertension, controlled.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "falls",
+      "name_as_written": "History of falls",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. History of falls.",
+      "flags": []
+    }
+  ]
+}

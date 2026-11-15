@@ -1,0 +1,412 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D208",
+  "hospital": "B",
+  "source_file": "D208_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3797,
+    "output_tokens": 2516
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "pulmonary embolism",
+      "name_as_written": "Pulmonary embolism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Pulmonary embolism diagnosed one year ago.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "paroxysmal atrial fibrillation",
+      "name_as_written": "Paroxysmal atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Paroxysmal atrial fibrillation and no anticoagulation due to history of GI bleed.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "coronary artery disease",
+      "name_as_written": "Coronary artery disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Coronary artery disease status post CABG at that time.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "mitral regurgitation",
+      "name_as_written": "Mitral regurgitation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Mitral regurgitation.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "gastroesophageal reflux disease",
+      "name_as_written": "Gastroesophageal reflux disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Gastroesophageal reflux disease.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Hyperlipidemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "aortic aneurysm",
+      "name_as_written": "aortic aneurysm",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "7. History of aortic aneurysm.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "renal artery stenosis",
+      "name_as_written": "renal artery stenosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "8. History of renal artery stenosis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "peripheral vascular disease",
+      "name_as_written": "Peripheral vascular disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "9. Peripheral vascular disease.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypothyroidism",
+      "name_as_written": "Hypothyroidism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "10. Hypothyroidism.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "coronary artery bypass graft",
+      "name_as_written": "CABG",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. CABG.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "hysterectomy",
+      "name_as_written": "Hysterectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Hysterectomy.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "IVC filter",
+      "name_as_written": "IVC filter",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. IVC filter.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "tonsillectomy",
+      "name_as_written": "Tonsillectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Tonsillectomy.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "adenoidectomy",
+      "name_as_written": "Adenoidectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Adenoidectomy.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "cosmetic surgery",
+      "name_as_written": "Cosmetic surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Cosmetic surgery.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "renal stent",
+      "name_as_written": "Renal stent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "7. Renal stent.",
+      "flags": []
+    },
+    {
+      "type": "operation",
+      "name": "right femoral stent",
+      "name_as_written": "Right femoral stent",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "8. Right femoral stent.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "aspirin",
+      "name_as_written": "Aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Aspirin.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "potassium",
+      "name_as_written": "Potassium",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Potassium.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Lasix.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "levothyroxine",
+      "name_as_written": "Levothyroxine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Levothyroxine.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Lisinopril.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "amiodarone",
+      "name_as_written": "Pacerone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Pacerone.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "pantoprazole",
+      "name_as_written": "Protonix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "7. Protonix.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "metoprolol",
+      "name_as_written": "Toprol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "8. Toprol.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "vitamin B",
+      "name_as_written": "Vitamin B",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "9. Vitamin B.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "ezetimibe",
+      "name_as_written": "Zetia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "10. Zetia.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "cetirizine",
+      "name_as_written": "Zyrtec",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "11. Zyrtec.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": "sulfa",
+      "name_as_written": "SULFA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "SULFA",
+      "flags": []
+    }
+  ]
+}

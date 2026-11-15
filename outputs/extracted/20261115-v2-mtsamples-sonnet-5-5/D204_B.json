@@ -1,0 +1,351 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D204",
+  "hospital": "B",
+  "source_file": "D204_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 4240,
+    "output_tokens": 3122
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "diarrhea",
+      "name_as_written": "Diarrhea",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "vomiting",
+      "name_as_written": "vomiting",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "abdominal pain",
+      "name_as_written": "abdominal pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Diarrhea, vomiting, and abdominal pain.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diverticulosis",
+      "name_as_written": "diverticulosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "blindness",
+      "name_as_written": "blindness",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "sciatica",
+      "name_as_written": "sciatica",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Per the ER documentation is hypertension, diverticulosis, blindness, and sciatica.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lorazepam",
+      "name_as_written": "Lorazepam",
+      "dose": "0.5 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Tylenol PM",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "potassium chloride",
+      "name_as_written": "Klor-Con",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "escitalopram",
+      "name_as_written": "Lexapro",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; lexapro; calcium with vitamin D.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "calcium / vitamin d",
+      "name_as_written": "calcium with vitamin D",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "PENICILLIN",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "SHE IS ALLERGIC TO PENICILLIN.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "pancreatitis",
+      "name_as_written": "Pancreatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "morphine",
+      "name_as_written": "morphine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ondansetron",
+      "name_as_written": "Zofran",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "1. Pancreatitis. Will treat symptomatically with morphine and Zofran, and also IV fluids. Will keep NPO.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "volume depletion",
+      "name_as_written": "Volume depletion",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Volume depletion. IV fluids.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "Hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "insulin",
+      "name_as_written": "sliding scale insulin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "clonidine",
+      "name_as_written": "clonidine",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "renal failure",
+      "name_as_written": "Renal failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "6. Renal failure. Her baseline is unknown. This is at least partly prerenal. Will replace volume with IV fluids and monitor her renal function.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypokalemia",
+      "name_as_written": "Hypokalemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "7. Hypokalemia. Will replace per protocol.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypercalcemia",
+      "name_as_written": "Hypercalcemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "8. Hypercalcemia. This is actually rather severe when adjusted for the patient's low albumin. Her true calcium level comes out to somewhere around 12. For now, I will just treat her with IV fluids and Lasix, and monitor her calcium level.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "protein gap",
+      "name_as_written": "Protein gap",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "multiple myeloma",
+      "name_as_written": "multiple myeloma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "date": null,
+      "quote": "9. Protein gap. This, in combination with the calcium, may be suggestive of multiple myeloma. It is my understanding that the family is seeking hospice placement for the patient right now. I would have to discuss with the family before undertaking any workup for multiple myeloma or other malignancy.",
+      "flags": []
+    }
+  ]
+}

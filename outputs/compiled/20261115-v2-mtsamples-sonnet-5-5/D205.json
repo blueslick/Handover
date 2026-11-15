@@ -1,0 +1,504 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "D205",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "built_from": [
+    "D205_B.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "D205-F01",
+      "patient_id": "D205",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "Sudafed",
+      "dose": null,
+      "frequency": null,
+      "reaction": "tachycardic",
+      "status": "side_effect",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F02",
+      "patient_id": "D205",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "caffeine",
+      "dose": null,
+      "frequency": null,
+      "reaction": "tachycardic",
+      "status": "side_effect",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F03",
+      "patient_id": "D205",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F04",
+      "patient_id": "D205",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "phenylpropanolamine",
+      "dose": null,
+      "frequency": null,
+      "reaction": "tachycardic",
+      "status": "side_effect",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F05",
+      "patient_id": "D205",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Actos",
+      "dose": "30 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F06",
+      "patient_id": "D205",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Amaryl",
+      "dose": "2 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F07",
+      "patient_id": "D205",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Colestid",
+      "dose": "1000 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F08",
+      "patient_id": "D205",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Soma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F09",
+      "patient_id": "D205",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "meloxicam",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "unknown_name",
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F10",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "alcohol addiction",
+      "name_as_written": "alcohol addiction",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "PSYCHOLOGICAL HISTORY: Negative except that she was rehabilitated for alcohol addiction in 1990.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "PSYCHOLOGICAL HISTORY: Negative except that she was rehabilitated for alcohol addiction in 1990.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F11",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "FAMILY HISTORY: Diabetes and hypertension.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "FAMILY HISTORY: Diabetes and hypertension.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F12",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "hemorrhoids",
+      "name_as_written": "hemorrhoids",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has a left knee arthritis and history of hemorrhoids.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has a left knee arthritis and history of hemorrhoids.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F13",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "family_history",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "FAMILY HISTORY: Diabetes and hypertension.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "FAMILY HISTORY: Diabetes and hypertension.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F14",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "left knee arthritis",
+      "name_as_written": "left knee arthritis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has a left knee arthritis and history of hemorrhoids.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has a left knee arthritis and history of hemorrhoids.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F15",
+      "patient_id": "D205",
+      "type": "diagnosis",
+      "name": "non-insulin dependent diabetes",
+      "name_as_written": "non-insulin dependent diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "She has had non-insulin dependent diabetes for about eight years now.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "She has had non-insulin dependent diabetes for about eight years now.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F16",
+      "patient_id": "D205",
+      "type": "operation",
+      "name": "laparoscopic cholecystectomy",
+      "name_as_written": "laparoscopic cholecystectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F17",
+      "patient_id": "D205",
+      "type": "operation",
+      "name": "left knee surgery",
+      "name_as_written": "left knee surgery",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F18",
+      "patient_id": "D205",
+      "type": "operation",
+      "name": "right breast lumpectomy",
+      "name_as_written": "right breast lumpectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "D205-F19",
+      "patient_id": "D205",
+      "type": "operation",
+      "name": "tonsillectomy",
+      "name_as_written": "tonsillectomy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "1990-01-01",
+      "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "1990-01-01",
+          "quote": "PAST SURGICAL HISTORY: Pertinent for laparoscopic cholecystectomy, tonsillectomy, left knee surgery, and right breast lumpectomy.",
+          "file": "D205_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

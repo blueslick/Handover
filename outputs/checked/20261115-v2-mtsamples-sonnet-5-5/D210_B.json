@@ -1,0 +1,230 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D210",
+  "hospital": "B",
+  "source_file": "D210_B.txt",
+  "run_id": "20261115-v2-mtsamples-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 4157,
+    "output_tokens": 1801
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "c. diff colitis",
+      "name_as_written": "C. diff colitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "REASON FOR CONSULT: I was asked to see the patient for C. diff colitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "HISTORY OF PRESENTING ILLNESS: Briefly, the patient is a very pleasant 72-year-old female with previous history of hypertension and also recent diagnosis of C. diff for which she was admitted here in 5/2009, who presents to the hospital on 6/18/2009 with abdominal pain, cramping, and persistent diarrhea.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "PAST MEDICAL HISTORY: Hypertension, hyperlipidemia, recent C. diff colitis, which had resolved based on speaking to Dr. X.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "atenolol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Mevacor",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "HOME MEDICATIONS: She is on atenolol and Mevacor.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NO KNOWN DRUG ALLERGIES",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": null,
+      "quote": "ALLERGIES: NO KNOWN DRUG ALLERGIES.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flagyl",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Levaquin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin.",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Reglan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": null,
+      "quote": "2. Diarrhea secondary to above and also could be related Reglan, which was discontinued today.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "diagnosis",
+      "name": "diffuse colitis",
+      "name_as_written": "diffuse colitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "CT of the abdomen and pelvis is also reviewed on the computer, which showed evidence of diffuse colitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "leukocytosis",
+      "name_as_written": "Leukocytosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "3. Leukocytosis secondary to above, mild improvement today though.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "bilateral pleural effusion by ct of the chest",
+      "name_as_written": "Bilateral pleural effusion by CT of the chest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "date": null,
+      "quote": "4. Bilateral pleural effusion by CT of the chest, although could represent thickening.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "pneumonia",
+      "name_as_written": "pneumonia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "suspected",
+      "date": null,
+      "quote": "5. New requirement for oxygen, rule out pneumonia.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Flagyl",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "1. Treat the C. diff aggressively especially given CT appearance and her continued leukocytosis and because of the Levaquin, which could have added additional antibiotic pressure, so I will restart the IV Flagyl.",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "vancomycin",
+      "name_as_written": "vancomycin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": null,
+      "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Florastor",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "planned",
+      "date": null,
+      "quote": "2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.",
+      "flags": [
+        "unknown_name"
+      ]
+    }
+  ]
+}
