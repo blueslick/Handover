@@ -1,9 +1,12 @@
-// Hospital upload screen (T28). Replays a saved run of the tool on the demo patient's
-// three hospital records: which step is running, then the facts read from each record.
-// Reads app/data/walkthrough_<ID>.json only. No model calls, no key (CLAUDE.md app rules).
+// Hospital upload screen (T28, upgraded in T63). Replays a saved run of the tool on the
+// demo patient's three hospital records: all three move through Read, Extract and Check at
+// the same time, then one Merge step, then the record is ready.
+// Reads app/data/walkthrough_<ID>.json and app/data/index.json only. No model calls, no key
+// (CLAUDE.md app rules).
 import { Suspense } from "react";
 import { loadWalkthrough, WALKTHROUGH_ID } from "@/lib/walkthrough";
-import UploadReplay from "./UploadReplay";
+import publishedIndex from "../../data/index.json";
+import UploadReplay, { type MergedSummary } from "./UploadReplay";
 
 export const metadata = { title: "Hospital upload · Handover" };
 
@@ -26,7 +29,12 @@ async function Replay() {
       </div>
     );
   }
-  return <UploadReplay walkthrough={load.walkthrough} />;
+  // The merged record's counts, only if the app's record comes from the same saved run.
+  const w = load.walkthrough;
+  const entry = publishedIndex.patients.find((p) => p.patient_id === w.patient_id);
+  const merged: MergedSummary | null =
+    entry && publishedIndex.compiled_run_id === w.run_id ? { facts: entry.facts, conflicts: entry.conflicts } : null;
+  return <UploadReplay walkthrough={w} merged={merged} />;
 }
 
 export default function UploadPage() {

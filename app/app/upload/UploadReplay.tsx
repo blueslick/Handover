@@ -1,181 +1,218 @@
 "use client";
-// The moving part of the upload screen (T28). Pick a hospital, press "Read this record",
-// and the steps play one after another, then the facts the tool read appear.
-// It replays a saved run: the pauses are only there so each step can be seen.
+// The moving part of the upload screen (T28, upgraded in T63). Press one button and all
+// three hospital records go through their steps at the same time (Read, Extract, Check),
+// then one Merge step joins them into the patient's record.
+// It replays a saved run: every number shown comes from the saved files. The pauses are
+// only there so each step can be seen; the Extract pause is longer for records whose saved
+// reply was longer, so the three rows don't move in lockstep.
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Walkthrough, WalkthroughHospital } from "@/lib/walkthrough";
 import FactList from "../components/FactList";
 
-type Stage = "idle" | "reading" | "checking" | "done";
+// The merged record's counts, from app/data/index.json, only when it is the same run.
+export interface MergedSummary {
+  facts: number;
+  conflicts: number;
+}
+
+type StepState = "waiting" | "running" | "finished";
 
 // How long each step stays on screen in the replay, in milliseconds.
-const READING_MS = 2500;
-const CHECKING_MS = 1500;
+const READ_MS = 900;
+const CHECK_MS = 1300;
+const MERGE_MS = 1800;
+function extractMs(h: WalkthroughHospital) {
+  const out = h.tokens?.output_tokens ?? 400;
+  return 1200 + Math.min(out, 1000) * 4;
+}
 
-const STEPS: { stage: Exclude<Stage, "idle">; label: string }[] = [
-  { stage: "reading", label: "Reading the record with Claude" },
-  { stage: "checking", label: "Checking every fact against the record's own words" },
-  { stage: "done", label: "Done" },
-];
-const ORDER: Stage[] = ["idle", "reading", "checking", "done"];
+const HOSPITAL_STEPS = [
+  { key: "read", label: "Read the file" },
+  { key: "extract", label: "Extract the facts with Claude" },
+  { key: "check", label: "Check every fact against the record's own words" },
+] as const;
 
-// One line of the step list: waiting, running now, or finished, said in words.
-function StepLine({ label, state }: { label: string; state: "waiting" | "running" | "finished" }) {
+// Start and end times (ms after pressing Start) of each hospital's three steps.
+function scheduleFor(h: WalkthroughHospital) {
+  const lengths = [READ_MS, extractMs(h), CHECK_MS];
+  let t = 0;
+  return lengths.map((len) => {
+    const step = { start: t, end: t + len };
+    t += len;
+    return step;
+  });
+}
+
+function stateAt(elapsed: number | null, start: number, end: number): StepState {
+  if (elapsed === null || elapsed < start) return "waiting";
+  return elapsed < end ? "running" : "finished";
+}
+
+// One step, said in words (never colour alone): waiting, running now, or finished.
+function StepLine({ label, state }: { label: string; state: StepState }) {
   return (
-    <li className="flex items-center gap-2">
+    <li className="flex items-start gap-2">
       {state === "running" ? (
         <span
           aria-hidden="true"
-          className="inline-block h-4 w-4 rounded-full border-2 border-zinc-800 border-t-transparent motion-safe:animate-spin"
+          className="mt-1 inline-block h-4 w-4 shrink-0 rounded-full border-2 border-zinc-800 border-t-transparent motion-safe:animate-spin"
         />
       ) : (
-        <span aria-hidden="true" className="inline-block w-4 text-center font-bold">
+        <span aria-hidden="true" className="inline-block w-4 shrink-0 text-center font-bold">
           {state === "finished" ? "✓" : "·"}
         </span>
       )}
       <span className={state === "running" ? "font-semibold" : state === "waiting" ? "text-zinc-600" : ""}>
         {label}
         <span className="text-sm">
-          {state === "running" ? " (running now)" : state === "finished" ? " (finished)" : " (waiting)"}
+          {state === "running" ? " (running now)" : state === "finished" ? " (done)" : " (waiting)"}
         </span>
       </span>
     </li>
   );
 }
 
-function HospitalPanel({
-  h,
-  stage,
-  onStart,
-}: {
-  h: WalkthroughHospital;
-  stage: Stage;
-  onStart: () => void;
-}) {
-  const at = ORDER.indexOf(stage);
+function HospitalRow({ h, elapsed }: { h: WalkthroughHospital; elapsed: number | null }) {
+  const schedule = scheduleFor(h);
+  const done = elapsed !== null && elapsed >= schedule[2].end;
   return (
-    <section aria-label={`Hospital ${h.hospital}`} className="mt-4">
-      <h2 className="text-xl font-semibold">
-        Hospital {h.hospital}: {h.format}
-      </h2>
-      <p className="text-sm text-zinc-700">File: {h.file}</p>
-      <pre className="mt-2 max-h-72 overflow-auto border border-zinc-400 rounded bg-zinc-50 p-3 text-xs whitespace-pre-wrap break-words">
-        {h.record_text}
-      </pre>
+    <section aria-label={`Hospital ${h.hospital}`} className="border-2 border-zinc-800 rounded p-3 flex flex-col">
+      <h2 className="text-lg font-semibold">Hospital {h.hospital}</h2>
+      <p className="text-sm">{h.format}</p>
+      <p className="text-xs text-zinc-700">File: {h.file}</p>
 
       {h.state === "not_run" ? (
-        <p role="status" className="mt-3 border-2 border-zinc-700 rounded p-3">
+        <p role="status" className="mt-3 border border-zinc-700 rounded p-2 text-sm">
           This record has not been run through the tool yet, so there is nothing to replay.
         </p>
       ) : (
-        <>
-          {stage === "idle" && (
-            <button
-              type="button"
-              onClick={onStart}
-              className="mt-3 border border-zinc-800 bg-zinc-800 text-white rounded px-4 py-2"
-            >
-              Read this record
-            </button>
-          )}
-          {stage !== "idle" && (
-            <ol aria-live="polite" className="mt-3 flex flex-col gap-1">
-              {STEPS.map((s) => {
-                const i = ORDER.indexOf(s.stage);
-                const state =
-                  i < at || (s.stage === "done" && stage === "done") ? "finished" : i === at ? "running" : "waiting";
-                const label =
-                  s.stage === "done" && stage === "done"
-                    ? `Done: ${h.facts.length} facts read, each with its quote${h.retried ? " (the Check step asked for one retry)" : ""}`
-                    : s.label;
-                return <StepLine key={s.stage} label={label} state={state} />;
-              })}
-            </ol>
-          )}
-          {stage === "done" && (
-            <div className="mt-4">
-              <h3 className="text-lg font-semibold mb-2">What the tool read from Hospital {h.hospital}</h3>
-              <FactList facts={h.facts} />
-            </div>
-          )}
-        </>
+        <ol className="mt-3 flex flex-col gap-1 text-sm">
+          {HOSPITAL_STEPS.map((s, i) => (
+            <StepLine key={s.key} label={s.label} state={stateAt(elapsed, schedule[i].start, schedule[i].end)} />
+          ))}
+        </ol>
+      )}
+
+      {done && (
+        <p className="mt-2 text-sm font-medium">
+          {h.facts.length} facts read, each with its quote
+          {h.retried ? " (the Check step asked for one retry)" : ""}.
+        </p>
+      )}
+
+      <details className="mt-3 text-sm">
+        <summary className="cursor-pointer underline">Show the record</summary>
+        <pre className="mt-2 max-h-60 overflow-auto border border-zinc-400 rounded bg-zinc-50 p-2 text-xs whitespace-pre-wrap break-words">
+          {h.record_text}
+        </pre>
+      </details>
+      {done && (
+        <details className="mt-2 text-sm">
+          <summary className="cursor-pointer underline">Show what the tool read</summary>
+          <div className="mt-2">
+            <FactList facts={h.facts} />
+          </div>
+        </details>
       )}
     </section>
   );
 }
 
-export default function UploadReplay({ walkthrough }: { walkthrough: Walkthrough }) {
+export default function UploadReplay({
+  walkthrough,
+  merged,
+}: {
+  walkthrough: Walkthrough;
+  merged: MergedSummary | null;
+}) {
   const hospitals = walkthrough.hospitals;
-  const [selected, setSelected] = useState(hospitals[0]?.hospital ?? "A");
-  const [stages, setStages] = useState<Record<string, Stage>>(
-    Object.fromEntries(hospitals.map((h) => [h.hospital, "idle" as Stage])),
-  );
-
-  // Moves a running hospital on to its next step after a pause.
-  useEffect(() => {
-    const timers: ReturnType<typeof setTimeout>[] = [];
-    for (const [h, stage] of Object.entries(stages)) {
-      if (stage === "reading") {
-        timers.push(setTimeout(() => setStages((s) => ({ ...s, [h]: "checking" })), READING_MS));
-      } else if (stage === "checking") {
-        timers.push(setTimeout(() => setStages((s) => ({ ...s, [h]: "done" })), CHECKING_MS));
-      }
-    }
-    return () => timers.forEach(clearTimeout);
-  }, [stages]);
-
-  const current = hospitals.find((h) => h.hospital === selected) ?? hospitals[0];
   const ready = hospitals.filter((h) => h.state === "ready");
-  const allDone = ready.length > 0 && ready.every((h) => stages[h.hospital] === "done");
+  const canMerge = ready.length === hospitals.length && ready.length > 0;
+
+  // When Start was pressed (ms), and how long ago that was. null = not started.
+  const [startedAt, setStartedAt] = useState<number | null>(null);
+  const [elapsed, setElapsed] = useState<number | null>(null);
+
+  const lastRecordEnd = Math.max(0, ...ready.map((h) => scheduleFor(h)[2].end));
+  const mergeStart = lastRecordEnd;
+  const mergeEnd = mergeStart + MERGE_MS;
+  const finished = elapsed !== null && elapsed >= (canMerge ? mergeEnd : lastRecordEnd);
+
+  // A clock that ticks while the replay plays, and stops once everything is done.
+  useEffect(() => {
+    if (startedAt === null || finished) return;
+    const timer = setInterval(() => setElapsed(Date.now() - startedAt), 150);
+    return () => clearInterval(timer);
+  }, [startedAt, finished]);
+
+  const start = () => {
+    const now = Date.now();
+    setStartedAt(now);
+    setElapsed(0);
+  };
+
+  const recordsDone = elapsed !== null && elapsed >= lastRecordEnd;
+  const mergeState: StepState = canMerge ? stateAt(elapsed, mergeStart, mergeEnd) : "waiting";
+  const mergeLabel = !canMerge
+    ? "Merge the records with the six rules: needs all three records to be run first"
+    : mergeState === "waiting"
+      ? "Merge the three readings into one record with the six rules (waits for all three records)"
+      : "Merge the three readings into one record with the six rules";
+
+  // One short line for screen readers, so they hear progress without every step.
+  const spoken =
+    elapsed === null
+      ? ""
+      : finished && canMerge
+        ? "The record is ready."
+        : recordsDone
+          ? "All three records checked. Merging."
+          : "Reading all three records.";
 
   return (
-    <div>
-      <nav aria-label="Choose a hospital record" className="mt-6">
-        <p className="font-medium">Hospital record:</p>
-        <ul className="mt-1 flex flex-wrap gap-2">
-          {hospitals.map((h) => {
-            const isCurrent = h.hospital === selected;
-            const stage = stages[h.hospital];
-            const note = h.state === "not_run" ? "not run yet" : stage === "done" ? "read" : stage === "idle" ? "not read" : "reading";
-            return (
-              <li key={h.hospital}>
-                <button
-                  type="button"
-                  aria-pressed={isCurrent}
-                  onClick={() => setSelected(h.hospital)}
-                  className={`border-2 border-zinc-800 rounded px-3 py-2 text-left ${
-                    isCurrent ? "bg-zinc-800 text-white font-semibold" : "bg-white underline"
-                  }`}
-                >
-                  Hospital {h.hospital}
-                  <span className="block text-xs">{note}{isCurrent ? ", showing now" : ""}</span>
-                </button>
-              </li>
-            );
-          })}
-        </ul>
-      </nav>
+    <div className="mt-6">
+      <div className="flex flex-wrap items-center gap-3">
+        <button
+          type="button"
+          onClick={start}
+          disabled={elapsed !== null && !finished}
+          className="border border-zinc-800 bg-zinc-800 text-white rounded px-4 py-2 disabled:opacity-60"
+        >
+          {elapsed === null ? "Read all three records" : finished ? "Play again" : "Playing…"}
+        </button>
+        <p aria-live="polite" className="text-sm font-medium">
+          {spoken}
+        </p>
+      </div>
 
-      {current && (
-        <HospitalPanel
-          key={current.hospital}
-          h={current}
-          stage={stages[current.hospital]}
-          onStart={() => setStages((s) => ({ ...s, [current.hospital]: "reading" }))}
-        />
-      )}
+      <div className="mt-4 grid gap-4 md:grid-cols-3">
+        {hospitals.map((h) => (
+          <HospitalRow key={h.hospital} h={h} elapsed={elapsed} />
+        ))}
+      </div>
 
-      {allDone && (
-        <div role="status" className="mt-6 border-2 border-zinc-800 rounded p-4">
+      <section aria-label="Merge step" className="mt-4 border-2 border-zinc-800 rounded p-3">
+        <h2 className="text-lg font-semibold">Merge</h2>
+        <ol className="mt-2 text-sm">
+          <StepLine label={mergeLabel} state={mergeState} />
+        </ol>
+      </section>
+
+      {finished && canMerge && (
+        <div role="status" className="mt-4 border-4 border-zinc-800 rounded p-4">
           <p className="font-semibold">
-            {ready.length === hospitals.length
-              ? "All three records are read."
-              : `${ready.length} of ${hospitals.length} records are read.`}{" "}
-            The merge rules then combine them into one record.
+            {merged
+              ? `The record is ready: ${merged.facts} facts and ${merged.conflicts} ${
+                  merged.conflicts === 1 ? "conflict" : "conflicts"
+                } for the doctor to see.`
+              : "The record is ready."}
           </p>
-          <Link href={`/?id=${walkthrough.patient_id}`} className="mt-2 inline-block underline font-medium">
-            See the merged record for {walkthrough.patient_id} on the doctor screen
+          <Link
+            href={`/?id=${walkthrough.patient_id}`}
+            className="mt-3 inline-block border border-zinc-800 bg-zinc-800 text-white rounded px-4 py-2"
+          >
+            Open the doctor screen for {walkthrough.patient_id}
           </Link>
         </div>
       )}
