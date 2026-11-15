@@ -13,6 +13,9 @@ export interface ResultRow {
   false_alarms: number | null;
   wrong_status: number | null;
   conflicts_shown: number | null;
+  // How many conflicts the answer keys hold, so the tab can say "38 of 38". Optional,
+  // so an older results file without it still loads.
+  conflicts_total?: number | null;
 }
 
 // What the AI calls cost per patient (three hospital records) for one model, in US cents.

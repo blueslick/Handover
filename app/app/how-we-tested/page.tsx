@@ -27,7 +27,9 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
   return (
     <>
     <p className="mt-2 text-sm text-zinc-700">
-      Allergies and medicines on the held-out patients. Rows 1 to 7 each add one step to the row above. Row 8 is the full tool again on a second, cheaper model.
+      {rows[0]?.key_facts != null ? `All ${rows[0].key_facts.toLocaleString("en-GB")} facts` : "All facts"} in the
+      held-out answer keys (allergies, medicines, diagnoses and operations). Rows 1 to 7
+      each add one step to the row above. Row 8 is the full tool again on a second, cheaper model.
     </p>
     <div className="mt-2 overflow-x-auto">
       <table className="min-w-full border border-zinc-400 text-sm">
@@ -65,7 +67,7 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
               <td className="border border-zinc-400 px-2 py-1">{outOf(r.missed, r.key_facts)}</td>
               <td className="border border-zinc-400 px-2 py-1">{count(r.false_alarms)}</td>
               <td className="border border-zinc-400 px-2 py-1">{count(r.wrong_status)}</td>
-              <td className="border border-zinc-400 px-2 py-1">{count(r.conflicts_shown)}</td>
+              <td className="border border-zinc-400 px-2 py-1">{outOf(r.conflicts_shown, r.conflicts_total ?? null)}</td>
             </tr>
             );
           })}
