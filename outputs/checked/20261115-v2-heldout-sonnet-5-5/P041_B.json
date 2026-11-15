@@ -1,0 +1,126 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P041",
+  "hospital": "B",
+  "source_file": "P041_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3061,
+    "output_tokens": 840
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "Her background includes anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She has a history of prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "primary fibromyalgia syndrome",
+      "name_as_written": "primary fibromyalgia syndrome",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She is known to have primary fibromyalgia syndrome.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She is known to have chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "idiopathic atrophic hypothyroidism",
+      "name_as_written": "idiopathic atrophic hypothyroidism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She has a history of idiopathic atrophic hypothyroidism.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She has a history of polyp of colon.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-08-01",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "duloxetine",
+      "name_as_written": "duloxetine",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-08-01",
+      "quote": "She takes duloxetine 20 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-09-23",
+      "quote": "Her paracetamol was stopped on 23 September 2017.",
+      "flags": []
+    }
+  ]
+}

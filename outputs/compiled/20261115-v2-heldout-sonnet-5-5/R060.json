@@ -1,0 +1,408 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R060",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R060_A.csv",
+    "R060_B.txt",
+    "R060_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R060-F01",
+      "patient_id": "R060",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "She has no known allergies.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-08-16",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- NKA",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F02",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "3. Norvasc 2.5 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "3. Norvasc 2.5 mg OD",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-08-16",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-08-16,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F03",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-02",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-07-02,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "1. Hydrodiuril 25 mg OD",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F04",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-07-02",
+      "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-07-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-02",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-07-02,",
+          "file": "R060_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F05",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "1. Panadol - stopped 31-Oct-2021",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "1. Panadol - stopped 31-Oct-2021",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F06",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "2. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-13",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-03-13,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "2. Zocor 10 mg ON",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F07",
+      "patient_id": "R060",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2020-10-29",
+      "quote": "She takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "She takes no regular medicines.",
+          "file": "R060_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F08",
+      "patient_id": "R060",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-09-14",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,2008-09-14,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "She is known to have chronic sinusitis.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Chronic sinusitis",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F09",
+      "patient_id": "R060",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-02-26",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,1999-02-26,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "She is known to have hyperlipidemia.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Hyperlipidemia",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F10",
+      "patient_id": "R060",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-09-21",
+          "quote": "PROBLEM,Hypertension,,,Active,1973-09-21,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "Her background includes hypertension.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Hypertension",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F11",
+      "patient_id": "R060",
+      "type": "diagnosis",
+      "name": "localized primary osteoarthritis of the hand",
+      "name_as_written": "Localized  primary osteoarthritis of the hand",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Localized  primary osteoarthritis of the hand",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2002-03-26",
+          "quote": "PROBLEM,Localized  primary osteoarthritis of the hand,,,Active,2002-03-26,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "Her background includes localized  primary osteoarthritis of the hand.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Localized  primary osteoarthritis of the hand",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R060-F12",
+      "patient_id": "R060",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Miscarriage in first trimester",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1995-03-17",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1995-03-17,",
+          "file": "R060_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-29",
+          "quote": "Her background includes miscarriage in first trimester.",
+          "file": "R060_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Miscarriage in first trimester",
+          "file": "R060_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

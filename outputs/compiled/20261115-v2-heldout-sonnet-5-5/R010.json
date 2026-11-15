@@ -1,0 +1,356 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R010",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R010_A.csv",
+    "R010_B.txt",
+    "R010_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R010-F01",
+      "patient_id": "R010",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-06",
+          "quote": "- NKA",
+          "file": "R010_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He has no known allergies.",
+          "file": "R010_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R010_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F02",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He is on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He is on hydrochlorothiazide 25 mg once a day.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F03",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He takes paracetamol and hydrocodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He takes paracetamol and hydrocodone when needed.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F04",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2017-09-25",
+      "quote": "2. Nurofen - stopped 25-Sep-2017",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-09-25",
+          "quote": "2. Nurofen - stopped 25-Sep-2017",
+          "file": "R010_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F05",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He continues on lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-08",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-05-08,",
+          "file": "R010_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He continues on lisinopril 10 mg once a day.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F06",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "oxycodone",
+      "name_as_written": "Oxycodone",
+      "dose": "10 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-08",
+      "quote": "MEDICATION,Oxycodone,10 mg,twice daily,Active,2021-11-08,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-08",
+          "quote": "MEDICATION,Oxycodone,10 mg,twice daily,Active,2021-11-08,",
+          "file": "R010_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "twice_daily",
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He takes oxycodone 5 mg twice a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F07",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He takes paracetamol and hydrocodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He takes paracetamol and hydrocodone when needed.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "stopped",
+          "dose": null,
+          "frequency": null,
+          "hospital": "C",
+          "date": "2019-10-07",
+          "quote": "1. Panadol - stopped 07-Oct-2019"
+        }
+      ],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F08",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Paracetamol / hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-05-08",
+      "quote": "MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-05-08,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-08",
+          "quote": "MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-05-08,",
+          "file": "R010_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F09",
+      "patient_id": "R010",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-05-06",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-06",
+          "quote": "Nil regular medications",
+          "file": "R010_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F10",
+      "patient_id": "R010",
+      "type": "diagnosis",
+      "name": "fibromyalgia",
+      "name_as_written": "fibromyalgia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He is known to have fibromyalgia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2014-02-03",
+          "quote": "PROBLEM,Fibromyalgia,,,Active,2014-02-03,",
+          "file": "R010_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-06",
+          "quote": "- Fibromyalgia",
+          "file": "R010_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He is known to have fibromyalgia.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R010-F11",
+      "patient_id": "R010",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-02",
+      "quote": "He is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-01-25",
+          "quote": "PROBLEM,Hypertension,,,Active,2003-01-25,",
+          "file": "R010_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-06",
+          "quote": "- Hypertension",
+          "file": "R010_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-02",
+          "quote": "He is known to have hypertension.",
+          "file": "R010_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

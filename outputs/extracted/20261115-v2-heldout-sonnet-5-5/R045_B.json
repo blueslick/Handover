@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R045",
+  "hospital": "B",
+  "source_file": "R045_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2966,
+    "output_tokens": 194
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-07-25",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel",
+      "name_as_written": "etonogestrel",
+      "dose": "68 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-25",
+      "quote": "She is on etonogestrel 68 mg implant under the skin (lasts 3 years).",
+      "flags": []
+    }
+  ]
+}

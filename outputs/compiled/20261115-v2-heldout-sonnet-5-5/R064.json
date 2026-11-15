@@ -1,0 +1,124 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R064",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R064_A.csv",
+    "R064_B.txt",
+    "R064_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R064-F01",
+      "patient_id": "R064",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-30",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-03",
+          "quote": "- NKA",
+          "file": "R064_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-08",
+          "quote": "He has no known allergies.",
+          "file": "R064_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-30",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R064_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R064-F02",
+      "patient_id": "R064",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-30",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-03",
+          "quote": "Nil regular medications",
+          "file": "R064_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-08",
+          "quote": "He takes no regular medicines.",
+          "file": "R064_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-30",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R064_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R064-F03",
+      "patient_id": "R064",
+      "type": "diagnosis",
+      "name": "seizure disorder",
+      "name_as_written": "seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-08",
+      "quote": "He has a history of seizure disorder.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-12-25",
+          "quote": "PROBLEM,Seizure disorder,,,Active,1989-12-25,",
+          "file": "R064_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-03",
+          "quote": "- Seizure disorder",
+          "file": "R064_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-08",
+          "quote": "He has a history of seizure disorder.",
+          "file": "R064_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

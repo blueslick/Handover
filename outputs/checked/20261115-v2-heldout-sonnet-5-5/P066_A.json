@@ -1,0 +1,142 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P066",
+  "hospital": "A",
+  "source_file": "P066_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3426,
+    "output_tokens": 1126
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-05-17",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of hip",
+      "name_as_written": "Osteoarthritis of hip",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1985-02-23",
+      "quote": "PROBLEM,Osteoarthritis of hip,,,Active,1985-02-23,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1994-11-04",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,1994-11-04,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "fibromyalgia",
+      "name_as_written": "Fibromyalgia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2014-02-02",
+      "quote": "PROBLEM,Fibromyalgia,,,Active,2014-02-02,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial Fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-02-27",
+      "quote": "PROBLEM,Atrial Fibrillation,,,Active,2015-02-27,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Paracetamol / hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-02",
+      "quote": "MEDICATION,Paracetamol / hydrocodone,,as needed,Active,2021-04-02,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-02",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2021-04-02,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Digoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-02",
+      "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-04-02,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "Verapamil",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-02",
+      "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-04-02,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-05-17",
+      "quote": "MEDICATION,Warfarin,2.5 mg,once daily,Active,2021-05-17,",
+      "flags": []
+    }
+  ]
+}

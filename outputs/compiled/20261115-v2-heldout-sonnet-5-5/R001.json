@@ -1,0 +1,155 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R001",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R001_A.csv",
+    "R001_B.txt",
+    "R001_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R001-F01",
+      "patient_id": "R001",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "He is allergic to mould, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-12-27",
+          "quote": "ALLERGY,Mould,,,Active,1997-12-27,skin rash",
+          "file": "R001_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-21",
+          "quote": "- Mould (skin rash)",
+          "file": "R001_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "He is allergic to mould, which causes skin rash.",
+          "file": "R001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R001-F02",
+      "patient_id": "R001",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-12-27",
+          "quote": "ALLERGY,Wheat,,,Active,1997-12-27,",
+          "file": "R001_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "He is allergic to wheat.",
+          "file": "R001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R001-F03",
+      "patient_id": "R001",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "takes no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-05-21",
+          "quote": "Nil regular medications",
+          "file": "R001_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-09-06",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R001_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "He takes no regular medicines.",
+          "file": "R001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R001-F04",
+      "patient_id": "R001",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-10-31",
+      "quote": "He is known to have prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-02-26",
+          "quote": "PROBLEM,Prediabetes,,,Active,2019-02-26,",
+          "file": "R001_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-05-21",
+          "quote": "- Prediabetes",
+          "file": "R001_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-10-31",
+          "quote": "He is known to have prediabetes.",
+          "file": "R001_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

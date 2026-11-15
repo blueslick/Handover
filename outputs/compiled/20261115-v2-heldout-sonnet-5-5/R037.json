@@ -1,0 +1,516 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R037",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R037_A.csv",
+    "R037_B.txt",
+    "R037_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R037-F01",
+      "patient_id": "R037",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-31",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She has no known allergies.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- NKA",
+          "file": "R037_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-31",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R037_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F02",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-10-31",
+      "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-10-31,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-10-31",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-10-31,",
+          "file": "R037_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "2.5 mg",
+          "frequency": "daily",
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "1. Norvasc 2.5 mg OD"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F03",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "Amoxil",
+      "dose": "250 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-06-16",
+      "quote": "2. Amoxil - stopped 16-Jun-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-06-16",
+          "quote": "2. Amoxil - stopped 16-Jun-2020",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "250 mg",
+          "frequency": "three_times_daily",
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She continues on amoxicillin 250 mg three times a day."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F04",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "2. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-22",
+          "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2020-11-22,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F05",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "3. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-22",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2020-11-22,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "3. Hydrodiuril 25 mg OD",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F06",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "7. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-22",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2020-11-22,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "7. Zestril 10 mg OD",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F07",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Aleve",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-06-16",
+      "quote": "1. Aleve - stopped 16-Jun-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-06-16",
+          "quote": "1. Aleve - stopped 16-Jun-2020",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F08",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "4. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-22",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2020-11-22,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "4. Nitrolingual 0.4 mg PRN",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F09",
+      "patient_id": "R037",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "5. Zocor 20 mg ON",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-11-22",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2020-11-22,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "5. Zocor 20 mg ON",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F10",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "alzheimer's disease",
+      "name_as_written": "Alzheimer's disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Alzheimer's disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2013-10-13",
+          "quote": "PROBLEM,Alzheimer's disease,,,Active,2013-10-13,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She is known to have alzheimer's disease.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Alzheimer's disease",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F11",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-07-26",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2020-07-26,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Coronary Heart Disease",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F12",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1953-11-08",
+          "quote": "PROBLEM,Hypertension,,,Active,1953-11-08,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She has a history of hypertension.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Hypertension",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F13",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "malignant neoplasm of breast",
+      "name_as_written": "Malignant neoplasm of breast",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Malignant neoplasm of breast",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-11-25",
+          "quote": "PROBLEM,Malignant neoplasm of breast,,,Active,1997-11-25,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She has a history of malignant neoplasm of breast.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Malignant neoplasm of breast",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F14",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Miscarriage in first trimester",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-09-09",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1973-09-09,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "She has a history of miscarriage in first trimester.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Miscarriage in first trimester",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R037-F15",
+      "patient_id": "R037",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-22",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1961-12-24",
+          "quote": "PROBLEM,Prediabetes,,,Active,1961-12-24,",
+          "file": "R037_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-06-05",
+          "quote": "Her background includes prediabetes.",
+          "file": "R037_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-22",
+          "quote": "- Prediabetes",
+          "file": "R037_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

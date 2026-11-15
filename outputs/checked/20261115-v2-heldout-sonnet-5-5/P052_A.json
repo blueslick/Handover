@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P052",
+  "hospital": "A",
+  "source_file": "P052_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3480,
+    "output_tokens": 1159
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; hives",
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,Animal dander,,,Active,1958-01-20,hay fever symptoms; hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,Grass pollen,,,Active,1958-01-20,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,House dust mite,,,Active,1958-01-20,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,Mould,,,Active,1958-01-20,skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "nausea; skin rash",
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,Shellfish,,,Active,1958-01-20,nausea; skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1958-01-20",
+      "quote": "ALLERGY,Tree pollen,,,Active,1958-01-20,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1981-11-29",
+      "quote": "PROBLEM,Anemia,,,Active,1981-11-29,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1981-11-29",
+      "quote": "PROBLEM,Prediabetes,,,Active,1981-11-29,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "Osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-11-20",
+      "quote": "PROBLEM,Osteoporosis,,,Active,2016-11-20,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "alendronic acid",
+      "name_as_written": "Alendronic acid",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-01",
+      "quote": "MEDICATION,Alendronic acid,5 mg,once daily,Active,2021-03-01,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2020-11-29",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2020-11-29,",
+      "flags": []
+    }
+  ]
+}

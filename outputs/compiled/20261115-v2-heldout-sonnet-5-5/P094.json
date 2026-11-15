@@ -1,0 +1,500 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P094",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P094_A.csv",
+    "P094_B.txt",
+    "P094_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P094-F01",
+      "patient_id": "P094",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He has no known allergies.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- NKA",
+          "file": "P094_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P094_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F02",
+      "patient_id": "P094",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "1. Flixotide 44 mcg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-06-11",
+          "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-06-11,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "1. Flixotide 44 mcg BD",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F03",
+      "patient_id": "P094",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Ventolin",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "2. Ventolin 90 mcg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "2. Ventolin 90 mcg PRN",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F04",
+      "patient_id": "P094",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-16",
+      "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-16,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-16",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-16,",
+          "file": "P094_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "3. Zocor 5 mg ON"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F05",
+      "patient_id": "P094",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2020-11-08",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He takes no regular medicines.",
+          "file": "P094_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F06",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1982-11-05",
+          "quote": "PROBLEM,Anemia,,,Active,1982-11-05,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He has a history of anemia.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Anemia",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F07",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Diabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1981-10-30",
+          "quote": "PROBLEM,Diabetes,,,Active,1981-10-30,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "His background includes diabetes.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Diabetes",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F08",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "diabetic retinopathy associated with type ii diabetes mellitus",
+      "name_as_written": "Diabetic retinopathy associated with type II diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Diabetic retinopathy associated with type II diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-12-15",
+          "quote": "PROBLEM,Diabetic retinopathy associated with type II diabetes mellitus,,,Active,1989-12-15,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He is known to have diabetic retinopathy associated with type ii diabetes mellitus.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Diabetic retinopathy associated with type II diabetes mellitus",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F09",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-03-28",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2008-03-28,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He has a history of hyperlipidemia.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Hyperlipidemia",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F10",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "Hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Hypertriglyceridemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1982-11-05",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,1982-11-05,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "His background includes hypertriglyceridemia.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Hypertriglyceridemia",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F11",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "macular edema and retinopathy due to type 2 diabetes mellitus",
+      "name_as_written": "Macular edema and retinopathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Macular edema and retinopathy due to type 2 diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-05-08",
+          "quote": "PROBLEM,Macular edema and retinopathy due to type 2 diabetes mellitus,,,Active,2015-05-08,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "His background includes macular edema and retinopathy due to type 2 diabetes mellitus.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Macular edema and retinopathy due to type 2 diabetes mellitus",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F12",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "Metabolic syndrome X",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Metabolic syndrome X",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1982-11-05",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,1982-11-05,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "His background includes metabolic syndrome x.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Metabolic syndrome X",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F13",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "neuropathy due to type 2 diabetes mellitus",
+      "name_as_written": "Neuropathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Neuropathy due to type 2 diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-12-15",
+          "quote": "PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,1989-12-15,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He is known to have neuropathy due to type 2 diabetes mellitus.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Neuropathy due to type 2 diabetes mellitus",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P094-F14",
+      "patient_id": "P094",
+      "type": "diagnosis",
+      "name": "nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "name_as_written": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-29",
+      "quote": "- Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-03-05",
+          "quote": "PROBLEM,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus,,,Active,2004-03-05,",
+          "file": "P094_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-11-08",
+          "quote": "He is known to have nonproliferative diabetic retinopathy due to type 2 diabetes mellitus.",
+          "file": "P094_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+          "file": "P094_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

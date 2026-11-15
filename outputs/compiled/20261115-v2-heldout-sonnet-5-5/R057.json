@@ -1,0 +1,183 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R057",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R057_A.csv",
+    "R057_B.txt",
+    "R057_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R057-F01",
+      "patient_id": "R057",
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Zestril",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2000-05-12",
+          "quote": "ALLERGY,Lisinopril,,,Active,2000-05-12,",
+          "file": "R057_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He is allergic to lisinopril.",
+          "file": "R057_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Zestril",
+          "file": "R057_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R057-F02",
+      "patient_id": "R057",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash, hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Penicillin (skin rash, hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2000-05-12",
+          "quote": "ALLERGY,Penicillin,,,Active,2000-05-12,skin rash; hives",
+          "file": "R057_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Penicillin (skin rash, hives)",
+          "file": "R057_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R057-F03",
+      "patient_id": "R057",
+      "type": "medicine",
+      "name": "azithromycin",
+      "name_as_written": "Zithromax",
+      "dose": "250 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-05-31",
+      "quote": "1. Zithromax - stopped 31-May-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-05-31",
+          "quote": "1. Zithromax - stopped 31-May-2019",
+          "file": "R057_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "250 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2019-05-24",
+          "quote": "MEDICATION,Azithromycin,250 mg,once daily,Active,2019-05-24,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R057-F04",
+      "patient_id": "R057",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He takes no regular medicines.",
+          "file": "R057_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "Nil regular medications",
+          "file": "R057_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R057-F05",
+      "patient_id": "R057",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-13",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-02-17",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,2004-02-17,",
+          "file": "R057_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-07-17",
+          "quote": "He has a history of chronic sinusitis.",
+          "file": "R057_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-13",
+          "quote": "- Chronic sinusitis",
+          "file": "R057_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R008",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R008_A.csv",
+    "R008_B.txt",
+    "R008_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R008-F01",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Animal dander (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Animal dander,,,Active,2015-01-20,skin rash",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to animal dander, which causes skin rash.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Animal dander (skin rash)",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F02",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Grass pollen,,,Active,2015-01-20,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to grass pollen.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Grass pollen",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F03",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,House dust mite,,,Active,2015-01-20,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to house dust mite.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- House dust mite",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F04",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Mould (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Mould,,,Active,2015-01-20,skin rash",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to mould, which causes skin rash.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Mould (skin rash)",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F05",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting, diarrhoea",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Soya (vomiting, diarrhoea)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Soya,,,Active,2015-01-20,vomiting; diarrhoea",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Soya (vomiting, diarrhoea)",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F06",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Tree nuts (cough, hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Tree nuts,,,Active,2015-01-20,cough; hives",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to tree nuts, which causes cough and hives.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Tree nuts (cough, hives)",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F07",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Tree pollen,,,Active,2015-01-20,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to tree pollen.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Tree pollen",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F08",
+      "patient_id": "R008",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Wheat",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-01-20",
+          "quote": "ALLERGY,Wheat,,,Active,2015-01-20,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He is allergic to wheat.",
+          "file": "R008_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Wheat",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F09",
+      "patient_id": "R008",
+      "type": "medicine",
+      "name": "dextromethorphan",
+      "name_as_written": "dextromethorphan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+          "file": "R008_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose",
+        "conflict"
+      ],
+      "conflict_group": "R008-C1"
+    },
+    {
+      "fact_id": "R008-F10",
+      "patient_id": "R008",
+      "type": "medicine",
+      "name": "doxylamine",
+      "name_as_written": "doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+          "file": "R008_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose",
+        "conflict"
+      ],
+      "conflict_group": "R008-C1"
+    },
+    {
+      "fact_id": "R008-F11",
+      "patient_id": "R008",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-04-18",
+          "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+          "file": "R008_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose",
+        "conflict"
+      ],
+      "conflict_group": "R008-C1"
+    },
+    {
+      "fact_id": "R008-F12",
+      "patient_id": "R008",
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-04-30",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2018-04-30,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-04-30",
+          "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2018-04-30,",
+          "file": "R008_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R008-F13",
+      "patient_id": "R008",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-04",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "Nil regular medications",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "R008-C1"
+    },
+    {
+      "fact_id": "R008-F14",
+      "patient_id": "R008",
+      "type": "diagnosis",
+      "name": "seasonal allergic rhinitis",
+      "name_as_written": "Seasonal allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-03",
+      "quote": "- Seasonal allergic rhinitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-09-12",
+          "quote": "PROBLEM,Seasonal allergic rhinitis,,,Active,2018-09-12,",
+          "file": "R008_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-03",
+          "quote": "- Seasonal allergic rhinitis",
+          "file": "R008_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

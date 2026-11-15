@@ -1,0 +1,812 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P092",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P092_A.csv",
+    "P092_B.txt",
+    "P092_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P092-F01",
+      "patient_id": "P092",
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is allergic to bee venom.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1966-03-27",
+          "quote": "ALLERGY,Bee venom,,,Active,1966-03-27,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Bee venom",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is allergic to bee venom.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F02",
+      "patient_id": "P092",
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-17",
+      "quote": "- Zestril",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1966-03-27",
+          "quote": "ALLERGY,Lisinopril,,,Active,1966-03-27,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Zestril",
+          "file": "P092_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F03",
+      "patient_id": "P092",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives and swelling (angioedema)",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is allergic to tree nuts, which causes hives and swelling (angioedema).",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1966-03-27",
+          "quote": "ALLERGY,Tree nuts,,,Active,1966-03-27,hives; swelling (angioedema)",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Tree nuts (hives, swelling (angioedema))",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is allergic to tree nuts, which causes hives and swelling (angioedema).",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F04",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She continues on amlodipine 5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She continues on amlodipine 5 mg once a day.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F05",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2020-02-18",
+      "quote": "Her amoxicillin and clavulanate was stopped on 18 February 2020.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-02-18",
+          "quote": "Her amoxicillin and clavulanate was stopped on 18 February 2020.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "three_times_daily",
+          "hospital": "A",
+          "date": "2020-02-07",
+          "quote": "MEDICATION,Amoxicillin / clavulanate,,three times daily,Active,2020-02-07,"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F06",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She takes clopidogrel 75 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She takes clopidogrel 75 mg once a day.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F07",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "insulin isophane",
+      "name_as_written": "insulin isophane",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is on insulin isophane and insulin regular twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is on insulin isophane and insulin regular twice a day.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F08",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "insulin regular",
+      "name_as_written": "insulin regular",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is on insulin isophane and insulin regular twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is on insulin isophane and insulin regular twice a day.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F09",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is on nitroglycerin 0.4 mg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is on nitroglycerin 0.4 mg when needed.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F10",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is on simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is on simvastatin 20 mg at night.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F11",
+      "patient_id": "P092",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-10-17",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "Nil regular medications",
+          "file": "P092_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F12",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She has a history of anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1985-05-03",
+          "quote": "PROBLEM,Anemia,,,Active,1985-05-03,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Anemia",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She has a history of anemia.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F13",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is known to have chronic intractable migraine without aura.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-03-27",
+          "quote": "PROBLEM,Chronic intractable migraine without aura,,,Active,1990-03-27,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Chronic intractable migraine without aura",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is known to have chronic intractable migraine without aura.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F14",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "chronic kidney disease stage 1",
+      "name_as_written": "chronic kidney disease stage 1",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes chronic kidney disease stage 1.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-06-01",
+          "quote": "PROBLEM,Chronic kidney disease stage 1,,,Active,1990-06-01,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Chronic kidney disease stage 1",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes chronic kidney disease stage 1.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F15",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes chronic pain.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-02-04",
+          "quote": "PROBLEM,Chronic pain,,,Active,1990-02-04,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Chronic pain",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes chronic pain.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F16",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is known to have coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1978-03-24",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,1978-03-24,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Coronary Heart Disease",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is known to have coronary heart disease.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F17",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is known to have diabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1986-05-09",
+          "quote": "PROBLEM,Diabetes,,,Active,1986-05-09,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Diabetes",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is known to have diabetes.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F18",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "diabetic renal disease",
+      "name_as_written": "diabetic renal disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She has a history of diabetic renal disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-06-01",
+          "quote": "PROBLEM,Diabetic renal disease,,,Active,1990-06-01,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Diabetic renal disease",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She has a history of diabetic renal disease.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F19",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "drug overdose",
+      "name_as_written": "drug overdose",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes drug overdose.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2003-03-13",
+          "quote": "PROBLEM,Drug overdose,,,Active,2003-03-13,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Drug overdose",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes drug overdose.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F20",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes hypertriglyceridemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1987-05-15",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,1987-05-15,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Hypertriglyceridemia",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes hypertriglyceridemia.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F21",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "impacted molars",
+      "name_as_written": "impacted molars",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is known to have impacted molars.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1991-01-12",
+          "quote": "PROBLEM,Impacted molars,,,Active,1991-01-12,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Impacted molars",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is known to have impacted molars.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F22",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "She is known to have metabolic syndrome x.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1988-05-20",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,1988-05-20,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Metabolic syndrome X",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "She is known to have metabolic syndrome x.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F23",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes miscarriage in first trimester.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-09-24",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1999-09-24,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Miscarriage in first trimester",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes miscarriage in first trimester.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P092-F24",
+      "patient_id": "P092",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-16",
+      "quote": "Her background includes prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1985-05-03",
+          "quote": "PROBLEM,Prediabetes,,,Active,1985-05-03,",
+          "file": "P092_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-17",
+          "quote": "- Prediabetes",
+          "file": "P092_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-16",
+          "quote": "Her background includes prediabetes.",
+          "file": "P092_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

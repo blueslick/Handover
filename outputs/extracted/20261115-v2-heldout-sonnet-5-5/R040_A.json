@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R040",
+  "hospital": "A",
+  "source_file": "R040_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3426,
+    "output_tokens": 1101
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Animal dander,,,Active,2008-11-21,cough; hay fever symptoms",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "shortness of breath; hay fever symptoms",
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Fish,,,Active,2008-11-21,shortness of breath; hay fever symptoms",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Grass pollen,,,Active,2008-11-21,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,House dust mite,,,Active,2008-11-21,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "wheezing; runny nose",
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Mould,,,Active,2008-11-21,wheezing; runny nose",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema); nausea",
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Shellfish,,,Active,2008-11-21,swelling (angioedema); nausea",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis; cough",
+      "status": "current",
+      "date": "2008-11-21",
+      "quote": "ALLERGY,Tree nuts,,,Active,2008-11-21,anaphylaxis; cough",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2010-02-12",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,2010-02-12,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis",
+      "name_as_written": "Perennial allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2010-05-29",
+      "quote": "PROBLEM,Perennial allergic rhinitis,,,Active,2010-05-29,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-07",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "patient_id": "R009",
+  "hospital": "B",
+  "attempt": 1,
+  "source_file": "R009_B.txt",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "prompt_file": "extract_v2.md",
+  "settings_sent": {
+    "model": "claude-sonnet-5-5",
+    "max_tokens": 8000,
+    "system_sha256": "5287769cfd3b2b3317797fc5e100f94933cac3a86fb6e2216cc088a83712f38c",
+    "messages_sha256": "def2f82457954a2a7aaac1bdee4d6af774e952f20573b675cf4ee73e9686034f",
+    "output_config": {
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "facts"
+          ],
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "type",
+                  "name",
+                  "name_as_written",
+                  "dose",
+                  "frequency",
+                  "reaction",
+                  "status",
+                  "date",
+                  "quote"
+                ],
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "allergy",
+                      "medicine",
+                      "diagnosis",
+                      "operation"
+                    ]
+                  },
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "name_as_written": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "dose": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "frequency": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "enum": [
+                          "once",
+                          "daily",
+                          "twice_daily",
+                          "three_times_daily",
+                          "four_times_daily",
+                          "at_night",
+                          "weekly",
+                          "as_needed",
+                          "other"
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "reaction": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "current",
+                      "stopped",
+                      "none_recorded",
+                      "suspected",
+                      "family_history",
+                      "planned",
+                      "side_effect"
+                    ]
+                  },
+                  "date": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "quote": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "thinking": {
+      "type": "between_tools"
+    }
+  },
+  "usage": {
+    "input_tokens": 3008,
+    "output_tokens": 467,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "response_id": "msg_011Ch41nULPNxaWj3zFkUiJb",
+  "model_reported": "claude-sonnet-5-5",
+  "stop_reason": "end_turn",
+  "called_at_utc": "2026-11-15T03:36:24Z",
+  "record_sha256": "b42c3288f6ff55251f8436ddd77a6427dfc512d6ab39718f85e8073937cc8259",
+  "prompt_sha256": "bccd7e71ff55ae71020e5b3d6ce1d2e214e1f629c64eae3ae71c654a674977da",
+  "reply_sha256": "9a5b42ca69727a1d87ecc6c1f40235bee8c41e34efae34558c518131044f69e8"
+}

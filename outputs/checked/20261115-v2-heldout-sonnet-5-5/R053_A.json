@@ -1,0 +1,102 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R053",
+  "hospital": "A",
+  "source_file": "R053_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3218,
+    "output_tokens": 726
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-05-24",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1936-11-02",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1936-11-02,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "tubal pregnancy",
+      "name_as_written": "Tubal pregnancy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1937-08-23",
+      "quote": "PROBLEM,Tubal pregnancy,,,Active,1937-08-23,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1940-12-16",
+      "quote": "PROBLEM,Prediabetes,,,Active,1940-12-16,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1947-06-11",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,1947-06-11,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "Osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2003-05-26",
+      "quote": "PROBLEM,Osteoporosis,,,Active,2003-05-26,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-05-24",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}

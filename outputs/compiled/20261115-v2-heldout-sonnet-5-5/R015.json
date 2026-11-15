@@ -1,0 +1,545 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R015",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R015_A.csv",
+    "R015_B.txt",
+    "R015_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R015-F01",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Animal dander (hay fever symptoms, skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Animal dander,,,Active,1962-04-11,hay fever symptoms; skin rash",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms and skin rash.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Animal dander (hay fever symptoms, skin rash)",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F02",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-08-07",
+      "quote": "She is allergic to aspirin.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Aspirin,,,Active,1962-04-11,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to aspirin.",
+          "file": "R015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F03",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "Cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Cow's milk (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Cow's milk,,,Active,1962-04-11,hives",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to cow's milk, which causes hives.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Cow's milk (hives)",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F04",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Fish (hay fever symptoms)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Fish,,,Active,1962-04-11,hay fever symptoms",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to fish, which causes hay fever symptoms.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Fish (hay fever symptoms)",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F05",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Grass pollen,,,Active,1962-04-11,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to grass pollen.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Grass pollen",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F06",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,House dust mite,,,Active,1962-04-11,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to house dust mite.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- House dust mite",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F07",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Mould (sneezing)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Mould,,,Active,1962-04-11,sneezing",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to mould, which causes sneezing.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Mould (sneezing)",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F08",
+      "patient_id": "R015",
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting, diarrhoea",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Soya (vomiting, diarrhoea)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1962-04-11",
+          "quote": "ALLERGY,Soya,,,Active,1962-04-11,vomiting; diarrhoea",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is allergic to soya, which causes vomiting and diarrhoea.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Soya (vomiting, diarrhoea)",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F09",
+      "patient_id": "R015",
+      "type": "medicine",
+      "name": "alendronic acid",
+      "name_as_written": "Fosamax",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "2. Fosamax 10 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "2. Fosamax 10 mg OD",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F10",
+      "patient_id": "R015",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "1. Flixotide 44 mcg BD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "1. Flixotide 44 mcg BD",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F11",
+      "patient_id": "R015",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Ventolin",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "3. Ventolin 90 mcg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "3. Ventolin 90 mcg PRN",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F12",
+      "patient_id": "R015",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-08-07",
+      "quote": "She takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-09-27",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She takes no regular medicines.",
+          "file": "R015_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F13",
+      "patient_id": "R015",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1979-12-03",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1979-12-03,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She is known to have chronic sinusitis.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Chronic sinusitis",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F14",
+      "patient_id": "R015",
+      "type": "diagnosis",
+      "name": "epilepsy",
+      "name_as_written": "Epilepsy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Epilepsy",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-12-26",
+          "quote": "PROBLEM,Epilepsy,,,Active,2010-12-26,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "She has a history of epilepsy.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Epilepsy",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F15",
+      "patient_id": "R015",
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "Osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Osteoporosis",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Osteoporosis",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R015-F16",
+      "patient_id": "R015",
+      "type": "diagnosis",
+      "name": "seizure disorder",
+      "name_as_written": "Seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-10",
+      "quote": "- Seizure disorder",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-12-25",
+          "quote": "PROBLEM,Seizure disorder,,,Active,2010-12-25,",
+          "file": "R015_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-08-07",
+          "quote": "Her background includes seizure disorder.",
+          "file": "R015_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-10",
+          "quote": "- Seizure disorder",
+          "file": "R015_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

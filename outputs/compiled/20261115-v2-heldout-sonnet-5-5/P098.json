@@ -1,0 +1,678 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P098",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P098_A.csv",
+    "P098_B.txt",
+    "P098_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P098-F01",
+      "patient_id": "P098",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Animal dander (hives, skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1941-07-20",
+          "quote": "ALLERGY,Animal dander,,,Active,1941-07-20,hives; skin rash",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is allergic to animal dander, which causes hives and skin rash.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Animal dander (hives, skin rash)",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F02",
+      "patient_id": "P098",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis, hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Peanut (anaphylaxis, hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1941-07-20",
+          "quote": "ALLERGY,Peanut,,,Active,1941-07-20,anaphylaxis; hives",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is allergic to peanut, which causes anaphylaxis and hives.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Peanut (anaphylaxis, hives)",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F03",
+      "patient_id": "P098",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash and hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-05-20",
+      "quote": "He is allergic to penicillin, which causes skin rash and hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1941-07-20",
+          "quote": "ALLERGY,Penicillin,,,Active,1941-07-20,skin rash; hives",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is allergic to penicillin, which causes skin rash and hives.",
+          "file": "P098_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F04",
+      "patient_id": "P098",
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Lanoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "1. Lanoxin 0.125 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-09",
+          "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-02-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He continues on digoxin 0.125 mg once a day.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "1. Lanoxin 0.125 mg OD",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F05",
+      "patient_id": "P098",
+      "type": "medicine",
+      "name": "galantamine",
+      "name_as_written": "Reminyl",
+      "dose": "4 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "2. Reminyl 4 mg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-09",
+          "quote": "MEDICATION,Galantamine,4 mg,twice daily,Active,2021-02-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is on galantamine 4 mg twice a day.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "2. Reminyl 4 mg BD",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F06",
+      "patient_id": "P098",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "5. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-09",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-02-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is on lisinopril 10 mg once a day.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "5. Zestril 10 mg OD",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F07",
+      "patient_id": "P098",
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "Isoptin",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "3. Isoptin 40 mg TDS",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-09",
+          "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-02-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He continues on verapamil 40 mg three times a day.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "3. Isoptin 40 mg TDS",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F08",
+      "patient_id": "P098",
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-10",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-10,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "4. Coumadin 5 mg OD",
+          "file": "P098_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-10",
+          "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-10,",
+          "file": "P098_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "2.5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He continues on warfarin 2.5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F09",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "alzheimer's disease",
+      "name_as_written": "Alzheimer's disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Alzheimer's disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-09",
+          "quote": "PROBLEM,Alzheimer's disease,,,Active,2021-02-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He has a history of alzheimer's disease.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Alzheimer's disease",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F10",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-05-15",
+          "quote": "PROBLEM,Anemia,,,Active,1973-05-15,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is known to have anemia.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Anemia",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F11",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial Fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Atrial Fibrillation",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1988-08-09",
+          "quote": "PROBLEM,Atrial Fibrillation,,,Active,1988-08-09,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He has a history of atrial fibrillation.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Atrial Fibrillation",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F12",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "carcinoma in situ of prostate",
+      "name_as_written": "Carcinoma in situ of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Carcinoma in situ of prostate",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-11-03",
+          "quote": "PROBLEM,Carcinoma in situ of prostate,,,Active,2004-11-03,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "His background includes carcinoma in situ of prostate.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Carcinoma in situ of prostate",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F13",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "Chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Chronic intractable migraine without aura",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-09-01",
+          "quote": "PROBLEM,Chronic intractable migraine without aura,,,Active,2012-09-01,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is known to have chronic intractable migraine without aura.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Chronic intractable migraine without aura",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F14",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1941-05-15",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1941-05-15,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He has a history of chronic sinusitis.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Chronic sinusitis",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F15",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1959-02-24",
+          "quote": "PROBLEM,Hypertension,,,Active,1959-02-24,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "His background includes hypertension.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Hypertension",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F16",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "neoplasm of prostate",
+      "name_as_written": "Neoplasm of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Neoplasm of prostate",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-11-03",
+          "quote": "PROBLEM,Neoplasm of prostate,,,Active,2004-11-03,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He is known to have neoplasm of prostate.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Neoplasm of prostate",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F17",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "opioid abuse",
+      "name_as_written": "Opioid abuse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Opioid abuse",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1976-06-01",
+          "quote": "PROBLEM,Opioid abuse,,,Active,1976-06-01,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He has a history of opioid abuse.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Opioid abuse",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P098-F18",
+      "patient_id": "P098",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-29",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-05-15",
+          "quote": "PROBLEM,Prediabetes,,,Active,1973-05-15,",
+          "file": "P098_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-05-20",
+          "quote": "He has a history of prediabetes.",
+          "file": "P098_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-29",
+          "quote": "- Prediabetes",
+          "file": "P098_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

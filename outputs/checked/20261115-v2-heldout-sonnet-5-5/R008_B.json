@@ -1,0 +1,144 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R008",
+  "hospital": "B",
+  "source_file": "R008_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3059,
+    "output_tokens": 901
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to animal dander, which causes skin rash.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to grass pollen.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to house dust mite.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to mould, which causes skin rash.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough and hives",
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to tree nuts, which causes cough and hives.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to tree pollen.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He is allergic to wheat.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "dextromethorphan",
+      "name_as_written": "dextromethorphan",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "doxylamine",
+      "name_as_written": "doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-04-18",
+      "quote": "He takes paracetamol and dextromethorphan and doxylamine at night.",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

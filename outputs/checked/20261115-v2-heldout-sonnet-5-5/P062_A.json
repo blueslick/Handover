@@ -1,0 +1,126 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P062",
+  "hospital": "A",
+  "source_file": "P062_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3338,
+    "output_tokens": 963
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-14",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1976-01-31",
+      "quote": "PROBLEM,Prediabetes,,,Active,1976-01-31,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1988-07-09",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1988-07-09,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "Chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1990-06-05",
+      "quote": "PROBLEM,Chronic intractable migraine without aura,,,Active,1990-06-05,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "Chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1990-08-02",
+      "quote": "PROBLEM,Chronic pain,,,Active,1990-08-02,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "impacted molars",
+      "name_as_written": "Impacted molars",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1991-01-06",
+      "quote": "PROBLEM,Impacted molars,,,Active,1991-01-06,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "drug overdose",
+      "name_as_written": "Drug overdose",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1995-07-13",
+      "quote": "PROBLEM,Drug overdose,,,Active,1995-07-13,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2006-01-21",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,2006-01-21,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-14",
+      "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-08-14,",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R062",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R062_A.csv",
+    "R062_B.txt",
+    "R062_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R062-F01",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Animal dander (hay fever symptoms)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Animal dander,,,Active,2009-08-27,hay fever symptoms",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Animal dander (hay fever symptoms)",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F02",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Grass pollen,,,Active,2009-08-27,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to grass pollen.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Grass pollen",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F03",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Latex (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Latex,,,Active,2009-08-27,hives",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to latex, which causes hives.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Latex (hives)",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F04",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Mould (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Mould,,,Active,2009-08-27,skin rash",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Mould (skin rash)",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F05",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Soya (vomiting)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Soya,,,Active,2009-08-27,vomiting",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to soya, which causes vomiting.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Soya (vomiting)",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F06",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Tree pollen,,,Active,2009-08-27,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to tree pollen.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Tree pollen",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F07",
+      "patient_id": "R062",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Wheat",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-27",
+          "quote": "ALLERGY,Wheat,,,Active,2009-08-27,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is allergic to wheat.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Wheat",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F08",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2019-04-17",
+      "quote": "His amoxicillin and clavulanate was stopped on 17 April 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-04-17",
+          "quote": "His amoxicillin and clavulanate was stopped on 17 April 2019.",
+          "file": "R062_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F09",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "1. Flixotide 44 mcg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-16",
+          "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-05-16,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "1. Flixotide 44 mcg BD",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F10",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2016-12-06",
+      "quote": "His paracetamol was stopped on 6 December 2016.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2016-12-06",
+          "quote": "His paracetamol was stopped on 6 December 2016.",
+          "file": "R062_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F11",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": "prednisone",
+      "name_as_written": "prednisone",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2018-08-17",
+      "quote": "His prednisone was stopped on 17 August 2018.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-08-17",
+          "quote": "His prednisone was stopped on 17 August 2018.",
+          "file": "R062_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F12",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-05-16",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-16,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-16",
+          "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-05-16,",
+          "file": "R062_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F13",
+      "patient_id": "R062",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "takes no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2020-07-29",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He takes no regular medicines.",
+          "file": "R062_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F14",
+      "patient_id": "R062",
+      "type": "diagnosis",
+      "name": "atopic dermatitis",
+      "name_as_written": "Atopic dermatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Atopic dermatitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2009-08-11",
+          "quote": "PROBLEM,Atopic dermatitis,,,Active,2009-08-11,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "His background includes atopic dermatitis.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Atopic dermatitis",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F15",
+      "patient_id": "R062",
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Childhood asthma",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2013-05-19",
+          "quote": "PROBLEM,Childhood asthma,,,Active,2013-05-19,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He is known to have childhood asthma.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Childhood asthma",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R062-F16",
+      "patient_id": "R062",
+      "type": "diagnosis",
+      "name": "seasonal allergic rhinitis",
+      "name_as_written": "Seasonal allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-11",
+      "quote": "- Seasonal allergic rhinitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2012-02-18",
+          "quote": "PROBLEM,Seasonal allergic rhinitis,,,Active,2012-02-18,",
+          "file": "R062_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-07-29",
+          "quote": "He has a history of seasonal allergic rhinitis.",
+          "file": "R062_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-11",
+          "quote": "- Seasonal allergic rhinitis",
+          "file": "R062_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

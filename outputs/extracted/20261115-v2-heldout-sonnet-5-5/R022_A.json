@@ -1,0 +1,42 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R022",
+  "hospital": "A",
+  "source_file": "R022_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2956,
+    "output_tokens": 238
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "shortness of breath; vomiting",
+      "status": "current",
+      "date": "2014-12-14",
+      "quote": "ALLERGY,Fish,,,Active,2014-12-14,shortness of breath; vomiting",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "Amoxicillin",
+      "dose": "500 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-01-09",
+      "quote": "MEDICATION,Amoxicillin,500 mg,three times daily,Active,2018-01-09,",
+      "flags": []
+    }
+  ]
+}

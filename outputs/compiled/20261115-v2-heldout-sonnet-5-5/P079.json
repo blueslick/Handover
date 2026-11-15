@@ -1,0 +1,675 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P079",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P079_A.csv",
+    "P079_B.txt",
+    "P079_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P079-F01",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to animal dander, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Animal dander,,,Active,1993-05-27,skin rash",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Animal dander (skin rash)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to animal dander, which causes skin rash.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F02",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "abdominal pain",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-03-31",
+      "quote": "- Disprin (abdominal pain)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Aspirin,,,Active,1993-05-27,abdominal pain",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Disprin (abdominal pain)",
+          "file": "P079_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F03",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to bee venom.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Bee venom,,,Active,1993-05-27,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Bee venom",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to bee venom.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F04",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting and hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to cow's milk, which causes vomiting and hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Cow's milk,,,Active,1993-05-27,vomiting; hives",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Cow's milk (vomiting, hives)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to cow's milk, which causes vomiting and hives.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F05",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms and skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to fish, which causes hay fever symptoms and skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Fish,,,Active,1993-05-27,hay fever symptoms; skin rash",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Fish (hay fever symptoms, skin rash)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to fish, which causes hay fever symptoms and skin rash.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F06",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Grass pollen,,,Active,1993-05-27,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Grass pollen",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to grass pollen.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F07",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to house dust mite.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,House dust mite,,,Active,1993-05-27,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- House dust mite",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to house dust mite.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F08",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to mould, which causes sneezing.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Mould,,,Active,1993-05-27,sneezing",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Mould (sneezing)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to mould, which causes sneezing.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F09",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives and wheezing",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to peanut, which causes hives and wheezing.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Peanut,,,Active,1993-05-27,hives; wheezing",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Peanut (hives, wheezing)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to peanut, which causes hives and wheezing.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F10",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash and shortness of breath",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to shellfish, which causes skin rash and shortness of breath.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Shellfish,,,Active,1993-05-27,skin rash; shortness of breath",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Shellfish (skin rash, shortness of breath)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to shellfish, which causes skin rash and shortness of breath.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F11",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis and cough",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to tree nuts, which causes anaphylaxis and cough.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Tree nuts,,,Active,1993-05-27,anaphylaxis; cough",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Tree nuts (anaphylaxis, cough)",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to tree nuts, which causes anaphylaxis and cough.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F12",
+      "patient_id": "P079",
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is allergic to wheat.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-27",
+          "quote": "ALLERGY,Wheat,,,Active,1993-05-27,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Wheat",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is allergic to wheat.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F13",
+      "patient_id": "P079",
+      "type": "medicine",
+      "name": "enoxaparin",
+      "name_as_written": "enoxaparin",
+      "dose": "40 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He takes enoxaparin 40 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-05-03",
+          "quote": "MEDICATION,Enoxaparin,40 mg,once daily,Active,2020-05-03,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "1. Clexane 40 mg OD",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He takes enoxaparin 40 mg once a day.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F14",
+      "patient_id": "P079",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-07",
+      "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-07",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-11-07,",
+          "file": "P079_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "12.5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He continues on hydrochlorothiazide 12.5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F15",
+      "patient_id": "P079",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He takes lisinopril 10 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-09",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-04-09,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He takes lisinopril 10 mg once a day.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F16",
+      "patient_id": "P079",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "500 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He continues on paracetamol 500 mg when needed.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-05-03",
+          "quote": "MEDICATION,Paracetamol,500 mg,as needed,Active,2020-05-03,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "2. Panadol 500 mg PRN",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He continues on paracetamol 500 mg when needed.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "stopped",
+          "dose": null,
+          "frequency": null,
+          "hospital": "C",
+          "date": "2018-09-12",
+          "quote": "1. Panadol - stopped 12-Sep-2018"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F17",
+      "patient_id": "P079",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He is known to have hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-02-05",
+          "quote": "PROBLEM,Hypertension,,,Active,2010-02-05,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Hypertension",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He is known to have hypertension.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P079-F18",
+      "patient_id": "P079",
+      "type": "diagnosis",
+      "name": "hypoxemia",
+      "name_as_written": "hypoxemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-20",
+      "quote": "He has a history of hypoxemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-05-02",
+          "quote": "PROBLEM,Hypoxemia,,,Active,2020-05-02,",
+          "file": "P079_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-31",
+          "quote": "- Hypoxemia",
+          "file": "P079_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-20",
+          "quote": "He has a history of hypoxemia.",
+          "file": "P079_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

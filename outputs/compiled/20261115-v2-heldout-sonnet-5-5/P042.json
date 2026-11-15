@@ -1,0 +1,160 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P042",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P042_A.csv",
+    "P042_B.txt",
+    "P042_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P042-F01",
+      "patient_id": "P042",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-31",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-01",
+          "quote": "He has no known allergies.",
+          "file": "P042_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-17",
+          "quote": "- NKA",
+          "file": "P042_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-31",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P042_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P042-F02",
+      "patient_id": "P042",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2020-11-01",
+      "quote": "He continues on paracetamol and hydrocodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-01",
+          "quote": "He continues on paracetamol and hydrocodone when needed.",
+          "file": "P042_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P042-F03",
+      "patient_id": "P042",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-18",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-09-18,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-11-01",
+          "quote": "He continues on paracetamol and hydrocodone when needed.",
+          "file": "P042_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-09-18",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-09-18,",
+          "file": "P042_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P042-F04",
+      "patient_id": "P042",
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Vicodin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-17",
+      "quote": "1. Vicodin PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-09-17",
+          "quote": "1. Vicodin PRN",
+          "file": "P042_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P042-F05",
+      "patient_id": "P042",
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramadol",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-18",
+      "quote": "MEDICATION,Tramadol,50 mg,as needed,Active,2021-09-18,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-18",
+          "quote": "MEDICATION,Tramadol,50 mg,as needed,Active,2021-09-18,",
+          "file": "P042_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

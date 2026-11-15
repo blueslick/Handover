@@ -1,0 +1,106 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P044",
+  "hospital": "B",
+  "source_file": "P044_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3020,
+    "output_tokens": 641
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She is known to have hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "pulmonary emphysema",
+      "name_as_written": "pulmonary emphysema",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She has a history of pulmonary emphysema.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She is allergic to aspirin.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She is allergic to latex.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "norelgestromin",
+      "name_as_written": "norelgestromin",
+      "dose": null,
+      "frequency": "weekly",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She takes norelgestromin and ethinyl estradiol once a week.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "ethinyl estradiol",
+      "name_as_written": "ethinyl estradiol",
+      "dose": null,
+      "frequency": "weekly",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-01-26",
+      "quote": "She takes norelgestromin and ethinyl estradiol once a week.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "levonorgestrel",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-12-11",
+      "quote": "Her levonorgestrel was stopped on 11 December 2018.",
+      "flags": []
+    }
+  ]
+}

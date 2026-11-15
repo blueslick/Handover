@@ -1,0 +1,118 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R010",
+  "hospital": "B",
+  "source_file": "R010_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3034,
+    "output_tokens": 743
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He is known to have hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "fibromyalgia",
+      "name_as_written": "fibromyalgia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He is known to have fibromyalgia.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-02",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "oxycodone",
+      "name_as_written": "oxycodone",
+      "dose": "5 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He takes oxycodone 5 mg twice a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He takes paracetamol and hydrocodone when needed.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He takes paracetamol and hydrocodone when needed.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He is on hydrochlorothiazide 25 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-02",
+      "quote": "He continues on lisinopril 10 mg once a day.",
+      "flags": []
+    }
+  ]
+}

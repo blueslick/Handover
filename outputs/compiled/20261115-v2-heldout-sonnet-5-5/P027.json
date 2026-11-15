@@ -1,0 +1,467 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P027",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P027_A.csv",
+    "P027_B.txt",
+    "P027_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P027-F01",
+      "patient_id": "P027",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- NKA",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-03",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He has no known allergies.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F02",
+      "patient_id": "P027",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He takes amlodipine 2.5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-06",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-03-06,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He takes amlodipine 2.5 mg once a day.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F03",
+      "patient_id": "P027",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He takes hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-06",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-03-06,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He takes hydrochlorothiazide 25 mg once a day.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F04",
+      "patient_id": "P027",
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Metformin",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-03-06",
+      "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-03-06,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-06",
+          "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-03-06,",
+          "file": "P027_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F05",
+      "patient_id": "P027",
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2017-12-06",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2017-12-06,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-12-06",
+          "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2017-12-06,",
+          "file": "P027_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": null,
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "1. NyQuil ON"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F06",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "His background includes anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-02",
+          "quote": "PROBLEM,Anemia,,,Active,2010-01-02,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Anemia",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "His background includes anemia.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F07",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He is known to have chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1990-11-02",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1990-11-02,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Chronic sinusitis",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He is known to have chronic sinusitis.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F08",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He is known to have diabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-02",
+          "quote": "PROBLEM,Diabetes,,,Active,2010-01-02,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Diabetes",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He is known to have diabetes.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F09",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He has a history of hyperglycemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-01-08",
+          "quote": "PROBLEM,Hyperglycemia,,,Active,2011-01-08,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Hyperglycemia",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He has a history of hyperglycemia.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F10",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He has a history of hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-02",
+          "quote": "PROBLEM,Hypertension,,,Active,2010-01-02,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Hypertension",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He has a history of hypertension.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F11",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He has a history of hypertriglyceridemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-01-08",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,2011-01-08,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Hypertriglyceridemia",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He has a history of hypertriglyceridemia.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F12",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "He has a history of metabolic syndrome x.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2011-01-08",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,2011-01-08,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Metabolic syndrome X",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "He has a history of metabolic syndrome x.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P027-F13",
+      "patient_id": "P027",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-04",
+      "quote": "His background includes prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-11-25",
+          "quote": "PROBLEM,Prediabetes,,,Active,2017-11-25,",
+          "file": "P027_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2017-12-02",
+          "quote": "- Prediabetes",
+          "file": "P027_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-04",
+          "quote": "His background includes prediabetes.",
+          "file": "P027_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

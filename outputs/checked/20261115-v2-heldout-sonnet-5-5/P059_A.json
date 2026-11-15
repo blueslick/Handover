@@ -1,0 +1,126 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P059",
+  "hospital": "A",
+  "source_file": "P059_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3339,
+    "output_tokens": 938
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,Animal dander,,,Active,2005-01-01,cough; hay fever symptoms",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "Egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,Egg,,,Active,2005-01-01,hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,Grass pollen,,,Active,2005-01-01,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,House dust mite,,,Active,2005-01-01,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis; swelling (angioedema)",
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,Latex,,,Active,2005-01-01,anaphylaxis; swelling (angioedema)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2005-01-01",
+      "quote": "ALLERGY,Mould,,,Active,2005-01-01,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2006-09-29",
+      "quote": "PROBLEM,Childhood asthma,,,Active,2006-09-29,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "perennial allergic rhinitis",
+      "name_as_written": "Perennial allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2007-07-29",
+      "quote": "PROBLEM,Perennial allergic rhinitis,,,Active,2007-07-29,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-01",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}

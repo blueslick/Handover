@@ -1,0 +1,102 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P077",
+  "hospital": "A",
+  "source_file": "P077_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3213,
+    "output_tokens": 707
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-05-26",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "appendicitis",
+      "name_as_written": "Appendicitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1950-02-23",
+      "quote": "PROBLEM,Appendicitis,,,Active,1950-02-23,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1966-10-11",
+      "quote": "PROBLEM,Hypertension,,,Active,1966-10-11,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1991-02-26",
+      "quote": "PROBLEM,Prediabetes,,,Active,1991-02-26,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1992-03-03",
+      "quote": "PROBLEM,Anemia,,,Active,1992-03-03,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2009-06-09",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,2009-06-09,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "Alteplase",
+      "dose": "100 mg",
+      "frequency": "once",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-05-26",
+      "quote": "MEDICATION,Alteplase,100 mg,once,Active,2020-05-26,",
+      "flags": []
+    }
+  ]
+}

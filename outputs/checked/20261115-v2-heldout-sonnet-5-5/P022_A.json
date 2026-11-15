@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P022",
+  "hospital": "A",
+  "source_file": "P022_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2972,
+    "output_tokens": 296
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-11-29",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-01-06",
+      "quote": "PROBLEM,Coronary Heart Disease,,,Active,2016-01-06,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-11-29",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}

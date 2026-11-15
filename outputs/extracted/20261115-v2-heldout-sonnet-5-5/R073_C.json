@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R073",
+  "hospital": "C",
+  "source_file": "R073_C.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3013,
+    "output_tokens": 433
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-16",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "appendicitis",
+      "name_as_written": "Appendicitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-16",
+      "quote": "- Appendicitis",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "rupture of appendix",
+      "name_as_written": "Rupture of appendix",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-16",
+      "quote": "- Rupture of appendix",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-16",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-16",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "flags": []
+    }
+  ]
+}

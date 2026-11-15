@@ -1,0 +1,69 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R007",
+  "hospital": "C",
+  "source_file": "R007_C.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3013,
+    "output_tokens": 343
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-10-30",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Percocet",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-30",
+      "quote": "1. Percocet PRN",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-30",
+      "quote": "2. Panadol 325 mg PRN",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramal",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-30",
+      "quote": "3. Tramal 50 mg PRN",
+      "flags": []
+    }
+  ]
+}

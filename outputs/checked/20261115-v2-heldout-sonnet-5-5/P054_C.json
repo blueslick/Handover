@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P054",
+  "hospital": "C",
+  "source_file": "P054_C.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2997,
+    "output_tokens": 253
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-25",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Percocet",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-25",
+      "quote": "1. Percocet PRN",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-25",
+      "quote": "2. Panadol 325 mg PRN",
+      "flags": []
+    }
+  ]
+}

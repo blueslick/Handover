@@ -1,0 +1,68 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P050",
+  "hospital": "B",
+  "source_file": "P050_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2999,
+    "output_tokens": 419
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic paralysis due to lesion of spinal cord",
+      "name_as_written": "chronic paralysis due to lesion of spinal cord",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-06",
+      "quote": "She is known to have chronic paralysis due to lesion of spinal cord.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-06",
+      "quote": "Her background includes chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-06",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "drospirenone and ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-06",
+      "quote": "She continues on drospirenone and ethinyl estradiol once a day.",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

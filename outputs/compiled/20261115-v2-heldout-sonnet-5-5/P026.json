@@ -1,0 +1,863 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P026",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P026_A.csv",
+    "P026_B.txt",
+    "P026_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P026-F01",
+      "patient_id": "P026",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- NKA",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has no known allergies.",
+          "file": "P026_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F02",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F03",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F04",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Digoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F05",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "insulin isophane / insulin regular",
+      "name_as_written": "Insulin isophane / insulin regular",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F06",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Metformin",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F07",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F08",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F09",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "Verapamil",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F10",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-02",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-02,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-02",
+          "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-02,",
+          "file": "P026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F11",
+      "patient_id": "P026",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "Nil regular medications",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He takes no regular medicines.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F12",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "alcoholism",
+      "name_as_written": "alcoholism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He has a history of alcoholism.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1964-10-20",
+          "quote": "PROBLEM,Alcoholism,,,Active,1964-10-20,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Alcoholism",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has a history of alcoholism.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F13",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "His background includes anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1953-06-16",
+          "quote": "PROBLEM,Anemia,,,Active,1953-06-16,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Anemia",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "His background includes anemia.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F14",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He has a history of atrial fibrillation.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-11-22",
+          "quote": "PROBLEM,Atrial Fibrillation,,,Active,1994-11-22,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Atrial Fibrillation",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has a history of atrial fibrillation.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F15",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "carcinoma in situ of prostate",
+      "name_as_written": "carcinoma in situ of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "His background includes carcinoma in situ of prostate.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-11-22",
+          "quote": "PROBLEM,Carcinoma in situ of prostate,,,Active,1994-11-22,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Carcinoma in situ of prostate",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "His background includes carcinoma in situ of prostate.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F16",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "chronic kidney disease stage 1",
+      "name_as_written": "chronic kidney disease stage 1",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have chronic kidney disease stage 1.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-04-15",
+          "quote": "PROBLEM,Chronic kidney disease stage 1,,,Active,1958-04-15,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Chronic kidney disease stage 1",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have chronic kidney disease stage 1.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F17",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "His background includes coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2008-05-13",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2008-05-13,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Coronary Heart Disease",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "His background includes coronary heart disease.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F18",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He has a history of diabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1956-04-03",
+          "quote": "PROBLEM,Diabetes,,,Active,1956-04-03,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Diabetes",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has a history of diabetes.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F19",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "diabetic renal disease",
+      "name_as_written": "diabetic renal disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have diabetic renal disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-04-15",
+          "quote": "PROBLEM,Diabetic renal disease,,,Active,1958-04-15,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Diabetic renal disease",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have diabetic renal disease.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F20",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He has a history of hyperglycemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1957-04-09",
+          "quote": "PROBLEM,Hyperglycemia,,,Active,1957-04-09,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Hyperglycemia",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has a history of hyperglycemia.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F21",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have hypertriglyceridemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1957-04-09",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,1957-04-09,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Hypertriglyceridemia",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have hypertriglyceridemia.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F22",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have metabolic syndrome x.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1957-04-09",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,1957-04-09,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Metabolic syndrome X",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have metabolic syndrome x.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F23",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "neoplasm of prostate",
+      "name_as_written": "neoplasm of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have neoplasm of prostate.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-11-22",
+          "quote": "PROBLEM,Neoplasm of prostate,,,Active,1994-11-22,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Neoplasm of prostate",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have neoplasm of prostate.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F24",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "osteoporosis",
+      "name_as_written": "osteoporosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "His background includes osteoporosis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-04-16",
+          "quote": "PROBLEM,Osteoporosis,,,Active,1996-04-16,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Osteoporosis",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "His background includes osteoporosis.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F25",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He has a history of prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1953-06-16",
+          "quote": "PROBLEM,Prediabetes,,,Active,1953-06-16,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Prediabetes",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He has a history of prediabetes.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P026-F26",
+      "patient_id": "P026",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-01",
+      "quote": "He is known to have stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2014-06-03",
+          "quote": "PROBLEM,Stroke,,,Active,2014-06-03,",
+          "file": "P026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-03-26",
+          "quote": "- Stroke",
+          "file": "P026_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-01",
+          "quote": "He is known to have stroke.",
+          "file": "P026_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

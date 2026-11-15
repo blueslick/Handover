@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P027",
+  "hospital": "B",
+  "source_file": "P027_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3074,
+    "output_tokens": 991
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is known to have chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "His background includes anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is known to have diabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of hyperglycemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of hypertriglyceridemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of metabolic syndrome x.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "His background includes prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-04",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He takes hydrochlorothiazide 25 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He takes amlodipine 2.5 mg once a day.",
+      "flags": []
+    }
+  ]
+}

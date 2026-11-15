@@ -1,0 +1,677 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R050",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "R050_A.csv",
+    "R050_B.txt",
+    "R050_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R050-F01",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Animal dander (skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Animal dander,,,Active,1963-12-03,skin rash",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to animal dander, which causes skin rash.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Animal dander (skin rash)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F02",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "Cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Cow's milk (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Cow's milk,,,Active,1963-12-03,hives",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to cow's milk, which causes hives.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Cow's milk (hives)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F03",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "Egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Egg (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Egg,,,Active,1963-12-03,hives",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to egg, which causes hives.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Egg (hives)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F04",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Grass pollen,,,Active,1963-12-03,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to grass pollen.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Grass pollen",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F05",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,House dust mite,,,Active,1963-12-03,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to house dust mite.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- House dust mite",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F06",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Zestril (cough)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Lisinopril,,,Active,1963-12-03,cough",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to lisinopril, which causes cough.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Zestril (cough)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F07",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Mould (sneezing)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Mould,,,Active,1963-12-03,sneezing",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to mould, which causes sneezing.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Mould (sneezing)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F08",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, swelling (angioedema)",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Penicillin (cough, swelling (angioedema))",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Penicillin,,,Active,1963-12-03,cough; swelling (angioedema)",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Penicillin (cough, swelling (angioedema))",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F09",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis, cough",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Tree nuts (anaphylaxis, cough)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Tree nuts,,,Active,1963-12-03,anaphylaxis; cough",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to tree nuts, which causes anaphylaxis and cough.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Tree nuts (anaphylaxis, cough)",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F10",
+      "patient_id": "R050",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1963-12-03",
+          "quote": "ALLERGY,Tree pollen,,,Active,1963-12-03,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is allergic to tree pollen.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Tree pollen",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F11",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "1. Norvasc 5 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-14",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-01-14,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "1. Norvasc 5 mg OD",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F12",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "clonazepam",
+      "name_as_written": "Rivotril",
+      "dose": "0.25 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "5. Rivotril 0.25 mg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2016-12-22",
+          "quote": "MEDICATION,Clonazepam,0.25 mg,twice daily,Active,2016-12-22,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is on clonazepam 0.25 mg twice a day.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "5. Rivotril 0.25 mg BD",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F13",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "2. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-14",
+          "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-01-14,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F14",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "diazepam",
+      "name_as_written": "Diazepam",
+      "dose": "5 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2017-12-14",
+      "quote": "MEDICATION,Diazepam,5 mg,as needed,Discontinued,2017-12-14,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-12-14",
+          "quote": "MEDICATION,Diazepam,5 mg,as needed,Discontinued,2017-12-14,",
+          "file": "R050_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He takes diazepam 5 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F15",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "3. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-14",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-01-14,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "3. Nitrolingual 0.4 mg PRN",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F16",
+      "patient_id": "R050",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "4. Zocor 20 mg ON",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-14",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-01-14,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "4. Zocor 20 mg ON",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F17",
+      "patient_id": "R050",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-01-13",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2021-01-13,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Coronary Heart Disease",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F18",
+      "patient_id": "R050",
+      "type": "diagnosis",
+      "name": "epilepsy",
+      "name_as_written": "Epilepsy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Epilepsy",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-04-12",
+          "quote": "PROBLEM,Epilepsy,,,Active,2015-04-12,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is known to have epilepsy.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Epilepsy",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R050-F19",
+      "patient_id": "R050",
+      "type": "diagnosis",
+      "name": "seizure disorder",
+      "name_as_written": "Seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-04",
+      "quote": "- Seizure disorder",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-04-12",
+          "quote": "PROBLEM,Seizure disorder,,,Active,2015-04-12,",
+          "file": "R050_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2017-12-06",
+          "quote": "He is known to have seizure disorder.",
+          "file": "R050_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-04",
+          "quote": "- Seizure disorder",
+          "file": "R050_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

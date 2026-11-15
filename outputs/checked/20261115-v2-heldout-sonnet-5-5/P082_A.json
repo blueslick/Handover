@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P082",
+  "hospital": "A",
+  "source_file": "P082_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3406,
+    "output_tokens": 1098
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Animal dander,,,Active,2000-10-05,cough; hay fever symptoms",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Bee venom,,,Active,2000-10-05,skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Grass pollen,,,Active,2000-10-05,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,House dust mite,,,Active,2000-10-05,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; high potassium",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Lisinopril,,,Active,2000-10-05,cough; high potassium",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Mould,,,Active,2000-10-05,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis; hives",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Peanut,,,Active,2000-10-05,anaphylaxis; hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis; swelling (angioedema)",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Shellfish,,,Active,2000-10-05,anaphylaxis; swelling (angioedema)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis; cough",
+      "status": "current",
+      "date": "2000-10-05",
+      "quote": "ALLERGY,Tree nuts,,,Active,2000-10-05,anaphylaxis; cough",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-11-05",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2018-11-05,",
+      "flags": []
+    }
+  ]
+}

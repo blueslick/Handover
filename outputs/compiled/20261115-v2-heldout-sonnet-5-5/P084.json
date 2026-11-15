@@ -1,0 +1,738 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P084",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "built_from": [
+    "P084_A.csv",
+    "P084_B.txt",
+    "P084_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P084-F01",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, skin rash",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Animal dander (hay fever symptoms, skin rash)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Animal dander,,,Active,1943-12-21,hay fever symptoms; skin rash",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to animal dander, which causes hay fever symptoms and skin rash.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Animal dander (hay fever symptoms, skin rash)",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F02",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Grass pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Grass pollen,,,Active,1943-12-21,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to grass pollen.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Grass pollen",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F03",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- House dust mite",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,House dust mite,,,Active,1943-12-21,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to house dust mite.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- House dust mite",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F04",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2020-10-15",
+      "quote": "She is allergic to latex, which causes hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Latex,,,Active,1943-12-21,hives",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to latex, which causes hives.",
+          "file": "P084_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F05",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "runny nose",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Mould (runny nose)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Mould,,,Active,1943-12-21,runny nose",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to mould, which causes runny nose.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Mould (runny nose)",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F06",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, shortness of breath",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Peanut (hives, shortness of breath)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Peanut,,,Active,1943-12-21,hives; shortness of breath",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to peanut, which causes hives and shortness of breath.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Peanut (hives, shortness of breath)",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F07",
+      "patient_id": "P084",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Tree pollen",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-21",
+          "quote": "ALLERGY,Tree pollen,,,Active,1943-12-21,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is allergic to tree pollen.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Tree pollen",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F08",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-26",
+      "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-26,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-26",
+          "quote": "MEDICATION,Amlodipine,2.5 mg,once daily,Active,2021-09-26,",
+          "file": "P084_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F09",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "fluticasone / salmeterol",
+      "name_as_written": "Fluticasone / salmeterol",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-26",
+      "quote": "MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-09-26,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-26",
+          "quote": "MEDICATION,Fluticasone / salmeterol,,twice daily,Active,2021-09-26,",
+          "file": "P084_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F10",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2021-02-28",
+      "quote": "2. Nurofen - stopped 28-Feb-2021",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "2. Nurofen - stopped 28-Feb-2021",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F11",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-09-26",
+      "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-26,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-26",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-09-26,",
+          "file": "P084_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F12",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2019-12-06",
+      "quote": "Her paracetamol was stopped on 6 December 2019.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-12-06",
+          "quote": "Her paracetamol was stopped on 6 December 2019.",
+          "file": "P084_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F13",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Percocet",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2020-12-01",
+      "quote": "1. Percocet - stopped 01-Dec-2020",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-01",
+          "quote": "1. Percocet - stopped 01-Dec-2020",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F14",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Simvastatin",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-09",
+      "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-09,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-09",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-11-09,",
+          "file": "P084_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "at_night",
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "1. Zocor 5 mg ON"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F15",
+      "patient_id": "P084",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2020-10-15",
+      "quote": "She takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She takes no regular medicines.",
+          "file": "P084_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F16",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "atopic dermatitis",
+      "name_as_written": "Atopic dermatitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Atopic dermatitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1943-12-04",
+          "quote": "PROBLEM,Atopic dermatitis,,,Active,1943-12-04,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is known to have atopic dermatitis.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Atopic dermatitis",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F17",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "Chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Chronic pain",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2014-07-30",
+          "quote": "PROBLEM,Chronic pain,,,Active,2014-07-30,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She has a history of chronic pain.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Chronic pain",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F18",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-07-02",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1952-07-02,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She has a history of chronic sinusitis.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Chronic sinusitis",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F19",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1992-04-11",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,1992-04-11,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is known to have hyperlipidemia.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Hyperlipidemia",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F20",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1961-10-21",
+          "quote": "PROBLEM,Hypertension,,,Active,1961-10-21,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She is known to have hypertension.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Hypertension",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F21",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Miscarriage in first trimester",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1992-02-15",
+          "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1992-02-15,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "She has a history of miscarriage in first trimester.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Miscarriage in first trimester",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P084-F22",
+      "patient_id": "P084",
+      "type": "diagnosis",
+      "name": "pulmonary emphysema",
+      "name_as_written": "Pulmonary emphysema",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-07-16",
+      "quote": "- Pulmonary emphysema",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-06-02",
+          "quote": "PROBLEM,Pulmonary emphysema,,,Active,2001-06-02,",
+          "file": "P084_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-10-15",
+          "quote": "Her background includes pulmonary emphysema.",
+          "file": "P084_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-16",
+          "quote": "- Pulmonary emphysema",
+          "file": "P084_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

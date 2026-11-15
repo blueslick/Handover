@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P094",
+  "hospital": "B",
+  "source_file": "P094_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3127,
+    "output_tokens": 1118
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "His background includes diabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "He has a history of anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "His background includes hypertriglyceridemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "His background includes metabolic syndrome x.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diabetic retinopathy",
+      "name_as_written": "diabetic retinopathy associated with type ii diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "He is known to have diabetic retinopathy associated with type ii diabetes mellitus.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "neuropathy",
+      "name_as_written": "neuropathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "He is known to have neuropathy due to type 2 diabetes mellitus.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "nonproliferative diabetic retinopathy",
+      "name_as_written": "nonproliferative diabetic retinopathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "He is known to have nonproliferative diabetic retinopathy due to type 2 diabetes mellitus.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "He has a history of hyperlipidemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "macular edema and retinopathy",
+      "name_as_written": "macular edema and retinopathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-08",
+      "quote": "His background includes macular edema and retinopathy due to type 2 diabetes mellitus.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-11-08",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-11-08",
+      "quote": "He takes no regular medicines.",
+      "flags": []
+    }
+  ]
+}

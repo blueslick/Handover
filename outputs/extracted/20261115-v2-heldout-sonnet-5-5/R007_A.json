@@ -1,0 +1,80 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R007",
+  "hospital": "A",
+  "source_file": "R007_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3131,
+    "output_tokens": 560
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-07-03",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-29",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2020-12-29,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-29",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2020-12-29,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-29",
+      "quote": "MEDICATION,Ibuprofen,400 mg,three times daily,Active,2020-12-29,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "tramadol",
+      "name_as_written": "Tramadol",
+      "dose": "50 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-29",
+      "quote": "MEDICATION,Tramadol,50 mg,as needed,Active,2020-12-29,",
+      "flags": []
+    }
+  ]
+}

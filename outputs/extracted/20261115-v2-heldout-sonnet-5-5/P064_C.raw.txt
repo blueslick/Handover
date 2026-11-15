@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":null,"name_as_written":"NKA","dose":null,"frequency":null,"reaction":null,"status":"none_recorded","date":"2017-07-05","quote":"- NKA"},{"type":"medicine","name":null,"name_as_written":"NyQuil","dose":null,"frequency":"at_night","reaction":null,"status":"current","date":"2017-07-05","quote":"1. NyQuil ON"}]}

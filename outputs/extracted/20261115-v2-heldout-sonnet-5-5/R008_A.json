@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R008",
+  "hospital": "A",
+  "source_file": "R008_A.csv",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3501,
+    "output_tokens": 1178
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Animal dander,,,Active,2015-01-20,skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Grass pollen,,,Active,2015-01-20,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,House dust mite,,,Active,2015-01-20,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Mould,,,Active,2015-01-20,skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting; diarrhoea",
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Soya,,,Active,2015-01-20,vomiting; diarrhoea",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hives",
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Tree nuts,,,Active,2015-01-20,cough; hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Tree pollen,,,Active,2015-01-20,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "wheat",
+      "name_as_written": "Wheat",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-01-20",
+      "quote": "ALLERGY,Wheat,,,Active,2015-01-20,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "seasonal allergic rhinitis",
+      "name_as_written": "Seasonal allergic rhinitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-09-12",
+      "quote": "PROBLEM,Seasonal allergic rhinitis,,,Active,2018-09-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-04",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-04-30",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Discontinued,2018-04-30,",
+      "flags": []
+    }
+  ]
+}

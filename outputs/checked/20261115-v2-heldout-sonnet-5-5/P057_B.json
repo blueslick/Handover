@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P057",
+  "hospital": "B",
+  "source_file": "P057_B.txt",
+  "run_id": "20261115-v2-heldout-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3122,
+    "output_tokens": 946
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms and skin rash",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and skin rash.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to aspirin.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting and swelling (angioedema)",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to cow's milk, which causes vomiting and swelling (angioedema).",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to grass pollen.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to house dust mite.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to latex, which causes hives.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to mould, which causes sneezing.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema) and skin rash",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to shellfish, which causes swelling (angioedema) and skin rash.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting and diarrhoea",
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is allergic to soya, which causes vomiting and diarrhoea.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "cetirizine",
+      "name_as_written": "cetirizine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-28",
+      "quote": "He is on cetirizine 5 mg once a day.",
+      "flags": []
+    }
+  ]
+}
