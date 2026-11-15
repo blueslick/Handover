@@ -2,14 +2,16 @@
 // Reads app/data/results.json only (see lib/results.ts). Until T39 the file was a
 // placeholder, so every number can still show "Not run yet".
 // T75 (Minimal look): the first screen shows the headline, one chart and three numbers.
-// The full table, the age and sex results, how the tool works and the limits fold open
-// below; the test, the failure examples, the cost and the word search are in the
+// Below it (T78): the age and sex chart and the planted traps chart. How the tool works and
+// the limits fold open below those; the test, the failure examples, the cost and the word search are in the
 // right-hand panel. Nothing from the earlier tab was removed.
 import { Suspense } from "react";
-import { loadResults, type AgeSexRow, type ResultRow, type Results } from "@/lib/results";
+import { loadResults, type ResultRow, type Results } from "@/lib/results";
 import Page, { Card } from "../components/Page";
 import CostLine from "./CostLine";
 import StepChart from "./StepChart";
+import AgeSexChart from "./AgeSexChart";
+import TrapsChart from "./TrapsChart";
 
 export const metadata = { title: "How we tested · Handover" };
 
@@ -37,91 +39,6 @@ function Fold({ title, children }: { title: string; children: React.ReactNode })
       </summary>
       <div className="px-5 pb-5 sm:px-6 sm:pb-6">{children}</div>
     </details>
-  );
-}
-
-// What each column of the table means, listed under the table.
-const COLUMN_MEANING = {
-  missed: "A fact in the answer key that the method did not find.",
-  false_alarms: "A fact the method reported that is not in the answer key.",
-  wrong_status:
-    "The right drug or allergy with the wrong label, for example “current” for a medicine that was stopped. It also counts once as missed and once as a false alarm.",
-  conflicts: "Places where hospitals disagree that the method showed side by side.",
-};
-
-// T71 item 30, widened after Abby's review: every baseline row (rows 1 to 3, no AI) has
-// one colour and every full-tool row (row 7, and row 8 on the cheaper model) has another.
-// Each also gets a tag in words, so nothing relies on colour alone. Rows 4 to 6 are the
-// in-between steps and stay plain.
-const BASELINE = { word: "Baseline", row: "bg-peach", tag: "bg-alert text-white" };
-const FULL = { word: "Full tool", row: "bg-leaf", tag: "bg-rail text-white" };
-const ROW_MARKS: Record<number, { word: string; row: string; tag: string }> = {
-  1: BASELINE,
-  2: BASELINE,
-  3: BASELINE,
-  7: { ...FULL, row: "bg-leaf font-medium" },
-  8: FULL,
-};
-
-// Cells never break a number over two lines; if the table is wider than the screen it scrolls sideways.
-const th = "px-2 py-2 text-left align-bottom text-sm font-normal text-soft";
-const td = "px-2 py-2.5 whitespace-nowrap";
-
-// The build-up table. Scrolls sideways on a phone rather than squashing the columns.
-function ResultsTable({ rows }: { rows: ResultRow[] }) {
-  return (
-    <>
-      <p className="text-sm text-soft">
-        {rows[0]?.key_facts != null ? `All ${rows[0].key_facts.toLocaleString("en-GB")} facts` : "All facts"} in the
-        held-out answer keys (allergies, medicines, diagnoses and operations). Rows 1 to 7 each add one step to the
-        row above. Row 8 is the full tool again on a second, cheaper model. Baseline rows (no AI) are orange and
-        full-tool rows are green.
-      </p>
-      <p className="mt-2 text-sm text-soft lg:hidden">Scroll sideways to see every column.</p>
-      <div className="mt-2 overflow-x-auto">
-        <table className="min-w-full border-separate border-spacing-y-1 text-sm">
-          <caption className="sr-only">Results for each method, one row per method</caption>
-          <thead>
-            <tr>
-              <th scope="col" className={th}>Row</th>
-              <th scope="col" className={th}>Method</th>
-              <th scope="col" className={th}>Uses AI</th>
-              <th scope="col" className={th}>Missed</th>
-              <th scope="col" className={th}>False alarms</th>
-              <th scope="col" className={th}>Wrong status</th>
-              <th scope="col" className={th}>Conflicts shown</th>
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map((r) => {
-              const mark = ROW_MARKS[r.row];
-              return (
-                <tr key={r.row} className={mark?.row}>
-                  <td className={`${td} rounded-l-2xl`}>{r.row}</td>
-                  <th scope="row" className="px-2 py-2.5 text-left font-normal min-w-[11rem] whitespace-normal">
-                    {mark && <span className={`mr-2 inline-block whitespace-nowrap rounded-full px-3 py-0.5 text-xs font-medium ${mark.tag}`}>{mark.word}</span>}
-                    {r.method}
-                  </th>
-                  <td className={td}>{r.uses_ai ? "Yes" : "No"}</td>
-                  <td className={td}>{count(r.missed)}</td>
-                  <td className={td}>{count(r.false_alarms)}</td>
-                  <td className={td}>{count(r.wrong_status)}</td>
-                  <td className={`${td} rounded-r-2xl`}>{outOf(r.conflicts_shown, r.conflicts_total ?? null)}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-      <h3 className="mt-4 font-medium">What the columns mean</h3>
-      <ul className="mt-1 list-disc pl-5 text-sm">
-        <li><span className="font-medium">Missed:</span> {COLUMN_MEANING.missed}</li>
-        <li><span className="font-medium">False alarms:</span> {COLUMN_MEANING.false_alarms}</li>
-        <li><span className="font-medium">Wrong status:</span> {COLUMN_MEANING.wrong_status}</li>
-        <li><span className="font-medium">Conflicts shown:</span> {COLUMN_MEANING.conflicts}</li>
-      </ul>
-      <p className="mt-2 text-sm">Missed cases and false alarms are counted separately, because they cause different harms.</p>
-    </>
   );
 }
 
@@ -181,60 +98,6 @@ function NumberCards({ results }: { results: Results }) {
         <p className="text-sm text-soft">Keyword search: {count(base.conflicts_shown)}</p>
       </Card>
     </div>
-  );
-}
-
-// T71 item 31: the full tool next to the keyword baseline for each age band and sex,
-// all facts. Says "Not run yet" when the results file has no groups.
-function AgeSexTable({ groups }: { groups?: AgeSexRow[] }) {
-  if (!groups || groups.length === 0) return <p>Not run yet.</p>;
-  // The group where the full tool missed the largest share of facts, marked in words.
-  const share = (g: AgeSexRow) => (g.tool_missed !== null && g.key_facts ? g.tool_missed / g.key_facts : -1);
-  const worst = groups.reduce((a, b) => (share(b) > share(a) ? b : a));
-  return (
-    <>
-      <p className="text-sm text-soft">
-        Every held-out patient is in one of eight groups: four age bands, each split by sex. The full tool is
-        row 7 of the table and the baseline is row 1. The orange row is the weakest group: the one where the full
-        tool missed the largest share of facts.
-      </p>
-      <p className="mt-2 text-sm text-soft lg:hidden">Scroll sideways to see every column.</p>
-      <div className="mt-2 overflow-x-auto">
-        <table className="min-w-full border-separate border-spacing-y-1 text-sm">
-          <caption className="sr-only">Missed facts and false alarms for each age band and sex</caption>
-          <thead>
-            <tr>
-              <th scope="col" className={th}>Age band</th>
-              <th scope="col" className={th}>Sex</th>
-              <th scope="col" className={th}>Patients</th>
-              <th scope="col" className={th}>Tool missed</th>
-              <th scope="col" className={th}>Tool false alarms</th>
-              <th scope="col" className={th}>Baseline missed</th>
-              <th scope="col" className={th}>Baseline false alarms</th>
-            </tr>
-          </thead>
-          <tbody>
-            {groups.map((g) => {
-              const weak = g === worst && share(g) > 0;
-              return (
-                <tr key={`${g.age_band}-${g.sex}`} className={weak ? "bg-peach" : undefined}>
-                  <th scope="row" className={`${td} rounded-l-2xl text-left font-normal`}>{g.age_band}</th>
-                  <td className={td}>
-                    {g.sex === "F" ? "Female" : g.sex === "M" ? "Male" : g.sex}
-                    {weak && <span className="ml-2 inline-block whitespace-nowrap rounded-full bg-alert px-3 py-0.5 text-xs font-medium text-white">Weakest group</span>}
-                  </td>
-                  <td className={td}>{count(g.patients)}</td>
-                  <td className={td}>{outOf(g.tool_missed, g.key_facts)}</td>
-                  <td className={td}>{count(g.tool_false_alarms)}</td>
-                  <td className={td}>{count(g.baseline_missed)}</td>
-                  <td className={`${td} rounded-r-2xl`}>{count(g.baseline_false_alarms)}</td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
-    </>
   );
 }
 
@@ -330,8 +193,8 @@ function TheTest({ patients }: { patients: number | null }) {
             patients it had never seen, 20 in each age band and sex group.
           </li>
           <li>
-            Rows 1 to 7 of the table each add one step, so you can see what each step adds. Row 8 runs the full tool
-            on a second, cheaper model.
+            In the first chart, each bar from left to right adds one step, so you can see what each step adds. The
+            last bar runs the full tool on a second, cheaper model.
           </li>
         </ul>
       </details>
@@ -434,12 +297,14 @@ async function Body() {
 
       <NumberCards results={results} />
 
-      <Fold title="All eight methods: the full table">
-        <ResultsTable rows={results.rows} />
-      </Fold>
-      <Fold title="By age and sex">
-        <AgeSexTable groups={results.by_age_sex} />
-      </Fold>
+      {/* T78 (Daniel): the full table and the age and sex table were hard to read, so they
+          are replaced by graphs. The exact numbers stay in the write-up and on GitHub. */}
+      <Card>
+        <AgeSexChart groups={results.by_age_sex} />
+      </Card>
+      <Card>
+        <TrapsChart traps={results.traps} />
+      </Card>
       <Fold title="How the tool works">
         <WorkflowDiagram />
       </Fold>

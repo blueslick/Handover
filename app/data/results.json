@@ -199,5 +199,35 @@
       "baseline_missed": 179,
       "baseline_false_alarms": 123
     }
+  ],
+  "traps": [
+    {
+      "kind": "stop_one_hospital",
+      "label": "Medicine stopped at one hospital only",
+      "scored": 74,
+      "tool_caught": 72,
+      "baseline_caught": 0
+    },
+    {
+      "kind": "dose_change",
+      "label": "Dose changed between hospitals",
+      "scored": 54,
+      "tool_caught": 54,
+      "baseline_caught": 1
+    },
+    {
+      "kind": "silent_medicine",
+      "label": "Latest hospital leaves out a medicine",
+      "scored": 62,
+      "tool_caught": 62,
+      "baseline_caught": 62
+    },
+    {
+      "kind": "allergy_missed",
+      "label": "One hospital leaves out an allergy",
+      "scored": 67,
+      "tool_caught": 67,
+      "baseline_caught": 67
+    }
   ]
 }

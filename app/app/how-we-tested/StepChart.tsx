@@ -19,13 +19,20 @@ const SHORT: Record<number, string> = {
   8: "Cheaper model",
 };
 
-type Measure = "missed" | "false_alarms";
-const WORDS: Record<Measure, string> = { missed: "Missed", false_alarms: "False alarms" };
+// T78: a third button, "Disagreements shown", so removing the full table loses nothing big.
+type Measure = "missed" | "false_alarms" | "conflicts_shown";
+const WORDS: Record<Measure, string> = { missed: "Missed", false_alarms: "False alarms", conflicts_shown: "Disagreements shown" };
+const MEANING: Record<Measure, string> = {
+  missed: "Missed: a fact in the answer key that the method did not find. Shorter is better.",
+  false_alarms: "False alarms: a fact the method reported that is not in the answer key. Shorter is better.",
+  conflicts_shown: "Disagreements shown: places where the hospitals disagree that the method showed side by side. Taller is better.",
+};
 
 export default function StepChart({ rows }: { rows: ResultRow[] }) {
   const [measure, setMeasure] = useState<Measure>("missed");
   const other: Measure = measure === "missed" ? "false_alarms" : "missed";
-  const max = Math.max(1, ...rows.map((r) => r[measure] ?? 0));
+  // Disagreements are drawn out of the total in the answer keys (38), so a full bar means all of them.
+  const max = measure === "conflicts_shown" ? Math.max(1, ...rows.map((r) => r.conflicts_total ?? r.conflicts_shown ?? 0)) : Math.max(1, ...rows.map((r) => r[measure] ?? 0));
   const n = (x: number | null) => (x === null ? "Not run yet" : x.toLocaleString("en-GB"));
 
   return (
@@ -33,7 +40,7 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
       <div className="flex flex-wrap items-center justify-between gap-3">
         <h2 className="text-lg font-medium">{WORDS[measure]}, method by method</h2>
         <div role="group" aria-label="What the bars show" className="inline-flex gap-1 rounded-full bg-mint p-1.5">
-          {(["missed", "false_alarms"] as Measure[]).map((m) => (
+          {(["missed", "false_alarms", "conflicts_shown"] as Measure[]).map((m) => (
             <button
               key={m}
               type="button"
@@ -71,11 +78,13 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
                     </>
                   }
                 >
-                  <span className={`font-medium ${main ? "text-xl text-rail-ink" : ""}`}>{n(value)}</span>
+                  <span className={`font-medium ${main ? "text-xl text-rail-ink" : ""}`}>
+                    {measure === "conflicts_shown" && value !== null && r.conflicts_total != null ? `${n(value)} of ${n(r.conflicts_total)}` : n(value)}
+                  </span>
                   <span className="flex h-36 w-full items-end justify-center">
                     <span
                       className={`w-full max-w-12 rounded-t-xl rounded-b ${full ? "bg-rail" : base ? "bg-alert" : "bg-leaf"}`}
-                      style={{ height: `${value === null ? 0 : Math.max(3, (value / max) * 100)}%` }}
+                      style={{ height: `${value === null || (value === 0 && measure === "conflicts_shown") ? 0 : Math.max(3, (value / max) * 100)}%` }}
                     />
                   </span>
                 </Tip>
@@ -87,7 +96,11 @@ export default function StepChart({ rows }: { rows: ResultRow[] }) {
           })}
         </ol>
       </div>
-      <p className="mt-1 text-sm text-soft">Orange bars are the baselines (no AI). Dark green is the full tool. Shorter is better.</p>
+      <p className="mt-1 text-sm text-soft">{MEANING[measure]}</p>
+      <p className="mt-1 text-sm text-soft">
+        Orange bars are the baselines (no AI). Dark green is the full tool. Each bar from left to right adds one
+        step; the last bar is the full tool again on a cheaper model.
+      </p>
     </>
   );
 }

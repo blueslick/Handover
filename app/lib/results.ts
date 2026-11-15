@@ -44,6 +44,16 @@ export interface AgeSexRow {
   baseline_false_alarms: number | null;
 }
 
+// One kind of planted trap (T78): how many of the scored traps the full tool (row 7) and the
+// keyword baseline (row 1) caught. Filled by scripts/make-results.mjs from traps_by_type.csv.
+export interface TrapRow {
+  kind: string;
+  label: string;
+  scored: number;
+  tool_caught: number;
+  baseline_caught: number;
+}
+
 export interface Results {
   status: "placeholder" | "final";
   updated: string | null;
@@ -56,6 +66,8 @@ export interface Results {
   cost_per_patient?: CostEntry[];
   // Optional (T71). Missing = the tab says "Not run yet".
   by_age_sex?: AgeSexRow[];
+  // Optional (T78). Missing = the traps chart says "Not run yet".
+  traps?: TrapRow[];
 }
 
 // Three outcomes, so the tab can tell "nothing yet" apart from "broken file".
@@ -74,6 +86,7 @@ function looksLikeResults(data: unknown): data is Results {
   if (!Array.isArray(d.failure_examples)) return false;
   if (d.cost_per_patient !== undefined && !Array.isArray(d.cost_per_patient)) return false;
   if (d.by_age_sex !== undefined && !Array.isArray(d.by_age_sex)) return false;
+  if (d.traps !== undefined && !Array.isArray(d.traps)) return false;
   return d.rows.every(
     (r) => r && typeof r === "object" && typeof (r as ResultRow).method === "string",
   );

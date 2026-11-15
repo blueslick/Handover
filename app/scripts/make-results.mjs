@@ -8,6 +8,7 @@
 //   ../outputs/results/heldout/cost_per_patient.csv  US cents per patient (T37)
 //   ../outputs/results/heldout/omission_line.csv     omission-check counts (T37)
 //   ../outputs/results/heldout/by_age_sex.csv        rows 1 and 7 per age band and sex (T37, used by T71)
+//   ../outputs/results/heldout/traps_by_type.csv     planted traps caught, rows 1 and 7 (T37, used by T78)
 // Held-out numbers only: working-patient results are never used here.
 // The failure examples already in data/results.json are kept as they are (T38: pasted from\n// docs/failure_examples.md, section A).
 // No model calls: this only reads CSV files.
@@ -138,6 +139,36 @@ for (const [what, got, want] of checks) {
   if (got !== want) fail(`age and sex groups add up to ${got} ${what}, but the build-up table says ${want}`);
 }
 
+// Planted traps (T78): for each kind of trap, how many the full tool (row 7) and the keyword
+// baseline (row 1) caught, out of the traps that could be scored (traps whose label was
+// overtaken by a later record are left out, as in T37). Stops if the kinds don't add up.
+const TRAP_WORDS = {
+  stop_one_hospital: "Medicine stopped at one hospital only",
+  dose_change: "Dose changed between hospitals",
+  silent_medicine: "Latest hospital leaves out a medicine",
+  allergy_missed: "One hospital leaves out an allergy",
+};
+const trapCsv = readCsv("traps_by_type.csv");
+const trapLine = (kind, row) => {
+  const r = trapCsv.find((t) => t.trap_type === kind && t.row === String(row));
+  if (!r) fail(`traps_by_type.csv has no line for ${kind}, row ${row}`);
+  return { caught: int(r.caught, "caught"), scored: int(r.caught, "caught") + int(r.not_caught, "not_caught") };
+};
+const traps = Object.entries(TRAP_WORDS).map(([kind, label]) => {
+  const t = trapLine(kind, 7);
+  const b = trapLine(kind, 1);
+  if (t.scored !== b.scored) fail(`rows 1 and 7 score a different number of ${kind} traps`);
+  return { kind, label, scored: t.scored, tool_caught: t.caught, baseline_caught: b.caught };
+});
+const kinds = new Set(trapCsv.filter((t) => t.trap_type !== "all").map((t) => t.trap_type));
+if (kinds.size !== traps.length) fail(`traps_by_type.csv has ${kinds.size} kinds of trap, the app knows ${traps.length}`);
+for (const row of [1, 7]) {
+  const all = trapLine("all", row);
+  const got = traps.reduce((a, t) => a + (row === 7 ? t.tool_caught : t.baseline_caught), 0);
+  const scored = traps.reduce((a, t) => a + t.scored, 0);
+  if (got !== all.caught || scored !== all.scored) fail(`trap kinds don't add up to the 'all' line for row ${row}`);
+}
+
 // Keep any failure examples already in the file (T38 adds them).
 let failure_examples = [];
 if (existsSync(outFile)) {
@@ -161,10 +192,11 @@ const results = {
   omission_check,
   failure_examples,
   by_age_sex,
+  traps,
 };
 
 writeFileSync(outFile, JSON.stringify(results, null, 2) + "\n");
 console.log(
   `make-results: wrote data/results.json: ${rows.length} rows, ${results.patients} patients, ` +
-    `${by_age_sex.length} age and sex groups, ${failure_examples.length} failure examples`,
+    `${by_age_sex.length} age and sex groups, ${traps.length} kinds of trap, ${failure_examples.length} failure examples`,
 );
