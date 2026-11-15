@@ -20,3 +20,9 @@ app/.vercel/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Live mode (T58): live runs stay on the laptop that made them, never pushed
+pipeline/data/demo/D9*/
+outputs/*/*-live-*/
+app/data/live/
+app/.next-live-dev.log

@@ -2,7 +2,7 @@
 // Reads JSON from app/data/ only: no model calls, no key.
 import Link from "next/link";
 import { Suspense } from "react";
-import { loadRecordState, parseView, SAMPLE_IDS, type View } from "@/lib/records";
+import { isKnownId, liveRun, liveRuns, loadRecordState, parseView, SAMPLE_IDS, type LiveRun, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
 import { loadOmission } from "@/lib/omission";
 import FactList from "./components/FactList";
@@ -21,16 +21,50 @@ function Section({ title, facts }: { title: string; facts: Fact[] }) {
 }
 
 // Links to the sample IDs, shown under the box and on the unknown-ID message.
+// On Daniel's laptop, live runs (T58) are listed too; on the public link there are none.
 function SampleIds() {
+  const live = liveRuns();
   return (
-    <p className="mt-2 text-sm">
-      Sample IDs:{" "}
-      {SAMPLE_IDS.map((id) => (
-        <Link key={id} href={`/?id=${id}`} className="underline font-medium mr-2">
-          {id}
-        </Link>
-      ))}
-    </p>
+    <>
+      <p className="mt-2 text-sm">
+        Sample IDs:{" "}
+        {SAMPLE_IDS.map((id) => (
+          <Link key={id} href={`/?id=${id}`} className="underline font-medium mr-2">
+            {id}
+          </Link>
+        ))}
+      </p>
+      {live.length > 0 && (
+        <p className="mt-1 text-sm">
+          Live runs on this laptop:{" "}
+          {live.map((p) => (
+            <Link key={p.patient_id} href={`/?id=${p.patient_id}`} className="underline font-medium mr-2">
+              {p.patient_id}
+            </Link>
+          ))}
+        </p>
+      )}
+    </>
+  );
+}
+
+// Shown above a live record (T58), so no one mistakes it for the saved demo run.
+function LiveNote({ run }: { run: LiveRun }) {
+  const made = new Date(run.made_at);
+  const when = isNaN(made.getTime()) ? run.made_at : made.toLocaleString("en-GB");
+  return (
+    <div className="mt-4 border-2 border-zinc-800 bg-zinc-50 rounded p-4">
+      <p className="font-bold">Live run on this laptop.</p>
+      <p className="mt-1">
+        Read just now by {run.model} at {when}, from these files: {run.source_files.join(", ")}. Each record
+        went through the same steps as the tested tool: read by Claude, every fact checked against the
+        record&rsquo;s own words, then merged with the six rules.
+      </p>
+      <p className="mt-1 text-sm">
+        Tool: {run.tool}. Run {run.run_id}. This record stays on this laptop; the public link only replays a
+        saved run.
+      </p>
+    </div>
   );
 }
 
@@ -97,7 +131,7 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   const load = await loadRecordState(id, view);
 
   // A known patient with no baseline file: keep the switch so the doctor can go back.
-  if (view === "baseline" && load.state === "missing" && SAMPLE_IDS.includes(id.toUpperCase())) {
+  if (view === "baseline" && load.state === "missing" && isKnownId(id)) {
     return (
       <>
         <ViewSwitch id={id} view={view} />
@@ -137,11 +171,13 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   const meds = ofType("medicine");
   // Word-search hint (T64), Handover view only, and only from the same run as the record.
   const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
+  const live = view === "handover" ? liveRun(record.patient_id) : undefined;
 
   return (
     <>
     <ViewSwitch id={record.patient_id} view={view} />
     {view === "baseline" && <BaselineNote />}
+    {live && <LiveNote run={live} />}
     <div className="mt-6">
       <h2 className="text-2xl font-semibold">
         Patient {record.patient_id}
