@@ -26,3 +26,6 @@ pipeline/data/demo/D9*/
 outputs/*/*-live-*/
 app/data/live/
 app/.next-live-dev.log
+
+# Held-out baseline and scoring output (T65): never committed
+outputs/results_heldout/

@@ -12,9 +12,10 @@ pipeline/data/demo). The script writes per_patient.csv, summary.csv and failures
 Only D001 and P001 to P020 are accepted unless --include-heldout is given. The check runs
 before any file is opened, so a held-out or reserve record cannot be read by accident.
 
-With --include-heldout, the script also asks git whether each output file is git-ignored
-(git check-ignore) before it reads anything. If git does not ignore the output folder, or
-cannot answer, the script stops. Held-out scores must never be committed. The folder has to
+With --include-heldout, the script first checks that the `freeze` tag exists (T65, through
+heldout_guard.py), then asks git whether each output file is git-ignored (git check-ignore)
+before it reads anything. If there is no freeze tag, or git does not ignore the output folder,
+or cannot answer, the script stops. Held-out scores must never be committed. The folder has to
 be added to .gitignore by the team first; the script does not edit .gitignore.
 
 Methodology (set by the team; do not change it here):
@@ -52,6 +53,8 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+
+import heldout_guard
 
 # Repo root is two folders up from this file (pipeline/eval/score.py).
 REPO = Path(__file__).resolve().parents[2]
@@ -408,8 +411,10 @@ def main(argv=None):
 
     patient_ids = list(dict.fromkeys(args.patients))  # keep order, drop repeats
     _check_allowed(patient_ids, args.include_heldout)
-    # Held-out output must be git-ignored. Checked before any file is read.
+    # Held-out scoring needs the freeze tag, and the output must be git-ignored. Both are checked
+    # before any file is read.
     if args.include_heldout:
+        heldout_guard.require_freeze_tag()
         _check_heldout_output(args.out_dir.resolve())
 
     ages = _load_ages_and_sex(set(patient_ids))

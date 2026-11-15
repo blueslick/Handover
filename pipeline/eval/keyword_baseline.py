@@ -15,6 +15,13 @@ Usage (from the repo root, with the project venv):
 Writes outputs/baseline_keyword/<patient>.json. Check it with shared/validate.py.
 Only D001 and P001 to P020 are allowed. Held-out and reserve IDs are refused here,
 so this script cannot open them.
+
+Held-out mode (T65, Abby only, after the freeze):
+    .venv/bin/python pipeline/eval/keyword_baseline.py --heldout --all-heldout
+With --heldout the script first checks (pipeline/eval/heldout_guard.py) that the `freeze` tag
+exists and that the output folder is git-ignored, and stops before opening any held-out file
+if not. Output goes to outputs/results_heldout/baseline_keyword/ and the screen shows counts
+only. The way facts are found is the same for every patient.
 """
 
 import argparse
@@ -23,17 +30,16 @@ import re
 from datetime import datetime
 from pathlib import Path
 
+import heldout_guard
 from stack_merge import build_record, write_record
 
 REPO = Path(__file__).resolve().parents[2]
 SHARED = REPO / "shared"
-DATA = REPO / "pipeline" / "data"
 OUT = REPO / "outputs" / "baseline_keyword"
 
-WORKING = [f"P{n:03d}" for n in range(1, 21)]
-ALLOWED = ["D001"] + WORKING
-# Folder under pipeline/data/ for each kind of patient. R (reserve) is deliberately absent.
-FOLDER = {"D": "demo", "P": "working"}
+# The patients allowed without --heldout. The held-out rules live in heldout_guard.py.
+WORKING = heldout_guard.WORKING
+ALLOWED = heldout_guard.OPEN_IDS
 
 DATE_FORMATS = ["%Y-%m-%d", "%d %B %Y", "%d-%b-%Y"]
 # A dose written straight after the name, e.g. "1 g", "5 mg" or "500 mg" after a comma.
@@ -149,7 +155,7 @@ def extract_record(path, hospital, names, kinds, pattern):
 
 # Find one patient's three hospital records by name pattern. The key and Synthea files are never picked up.
 def record_files(patient_id):
-    folder = DATA / FOLDER[patient_id[0]] / patient_id
+    folder = heldout_guard.patient_folder(patient_id)
     return sorted(p for p in folder.glob(f"{patient_id}_[ABC].*") if p.suffix in (".csv", ".txt"))
 
 
@@ -174,24 +180,36 @@ def main():
     ap = argparse.ArgumentParser(description="Keyword baseline (T24). See the top of this file.")
     ap.add_argument("patients", nargs="*", help="e.g. D001 P001")
     ap.add_argument("--working", action="store_true", help="run P001 to P020")
-    ap.add_argument("--out-dir", default=str(OUT), help="where to write (default outputs/baseline_keyword)")
+    ap.add_argument("--out-dir", default=None,
+                    help="where to write (default outputs/baseline_keyword; held-out default "
+                         "outputs/results_heldout/baseline_keyword)")
+    heldout_guard.add_heldout_args(ap)
     args = ap.parse_args()
 
     ids = list(args.patients) + (WORKING if args.working else [])
-    if not ids:
-        ap.error("give patient IDs, or --working")
-    for pid in ids:
-        if pid not in ALLOWED:
-            ap.error(f"{pid} is not allowed: only D001 and P001-P020 (held-out and reserve IDs are refused)")
+    if not ids and not args.all_heldout:
+        ap.error("give patient IDs, or --working, or --all-heldout")
+    # Refuse held-out IDs without --heldout, exactly as before.
+    ids = list(dict.fromkeys(heldout_guard.pick_ids(ap, args, ids)))  # keep order, drop repeats
+    out_dir = heldout_guard.pick_out_dir(args.out_dir, ids, OUT, "baseline_keyword")
+
+    # Held-out guard: the freeze tag and a git-ignored folder, checked before any record is opened.
+    hidden = heldout_guard.guard_run(ids, [out_dir / f"{pid}.json" for pid in ids])
+    if hidden:
+        heldout_guard.require_three_records(ids, record_files)
 
     names = load_names()
     kinds = load_kinds()
     pattern = build_pattern(names)
-    for pid in dict.fromkeys(ids):  # keep order, drop repeats
+    total_facts = 0
+    for pid in ids:
         record = run_patient(pid, names, kinds, pattern)
-        out = Path(args.out_dir) / f"{pid}.json"
+        out = out_dir / f"{pid}.json"
         write_record(record, out)
-        print(f"{pid}: {len(record['facts'])} facts -> {out}")
+        heldout_guard.say(pid, len(record["facts"]), out, hidden)
+        total_facts += len(record["facts"])
+    if hidden:
+        print(f"{len(ids)} patients, {total_facts} facts -> {out_dir}")
 
 
 if __name__ == "__main__":

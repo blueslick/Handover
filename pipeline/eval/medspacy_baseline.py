@@ -34,14 +34,20 @@ Usage (from the repo root, with the project venv and medspacy installed):
 Writes outputs/baseline_medspacy/<patient>.json (kind baseline_medspacy). Check it with
 shared/validate.py. Only D001 and P001 to P020 are allowed; held-out and reserve IDs are
 refused before any file is opened.
+
+Held-out mode (T65, Abby only, after the freeze): add --heldout (and --all-heldout for all 160).
+The script first checks (pipeline/eval/heldout_guard.py) that the `freeze` tag exists and that
+the output folder is git-ignored, and stops before opening any held-out file if not. Output goes
+to outputs/results_heldout/baseline_medspacy/ and the screen shows counts only. The extraction
+is the same for every patient.
 """
 
 import argparse
 import sys
-from pathlib import Path
 
+import heldout_guard
 from keyword_baseline import (
-    ALLOWED, OUT as _KEYWORD_OUT, WORKING, classify_name, dose_after, load_kinds,
+    OUT as _KEYWORD_OUT, WORKING, classify_name, dose_after, load_kinds,
     load_names, record_files, visit_date,
 )
 from stack_merge import build_record, write_record
@@ -217,24 +223,36 @@ def main():
     ap = argparse.ArgumentParser(description="medSpaCy baseline (T42). See the top of this file.")
     ap.add_argument("patients", nargs="*", help="e.g. D001 P001")
     ap.add_argument("--working", action="store_true", help="run P001 to P020")
-    ap.add_argument("--out-dir", default=str(OUT), help="where to write (default outputs/baseline_medspacy)")
+    ap.add_argument("--out-dir", default=None,
+                    help="where to write (default outputs/baseline_medspacy; held-out default "
+                         "outputs/results_heldout/baseline_medspacy)")
+    heldout_guard.add_heldout_args(ap)
     args = ap.parse_args()
 
     ids = list(args.patients) + (WORKING if args.working else [])
-    if not ids:
-        ap.error("give patient IDs, or --working")
-    for pid in ids:
-        if pid not in ALLOWED:
-            ap.error(f"{pid} is not allowed: only D001 and P001-P020 (held-out and reserve IDs are refused)")
+    if not ids and not args.all_heldout:
+        ap.error("give patient IDs, or --working, or --all-heldout")
+    # Refuse held-out IDs without --heldout, exactly as before.
+    ids = list(dict.fromkeys(heldout_guard.pick_ids(ap, args, ids)))
+    out_dir = heldout_guard.pick_out_dir(args.out_dir, ids, OUT, "baseline_medspacy")
+
+    # Held-out guard: the freeze tag and a git-ignored folder, checked before any record is opened.
+    hidden = heldout_guard.guard_run(ids, [out_dir / f"{pid}.json" for pid in ids])
+    if hidden:
+        heldout_guard.require_three_records(ids, record_files)
 
     names = load_names()
     kinds = load_kinds()
     nlp = build_nlp(names)
-    for pid in dict.fromkeys(ids):
+    total_facts = 0
+    for pid in ids:
         record = run_patient(pid, names, kinds, nlp)
-        out = Path(args.out_dir) / f"{pid}.json"
+        out = out_dir / f"{pid}.json"
         write_record(record, out)
-        print(f"{pid}: {len(record['facts'])} facts -> {out}")
+        heldout_guard.say(pid, len(record["facts"]), out, hidden)
+        total_facts += len(record["facts"])
+    if hidden:
+        print(f"{len(ids)} patients, {total_facts} facts -> {out_dir}")
 
 
 if __name__ == "__main__":

@@ -7,13 +7,19 @@ For each hospital record (A, B, C) the keyword pass (keyword_baseline.py) finds 
 The three records go to compile_patient() from pipeline/tool/compile.py as they are, in
 one list. That function is Daniel's and is only called here, never edited. Its result is
 written to outputs/baseline_rules_row/<P>.json with kind "baseline_rules_row" (compile_patient
-returns kind "compiled", so the kind is set here; shared/schema does not list this kind yet).
+returns kind "compiled", so the kind is set here; shared/schema lists this kind).
 
 To remove the row: delete this file, its test, and outputs/baseline_rules_row/.
 
 Usage (from the repo root):
     .venv/bin/python pipeline/eval/rules_row.py D001
     .venv/bin/python pipeline/eval/rules_row.py P001 P002 ...
+
+Held-out mode (T65, Abby only, after the freeze): add --heldout and the IDs, or --all-heldout for
+all 160. With no IDs and no --all-heldout the script stops with an error. It first checks
+(pipeline/eval/heldout_guard.py) that the `freeze` tag exists and that the output folder is
+git-ignored, and stops before opening any held-out file if not. Output goes to
+outputs/results_heldout/baseline_rules_row/ and the screen shows counts only.
 """
 
 import argparse
@@ -26,15 +32,15 @@ sys.path.insert(0, str(TOOL))
 
 from compile import compile_patient  # noqa: E402  (Daniel's compile step, called unchanged)
 
+import heldout_guard  # noqa: E402
 from keyword_baseline import (  # noqa: E402
-    ALLOWED, build_pattern, extract_record, load_kinds, load_names, record_files,
+    build_pattern, extract_record, load_kinds, load_names, record_files,
 )
 from stack_merge import write_record  # noqa: E402
 
 REPO = EVAL.parents[1]
 OUT = REPO / "outputs" / "baseline_rules_row"
-# The kind written into each record. shared/schema/compiled.schema.json does not list it yet,
-# so validate.py rejects these files on the kind until the team adds it (a shared/ change; team decision).
+# The kind written into each record (listed in shared/schema/compiled.schema.json).
 KIND = "baseline_rules_row"
 
 
@@ -65,22 +71,37 @@ def build_rules_row(patient_id, names, kinds, pattern):
 
 def main():
     ap = argparse.ArgumentParser(description="Rules row (T24): keyword facts through compile_patient(). No API.")
-    ap.add_argument("patients", nargs="+", help="e.g. D001 P001")
-    ap.add_argument("--out-dir", default=str(OUT), help="where to write (default outputs/baseline_rules_row)")
+    ap.add_argument("patients", nargs="*", help="e.g. D001 P001")
+    ap.add_argument("--out-dir", default=None,
+                    help="where to write (default outputs/baseline_rules_row; held-out default "
+                         "outputs/results_heldout/baseline_rules_row)")
+    heldout_guard.add_heldout_args(ap)
     args = ap.parse_args()
 
-    for pid in args.patients:
-        if pid not in ALLOWED:
-            ap.error(f"{pid} is not allowed: only D001 and P001-P020 (held-out and reserve IDs are refused)")
+    # Never run on nothing: IDs are needed, or --all-heldout.
+    if not args.patients and not args.all_heldout:
+        ap.error("give patient IDs, or --all-heldout")
+    # Refuse held-out IDs without --heldout, exactly as before.
+    ids = list(dict.fromkeys(heldout_guard.pick_ids(ap, args, args.patients)))  # keep order, drop repeats
+    out_dir = heldout_guard.pick_out_dir(args.out_dir, ids, OUT, "baseline_rules_row")
+
+    # Held-out guard: the freeze tag and a git-ignored folder, checked before any record is opened.
+    hidden = heldout_guard.guard_run(ids, [out_dir / f"{pid}.json" for pid in ids])
+    if hidden:
+        heldout_guard.require_three_records(ids, record_files)
 
     names = load_names()
     kinds = load_kinds()
     pattern = build_pattern(names)
-    for pid in dict.fromkeys(args.patients):  # keep order, drop repeats
+    total_facts = 0
+    for pid in ids:
         record = build_rules_row(pid, names, kinds, pattern)
-        out = Path(args.out_dir) / f"{pid}.json"
+        out = out_dir / f"{pid}.json"
         write_record(record, out)
-        print(f"{pid}: {len(record['facts'])} facts -> {out}")
+        heldout_guard.say(pid, len(record["facts"]), out, hidden)
+        total_facts += len(record["facts"])
+    if hidden:
+        print(f"{len(ids)} patients, {total_facts} facts -> {out_dir}")
 
 
 if __name__ == "__main__":
