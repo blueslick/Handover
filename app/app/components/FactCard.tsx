@@ -62,8 +62,9 @@ export default function FactCard({ fact }: { fact: Fact }) {
 
       {detail && <p className="mt-1 text-zinc-800">{detail}</p>}
 
+      {/* T68 item 18: each part of the card is labelled in words. */}
       <p className="mt-2 text-sm text-zinc-700">
-        Hospital {fact.hospital}, {formatDate(fact.date)}
+        <span className="font-medium">Latest source:</span> Hospital {fact.hospital}, {formatDate(fact.date)}
       </p>
       <blockquote className="mt-1 border-l-4 border-zinc-400 pl-3 text-sm italic break-words">
         <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
@@ -84,7 +85,7 @@ export default function FactCard({ fact }: { fact: Fact }) {
 
       {fact.history.length > 0 && (
         <div className="mt-2 text-sm text-zinc-700">
-          <p className="font-medium">Earlier:</p>
+          <p className="font-medium">Earlier (older values of this fact):</p>
           <ul className="list-disc pl-5">
             {fact.history.map((h) => (
               <li key={`${h.hospital}-${h.date}`} className="break-words">
