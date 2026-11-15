@@ -4,19 +4,21 @@ import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
 import { factAnchor } from "@/lib/banner";
 import { statusStyle } from "@/lib/statusStyle";
+import { factName } from "@/lib/names";
 
-// Builds the headline, e.g. "Panadol (paracetamol)" or "Penicillin".
+// Builds the headline.
 // T68 item 12: a "nothing recorded" line is titled by its status in words
 // ("No known allergies"), never by the shorthand it was written in ("NKA"),
 // which stays visible inside the quote.
+// T68 item 14: generic name first, with a capital, and the brand after it, e.g.
+// "Metformin (written as Glucophage at Hospital C)". Same name rule as the banner.
 function headline(fact: Fact): string {
-  if (fact.status === "none_recorded") return statusLabel(fact);
+  const name = factName(fact);
   const written = fact.name_as_written ?? "";
-  if (!fact.name) return written || "No name recorded";
-  if (written && written.toLowerCase() !== fact.name.toLowerCase()) {
-    return `${written} (${fact.name})`;
+  if (fact.status !== "none_recorded" && fact.name && written && written.toLowerCase() !== fact.name.toLowerCase()) {
+    return `${name} (written as ${written} at Hospital ${fact.hospital})`;
   }
-  return fact.name;
+  return name;
 }
 
 // Dose, frequency and reaction, joined into one line when present.
