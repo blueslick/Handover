@@ -8,9 +8,10 @@
 //   ../outputs/published/index.json                which patients the app may show
 //   ../outputs/published/compiled/<ID>.json        the tool's merged record
 //   ../outputs/published/baseline_keyword/<ID>.json  the keyword baseline, if has_baseline
+//   ../outputs/published/omission/<ID>.json        omission-check flags, if omission_flags is a number (T64)
 // Writes into app/data/:
-//   index.json, <ID>_compiled.json, <ID>_baseline_keyword.json
-// Any <ID>_compiled.json or <ID>_baseline_keyword.json in app/data/ that is not in
+//   index.json, <ID>_compiled.json, <ID>_baseline_keyword.json, <ID>_omission.json
+// Any <ID>_compiled.json, <ID>_baseline_keyword.json or <ID>_omission.json in app/data/ that is not in
 // the published index is removed, so no older record (or the hand-written sample)
 // is left behind. walkthrough_*.json and results.json are left alone.
 // No model calls: this only copies files.
@@ -50,11 +51,21 @@ for (const p of index.patients) {
     copyFileSync(base, path.join(dataDir, `${id}_baseline_keyword.json`));
     keep.add(`${id}_baseline_keyword.json`);
   }
+
+  if (typeof p.omission_flags === "number") {
+    const om = path.join(pub, "omission", `${id}.json`);
+    if (!existsSync(om)) fail(`index gives ${id} omission flags but published/omission/${id}.json is missing.`);
+    const doc = JSON.parse(readFileSync(om, "utf-8"));
+    if (doc.patient_id !== id || doc.kind !== "omission_check" || doc.run_id !== index.compiled_run_id)
+      fail(`published/omission/${id}.json is not ${id}'s omission check for run ${index.compiled_run_id}.`);
+    copyFileSync(om, path.join(dataDir, `${id}_omission.json`));
+    keep.add(`${id}_omission.json`);
+  }
 }
 
 const removed = [];
 for (const f of readdirSync(dataDir)) {
-  if (/^[A-Z]\d{3}_(compiled|baseline_keyword)\.json$/.test(f) && !keep.has(f)) {
+  if (/^[A-Z]\d{3}_(compiled|baseline_keyword|omission)\.json$/.test(f) && !keep.has(f)) {
     unlinkSync(path.join(dataDir, f));
     removed.push(f);
   }

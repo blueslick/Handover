@@ -67,6 +67,7 @@ outputs/published/
 ├── compiled/P014.json         copied from outputs/compiled/<run_id>/
 ├── baseline_keyword/P014.json copied from outputs/baseline_keyword/, if that patient has one
 ├── results/                   copied from outputs/results/<run_id>/ when --results is given
+├── omission/P014.json         omission-check flags for the same run, when --with-omission is given (T64)
 └── extraction_walkthrough/    left alone by store.py (filled later, for the upload replay)
 ```
 
@@ -85,6 +86,32 @@ outputs/published/
 
 - Publishing replaces everything in `published/compiled/` and `published/baseline_keyword/`, so no patient from an older run is left behind.
 - Only the frozen run (git tag `freeze`) plus the demo patient go here for the submission (folders_and_names.md). Write the run ID in the Log tab.
+
+## Omission flags for the app (T64, added 15 Nov)
+
+`store.py publish --with-omission` joins the omission check's per-record files
+(`outputs/omission/<run_id>/<PID>_<H>.json`, Abby's `omission_check.py`) into one file per patient,
+`published/omission/<PID>.json`. The omission run must be the same run ID as the compiled run. Nothing in the omission check changes; this only copies its saved output.
+
+```json
+{
+  "format_version": "1.0",
+  "kind": "omission_check",
+  "patient_id": "D001",
+  "run_id": "20261115-v2-demo-sonnet-5-5",
+  "records": [
+    {"hospital": "A", "source_file": "D001_A.csv",
+     "flags": [{"flag": "possible_missed", "generic": "warfarin", "terms_as_written": ["Coumadin"],
+                "lines": [{"line": 3, "text": "Coumadin 5 mg"}]}]}
+  ],
+  "not_checked": ["B"]
+}
+```
+
+- `flags` are exactly the omission check's flags. `not_checked` lists hospitals with no omission file (no saved extraction).
+- The index entry gains `"omission_flags"`: the number of flags, or `null` if no record was checked. Without `--with-omission` the field is left out and nothing goes in `published/omission/`.
+- The app copies it to `app/data/<ID>_omission.json` (sync-data.mjs) and shows it in its own "Possibly missed: word-search hint" box under the record, never as a fact and never in the warning banner.
+- These files are not fact records, so `shared/validate.py` does not check them; `store.py` checks kind, patient ID and run ID instead.
 
 ## For Theo's sync script
 

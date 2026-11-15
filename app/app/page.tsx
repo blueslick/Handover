@@ -4,7 +4,9 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { loadRecordState, parseView, SAMPLE_IDS, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
+import { loadOmission } from "@/lib/omission";
 import FactList from "./components/FactList";
+import OmissionBox from "./components/OmissionBox";
 import WarningBanner from "./components/WarningBanner";
 
 // A titled group of facts; renders nothing when empty.
@@ -133,6 +135,8 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
   const facts = record.facts;
   const ofType = (t: Fact["type"]) => facts.filter((f) => f.type === t);
   const meds = ofType("medicine");
+  // Word-search hint (T64), Handover view only, and only from the same run as the record.
+  const omission = view === "handover" ? await loadOmission(record.patient_id, record.run_id) : null;
 
   return (
     <>
@@ -156,6 +160,7 @@ async function Record({ searchParams }: { searchParams: SearchParams }) {
       <Section title="Other medicines (stopped or planned)" facts={meds.filter((f) => f.status !== "current")} />
       <Section title="Diagnoses" facts={ofType("diagnosis")} />
       <Section title="Operations" facts={ofType("operation")} />
+      {omission && <OmissionBox load={omission} />}
     </div>
     </>
   );

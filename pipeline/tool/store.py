@@ -7,7 +7,10 @@ Spec: shared/store_layout.md.
 Usage:
     python pipeline/tool/store.py build outputs/compiled/<run_id>
     python pipeline/tool/store.py build outputs/baseline_keyword
-    python pipeline/tool/store.py publish --run <run_id> [--patients D001 P021 ...] [--results <run_id>]
+    python pipeline/tool/store.py publish --run <run_id> [--patients D001 P021 ...] [--results <run_id>] [--with-omission]
+
+--with-omission (T64) also copies the omission check's flags for the same run
+(outputs/omission/<run_id>/) into published/omission/<ID>.json, one file per patient.
 
 Prints counts only, never facts, so it is safe on held-out output.
 """
@@ -89,7 +92,36 @@ def build(folder):
     return index
 
 
-def publish(run_id, outputs, patients=None, results=None):
+def load_omission(omission_dir, pid, run_id, built_from):
+    """Join one patient's omission-check files (one per hospital record) into one file (T64).
+
+    Returns (file contents, number of flags), or (None, None) if no record was checked.
+    Only reads the omission check's saved output; never runs or changes the check.
+    """
+    hospitals = [Path(name).stem.split("_")[-1] for name in built_from]
+    records, not_checked = [], []
+    for h in hospitals:
+        path = omission_dir / f"{pid}_{h}.json"
+        if not path.exists():
+            not_checked.append(h)
+            continue
+        try:
+            doc = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            raise StoreError(f"{path} is not valid JSON: {e}")
+        if (doc.get("kind") != "omission_check" or doc.get("patient_id") != pid
+                or doc.get("run_id") != run_id or not isinstance(doc.get("flags"), list)):
+            raise StoreError(f"{path} is not {pid}'s omission check for run {run_id}")
+        records.append({"hospital": h, "source_file": doc.get("source_file"), "flags": doc["flags"]})
+    if not records:
+        return None, None
+    n = sum(len(r["flags"]) for r in records)
+    out = {"format_version": "1.0", "kind": "omission_check", "patient_id": pid, "run_id": run_id,
+           "records": records, "not_checked": not_checked}
+    return out, n
+
+
+def publish(run_id, outputs, patients=None, results=None, with_omission=False):
     """Copy one compiled run (and matching keyword baselines) into outputs/published/."""
     outputs = Path(outputs)
     run_dir = outputs / "compiled" / run_id
@@ -109,8 +141,12 @@ def publish(run_id, outputs, patients=None, results=None):
     if baseline_dir.is_dir() and patient_files(baseline_dir):
         baselines = {rec["patient_id"]: path for path, rec in load_checked(baseline_dir)}
 
+    omission_dir = outputs / "omission" / run_id
+    if with_omission and not omission_dir.is_dir():
+        raise StoreError(f"--with-omission given but no such folder: {omission_dir}")
+
     pub = outputs / "published"
-    for sub in ("compiled", "baseline_keyword"):
+    for sub in ("compiled", "baseline_keyword", "omission"):
         (pub / sub).mkdir(parents=True, exist_ok=True)
         for old in patient_files(pub / sub):
             old.unlink()
@@ -121,7 +157,14 @@ def publish(run_id, outputs, patients=None, results=None):
         has_baseline = pid in baselines
         if has_baseline:
             shutil.copyfile(baselines[pid], pub / "baseline_keyword" / f"{pid}.json")
-        entries.append({"patient_id": pid, "has_baseline": has_baseline, **counts(rec)})
+        entry = {"patient_id": pid, "has_baseline": has_baseline, **counts(rec)}
+        if with_omission:
+            doc, n = load_omission(omission_dir, pid, run_id, rec["built_from"])
+            if doc is not None:
+                (pub / "omission" / f"{pid}.json").write_text(
+                    json.dumps(doc, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+            entry["omission_flags"] = n
+        entries.append(entry)
     if results:
         src = outputs / "results" / results
         if not src.is_dir():
@@ -148,13 +191,15 @@ def main(argv=None):
     p.add_argument("--run", required=True)
     p.add_argument("--patients", nargs="+")
     p.add_argument("--results", help="results run ID to copy into published/results/")
+    p.add_argument("--with-omission", action="store_true",
+                   help="also publish the omission check's flags for this run (T64)")
     p.add_argument("--outputs", default=str(ROOT / "outputs"), help=argparse.SUPPRESS)
     args = ap.parse_args(argv)
     try:
         if args.cmd == "build":
             print(f"built {args.folder}: {summary(build(args.folder))}")
         else:
-            index = publish(args.run, args.outputs, args.patients, args.results)
+            index = publish(args.run, args.outputs, args.patients, args.results, args.with_omission)
             print(f"published run {args.run}: {summary(index)}")
     except StoreError as e:
         print(f"store.py: {e}", file=sys.stderr)

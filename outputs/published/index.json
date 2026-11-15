@@ -8,7 +8,8 @@
       "facts": 7,
       "critical_facts": 5,
       "critical_warnings": 2,
-      "conflicts": 1
+      "conflicts": 1,
+      "omission_flags": 0
     }
   ]
 }

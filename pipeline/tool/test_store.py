@@ -121,6 +121,69 @@ def test_publish_unknown_patient_stops():
             raise AssertionError("patient not in the run should stop publish")
 
 
+def write_omission(tmp, pid, hospital, flags, run_id=RUN):
+    folder = Path(tmp) / "omission" / run_id
+    folder.mkdir(parents=True, exist_ok=True)
+    doc = {"kind": "omission_check", "patient_id": pid, "hospital": hospital, "run_id": run_id,
+           "source_file": f"{pid}_{hospital}.txt", "extraction_file": f"{pid}_{hospital}.json", "flags": flags}
+    (folder / f"{pid}_{hospital}.json").write_text(json.dumps(doc), encoding="utf-8")
+
+
+def test_publish_without_omission_is_unchanged():
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp)
+        index = publish(RUN, tmp, patients=["D001"])
+        assert "omission_flags" not in index["patients"][0]
+        assert list((Path(tmp) / "published" / "omission").iterdir()) == []
+
+
+def test_publish_with_omission_joins_records():
+    flag = {"flag": "possible_missed", "generic": "warfarin", "terms_as_written": ["Coumadin"],
+            "lines": [{"line": 3, "text": "Coumadin 5 mg"}]}
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp)
+        write_omission(tmp, "D001", "A", [])
+        write_omission(tmp, "D001", "C", [flag])
+        stale = Path(tmp) / "published" / "omission"
+        stale.mkdir(parents=True)
+        (stale / "P099.json").write_text("{}", encoding="utf-8")
+
+        index = publish(RUN, tmp, patients=["D001", "P001"], with_omission=True)
+        pub = Path(tmp) / "published" / "omission"
+        assert [p.name for p in pub.iterdir()] == ["D001.json"]
+        doc = json.loads((pub / "D001.json").read_text(encoding="utf-8"))
+        assert [r["hospital"] for r in doc["records"]] == ["A", "C"]
+        assert doc["not_checked"] == ["B"]
+        assert doc["records"][1]["flags"] == [flag]
+        assert [(p["patient_id"], p["omission_flags"]) for p in index["patients"]] == [("D001", 1), ("P001", None)]
+
+
+def test_publish_with_omission_wrong_run_stops():
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp)
+        write_omission(tmp, "D001", "A", [])
+        bad = Path(tmp) / "omission" / RUN / "D001_B.json"
+        bad.write_text(json.dumps({"kind": "omission_check", "patient_id": "D001", "run_id": "other",
+                                   "flags": []}), encoding="utf-8")
+        try:
+            publish(RUN, tmp, patients=["D001"], with_omission=True)
+        except StoreError as e:
+            assert "D001_B.json" in str(e)
+        else:
+            raise AssertionError("an omission file from another run should stop publish")
+
+
+def test_publish_with_omission_needs_folder():
+    with tempfile.TemporaryDirectory() as tmp:
+        make_run(tmp)
+        try:
+            publish(RUN, tmp, patients=["D001"], with_omission=True)
+        except StoreError as e:
+            assert "omission" in str(e)
+        else:
+            raise AssertionError("--with-omission with no omission folder should stop publish")
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:
