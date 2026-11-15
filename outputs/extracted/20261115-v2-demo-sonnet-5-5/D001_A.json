@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "D001",
+  "hospital": "A",
+  "source_file": "D001_A.csv",
+  "run_id": "20261115-v2-demo-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3120,
+    "output_tokens": 547
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "Penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2009-08-14",
+      "quote": "ALLERGY,Penicillin,,,Active,2009-08-14,skin rash",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "type 2 diabetes",
+      "name_as_written": "Type 2 diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2017-04-03",
+      "quote": "PROBLEM,Type 2 diabetes,,,Active,2017-04-03,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-02",
+      "quote": "PROBLEM,Atrial fibrillation,,,Active,2019-05-02,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Metformin",
+      "dose": "500 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2017-04-10",
+      "quote": "MEDICATION,Metformin,500 mg,twice daily,Active,2017-04-10,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2019-05-10",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2019-05-10,",
+      "flags": []
+    }
+  ]
+}

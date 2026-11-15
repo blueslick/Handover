@@ -1,0 +1,40 @@
+{
+  "run_id": "20261115-v2-demo-sonnet-5-5",
+  "records": {
+    "D001_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D001_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "D001_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 3 (medicine 'Glucophage'): dose '1 g' written as '1000 mg'",
+        "fact 4 (medicine 'Panadol'): dose '1 g' written as '1000 mg'"
+      ],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    }
+  },
+  "needs_retry": [],
+  "failed": []
+}
