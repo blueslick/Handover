@@ -1,10 +1,11 @@
 // Builds the warning banner's lines from a record's facts (T68 items 8-11).
 // General rules for any patient (saved runs and live mode alike), no special cases:
 // - one line per group of facts where hospitals disagree (conflict_group);
+// - one line per stopped medicine;
 // - any other flag on an allergy or medicine, one line per fact.
 // Only allergies and medicines (the critical facts) go in the banner.
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "./labels";
-import { joinWords } from "./dates";
+import { formatDate, joinWords } from "./dates";
 import { factHospitals, factName } from "./names";
 import type { Fact } from "./types";
 
@@ -52,7 +53,20 @@ export function bannerLines(facts: Fact[]): BannerLine[] {
     });
   }
 
-  // 2. Any other warning flag on a critical fact.
+  // 2. Stopped medicines (T68 item 9): a stopped drug that someone keeps giving is the
+  // main harm this tool is for. Says when an older record still lists it as current.
+  for (const f of critical) {
+    if (f.type !== "medicine" || f.status !== "stopped" || f.conflict_group) continue;
+    const olderCurrent = f.history.some((h) => h.status === "current");
+    lines.push({
+      key: `stopped-${f.fact_id}`,
+      text:
+        `${factName(f)}: stopped ${formatDate(f.date)} (Hospital ${f.hospital}).` +
+        (olderCurrent ? " An older record lists it as current." : ""),
+    });
+  }
+
+  // 3. Any other warning flag on a critical fact.
   for (const f of critical) {
     const other = f.flags.filter((flag) => flag !== "conflict");
     if (other.length === 0) continue;
