@@ -60,6 +60,30 @@ function ResultsTable({ rows }: { rows: ResultRow[] }) {
   );
 }
 
+// T71 item 29: one headline line, the full tool (row 7) against the keyword baseline
+// (row 1), filled only from the results file. Until the numbers are in, it says so.
+function Headline({ results }: { results: Results }) {
+  const tool = results.rows.find((r) => r.row === 7);
+  const base = results.rows.find((r) => r.row === 1);
+  const ready = (r?: ResultRow) => r !== undefined && r.missed !== null && r.false_alarms !== null;
+  if (!ready(tool) || !ready(base)) {
+    return (
+      <p className="mt-2 text-lg font-semibold">
+        Headline: not run yet. The full tool and the baseline are compared here once the held-out results are in.
+      </p>
+    );
+  }
+  const n = (x: number | null) => (x === null ? "?" : x.toLocaleString("en-GB"));
+  const who = results.patients !== null ? `On ${n(results.patients)} held-out patients, the` : "The";
+  return (
+    <p className="mt-2 text-lg font-semibold">
+      {who} full tool missed {n(tool!.missed)}
+      {tool!.key_facts !== null && ` of ${n(tool!.key_facts)}`} facts with {n(tool!.false_alarms)} false alarms. The
+      keyword baseline missed {n(base!.missed)} with {n(base!.false_alarms)} false alarms.
+    </p>
+  );
+}
+
 // Everything below the intro, once the results file has loaded.
 function ResultsSection({ results }: { results: Results }) {
   return (
@@ -75,6 +99,7 @@ function ResultsSection({ results }: { results: Results }) {
 
       <section className="mt-6">
         <h2 className="text-xl font-semibold">Results</h2>
+        <Headline results={results} />
         {results.patients !== null && (
           <p className="mt-1 text-sm text-zinc-700">Scored on {results.patients} held-out patients.</p>
         )}
