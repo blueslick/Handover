@@ -211,6 +211,24 @@ function ResultsSection({ results }: { results: Results }) {
           </ol>
         )}
       </section>
+
+      <section className="mt-6">
+        <h2 className="text-xl font-semibold">Limits</h2>
+        <ul className="mt-2 list-disc pl-5">
+          <li>
+            <span className="font-medium">Synthetic data only.</span> Every patient is made up (Synthea), so the
+            results say how the tool does on these records, not on real hospital records.
+          </li>
+          <li>
+            <span className="font-medium">Neater than real records.</span> The three hospital layouts come from our
+            own templates. Real records are messier: handwriting, scans, typing mistakes and missing sections.
+          </li>
+          <li>
+            <span className="font-medium">One main model.</span> The tool uses Claude Sonnet 5.5. Claude Haiku 5.5 is
+            only a comparison row (row 8), and no other model was tested.
+          </li>
+        </ul>
+      </section>
     </>
   );
 }
