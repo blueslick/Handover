@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P013",
+  "hospital": "B",
+  "source_file": "P013_B.txt",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2885,
+    "output_tokens": 362
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-16",
+      "quote": "Her background includes chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-16",
+      "quote": "She has a history of osteoarthritis of knee.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-01-16",
+      "quote": "She has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-01-16",
+      "quote": "She takes no regular medicines.",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "run_id": "20261115-v1-haiku-5-5",
+  "patient_id": "P011",
+  "hospital": "B",
+  "attempt": 1,
+  "source_file": "P011_B.txt",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "prompt_file": "extract_v1.md",
+  "settings_sent": {
+    "model": "claude-haiku-5-5",
+    "max_tokens": 8000,
+    "system_sha256": "b4e4ea4dbf77fd7046e704f7fab00b702f7df5f80c538a1808496313a5ed553e",
+    "messages_sha256": "57c429b28eb013f52fe7446c970176fdc5d8acf5b157a72d361a5b059f47c14d",
+    "output_config": {
+      "format": {
+        "type": "json_schema",
+        "schema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "facts"
+          ],
+          "properties": {
+            "facts": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "type",
+                  "name",
+                  "name_as_written",
+                  "dose",
+                  "frequency",
+                  "reaction",
+                  "status",
+                  "date",
+                  "quote"
+                ],
+                "properties": {
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "allergy",
+                      "medicine",
+                      "diagnosis",
+                      "operation"
+                    ]
+                  },
+                  "name": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "name_as_written": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "dose": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "frequency": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "enum": [
+                          "once",
+                          "daily",
+                          "twice_daily",
+                          "three_times_daily",
+                          "four_times_daily",
+                          "at_night",
+                          "weekly",
+                          "as_needed",
+                          "other"
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "reaction": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "current",
+                      "stopped",
+                      "none_recorded",
+                      "suspected",
+                      "family_history",
+                      "planned",
+                      "side_effect"
+                    ]
+                  },
+                  "date": {
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "quote": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 2903,
+    "output_tokens": 919,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "response_id": "msg_011Ch3n9sKTLfxjaryktAZkH",
+  "model_reported": "claude-haiku-5-5",
+  "stop_reason": "end_turn",
+  "called_at_utc": "2026-11-15T00:37:38Z",
+  "record_sha256": "4e3604cab4197a769e5488d3cbeaf061ccda4903a58abb6fa786bf94c06afee0",
+  "prompt_sha256": "10ae50e276b2c5afdbc6574d1c130669935624590064fd3db707867635703379",
+  "reply_sha256": "3b2dfbb7971db82abb536b17051fa342a09e0043855889d94ac324ef4b7ece14"
+}

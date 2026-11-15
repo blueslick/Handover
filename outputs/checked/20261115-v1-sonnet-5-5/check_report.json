@@ -150,6 +150,458 @@
       "facts": 10,
       "unverified": 0,
       "unknown_name": 0
+    },
+    "P006_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P006_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P006_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P007_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P007_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P007_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P008_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P008_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P008_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P009_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P009_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P009_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P010_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P010_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P010_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P011_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P011_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P011_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P012_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P012_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P012_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 6 (allergy 'Bactrim'): name 'sulfamethoxazole / trimethoprim' changed to 'co-trimoxazole' from the tables"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P013_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P013_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P013_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P014_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P014_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P014_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P015_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P015_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P015_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P016_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P016_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P016_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P017_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P017_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P017_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P018_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P018_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P018_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P019_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P019_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P019_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P020_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P020_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P020_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
     }
   },
   "needs_retry": [],

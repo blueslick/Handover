@@ -1,0 +1,138 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P016",
+  "hospital": "B",
+  "source_file": "P016_B.txt",
+  "run_id": "20261115-v1-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2964,
+    "output_tokens": 1276
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "His background includes hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "His background includes chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "His background includes osteoarthritis of knee.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "He is known to have prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "He has a history of anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic congestive heart failure",
+      "name_as_written": "chronic congestive heart failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "His background includes chronic congestive heart failure.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "shock",
+      "name_as_written": "shock",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "His background includes shock.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-07-17",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "furosemide",
+      "dose": "40 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "He is on furosemide 40 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-07-17",
+      "quote": "He is on hydrochlorothiazide 25 mg once a day.",
+      "flags": []
+    }
+  ]
+}

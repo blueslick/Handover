@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P013",
+  "hospital": "A",
+  "source_file": "P013_A.csv",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3011,
+    "output_tokens": 540
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-05",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1967-11-11",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,1967-11-11,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "Osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2005-08-03",
+      "quote": "PROBLEM,Osteoarthritis of knee,,,Active,2005-08-03,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-05-17",
+      "quote": "PROBLEM,Polyp of colon,,,Active,2021-05-17,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-12",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2021-08-12,",
+      "flags": []
+    }
+  ]
+}

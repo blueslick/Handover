@@ -1,0 +1,126 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P016",
+  "hospital": "A",
+  "source_file": "P016_A.csv",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3246,
+    "output_tokens": 933
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-08",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1982-06-28",
+      "quote": "PROBLEM,Hypertension,,,Active,1982-06-28,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1991-12-24",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,1991-12-24,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "Osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2008-07-25",
+      "quote": "PROBLEM,Osteoarthritis of knee,,,Active,2008-07-25,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2011-12-12",
+      "quote": "PROBLEM,Prediabetes,,,Active,2011-12-12,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2012-12-17",
+      "quote": "PROBLEM,Anemia,,,Active,2012-12-17,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic congestive heart failure",
+      "name_as_written": "Chronic congestive heart failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-05-20",
+      "quote": "PROBLEM,Chronic congestive heart failure,,,Active,2015-05-20,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "shock",
+      "name_as_written": "Shock",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-11-25",
+      "quote": "PROBLEM,Shock,,,Active,2016-11-25,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Furosemide",
+      "dose": "40 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-08",
+      "quote": "MEDICATION,Furosemide,40 mg,once daily,Active,2021-11-08,",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P016",
+  "hospital": "C",
+  "source_file": "P016_C.txt",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3008,
+    "output_tokens": 961
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-03-03",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Chronic sinusitis",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "Osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Osteoarthritis of knee",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Prediabetes",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Anemia",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic congestive heart failure",
+      "name_as_written": "Chronic congestive heart failure",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Chronic congestive heart failure",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "shock",
+      "name_as_written": "Shock",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "- Shock",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "furosemide",
+      "name_as_written": "Lasix",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "1. Lasix 20 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-03",
+      "quote": "2. Hydrodiuril 25 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-08-31",
+      "quote": "1. Nurofen - stopped 31-Aug-2017",
+      "flags": []
+    }
+  ]
+}

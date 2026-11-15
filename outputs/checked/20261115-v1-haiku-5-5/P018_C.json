@@ -1,0 +1,162 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P018",
+  "hospital": "C",
+  "source_file": "P018_C.txt",
+  "run_id": "20261115-v1-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3065,
+    "output_tokens": 1040
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms",
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "  - Animal dander (hay fever symptoms)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Bee venom (skin rash)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "Fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Fish (skin rash)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Grass pollen",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- House dust mite",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "wheezing",
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Mould (wheezing)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Tree pollen",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel",
+      "name_as_written": "Mirena",
+      "dose": "52 mg",
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-11-23",
+      "quote": "1. Mirena 52 mg intrauterine system (lasts 5 years)",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-07-26",
+      "quote": "1. Panadol - stopped 26-Jul-2017",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "NuvaRing",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2016-12-24",
+      "quote": "2. NuvaRing - stopped 24-Dec-2016",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "levonorgestrel / ethinyl estradiol",
+      "name_as_written": "Seasonique",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2019-12-09",
+      "quote": "3. Seasonique - stopped 09-Dec-2019",
+      "flags": []
+    }
+  ]
+}

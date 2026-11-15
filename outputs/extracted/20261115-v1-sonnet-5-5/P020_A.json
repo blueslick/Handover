@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P020",
+  "hospital": "A",
+  "source_file": "P020_A.csv",
+  "run_id": "20261115-v1-sonnet-5-5",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "temperature": null,
+  "settings": "thinking between_tools, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3019,
+    "output_tokens": 530
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-02-21",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1976-04-01",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1976-04-01,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "recurrent urinary tract infection",
+      "name_as_written": "Recurrent urinary tract infection",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1994-01-29",
+      "quote": "PROBLEM,Recurrent urinary tract infection,,,Active,1994-01-29,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-02-19",
+      "quote": "PROBLEM,Hyperlipidemia,,,Active,2015-02-19,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-02-21",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}
