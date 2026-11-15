@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "compiled_run_id": "20261115-v2-demo-sonnet-5-5",
+  "patients": [
+    {
+      "patient_id": "D001",
+      "has_baseline": true,
+      "facts": 7,
+      "critical_facts": 5,
+      "critical_warnings": 2,
+      "conflicts": 1
+    }
+  ]
+}
