@@ -39,16 +39,21 @@ export function baselineDifferences(handover: CompiledRecord, baseline: Compiled
     }
   }
 
-  // 2. The same drug or allergy repeated, with how many different doses.
-  for (const [k, list] of bBy) {
+  // 2. The same drug or allergy repeated. Repeats with different doses get their own
+  // line; plain repeats are folded into one line so the summary stays short.
+  const plainRepeats: string[] = [];
+  for (const list of bBy.values()) {
     if (list.length < 2) continue;
     const name = list[0].name!;
     const doses = new Set(list.map((x) => normDose(x.dose)).filter(Boolean));
-    const doseText = list[0].type === "medicine" && doses.size > 1 ? ` with ${doses.size} different doses` : "";
-    // Skip if this was already said as a stopped medicine above.
-    if (out.some((line) => line.startsWith(`Lists ${name} as current`)) && doseText === "") continue;
-    out.push(`Shows ${name} ${list.length} times${doseText}.`);
-    void k;
+    if (list[0].type === "medicine" && doses.size > 1) {
+      out.push(`Shows ${name} ${list.length} times with ${doses.size} different doses.`);
+    } else {
+      plainRepeats.push(`${name} (${list.length})`);
+    }
+  }
+  if (plainRepeats.length > 0) {
+    out.push(`Repeats the same entry once per hospital for ${plural(plainRepeats.length, "name", "names")}: ${plainRepeats.join(", ")}.`);
   }
 
   // 3. Disagreements between hospitals that the baseline does not show.
@@ -68,7 +73,8 @@ export function baselineDifferences(handover: CompiledRecord, baseline: Compiled
 
   // 5. Stopped medicines or dose changes it cannot mark at all.
   const hasStatusWords = b.some((f) => f.status !== "current");
-  if (!hasStatusWords && h.some((f) => f.status === "stopped")) {
+  const stoppedAlreadySaid = out.some((line) => line.includes("recorded it stopped"));
+  if (!hasStatusWords && h.some((f) => f.status === "stopped") && !stoppedAlreadySaid) {
     out.push("Marks every entry as current: it has no way to show a stopped medicine.");
   }
   return out.map((s) => capitalise(s));
