@@ -5,7 +5,11 @@ import type { Fact } from "@/lib/types";
 import { factAnchor } from "@/lib/banner";
 
 // Builds the headline, e.g. "Panadol (paracetamol)" or "Penicillin".
+// T68 item 12: a "nothing recorded" line is titled by its status in words
+// ("No known allergies"), never by the shorthand it was written in ("NKA"),
+// which stays visible inside the quote.
 function headline(fact: Fact): string {
+  if (fact.status === "none_recorded") return statusLabel(fact);
   const written = fact.name_as_written ?? "";
   if (!fact.name) return written || "No name recorded";
   if (written && written.toLowerCase() !== fact.name.toLowerCase()) {
