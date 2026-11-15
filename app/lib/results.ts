@@ -16,6 +16,23 @@ export interface ResultRow {
   // How many conflicts the answer keys hold, so the tab can say "38 of 38". Optional,
   // so an older results file without it still loads.
   conflicts_total?: number | null;
+  // T82: for "share found", "share correct" and the repeats split in the build chart.
+  matched?: number | null;
+  output_facts?: number | null;
+  repeats?: number | null;
+}
+
+// One method in the "allergies and medicines only" view (T82), from azure_line.csv.
+export interface SubsetRow {
+  key: string;
+  method: string;
+  key_facts: number;
+  missed: number;
+  false_alarms: number;
+  matched: number;
+  output_facts: number;
+  conflicts_shown: number;
+  conflicts_total: number;
 }
 
 // What the AI calls cost per patient (three hospital records) for one model, in US cents.
@@ -68,6 +85,10 @@ export interface Results {
   by_age_sex?: AgeSexRow[];
   // Optional (T78). Missing = the traps chart says "Not run yet".
   traps?: TrapRow[];
+  // T82: the "allergies and medicines only" view (with Microsoft Azure), from azure_line.csv.
+  allergy_medicine?: { key_facts: number; rows: SubsetRow[] };
+  // T82: how many of the full tool's misses are a slip in our own answer key.
+  answer_key_slips?: number | null;
 }
 
 // Three outcomes, so the tab can tell "nothing yet" apart from "broken file".
@@ -87,6 +108,7 @@ function looksLikeResults(data: unknown): data is Results {
   if (d.cost_per_patient !== undefined && !Array.isArray(d.cost_per_patient)) return false;
   if (d.by_age_sex !== undefined && !Array.isArray(d.by_age_sex)) return false;
   if (d.traps !== undefined && !Array.isArray(d.traps)) return false;
+  if (d.allergy_medicine !== undefined && !Array.isArray((d.allergy_medicine as { rows?: unknown })?.rows)) return false;
   return d.rows.every(
     (r) => r && typeof r === "object" && typeof (r as ResultRow).method === "string",
   );

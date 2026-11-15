@@ -9,14 +9,14 @@ import WarningBanner from "./WarningBanner";
 
 function SideLabel({ which }: { which: "handover" | "baseline" }) {
   return (
-    <p className="text-sm font-medium text-soft md:sr-only">
+    <p className="font-medium text-quiet md:sr-only">
       {which === "handover" ? "Handover (our tool):" : "Baseline (keyword search):"}
     </p>
   );
 }
 
 function Empty() {
-  return <p className="text-sm text-soft border border-dashed border-soft rounded-2xl p-3">None listed.</p>;
+  return <p className="rounded-box border border-dashed border-line-strong p-3 text-quiet">None listed.</p>;
 }
 
 export default function CompareView({ handover, baseline }: { handover: CompiledRecord; baseline: CompiledRecord }) {
@@ -30,9 +30,9 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
   return (
     <div>
       {/* Column headings, on wide screens only (narrow screens label each cell instead). */}
-      <div className="hidden md:grid md:grid-cols-2 gap-4 sticky top-0 bg-mint py-2 z-10 border-b border-sage">
-        <p className="text-lg font-medium">Handover (our tool): {handover.facts.length} facts</p>
-        <p className="text-lg font-medium">Baseline (keyword search): {baseline.facts.length} entries</p>
+      <div className="hidden md:grid md:grid-cols-2 gap-4 border-b border-line-strong py-2">
+        <p className="text-base font-semibold">Handover (our tool): {handover.facts.length} facts</p>
+        <p className="text-base font-semibold">Baseline (keyword search): {baseline.facts.length} entries</p>
       </div>
 
       <div className="mt-4 grid md:grid-cols-2 gap-4">
@@ -42,7 +42,7 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
         </div>
         <div>
           <SideLabel which="baseline" />
-          <p className="border-2 border-dashed border-soft rounded-3xl p-4">
+          <p className="rounded-box border border-dashed border-line-strong p-3">
             The baseline gives no warnings: it has no checks, no conflict rule and no stop rule.
           </p>
           <div className="mt-4">
@@ -52,8 +52,8 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
       </div>
 
       {rows.map((r) => (
-        <section key={r.title} className="mt-8">
-          <h3 className="text-xl font-medium mb-2">{r.title}</h3>
+        <section key={r.title} className="mt-6">
+          <h3 className="mb-2 text-base font-semibold">{r.title}</h3>
           <div className="grid md:grid-cols-2 gap-4 items-start">
             <div className="flex flex-col gap-2 min-w-0">
               <SideLabel which="handover" />

@@ -13,7 +13,10 @@
       "false_alarms": 1312,
       "wrong_status": 202,
       "conflicts_shown": 0,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 752,
+      "output_facts": 2064,
+      "repeats": 947
     },
     {
       "row": 2,
@@ -24,7 +27,10 @@
       "false_alarms": 1269,
       "wrong_status": 0,
       "conflicts_shown": 0,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1157,
+      "output_facts": 2426,
+      "repeats": 1183
     },
     {
       "row": 3,
@@ -35,7 +41,10 @@
       "false_alarms": 297,
       "wrong_status": 202,
       "conflicts_shown": 10,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 752,
+      "output_facts": 1049,
+      "repeats": 3
     },
     {
       "row": 4,
@@ -46,7 +55,10 @@
       "false_alarms": 2272,
       "wrong_status": 205,
       "conflicts_shown": 0,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1246,
+      "output_facts": 3518,
+      "repeats": 1843
     },
     {
       "row": 5,
@@ -57,7 +69,10 @@
       "false_alarms": 2314,
       "wrong_status": 3,
       "conflicts_shown": 0,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1620,
+      "output_facts": 3934,
+      "repeats": 2040
     },
     {
       "row": 6,
@@ -68,7 +83,10 @@
       "false_alarms": 2275,
       "wrong_status": 1,
       "conflicts_shown": 0,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1659,
+      "output_facts": 3934,
+      "repeats": 2138
     },
     {
       "row": 7,
@@ -79,7 +97,10 @@
       "false_alarms": 47,
       "wrong_status": 5,
       "conflicts_shown": 38,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1655,
+      "output_facts": 1702,
+      "repeats": 0
     },
     {
       "row": 8,
@@ -90,9 +111,73 @@
       "false_alarms": 60,
       "wrong_status": 6,
       "conflicts_shown": 38,
-      "conflicts_total": 38
+      "conflicts_total": 38,
+      "matched": 1652,
+      "output_facts": 1712,
+      "repeats": 6
     }
   ],
+  "allergy_medicine": {
+    "key_facts": 1157,
+    "rows": [
+      {
+        "key": "full_tool",
+        "method": "Full tool",
+        "key_facts": 1157,
+        "missed": 9,
+        "false_alarms": 43,
+        "matched": 1148,
+        "output_facts": 1191,
+        "conflicts_shown": 38,
+        "conflicts_total": 38
+      },
+      {
+        "key": "medspacy",
+        "method": "medSpaCy",
+        "key_facts": 1157,
+        "missed": 0,
+        "false_alarms": 1269,
+        "matched": 1157,
+        "output_facts": 2426,
+        "conflicts_shown": 0,
+        "conflicts_total": 38
+      },
+      {
+        "key": "keyword",
+        "method": "Keyword search",
+        "key_facts": 1157,
+        "missed": 405,
+        "false_alarms": 1312,
+        "matched": 752,
+        "output_facts": 2064,
+        "conflicts_shown": 0,
+        "conflicts_total": 38
+      },
+      {
+        "key": "azure",
+        "method": "Azure (commercial, not ours)",
+        "key_facts": 1157,
+        "missed": 141,
+        "false_alarms": 1124,
+        "matched": 1016,
+        "output_facts": 2140,
+        "conflicts_shown": 0,
+        "conflicts_total": 38
+      },
+      {
+        "key": "azure_rules",
+        "method": "Azure with our merge rules",
+        "key_facts": 1157,
+        "missed": 144,
+        "false_alarms": 168,
+        "matched": 1013,
+        "output_facts": 1181,
+        "conflicts_shown": 38,
+        "conflicts_total": 38
+      }
+    ]
+  },
+  "answer_key_slips": 4,
   "cost_per_patient": [
     {
       "model": "Claude Sonnet 5.5 (the model the tool uses)",

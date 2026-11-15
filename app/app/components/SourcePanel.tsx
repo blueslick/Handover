@@ -1,84 +1,95 @@
-// Where one fact came from (T75), shown in the right-hand panel when its line is tapped:
-// the latest source and its quote word for word, every other hospital that says the same,
-// the earlier values, and any warning. This is the "fact card" of the Minimal look.
+// Where one fact came from (T75, restyled in T81), shown in the right-hand panel when its
+// row is chosen: every hospital's quote word for word, the earlier values, and any warning.
+// This is the "fact card": the fact, its status, the hospital and date, any warning, and
+// the exact source quote, all one tap from the row.
 import { factPlans } from "@/lib/checkOptions";
 import { FLAG_LABELS, FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import { formatDate } from "@/lib/dates";
-import { factName } from "@/lib/names";
+import { hospitalFull } from "@/lib/hospitals";
+import { capitalise, factName } from "@/lib/names";
 import type { Fact } from "@/lib/types";
 import CheckOptionsBox from "./CheckOptionsBox";
 import { factDetail } from "./FactRow";
-import Quote, { quoteTerms } from "./Quote";
+import { QuoteBlock, quoteTerms } from "./Quote";
+import Tag from "./Tag";
+
+// "1000 mg" is often written "1 g" in the records. Returns "1 g" when a quote says it that way.
+function writtenInGrams(fact: Fact): string | null {
+  const mg = /^(\d+(?:\.\d+)?) mg$/.exec(fact.dose ?? "");
+  if (!mg || Number(mg[1]) < 1000 || Number(mg[1]) % 1000 !== 0) return null;
+  const grams = `${Number(mg[1]) / 1000} g`;
+  const re = new RegExp(`(?<![A-Za-z0-9.])${grams}(?![A-Za-z0-9])`, "i");
+  return fact.sources.some((s) => re.test(s.quote)) ? grams : null;
+}
 
 // headingId lets the panel appear twice on a page (in the right-hand panel on a laptop,
-// under the tapped line on a phone) without two parts sharing one id.
+// under the chosen row on a phone) without two parts sharing one id.
 export default function SourcePanel({ fact, headingId = "source-heading" }: { fact: Fact; headingId?: string }) {
-  const others = fact.sources.filter((s) => !(s.hospital === fact.hospital && s.date === fact.date && s.quote === fact.quote));
+  // The latest source first, then every other hospital that says the same.
+  const latest = fact.sources.find((s) => s.hospital === fact.hospital && s.date === fact.date && s.quote === fact.quote);
+  const others = fact.sources.filter((s) => s !== latest);
   const written = fact.name_as_written ?? "";
   const renamed = fact.status !== "none_recorded" && fact.name && written && written.toLowerCase() !== fact.name.toLowerCase();
+  const grams = writtenInGrams(fact);
   const detail = factDetail(fact);
-  // Orange for the things to check (a recorded allergy, a stopped medicine); green otherwise.
-  const alert = (fact.type === "allergy" && (fact.status === "current" || fact.status === "suspected")) || (fact.type === "medicine" && fact.status === "stopped");
+  const unverified = fact.flags.includes("unverified");
   return (
     <section aria-labelledby={headingId} className="flex flex-col gap-3">
       <div>
-        <h2 id={headingId} className="text-lg font-medium">
-          {factName(fact)}, the source
+        <h2 id={headingId} className="text-base font-semibold">
+          Source: {factName(fact)}
         </h2>
-        <p className="text-sm text-soft">
-          Status: {statusLabel(fact)}
-          {detail && `. ${detail[0].toUpperCase()}${detail.slice(1)}`}
+        <p className="text-quiet">
+          {statusLabel(fact)}
+          {detail && `, ${detail}`}
         </p>
       </div>
 
-      <div className={`rounded-2xl px-4 py-3 text-white ${alert ? "bg-alert" : "bg-rail"}`}>
-        <p className="font-medium">
-          Latest source: Hospital {fact.hospital}, {formatDate(fact.date)}
+      {/* One line for all quotes. A quote is marked only when it was NOT found word for word. */}
+      {unverified ? <p><Tag kind="warn">{FLAG_LABELS.unverified}</Tag></p> : <p className="text-quiet">Quotes are word for word from the records.</p>}
+
+      {(renamed || grams) && (
+        <p>
+          {renamed && `${capitalise(written)} is a brand of ${fact.name}. `}
+          {grams && `${grams} is shown as ${fact.dose}.`}
         </p>
-        <p className="mt-1 break-words">
-          <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
-        </p>
-        {renamed && <p className="mt-1 text-sm">Written as {written}.</p>}
-      </div>
-
-      {others.map((s) => (
-        <div key={`${s.file}-${s.date}`} className="rounded-2xl bg-mint px-4 py-3">
-          <p className="font-medium">
-            Also Hospital {s.hospital}, {formatDate(s.date)}
-          </p>
-          <p className="mt-1 break-words">
-            <Quote text={s.quote} file={s.file} terms={quoteTerms(fact)} />
-          </p>
-        </div>
-      ))}
-
-      {fact.history.map((h) => (
-        <div key={`${h.hospital}-${h.date}`} className="rounded-2xl bg-mint px-4 py-3">
-          <p className="font-medium">
-            Earlier: Hospital {h.hospital}, {formatDate(h.date)}
-          </p>
-          <p className="text-sm text-soft">
-            {[statusLabel({ type: fact.type, status: h.status }), h.dose, h.frequency && (FREQUENCY_LABELS[h.frequency] ?? h.frequency)]
-              .filter(Boolean)
-              .join(", ")}
-          </p>
-          <p className="mt-1 break-words">
-            <Quote text={h.quote} terms={quoteTerms(fact, h.dose)} />
-          </p>
-        </div>
-      ))}
-
-      {fact.flags.length > 0 && (
-        <ul className="flex flex-wrap gap-2 text-sm">
-          {fact.flags.map((flag) => (
-            <li key={flag} className="rounded-full bg-peach text-alert-ink px-3 py-0.5 font-medium">
-              Warning: {FLAG_LABELS[flag]}
-            </li>
-          ))}
-        </ul>
       )}
 
-      {/* T80: for each warning, the options for checking it. */}
+      {/* When the latest quote is not among the sources, it is still shown first. */}
+      {!latest && (
+        <div className="flex flex-col gap-1">
+          <p>
+            {hospitalFull(fact.hospital)}, {formatDate(fact.date)}
+          </p>
+          <QuoteBlock text={fact.quote} terms={quoteTerms(fact)} />
+        </div>
+      )}
+      {[...(latest ? [latest] : []), ...others].map((s) => (
+        <div key={`${s.file}-${s.date}`} className="flex flex-col gap-1">
+          <p>
+            {hospitalFull(s.hospital)}, {formatDate(s.date)}
+          </p>
+          <QuoteBlock text={s.quote} file={s.file} terms={quoteTerms(fact)} />
+        </div>
+      ))}
+
+      {fact.history.map((h) => {
+        const was = [statusLabel({ type: fact.type, status: h.status }), h.dose, h.frequency && (FREQUENCY_LABELS[h.frequency] ?? h.frequency)].filter(Boolean).join(", ");
+        const doseDiffers = Boolean(h.dose) && h.dose !== fact.dose;
+        return (
+          <div key={`${h.hospital}-${h.date}`} className="flex flex-col gap-1">
+            <p>
+              {hospitalFull(h.hospital)}, {formatDate(h.date)}{" "}
+              <span className="text-quiet">
+                {doseDiffers ? "Earlier dose" : "Earlier record"}: {was.toLowerCase()}
+              </span>
+            </p>
+            <QuoteBlock text={h.quote} terms={quoteTerms(fact, h.dose)} />
+          </div>
+        );
+      })}
+
+      {/* T80: for each warning, the options for checking it, folded until tapped. */}
       {factPlans(fact).map((plan) => (
         <CheckOptionsBox key={plan.key} plan={plan} compact idPrefix={`check-${headingId}`} />
       ))}

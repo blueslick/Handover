@@ -5,7 +5,9 @@ import type { Fact } from "@/lib/types";
 import { doseChange, factAnchor } from "@/lib/banner";
 import { statusStyle } from "@/lib/statusStyle";
 import { factName } from "@/lib/names";
-import Quote, { quoteTerms } from "./Quote";
+import Quote, { QuoteBlock, quoteTerms } from "./Quote";
+import Tag from "./Tag";
+import { hospitalFull, hospitalShort } from "@/lib/hospitals";
 // T68 item 16: dates as "5 Oct 2021", not "2021-10-05".
 import { formatDate } from "@/lib/dates";
 
@@ -19,7 +21,7 @@ function headline(fact: Fact): string {
   const name = factName(fact);
   const written = fact.name_as_written ?? "";
   if (fact.status !== "none_recorded" && fact.name && written && written.toLowerCase() !== fact.name.toLowerCase()) {
-    return `${name} (written as ${written} at Hospital ${fact.hospital})`;
+    return `${name} (written as ${written} at ${hospitalShort(fact.hospital)})`;
   }
   return name;
 }
@@ -31,7 +33,7 @@ function details(fact: Fact): string {
   const parts: string[] = [];
   const change = fact.flags.includes("dose_changed") ? doseChange(fact) : null;
   if (change) {
-    parts.push(change.sameFreq ? `${change.from} → ${fact.dose}` : `${change.from} → ${change.to}`);
+    parts.push(change.sameFreq ? `${change.from} to ${fact.dose}` : `${change.from} to ${change.to}`);
     if (change.sameFreq && fact.frequency) parts.push(FREQUENCY_LABELS[fact.frequency] ?? fact.frequency);
   } else {
     if (fact.dose) parts.push(fact.dose);
@@ -60,31 +62,27 @@ export default function FactCard({
   );
 
   return (
-    <article id={idPrefix + factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded-2xl p-4 flex-1 min-w-0 ${style.card}`}>
+    <article id={idPrefix + factAnchor(fact.fact_id)} className={`scroll-mt-28 rounded-box p-3 flex-1 min-w-0 ${style.card}`}>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className={`text-lg font-medium break-words ${style.struck ? "line-through decoration-2" : ""}`}>
-          {headline(fact)}
-        </h3>
-        <span className={`rounded-full px-3 py-0.5 text-sm font-medium ${style.pill}`}>
-          Status: {statusLabel(fact)}
-        </span>
+        <h3 className="text-base font-semibold break-words">{headline(fact)}</h3>
+        {style.label === "crit" ? <Tag kind="crit">{statusLabel(fact)}</Tag> : <span className="text-quiet">{statusLabel(fact)}</span>}
       </div>
 
       {detail && <p className="mt-1">{detail}</p>}
 
       {/* T68 item 18: each part of the card is labelled in words. */}
-      <p className="mt-2 text-sm text-soft">
-        <span className="font-medium">Latest source:</span> Hospital {fact.hospital}, {formatDate(fact.date)}
+      <p className="mt-2">
+        {hospitalFull(fact.hospital)}, {formatDate(fact.date)}
       </p>
       {(() => {
         const quote = (
-          <blockquote className="mt-1 rounded-xl bg-mint px-3 py-2 text-sm break-words">
-            <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
-          </blockquote>
+          <div className="mt-1">
+            <QuoteBlock text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
+          </div>
         );
         return foldQuotes ? (
-          <details className="mt-1 text-sm">
-            <summary className="cursor-pointer underline">Show quote</summary>
+          <details className="mt-1">
+            <summary className="text-quiet">Show quote</summary>
             {quote}
           </details>
         ) : (
@@ -93,12 +91,12 @@ export default function FactCard({
       })()}
 
       {otherSources.length > 0 && (
-        <div className="mt-2 text-sm text-soft">
+        <div className="mt-2 text-quiet">
           <p className="font-medium">Also stated by:</p>
           <ul className="list-disc pl-5">
             {otherSources.map((s) => (
               <li key={`${s.file}-${s.date}`} className="break-words">
-                Hospital {s.hospital}, {formatDate(s.date)}: <Quote text={s.quote} file={s.file} terms={quoteTerms(fact)} />
+                {hospitalShort(s.hospital)}, {formatDate(s.date)}: <Quote text={s.quote} file={s.file} terms={quoteTerms(fact)} />
               </li>
             ))}
           </ul>
@@ -106,7 +104,7 @@ export default function FactCard({
       )}
 
       {fact.history.length > 0 && (
-        <div className="mt-2 text-sm text-soft">
+        <div className="mt-2 text-quiet">
           <p className="font-medium">Earlier (older values of this fact):</p>
           <ul className="list-disc pl-5">
             {fact.history.map((h) => (
@@ -114,7 +112,7 @@ export default function FactCard({
                 {[statusLabel({ type: fact.type, status: h.status }), h.dose, h.frequency && (FREQUENCY_LABELS[h.frequency] ?? h.frequency)]
                   .filter(Boolean)
                   .join(", ")}{" "}
-                (Hospital {h.hospital}, {formatDate(h.date)}): <Quote text={h.quote} terms={quoteTerms(fact, h.dose)} />
+                ({hospitalShort(h.hospital)}, {formatDate(h.date)}): <Quote text={h.quote} terms={quoteTerms(fact, h.dose)} />
               </li>
             ))}
           </ul>
@@ -122,13 +120,10 @@ export default function FactCard({
       )}
 
       {fact.flags.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
+        <ul className="mt-2 flex flex-wrap gap-2">
           {fact.flags.map((flag) => (
-            <li
-              key={flag}
-              className="bg-peach text-alert-ink rounded-full px-3 py-0.5 text-sm font-medium"
-            >
-              Warning: {FLAG_LABELS[flag]}
+            <li key={flag}>
+              <Tag kind="warn">{FLAG_LABELS[flag]}</Tag>
             </li>
           ))}
         </ul>

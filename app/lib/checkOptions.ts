@@ -15,6 +15,7 @@
 import { FREQUENCY_LABELS, statusLabel } from "./labels";
 import { doseChange } from "./banner";
 import { formatDate } from "./dates";
+import { hospitalFull } from "./hospitals";
 import { factName } from "./names";
 import type { Fact, Flag } from "./types";
 
@@ -56,7 +57,7 @@ function sourceOptions(f: Fact): CheckOption[] {
     if (out.some((o) => o.hospital === s.hospital)) continue;
     const status = f.status === "current" ? "" : `, ${lower(statusLabel(f))}`;
     out.push({
-      who: `Hospital ${s.hospital}`,
+      who: hospitalFull(s.hospital),
       hospital: s.hospital,
       detail: f.status === "none_recorded" ? `Its record says "${lower(statusLabel(f))}", dated ${formatDate(s.date)}.` : `Its record lists ${factWords(f)}${status}, dated ${formatDate(s.date)}.`,
     });
@@ -70,7 +71,7 @@ function historyOptions(f: Fact, already: CheckOption[]): CheckOption[] {
   for (const h of f.history) {
     if ([...already, ...out].some((o) => o.hospital === h.hospital)) continue;
     const was = [lower(statusLabel({ type: f.type, status: h.status })), doseWords(h.dose, h.frequency)].filter(Boolean).join(", ");
-    out.push({ who: `Hospital ${h.hospital}`, hospital: h.hospital, detail: `Its earlier record, dated ${formatDate(h.date)}, gave: ${was}.` });
+    out.push({ who: hospitalFull(h.hospital), hospital: h.hospital, detail: `Its earlier record, dated ${formatDate(h.date)}, gave: ${was}.` });
   }
   return out;
 }
@@ -100,7 +101,7 @@ const FLAG_SHOWS: Partial<Record<Flag, { title: string; shows: (f: Fact) => stri
     shows: (f) => {
       const change = doseChange(f);
       return change
-        ? `The latest dated record gives ${change.to}; an earlier record gave ${change.from}. The latest dated dose is shown and the earlier one is kept under "Earlier".`
+        ? `The latest dated record gives ${change.to}; an earlier record gave ${change.from}. The latest dated dose is shown and the earlier one is kept as "Earlier dose".`
         : "The dose differs from an earlier record. The latest dated dose is shown.";
     },
   },

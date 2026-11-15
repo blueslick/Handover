@@ -1,33 +1,36 @@
 // Doctor screen. The patient ID comes from the address (/?id=D001).
 // Reads JSON from app/data/ only: no model calls, no key.
-// T75 (Minimal look): the main column shows only what a doctor needs first (what to
-// check, allergies, current medicines, stopped medicines, diagnoses). Tapping a line
-// puts its source in the right-hand panel (address: &fact=...). "See both records" and
-// "over time" open their own views (address: &show=...). Everything is a plain link,
-// so it works without JavaScript and the address says what is showing.
+// T81 (clinical look): the patient banner is pinned at the top, then "Check first", then
+// plain tables for allergies, medications, problems and operations. Choosing a row puts
+// its source in the right-hand panel (address: &fact=...). "See both" and "Record over
+// time" open their own views (address: &show=...). Everything is a plain link, so it
+// works without JavaScript and the address says what is showing.
+// The Baseline and Compare views are still here (address: &view=...), but they are opened
+// from the How we tested tab now, not from this screen.
 import Link from "next/link";
 import { Suspense } from "react";
-import { isKnownId, liveRun, liveRuns, loadRecordState, parsePageView, SAMPLE_IDS, type LiveRun, type PageView, type View } from "@/lib/records";
+import { isKnownId, liveRun, loadRecordState, parsePageView, SAMPLE_IDS, type LiveRun, type PageView, type View } from "@/lib/records";
 import type { Fact } from "@/lib/types";
 import { loadOmission } from "@/lib/omission";
 import { splitSections } from "@/lib/sections";
 import { formatDate, joinWords } from "@/lib/dates";
-import { bannerLines } from "@/lib/banner";
+import { bannerLines, checkLabels, conflictAnchor, factAnchor, stillListedAt } from "@/lib/banner";
 import { conflictPlan } from "@/lib/checkOptions";
+import { FREQUENCY_LABELS, statusLabel } from "@/lib/labels";
 import { factName } from "@/lib/names";
-import { hospitalEntries } from "@/lib/timeline";
 import BaselineSummary from "./components/BaselineSummary";
 import CheckOptionsBox from "./components/CheckOptionsBox";
 import CompareView from "./components/CompareView";
-import ConflictView, { HospitalDot, recordsRisk } from "./components/ConflictView";
+import ConflictView from "./components/ConflictView";
 import FactList from "./components/FactList";
-import FactRow from "./components/FactRow";
+import { SourceLines } from "./components/Hosp";
 import OlderRecordNote from "./components/OlderRecordNote";
 import OmissionBox from "./components/OmissionBox";
-import Page, { Card } from "./components/Page";
+import Page, { Box, Card } from "./components/Page";
+import PatientBanner from "./components/PatientBanner";
 import SourcePanel from "./components/SourcePanel";
+import Tag from "./components/Tag";
 import TimelineView from "./components/TimelineView";
-import Tip from "./components/Tip";
 
 type SearchParams = Promise<{ id?: string | string[]; view?: string | string[]; fact?: string | string[]; show?: string | string[] }>;
 const one = (v: string | string[] | undefined) => (Array.isArray(v) ? v[0] : v)?.trim() ?? "";
@@ -41,41 +44,17 @@ function href(id: string, o: { view?: PageView; fact?: string; show?: string } =
   return `/?${p.toString()}`;
 }
 
-// Links to the sample IDs, behind "Sample patients" and on the unknown-ID message.
-// T68 item 5: grouped and labelled, so it is clear D001 is the demo patient and the
-// P IDs are the working patients the tool was tuned on.
-// On Daniel's laptop, live runs (T58) are listed too; on the public link there are none.
+// Links to the sample IDs, on the unknown-ID message (CLAUDE.md: an unknown patient ID
+// gets a clear message and the list of sample IDs).
 function SampleIds() {
-  const live = liveRuns();
-  const demo = SAMPLE_IDS.filter((id) => id.startsWith("D"));
-  const working = SAMPLE_IDS.filter((id) => !id.startsWith("D"));
-  const links = (ids: string[]) =>
-    ids.map((id) => (
-      <Link key={id} href={`/?id=${id}`} className="underline font-medium mr-2 inline-block">
-        {id}
-      </Link>
-    ));
   return (
-    <div className="mt-2 text-sm">
-      {demo.length > 0 && (
-        <p>
-          <span className="text-soft">Demo patient: </span>
-          {links(demo)}
-        </p>
-      )}
-      {working.length > 0 && (
-        <p className="mt-1">
-          <span className="text-soft">Working patients (used to tune the tool): </span>
-          {links(working)}
-        </p>
-      )}
-      {live.length > 0 && (
-        <p className="mt-1">
-          <span className="text-soft">Live runs on this laptop: </span>
-          {links(live.map((p) => p.patient_id))}
-        </p>
-      )}
-    </div>
+    <p className="mt-2">
+      {SAMPLE_IDS.map((id) => (
+        <Link key={id} href={`/?id=${id}`} className="mr-2 inline-block font-medium underline">
+          {id}
+        </Link>
+      ))}
+    </p>
   );
 }
 
@@ -84,14 +63,14 @@ function LiveNote({ run }: { run: LiveRun }) {
   const made = new Date(run.made_at);
   const when = isNaN(made.getTime()) ? run.made_at : made.toLocaleString("en-GB");
   return (
-    <Card className="border-2 border-ink">
-      <p className="font-medium">Live run on this laptop.</p>
+    <Card className="border-ink">
+      <p className="font-semibold">Live run on this laptop.</p>
       <p className="mt-1">
         Read just now by {run.model} at {when}, from these files: {run.source_files.join(", ")}. Each record
         went through the same steps as the tested tool: read by Claude, every fact checked against the
         record&rsquo;s own words, then merged with the six rules.
       </p>
-      <p className="mt-1 text-sm">
+      <p className="mt-1 text-xs text-quiet">
         Tool: {run.tool}. Run {run.run_id}. This record stays on this laptop; the public link only replays a
         saved run.
       </p>
@@ -102,69 +81,33 @@ function LiveNote({ run }: { run: LiveRun }) {
 // The patient shown when the address has no ID (T68 item 2).
 const DEFAULT_ID = SAMPLE_IDS.includes("D001") ? "D001" : (SAMPLE_IDS[0] ?? "");
 
-// The three-way switch (T27, T68 item 21). Links, so it works without JavaScript and the
-// address says which view is showing. The current choice is marked in words and with a
-// solid fill, not by colour alone.
-function ViewSwitch({ id, view }: { id: string; view: PageView }) {
-  const options: { value: PageView; label: string; full: string }[] = [
-    { value: "handover", label: "Handover", full: "Handover (our tool)" },
-    { value: "baseline", label: "Baseline", full: "Baseline (keyword search)" },
-    { value: "compare", label: "Compare", full: "Compare side by side" },
-  ];
+// The thin bar under the patient banner: the two views of the record as tabs, and one
+// line saying where the record came from.
+function RecordBar({ id, showing }: { id: string; showing: "summary" | "timeline" }) {
+  const tab = (label: string, to: string, current: boolean) => (
+    <Link href={to} aria-current={current ? "page" : undefined} className={`flex min-h-10 items-center border-b-2 px-3 ${current ? "border-accent font-semibold text-ink" : "border-transparent text-quiet hover:text-ink"}`}>
+      {label}
+    </Link>
+  );
   return (
-    <nav aria-label="Choose which record to show">
-      <ul className="inline-flex flex-wrap gap-1 rounded-full bg-white p-1.5">
-        {options.map((o) => {
-          const current = o.value === view;
-          return (
-            <li key={o.value}>
-              <Link
-                href={href(id, { view: o.value })}
-                aria-current={current ? "page" : undefined}
-                title={o.full}
-                className={`inline-block rounded-full px-4 py-2 ${current ? "bg-rail text-white font-medium" : "hover:bg-mint"}`}
-              >
-                {o.label}
-                <span className="sr-only">{o.full.slice(o.label.length)}{current && " (showing now)"}</span>
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </nav>
+    <div className="flex flex-wrap items-center gap-x-4 border-b border-line bg-surface px-1 sm:px-3">
+      <nav aria-label="Views of this record" className="flex">
+        {tab("Summary", href(id), showing === "summary")}
+        {tab("Record over time", href(id, { show: "timeline" }), showing === "timeline")}
+      </nav>
+      <p className="px-3 py-1 text-xs sm:ml-auto">Read from hospital records by AI. Check the source before acting.</p>
+    </div>
   );
 }
 
-// The top row: the patient box, the sample patients behind one tap, and the view switch.
-function TopBar({ id, view }: { id: string; view: PageView }) {
+// The bar for the views that leave the summary (baseline, compare, see both): one link back.
+function BackBar({ id, label }: { id: string; label: string }) {
   return (
-    <div className="flex flex-wrap items-start justify-between gap-4">
-      {/* A plain GET form: submitting it puts the ID in the address. */}
-      <form action="/" method="get" className="w-full sm:w-auto sm:flex-1 sm:max-w-sm">
-        <div className="flex items-center gap-2 rounded-full bg-white p-1.5 pl-5">
-          <label htmlFor="id" className="text-sm text-soft whitespace-nowrap">
-            Patient ID
-          </label>
-          <input
-            id="id"
-            name="id"
-            type="text"
-            defaultValue={id}
-            placeholder="e.g. D001"
-            autoComplete="off"
-            className="min-w-0 flex-1 bg-transparent py-2 font-medium outline-none"
-          />
-          {view !== "handover" && <input type="hidden" name="view" value={view} />}
-          <button type="submit" className="rounded-full bg-rail px-5 py-2 text-white font-medium">
-            Show record
-          </button>
-        </div>
-        <details className="mt-2 px-5 text-sm">
-          <summary className="underline underline-offset-2">Sample patients</summary>
-          <SampleIds />
-        </details>
-      </form>
-      {id && <ViewSwitch id={id} view={view} />}
+    <div className="flex flex-wrap items-center gap-x-4 border-b border-line bg-surface px-4 py-2 sm:px-6">
+      <Link href={href(id)} className="font-medium underline underline-offset-2">
+        Back to the record
+      </Link>
+      <p className="text-xs text-quiet sm:ml-auto">{label}</p>
     </div>
   );
 }
@@ -172,8 +115,8 @@ function TopBar({ id, view }: { id: string; view: PageView }) {
 // A message box for the empty and failed states.
 function Notice({ title, children, strong = false }: { title: string; children: React.ReactNode; strong?: boolean }) {
   return (
-    <Card role="alert" className={strong ? "border-4 border-alert" : ""}>
-      <p className="font-medium">{title}</p>
+    <Card role="alert" className={strong ? "border-2 border-warn-line" : ""}>
+      <p className="font-semibold">{title}</p>
       <div className="mt-1">{children}</div>
     </Card>
   );
@@ -182,8 +125,8 @@ function Notice({ title, children, strong = false }: { title: string; children: 
 // What the baseline is, shown above the baseline record so no one mistakes it for the tool's output.
 function BaselineNote() {
   return (
-    <Card className="border-2 border-ink">
-      <p className="font-medium">This is the baseline, not our tool.</p>
+    <Card className="border-ink">
+      <p className="font-semibold">This is the baseline, not our tool.</p>
       <p className="mt-1">
         A simple keyword search read each hospital record and every line it found is listed, with no
         merging: no checking against the source, no conflict warnings, and no rule for which hospital
@@ -198,31 +141,207 @@ function Section({ title, facts }: { title: string; facts: Fact[] }) {
   if (facts.length === 0) return null;
   return (
     <section>
-      <h2 className="text-xl font-medium mb-2">{title}</h2>
+      <h2 className="mb-2 text-base font-semibold">{title}</h2>
       <FactList facts={facts} foldQuotes />
     </section>
   );
 }
 
-// A white card holding short fact lines (Handover view).
-// inline: also show the chosen line's source under it on a phone (only once a line has been tapped).
-function RowCard({ title, facts, id, selected, empty, showStatus = true, inline = false }: { title: string; facts: Fact[]; id: string; selected?: string; empty?: string; showStatus?: boolean; inline?: boolean }) {
-  if (facts.length === 0 && !empty) return null;
+// What every table needs to know about the page it is on.
+interface TableProps {
+  id: string;
+  // The fact whose source is showing, if any.
+  selected?: string;
+  // True once a row has been chosen: on a phone its source then shows under the row.
+  tapped: boolean;
+}
+
+// The name a fact was written under, when it differs from the generic name shown
+// (a brand name such as Glucophage, or another name such as acetaminophen).
+function writtenAs(f: Fact): string | null {
+  const written = f.name_as_written ?? "";
+  return f.status !== "none_recorded" && f.name && written && written.toLowerCase() !== f.name.toLowerCase() ? written : null;
+}
+
+// A fact's sources for the Sources column. A stopped medicine also lists the hospital
+// whose older record still shows it as current, so both sides are in sight.
+function rowSources(f: Fact): { hospital: string; date: string }[] {
+  const out = f.sources.map((s) => ({ hospital: s.hospital, date: s.date }));
+  for (const h of stillListedAt(f)) {
+    const latest = f.history.filter((x) => x.hospital === h && x.status === "current").sort((a, b) => (a.date < b.date ? 1 : -1))[0];
+    if (latest) out.push({ hospital: h, date: latest.date });
+  }
+  return out;
+}
+
+// The parts every row shares: its tint and its id (so "Go to row" can find it), the
+// Check column's labels, the link in the last column, and the source under the row on a phone.
+function rowParts(f: Fact, facts: Fact[], { id, selected, tapped }: TableProps, columns: number) {
+  const labels = checkLabels(f);
+  const isSelected = f.fact_id === selected;
+  // The first row of a group where hospitals disagree carries the group's id.
+  const firstOfGroup = f.conflict_group && facts.find((x) => x.conflict_group === f.conflict_group) === f;
+  return {
+    rowProps: {
+      id: firstOfGroup ? conflictAnchor(f.conflict_group!) : factAnchor(f.fact_id),
+      className: `scroll-mt-28 ${labels.length > 0 ? "row-warn" : ""} ${isSelected ? "row-sel" : ""}`,
+    },
+    check: (
+      <td>
+        {labels.length > 0 && (
+          <span className="flex flex-wrap gap-1">
+            {labels.map((l) => (
+              <Tag key={l} kind="warn">
+                {l}
+              </Tag>
+            ))}
+          </span>
+        )}
+      </td>
+    ),
+    link: (
+      <td className="lnk">
+        {f.conflict_group ? (
+          <Link href={href(id, { show: `conflict-${f.conflict_group}` })} className="underline underline-offset-2">
+            See both<span className="sr-only"> records for {factName(f)}</span>
+          </Link>
+        ) : (
+          <Link href={href(id, { fact: f.fact_id })} scroll={false} aria-current={isSelected ? "true" : undefined} className="underline underline-offset-2">
+            Source<span className="sr-only"> of {factName(f)}</span>
+          </Link>
+        )}
+      </td>
+    ),
+    // On a phone or tablet the right-hand panel sits far below, so the source shows here.
+    inline: isSelected && tapped && (
+      <tr key={`${f.fact_id}-source`} className="xl:hidden">
+        <td colSpan={columns} className="bg-surface">
+          <SourcePanel fact={f} headingId="source-inline" />
+        </td>
+      </tr>
+    ),
+  };
+}
+
+// Allergies: always said in words, even when no record mentions them.
+function AllergyTable({ facts, ...p }: TableProps & { facts: Fact[] }) {
   return (
-    <Card>
-      <h2 className="text-lg font-medium mb-1">{title}</h2>
+    <Box title="Allergies" id="allergies">
       {facts.length === 0 ? (
-        <p className="px-4 py-2 text-soft">{empty}</p>
+        <p className="px-3 py-2 text-quiet">No line about allergies was found in these records. That is not the same as no known allergies.</p>
       ) : (
-        <ul className="flex flex-col gap-1 -mx-2">
-          {facts.map((f) => (
-            <FactRow key={f.fact_id} fact={f} href={href(id, { fact: f.fact_id })} selected={f.fact_id === selected} showStatus={showStatus}>
-              {inline && <SourcePanel fact={f} headingId="source-inline" />}
-            </FactRow>
-          ))}
-        </ul>
+        <table className="dt stack">
+          <thead>
+            <tr>
+              <th scope="col" className="w-[24%]">Allergy</th>
+              <th scope="col" className="w-[14%]">Reaction</th>
+              <th scope="col" className="w-[16%]">Status</th>
+              <th scope="col">Sources</th>
+              <th scope="col" className="w-[19%]">Check</th>
+              <th scope="col" className="lnk"><span className="sr-only">Open</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            {facts.flatMap((f) => {
+              const r = rowParts(f, facts, p, 6);
+              const real = f.status === "current" || f.status === "suspected";
+              return [
+                <tr key={f.fact_id} {...r.rowProps}>
+                  <td className={real ? "font-semibold" : ""}>{factName(f)}</td>
+                  <td>{f.reaction ?? ""}</td>
+                  <td>{real ? <Tag kind="crit">{statusLabel(f)}</Tag> : f.status === "none_recorded" ? "None recorded" : statusLabel(f)}</td>
+                  <td><SourceLines sources={rowSources(f)} /></td>
+                  {r.check}
+                  {r.link}
+                </tr>,
+                r.inline,
+              ];
+            })}
+          </tbody>
+        </table>
       )}
-    </Card>
+    </Box>
+  );
+}
+
+// Medications: current ones first, then planned or "none recorded" lines, then stopped ones.
+function MedTable({ facts, ...p }: TableProps & { facts: Fact[] }) {
+  return (
+    <Box title="Medications" id="meds">
+      {facts.length === 0 ? (
+        <p className="px-3 py-2 text-quiet">No medicines are listed in these records.</p>
+      ) : (
+        <table className="dt stack">
+          <thead>
+            <tr>
+              <th scope="col" className="w-[22%]">Medicine</th>
+              <th scope="col">Dose</th>
+              <th scope="col">Frequency</th>
+              <th scope="col">Status</th>
+              <th scope="col">Sources</th>
+              <th scope="col" className="w-[19%]">Check</th>
+              <th scope="col" className="lnk"><span className="sr-only">Open</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            {facts.flatMap((f) => {
+              const r = rowParts(f, facts, p, 7);
+              const written = writtenAs(f);
+              return [
+                <tr key={f.fact_id} {...r.rowProps}>
+                  <td>
+                    <span className={f.status === "none_recorded" ? "" : "font-semibold"}>{factName(f)}</span>
+                    {written && <span className="text-xs text-quiet"> written as {written}</span>}
+                  </td>
+                  <td className="whitespace-nowrap">{f.dose ?? ""}</td>
+                  <td className="whitespace-nowrap">{f.frequency ? (FREQUENCY_LABELS[f.frequency] ?? f.frequency) : ""}</td>
+                  <td className="whitespace-nowrap">{f.status === "stopped" ? `Stopped ${formatDate(f.date)}` : f.status === "none_recorded" ? "None recorded" : statusLabel(f)}</td>
+                  <td><SourceLines sources={rowSources(f)} /></td>
+                  {r.check}
+                  {r.link}
+                </tr>,
+                r.inline,
+              ];
+            })}
+          </tbody>
+        </table>
+      )}
+    </Box>
+  );
+}
+
+// Problems (diagnoses) and operations: name, status, sources.
+function PlainTable({ title, column, anchor, facts, ...p }: TableProps & { title: string; column: string; anchor: string; facts: Fact[] }) {
+  if (facts.length === 0) return null;
+  return (
+    <Box title={title} id={anchor}>
+      <table className="dt stack">
+        <thead>
+          <tr>
+            <th scope="col" className="w-[24%]">{column}</th>
+            <th scope="col" className="w-[14%]">Status</th>
+            <th scope="col">Sources</th>
+            <th scope="col" className="w-[19%]">Check</th>
+            <th scope="col" className="lnk"><span className="sr-only">Open</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          {facts.flatMap((f) => {
+            const r = rowParts(f, facts, p, 5);
+            return [
+              <tr key={f.fact_id} {...r.rowProps}>
+                <td className="font-semibold">{factName(f)}</td>
+                <td>{statusLabel(f)}</td>
+                <td><SourceLines sources={rowSources(f)} /></td>
+                {r.check}
+                {r.link}
+              </tr>,
+              r.inline,
+            ];
+          })}
+        </tbody>
+      </table>
+    </Box>
   );
 }
 
@@ -232,108 +351,6 @@ function conflictTitle(group: Fact[]): string {
   const type = group[0].type;
   if (names.length === 0) return type === "allergy" ? "Allergies" : type === "medicine" ? "Medicines" : type === "diagnosis" ? "Diagnoses" : "Operations";
   return `${joinWords(names)}${type === "allergy" ? " allergy" : ""}`;
-}
-
-// The patient's label under the ID in the right-hand panel.
-function patientKind(id: string): string {
-  if (liveRun(id)) return "Live run on this laptop";
-  return id.startsWith("D") ? "Demo patient" : "Working patient, used to tune the tool";
-}
-
-// The right-hand panel of the Handover view: who the patient is, the records, the source
-// of the chosen fact, and the double-check.
-function Aside({ id, facts, picked, omission }: { id: string; facts: Fact[]; picked: Fact | null; omission: React.ReactNode }) {
-  const lines = bannerLines(facts);
-  const entries = hospitalEntries(facts);
-  // The most recent date in the record, so its hospital can be marked.
-  const newest = entries.reduce<string | null>((a, e) => (e.latest !== null && (a === null || e.latest > a) ? e.latest : a), null);
-  return (
-    <>
-      <div className="flex items-center gap-3">
-        <span aria-hidden="true" className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-mint text-rail">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 21c0-4 4-6 8-6s8 2 8 6" />
-          </svg>
-        </span>
-        <div>
-          <p className="text-lg font-medium">Patient {id}</p>
-          <p className="text-sm text-soft">{patientKind(id)}</p>
-        </div>
-      </div>
-
-      <dl className="grid grid-cols-3 divide-x divide-sage">
-        <div>
-          <dt className="text-sm text-soft">Hospitals</dt>
-          <dd className="text-xl font-medium">{entries.length}</dd>
-        </div>
-        <div className="pl-3">
-          <dt className="text-sm text-soft">Facts</dt>
-          <dd className="text-xl font-medium">{facts.length}</dd>
-        </div>
-        <div className="pl-3">
-          <dt className="text-sm text-soft">To check</dt>
-          <dd className={`text-xl font-medium ${lines.length > 0 ? "text-alert-ink" : ""}`}>
-            {lines.length > 0 ? (
-              <Tip
-                tip={
-                  <>
-                    {lines.map((l) => (
-                      <span key={l.key} className="block mb-1 last:mb-0">
-                        {l.text}
-                      </span>
-                    ))}
-                  </>
-                }
-              >
-                {lines.length}
-              </Tip>
-            ) : (
-              0
-            )}
-          </dd>
-        </div>
-      </dl>
-
-      {entries.length > 0 && (
-        <section aria-labelledby="entries-heading">
-          <h2 id="entries-heading" className="text-lg font-medium">
-            Latest entry from each hospital
-          </h2>
-          <ul className="mt-2 flex gap-2">
-            {entries.map((e) => (
-              <li key={e.hospital} className="flex-1">
-                <Tip className="w-full" tip={`${e.facts} of the ${facts.length} facts come from Hospital ${e.hospital}`}>
-                  <span className={`flex w-full flex-col items-center rounded-2xl px-1 py-2 text-center ${e.latest !== null && e.latest === newest ? "bg-rail text-white" : "bg-mint"}`}>
-                    <span className="text-sm">
-                      <span className="sr-only">Hospital </span>
-                      {e.hospital}
-                    </span>
-                    <span className="text-sm font-medium">{formatDate(e.latest)}</span>
-                    {e.latest !== null && e.latest === newest && <span className="sr-only"> (most recent)</span>}
-                  </span>
-                </Tip>
-              </li>
-            ))}
-          </ul>
-          <Link href={href(id, { show: "timeline" })} className="mt-2 inline-block text-sm font-medium underline underline-offset-2">
-            See allergies and medicines over time
-          </Link>
-        </section>
-      )}
-
-      {/* On a phone or tablet the source shows under the tapped line instead (FactRow). */}
-      {picked ? (
-        <div className="hidden xl:block">
-          <SourcePanel fact={picked} />
-        </div>
-      ) : (
-        <p className="rounded-2xl bg-mint px-4 py-3 text-soft">Tap a line to see where it came from.</p>
-      )}
-
-      {omission}
-    </>
-  );
 }
 
 // Looks up the ID and shows the record, or the right message when there is none.
@@ -350,7 +367,6 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   if (!id) {
     return (
       <Page>
-        <TopBar id="" view="handover" />
         <Card>Enter a patient ID above to see the merged record.</Card>
       </Page>
     );
@@ -361,29 +377,24 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   // T68 item 21: Compare view needs both records; if the baseline is missing, say so.
   if (pageView === "compare" && load.state === "ok") {
     const base = await loadRecordState(id, "baseline");
+    const pid = load.record.patient_id;
     return (
-      <Page>
-        <TopBar id={load.record.patient_id} view={pageView} />
-        <h1 className="text-2xl font-medium">
-          Patient {load.record.patient_id}: Handover and baseline side by side
-        </h1>
+      <Page banner={<PatientBanner id={pid} facts={load.record.facts} />} bar={<BackBar id={pid} label="Handover and the keyword baseline, side by side" />}>
+        <h1 className="text-xl font-semibold">Patient {pid}: Handover and baseline side by side</h1>
         {base.state === "ok" ? (
           <CompareView handover={load.record} baseline={base.record} />
         ) : (
-          <Notice title={`No baseline record to compare for “${id}”.`}>
-            Switch back to Handover to see this patient&rsquo;s merged record.
-          </Notice>
+          <Notice title={`No baseline record to compare for “${id}”.`}>Go back to the record to see this patient&rsquo;s merged record.</Notice>
         )}
       </Page>
     );
   }
 
-  // A known patient with no baseline file: keep the switch so the doctor can go back.
+  // A known patient with no baseline file: keep a way back.
   if (view === "baseline" && load.state === "missing" && isKnownId(id)) {
     return (
-      <Page>
-        <TopBar id={id} view={view} />
-        <Notice title={`No baseline record for “${id}”.`}>Switch back to Handover to see this patient&rsquo;s merged record.</Notice>
+      <Page bar={<BackBar id={id} label="Keyword baseline" />}>
+        <Notice title={`No baseline record for “${id}”.`}>Go back to the record to see this patient&rsquo;s merged record.</Notice>
       </Page>
     );
   }
@@ -392,7 +403,6 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   if (load.state === "failed") {
     return (
       <Page>
-        <TopBar id={id} view={view} />
         <Notice strong title={`The record for “${id}” could not be loaded.`}>
           The file is damaged, so nothing is shown rather than part of the record.
         </Notice>
@@ -403,7 +413,6 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   if (load.state === "missing") {
     return (
       <Page>
-        <TopBar id={id} view="handover" />
         <Notice title={`No record found for “${id}”.`}>
           <p>There is no published patient with that ID. Try one of these:</p>
           <SampleIds />
@@ -421,13 +430,12 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
     const { sections } = splitSections(facts, "baseline");
     const handover = await loadRecordState(pid, "handover");
     return (
-      <Page>
-        <TopBar id={pid} view={view} />
+      <Page banner={handover.state === "ok" ? <PatientBanner id={pid} facts={handover.record.facts} /> : undefined} bar={<BackBar id={pid} label="Keyword baseline, not our tool" />}>
         <BaselineNote />
         {handover.state === "ok" && <BaselineSummary handover={handover.record} baseline={record} />}
         <div>
-          <h1 className="text-2xl font-medium">Patient {pid}: baseline</h1>
-          <p className="text-sm text-soft">
+          <h1 className="text-xl font-semibold">Patient {pid}: baseline</h1>
+          <p className="text-quiet">
             Every line the keyword search found in {record.built_from.length} hospital records: {facts.length} entries.
           </p>
         </div>
@@ -440,42 +448,50 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
 
   // Handover view.
   const { sections, olderMeds } = splitSections(facts, "handover");
-  const [allergies, current, stopped, otherMeds, diagnoses, operations] = sections.map((s) => s.facts.filter((f) => !f.conflict_group));
+  const [allergies, current, stopped, otherMeds, diagnoses, operations] = sections.map((s) => s.facts);
+  // Stopped medicines sit under current ones (and under planned or "none recorded" lines).
+  const meds = [...current, ...otherMeds, ...stopped];
   const lines = bannerLines(facts);
   // The groups of facts where hospitals disagree, in the order they appear.
   const groups = [...new Set(facts.map((f) => f.conflict_group).filter((g): g is string => Boolean(g)))];
   // Word-search hint (T64), only from the same run as the record.
   const omissionLoad = await loadOmission(pid, record.run_id);
-  const omission = <OmissionBox load={omissionLoad} />;
   const live = liveRun(pid);
 
   // Which fact's source the right-hand panel shows: the one in the address, or else the
   // first line with a warning, or else the first current medicine.
   const wanted = one(sp.fact);
-  // True once a line has been tapped (the address names a fact).
+  // True once a row has been chosen (the address names a fact).
   const tapped = facts.some((f) => f.fact_id === wanted);
   const picked =
     facts.find((f) => f.fact_id === wanted) ??
     facts.find((f) => !f.conflict_group && f.flags.length > 0 && (f.type === "allergy" || f.type === "medicine")) ??
-    current[0] ??
+    current.find((f) => !f.conflict_group) ??
     facts.find((f) => !f.conflict_group) ??
     null;
-  const aside = <Aside id={pid} facts={facts} picked={picked} omission={omission} />;
-  const show = one(sp.show);
-  const back = (
-    <Link href={href(pid)} className="self-start rounded-full bg-white px-5 py-2 font-medium text-rail-ink">
-      Back to patient {pid}
-    </Link>
+  const aside = (
+    <>
+      {/* On a phone or tablet the source shows under the chosen row instead (rowParts). */}
+      {picked ? (
+        <div className={tapped ? "hidden xl:block" : ""}>
+          <SourcePanel fact={picked} />
+        </div>
+      ) : (
+        <p className="text-quiet">Choose a row to see where it came from.</p>
+      )}
+      <OmissionBox load={omissionLoad} />
+    </>
   );
+  const banner = <PatientBanner id={pid} facts={facts} />;
+  const show = one(sp.show);
 
-  // "Over time" view.
+  // "Record over time" view.
   if (show === "timeline") {
     return (
-      <Page aside={aside} asideLabel="Patient and source">
-        {back}
+      <Page banner={banner} bar={<RecordBar id={pid} showing="timeline" />} aside={aside} asideLabel="Source">
         <div>
-          <h1 className="text-2xl font-medium">Patient {pid}: allergies and medicines over time</h1>
-          <p className="text-soft">Oldest first. Orange marks a recorded allergy or a stopped medicine.</p>
+          <h1 className="text-xl font-semibold">Allergies and medicines over time</h1>
+          <p className="text-quiet">Oldest first. A recorded allergy or a stopped medicine is marked &ldquo;Check this&rdquo;.</p>
         </div>
         <TimelineView facts={facts} />
       </Page>
@@ -487,89 +503,46 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   if (shownGroup) {
     const group = facts.filter((f) => f.conflict_group === shownGroup);
     return (
-      <Page aside={aside} asideLabel="Patient and source">
-        {back}
-        <div>
-          <h1 className="text-2xl font-medium">{conflictTitle(group)}: hospitals disagree</h1>
-          <p className="text-soft">Both records are shown. The tool does not pick one.</p>
-        </div>
+      <Page banner={banner} bar={<BackBar id={pid} label="Both records are shown. The tool does not pick one." />} aside={aside} asideLabel="Source">
+        <h1 className="text-xl font-semibold">{conflictTitle(group)}: hospitals disagree</h1>
         <ConflictView facts={group} />
         {/* T80: the options for checking it, so the doctor is not left with a warning alone. */}
-        <CheckOptionsBox plan={conflictPlan(group)} />
+        <CheckOptionsBox plan={conflictPlan(group)} open />
       </Page>
     );
   }
 
+  const table = { id: pid, selected: picked?.fact_id, tapped };
   return (
-    <Page aside={aside} asideLabel="Patient and source">
-      <TopBar id={pid} view={view} />
+    <Page banner={banner} bar={<RecordBar id={pid} showing="summary" />} aside={aside} asideLabel="Source">
       <h1 className="sr-only">Patient {pid}: merged record</h1>
       {live && <LiveNote run={live} />}
 
-      {/* Each disagreement between hospitals gets the biggest card on the screen. */}
-      {groups.map((g) => {
-        const group = facts.filter((f) => f.conflict_group === g);
-        const line = lines.find((l) => l.key === `conflict-${g}`);
-        return (
-          <Card key={g} id={`conflict-${g}`} className="scroll-mt-4 flex flex-wrap items-center justify-between gap-6">
-            <div className="flex-1 basis-72">
-              <h2 className="text-2xl font-medium leading-tight">{conflictTitle(group)}: hospitals disagree</h2>
-              <p className="mt-2 text-soft">{line ? line.text.slice(line.text.indexOf(": ") + 2) : "Two hospital records say different things."}</p>
-              <Link href={href(pid, { show: `conflict-${g}` })} className="mt-3 inline-block font-medium underline underline-offset-2">
-                See both records and ways to check
-              </Link>
-            </div>
-            {/* A picture of the two sides: orange for the side that records something. */}
-            <div aria-hidden="true" className="hidden md:flex items-end justify-center gap-3 rounded-t-full bg-leaf px-10 pt-8 pb-4">
-              {group.flatMap((f) => [...new Set(f.sources.map((s) => s.hospital))].map((h) => <HospitalDot key={`${f.fact_id}-${h}`} letter={h} alert={recordsRisk(f)} size={recordsRisk(f) ? "h-16 w-16 text-2xl" : "h-12 w-12 text-lg"} />))}
-            </div>
-          </Card>
-        );
-      })}
-
-      {/* Allergies: always said in words, even when no record mentions them. */}
-      {(allergies.length > 0 || sections[0].facts.length === 0) && (
-        <RowCard
-          title="Allergies"
-          facts={allergies}
-          id={pid}
-          selected={picked?.fact_id}
-          inline={tapped}
-          empty="No line about allergies was found in these records. That is not the same as no known allergies."
-        />
+      {/* What the doctor must look at first: one warning icon and one sentence per problem. */}
+      {lines.length > 0 && (
+        <Box title="Check first" id="check-first" tone="warn">
+          <ul>
+            {lines.map((l) => (
+              <li key={l.key} className="flex flex-wrap items-center gap-x-3 gap-y-1 border-b border-line px-3 py-1.5 last:border-b-0">
+                <span className="sm:w-40 sm:shrink-0">
+                  <Tag kind="warn" icon>
+                    {l.label}
+                  </Tag>
+                </span>
+                <span className="min-w-0 flex-1 basis-64">{l.text}</span>
+                <a href={`#${l.target}`} className="whitespace-nowrap underline underline-offset-2">
+                  Go to row
+                </a>
+              </li>
+            ))}
+          </ul>
+        </Box>
       )}
 
-      <RowCard title="Current medicines" facts={current} id={pid} selected={picked?.fact_id} inline={tapped} showStatus={false} empty="No current medicines are listed in these records." />
-
-      <div className="grid gap-5 md:grid-cols-2">
-        {/* T68 item 19: stopped medicines straight under current ones, with a plain warning. */}
-        {stopped.map((f) => (
-          <Link
-            key={f.fact_id}
-            id={`fact-${f.fact_id}`}
-            href={href(pid, { fact: f.fact_id })}
-            scroll={false}
-            className={`scroll-mt-4 flex flex-col gap-1 rounded-3xl bg-alert p-6 text-white ${f.fact_id === picked?.fact_id ? "ring-4 ring-ink" : ""}`}
-          >
-            <span className="font-normal">Stopped: do not continue without checking</span>
-            <span className="mt-auto pt-6 text-4xl font-medium leading-tight break-words">{factName(f)}</span>
-            <span className="font-normal">
-              since {formatDate(f.date)}, Hospital {f.hospital}
-            </span>
-          </Link>
-        ))}
-        {/* The chosen stopped medicine's source, under its card on a phone or tablet. */}
-        {stopped
-          .filter((f) => tapped && f.fact_id === picked?.fact_id)
-          .map((f) => (
-            <div key={`${f.fact_id}-source`} className="xl:hidden rounded-3xl bg-white p-5">
-              <SourcePanel fact={f} headingId="source-inline" />
-            </div>
-          ))}
-        <RowCard title="Other medicines (planned, or none recorded)" facts={otherMeds} id={pid} selected={picked?.fact_id} inline={tapped} />
-        <RowCard title="Diagnoses" facts={diagnoses} id={pid} selected={picked?.fact_id} inline={tapped} />
-        <RowCard title="Operations" facts={operations} id={pid} selected={picked?.fact_id} inline={tapped} />
-      </div>
+      <AllergyTable facts={allergies} {...table} />
+      <MedTable facts={meds} {...table} />
+      <PlainTable title="Problems" column="Problem" anchor="problems" facts={diagnoses} {...table} />
+      <PlainTable title="Operations" column="Operation" anchor="operations" facts={operations} {...table} />
 
       <OlderRecordNote facts={olderMeds} />
     </Page>
@@ -577,7 +550,7 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
 }
 
 export default function Home({ searchParams }: { searchParams: SearchParams }) {
-  // The disclaimer is in components/Page.tsx, so every tab shows it.
+  // The disclaimer is in components/Page.tsx, so every tab shows them.
   return (
     <Suspense
       fallback={

@@ -5,24 +5,25 @@
 import { statusLabel } from "@/lib/labels";
 import type { Fact } from "@/lib/types";
 import { formatDate } from "@/lib/dates";
+import { hospitalShort } from "@/lib/hospitals";
 
 export default function OlderRecordNote({ facts }: { facts: Fact[] }) {
   if (facts.length === 0) return null;
   return (
     <section
       aria-label="Older record: medicines"
-      className="rounded-3xl border border-dashed border-soft text-soft p-5"
+      className="rounded-box border border-dashed border-line-strong p-3 text-quiet"
     >
-      <h2 className="text-base font-medium">Older record</h2>
-      <p className="mt-1 text-sm">
+      <h2 className="text-base font-semibold">Older record</h2>
+      <p className="mt-1">
         A later hospital record lists current medicines, so this earlier line is kept here as
         history only.
       </p>
-      <ul className="mt-2 list-disc pl-5 text-sm">
+      <ul className="mt-2 list-disc pl-5">
         {facts.flatMap((fact) =>
           fact.sources.map((s) => (
             <li key={`${fact.fact_id}-${s.file}-${s.date}`} className="break-words">
-              {statusLabel(fact)} (Hospital {s.hospital}, {formatDate(s.date)}): “{s.quote}”
+              {statusLabel(fact)} ({hospitalShort(s.hospital)}, {formatDate(s.date)}): <span className="font-mono text-xs">“{s.quote}”</span>
             </li>
           )),
         )}

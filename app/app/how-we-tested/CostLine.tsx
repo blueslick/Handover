@@ -11,15 +11,13 @@ export default function CostLine({ entries }: { entries?: CostEntry[] }) {
   if (!entries || entries.length === 0) return null;
   return (
     <section aria-labelledby="cost-heading">
-      <h2 id="cost-heading" className="text-lg font-medium">
+      <h2 id="cost-heading" className="font-semibold">
         AI cost per patient
       </h2>
-      <p className="text-sm text-soft">For three hospital records.</p>
-      <ul className="mt-2 flex flex-col gap-2">
+      <ul className="mt-1 flex list-disc flex-col gap-1 pl-5">
         {entries.map((e) => (
-          <li key={e.model} className="rounded-2xl bg-mint px-4 py-3">
-            <p className="text-xl font-medium">{cents(e.us_cents)}</p>
-            <p className="text-sm text-soft">{e.model}</p>
+          <li key={e.model}>
+            <span className="font-medium">{cents(e.us_cents)}</span> for three hospital records: {e.model}
           </li>
         ))}
       </ul>

@@ -1,7 +1,6 @@
 // A source quote, word for word (T68 item 17). Nothing in the text is changed: it is
 // only split into pieces so the parts that match the fact (drug name, dose, status)
-// can be highlighted. Rows from a table (CSV) file are shown in a fixed-width font,
-// because a comma-separated row is hard to read in italics.
+// can be highlighted.
 import type { Fact } from "@/lib/types";
 
 // Words that show a status in the hospital records' own wording.
@@ -48,14 +47,13 @@ export function isTableRow(text: string, file?: string | null): boolean {
   return Boolean(file?.toLowerCase().endsWith(".csv")) || (text.match(/,/g)?.length ?? 0) >= 4;
 }
 
-export default function Quote({ text, file, terms }: { text: string; file?: string | null; terms: string[] }) {
-  const table = isTableRow(text, file);
+export default function Quote({ text, terms }: { text: string; file?: string | null; terms: string[] }) {
   return (
-    <span className={table ? "font-mono not-italic text-[0.85em] break-all" : ""}>
+    <span>
       “
       {pieces(text, terms).map((p, i) =>
         p.hit ? (
-          <mark key={i} className="bg-yellow-200 text-ink rounded-sm px-0.5 font-medium">
+          <mark key={i} className="rounded-sm bg-accent-tint px-0.5 text-ink">
             {p.text}
           </mark>
         ) : (
@@ -64,5 +62,14 @@ export default function Quote({ text, file, terms }: { text: string; file?: stri
       )}
       ”
     </span>
+  );
+}
+
+// A quote in its own block (T81). Raw record text is the one place the fixed-width font is used.
+export function QuoteBlock({ text, file, terms }: { text: string; file?: string | null; terms: string[] }) {
+  return (
+    <p className="rounded-ctl border border-line bg-panel px-3 py-2 font-mono text-xs break-words whitespace-pre-wrap">
+      <Quote text={text} file={file} terms={terms} />
+    </p>
   );
 }

@@ -2,6 +2,7 @@
 // Worked out from the two records each time, never typed in, so it is right for any
 // patient, including live runs. Only allergies and medicines (the critical facts).
 import { formatDate } from "./dates";
+import { hospitalShort } from "./hospitals";
 import { capitalise } from "./names";
 import type { CompiledRecord, Fact } from "./types";
 
@@ -34,7 +35,7 @@ export function baselineDifferences(handover: CompiledRecord, baseline: Compiled
     const cur = (bBy.get(key(f)) ?? []).filter((x) => x.status === "current");
     if (cur.length > 0) {
       out.push(
-        `Lists ${f.name} as current (${plural(cur.length, "entry", "entries")}), though Hospital ${f.hospital} recorded it stopped on ${formatDate(f.date)}.`,
+        `Lists ${f.name} as current (${plural(cur.length, "entry", "entries")}), though ${hospitalShort(f.hospital)} recorded it stopped on ${formatDate(f.date)}.`,
       );
     }
   }

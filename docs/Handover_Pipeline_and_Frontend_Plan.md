@@ -112,7 +112,7 @@ The line "This project is a prototype and is not medical advice." sits at the bo
 - **Loading.** Extraction takes several seconds, so the upload screen shows which step is running.
 - **When the model fails.** The app says so and offers the preloaded patients instead of a blank page.
 - **Empty states.** An unknown patient ID gets a clear message and the sample IDs.
-- **Keep the styling simple.** Clean cards, not a copy of a real clinical system.
+- **Keep the styling plain and readable, in the manner of clinical software.** Do not copy any one real product's screens, name or logo.
 
 ### Tools
 

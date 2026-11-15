@@ -73,6 +73,11 @@ const rows = table
     wrong_status: int(r.wrong_status, "wrong_status"),
     conflicts_shown: int(r.conflict_shown, "conflict_shown"),
     conflicts_total: int(r.conflict_facts, "conflict_facts"),
+    // T82: what the charts need to work out "share found" and "share correct", and how many
+    // of the false alarms are repeats of a fact that was already counted.
+    matched: int(r.matched, "matched"),
+    output_facts: int(r.output_facts, "output_facts"),
+    repeats: int(r.duplicates, "duplicates"),
   }))
   .sort((a, b) => a.row - b.row);
 
@@ -169,6 +174,46 @@ for (const row of [1, 7]) {
   if (got !== all.caught || scored !== all.scored) fail(`trap kinds don't add up to the 'all' line for row ${row}`);
 }
 
+// T82: the "allergies and medicines only" view, with Microsoft Azure. azure_line.csv (T76)
+// scores five methods on the same subset of the answer key (allergies and medicines, no
+// diagnoses or operations), so they can be compared like for like. Read here, never typed.
+const AZURE_METHODS = [
+  ["full_tool", "Full tool"],
+  ["medspacy", "medSpaCy"],
+  ["keyword", "Keyword search"],
+  ["azure", "Azure (commercial, not ours)"],
+  ["azure_rules", "Azure with our merge rules"],
+];
+const azureCsv = readCsv("azure_line.csv").filter((r) => r.scope === "all");
+const amRows = AZURE_METHODS.map(([key, label]) => {
+  const r = azureCsv.find((x) => x.method === key);
+  if (!r) fail(`azure_line.csv has no 'all' line for ${key}`);
+  const line = {
+    key,
+    method: label,
+    key_facts: int(r.key_facts, "key_facts"),
+    missed: int(r.missed, "missed"),
+    false_alarms: int(r.false_alarms, "false_alarms"),
+    matched: int(r.matched, "matched"),
+    output_facts: int(r.output_facts, "output_facts"),
+    conflicts_shown: int(r.conflict_shown, "conflict_shown"),
+    conflicts_total: int(r.conflict_facts, "conflict_facts"),
+  };
+  if (int(r.patients, "patients") !== int([...patients][0], "patients")) fail(`azure_line.csv: ${key} is not on the same patients as the build-up table`);
+  if (line.matched + line.missed !== line.key_facts) fail(`azure_line.csv: ${key} matched + missed is not its number of facts`);
+  if (line.output_facts - line.matched !== line.false_alarms) fail(`azure_line.csv: ${key} false alarms do not add up`);
+  return line;
+});
+if (new Set(amRows.map((r) => r.key_facts)).size !== 1) fail("azure_line.csv: the methods are not scored on the same number of facts");
+const allergy_medicine = { key_facts: amRows[0].key_facts, rows: amRows };
+
+// The same adding-up checks for the build-up table's rows.
+for (const r of rows) {
+  if (r.matched + r.missed !== r.key_facts) fail(`row ${r.row}: matched + missed is not its number of facts`);
+  if (r.output_facts - r.matched !== r.false_alarms) fail(`row ${r.row}: false alarms do not add up`);
+  if (r.repeats > r.false_alarms) fail(`row ${r.row}: more repeats than false alarms`);
+}
+
 // Keep any failure examples already in the file (T38 adds them).
 let failure_examples = [];
 if (existsSync(outFile)) {
@@ -188,6 +233,10 @@ const results = {
     "Held-out results only (160 patients, never used for tuning). Built by app/scripts/make-results.mjs " +
     "from outputs/results/heldout/ (T37, commit f48ef99). Missed includes wrong-status cases.",
   rows,
+  allergy_medicine,
+  // T82: how many of the full tool's misses are a slip in our own answer key (a double
+  // space in a diagnosis name), from omission_line.csv. Shown under the build chart.
+  answer_key_slips: om.row7_name_absent_type_diagnosis,
   cost_per_patient,
   omission_check,
   failure_examples,
@@ -198,5 +247,6 @@ const results = {
 writeFileSync(outFile, JSON.stringify(results, null, 2) + "\n");
 console.log(
   `make-results: wrote data/results.json: ${rows.length} rows, ${results.patients} patients, ` +
-    `${by_age_sex.length} age and sex groups, ${traps.length} kinds of trap, ${failure_examples.length} failure examples`,
+    `${by_age_sex.length} age and sex groups, ${traps.length} kinds of trap, ${failure_examples.length} failure examples, ` +
+    `${amRows.length} methods on ${allergy_medicine.key_facts} allergy and medicine facts`,
 );

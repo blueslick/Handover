@@ -11,10 +11,12 @@ import { formatDate } from "@/lib/dates";
 import { capitalise, factName } from "@/lib/names";
 import type { Fact } from "@/lib/types";
 import publishedIndex from "../../data/index.json";
+import { hospitalShort } from "@/lib/hospitals";
 import Page, { Card } from "../components/Page";
+import PatientBanner from "../components/PatientBanner";
 import UploadReplay, { type MergedSummary, type MergeNote } from "./UploadReplay";
 
-export const metadata = { title: "Hospital records (replay) · Handover" };
+export const metadata = { title: "Records replay · Handover" };
 
 // What the Merge step did for this patient, in plain words, worked out from the saved
 // reading of each record and the merged record (never typed by hand).
@@ -38,7 +40,7 @@ function mergeNotes(w: Walkthrough, merged: Fact[]): MergeNote[] {
       const was = f.history.find((h) => h.status === "current");
       notes.push({
         title: "A stop is kept",
-        text: `${factName(f)}${was ? ` was current at Hospital ${was.hospital} (${formatDate(was.date)}) and` : ""} was stopped at Hospital ${f.hospital} (${formatDate(f.date)}). It shows as stopped.`,
+        text: `${factName(f)}${was ? ` was current at ${hospitalShort(was.hospital)} (${formatDate(was.date)}) and` : ""} was stopped at ${hospitalShort(f.hospital)} (${formatDate(f.date)}). It shows as stopped.`,
       });
     }
     const change = f.flags.includes("dose_changed") ? doseChange(f) : null;
@@ -47,7 +49,7 @@ function mergeNotes(w: Walkthrough, merged: Fact[]): MergeNote[] {
     }
   }
   for (const l of bannerLines(merged).filter((l) => l.key.startsWith("conflict-"))) {
-    notes.push({ title: "A disagreement is kept", text: `${l.text.slice(l.text.indexOf(": ") + 2)} Both go to the doctor.` });
+    notes.push({ title: "A disagreement is kept", text: `${l.text} Both go to the doctor.` });
   }
   return notes;
 }
@@ -59,7 +61,7 @@ async function Replay() {
     return (
       <Page>
         <Card role="alert">
-          <p className="font-medium">No saved run to replay yet.</p>
+          <p className="font-semibold">No saved run to replay yet.</p>
           <p className="mt-1">The replay appears once the tool has been run on the demo patient.</p>
         </Card>
       </Page>
@@ -68,8 +70,8 @@ async function Replay() {
   if (load.state === "failed") {
     return (
       <Page>
-        <Card role="alert" className="border-4 border-alert">
-          <p className="font-medium">The saved run could not be loaded.</p>
+        <Card role="alert" className="border-2 border-warn-line">
+          <p className="font-semibold">The saved run could not be loaded.</p>
           <p className="mt-1">The file is damaged, so nothing is shown rather than part of it.</p>
         </Card>
       </Page>
@@ -82,7 +84,9 @@ async function Replay() {
   const merged: MergedSummary | null = sameRun ? { facts: entry.facts, conflicts: entry.conflicts } : null;
   const record = sameRun ? await loadRecordState(w.patient_id, "handover") : null;
   const notes = record?.state === "ok" && record.record.run_id === w.run_id ? mergeNotes(w, record.record.facts) : [];
-  return <UploadReplay walkthrough={w} merged={merged} notes={notes} />;
+  // The patient banner needs the merged record; without it the page still works, with no banner.
+  const banner = record?.state === "ok" ? <PatientBanner id={w.patient_id} facts={record.record.facts} /> : undefined;
+  return <UploadReplay walkthrough={w} merged={merged} notes={notes} banner={banner} />;
 }
 
 export default function UploadPage() {

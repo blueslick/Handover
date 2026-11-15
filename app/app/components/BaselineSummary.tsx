@@ -6,8 +6,8 @@ import type { CompiledRecord } from "@/lib/types";
 export default function BaselineSummary({ handover, baseline }: { handover: CompiledRecord; baseline: CompiledRecord }) {
   const lines = baselineDifferences(handover, baseline);
   return (
-    <section aria-labelledby="baseline-diff" className="rounded-3xl bg-white p-5">
-      <h2 id="baseline-diff" className="font-medium">How the baseline differs from Handover for this patient</h2>
+    <section aria-labelledby="baseline-diff" className="rounded-box border border-line bg-surface p-3">
+      <h2 id="baseline-diff" className="font-semibold">How the baseline differs from Handover for this patient</h2>
       {lines.length === 0 ? (
         <p className="mt-1">For this patient, the baseline lists the same allergies and medicines as Handover.</p>
       ) : (

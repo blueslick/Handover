@@ -1,0 +1,131 @@
+{
+  "note": "Built by app/scripts/make-patients.mjs from each patient's Hospital A record. Display only.",
+  "patients": {
+    "D001": {
+      "family": "Hashim",
+      "given": "Nora",
+      "dob": "1958-03-22",
+      "sex": "F"
+    },
+    "P001": {
+      "family": "Hettinger",
+      "given": "Glendora",
+      "dob": "2003-06-04",
+      "sex": "F"
+    },
+    "P002": {
+      "family": "Senger",
+      "given": "Louis",
+      "dob": "2005-09-27",
+      "sex": "M"
+    },
+    "P003": {
+      "family": "Reilly",
+      "given": "Ethelene",
+      "dob": "1948-01-14",
+      "sex": "F"
+    },
+    "P004": {
+      "family": "Powlowski",
+      "given": "Lin",
+      "dob": "2001-09-30",
+      "sex": "F"
+    },
+    "P005": {
+      "family": "Paucek",
+      "given": "Forrest",
+      "dob": "1952-07-20",
+      "sex": "M"
+    },
+    "P006": {
+      "family": "D'Amore",
+      "given": "Mae",
+      "dob": "2002-07-09",
+      "sex": "F"
+    },
+    "P007": {
+      "family": "Romaguera",
+      "given": "Georgene",
+      "dob": "1992-04-07",
+      "sex": "F"
+    },
+    "P008": {
+      "family": "Gulgowski",
+      "given": "Erich",
+      "dob": "2008-04-26",
+      "sex": "M"
+    },
+    "P009": {
+      "family": "Tremblay",
+      "given": "Isadora",
+      "dob": "1957-02-12",
+      "sex": "F"
+    },
+    "P010": {
+      "family": "Kovacek",
+      "given": "Alexander",
+      "dob": "1977-12-09",
+      "sex": "M"
+    },
+    "P011": {
+      "family": "Bernier",
+      "given": "Bonita",
+      "dob": "1985-04-03",
+      "sex": "F"
+    },
+    "P012": {
+      "family": "Vandervort",
+      "given": "Oren",
+      "dob": "1996-01-06",
+      "sex": "M"
+    },
+    "P013": {
+      "family": "Conn",
+      "given": "Debora",
+      "dob": "1956-05-17",
+      "sex": "F"
+    },
+    "P014": {
+      "family": "Bogisich",
+      "given": "Carrol",
+      "dob": "1981-03-10",
+      "sex": "M"
+    },
+    "P015": {
+      "family": "Grady",
+      "given": "Brendan",
+      "dob": "1965-02-26",
+      "sex": "M"
+    },
+    "P016": {
+      "family": "Carroll",
+      "given": "Lenard",
+      "dob": "1964-05-04",
+      "sex": "M"
+    },
+    "P017": {
+      "family": "Nikolaus",
+      "given": "Antony",
+      "dob": "1955-05-18",
+      "sex": "M"
+    },
+    "P018": {
+      "family": "Dooley",
+      "given": "Yuonne",
+      "dob": "1994-02-06",
+      "sex": "F"
+    },
+    "P019": {
+      "family": "Boyle",
+      "given": "Tajuana",
+      "dob": "1969-06-18",
+      "sex": "F"
+    },
+    "P020": {
+      "family": "Heidenreich",
+      "given": "Laurena",
+      "dob": "1960-01-21",
+      "sex": "F"
+    }
+  }
+}

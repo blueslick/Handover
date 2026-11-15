@@ -1,9 +1,10 @@
-// The patient's allergies and medicines in date order (T75), oldest first. Orange marks a
-// recorded allergy or a stopped medicine, and those lines also say so in words.
+// The patient's allergies and medicines in date order (T75, a plain table since T81),
+// oldest first. A recorded allergy or a stopped medicine is tinted and says "Check this".
 import { timelineEvents } from "@/lib/timeline";
 import { formatDate } from "@/lib/dates";
 import type { Fact } from "@/lib/types";
-import { Card } from "./Page";
+import Hosp from "./Hosp";
+import { Box, Card } from "./Page";
 
 export default function TimelineView({ facts }: { facts: Fact[] }) {
   const events = timelineEvents(facts);
@@ -11,18 +12,27 @@ export default function TimelineView({ facts }: { facts: Fact[] }) {
     return <Card>No allergies or medicines are in this record, so there is nothing to show over time.</Card>;
   }
   return (
-    <Card>
-      <ol className="grid gap-x-4 gap-y-6 sm:grid-cols-2 lg:grid-cols-4">
-        {events.map((e) => (
-          <li key={e.key} className={`border-t-4 pt-3 ${e.alert ? "border-alert" : "border-rail"}`}>
-            <p className="text-sm text-soft">
-              {formatDate(e.date)}, Hospital {e.hospital}
-            </p>
-            <p className="text-lg font-medium leading-snug break-words">{e.text}</p>
-            {e.alert && <p className="text-sm text-alert-ink">Check this</p>}
-          </li>
-        ))}
-      </ol>
-    </Card>
+    <Box title="Oldest first" id="timeline">
+      <table className="dt stack">
+        <thead>
+          <tr>
+            <th scope="col" className="w-[18%]">Date</th>
+            <th scope="col" className="w-[20%]">Hospital</th>
+            <th scope="col">What the record says</th>
+            <th scope="col" className="w-[16%]">Check</th>
+          </tr>
+        </thead>
+        <tbody>
+          {events.map((e) => (
+            <tr key={e.key} className={e.alert ? "row-warn" : ""}>
+              <td className="whitespace-nowrap">{formatDate(e.date)}</td>
+              <td><Hosp letter={e.hospital} /></td>
+              <td className="font-medium">{e.text}</td>
+              <td>{e.alert ? "Check this" : ""}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </Box>
   );
 }

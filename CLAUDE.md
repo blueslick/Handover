@@ -136,7 +136,7 @@ Once the `freeze` tag exists, do not change the extraction prompt, the model, th
 - Show every status as a word, never by colour alone.
 - Every fact card shows the fact, its status, the hospital and date, and any warning; its exact source quote is one tap away (never more than one tap, and never reworded).
 - An unknown patient ID gets a clear message and the list of sample IDs.
-- Keep the styling simple. Do not copy the look of a real clinical system.
+- Keep the styling plain and readable, in the manner of clinical software. Do not copy any one real product's screens, name or logo.
 - A push to `main` goes live on Vercel. Run the build locally before pushing.
 
 ## How to explain your work

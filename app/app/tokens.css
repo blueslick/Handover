@@ -1,0 +1,48 @@
+/* T81: the one place for the app's colours, type and spacing (the "clinical" look).
+   Change a value here and it changes everywhere. Tailwind turns each --color-x into
+   classes such as bg-x, text-x and border-x. */
+@theme {
+  /* Surfaces and text */
+  --color-page: #f3f5f7; /* behind everything */
+  --color-surface: #ffffff; /* tables and panels */
+  --color-panel: #f8f9fb; /* table heads, raw record text */
+  --color-line: #d5dae1; /* 1px row and box lines */
+  --color-line-strong: #b6bec9; /* table head line, input borders */
+  --color-ink: #17202b; /* main text */
+  --color-quiet: #4a5665; /* labels and notes */
+
+  /* The one accent: patient banner, buttons, the full tool in charts */
+  --color-accent: #1d3f72;
+  --color-accent-tint: #e3ebf6; /* selected row, quote highlight */
+  --color-banner-quiet: #c9d6ea; /* small text on the navy banner */
+
+  /* Colours with a meaning. Always used with a word, never alone. */
+  --color-crit: #a8201a; /* red: allergies and critical */
+  --color-crit-bg: #fcebea;
+  --color-warn: #7a4b00; /* amber: hospitals disagree, needs checking */
+  --color-warn-bg: #fff4d6;
+  --color-warn-line: #d9a21b;
+  --color-ok: #1e6b3a; /* green: matched to the source */
+  --color-ok-bg: #e6f3ea;
+
+  /* Charts: the full tool is the accent, everything else is grey */
+  --color-bar: #9aa4b1;
+  --color-bar-repeat: #6b7685;
+  --color-bar-other: #b9c1cc;
+
+  /* Type: one family, plus a fixed-width one for raw record text only */
+  --font-sans: var(--font-plex-sans), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Corners: small on controls, slightly larger on boxes. No pill shapes. */
+  --radius-ctl: 4px;
+  --radius-box: 6px;
+}
+
+:root {
+  /* Body text size. Every other size is worked out from this one. */
+  --text-root: 14px;
+  /* Table row height and the spacing step (an 8px grid). */
+  --row-h: 34px;
+  --step: 8px;
+}

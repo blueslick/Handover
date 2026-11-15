@@ -1,61 +1,138 @@
 @import "tailwindcss";
+@import "./tokens.css";
 
-/* T75: the "Minimal" look. A green side rail, a pale mint page and white cards.
-   Only two colours carry meaning: green is the frame, orange is "check this".
-   Every status is still written in words, so nothing depends on colour. */
-@theme {
-  --color-rail: #2e7d66; /* side rail, buttons, the chosen item */
-  --color-rail-ink: #1f5a49; /* green text on a light background */
-  --color-sage: #dde8df; /* outside the app window */
-  --color-mint: #edf4ee; /* page background, quiet boxes */
-  --color-leaf: #dcede5; /* light green fill */
-  --color-ink: #1f2a26; /* main text */
-  --color-soft: #5c6b64; /* small grey text */
-  --color-alert: #c24e1d; /* solid orange: stopped medicine, disagreement */
-  --color-alert-ink: #9c3a14; /* orange text on a light background */
-  --color-peach: #fbe6da; /* light orange fill */
-  --font-sans: var(--font-lexend), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+/* T81: the clinical look. Colours, type and spacing live in tokens.css. */
+html {
+  font-size: var(--text-root);
 }
 
 body {
-  background: var(--color-sage);
+  background: var(--color-page);
   color: var(--color-ink);
   font-family: var(--font-sans);
-  font-weight: 300;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.45;
+  /* Numbers line up in columns. */
+  font-variant-numeric: tabular-nums;
 }
 
-/* T68 item 11: the card a link jumps to gets a thick outline, so the eye finds it. */
+/* The row a link jumps to gets an outline, so the eye finds it. */
 :target {
-  outline: 4px solid #b45309;
-  outline-offset: 4px;
-}
-
-/* T71 item 36: text a little larger on bigger screens (a laptop on a projector), so
-   spacing grows with it. Phones keep the default size. One root size, nothing else. */
-@media (min-width: 640px) {
-  html {
-    font-size: 106.25%;
-  }
-}
-@media (min-width: 1024px) {
-  html {
-    font-size: 112.5%;
-  }
-}
-
-/* T71 item 37: a clear blue outline on whatever the keyboard is on (Tab key). Blue is
-   used for nothing else in the app, so it can't be mistaken for a warning. */
-:focus-visible {
-  outline: 3px solid #1d4ed8;
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
 }
 
-/* T75: fold-out sections ("details") show a small plus or minus instead of the browser's triangle. */
+/* A clear outline on whatever the keyboard is on (Tab key). */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+/* On the navy patient banner the outline is white so it can be seen. */
+.on-accent :focus-visible {
+  outline-color: #ffffff;
+}
+
+/* Fold-out sections ("details") keep the browser's small triangle, so it is clear they open. */
 summary {
   cursor: pointer;
-  list-style: none;
 }
-summary::-webkit-details-marker {
-  display: none;
+
+/* Tables (T81): compact rows, 1px lines, no shadows. One set of rules for every table. */
+.dt {
+  width: 100%;
+  border-collapse: collapse;
+}
+.dt th {
+  height: 32px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 0.857rem;
+  font-weight: 600;
+  color: var(--color-quiet);
+  background: var(--color-panel);
+  border-bottom: 1px solid var(--color-line-strong);
+  white-space: nowrap;
+}
+.dt td {
+  min-height: var(--row-h);
+  height: var(--row-h);
+  padding: 4px 10px;
+  border-bottom: 1px solid var(--color-line);
+  vertical-align: middle;
+}
+.dt tr:last-child > td {
+  border-bottom: 0;
+}
+.dt .num {
+  text-align: right;
+  white-space: nowrap;
+}
+.dt td.lnk,
+.dt th.lnk {
+  width: 96px;
+  white-space: nowrap;
+  text-align: right;
+}
+/* A row that needs checking: amber tint, always with a word in the Check column. */
+.dt tr.row-warn > td {
+  background: var(--color-warn-bg);
+}
+/* The chosen row: a navy edge on the left. */
+.dt tr.row-sel > td:first-child {
+  box-shadow: inset 3px 0 0 var(--color-accent);
+}
+.dt tr.row-sel:not(.row-warn) > td {
+  background: var(--color-accent-tint);
+}
+
+/* On a phone a wide table cannot fit, so each row becomes a small block: the name on its
+   own line, then the other cells side by side. Nothing scrolls sideways. */
+@media (max-width: 639px) {
+  .dt.stack thead {
+    position: absolute;
+    left: -9999px;
+  }
+  .dt.stack,
+  .dt.stack tbody,
+  .dt.stack tr {
+    display: block;
+  }
+  .dt.stack tr {
+    padding: 6px 10px;
+    border-bottom: 1px solid var(--color-line);
+  }
+  .dt.stack tr:last-child {
+    border-bottom: 0;
+  }
+  .dt.stack td {
+    display: inline-block;
+    height: auto;
+    min-height: 0;
+    padding: 1px 12px 1px 0;
+    border: 0;
+    width: auto;
+    text-align: left;
+    vertical-align: top;
+  }
+  .dt.stack td:first-child {
+    display: block;
+  }
+  .dt.stack td:empty {
+    display: none;
+  }
+  .dt.stack tr.row-warn {
+    background: var(--color-warn-bg);
+  }
+  .dt.stack tr.row-sel {
+    box-shadow: inset 3px 0 0 var(--color-accent);
+  }
+  .dt.stack tr.row-sel:not(.row-warn) {
+    background: var(--color-accent-tint);
+  }
+  .dt.stack tr.row-sel > td:first-child {
+    box-shadow: none;
+  }
+  .dt.stack td.lnk {
+    width: auto;
+  }
 }
