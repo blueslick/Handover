@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Walkthrough, WalkthroughHospital } from "@/lib/walkthrough";
 import FactList from "../components/FactList";
+import RecordText from "./RecordText";
 
 // The merged record's counts, from app/data/index.json, only when it is the same run.
 export interface MergedSummary {
@@ -104,9 +105,7 @@ function HospitalRow({ h, elapsed, openRead = false }: { h: WalkthroughHospital;
 
       <details className="mt-3 text-sm">
         <summary className="cursor-pointer underline">Show the record</summary>
-        <pre className="mt-2 max-h-60 overflow-auto border border-zinc-400 rounded bg-zinc-50 p-2 text-xs whitespace-pre-wrap break-words">
-          {h.record_text}
-        </pre>
+        <RecordText text={h.record_text} file={h.file} format={h.format} />
       </details>
       {done && (
         <details className="mt-2 text-sm" open={openRead || undefined}>
