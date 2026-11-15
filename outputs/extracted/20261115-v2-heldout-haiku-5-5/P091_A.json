@@ -1,0 +1,116 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P091",
+  "hospital": "A",
+  "source_file": "P091_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3322,
+    "output_tokens": 878
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-12",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": null,
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1973-07-15",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1973-07-15,",
+      "flags": [
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial Fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2005-09-18",
+      "quote": "PROBLEM,Atrial Fibrillation,,,Active,2005-09-18,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2020-12-14,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Digoxin",
+      "dose": "0.25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-12",
+      "quote": "MEDICATION,Digoxin,0.25 mg,once daily,Active,2021-08-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2020-12-14,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "Verapamil",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2020-12-14,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2020-12-14,",
+      "flags": []
+    }
+  ]
+}

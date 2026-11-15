@@ -1,0 +1,526 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R065",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R065_A.csv",
+    "R065_B.txt",
+    "R065_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R065-F01",
+      "patient_id": "R065",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Animal dander (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-04-18",
+          "quote": "ALLERGY,Animal dander,,,Active,1989-04-18,hives",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is allergic to animal dander, which causes hives.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Animal dander (hives)",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F02",
+      "patient_id": "R065",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Disprin",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-04-18",
+          "quote": "ALLERGY,Aspirin,,,Active,1989-04-18,",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Disprin",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F03",
+      "patient_id": "R065",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "Egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Egg (hives)",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-04-18",
+          "quote": "ALLERGY,Egg,,,Active,1989-04-18,hives",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is allergic to egg, which causes hives.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Egg (hives)",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F04",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "B",
+      "date": "2021-05-26",
+      "quote": "Her amoxicillin and clavulanate was stopped on 26 May 2021.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-05-26",
+          "quote": "Her amoxicillin and clavulanate was stopped on 26 May 2021.",
+          "file": "R065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F05",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "fentanyl",
+      "name_as_written": "Durogesic",
+      "dose": "25 mcg",
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "1. Durogesic 25 mcg as a patch changed every 72 hours",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is on fentanyl 25 mcg as a patch changed every 72 hours.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "1. Durogesic 25 mcg as a patch changed every 72 hours",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F06",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "4. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She takes hydrochlorothiazide 25 mg once a day.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "4. Hydrodiuril 25 mg OD",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F07",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "hydrocodone",
+      "name_as_written": "hydrocodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-07",
+      "quote": "She takes paracetamol and hydrocodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She takes paracetamol and hydrocodone when needed.",
+          "file": "R065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F08",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "5. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "5. Zestril 10 mg OD",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is on lisinopril 5 mg once a day."
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F09",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Camila",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "3. Camila 0.35 mg OD",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She takes norethisterone 0.35 mg once a day.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "3. Camila 0.35 mg OD",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F10",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-07",
+      "quote": "She takes paracetamol and hydrocodone when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She takes paracetamol and hydrocodone when needed.",
+          "file": "R065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F11",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": "paracetamol / hydrocodone",
+      "name_as_written": "Vicodin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "2. Vicodin PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "2. Vicodin PRN",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F12",
+      "patient_id": "R065",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2020-09-26",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-09-26",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R065_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F13",
+      "patient_id": "R065",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-17",
+          "quote": "PROBLEM,Anemia,,,Active,2010-01-17,",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "Her background includes anemia.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Anemia",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F14",
+      "patient_id": "R065",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-07-02",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,2004-07-02,",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is known to have chronic sinusitis.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Chronic sinusitis",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F15",
+      "patient_id": "R065",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2005-12-25",
+          "quote": "PROBLEM,Hypertension,,,Active,2005-12-25,",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is known to have hypertension.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Hypertension",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R065-F16",
+      "patient_id": "R065",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-15",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2010-01-17",
+          "quote": "PROBLEM,Prediabetes,,,Active,2010-01-17,",
+          "file": "R065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-07",
+          "quote": "She is known to have prediabetes.",
+          "file": "R065_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-15",
+          "quote": "- Prediabetes",
+          "file": "R065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R012",
+  "hospital": "A",
+  "source_file": "R012_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3172,
+    "output_tokens": 1164
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-09-20",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1998-05-17",
+      "quote": "PROBLEM,Anemia,,,Active,1998-05-17,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1998-05-17",
+      "quote": "PROBLEM,Prediabetes,,,Active,1998-05-17,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "sepsis",
+      "name_as_written": "Sepsis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2010-03-21",
+      "quote": "PROBLEM,Sepsis,,,Active,2010-03-21,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "cardiac arrest",
+      "name_as_written": "Cardiac Arrest",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-07-12",
+      "quote": "PROBLEM,Cardiac Arrest,,,Active,2015-07-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / dextromethorphan / doxylamine",
+      "name_as_written": "Paracetamol / dextromethorphan / doxylamine",
+      "dose": null,
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-09-20",
+      "quote": "MEDICATION,Paracetamol / dextromethorphan / doxylamine,,at bedtime,Active,2020-09-20,",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P033",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P033_A.csv",
+    "P033_B.txt",
+    "P033_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P033-F01",
+      "patient_id": "P033",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-15",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-02-25",
+          "quote": "He has no known allergies.",
+          "file": "P033_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-14",
+          "quote": "- NKA",
+          "file": "P033_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-15",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P033_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P033-F02",
+      "patient_id": "P033",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-02-28",
+      "quote": "MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2018-02-28,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-02-28",
+          "quote": "MEDICATION,Ibuprofen,200 mg,as needed,Discontinued,2018-02-28,",
+          "file": "P033_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "200 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2018-02-25",
+          "quote": "He takes ibuprofen 200 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P033-F03",
+      "patient_id": "P033",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-15",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-14",
+          "quote": "Nil regular medications",
+          "file": "P033_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-15",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P033_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P033-F04",
+      "patient_id": "P033",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-14",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-10-12",
+          "quote": "PROBLEM,Anemia,,,Active,2004-10-12,",
+          "file": "P033_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-02-25",
+          "quote": "He is known to have anemia.",
+          "file": "P033_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-14",
+          "quote": "- Anemia",
+          "file": "P033_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P033-F05",
+      "patient_id": "P033",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-14",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-10-12",
+          "quote": "PROBLEM,Prediabetes,,,Active,2004-10-12,",
+          "file": "P033_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2018-02-25",
+          "quote": "His background includes prediabetes.",
+          "file": "P033_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-14",
+          "quote": "- Prediabetes",
+          "file": "P033_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

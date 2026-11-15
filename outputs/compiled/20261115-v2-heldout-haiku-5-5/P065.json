@@ -1,0 +1,408 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P065",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P065_A.csv",
+    "P065_B.txt",
+    "P065_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P065-F01",
+      "patient_id": "P065",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He has no known allergies.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "- NKA",
+          "file": "P065_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-09-08",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He has no known allergies.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F02",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "alteplase",
+      "name_as_written": "Actilyse",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2018-11-20",
+      "quote": "1. Actilyse - stopped 20-Nov-2018",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-11-20",
+          "quote": "1. Actilyse - stopped 20-Nov-2018",
+          "file": "P065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F03",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is on amlodipine 5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is on amlodipine 5 mg once a day.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-09-08",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-09-08,"
+        }
+      ],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P065-C1"
+    },
+    {
+      "fact_id": "P065-F04",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is on amlodipine 2.5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is on amlodipine 2.5 mg once a day.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "5 mg",
+          "frequency": "daily",
+          "hospital": "A",
+          "date": "2021-09-08",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2021-09-08,"
+        }
+      ],
+      "flags": [
+        "dose_changed",
+        "conflict"
+      ],
+      "conflict_group": "P065-C1"
+    },
+    {
+      "fact_id": "P065-F05",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is on clopidogrel 75 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-20",
+          "quote": "MEDICATION,Clopidogrel,75 mg,once daily,Active,2021-04-20,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is on clopidogrel 75 mg once a day.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F06",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-04-20",
+      "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-04-20,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-20",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2021-04-20,",
+          "file": "P065_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F07",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is on simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-20",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2021-04-20,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is on simvastatin 20 mg at night.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F08",
+      "patient_id": "P065",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-02-28",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "Nil regular medications",
+          "file": "P065_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F09",
+      "patient_id": "P065",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is known to have chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-07-13",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1996-07-13,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "- Chronic sinusitis",
+          "file": "P065_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is known to have chronic sinusitis.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F10",
+      "patient_id": "P065",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is known to have coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-03-28",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2017-03-28,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "- Coronary Heart Disease",
+          "file": "P065_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is known to have coronary heart disease.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F11",
+      "patient_id": "P065",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "His background includes hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1976-08-10",
+          "quote": "PROBLEM,Hypertension,,,Active,1976-08-10,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "- Hypertension",
+          "file": "P065_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "His background includes hypertension.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P065-F12",
+      "patient_id": "P065",
+      "type": "diagnosis",
+      "name": "stroke",
+      "name_as_written": "stroke",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-01",
+      "quote": "He is known to have stroke.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-11-20",
+          "quote": "PROBLEM,Stroke,,,Active,2018-11-20,",
+          "file": "P065_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-02-28",
+          "quote": "- Stroke",
+          "file": "P065_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-01",
+          "quote": "He is known to have stroke.",
+          "file": "P065_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

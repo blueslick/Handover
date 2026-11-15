@@ -1,0 +1,176 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R021",
+  "hospital": "A",
+  "source_file": "R021_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3613,
+    "output_tokens": 2626
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-16",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "transformed migraine",
+      "name_as_written": "Transformed migraine",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2014-02-01",
+      "quote": "PROBLEM,Transformed migraine,,,Active,2014-02-01,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-02-19",
+      "quote": "PROBLEM,Diabetes,,,Active,2015-02-19,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-04-16",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,2015-04-16,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "tubal pregnancy",
+      "name_as_written": "Tubal pregnancy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-01-14",
+      "quote": "PROBLEM,Tubal pregnancy,,,Active,2016-01-14,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-02-25",
+      "quote": "PROBLEM,Anemia,,,Active,2016-02-25,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "Hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-02-25",
+      "quote": "PROBLEM,Hypertriglyceridemia,,,Active,2016-02-25,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "metabolic syndrome X",
+      "name_as_written": "Metabolic syndrome X",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-02-25",
+      "quote": "PROBLEM,Metabolic syndrome X,,,Active,2016-02-25,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "Hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-03-08",
+      "quote": "PROBLEM,Hyperglycemia,,,Active,2018-03-08,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-03-08",
+      "quote": "PROBLEM,Prediabetes,,,Active,2018-03-08,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "Metformin",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-16",
+      "quote": "MEDICATION,Metformin,500 mg,once daily,Active,2021-11-16,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "etonogestrel / ethinyl estradiol",
+      "name_as_written": "Etonogestrel / ethinyl estradiol",
+      "dose": null,
+      "frequency": "other",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-10",
+      "quote": "MEDICATION,Etonogestrel / ethinyl estradiol,,one ring for 3 weeks then 1 week off,Active,2021-09-10,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "norethisterone",
+      "name_as_written": "Norethisterone",
+      "dose": "0.35 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2021-09-10",
+      "quote": "MEDICATION,Norethisterone,0.35 mg,once daily,Discontinued,2021-09-10,",
+      "flags": []
+    }
+  ]
+}

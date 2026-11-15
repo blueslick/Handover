@@ -1,0 +1,196 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R070",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R070_A.csv",
+    "R070_B.txt",
+    "R070_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R070-F01",
+      "patient_id": "R070",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2018-04-14",
+          "quote": "She has no known allergies.",
+          "file": "R070_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-07-23",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R070_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "- NKA",
+          "file": "R070_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R070-F02",
+      "patient_id": "R070",
+      "type": "medicine",
+      "name": "amoxicillin",
+      "name_as_written": "Amoxil",
+      "dose": "500 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2018-04-23",
+      "quote": "1. Amoxil - stopped 23-Apr-2018",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2018-04-23",
+          "quote": "1. Amoxil - stopped 23-Apr-2018",
+          "file": "R070_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "500 mg",
+          "frequency": "three_times_daily",
+          "hospital": "B",
+          "date": "2018-04-14",
+          "quote": "She is on amoxicillin 500 mg three times a day."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R070-F03",
+      "patient_id": "R070",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "1. Flixotide 44 mcg BD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-17",
+          "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-04-17,",
+          "file": "R070_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "1. Flixotide 44 mcg BD",
+          "file": "R070_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R070-F04",
+      "patient_id": "R070",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "100 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2018-04-23",
+      "quote": "MEDICATION,Ibuprofen,100 mg,as needed,Discontinued,2018-04-23,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-04-23",
+          "quote": "MEDICATION,Ibuprofen,100 mg,as needed,Discontinued,2018-04-23,",
+          "file": "R070_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R070-F05",
+      "patient_id": "R070",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-04-17",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-17,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-04-17",
+          "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-04-17,",
+          "file": "R070_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R070-F06",
+      "patient_id": "R070",
+      "type": "diagnosis",
+      "name": "childhood asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-31",
+      "quote": "- Childhood asthma",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2019-03-13",
+          "quote": "PROBLEM,Childhood asthma,,,Active,2019-03-13,",
+          "file": "R070_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-31",
+          "quote": "- Childhood asthma",
+          "file": "R070_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

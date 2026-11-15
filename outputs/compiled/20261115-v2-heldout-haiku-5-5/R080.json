@@ -1,0 +1,400 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R080",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R080_A.csv",
+    "R080_B.txt",
+    "R080_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R080-F01",
+      "patient_id": "R080",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-27",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R080_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-09",
+          "quote": "He has no known allergies.",
+          "file": "R080_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- NKA",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F02",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "1. Norvasc 5 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "1. Norvasc 5 mg OD",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "R080-C1"
+    },
+    {
+      "fact_id": "R080-F03",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "7. Norvasc 2.5 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "7. Norvasc 2.5 mg OD",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "R080-C1"
+    },
+    {
+      "fact_id": "R080-F04",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "2. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F05",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "3. Hydrodiuril 25 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "3. Hydrodiuril 25 mg OD",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F06",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "8. Zestril 10 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "8. Zestril 10 mg OD",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F07",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "4. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "4. Nitrolingual 0.4 mg PRN",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F08",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "5. Zocor 10 mg ON",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "5. Zocor 10 mg ON",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "R080-C2"
+    },
+    {
+      "fact_id": "R080-F09",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "6. Zocor 20 mg ON",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "6. Zocor 20 mg ON",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "R080-C2"
+    },
+    {
+      "fact_id": "R080-F10",
+      "patient_id": "R080",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "no regular medicines",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-09-09",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-03-27",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "R080_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-09",
+          "quote": "He takes no regular medicines.",
+          "file": "R080_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F11",
+      "patient_id": "R080",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2001-05-27",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2001-05-27,",
+          "file": "R080_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-09",
+          "quote": "He is known to have coronary heart disease.",
+          "file": "R080_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- Coronary Heart Disease",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F12",
+      "patient_id": "R080",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- Hyperlipidemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-08-27",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,2017-08-27,",
+          "file": "R080_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-09",
+          "quote": "He has a history of hyperlipidemia.",
+          "file": "R080_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- Hyperlipidemia",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R080-F13",
+      "patient_id": "R080",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1969-11-29",
+          "quote": "PROBLEM,Hypertension,,,Active,1969-11-29,",
+          "file": "R080_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-09",
+          "quote": "He has a history of hypertension.",
+          "file": "R080_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- Hypertension",
+          "file": "R080_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

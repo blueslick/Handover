@@ -1,0 +1,68 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R020",
+  "hospital": "C",
+  "source_file": "R020_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3020,
+    "output_tokens": 349
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2020-03-23",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-03-23",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Augmentin",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-03-23",
+      "quote": "1. Augmentin TDS",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-09-17",
+      "quote": "1. Panadol - stopped 17-Sep-2017",
+      "flags": []
+    }
+  ]
+}

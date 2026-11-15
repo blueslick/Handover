@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":null,"name_as_written":"NKA","dose":null,"frequency":null,"reaction":null,"status":"none_recorded","date":"2021-11-05","quote":"- NKA"},{"type":"medicine","name":"fluticasone","name_as_written":"Flixotide","dose":"44 mcg","frequency":"twice_daily","reaction":null,"status":"current","date":"2021-11-05","quote":"1. Flixotide 44 mcg BD"}]}

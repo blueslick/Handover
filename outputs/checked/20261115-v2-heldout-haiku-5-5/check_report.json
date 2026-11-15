@@ -1,0 +1,4908 @@
+{
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "records": {
+    "P021_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P021_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P021_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P022_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P022_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P022_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P023_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P023_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P023_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P024_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P024_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P024_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P025_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P025_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P025_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 6 (diagnosis 'Perennial allergic rhinitis with seasonal variation'): name 'perennial allergic rhinitis' changed to the record's words 'perennial allergic rhinitis with seasonal variation'"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P026_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 25,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P026_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P026_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P027_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P027_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P027_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P028_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P028_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P028_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P029_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P029_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P029_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P030_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P030_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P030_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P031_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P031_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P031_C": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P032_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P032_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P032_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (medicine 'Namzaric'): name 'memantine / donepezil' changed to 'donepezil / memantine' from the tables"
+      ],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P033_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P033_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P033_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P034_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 24,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P034_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 27,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P034_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 22 (medicine 'Camila'): name 'ethinyl estradiol / levonorgestrel' changed to 'norethisterone' from the tables"
+      ],
+      "facts": 26,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P035_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P035_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P035_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 14 (medicine 'Flixotide'): name 'fluticasone propionate' changed to 'fluticasone' from the tables",
+        "fact 17 (medicine 'Azactam'): dose '2 g' written as '2000 mg'"
+      ],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P036_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P036_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P036_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 6 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables",
+        "fact 8 (medicine 'Pen-Vee K'): name 'penicillin v potassium' changed to 'penicillin v' from the tables"
+      ],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P037_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P037_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P037_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P038_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P038_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P038_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P039_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P039_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P039_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P040_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P040_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P040_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P041_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P041_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P041_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P042_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P042_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P042_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P043_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P043_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P043_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P044_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P044_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P044_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P045_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P045_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P045_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Norco'): name 'hydrocodone / paracetamol' changed to 'paracetamol / hydrocodone' from the tables"
+      ],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P046_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P046_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P046_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (diagnosis 'Perennial allergic rhinitis'): name 'allergic rhinitis' changed to the record's words 'perennial allergic rhinitis'"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P047_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P047_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P047_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P048_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P048_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P048_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 15 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P049_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P049_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P049_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P050_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P050_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P050_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P051_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P051_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P051_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P052_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P052_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P052_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P053_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P053_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P053_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P054_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P054_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P054_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P055_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P055_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P055_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P056_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P056_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P056_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P057_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P057_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P057_C": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P058_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P058_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P058_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (medicine 'Pen-Vee K'): name 'phenoxymethylpenicillin' changed to 'penicillin v' from the tables"
+      ],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P059_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P059_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P059_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 7 (diagnosis 'Childhood asthma'): name 'asthma' changed to the record's words 'childhood asthma'"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P060_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P060_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P060_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P061_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P061_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P061_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (diagnosis 'Chronic intractable migraine without aura'): name 'migraine without aura' changed to the record's words 'chronic intractable migraine without aura'"
+      ],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P062_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P062_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P062_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P063_A": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P063_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P063_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 9 (diagnosis 'Localized  primary osteoarthritis of the hand'): name 'primary osteoarthritis of the hand' changed to the record's words 'localized primary osteoarthritis of the hand'"
+      ],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P064_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P064_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P064_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P065_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P065_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P065_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P066_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P066_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P066_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P067_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P067_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P067_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P068_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P068_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P068_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P069_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P069_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P069_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P070_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P070_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P070_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P071_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P071_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P071_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P072_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P072_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (diagnosis 'miscarriage in first trimester'): name 'miscarriage' changed to the record's words 'miscarriage in first trimester'"
+      ],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P072_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 10 (medicine 'Depo-Provera'): name 'medroxyprogesterone acetate' changed to 'medroxyprogesterone' from the tables"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P073_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P073_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P073_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P074_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P074_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P074_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P075_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P075_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P075_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (diagnosis 'Severe anxiety (panic) (finding'): name 'severe anxiety (panic)' changed to the record's words 'severe anxiety (panic) (finding'"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P076_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P076_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P076_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P077_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P077_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P077_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P078_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P078_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P078_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P079_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P079_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P079_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (allergy 'Disprin'): name 'paracetamol' changed to 'aspirin' from the tables"
+      ],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P080_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P080_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P080_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Yaz'): name 'drospirenone / ethinylestradiol' changed to 'drospirenone / ethinyl estradiol' from the tables"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P081_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P081_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P081_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P082_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P082_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P082_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P083_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P083_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P083_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P084_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P084_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P084_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 15 (medicine 'Percocet'): name 'oxycodone / paracetamol' changed to 'paracetamol / oxycodone' from the tables"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P085_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P085_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P085_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P086_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P086_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P086_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P087_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P087_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P087_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Pen-Vee K'): name 'phenoxymethylpenicillin' changed to 'penicillin v' from the tables"
+      ],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P088_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P088_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P088_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P089_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P089_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P089_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 1 (allergy 'Bactrim'): name 'sulfamethoxazole / trimethoprim' changed to 'co-trimoxazole' from the tables",
+        "fact 6 (medicine 'Fosamax'): name 'alendronate' changed to 'alendronic acid' from the tables"
+      ],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P090_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P090_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P090_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 10 (medicine 'Flixotide'): name 'fluticasone propionate' changed to 'fluticasone' from the tables"
+      ],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P091_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P091_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P091_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P092_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P092_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 22,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P092_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P093_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 11 (diagnosis 'Severe anxiety (panic) (finding'): name 'severe anxiety (panic)' changed to the record's words 'severe anxiety (panic) (finding'"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P093_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P093_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P094_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P094_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P094_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P095_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P095_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (diagnosis 'severe anxiety (panic) (finding'): name 'severe anxiety (panic)' changed to the record's words 'severe anxiety (panic) (finding'"
+      ],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P095_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P096_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P096_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P096_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P097_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P097_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P097_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 4 (medicine 'Flixotide'): name 'fluticasone propionate' changed to 'fluticasone' from the tables"
+      ],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P098_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P098_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P098_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P099_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P099_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P099_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P100_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P100_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "P100_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R001_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R001_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R001_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R002_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R002_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R002_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R003_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R003_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 29,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R003_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 16 (medicine 'Demerol'): name 'pethidine' changed to 'meperidine' from the tables"
+      ],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R004_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R004_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R004_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R005_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R005_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R005_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R006_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R006_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R006_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R007_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R007_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R007_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (medicine 'Percocet'): name 'oxycodone / paracetamol' changed to 'paracetamol / oxycodone' from the tables"
+      ],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R008_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R008_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R008_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R009_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R009_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R009_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 5 (medicine 'Feosol'): name 'ferrous fumarate' changed to 'ferrous sulfate' from the tables"
+      ],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R010_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R010_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R010_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R011_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R011_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R011_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R012_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R012_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R012_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R013_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R013_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R013_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R014_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R014_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R014_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 5 (medicine 'Percocet'): name 'oxycodone / paracetamol' changed to 'paracetamol / oxycodone' from the tables"
+      ],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R015_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R015_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R015_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 13 (medicine 'Fosamax'): name 'alendronate' changed to 'alendronic acid' from the tables"
+      ],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R016_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R016_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R016_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 7 (diagnosis 'Miscarriage in first trimester'): name 'miscarriage' changed to the record's words 'miscarriage in first trimester'"
+      ],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R017_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R017_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R017_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R018_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R018_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R018_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 2 (allergy 'Disprin'): name 'disprin' changed to 'aspirin' from the tables",
+        "fact 13 (medicine 'NuvaRing'): name 'ethinylestradiol / etonogestrel' changed to 'etonogestrel / ethinyl estradiol' from the tables"
+      ],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R019_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R019_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R019_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R020_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R020_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R020_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R021_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R021_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R021_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 12 (medicine 'Percocet'): name 'oxycodone / paracetamol' changed to 'paracetamol / oxycodone' from the tables"
+      ],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R022_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R022_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R022_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R023_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R023_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R023_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R024_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R024_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R024_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R025_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R025_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R025_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R026_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R026_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R026_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R027_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R027_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R027_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R028_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R028_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R028_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R029_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R029_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R029_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R030_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R030_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R030_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R031_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R031_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R031_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R032_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R032_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R032_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R033_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R033_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R033_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 13 (medicine 'Depo-Provera'): name 'medroxyprogesterone acetate' changed to 'medroxyprogesterone' from the tables"
+      ],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R034_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R034_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R034_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R035_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R035_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R035_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R036_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R036_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R036_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R037_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R037_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R037_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 11 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R038_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R038_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R038_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R039_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R039_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R039_C": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R040_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R040_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R040_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R041_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R041_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R041_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R042_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R042_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 11 (diagnosis 'non-small cell carcinoma of lung  tnm stage 1'): name 'non-small cell carcinoma of lung  tnm stage 1' changed to the record's words 'non-small cell carcinoma of lung tnm stage 1'"
+      ],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R042_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R043_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R043_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R043_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R044_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R044_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R044_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 15 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R045_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R045_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R045_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 3 (medicine 'Levora'): name 'ethinylestradiol / levonorgestrel' changed to 'levonorgestrel / ethinyl estradiol' from the tables"
+      ],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R046_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R046_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R046_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R047_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R047_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R047_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 14 (medicine 'Demerol'): name 'pethidine' changed to 'meperidine' from the tables"
+      ],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R048_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R048_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R048_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R049_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R049_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R049_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R050_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 19,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R050_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R050_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 6 (allergy 'Zestril'): name 'ramipril' changed to 'lisinopril' from the tables",
+        "fact 16 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R051_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R051_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R051_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 15 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R052_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 16,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R052_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R052_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R053_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R053_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R053_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R054_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R054_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R054_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R055_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R055_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R055_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R056_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R056_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R056_C": {
+      "attempt_kept": 2,
+      "retried": true,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Clarityne'): name 'cetirizine' changed to 'loratadine' from the tables",
+        "fact 9 (medicine 'EpiPen'): name 'adrenaline' changed to 'epinephrine' from the tables"
+      ],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R057_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R057_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R057_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R058_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R058_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R058_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R059_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 21,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R059_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 17,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R059_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 18,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R060_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R060_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R060_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R061_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R061_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R061_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R062_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R062_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R062_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R063_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R063_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R063_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R064_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R064_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R064_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R065_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R065_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R065_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 9 (medicine 'Vicodin'): name 'hydrocodone / paracetamol' changed to 'paracetamol / hydrocodone' from the tables"
+      ],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R066_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R066_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R066_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R067_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R067_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 13,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R067_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R068_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R068_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 11,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R068_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (diagnosis 'Childhood asthma'): name 'asthma' changed to the record's words 'childhood asthma'",
+        "fact 9 (diagnosis 'Perennial allergic rhinitis with seasonal variation'): name 'allergic rhinitis' changed to the record's words 'perennial allergic rhinitis with seasonal variation'"
+      ],
+      "facts": 10,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R069_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R069_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R069_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R070_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R070_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R070_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 3 (medicine 'Flixotide'): name 'fluticasone propionate' changed to 'fluticasone' from the tables"
+      ],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R071_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R071_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R071_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R072_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R072_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R072_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R073_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R073_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R073_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R074_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R074_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R074_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 7,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R075_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R075_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 2,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R075_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R076_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 4,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R076_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R076_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 3,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R077_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 9,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R077_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R077_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R078_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R078_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 15,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R078_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 14,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R079_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R079_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 8,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R079_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 6,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R080_A": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R080_B": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [],
+      "facts": 5,
+      "unverified": 0,
+      "unknown_name": 0
+    },
+    "R080_C": {
+      "attempt_kept": 1,
+      "retried": false,
+      "passed": true,
+      "problems": [],
+      "notes": [
+        "fact 8 (medicine 'Nitrolingual'): name 'glyceryl trinitrate' changed to 'nitroglycerin' from the tables"
+      ],
+      "facts": 12,
+      "unverified": 0,
+      "unknown_name": 0
+    }
+  },
+  "needs_retry": [],
+  "failed": []
+}

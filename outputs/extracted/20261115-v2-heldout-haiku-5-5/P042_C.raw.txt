@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":null,"name_as_written":"NKA","dose":null,"frequency":null,"reaction":null,"status":"none_recorded","date":"2021-09-17","quote":"- NKA"},{"type":"medicine","name":null,"name_as_written":"Vicodin","dose":null,"frequency":"as_needed","reaction":null,"status":"current","date":"2021-09-17","quote":"1. Vicodin PRN"}]}

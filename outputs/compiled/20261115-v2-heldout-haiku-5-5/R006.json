@@ -1,0 +1,263 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R006",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R006_A.csv",
+    "R006_B.txt",
+    "R006_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R006-F01",
+      "patient_id": "R006",
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "He is allergic to egg, which causes anaphylaxis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1975-02-07",
+          "quote": "ALLERGY,Egg,,,Active,1975-02-07,anaphylaxis",
+          "file": "R006_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Egg (anaphylaxis)",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "He is allergic to egg, which causes anaphylaxis.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F02",
+      "patient_id": "R006",
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "He is allergic to penicillin.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Penicillin",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "He is allergic to penicillin.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F03",
+      "patient_id": "R006",
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "He continues on hydrochlorothiazide 25 mg once a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-05-24",
+          "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-05-24,",
+          "file": "R006_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "1. Hydrodiuril 25 mg OD",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "He continues on hydrochlorothiazide 25 mg once a day.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F04",
+      "patient_id": "R006",
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Naproxen",
+      "dose": "220 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-08-01",
+      "quote": "MEDICATION,Naproxen,220 mg,twice daily,Discontinued,2021-08-01,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-08-01",
+          "quote": "MEDICATION,Naproxen,220 mg,twice daily,Discontinued,2021-08-01,",
+          "file": "R006_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "220 mg",
+          "frequency": "twice_daily",
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "2. Aleve 220 mg BD"
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F05",
+      "patient_id": "R006",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "He is known to have anemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-05-06",
+          "quote": "PROBLEM,Anemia,,,Active,2018-05-06,",
+          "file": "R006_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Anemia",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "He is known to have anemia.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F06",
+      "patient_id": "R006",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "He has a history of hypertension.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1991-12-08",
+          "quote": "PROBLEM,Hypertension,,,Active,1991-12-08,",
+          "file": "R006_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Hypertension",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "He has a history of hypertension.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R006-F07",
+      "patient_id": "R006",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-09-13",
+      "quote": "His background includes prediabetes.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2017-04-30",
+          "quote": "PROBLEM,Prediabetes,,,Active,2017-04-30,",
+          "file": "R006_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-07-29",
+          "quote": "- Prediabetes",
+          "file": "R006_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-09-13",
+          "quote": "His background includes prediabetes.",
+          "file": "R006_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R034",
+  "hospital": "C",
+  "source_file": "R034_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3012,
+    "output_tokens": 924
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-12",
+      "quote": "- Disprin",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema), nausea",
+      "status": "current",
+      "date": "2021-11-12",
+      "quote": "- Shellfish (swelling (angioedema), nausea)",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-12",
+      "quote": "1. Nurofen 400 mg TDS",
+      "flags": []
+    }
+  ]
+}

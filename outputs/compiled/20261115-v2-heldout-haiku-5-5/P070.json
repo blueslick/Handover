@@ -1,0 +1,110 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P070",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P070_A.csv",
+    "P070_B.txt",
+    "P070_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P070-F01",
+      "patient_id": "P070",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He is allergic to aspirin.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2004-09-28",
+          "quote": "ALLERGY,Aspirin,,,Active,2004-09-28,",
+          "file": "P070_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He is allergic to aspirin.",
+          "file": "P070_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P070-C1"
+    },
+    {
+      "fact_id": "P070-F02",
+      "patient_id": "P070",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-12-17",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-17",
+          "quote": "- NKA",
+          "file": "P070_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "conflict"
+      ],
+      "conflict_group": "P070-C1"
+    },
+    {
+      "fact_id": "P070-F03",
+      "patient_id": "P070",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "B",
+      "date": "2021-11-10",
+      "quote": "He takes no regular medicines.",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-12-17",
+          "quote": "Nil regular medications",
+          "file": "P070_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-06",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P070_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-10",
+          "quote": "He takes no regular medicines.",
+          "file": "P070_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

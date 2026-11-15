@@ -1,0 +1,115 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P029",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P029_A.csv",
+    "P029_B.txt",
+    "P029_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P029-F01",
+      "patient_id": "P029",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "- NKA",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2016-12-18",
+          "quote": "He has no known allergies.",
+          "file": "P029_B.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-09-17",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "P029_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "- NKA",
+          "file": "P029_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P029-F02",
+      "patient_id": "P029",
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Nurofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2016-12-28",
+      "quote": "1. Nurofen - stopped 28-Dec-2016",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2016-12-28",
+          "quote": "1. Nurofen - stopped 28-Dec-2016",
+          "file": "P029_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "200 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2016-12-18",
+          "quote": "He is on ibuprofen 200 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P029-F03",
+      "patient_id": "P029",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-11-01",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-09-17",
+          "quote": "MEDICATION,No current medications,,,,,",
+          "file": "P029_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-11-01",
+          "quote": "Nil regular medications",
+          "file": "P029_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

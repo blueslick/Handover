@@ -1,0 +1,102 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P087",
+  "hospital": "A",
+  "source_file": "P087_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3274,
+    "output_tokens": 1748
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2017-06-12",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1973-01-21",
+      "quote": "PROBLEM,Chronic sinusitis,,,Active,1973-01-21,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "carcinoma in situ of prostate",
+      "name_as_written": "Carcinoma in situ of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1983-11-08",
+      "quote": "PROBLEM,Carcinoma in situ of prostate,,,Active,1983-11-08,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "neoplasm of prostate",
+      "name_as_written": "Neoplasm of prostate",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1983-11-08",
+      "quote": "PROBLEM,Neoplasm of prostate,,,Active,1983-11-08,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "naproxen",
+      "name_as_written": "Naproxen",
+      "dose": "220 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2017-06-12",
+      "quote": "MEDICATION,Naproxen,220 mg,twice daily,Active,2017-06-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-05-24",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Discontinued,2017-05-24,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2017-04-15",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2017-04-15,",
+      "flags": []
+    }
+  ]
+}

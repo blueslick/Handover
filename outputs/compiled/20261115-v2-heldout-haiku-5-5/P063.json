@@ -1,0 +1,600 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P063",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P063_A.csv",
+    "P063_B.txt",
+    "P063_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P063-F01",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms and shortness of breath",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and shortness of breath.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Animal dander,,,Active,1952-06-15,hay fever symptoms; shortness of breath",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Animal dander (hay fever symptoms, shortness of breath)",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and shortness of breath.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F02",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to bee venom, which causes skin rash.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Bee venom,,,Active,1952-06-15,skin rash",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Bee venom (skin rash)",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to bee venom, which causes skin rash.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F03",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "co-trimoxazole",
+      "name_as_written": "co-trimoxazole",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash and hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to co-trimoxazole, which causes skin rash and hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Co-trimoxazole,,,Active,1952-06-15,skin rash; hives",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to co-trimoxazole, which causes skin rash and hives.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F04",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to cow's milk, which causes hives.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Cow's milk,,,Active,1952-06-15,hives",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Cow's milk (hives)",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to cow's milk, which causes hives.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F05",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Grass pollen,,,Active,1952-06-15,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Grass pollen",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to grass pollen.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F06",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to mould.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Mould,,,Active,1952-06-15,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Mould",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to mould.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F07",
+      "patient_id": "P063",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is allergic to tree pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1952-06-15",
+          "quote": "ALLERGY,Tree pollen,,,Active,1952-06-15,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Tree pollen",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is allergic to tree pollen.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F08",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He continues on amlodipine 5 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He continues on amlodipine 5 mg once a day.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F09",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "clopidogrel",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is on clopidogrel 75 mg once a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is on clopidogrel 75 mg once a day.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F10",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He continues on fluticasone 44 mcg twice a day.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He continues on fluticasone 44 mcg twice a day.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F11",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "nitroglycerin",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He takes nitroglycerin 0.4 mg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He takes nitroglycerin 0.4 mg when needed.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F12",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He continues on salbutamol 90 mcg when needed.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He continues on salbutamol 90 mcg when needed.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F13",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "simvastatin",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is on simvastatin 20 mg at night.",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is on simvastatin 20 mg at night.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "10 mg",
+          "frequency": "at_night",
+          "hospital": "A",
+          "date": "2021-07-03",
+          "quote": "MEDICATION,Simvastatin,10 mg,at bedtime,Active,2021-07-03,"
+        }
+      ],
+      "flags": [
+        "dose_changed"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F14",
+      "patient_id": "P063",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": null,
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-01-27",
+      "quote": "  Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  Nil regular medications",
+          "file": "P063_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F15",
+      "patient_id": "P063",
+      "type": "diagnosis",
+      "name": "appendicitis",
+      "name_as_written": "appendicitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "His background includes appendicitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1958-12-31",
+          "quote": "PROBLEM,Appendicitis,,,Active,1958-12-31,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Appendicitis",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "His background includes appendicitis.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F16",
+      "patient_id": "P063",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "coronary heart disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He is known to have coronary heart disease.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2007-08-21",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2007-08-21,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Coronary Heart Disease",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He is known to have coronary heart disease.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F17",
+      "patient_id": "P063",
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He has a history of hyperlipidemia.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-06-18",
+          "quote": "PROBLEM,Hyperlipidemia,,,Active,1996-06-18,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Hyperlipidemia",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He has a history of hyperlipidemia.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P063-F18",
+      "patient_id": "P063",
+      "type": "diagnosis",
+      "name": "localized primary osteoarthritis of the hand",
+      "name_as_written": "localized  primary osteoarthritis of the hand",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-09",
+      "quote": "He has a history of localized  primary osteoarthritis of the hand.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1999-03-27",
+          "quote": "PROBLEM,Localized  primary osteoarthritis of the hand,,,Active,1999-03-27,",
+          "file": "P063_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-01-27",
+          "quote": "  - Localized  primary osteoarthritis of the hand",
+          "file": "P063_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-09",
+          "quote": "He has a history of localized  primary osteoarthritis of the hand.",
+          "file": "P063_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

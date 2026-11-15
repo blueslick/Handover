@@ -1,0 +1,92 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R038",
+  "hospital": "B",
+  "source_file": "R038_B.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3020,
+    "output_tokens": 981
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-05",
+      "quote": "He has a history of chronic sinusitis.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypoxemia",
+      "name_as_written": "hypoxemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-05",
+      "quote": "He has a history of hypoxemia.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-10-05",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "enoxaparin",
+      "name_as_written": "enoxaparin",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-05",
+      "quote": "He takes enoxaparin 20 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "500 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-05",
+      "quote": "He takes paracetamol 500 mg when needed.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "amoxicillin and clavulanate",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-05",
+      "quote": "He continues on amoxicillin and clavulanate three times a day.",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"facts":[{"type":"allergy","name":"aspirin","name_as_written":"aspirin","dose":null,"frequency":null,"reaction":null,"status":"current","date":"2021-11-10","quote":"He is allergic to aspirin."},{"type":"medicine","name":null,"name_as_written":null,"dose":null,"frequency":null,"reaction":null,"status":"none_recorded","date":"2021-11-10","quote":"He takes no regular medicines."}]}

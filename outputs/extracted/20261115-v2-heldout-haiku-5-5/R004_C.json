@@ -1,0 +1,116 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R004",
+  "hospital": "C",
+  "source_file": "R004_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3079,
+    "output_tokens": 1349
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-16",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "- Chronic sinusitis",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrodiuril",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "1. Hydrodiuril 25 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "2. Norvasc 2.5 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "3. Zestril 5 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amoxicillin / clavulanate",
+      "name_as_written": "Augmentin",
+      "dose": null,
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-16",
+      "quote": "4. Augmentin TDS",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "methylphenidate",
+      "name_as_written": "Ritalin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2019-04-03",
+      "quote": "1. Ritalin - stopped 03-Apr-2019",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R031",
+  "hospital": "C",
+  "source_file": "R031_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3016,
+    "output_tokens": 511
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-01-27",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "Chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-27",
+      "quote": "- Chronic pain",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic intractable migraine without aura",
+      "name_as_written": "Chronic intractable migraine without aura",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-27",
+      "quote": "- Chronic intractable migraine without aura",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "impacted molars",
+      "name_as_written": "Impacted molars",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-27",
+      "quote": "- Impacted molars",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-27",
+      "quote": "- Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-01-27",
+      "quote": "Nil regular medications",
+      "flags": []
+    }
+  ]
+}

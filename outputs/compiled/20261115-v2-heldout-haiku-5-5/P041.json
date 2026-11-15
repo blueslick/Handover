@@ -1,0 +1,346 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "P041",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "P041_A.csv",
+    "P041_B.txt",
+    "P041_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "P041-F01",
+      "patient_id": "P041",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-10-30",
+      "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She has no known allergies.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- NKA",
+          "file": "P041_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-10-30",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,ALLERGY,No known allergies,,,,,",
+          "file": "P041_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F02",
+      "patient_id": "P041",
+      "type": "medicine",
+      "name": "duloxetine",
+      "name_as_written": "Duloxetine",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2020-08-15",
+      "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,MEDICATION,Duloxetine,20 mg,once daily,Discontinued,2020-08-15,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-08-15",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,MEDICATION,Duloxetine,20 mg,once daily,Discontinued,2020-08-15,",
+          "file": "P041_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "20 mg",
+          "frequency": "daily",
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She takes duloxetine 20 mg once a day."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F03",
+      "patient_id": "P041",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "1. Panadol 325 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-07-03",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,MEDICATION,Paracetamol,325 mg,as needed,Active,2021-07-03,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "1. Panadol 325 mg PRN",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "stopped",
+          "dose": null,
+          "frequency": null,
+          "hospital": "B",
+          "date": "2017-09-23",
+          "quote": "Her paracetamol was stopped on 23 September 2017."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F04",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-02-10",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Anemia,,,Active,1989-02-10,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "Her background includes anemia.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Anemia",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F05",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Chronic sinusitis",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1994-08-31",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Chronic sinusitis,,,Active,1994-08-31,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She is known to have chronic sinusitis.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Chronic sinusitis",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F06",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "idiopathic atrophic hypothyroidism",
+      "name_as_written": "Idiopathic atrophic hypothyroidism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Idiopathic atrophic hypothyroidism",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-09-16",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Idiopathic atrophic hypothyroidism,,,Active,1996-09-16,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She has a history of idiopathic atrophic hypothyroidism.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Idiopathic atrophic hypothyroidism",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F07",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Polyp of colon",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2018-01-22",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Polyp of colon,,,Active,2018-01-22,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She has a history of polyp of colon.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Polyp of colon",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F08",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1989-02-10",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Prediabetes,,,Active,1989-02-10,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She has a history of prediabetes.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Prediabetes",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "P041-F09",
+      "patient_id": "P041",
+      "type": "diagnosis",
+      "name": "primary fibromyalgia syndrome",
+      "name_as_written": "Primary fibromyalgia syndrome",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-08-28",
+      "quote": "- Primary fibromyalgia syndrome",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-05-23",
+          "quote": "P041,\"Heathcote, Brett\",1943-01-22,F,2021-10-30,PROBLEM,Primary fibromyalgia syndrome,,,Active,1993-05-23,",
+          "file": "P041_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2020-08-01",
+          "quote": "She is known to have primary fibromyalgia syndrome.",
+          "file": "P041_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-08-28",
+          "quote": "- Primary fibromyalgia syndrome",
+          "file": "P041_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

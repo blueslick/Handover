@@ -1,0 +1,485 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R061",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R061_A.csv",
+    "R061_B.txt",
+    "R061_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R061-F01",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms and shortness of breath",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to animal dander, which causes hay fever symptoms and shortness of breath.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Animal dander,,,Active,1997-07-25,hay fever symptoms; shortness of breath",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Animal dander (hay fever symptoms, shortness of breath)",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to animal dander, which causes hay fever symptoms and shortness of breath.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F02",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Disprin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2020-10-10",
+      "quote": "- Disprin",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Aspirin,,,Active,1997-07-25,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Disprin",
+          "file": "R061_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F03",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "fish",
+      "name_as_written": "fish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting and hay fever symptoms",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to fish, which causes vomiting and hay fever symptoms.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Fish,,,Active,1997-07-25,vomiting; hay fever symptoms",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Fish (vomiting, hay fever symptoms)",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to fish, which causes vomiting and hay fever symptoms.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F04",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to grass pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Grass pollen,,,Active,1997-07-25,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Grass pollen",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to grass pollen.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F05",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "house dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to house dust mite.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,House dust mite,,,Active,1997-07-25,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- House dust mite",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to house dust mite.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F06",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to mould.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Mould,,,Active,1997-07-25,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Mould",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to mould.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F07",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives and swelling (angioedema)",
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to peanut, which causes hives and swelling (angioedema).",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Peanut,,,Active,1997-07-25,hives; swelling (angioedema)",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Peanut (hives, swelling (angioedema))",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to peanut, which causes hives and swelling (angioedema).",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F08",
+      "patient_id": "R061",
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He is allergic to tree pollen.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-07-25",
+          "quote": "ALLERGY,Tree pollen,,,Active,1997-07-25,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Tree pollen",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He is allergic to tree pollen.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F09",
+      "patient_id": "R061",
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He continues on fluticasone 44 mcg twice a day.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-07",
+          "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2020-12-07,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He continues on fluticasone 44 mcg twice a day.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F10",
+      "patient_id": "R061",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He takes paracetamol 325 mg when needed.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-07",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Active,2020-12-07,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He takes paracetamol 325 mg when needed.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F11",
+      "patient_id": "R061",
+      "type": "medicine",
+      "name": "paracetamol / codeine",
+      "name_as_written": "Paracetamol / codeine",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2020-12-07",
+      "quote": "MEDICATION,Paracetamol / codeine,,as needed,Active,2020-12-07,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-07",
+          "quote": "MEDICATION,Paracetamol / codeine,,as needed,Active,2020-12-07,",
+          "file": "R061_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F12",
+      "patient_id": "R061",
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "He takes salbutamol 90 mcg when needed.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-07",
+          "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2020-12-07,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "He takes salbutamol 90 mcg when needed.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F13",
+      "patient_id": "R061",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2020-10-10",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "Nil regular medications",
+          "file": "R061_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R061-F14",
+      "patient_id": "R061",
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "B",
+      "date": "2021-11-12",
+      "quote": "His background includes chronic sinusitis.",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1997-05-03",
+          "quote": "PROBLEM,Chronic sinusitis,,,Active,1997-05-03,",
+          "file": "R061_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2020-10-10",
+          "quote": "- Chronic sinusitis",
+          "file": "R061_C.txt"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-11-12",
+          "quote": "His background includes chronic sinusitis.",
+          "file": "R061_B.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

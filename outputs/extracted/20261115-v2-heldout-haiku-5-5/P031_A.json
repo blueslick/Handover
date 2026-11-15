@@ -1,0 +1,80 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P031",
+  "hospital": "A",
+  "source_file": "P031_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3119,
+    "output_tokens": 1217
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-13",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "sprain of wrist",
+      "name_as_written": "Sprain of wrist",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-12",
+      "quote": "PROBLEM,Sprain of wrist,,,Active,2021-11-12,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol / oxycodone",
+      "name_as_written": "Paracetamol / oxycodone",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Paracetamol / oxycodone,,as needed,Active,2020-12-14,",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "200 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "MEDICATION,Ibuprofen,200 mg,as needed,Active,2021-11-13,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "Ibuprofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-12-14",
+      "quote": "MEDICATION,Ibuprofen,400 mg,three times daily,Active,2020-12-14,",
+      "flags": []
+    }
+  ]
+}

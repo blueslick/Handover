@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P032",
+  "hospital": "B",
+  "source_file": "P032_B.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 2977,
+    "output_tokens": 724
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-11-06",
+      "quote": "His background includes hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "alzheimer's disease",
+      "name_as_written": "alzheimer's disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2018-11-06",
+      "quote": "He has a history of alzheimer's disease.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "no known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2018-11-06",
+      "quote": "He has no known allergies.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "galantamine",
+      "name_as_written": "galantamine",
+      "dose": "4 mg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2018-11-06",
+      "quote": "He continues on galantamine 4 mg twice a day.",
+      "flags": []
+    }
+  ]
+}

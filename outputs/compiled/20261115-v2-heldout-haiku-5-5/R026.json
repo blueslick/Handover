@@ -1,0 +1,344 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R026",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R026_A.csv",
+    "R026_B.txt",
+    "R026_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R026-F01",
+      "patient_id": "R026",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-13",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2019-04-24",
+          "quote": "He has no known allergies.",
+          "file": "R026_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "- NKA",
+          "file": "R026_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-13",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R026_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F02",
+      "patient_id": "R026",
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "Norvasc",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "1. Norvasc 5 mg OD",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-04",
+          "quote": "MEDICATION,Amlodipine,5 mg,once daily,Active,2020-12-04,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "1. Norvasc 5 mg OD",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F03",
+      "patient_id": "R026",
+      "type": "medicine",
+      "name": "clopidogrel",
+      "name_as_written": "Plavix",
+      "dose": "75 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "2. Plavix 75 mg OD",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "2. Plavix 75 mg OD",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F04",
+      "patient_id": "R026",
+      "type": "medicine",
+      "name": "nitroglycerin",
+      "name_as_written": "Nitrolingual",
+      "dose": "0.4 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "3. Nitrolingual 0.4 mg PRN",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-04",
+          "quote": "MEDICATION,Nitroglycerin,0.4 mg,as needed,Active,2020-12-04,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "3. Nitrolingual 0.4 mg PRN",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F05",
+      "patient_id": "R026",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "C",
+      "date": "2019-05-03",
+      "quote": "1. Panadol - stopped 03-May-2019",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2019-05-03",
+          "quote": "1. Panadol - stopped 03-May-2019",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2019-04-24",
+          "quote": "He continues on paracetamol 325 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F06",
+      "patient_id": "R026",
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "20 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "4. Zocor 20 mg ON",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-04",
+          "quote": "MEDICATION,Simvastatin,20 mg,at bedtime,Active,2020-12-04,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "4. Zocor 20 mg ON",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F07",
+      "patient_id": "R026",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1998-07-30",
+          "quote": "PROBLEM,Anemia,,,Active,1998-07-30,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-04-24",
+          "quote": "He is known to have anemia.",
+          "file": "R026_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "- Anemia",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F08",
+      "patient_id": "R026",
+      "type": "diagnosis",
+      "name": "coronary heart disease",
+      "name_as_written": "Coronary Heart Disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "- Coronary Heart Disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2020-12-03",
+          "quote": "PROBLEM,Coronary Heart Disease,,,Active,2020-12-03,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "- Coronary Heart Disease",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F09",
+      "patient_id": "R026",
+      "type": "diagnosis",
+      "name": "osteoarthritis of knee",
+      "name_as_written": "Osteoarthritis of knee",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "- Osteoarthritis of knee",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1979-04-08",
+          "quote": "PROBLEM,Osteoarthritis of knee,,,Active,1979-04-08,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-04-24",
+          "quote": "He has a history of osteoarthritis of knee.",
+          "file": "R026_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "- Osteoarthritis of knee",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R026-F10",
+      "patient_id": "R026",
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-09-19",
+      "quote": "- Prediabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-07-18",
+          "quote": "PROBLEM,Prediabetes,,,Active,1996-07-18,",
+          "file": "R026_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2019-04-24",
+          "quote": "He is known to have prediabetes.",
+          "file": "R026_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-09-19",
+          "quote": "- Prediabetes",
+          "file": "R026_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

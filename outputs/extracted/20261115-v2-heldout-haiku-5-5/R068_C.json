@@ -1,0 +1,140 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R068",
+  "hospital": "C",
+  "source_file": "R068_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3089,
+    "output_tokens": 1744
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms, skin rash",
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Animal dander (hay fever symptoms, skin rash)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "egg",
+      "name_as_written": "Egg",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Egg",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- House dust mite",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Latex (hives)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash",
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Mould (skin rash)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, shortness of breath",
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Tree nuts (hives, shortness of breath)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Tree pollen",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "asthma",
+      "name_as_written": "Childhood asthma",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Childhood asthma",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "allergic rhinitis",
+      "name_as_written": "Perennial allergic rhinitis with seasonal variation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "- Perennial allergic rhinitis with seasonal variation",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "norgestimate / ethinyl estradiol",
+      "name_as_written": "Trinessa",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-04-28",
+      "quote": "1. Trinessa OD",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

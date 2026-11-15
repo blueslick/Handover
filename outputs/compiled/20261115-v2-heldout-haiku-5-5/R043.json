@@ -1,0 +1,643 @@
+{
+  "format_version": "1.0",
+  "kind": "compiled",
+  "patient_id": "R043",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "built_from": [
+    "R043_A.csv",
+    "R043_B.txt",
+    "R043_C.txt"
+  ],
+  "facts": [
+    {
+      "fact_id": "R043-F01",
+      "patient_id": "R043",
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "sources": [
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He has no known allergies.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- NKA",
+          "file": "R043_C.txt"
+        },
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "ALLERGY,No known allergies,,,,,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F02",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Digoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-11-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "MEDICATION,Digoxin,0.125 mg,once daily,Active,2021-11-04,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F03",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "insulin isophane / insulin regular",
+      "name_as_written": "Insulin isophane / insulin regular",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-11-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "MEDICATION,Insulin isophane / insulin regular,,twice daily,Active,2021-11-04,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [
+        "missing_dose"
+      ],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F04",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "10 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "MEDICATION,Lisinopril,10 mg,once daily,Active,2021-11-04,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F05",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "hospital": "A",
+      "date": "2021-02-12",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-02-12,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-02-12",
+          "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2021-02-12,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [
+        {
+          "status": "current",
+          "dose": "325 mg",
+          "frequency": "as_needed",
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He continues on paracetamol 325 mg when needed."
+        }
+      ],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F06",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "verapamil",
+      "name_as_written": "Verapamil",
+      "dose": "40 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-11-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "MEDICATION,Verapamil,40 mg,three times daily,Active,2021-11-04,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F07",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Warfarin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "hospital": "A",
+      "date": "2021-11-04",
+      "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-04,",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2021-11-04",
+          "quote": "MEDICATION,Warfarin,5 mg,once daily,Active,2021-11-04,",
+          "file": "R043_A.csv"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F08",
+      "patient_id": "R043",
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "Nil regular medications",
+      "sources": [
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "Nil regular medications",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F09",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "alzheimer's disease",
+      "name_as_written": "Alzheimer's disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Alzheimer's disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "2015-03-05",
+          "quote": "PROBLEM,Alzheimer's disease,,,Active,2015-03-05,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He has a history of alzheimer's disease.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Alzheimer's disease",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F10",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Anemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1974-02-21",
+          "quote": "PROBLEM,Anemia,,,Active,1974-02-21,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have anemia.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Anemia",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F11",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial Fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Atrial Fibrillation",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1996-06-27",
+          "quote": "PROBLEM,Atrial Fibrillation,,,Active,1996-06-27,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have atrial fibrillation.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Atrial Fibrillation",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F12",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "chronic kidney disease stage 1",
+      "name_as_written": "Chronic kidney disease stage 1",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Chronic kidney disease stage 1",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1998-07-09",
+          "quote": "PROBLEM,Chronic kidney disease stage 1,,,Active,1998-07-09,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have chronic kidney disease stage 1.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Chronic kidney disease stage 1",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F13",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Diabetes",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-02-15",
+          "quote": "PROBLEM,Diabetes,,,Active,1973-02-15,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have diabetes.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Diabetes",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F14",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "diabetic renal disease",
+      "name_as_written": "Diabetic renal disease",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Diabetic renal disease",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1998-07-09",
+          "quote": "PROBLEM,Diabetic renal disease,,,Active,1998-07-09,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He has a history of diabetic renal disease.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Diabetic renal disease",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F15",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "diabetic retinopathy associated with type ii diabetes mellitus",
+      "name_as_written": "Diabetic retinopathy associated with type II diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Diabetic retinopathy associated with type II diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1993-06-10",
+          "quote": "PROBLEM,Diabetic retinopathy associated with type II diabetes mellitus,,,Active,1993-06-10,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "His background includes diabetic retinopathy associated with type ii diabetes mellitus.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Diabetic retinopathy associated with type II diabetes mellitus",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F16",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Hypertension",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1973-02-15",
+          "quote": "PROBLEM,Hypertension,,,Active,1973-02-15,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have hypertension.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Hypertension",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F17",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "Hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Hypertriglyceridemia",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1974-02-21",
+          "quote": "PROBLEM,Hypertriglyceridemia,,,Active,1974-02-21,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He is known to have hypertriglyceridemia.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Hypertriglyceridemia",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F18",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "Metabolic syndrome X",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Metabolic syndrome X",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1974-02-21",
+          "quote": "PROBLEM,Metabolic syndrome X,,,Active,1974-02-21,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "His background includes metabolic syndrome x.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Metabolic syndrome X",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    },
+    {
+      "fact_id": "R043-F19",
+      "patient_id": "R043",
+      "type": "diagnosis",
+      "name": "neuropathy due to type 2 diabetes mellitus",
+      "name_as_written": "Neuropathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "hospital": "C",
+      "date": "2021-10-03",
+      "quote": "- Neuropathy due to type 2 diabetes mellitus",
+      "sources": [
+        {
+          "hospital": "A",
+          "date": "1978-03-16",
+          "quote": "PROBLEM,Neuropathy due to type 2 diabetes mellitus,,,Active,1978-03-16,",
+          "file": "R043_A.csv"
+        },
+        {
+          "hospital": "B",
+          "date": "2021-02-04",
+          "quote": "He has a history of neuropathy due to type 2 diabetes mellitus.",
+          "file": "R043_B.txt"
+        },
+        {
+          "hospital": "C",
+          "date": "2021-10-03",
+          "quote": "- Neuropathy due to type 2 diabetes mellitus",
+          "file": "R043_C.txt"
+        }
+      ],
+      "history": [],
+      "flags": [],
+      "conflict_group": null
+    }
+  ]
+}

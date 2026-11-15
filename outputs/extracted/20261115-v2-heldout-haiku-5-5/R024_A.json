@@ -1,0 +1,80 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R024",
+  "hospital": "A",
+  "source_file": "R024_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3103,
+    "output_tokens": 1239
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-15",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "malignant neoplasm of breast",
+      "name_as_written": "Malignant neoplasm of breast",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1982-05-24",
+      "quote": "PROBLEM,Malignant neoplasm of breast,,,Active,1982-05-24,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-02-20",
+      "quote": "PROBLEM,Anemia,,,Active,2015-02-20,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-02-20",
+      "quote": "PROBLEM,Prediabetes,,,Active,2015-02-20,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "Drospirenone / ethinyl estradiol",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-01-15",
+      "quote": "MEDICATION,Drospirenone / ethinyl estradiol,,once daily,Active,2021-01-15,",
+      "flags": [
+        "missing_dose"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P037",
+  "hospital": "C",
+  "source_file": "P037_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3140,
+    "output_tokens": 1285
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, hay fever symptoms",
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Animal dander (cough, hay fever symptoms)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "Cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "diarrhoea, hives",
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Cow's milk (diarrhoea, hives)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Grass pollen",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - House dust mite",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Latex (hives)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "lisinopril",
+      "name_as_written": "Zestril",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Zestril",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Mould",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Tree pollen",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "seizure disorder",
+      "name_as_written": "Seizure disorder",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Seizure disorder",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "epilepsy",
+      "name_as_written": "Epilepsy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Epilepsy",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  - Hypertension",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Flixotide",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  1. Flixotide 44 mcg BD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Ventolin",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  2. Ventolin 90 mcg PRN",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "drospirenone / ethinyl estradiol",
+      "name_as_written": "Yaz",
+      "dose": null,
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  3. Yaz OD",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "losartan",
+      "name_as_written": "Cozaar",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-13",
+      "quote": "  4. Cozaar 25 mg OD",
+      "flags": []
+    }
+  ]
+}

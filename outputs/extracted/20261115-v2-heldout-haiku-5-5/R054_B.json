@@ -1,0 +1,66 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R054",
+  "hospital": "B",
+  "source_file": "R054_B.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3020,
+    "output_tokens": 933
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-03",
+      "quote": "She has a history of hypertension.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "penicillin",
+      "name_as_written": "penicillin",
+      "dose": null,
+      "frequency": null,
+      "reaction": "skin rash and swelling (angioedema)",
+      "status": "current",
+      "date": "2021-10-03",
+      "quote": "She is allergic to penicillin, which causes skin rash and swelling (angioedema).",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "nausea and cough",
+      "status": "current",
+      "date": "2021-10-03",
+      "quote": "She is allergic to shellfish, which causes nausea and cough.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "lisinopril",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-03",
+      "quote": "She is on lisinopril 5 mg once a day.",
+      "flags": []
+    }
+  ]
+}

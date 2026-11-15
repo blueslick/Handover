@@ -1,0 +1,90 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P058",
+  "hospital": "A",
+  "source_file": "P058_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3191,
+    "output_tokens": 1579
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-15",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "miscarriage in first trimester",
+      "name_as_written": "Miscarriage in first trimester",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1998-10-29",
+      "quote": "PROBLEM,Miscarriage in first trimester,,,Active,1998-10-29,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of hip",
+      "name_as_written": "Osteoarthritis of hip",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2011-07-19",
+      "quote": "PROBLEM,Osteoarthritis of hip,,,Active,2011-07-19,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone",
+      "name_as_written": "Fluticasone",
+      "dose": "44 mcg",
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-15",
+      "quote": "MEDICATION,Fluticasone,44 mcg,twice daily,Active,2021-10-15,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "salbutamol",
+      "name_as_written": "Salbutamol",
+      "dose": "90 mcg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-10-15",
+      "quote": "MEDICATION,Salbutamol,90 mcg,as needed,Active,2021-10-15,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "penicillin v",
+      "name_as_written": "Penicillin v",
+      "dose": "500 mg",
+      "frequency": "four_times_daily",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-09-25",
+      "quote": "MEDICATION,Penicillin v,500 mg,four times daily,Discontinued,2018-09-25,",
+      "flags": []
+    }
+  ]
+}

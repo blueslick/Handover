@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R009",
+  "hospital": "B",
+  "source_file": "R009_B.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3009,
+    "output_tokens": 468
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-09",
+      "quote": "Her background includes prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-09",
+      "quote": "She is known to have anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "normal pregnancy",
+      "name_as_written": "normal pregnancy",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-09",
+      "quote": "Her background includes normal pregnancy.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis and nausea",
+      "status": "current",
+      "date": "2021-11-09",
+      "quote": "She is allergic to shellfish, which causes anaphylaxis and nausea.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "ferrous sulfate",
+      "name_as_written": "ferrous sulfate",
+      "dose": "325 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-09",
+      "quote": "She takes ferrous sulfate 325 mg once a day.",
+      "flags": []
+    }
+  ]
+}

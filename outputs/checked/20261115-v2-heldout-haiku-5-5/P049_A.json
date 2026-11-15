@@ -1,0 +1,78 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P049",
+  "hospital": "A",
+  "source_file": "P049_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3117,
+    "output_tokens": 1303
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-09-18",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic pain",
+      "name_as_written": "Chronic pain",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2013-07-02",
+      "quote": "PROBLEM,Chronic pain,,,Active,2013-07-02,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2014-03-11",
+      "quote": "PROBLEM,Hypertension,,,Active,2014-03-11,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-09-18",
+      "quote": "MEDICATION,Lisinopril,5 mg,once daily,Active,2021-09-18,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Paracetamol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-11-11",
+      "quote": "MEDICATION,Paracetamol,325 mg,as needed,Discontinued,2018-11-11,",
+      "flags": []
+    }
+  ]
+}

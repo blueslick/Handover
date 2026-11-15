@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P057",
+  "hospital": "A",
+  "source_file": "P057_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3496,
+    "output_tokens": 1632
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hay fever symptoms; skin rash",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Animal dander,,,Active,2020-02-17,hay fever symptoms; skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "aspirin",
+      "name_as_written": "Aspirin",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Aspirin,,,Active,2020-02-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cow's milk",
+      "name_as_written": "Cow's milk",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting; swelling (angioedema)",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Cow's milk,,,Active,2020-02-17,vomiting; swelling (angioedema)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Grass pollen,,,Active,2020-02-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,House dust mite,,,Active,2020-02-17,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "latex",
+      "name_as_written": "Latex",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Latex,,,Active,2020-02-17,hives",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "sneezing",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Mould,,,Active,2020-02-17,sneezing",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "Shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema); skin rash",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Shellfish,,,Active,2020-02-17,swelling (angioedema); skin rash",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "soya",
+      "name_as_written": "Soya",
+      "dose": null,
+      "frequency": null,
+      "reaction": "vomiting; diarrhoea",
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "ALLERGY,Soya,,,Active,2020-02-17,vomiting; diarrhoea",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "epinephrine",
+      "name_as_written": "Epinephrine",
+      "dose": "0.3 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "MEDICATION,Epinephrine,0.3 mg,as needed,Active,2020-02-17,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "cetirizine",
+      "name_as_written": "Cetirizine",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2020-02-17",
+      "quote": "MEDICATION,Cetirizine,5 mg,once daily,Active,2020-02-17,",
+      "flags": []
+    }
+  ]
+}

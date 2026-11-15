@@ -1,0 +1,114 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P030",
+  "hospital": "A",
+  "source_file": "P030_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3268,
+    "output_tokens": 1616
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "No known allergies",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-07-17",
+      "quote": "ALLERGY,No known allergies,,,,,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "cystic fibrosis",
+      "name_as_written": "Cystic Fibrosis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2009-12-13",
+      "quote": "PROBLEM,Cystic Fibrosis,,,Active,2009-12-13,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "male infertility",
+      "name_as_written": "Male Infertility",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2009-12-13",
+      "quote": "PROBLEM,Male Infertility,,,Active,2009-12-13,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-11-04",
+      "quote": "PROBLEM,Anemia,,,Active,2015-11-04,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "Diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2015-11-04",
+      "quote": "PROBLEM,Diabetes,,,Active,2015-11-04,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "infection caused by Pseudomonas aeruginosa",
+      "name_as_written": "Infection caused by Pseudomonas aeruginosa",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-03-02",
+      "quote": "PROBLEM,Infection caused by Pseudomonas aeruginosa,,,Active,2016-03-02,",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "Hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2016-11-09",
+      "quote": "PROBLEM,Hypertriglyceridemia,,,Active,2016-11-09,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "No current medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-07-17",
+      "quote": "MEDICATION,No current medications,,,,,",
+      "flags": []
+    }
+  ]
+}

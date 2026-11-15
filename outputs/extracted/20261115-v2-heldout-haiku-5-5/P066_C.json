@@ -1,0 +1,144 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P066",
+  "hospital": "C",
+  "source_file": "P066_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3089,
+    "output_tokens": 886
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-11-18",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "osteoarthritis of hip",
+      "name_as_written": "Osteoarthritis of hip",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "- Osteoarthritis of hip",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperlipidemia",
+      "name_as_written": "Hyperlipidemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "- Hyperlipidemia",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "fibromyalgia",
+      "name_as_written": "Fibromyalgia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "- Fibromyalgia",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "atrial fibrillation",
+      "name_as_written": "Atrial Fibrillation",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "- Atrial Fibrillation",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Vicodin",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "1. Vicodin PRN",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Percocet",
+      "dose": null,
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "2. Percocet PRN",
+      "flags": [
+        "missing_dose",
+        "unknown_name"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "digoxin",
+      "name_as_written": "Lanoxin",
+      "dose": "0.125 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "3. Lanoxin 0.125 mg OD",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "simvastatin",
+      "name_as_written": "Zocor",
+      "dose": "10 mg",
+      "frequency": "at_night",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "4. Zocor 10 mg ON",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "warfarin",
+      "name_as_written": "Coumadin",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-18",
+      "quote": "5. Coumadin 5 mg OD",
+      "flags": []
+    }
+  ]
+}

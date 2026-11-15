@@ -1,0 +1,114 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P041",
+  "hospital": "C",
+  "source_file": "P041_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3058,
+    "output_tokens": 730
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": null,
+      "name_as_written": "NKA",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-28",
+      "quote": "- NKA",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "Anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Anemia",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "Prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Prediabetes",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "primary fibromyalgia syndrome",
+      "name_as_written": "Primary fibromyalgia syndrome",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Primary fibromyalgia syndrome",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic sinusitis",
+      "name_as_written": "Chronic sinusitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Chronic sinusitis",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "idiopathic atrophic hypothyroidism",
+      "name_as_written": "Idiopathic atrophic hypothyroidism",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Idiopathic atrophic hypothyroidism",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "polyp of colon",
+      "name_as_written": "Polyp of colon",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "- Polyp of colon",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "Panadol",
+      "dose": "325 mg",
+      "frequency": "as_needed",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-08-28",
+      "quote": "1. Panadol 325 mg PRN",
+      "flags": []
+    }
+  ]
+}

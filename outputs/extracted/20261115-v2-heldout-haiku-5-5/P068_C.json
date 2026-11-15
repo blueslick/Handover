@@ -1,0 +1,54 @@
+{
+  "format_version": "1.0",
+  "patient_id": "P068",
+  "hospital": "C",
+  "source_file": "P068_C.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3021,
+    "output_tokens": 716
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough, hay fever symptoms",
+      "status": "current",
+      "date": "2021-08-26",
+      "quote": "- Animal dander (cough, hay fever symptoms)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree nuts",
+      "name_as_written": "Tree nuts",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives, shortness of breath",
+      "status": "current",
+      "date": "2021-08-26",
+      "quote": "- Tree nuts (hives, shortness of breath)",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": null,
+      "name_as_written": "Nil regular medications",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "none_recorded",
+      "date": "2021-08-26",
+      "quote": "Nil regular medications",
+      "flags": []
+    }
+  ]
+}

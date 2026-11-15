@@ -1,0 +1,200 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R048",
+  "hospital": "B",
+  "source_file": "R048_B.txt",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3172,
+    "output_tokens": 1437
+  },
+  "facts": [
+    {
+      "type": "diagnosis",
+      "name": "diabetes",
+      "name_as_written": "diabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of diabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "His background includes hypertension.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "anemia",
+      "name_as_written": "anemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of anemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hyperglycemia",
+      "name_as_written": "hyperglycemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of hyperglycemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertriglyceridemia",
+      "name_as_written": "hypertriglyceridemia",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He has a history of hypertriglyceridemia.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "metabolic syndrome x",
+      "name_as_written": "metabolic syndrome x",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "His background includes metabolic syndrome x.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "prediabetes",
+      "name_as_written": "prediabetes",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is known to have prediabetes.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "neuropathy due to type 2 diabetes mellitus",
+      "name_as_written": "neuropathy due to type 2 diabetes mellitus",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is known to have neuropathy due to type 2 diabetes mellitus.",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "chronic obstructive bronchitis",
+      "name_as_written": "chronic obstructive bronchitis",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "His background includes chronic obstructive bronchitis.",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "shellfish",
+      "name_as_written": "shellfish",
+      "dose": null,
+      "frequency": null,
+      "reaction": "swelling (angioedema) and nausea",
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is allergic to shellfish, which causes swelling (angioedema) and nausea.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "metformin",
+      "name_as_written": "metformin",
+      "dose": "500 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He takes metformin 500 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "fluticasone / salmeterol",
+      "name_as_written": "fluticasone and salmeterol",
+      "dose": null,
+      "frequency": "twice_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He is on fluticasone and salmeterol twice a day.",
+      "flags": [
+        "missing_dose"
+      ]
+    },
+    {
+      "type": "medicine",
+      "name": "ibuprofen",
+      "name_as_written": "ibuprofen",
+      "dose": "400 mg",
+      "frequency": "three_times_daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He takes ibuprofen 400 mg three times a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "amlodipine",
+      "name_as_written": "amlodipine",
+      "dose": "2.5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-11-04",
+      "quote": "He continues on amlodipine 2.5 mg once a day.",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "paracetamol",
+      "name_as_written": "paracetamol",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "stopped",
+      "date": "2018-03-20",
+      "quote": "His paracetamol was stopped on 20 March 2018.",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "format_version": "1.0",
+  "patient_id": "R027",
+  "hospital": "A",
+  "source_file": "R027_A.csv",
+  "run_id": "20261115-v2-heldout-haiku-5-5",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "temperature": null,
+  "settings": "thinking at model default, fixed JSON shape, default sampling",
+  "attempt": 1,
+  "usage": {
+    "input_tokens": 3480,
+    "output_tokens": 1688
+  },
+  "facts": [
+    {
+      "type": "allergy",
+      "name": "animal dander",
+      "name_as_written": "Animal dander",
+      "dose": null,
+      "frequency": null,
+      "reaction": "cough; hay fever symptoms",
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Animal dander,,,Active,1971-02-03,cough; hay fever symptoms",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "bee venom",
+      "name_as_written": "Bee venom",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Bee venom,,,Active,1971-02-03,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "grass pollen",
+      "name_as_written": "Grass pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Grass pollen,,,Active,1971-02-03,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "house dust mite",
+      "name_as_written": "House dust mite",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,House dust mite,,,Active,1971-02-03,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "mould",
+      "name_as_written": "Mould",
+      "dose": null,
+      "frequency": null,
+      "reaction": "runny nose",
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Mould,,,Active,1971-02-03,runny nose",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "peanut",
+      "name_as_written": "Peanut",
+      "dose": null,
+      "frequency": null,
+      "reaction": "hives; swelling (angioedema)",
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Peanut,,,Active,1971-02-03,hives; swelling (angioedema)",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "tree pollen",
+      "name_as_written": "Tree pollen",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Tree pollen,,,Active,1971-02-03,",
+      "flags": []
+    },
+    {
+      "type": "allergy",
+      "name": "cefdinir",
+      "name_as_written": "Cefdinir",
+      "dose": null,
+      "frequency": null,
+      "reaction": "anaphylaxis",
+      "status": "current",
+      "date": "1971-02-03",
+      "quote": "ALLERGY,Cefdinir,,,Active,1971-02-03,anaphylaxis",
+      "flags": []
+    },
+    {
+      "type": "diagnosis",
+      "name": "hypertension",
+      "name_as_written": "Hypertension",
+      "dose": null,
+      "frequency": null,
+      "reaction": null,
+      "status": "current",
+      "date": "1988-08-15",
+      "quote": "PROBLEM,Hypertension,,,Active,1988-08-15,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "hydrochlorothiazide",
+      "name_as_written": "Hydrochlorothiazide",
+      "dose": "25 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-02-15",
+      "quote": "MEDICATION,Hydrochlorothiazide,25 mg,once daily,Active,2021-02-15,",
+      "flags": []
+    },
+    {
+      "type": "medicine",
+      "name": "lisinopril",
+      "name_as_written": "Lisinopril",
+      "dose": "5 mg",
+      "frequency": "daily",
+      "reaction": null,
+      "status": "current",
+      "date": "2021-03-15",
+      "quote": "MEDICATION,Lisinopril,5 mg,once daily,Active,2021-03-15,",
+      "flags": []
+    }
+  ]
+}
