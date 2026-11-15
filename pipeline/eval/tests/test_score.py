@@ -266,6 +266,34 @@ def test_cli_refuses_held_out_id_before_opening_anything(tmp_path):
     assert not (tmp_path / "out").exists()
 
 
+# The ID gate (T43): the public single-note IDs are open like D001; held-out and reserve are not.
+# These tests call the gate directly, so no file of any kind is opened.
+@pytest.mark.parametrize("pid", ["D101", "D120", "D140", "D201", "D212"])
+def test_single_note_ids_are_accepted_without_include_heldout(pid):
+    score._check_allowed([pid], include_heldout=False)
+
+
+@pytest.mark.parametrize("pid", ["D100", "D141", "D200", "D213", "D901", "D1010"])
+def test_ids_outside_the_single_note_ranges_are_refused(pid):
+    with pytest.raises(SystemExit):
+        score._check_allowed([pid], include_heldout=False)
+
+
+@pytest.mark.parametrize("pid", ["P021", "R001"])
+def test_heldout_and_reserve_ids_still_need_include_heldout(pid):
+    with pytest.raises(SystemExit):
+        score._check_allowed([pid], include_heldout=False)
+    score._check_allowed([pid], include_heldout=True)  # allowed only with the flag
+
+
+def test_cli_accepts_single_note_id_at_the_gate_without_include_heldout(tmp_path):
+    # D201 passes the gate. With an empty compiled folder, the first file read then fails, which
+    # proves the gate was passed. Only a made-up empty folder is used.
+    with pytest.raises(FileNotFoundError):
+        score.main(["--compiled-dir", str(tmp_path), "--keys-dir", str(tmp_path),
+                    "--patients", "D201", "--out-dir", str(tmp_path / "out")])
+
+
 def test_cli_writes_csv_files_for_d001(tmp_path):
     # Copy the sample in as D001.json and score it against the demo key folder.
     compiled_dir = tmp_path / "compiled"

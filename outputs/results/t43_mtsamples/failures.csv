@@ -1,0 +1,107 @@
+patient_id,kind,key_fact_id,output_fact_id,type,name,key_status,output_status,key_critical,output_critical,duplicate,key_quote,output_quote
+D201,missed,D201-F01,,medicine,clonazepam,stopped,,False,,False,,
+D201,missed,D201-F02,,medicine,lithium,stopped,,False,,False,,
+D201,missed,D201-F04,,medicine,clonidine,planned,,False,,False,,
+D201,missed,D201-F05,,medicine,promethazine,planned,,False,,False,,
+D201,false_alarm,,D201-F03,medicine,,,stopped,,False,False,,He has previously also been on Klonopin and lithium.
+D201,false_alarm,,D201-F04,medicine,,,planned,,False,False,,I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.
+D201,false_alarm,,D201-F05,medicine,,,planned,,False,False,,I have written a prescription of clonidine and Phenergan for symptomatic relief and this has been faxed to the pharmacy.
+D201,false_alarm,,D201-F06,medicine,,,stopped,,False,False,,He has previously also been on Klonopin and lithium.
+D202,missed,D202-F02,,medicine,cephalexin,current,,True,,False,,
+D202,missed,D202-F03,,medicine,clonidine,current,,True,,False,,
+D202,missed,D202-F04,,medicine,conjugated estrogens / medroxyprogesterone,current,,True,,False,,
+D202,missed,D202-F05,,medicine,diclofenac,current,,True,,False,,
+D202,missed,D202-F06,,medicine,enalapril,current,,True,,False,,
+D202,missed,D202-F07,,medicine,glimepiride,current,,True,,False,,
+D202,missed,D202-F10,,medicine,nifedipine,current,,True,,False,,
+D202,missed,D202-F11,,medicine,omeprazole,current,,True,,False,,
+D202,false_alarm,,D202-F06,medicine,,,current,,True,False,,7. Amaryl 2 mg p.o. daily.
+D202,false_alarm,,D202-F07,medicine,,,current,,True,False,,3. Clonidine 0.2 mg p.o. b.i.d.
+D202,false_alarm,,D202-F08,medicine,,,current,,True,False,,5. Diclofenac 75 mg p.o. daily.
+D202,false_alarm,,D202-F09,medicine,,,current,,True,False,,6. Enalapril 10 mg p.o. b.i.d.
+D202,false_alarm,,D202-F10,medicine,,,current,,True,False,,2. Keflex 500 mg p.o. t.i.d.
+D202,false_alarm,,D202-F11,medicine,,,current,,True,False,,10. Nifedipine extended release 60 mg p.o. b.i.d.
+D202,false_alarm,,D202-F12,medicine,,,current,,True,False,,11. Omeprazole 20 mg p.o. daily.
+D202,false_alarm,,D202-F13,medicine,,,current,,True,False,,"4. Prempro, dose is unknown."
+D204,missed,D204-F01,,medicine,lorazepam,current,,True,,False,,
+D204,missed,D204-F02,,medicine,paracetamol / diphenhydramine,current,,True,,False,,
+D204,missed,D204-F03,,medicine,potassium chloride,current,,True,,False,,
+D204,missed,D204-F04,,medicine,escitalopram,current,,True,,False,,
+D204,missed,D204-F05,,medicine,calcium / vitamin d,current,,True,,False,,
+D204,missed,D204-F09,,medicine,insulin,planned,,False,,False,,
+D204,false_alarm,,D204-F05,medicine,,,current,,True,False,,"Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D."
+D204,false_alarm,,D204-F06,medicine,,,current,,True,False,,"Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D."
+D204,false_alarm,,D204-F07,medicine,,,current,,True,False,,"Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D."
+D204,false_alarm,,D204-F08,medicine,,,current,,True,False,,"Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D."
+D204,false_alarm,,D204-F09,medicine,,,current,,True,False,,"Lorazepam 0.5 mg, dosing interval is not noted; Tylenol PM; Klor-Con 10 mEq; Lexapro; calcium with vitamin D."
+D204,false_alarm,,D204-F10,medicine,,,planned,,False,False,,"5. Hypertension. If the patient takes blood pressure medications, it is not listed on the only medication listing that is available. I will prescribe clonidine as needed."
+D204,false_alarm,,D204-F11,medicine,,,planned,,False,False,,4. Hyperglycemia. It is unknown whether the patient is diabetic. I will treat her with sliding scale insulin.
+D205,missed,D205-F01,,medicine,colestipol,current,,True,,False,,
+D205,missed,D205-F02,,medicine,pioglitazone,current,,True,,False,,
+D205,missed,D205-F03,,medicine,glimepiride,current,,True,,False,,
+D205,missed,D205-F04,,medicine,carisoprodol,current,,True,,False,,
+D205,missed,D205-F05,,medicine,meloxicam,current,,True,,False,,
+D205,missed,D205-F06,,allergy,caffeine,side_effect,,True,,False,,
+D205,missed,D205-F07,,allergy,pseudoephedrine,side_effect,,True,,False,,
+D205,missed,D205-F08,,allergy,phenylpropanolamine,side_effect,,True,,False,,
+D205,false_alarm,,D205-F01,allergy,,,side_effect,,True,False,,"She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine."
+D205,false_alarm,,D205-F02,allergy,,,side_effect,,True,False,,"She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine."
+D205,false_alarm,,D205-F04,allergy,,,side_effect,,True,False,,"She has no allergies; however, she does get tachycardic with caffeine, Sudafed, or phenylpropanolamine."
+D205,false_alarm,,D205-F05,medicine,,,current,,True,False,,"Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain."
+D205,false_alarm,,D205-F06,medicine,,,current,,True,False,,"Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain."
+D205,false_alarm,,D205-F07,medicine,,,current,,True,False,,"Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain."
+D205,false_alarm,,D205-F08,medicine,,,current,,True,False,,"Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain."
+D205,false_alarm,,D205-F09,medicine,,,current,,True,False,,"Include Colestid 1 g daily, Actos 30 mg daily, Amaryl 2 mg daily, Soma, and meloxicam for her back pain."
+D206,missed,D206-F01,,medicine,bacitracin,current,,True,,False,,
+D206,missed,D206-F03,,medicine,chlorhexidine,planned,,False,,False,,
+D206,missed,D206-F04,,medicine,mupirocin,planned,,False,,False,,
+D206,false_alarm,,D206-F03,medicine,,,planned,,False,False,,Hibiclens and Bactroban.
+D206,false_alarm,,D206-F04,medicine,,,planned,,False,False,,Hibiclens and Bactroban.
+D206,false_alarm,,D206-F05,medicine,,,current,,True,False,,They put her on bacitracin ointment near the umbilicus.
+D207,missed,D207-F01,,medicine,ipratropium,current,,True,,False,,
+D207,missed,D207-F04,,medicine,potassium chloride,current,,True,,False,,
+D207,missed,D207-F07,,medicine,ceftriaxone,current,,True,,False,,
+D207,false_alarm,,D207-F07,medicine,,,current,,True,False,,1. Atrovent and albuterol nebulizers.
+D207,false_alarm,,D207-F08,medicine,,,current,,True,False,,7. Ceftriaxone.
+D207,false_alarm,,D207-F09,medicine,,,current,,True,False,,3. Potassium chloride 10 mEq p.o. daily.
+D208,missed,D208-F02,,medicine,potassium chloride,current,,True,,False,,
+D208,missed,D208-F04,,medicine,levothyroxine,current,,True,,False,,
+D208,missed,D208-F07,,medicine,pantoprazole,current,,True,,False,,
+D208,missed,D208-F08,,medicine,metoprolol,current,,True,,False,,
+D208,missed,D208-F09,,medicine,vitamin b,current,,True,,False,,
+D208,missed,D208-F10,,medicine,ezetimibe,current,,True,,False,,
+D208,false_alarm,,D208-F01,allergy,,,current,,True,False,,SULFA
+D208,false_alarm,,D208-F07,medicine,,,current,,True,False,,4. Levothyroxine.
+D208,false_alarm,,D208-F08,medicine,,,current,,True,False,,2. Potassium.
+D208,false_alarm,,D208-F09,medicine,,,current,,True,False,,7. Protonix.
+D208,false_alarm,,D208-F10,medicine,,,current,,True,False,,8. Toprol.
+D208,false_alarm,,D208-F11,medicine,,,current,,True,False,,9. Vitamin B.
+D208,false_alarm,,D208-F12,medicine,,,current,,True,False,,10. Zetia.
+D209,missed,D209-F01,,medicine,insulin,current,,True,,False,,
+D209,missed,D209-F03,,medicine,pioglitazone,current,,True,,False,,
+D209,missed,D209-F04,,medicine,rosuvastatin,current,,True,,False,,
+D209,missed,D209-F05,,medicine,mycophenolate mofetil,current,,True,,False,,
+D209,false_alarm,,D209-F03,medicine,,,current,,True,False,,"As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day."
+D209,false_alarm,,D209-F04,medicine,,,current,,True,False,,"As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day."
+D209,false_alarm,,D209-F05,medicine,,,current,,True,False,,"As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day."
+D209,false_alarm,,D209-F06,medicine,,,current,,True,False,,"As you know she takes the following medications for her diabetes, insulin 70 units/6 units times four years, aspirin 81 mg a day, Actos 15 mg, Crestor 10 mg and CellCept 500 mg two times a day."
+D210,missed,D210-F01,,medicine,metronidazole,planned,,False,,False,,
+D210,wrong_status,D210-F02,D210-F02,medicine,vancomycin,planned,current,False,True,False,,2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.
+D210,missed,D210-F03,,medicine,saccharomyces boulardii,planned,,False,,False,,
+D210,false_alarm,,D210-F03,medicine,,,current,,True,False,,"After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin."
+D210,false_alarm,,D210-F04,medicine,,,planned,,False,False,,"1. Treat the C. diff aggressively especially given CT appearance and her continued leukocytosis and because of the Levaquin, which could have added additional antibiotic pressure, so I will restart the IV Flagyl."
+D210,false_alarm,,D210-F05,medicine,,,planned,,False,False,,2. Continue p.o. vancomycin. Add Florastor to help replenish the gut flora.
+D210,false_alarm,,D210-F06,medicine,,,current,,True,False,,"After admission, she had a CT of the abdomen done, which showed evidence of diffuse colitis and she was started on IV Flagyl and also on IV Levaquin."
+D210,false_alarm,,D210-F07,medicine,,,current,,True,False,,HOME MEDICATIONS: She is on atenolol and Mevacor.
+D210,false_alarm,,D210-F08,medicine,,,stopped,,False,False,,"2. Diarrhea secondary to above and also could be related Reglan, which was discontinued today."
+D210,false_alarm,,D210-F09,medicine,,,current,,True,False,,HOME MEDICATIONS: She is on atenolol and Mevacor.
+D211,missed,D211-F01,,medicine,lovastatin,current,,True,,False,,
+D211,missed,D211-F02,,medicine,propranolol,current,,True,,False,,
+D211,missed,D211-F03,,medicine,pantoprazole,current,,True,,False,,
+D211,missed,D211-F04,,medicine,tamsulosin,current,,True,,False,,
+D211,false_alarm,,D211-F02,medicine,,,current,,True,False,,6. Flomax.
+D211,false_alarm,,D211-F03,medicine,,,current,,True,False,,3. Lovastatin 20 mg daily.
+D211,false_alarm,,D211-F04,medicine,,,current,,True,False,,1. Pain medications.
+D211,false_alarm,,D211-F05,medicine,,,current,,True,False,,4. Propranolol 20 b.i.d.
+D211,false_alarm,,D211-F06,medicine,,,current,,True,False,,5. Protonix.
+D211,false_alarm,,D211-F07,medicine,,,current,,True,False,,2. Thyroid supplementation.

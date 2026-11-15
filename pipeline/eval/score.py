@@ -9,8 +9,9 @@ directly inside it or inside an <ID>/ folder (the layout of pipeline/data/workin
 pipeline/data/demo). The script writes per_patient.csv, summary.csv and failures.csv into
 --out-dir. It only reads files and makes no model calls.
 
-Only D001 and P001 to P020 are accepted unless --include-heldout is given. The check runs
-before any file is opened, so a held-out or reserve record cannot be read by accident.
+Only D001, D101 to D140 (public trap notes), D201 to D212 (public MTSamples notes) and P001 to
+P020 are accepted unless --include-heldout is given. The check runs before any file is opened,
+so a held-out or reserve record cannot be read by accident.
 
 With --include-heldout, the script first checks that the `freeze` tag exists (T65, through
 heldout_guard.py), then asks git whether each output file is git-ignored (git check-ignore)
@@ -78,6 +79,9 @@ SCOPES = ("all", "critical")
 # Patients scored without --include-heldout: the 20 working patients and the demo patient.
 WORKING_RE = re.compile(r"^P0(?:0[1-9]|1[0-9]|20)$")
 DEMO_ID = "D001"
+# Public single-note demo IDs (Q13): T40 trap notes D101-D140 and T43 MTSamples notes D201-D212.
+# They are not held-out patients, so they are scored like D001, without --include-heldout.
+SINGLE_NOTE_RE = re.compile(r"^D(?:1(?:0[1-9]|[1-3][0-9]|40)|2(?:0[1-9]|1[0-2]))$")
 ANY_SPLIT_ID_RE = re.compile(r"^[PR]\d{3}$")
 
 
@@ -339,7 +343,7 @@ def _load_ages_and_sex(patient_ids):
 def _check_allowed(patient_ids, include_heldout):
     """Refuse held-out and reserve IDs unless --include-heldout is given. Runs before any file is opened."""
     for pid in patient_ids:
-        if pid == DEMO_ID or WORKING_RE.match(pid):
+        if pid == DEMO_ID or WORKING_RE.match(pid) or SINGLE_NOTE_RE.match(pid):
             continue
         if include_heldout and ANY_SPLIT_ID_RE.match(pid):
             continue

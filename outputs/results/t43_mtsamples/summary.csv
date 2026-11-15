@@ -1,0 +1,3 @@
+scope,patients,key_facts,output_facts,matched,missed,false_alarms,wrong_status,duplicates,dose_correct,dose_wrong,dose_not_applicable,conflict_facts,conflict_shown,combination_keys_with_dose,recall,precision
+all,12,84,93,35,49,58,1,0,10,0,14,0,0,0,0.417,0.376
+critical,12,69,77,30,39,47,1,0,10,0,9,0,0,0,0.435,0.39
