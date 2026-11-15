@@ -155,6 +155,13 @@ class Tidying(unittest.TestCase):
                        status="none_recorded", quote="[ALLERGIES]\n - NKA"))
         self.assertEqual(out["problems"], [])
 
+    def test_diagnosis_named_by_the_records_own_words(self):
+        # The model shortened "Type 2 diabetes" to "diabetes": the record's words win (P008, T31).
+        f = fact("diagnosis", "diabetes", "Type 2 diabetes", None, None, quote="- Type 2 diabetes")
+        r = check_record(wrap("D001", "C", "D001_C.txt", [f]), read(D001 / "D001_C.txt"))
+        self.assertEqual(r["checked"]["facts"][0]["name"], "type 2 diabetes")
+        self.assertEqual(r["problems"], [])
+
     def test_none_recorded_has_no_name(self):
         out = one(fact(type_="allergy", name="nka", written="NKA", dose=None, freq=None,
                        status="none_recorded", quote="- NKA"))

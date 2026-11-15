@@ -17,6 +17,8 @@ What is checked, fact by fact:
                   shared/brand_to_generic.csv and shared/drug_list.csv, capitals ignored,
                   longest brand first ("Glucophage XR" before "Glucophage"). A name in
                   neither table gets name = null and the `unknown_name` flag. Never guessed.
+                  Diagnoses and operations have no tables: their name is the name as
+                  written in the record, in lowercase, so every hospital names it the same.
 
 A fact that fails 3, 4 or 5 is kept, with the `unverified` flag, so the doctor sees it
 with a warning rather than losing it. Any failure of 1 to 5 makes the record "fail the
@@ -260,8 +262,15 @@ def check_record(doc, source_text):
                     notes.append(f"{label}: name '{f['name']}' changed to '{generic}' from the tables")
                 f["name"] = generic
                 flags.discard("unknown_name")
-        elif f["name"]:
-            f["name"] = f["name"].strip().lower()  # diagnoses and operations: no tables
+        else:
+            # Diagnoses and operations have no tables, so the name is the record's own
+            # words (already checked against the quote in check 4), in lowercase. The
+            # model sometimes shortens a name ("asthma" for "Childhood asthma"), and then
+            # the same illness from two hospitals would not merge (found on P008, T31).
+            own_words = squash(written).lower() if written else None
+            if own_words and f["name"] and f["name"].strip().lower() != own_words:
+                notes.append(f"{label}: name '{f['name']}' changed to the record's words '{own_words}'")
+            f["name"] = own_words or (f["name"].strip().lower() if f["name"] else None)
 
         # Flags: unverified if 3, 4 or 5 failed; missing_dose on a current medicine with no dose.
         if verified:
