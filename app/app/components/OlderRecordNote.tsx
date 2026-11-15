@@ -11,9 +11,9 @@ export default function OlderRecordNote({ facts }: { facts: Fact[] }) {
   return (
     <section
       aria-label="Older record: medicines"
-      className="mt-6 border border-dashed border-zinc-400 bg-zinc-50 text-zinc-600 rounded p-4"
+      className="rounded-3xl border border-dashed border-soft text-soft p-5"
     >
-      <h2 className="text-base font-semibold">Older record</h2>
+      <h2 className="text-base font-medium">Older record</h2>
       <p className="mt-1 text-sm">
         A later hospital record lists current medicines, so this earlier line is kept here as
         history only.

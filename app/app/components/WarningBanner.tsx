@@ -8,8 +8,8 @@ export default function WarningBanner({ facts }: { facts: Fact[] }) {
   if (lines.length === 0) return null;
 
   return (
-    <div role="alert" className="border-4 border-amber-700 bg-amber-50 text-amber-950 rounded p-4">
-      <h2 className="text-lg font-bold">Warning: check these before relying on this record</h2>
+    <div role="alert" className="border-2 border-alert bg-peach rounded-3xl p-5">
+      <h2 className="text-lg font-medium">Warning: check these before relying on this record</h2>
       <ul className="mt-2 list-disc pl-5 flex flex-col gap-1">
         {lines.map((l) => (
           <li key={l.key}>

@@ -10,17 +10,21 @@ export default function OmissionBox({ load }: { load: OmissionLoad }) {
   if (load.state === "missing") return null;
 
   return (
-    <section aria-labelledby="omission-heading" className="mt-8 border-2 border-dashed border-zinc-700 rounded p-4">
-      <h2 id="omission-heading" className="text-xl font-semibold">
-        Double-check: names found in the records but not listed above
+    <section aria-labelledby="omission-heading" className="rounded-2xl bg-mint px-4 py-3">
+      {/* T75: folded to one line in the right-hand panel; the explanation opens on a tap. */}
+      <h2 id="omission-heading" className="font-medium">
+        Double-check: word search
       </h2>
-      <p className="mt-1 text-sm">
-        A simple word search looked for medicine and allergy names in each hospital record and lists any the tool
-        did not include above. These are hints to check the original record, not confirmed facts.
-      </p>
+      <details className="text-sm">
+        <summary className="underline underline-offset-2">What is this?</summary>
+        <p className="mt-1">
+          A simple word search looked for medicine and allergy names in each hospital record and lists any the tool
+          did not include in the record. These are hints to check the original record, not confirmed facts.
+        </p>
+      </details>
 
       {load.state === "failed" ? (
-        <p role="alert" className="mt-3 font-semibold">
+        <p role="alert" className="mt-2 font-medium">
           The word-search results could not be loaded, so none are shown.
         </p>
       ) : (
@@ -38,16 +42,16 @@ function Results({ load }: { load: Extract<OmissionLoad, { state: "ok" }> }) {
   return (
     <>
       {flagged.length === 0 ? (
-        <p className="mt-3 font-medium">
+        <p className="mt-2">
           Nothing found: every medicine and allergy name the word search found in Hospital{records.length > 1 ? "s" : ""}{" "}
-          {checked} is already in the record above.
+          {checked} is already in the record.
         </p>
       ) : (
         <ul className="mt-3 flex flex-col gap-3">
           {flagged.flatMap((r) =>
             r.flags.map((f) => (
-              <li key={`${r.hospital}-${f.generic}`} className="border border-zinc-500 rounded p-3">
-                <p className="font-semibold">
+              <li key={`${r.hospital}-${f.generic}`} className="rounded-2xl bg-white p-3">
+                <p className="font-medium">
                   {capitalise(f.generic)}
                   {f.terms_as_written.length > 0 &&
                     f.terms_as_written.some((t) => t.toLowerCase() !== f.generic.toLowerCase()) && (

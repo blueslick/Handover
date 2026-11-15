@@ -1,23 +1,31 @@
 @import "tailwindcss";
 
-/* Simple light colours. Plain system fonts, so the build needs no network. */
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+/* T75: the "Minimal" look. A green side rail, a pale mint page and white cards.
+   Only two colours carry meaning: green is the frame, orange is "check this".
+   Every status is still written in words, so nothing depends on colour. */
+@theme {
+  --color-rail: #2e7d66; /* side rail, buttons, the chosen item */
+  --color-rail-ink: #1f5a49; /* green text on a light background */
+  --color-sage: #dde8df; /* outside the app window */
+  --color-mint: #edf4ee; /* page background, quiet boxes */
+  --color-leaf: #dcede5; /* light green fill */
+  --color-ink: #1f2a26; /* main text */
+  --color-soft: #5c6b64; /* small grey text */
+  --color-alert: #c24e1d; /* solid orange: stopped medicine, disagreement */
+  --color-alert-ink: #9c3a14; /* orange text on a light background */
+  --color-peach: #fbe6da; /* light orange fill */
+  --font-sans: var(--font-lexend), system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  background: var(--color-sage);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.5;
 }
 
-/* T68 item 11: the card a banner link jumps to gets a thick outline, so the eye finds it. */
+/* T68 item 11: the card a link jumps to gets a thick outline, so the eye finds it. */
 :target {
   outline: 4px solid #b45309;
   outline-offset: 4px;
@@ -35,13 +43,19 @@ body {
     font-size: 112.5%;
   }
 }
-body {
-  line-height: 1.6;
-}
 
 /* T71 item 37: a clear blue outline on whatever the keyboard is on (Tab key). Blue is
    used for nothing else in the app, so it can't be mistaken for a warning. */
 :focus-visible {
   outline: 3px solid #1d4ed8;
   outline-offset: 2px;
+}
+
+/* T75: fold-out sections ("details") show a small plus or minus instead of the browser's triangle. */
+summary {
+  cursor: pointer;
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
 }

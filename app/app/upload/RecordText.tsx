@@ -24,7 +24,7 @@ function splitCsvLine(line: string): string[] {
   return cells;
 }
 
-const box = "mt-2 max-h-72 overflow-auto border border-zinc-400 rounded bg-zinc-50 p-2";
+const box = "mt-2 max-h-72 overflow-auto rounded-2xl bg-mint p-3";
 
 export default function RecordText({ text, file, format }: { text: string; file: string; format: string }) {
   const lower = `${file} ${format}`.toLowerCase();
@@ -39,7 +39,7 @@ export default function RecordText({ text, file, format }: { text: string; file:
           <thead>
             <tr>
               {head?.map((c, i) => (
-                <th key={i} scope="col" className="border border-zinc-400 bg-zinc-200 px-1 py-0.5 text-left font-semibold">
+                <th key={i} scope="col" className="border border-sage bg-leaf px-1 py-0.5 text-left font-medium">
                   {c}
                 </th>
               ))}
@@ -49,7 +49,7 @@ export default function RecordText({ text, file, format }: { text: string; file:
             {rows.map((r, i) => (
               <tr key={i}>
                 {r.map((c, j) => (
-                  <td key={j} className="border border-zinc-300 px-1 py-0.5 align-top whitespace-nowrap">
+                  <td key={j} className="border border-sage px-1 py-0.5 align-top whitespace-nowrap">
                     {c}
                   </td>
                 ))}
@@ -63,7 +63,7 @@ export default function RecordText({ text, file, format }: { text: string; file:
 
   // A letter: ordinary text, line breaks kept.
   if (lower.includes("letter")) {
-    return <div className={`${box} text-sm whitespace-pre-wrap leading-relaxed bg-white`}>{text}</div>;
+    return <div className={`${box} text-sm whitespace-pre-wrap leading-relaxed`}>{text}</div>;
   }
 
   // Anything else (the medication sheet): fixed-width, exactly as typed.

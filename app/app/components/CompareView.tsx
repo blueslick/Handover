@@ -9,14 +9,14 @@ import WarningBanner from "./WarningBanner";
 
 function SideLabel({ which }: { which: "handover" | "baseline" }) {
   return (
-    <p className="text-sm font-semibold text-zinc-700 md:sr-only">
+    <p className="text-sm font-medium text-soft md:sr-only">
       {which === "handover" ? "Handover (our tool):" : "Baseline (keyword search):"}
     </p>
   );
 }
 
 function Empty() {
-  return <p className="text-sm text-zinc-700 border border-dashed border-zinc-400 rounded p-3">None listed.</p>;
+  return <p className="text-sm text-soft border border-dashed border-soft rounded-2xl p-3">None listed.</p>;
 }
 
 export default function CompareView({ handover, baseline }: { handover: CompiledRecord; baseline: CompiledRecord }) {
@@ -28,11 +28,11 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
     .filter((r) => r.left.length > 0 || r.right.length > 0);
 
   return (
-    <div className="mt-6">
+    <div>
       {/* Column headings, on wide screens only (narrow screens label each cell instead). */}
-      <div className="hidden md:grid md:grid-cols-2 gap-4 sticky top-0 bg-white py-2 z-10 border-b border-zinc-300">
-        <p className="text-lg font-semibold">Handover (our tool): {handover.facts.length} facts</p>
-        <p className="text-lg font-semibold">Baseline (keyword search): {baseline.facts.length} entries</p>
+      <div className="hidden md:grid md:grid-cols-2 gap-4 sticky top-0 bg-mint py-2 z-10 border-b border-sage">
+        <p className="text-lg font-medium">Handover (our tool): {handover.facts.length} facts</p>
+        <p className="text-lg font-medium">Baseline (keyword search): {baseline.facts.length} entries</p>
       </div>
 
       <div className="mt-4 grid md:grid-cols-2 gap-4">
@@ -42,16 +42,18 @@ export default function CompareView({ handover, baseline }: { handover: Compiled
         </div>
         <div>
           <SideLabel which="baseline" />
-          <p className="border-2 border-dashed border-zinc-500 rounded p-4">
+          <p className="border-2 border-dashed border-soft rounded-3xl p-4">
             The baseline gives no warnings: it has no checks, no conflict rule and no stop rule.
           </p>
-          <BaselineSummary handover={handover} baseline={baseline} />
+          <div className="mt-4">
+            <BaselineSummary handover={handover} baseline={baseline} />
+          </div>
         </div>
       </div>
 
       {rows.map((r) => (
         <section key={r.title} className="mt-8">
-          <h3 className="text-xl font-semibold mb-2">{r.title}</h3>
+          <h3 className="text-xl font-medium mb-2">{r.title}</h3>
           <div className="grid md:grid-cols-2 gap-4 items-start">
             <div className="flex flex-col gap-2 min-w-0">
               <SideLabel which="handover" />

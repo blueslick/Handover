@@ -60,25 +60,25 @@ export default function FactCard({
   );
 
   return (
-    <article id={idPrefix + factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded p-4 flex-1 min-w-0 ${style.card}`}>
+    <article id={idPrefix + factAnchor(fact.fact_id)} className={`scroll-mt-4 rounded-2xl p-4 flex-1 min-w-0 ${style.card}`}>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h3 className={`text-lg font-semibold break-words ${style.struck ? "line-through decoration-2" : ""}`}>
+        <h3 className={`text-lg font-medium break-words ${style.struck ? "line-through decoration-2" : ""}`}>
           {headline(fact)}
         </h3>
-        <span className={`rounded px-2 py-0.5 text-sm font-semibold ${style.pill}`}>
+        <span className={`rounded-full px-3 py-0.5 text-sm font-medium ${style.pill}`}>
           Status: {statusLabel(fact)}
         </span>
       </div>
 
-      {detail && <p className="mt-1 text-zinc-800">{detail}</p>}
+      {detail && <p className="mt-1">{detail}</p>}
 
       {/* T68 item 18: each part of the card is labelled in words. */}
-      <p className="mt-2 text-sm text-zinc-700">
+      <p className="mt-2 text-sm text-soft">
         <span className="font-medium">Latest source:</span> Hospital {fact.hospital}, {formatDate(fact.date)}
       </p>
       {(() => {
         const quote = (
-          <blockquote className="mt-1 border-l-4 border-zinc-400 pl-3 text-sm italic break-words">
+          <blockquote className="mt-1 rounded-xl bg-mint px-3 py-2 text-sm break-words">
             <Quote text={fact.quote} file={fact.sources.find((s) => s.quote === fact.quote)?.file} terms={quoteTerms(fact)} />
           </blockquote>
         );
@@ -93,7 +93,7 @@ export default function FactCard({
       })()}
 
       {otherSources.length > 0 && (
-        <div className="mt-2 text-sm text-zinc-700">
+        <div className="mt-2 text-sm text-soft">
           <p className="font-medium">Also stated by:</p>
           <ul className="list-disc pl-5">
             {otherSources.map((s) => (
@@ -106,7 +106,7 @@ export default function FactCard({
       )}
 
       {fact.history.length > 0 && (
-        <div className="mt-2 text-sm text-zinc-700">
+        <div className="mt-2 text-sm text-soft">
           <p className="font-medium">Earlier (older values of this fact):</p>
           <ul className="list-disc pl-5">
             {fact.history.map((h) => (
@@ -126,7 +126,7 @@ export default function FactCard({
           {fact.flags.map((flag) => (
             <li
               key={flag}
-              className="border-2 border-amber-700 bg-amber-50 text-amber-950 rounded px-2 py-0.5 text-sm font-semibold"
+              className="bg-peach text-alert-ink rounded-full px-3 py-0.5 text-sm font-medium"
             >
               Warning: {FLAG_LABELS[flag]}
             </li>

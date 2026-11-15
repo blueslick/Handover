@@ -13,20 +13,20 @@ export interface StatusStyle {
 export function statusStyle(fact: Pick<Fact, "type" | "status" | "flags">): StatusStyle {
   const conflict = fact.flags.includes("conflict");
   // A disagreement between hospitals: amber edge on the card.
-  const edge = conflict ? "border-2 border-amber-700" : "border border-zinc-400";
+  const edge = conflict ? "border-2 border-alert" : "border border-sage";
 
-  // A recorded allergy: the strongest colour (white on dark red).
+  // A recorded allergy: the strongest colour (white on the app's one warning colour, orange; T75).
   if (fact.type === "allergy" && fact.status === "current") {
-    return { card: `${edge} border-l-8 border-l-red-800 bg-white`, pill: "bg-red-800 text-white border border-red-800", struck: false };
+    return { card: `${edge} border-l-8 border-l-alert bg-white`, pill: "bg-alert text-white border border-alert", struck: false };
   }
-  // A suspected allergy: dark red outline, lighter fill.
+  // A suspected allergy: orange outline, lighter fill.
   if (fact.type === "allergy" && fact.status === "suspected") {
-    return { card: `${edge} border-l-8 border-l-red-800 bg-white`, pill: "bg-red-50 text-red-900 border-2 border-red-800", struck: false };
+    return { card: `${edge} border-l-8 border-l-alert bg-white`, pill: "bg-peach text-alert-ink border-2 border-alert", struck: false };
   }
   // A stopped medicine: grey, with the name struck through.
   if (fact.type === "medicine" && fact.status === "stopped") {
-    return { card: `${edge} bg-zinc-100`, pill: "bg-zinc-300 text-zinc-900 border border-zinc-500", struck: true };
+    return { card: `${edge} bg-mint`, pill: "bg-sage text-ink border border-soft", struck: true };
   }
   // Everything else (current, none recorded, planned...): plain.
-  return { card: `${edge} bg-white`, pill: "bg-white text-zinc-900 border border-zinc-700", struck: false };
+  return { card: `${edge} bg-white`, pill: "bg-white text-ink border border-soft", struck: false };
 }

@@ -28,9 +28,9 @@ export default function FactList({
           key={fact.conflict_group}
           id={idPrefix + conflictAnchor(fact.conflict_group)}
           aria-label={`Hospitals disagree (${fact.conflict_group})`}
-          className="scroll-mt-4 border-2 border-dashed border-amber-700 rounded p-3"
+          className="scroll-mt-4 border-2 border-dashed border-alert rounded-3xl p-3"
         >
-          <p className="mb-2 text-sm font-semibold">
+          <p className="mb-2 text-sm font-medium">
             Hospitals disagree. Both versions are shown:
           </p>
           <div className="flex flex-col md:flex-row gap-3">

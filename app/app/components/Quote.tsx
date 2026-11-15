@@ -55,7 +55,7 @@ export default function Quote({ text, file, terms }: { text: string; file?: stri
       “
       {pieces(text, terms).map((p, i) =>
         p.hit ? (
-          <mark key={i} className="bg-yellow-200 text-inherit rounded-sm px-0.5 font-semibold">
+          <mark key={i} className="bg-yellow-200 text-ink rounded-sm px-0.5 font-medium">
             {p.text}
           </mark>
         ) : (
