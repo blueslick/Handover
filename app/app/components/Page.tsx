@@ -26,7 +26,7 @@ export default function Page({
           <footer className="mt-auto flex flex-wrap gap-x-6 gap-y-1 pt-2 text-xs text-quiet">
             <p>This project is a prototype and is not medical advice.</p>
             {/* Opens in a new tab, so the reader keeps their place in the app (Abby's review). */}
-            <a href="https://github.com/blueslick/Veritas-AI-Hackathon-" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
+            <a href="https://github.com/blueslick/Handover" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:text-ink">
               Handover on GitHub<span className="sr-only"> (opens in a new tab)</span>
             </a>
           </footer>

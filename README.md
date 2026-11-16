@@ -8,7 +8,7 @@
 
 **App:** [https://veritas-ai-hackathon.vercel.app/upload](https://veritas-ai-hackathon.vercel.app/upload) (no sign-in, no API key needed)
 
-**Code:** this repository, [https://github.com/blueslick/Veritas-AI-Hackathon-](https://github.com/blueslick/Veritas-AI-Hackathon-)
+**Code:** this repository, [https://github.com/blueslick/Handover](https://github.com/blueslick/Handover)
 
 **Video:** [https://drive.google.com/file/d/1PJhlY8-J7d06t8G49vlt-VvKKm4yQ2ls/view?usp=sharing](https://drive.google.com/file/d/1PJhlY8-J7d06t8G49vlt-VvKKm4yQ2ls/view?usp=sharing)
 
@@ -118,7 +118,7 @@ Costs come from the real token counts of the held-out runs (160 patients, 3 call
 
 ## Results
 
-Every number here comes from the 160 held-out patients, run once on the frozen tool after we stopped changing it. Their answer keys hold 1,668 facts, of which 861 are allergies and current medicines. The numbers are copied from the committed results files in [`outputs/results/heldout/`](https://github.com/blueslick/Veritas-AI-Hackathon-/tree/main/outputs/results/heldout). Our baseline, keyword search, found 752 (45.1%). Handover found 1,655 (99.2%). A **missed** fact is one left out or wrong (a false negative); a **false alarm** is a fact not in the answer key (a false positive).
+Every number here comes from the 160 held-out patients, run once on the frozen tool after we stopped changing it. Their answer keys hold 1,668 facts, of which 861 are allergies and current medicines. The numbers are copied from the committed results files in [`outputs/results/heldout/`](https://github.com/blueslick/Handover/tree/main/outputs/results/heldout). Our baseline, keyword search, found 752 (45.1%). Handover found 1,655 (99.2%). A **missed** fact is one left out or wrong (a false negative); a **false alarm** is a fact not in the answer key (a false positive).
 
 **In the app:** on the [How we tested tab](https://veritas-ai-hackathon.vercel.app/how-we-tested), tap any planted trap's name to see what we changed in the records and what the right answer is. Open “Details: method, limits, cost” for a cost table comparing Claude Sonnet 5.5 and Claude Haiku 5.5, per patient and per 1,000 patients.
 
@@ -128,12 +128,12 @@ Every number here comes from the 160 held-out patients, run once on the frozen t
 | Handover (Claude Sonnet 5.5) | 13 (0.8%) | 47 | 38 |
 | Handover on Claude Haiku 5.5 (0.29 US cents per patient) | 16 (1.0%) | 60 | 38 |
 
-- **Allergies and current medicines:** Handover missed 4 of 861 and raised 42 false alarms; keyword search missed 109. All 4 misses are the same mistake: a combination medicine read as its two ingredients (see [Where it fails](https://github.com/blueslick/Veritas-AI-Hackathon-#where-it-fails)). Haiku misses the same 4.
+- **Allergies and current medicines:** Handover missed 4 of 861 and raised 42 false alarms; keyword search missed 109. All 4 misses are the same mistake: a combination medicine read as its two ingredients (see [Where it fails](https://github.com/blueslick/Handover#where-it-fails)). Haiku misses the same 4.
 - **Planted traps:** a medicine stopped at only one hospital, caught 72 of 74 (keyword search 0); a dose change, 54 of 54 (keyword search 1).
 - **Typed trap notes:** on 20 short notes we wrote, each hiding one trap, the tool got 18 traps and all 20 look-alike notes right.
 - **Age and sex:** all 8 groups scored between 97.9% and 100% of facts found. Weakest were men aged 65+ (6 missed, 13 false alarms of 282 facts). Groups of 20 are too small to prove it is equally good for everyone.
 - **Doses:** every dose Handover reported matched the answer key (437 checked, 0 wrong).
-- **Commercial tool:** Microsoft Azure Text Analytics for Health, run afterwards on the same allergies and medicines, is compared in [its own table below](https://github.com/blueslick/Veritas-AI-Hackathon-#commercial-tool-added-afterwards).
+- **Commercial tool:** Microsoft Azure Text Analytics for Health, run afterwards on the same allergies and medicines, is compared in [its own table below](https://github.com/blueslick/Handover#commercial-tool-added-afterwards).
 
 ### What each step adds
 
@@ -203,7 +203,7 @@ On the same patients, Claude Haiku 5.5 missed 16 facts and raised 60 false alarm
 
 9 of the 13 misses and 43 of the 47 false alarms come from one cause: a combination medicine written as “X and Y” and read as two medicines. 4 more misses are a double space in four answer-key names, not tool mistakes; we left them counted as misses. Overall, harm is low, since the doctor still sees both names and the quote. We did not fix it because the tool was frozen before testing.
 
-Three examples from the held-out run, chosen after scoring. They share one cause, shown three ways. The longer version, with every quote, is in [our failure examples file](https://github.com/blueslick/Veritas-AI-Hackathon-/blob/main/docs/failure_examples.md). The quotes are from synthetic records.
+Three examples from the held-out run, chosen after scoring. They share one cause, shown three ways. The longer version, with every quote, is in [our failure examples file](https://github.com/blueslick/Handover/blob/main/docs/failure_examples.md). The quotes are from synthetic records.
 
 - **A premixed insulin is shown as two insulins (patient P092).** Hospital B's note said “She is on insulin isophane and insulin regular twice a day.” That is one premixed product, but the tool listed two separate insulins and no combined one: 1 missed and 2 false alarms. The mistake happened at the first step, reading the note; Check and Merge passed it on.
 - **A stopped medicine looks current again (P051).** Hospital A recorded paracetamol as stopped. A later Hospital B note said “He takes paracetamol and hydrocodone when needed.” The tool split this into a new “paracetamol, current” entry, and the merge rule “the latest date wins” let it override the stop, which stays visible in the history. This is one of the 2 planted “stopped at one hospital” traps the tool missed.
@@ -239,7 +239,7 @@ Three examples from the held-out run, chosen after scoring. They share one cause
 
 ## Sources
 
-Every dataset, model, library and AI tool we used, with links, is listed in [docs/sources.md](https://github.com/blueslick/Veritas-AI-Hackathon-/blob/main/docs/sources.md). Who was responsible for which part is in [docs/credits.md](https://github.com/blueslick/Veritas-AI-Hackathon-/blob/main/docs/credits.md).
+Every dataset, model, library and AI tool we used, with links, is listed in [docs/sources.md](https://github.com/blueslick/Handover/blob/main/docs/sources.md). Who was responsible for which part is in [docs/credits.md](https://github.com/blueslick/Handover/blob/main/docs/credits.md).
 
 Existing tools and the study we compared against (public pages, read 15 November 2026):
 
@@ -276,6 +276,6 @@ npm run dev
 
 To rebuild the results file for the “How we tested” tab from the committed held-out totals, run `node scripts/make-results.mjs` from `app/`.
 
-The pipeline (Python 3.11 or newer) needs the Synthea download described in [`pipeline/data/README.md`](https://github.com/blueslick/Veritas-AI-Hackathon-/blob/main/pipeline/data/README.md), and an Anthropic API key to make new model calls.
+The pipeline (Python 3.11 or newer) needs the Synthea download described in [`pipeline/data/README.md`](https://github.com/blueslick/Handover/blob/main/pipeline/data/README.md), and an Anthropic API key to make new model calls.
 
 ***This project is a prototype and is not medical advice.***

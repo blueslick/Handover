@@ -43,7 +43,7 @@ The demo patient, the hospital record templates, the 40 trap notes and every ans
 | Tailwind CSS | Styling for the app's pages | https://tailwindcss.com |
 | IBM Plex Sans and IBM Plex Mono (IBM), SIL Open Font License 1.1; the font files are included in the app | Fonts for the app: Plex Sans for all text, Plex Mono for the original record text | https://fonts.google.com/specimen/IBM+Plex+Sans |
 | Vercel | Hosting the app | https://vercel.com |
-| GitHub | Code repository | https://github.com/blueslick/Veritas-AI-Hackathon- |
+| GitHub | Code repository | https://github.com/blueslick/Handover |
 | HL7 FHIR | Our record layout follows its allergy, medication and condition record types | https://hl7.org/fhir/ |
 
 ## Video
