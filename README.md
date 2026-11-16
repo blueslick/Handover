@@ -1,3 +1,5 @@
+![Handover title card](docs/Handover%20Title%20Card.png)
+
 # Handover
 
 **Track:** AI + Health
