@@ -1,3 +1,5 @@
+> **Early plan, out of date.** This file is kept as a record of how we planned the weekend. Numbers and settings in it (patient counts, temperature, tools marked TBD) were changed later. The final version of everything is the [README](../README.md); the changes are logged in [decisions.md](decisions.md).
+
 > **Update, 14 Nov night (T11):** the dataset is now 100 scored patients: 20 working (P001-P020) and 80 held-out (P021-P100), 10 per group across four age bands (0-19, 20-44, 45-64, 65+) and two sexes, plus an 80-patient reserve (R001-R080). Where this plan says 80 patients, 60 held-out or three age bands, `docs/decisions.md` and `shared/` win. Expected calls rise to about 300 per prompt version.
 
 # Handover: Pipeline and Frontend Plan

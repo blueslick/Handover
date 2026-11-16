@@ -1,3 +1,5 @@
+> **Early plan, out of date.** This file is kept as a record of how we planned the weekend. Numbers and settings in it (patient counts, temperature, tools marked TBD) were changed later. The final version of everything is the [README](../README.md); the changes are logged in [decisions.md](decisions.md).
+
 # Handover: task breakdown and owners
 
 14 Nov 2026 · Daniel Tan · Companion to the Handover Pipeline and Frontend Plan

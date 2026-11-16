@@ -112,7 +112,7 @@ Costs come from the real token counts of the held-out runs (160 patients, 3 call
 | Model | Cost per patient | Cost per 1,000 patients |
 | --- | --- | --- |
 | Sonnet 5.5 (used) | 4.27 US cents | about $43 |
-| Haiku 5.5 (comparison) | 0.29 US cents | about $2.90 |
+| Haiku 5.5 (comparison) | 0.29 US cents | about $2.93 |
 
 **Model settings.** Claude 5.5 models don't accept temperature 0 (the setting that usually makes an AI give the same answer every time) or turning thinking off. We send no temperature, use the lowest thinking setting each model accepts and a fixed answer shape, and make results repeatable by saving every reply.
 
@@ -260,7 +260,7 @@ Existing tools and the study we compared against (public pages, read 15 November
 | `pipeline/eval/` | Scoring, the baselines and the omission check |
 | `outputs/` | Saved model replies, merged records, baseline records and results |
 | `shared/` | The record format, folder and file names, drug list and brand-name table |
-| `docs/` | Sources, credits, decisions log, failure examples |
+| `docs/` | Sources, credits, decisions log, failure examples, and our two early planning files (out of date, kept as a record) |
 
 ## Run the app on your own computer
 
