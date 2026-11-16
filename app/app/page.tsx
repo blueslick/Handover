@@ -381,8 +381,10 @@ async function Screen({ searchParams }: { searchParams: SearchParams }) {
   // Which file the single view reads (Compare reads both, below).
   const view: View = pageView === "compare" ? "handover" : pageView;
 
-  // T68 item 2: with no ID in the address, open the demo patient so the first
+  // T68 item 2: with an empty ID in the address, open the demo patient so the
   // screen shows a record. If D001 is ever not published, use the first sample ID.
+  // (T97: the plain address with no ID at all goes to the Records replay instead;
+  // see next.config.ts.)
   const id = typed || DEFAULT_ID;
   if (!id) {
     return (

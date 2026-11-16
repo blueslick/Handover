@@ -37,7 +37,7 @@ We split the work into three lanes: Abby tested, Daniel built the tool, and Theo
 - **Test data:** the demo patient, the three hospital record templates with planted traps, the answer key script and the brand-name to generic-name table.
 - **The AI tool:** the extraction prompt, the Check step, the six merge rules, saving every reply, and choosing Claude Sonnet 5.5 on the 20 working patients.
 - **Runs and comparisons:** the freeze, the held-out runs, writing the 40 trap notes, labelling the 12 MTSamples notes, and the medSpaCy and Microsoft Azure comparisons.
-- **The app, after Theo's first version:** the records replay, the How we tested tab and its charts, the clinical look, the changes from Abby's review, and live mode for the finals.
+- **The app, after Theo's first version:** the records replay, the How we tested tab and its charts, the clinical look, the changes from Abby's review, live mode for the finals, and making the site's plain address open the records replay first.
 - **Write-up and video:** the framing and how-it-works sections, the Results text, the title card and diagram, the second version of the video script, and the video (recorded by him, edited with Claude Code).
 
 ### Theo: the app

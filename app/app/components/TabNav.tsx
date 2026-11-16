@@ -15,6 +15,7 @@ const TABS = [
 
 // The patient box. A plain GET form: submitting it puts the ID in the address, so it
 // works without JavaScript. It keeps showing the ID that is in the address.
+// T97: the box can't be sent empty, because an address with no ID opens the Records replay.
 function PatientBox({ demo, working, live, suffix = "" }: { demo: string[]; working: string[]; live: string[]; suffix?: string }) {
   const pathname = usePathname();
   const params = useSearchParams();
@@ -31,7 +32,7 @@ function PatientBox({ demo, working, live, suffix = "" }: { demo: string[]; work
         <label htmlFor={`id${suffix}`} className="text-quiet">
           Patient ID
         </label>
-        <input id={`id${suffix}`} name="id" type="text" key={current} defaultValue={current} placeholder="e.g. D001" autoComplete="off" className="h-8 w-24 rounded-ctl border border-line-strong bg-surface px-2" />
+        <input id={`id${suffix}`} name="id" type="text" key={current} defaultValue={current} placeholder="e.g. D001" autoComplete="off" required className="h-8 w-24 rounded-ctl border border-line-strong bg-surface px-2" />
         <button type="submit" className="h-8 rounded-ctl border border-accent bg-accent px-3 font-medium text-white">
           Open record
         </button>
@@ -143,10 +144,13 @@ export default function TabNav({ demo, working, live }: { demo: string[]; workin
         <nav ref={navRef} aria-label="Tabs" className="group relative flex self-stretch">
           {TABS.map((tab) => {
             const current = tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href);
+            // T97: the plain address now opens the Records replay (next.config.ts), so the
+            // Doctor screen tab names the demo patient in its link.
+            const href = tab.href === "/" && demo[0] ? `/?id=${demo[0]}` : tab.href;
             return (
               <Link
                 key={tab.href}
-                href={tab.href}
+                href={href}
                 aria-current={current ? "page" : undefined}
                 className={`flex min-h-11 items-center border-b-2 px-3 ${current ? "border-accent font-semibold text-ink group-data-[bar=on]:border-transparent" : "border-transparent text-quiet hover:text-ink"}`}
               >
