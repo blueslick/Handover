@@ -69,7 +69,25 @@ export default function TabNav({ demo, working, live }: { demo: string[]; workin
   const pathname = usePathname();
   return (
     <header className="flex flex-wrap items-center gap-x-6 gap-y-1 border-b border-line bg-surface px-4 py-1 sm:px-6 sm:py-0">
-      <span className="text-base font-semibold">Handover</span>
+      {/* T94: the app's name with its icon (same drawing as app/app/icon.svg: three hospital
+          records stacked, the merged one in front with a medical cross). Drawn inline so it
+          needs no extra file; aria-hidden because the word "Handover" already names the app. */}
+      <span className="flex items-center gap-2 text-base font-semibold">
+        <svg aria-hidden="true" viewBox="0 0 64 64" width="28" height="28" className="shrink-0">
+          <defs>
+            <linearGradient id="handover-logo-bg" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#1E3A8A" />
+              <stop offset="1" stopColor="#172554" />
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="14" fill="url(#handover-logo-bg)" />
+          <rect x="23" y="9" width="29" height="35" rx="5" fill="#FFFFFF" fillOpacity="0.28" />
+          <rect x="17.5" y="14" width="29" height="35" rx="5" fill="#FFFFFF" fillOpacity="0.55" />
+          <rect x="12" y="19" width="29" height="36" rx="5" fill="#FFFFFF" />
+          <path d="M26.5 29.5v15M19 37h15" stroke="#1E3A8A" strokeWidth="5" strokeLinecap="round" />
+        </svg>
+        Handover
+      </span>
       <nav aria-label="Tabs" className="flex self-stretch">
         {TABS.map((tab) => {
           const current = tab.href === "/" ? pathname === "/" : pathname.startsWith(tab.href);
