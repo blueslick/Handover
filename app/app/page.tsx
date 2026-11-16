@@ -206,9 +206,23 @@ function rowParts(f: Fact, facts: Fact[], { id, selected, tapped }: TableProps, 
             See both<span className="sr-only"> records for {factName(f)}</span>
           </Link>
         ) : (
-          <Link href={href(id, { fact: f.fact_id })} scroll={false} aria-current={isSelected ? "true" : undefined} className="underline underline-offset-2">
-            Source<span className="sr-only"> of {factName(f)}</span>
-          </Link>
+          <>
+            {/* On a phone, tapping again closes the open source (the laptop panel stays). */}
+            {isSelected && tapped ? (
+              <>
+                <Link href={href(id)} scroll={false} aria-current="true" className="underline underline-offset-2 xl:hidden">
+                  Hide source<span className="sr-only"> of {factName(f)}</span>
+                </Link>
+                <Link href={href(id, { fact: f.fact_id })} scroll={false} aria-current="true" className="hidden underline underline-offset-2 xl:inline">
+                  Source<span className="sr-only"> of {factName(f)}</span>
+                </Link>
+              </>
+            ) : (
+              <Link href={href(id, { fact: f.fact_id })} scroll={false} aria-current={isSelected ? "true" : undefined} className="underline underline-offset-2">
+                Source<span className="sr-only"> of {factName(f)}</span>
+              </Link>
+            )}
+          </>
         )}
       </td>
     ),
@@ -217,6 +231,12 @@ function rowParts(f: Fact, facts: Fact[], { id, selected, tapped }: TableProps, 
       <tr key={`${f.fact_id}-source`} className="xl:hidden">
         <td colSpan={columns} className="bg-surface">
           <SourcePanel fact={f} headingId="source-inline" />
+          {/* A way to close the source again on a phone. */}
+          <p className="mt-3">
+            <Link href={href(id)} scroll={false} className="font-medium underline underline-offset-2">
+              Hide source
+            </Link>
+          </p>
         </td>
       </tr>
     ),
