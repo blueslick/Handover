@@ -1,4 +1,4 @@
-![Handover title card](docs/Handover%20Title%20Card.png)
+![Handover title card](docs/Handover%20Title%20Card%(1).png)
 
 # Handover
 
