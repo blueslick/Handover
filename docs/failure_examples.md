@@ -4,7 +4,7 @@ We tested the tool on 160 held-out patients it had never seen. It missed 13 of 1
 
 **The cause.** Hospital B's notes are written as sentences, and they write a combination medicine (one product with two ingredients) as "X and Y". For example: *"He takes paracetamol and oxycodone when needed."* The tool sometimes reads that as two separate medicines instead of one product.
 
-The examples below are from synthetic (made-up) patients. Held-out patient IDs are not shown. The cheaper model we compared, Claude Haiku 5.5, makes the same three mistakes.
+The examples below are from synthetic (made-up) patients. They are held-out patients P092 (example 1), P051 (example 2) and P066 (example 3), the same three named in the README. The cheaper model we compared, Claude Haiku 5.5, makes the same three mistakes.
 
 ---
 
