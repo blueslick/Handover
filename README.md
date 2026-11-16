@@ -8,6 +8,8 @@
 
 **Code:** this repository, [https://github.com/blueslick/Veritas-AI-Hackathon-](https://github.com/blueslick/Veritas-AI-Hackathon-)
 
+**Video:** [https://drive.google.com/file/d/1PJhlY8-J7d06t8G49vlt-VvKKm4yQ2ls/view?usp=sharing](https://drive.google.com/file/d/1PJhlY8-J7d06t8G49vlt-VvKKm4yQ2ls/view?usp=sharing)
+
 ***This project is a prototype and is not medical advice.***
 
 **This README is the full version of our one-page submission write-up. It has the same sections in the same order, with the detail the one page had no room for.**
