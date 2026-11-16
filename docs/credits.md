@@ -1,56 +1,55 @@
-# Handover: credits
+# Handover: who did what
 
-Every dataset, model, library and AI tool we used, with a link. This file matches the Sources table in the write-up (Google Doc **Handover write-up**, https://docs.google.com/document/d/1lHzcvi0vvmdCBLFHJB3e1dCduw-LKhDw7dX_G8oRlHE/edit). Updated 15 Nov 2026; if the two ever differ, the write-up wins.
+Who built which part of Handover. Outside datasets, models and tools are listed in [sources.md](sources.md). How commit authors are recorded is explained at the [end of this file](#how-commits-are-credited).
 
-## Data
+## A note on this repository's contribution numbers
 
-| What | Used for | Link |
-| --- | --- | --- |
-| Synthea CSV sample, Nov 2021 | The 180 synthetic patients (20 working, 160 held-out) | https://synthea.mitre.org/downloads |
-| Synthea paper: Walonoski et al., JAMIA 25(3), 2018 | Citation for Synthea | https://doi.org/10.1093/jamia/ocx079 |
-| Synthea (the patient generator, by MITRE) | The tool that made the synthetic patient sample | https://github.com/synthetichealth/synthea |
-| MTSamples (Medical Transcriptions, Kaggle; CC0 licence) | 12 hand-labelled notes in real doctors' style | https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions |
-| MTSamples copy in the salgadev/medical-nlp repository (GPL-3.0) | The copy of the MTSamples file (mtsamples.csv) we took the 12 notes from | https://github.com/salgadev/medical-nlp |
+GitHub's contribution numbers for this repository (the Contributors page and each person's commit count) do not show who did the work, so please use this file instead. There are two reasons.
 
-## Models and AI tools
+**Early commits show "Claude" as the author.** Seven commits from the first day were saved with "Claude" as the author, when the team member should have been the author with Claude as co-author. Three are Theo's: the app setup, the first doctor screen, and the write-up skeleton with the first credits list. Theo did this coding before his git name and email were set up on his computer, so GitHub credits his early app work to Claude, not to him. The other four are Daniel's early data commits (the ignore file, the patient split and its follow-up, and the first five patients' records). One more early commit shows "Daniel" with Claude's email address. We fixed the settings afterwards, but GitHub cannot change who is shown as the author of commits that are already saved.
 
-| What | Used for | Link |
-| --- | --- | --- |
-| Claude (Anthropic): Sonnet 5.5 (`claude-sonnet-5-5`) and Haiku 5.5 (`claude-haiku-5-5`) via the Claude API | Sonnet 5.5 is the extraction model; Haiku 5.5 is the comparison row | https://docs.claude.com |
-| Anthropic Python library (anthropic 2.8.0) | How our code sends each record to Claude | https://github.com/anthropics/anthropic-sdk-python |
-| Claude and Claude Code (Anthropic) | Coding assistant and planning help; also edited the demo video | https://claude.com/product/claude-code |
-| Paradev (formerly Superset), Superset Inc. | Running several Claude Code sessions side by side, each in its own copy of the code | https://paradev.com |
-| Microsoft Azure AI Language, Text Analytics for Health | Extra comparison on the 160 held-out patients (allergies and medicines), free tier, API version 2023-04-01, model version 2023-12-01 | https://learn.microsoft.com/en-us/azure/ai-services/language-service/text-analytics-for-health/overview |
-| medSpaCy 1.3.1 | Second baseline (rule-based medical text reader), compared on extraction | https://github.com/medspacy/medspacy |
+**Covered tasks count for whoever pushed them.** We worked through two nights, so teammates covered each other's tasks while someone was asleep. A covered task is counted under the person whose computer pushed it, not the person whose task it was.
 
-## Libraries, platforms and standards
+All three of us wrote our code with Claude Code (Anthropic). Each person below decided what to build, checked the results and is credited for the parts they were responsible for.
 
-| What | Used for | Link |
-| --- | --- | --- |
-| pandas | Reading and trimming the Synthea files | https://pandas.pydata.org |
-| NumPy | Used by pandas for the Synthea tables | https://numpy.org |
-| jsonschema | Checking every record matches our format | https://python-jsonschema.readthedocs.io |
-| pytest 9.2.0 | Running the automated checks on our code | https://docs.pytest.org |
-| Next.js | The app | https://nextjs.org |
-| React 19 | The building blocks of the app's pages (used by Next.js) | https://react.dev |
-| Tailwind CSS | Styling for the app's pages | https://tailwindcss.com |
-| Vercel | Hosting the app | https://vercel.com |
-| Lexend font (Google Fonts), SIL Open Font License 1.1 | Font for all text in the app | https://fonts.google.com/specimen/Lexend |
-| GitHub | Code repository | https://github.com/blueslick/Veritas-AI-Hackathon- |
-| ffmpeg (installed as ffmpeg-full with Homebrew) | Editing the demo video: cuts, captions, zoom, red boxes, sound levelling, export | https://ffmpeg.org |
-| qrencode | Making the QR code for the app link | https://fukuchi.org/works/qrencode/ |
-| whisper.cpp | Timing the voiceover words so captions and red boxes line up | https://github.com/ggml-org/whisper.cpp |
-| OpenAI Whisper, `small.en` model (run through whisper.cpp) | Used only to find word timings in my own voice recordings | https://github.com/openai/whisper |
-| HL7 FHIR | Our record layout follows its allergy, medication and condition record types | https://hl7.org/fhir/ |
+## Our team and who was responsible for what
 
-## Video
+We split the work into three lanes: Abby tested, Daniel built the tool, and Theo built the app. Names are in alphabetical order.
 
-| What | Used for | Link |
-| --- | --- | --- |
-| Canva | Title card for the video; the background is a Canva stock photo of a hospital corridor | https://www.canva.com |
+### Abby: testing and scoring
 
-The video editing tool is added here and in the write-up once the video is made (T50).
+- **Scoring:** the scoring script, which counts missed facts and false alarms separately; the tests for the six merge rules; and scoring the 20 working patients.
+- **Baselines and the results table:** the keyword search baseline and the "keyword search plus our merge rules" comparison row. She proposed the step-by-step results table, which shows what each part of the tool adds.
+- **Checking the test itself:** an independent check of all 180 answer keys against the original Synthea data, by script and by hand. It found that medicines started before November 2016 were left out of the records, which became one of our stated limits.
+- **The main results:** held-out scoring of every method (the step-by-step table, the age and sex breakdown, the planted traps, the cost per patient), and the guards that keep held-out patients out of tuning.
+- **Failure analysis:** the three failure examples, and the finding that one cause (a combination medicine written as "X and Y") explains 9 of the 13 misses and 43 of the 47 false alarms.
+- **Extra tests:** the omission check, and scoring the 40 trap notes and the 12 MTSamples notes.
+- **Write-up and video:** the findings behind the Limitations section, the final write-up and the README, the sources list, this file, and the first version of the video script.
+- **Ideas for the app:** the review of the live app that led to the polish, and the ideas for the "Who can confirm this" box and the older-record box.
 
-## Existing tools we compared against (public pages, read 15 Nov 2026)
+### Daniel: the tool and the data
 
-These are listed under the Sources table in the write-up: Particle Health Snapshot, Fierce Healthcare on Epic's AI summaries, Evidently, DrFirst medication history, and a TechTarget news report on a JAMA Network Open study of AI-written hospital discharge summaries.
+- **Setup:** the shared record format, the GitHub repository and its working rules (CLAUDE.md), and the patient split (20 working, 160 held-out).
+- **Test data:** the demo patient, the three hospital record templates with planted traps, the answer key script and the brand-name to generic-name table.
+- **The AI tool:** the extraction prompt, the Check step, the six merge rules, saving every reply, and choosing Claude Sonnet 5.5 on the 20 working patients.
+- **Runs and comparisons:** the freeze, the held-out runs, writing the 40 trap notes, labelling the 12 MTSamples notes, and the medSpaCy and Microsoft Azure comparisons.
+- **The app, after Theo's first version:** the records replay, the How we tested tab and its charts, the clinical look, the changes from Abby's review, and live mode for the finals.
+- **Write-up and video:** the framing and how-it-works sections, the Results text, the title card and diagram, the second version of the video script, and the video (recorded by him, edited with Claude Code).
+
+### Theo: the app
+
+- **The app itself:** set up the Next.js app (TypeScript and Tailwind CSS) that every later screen was built on, deployed it to Vercel with Daniel, and checked the public link on a phone while signed out.
+- **The first doctor screen:** one page per patient, opened from the web address; a warning banner at the top; a card for each fact with the critical facts (allergies and current medicines) first; disagreements between hospitals shown side by side; and a clear "No record found" page for an unknown patient. He built it against the sample record before the record format was confirmed, so the app was ready the moment real records arrived.
+- **The older-record box:** when an older hospital record says "No current medications" but a later record lists a current medicine, that older line moves into a greyed history box instead of sitting next to the current list. It never applies to allergies or to lines that are part of a disagreement, and it keeps the hospital, date and exact quote.
+- **"Who can confirm this":** with every warning, a box listing who could confirm the fact: the patient, the medicine's box, and each hospital with what its record says and an example contact (clearly labelled as made up, because the hospitals are made up). It gives options, never a recommendation: the doctor decides.
+- **Write-up and review:** the first skeleton of the write-up, with an owner for each section and a checklist of the hackathon rules; the first credits list, with links and versions; and a review of the write-up and video script that caught gaps in the credits and wording.
+
+## How commits are credited
+
+From early in the project, our rule (written in CLAUDE.md) has been:
+
+- Every commit is authored by the team member whose computer made it, using their own git name and email.
+- Claude is added as co-author with a Co-Authored-By line at the end of the commit message. Commits are never authored as Claude.
+- When one of us built a task for another teammate who was away, the commit is authored by the person who pushed it, and our task tracker records whose task it was.
+
+The early commits that show "Claude" as the author were made before this rule was in place. Commit history is never rewritten, so they stay as they are; the sections above say who was responsible for that work.
