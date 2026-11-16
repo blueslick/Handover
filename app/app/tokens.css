@@ -9,6 +9,12 @@
   --color-line: #d5dae1; /* 1px row and box lines */
   --color-line-strong: #b6bec9; /* table head line, input borders */
   --color-ink: #17202b; /* main text */
+
+  /* T94: the smallest text size (Tailwind's text-xs) raised from 10.5px to 12px, the same
+     size as table headings, so footnotes, the disclaimer, badges and source quotes stay
+     readable on a laptop and in the demo video. */
+  --text-xs: 0.857rem;
+  --text-xs--line-height: 1.4;
   --color-quiet: #4a5665; /* labels and notes */
 
   /* The one accent: patient banner, buttons, the full tool in charts */
