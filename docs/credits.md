@@ -18,7 +18,7 @@ Every dataset, model, library and AI tool we used, with a link. This file matche
 | --- | --- | --- |
 | Claude (Anthropic): Sonnet 5.5 (`claude-sonnet-5-5`) and Haiku 5.5 (`claude-haiku-5-5`) via the Claude API | Sonnet 5.5 is the extraction model; Haiku 5.5 is the comparison row | https://docs.claude.com |
 | Anthropic Python library (anthropic 2.8.0) | How our code sends each record to Claude | https://github.com/anthropics/anthropic-sdk-python |
-| Claude and Claude Code (Anthropic) | Coding assistant and planning help | https://claude.com/product/claude-code |
+| Claude and Claude Code (Anthropic) | Coding assistant and planning help; also edited the demo video | https://claude.com/product/claude-code |
 | Paradev (formerly Superset), Superset Inc. | Running several Claude Code sessions side by side, each in its own copy of the code | https://paradev.com |
 | Microsoft Azure AI Language, Text Analytics for Health | Extra comparison on the 160 held-out patients (allergies and medicines), free tier, API version 2023-04-01, model version 2023-12-01 | https://learn.microsoft.com/en-us/azure/ai-services/language-service/text-analytics-for-health/overview |
 | medSpaCy 1.3.1 | Second baseline (rule-based medical text reader), compared on extraction | https://github.com/medspacy/medspacy |
@@ -37,6 +37,8 @@ Every dataset, model, library and AI tool we used, with a link. This file matche
 | Vercel | Hosting the app | https://vercel.com |
 | Lexend font (Google Fonts), SIL Open Font License 1.1 | Font for all text in the app | https://fonts.google.com/specimen/Lexend |
 | GitHub | Code repository | https://github.com/blueslick/Veritas-AI-Hackathon- |
+| ffmpeg (installed as ffmpeg-full with Homebrew) | Editing the demo video: cuts, captions, zoom, red boxes, sound levelling, export | https://ffmpeg.org |
+| qrencode | Making the QR code for the app link | https://fukuchi.org/works/qrencode/ |
 | HL7 FHIR | Our record layout follows its allergy, medication and condition record types | https://hl7.org/fhir/ |
 
 ## Video
