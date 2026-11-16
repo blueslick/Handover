@@ -88,9 +88,27 @@ const cents = (row) => {
   if (!r) fail(`no cost line for row ${row}`);
   return Math.round(Number(r.us_cents_per_patient) * 100) / 100;
 };
+// T90: the cost table also shows the price per 1,000 patients and the prices used, all
+// worked out from the same CSV line (total cost / patients x 1,000), never typed.
+const costMore = (row) => {
+  const r = costRows.find((c) => c.row === String(row));
+  const n = int(r.patients, "patients");
+  if (n !== int([...patients][0], "patients")) fail(`cost line for row ${row} is not on the held-out patients`);
+  const total = Number(r.total_cost_usd);
+  const perPatient = Number(r.usd_per_patient);
+  if (!(total > 0) || Math.abs(total / n - perPatient) > 0.00001) fail(`cost line for row ${row}: total / patients is not the cost per patient`);
+  return {
+    row,
+    usd_per_1000: Math.round((total / n) * 1000 * 100) / 100,
+    usd_per_million_in: Number(r.input_usd_per_million),
+    usd_per_million_out: Number(r.output_usd_per_million),
+    calls: int(r.calls, "calls"),
+    patients: n,
+  };
+};
 const cost_per_patient = [
-  { model: "Claude Sonnet 5.5 (the model the tool uses)", us_cents: cents(7) },
-  { model: "Claude Haiku 5.5 (row 8)", us_cents: cents(8) },
+  { model: "Claude Sonnet 5.5 (the model the tool uses)", short: "Claude Sonnet 5.5", us_cents: cents(7), ...costMore(7) },
+  { model: "Claude Haiku 5.5 (row 8)", short: "Claude Haiku 5.5", us_cents: cents(8), ...costMore(8) },
 ];
 
 // Omission check: one sentence under the table, numbers from the CSV.
@@ -153,17 +171,34 @@ const TRAP_WORDS = {
   silent_medicine: "Latest hospital leaves out a medicine",
   allergy_missed: "One hospital leaves out an allergy",
 };
+// T90: what each trap is and what the right answer is, in plain words, for judges who don't
+// know (from the trap rules in pipeline/data/make_hospital_records.py). Words only, no numbers.
+const TRAP_MEANING = {
+  stop_one_hospital:
+    "One hospital records that a medicine was stopped. The oldest record, from just before the stop, still lists it as taken, and the third hospital doesn't mention it. Right answer: stopped.",
+  dose_change:
+    "The oldest record gives an earlier dose (half or double); the newer records give the current dose. Right answer: the current dose, with the change flagged and the old dose kept in the history.",
+  silent_medicine:
+    "The newest record leaves out a medicine that an earlier hospital listed. Right answer: still taken, shown from the earlier hospital (saying nothing is not the same as stopping).",
+  allergy_missed:
+    "One hospital leaves out an allergy, or writes \"no known allergies\" if it was the only one. Right answer: the allergy stays, and a \"no known allergies\" line is shown as a disagreement.",
+};
 const trapCsv = readCsv("traps_by_type.csv");
 const trapLine = (kind, row) => {
   const r = trapCsv.find((t) => t.trap_type === kind && t.row === String(row));
   if (!r) fail(`traps_by_type.csv has no line for ${kind}, row ${row}`);
-  return { caught: int(r.caught, "caught"), scored: int(r.caught, "caught") + int(r.not_caught, "not_caught") };
+  const scored = int(r.caught, "caught") + int(r.not_caught, "not_caught");
+  const planted = int(r.traps, "traps");
+  const overtaken = int(r.label_overtaken, "label_overtaken");
+  if (scored + overtaken !== planted) fail(`traps_by_type.csv: ${kind}, row ${row}: caught + not caught + overtaken is not the number planted`);
+  return { caught: int(r.caught, "caught"), scored, planted, overtaken };
 };
 const traps = Object.entries(TRAP_WORDS).map(([kind, label]) => {
   const t = trapLine(kind, 7);
   const b = trapLine(kind, 1);
   if (t.scored !== b.scored) fail(`rows 1 and 7 score a different number of ${kind} traps`);
-  return { kind, label, scored: t.scored, tool_caught: t.caught, baseline_caught: b.caught };
+  if (!TRAP_MEANING[kind]) fail(`no plain-words meaning for trap ${kind}`);
+  return { kind, label, meaning: TRAP_MEANING[kind], planted: t.planted, overtaken: t.overtaken, scored: t.scored, tool_caught: t.caught, baseline_caught: b.caught };
 });
 const kinds = new Set(trapCsv.filter((t) => t.trap_type !== "all").map((t) => t.trap_type));
 if (kinds.size !== traps.length) fail(`traps_by_type.csv has ${kinds.size} kinds of trap, the app knows ${traps.length}`);

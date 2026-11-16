@@ -40,6 +40,14 @@ export interface SubsetRow {
 export interface CostEntry {
   model: string;
   us_cents: number | null;
+  // T90 (optional, so an older file still loads): for the cost table.
+  short?: string;
+  row?: number;
+  usd_per_1000?: number;
+  usd_per_million_in?: number;
+  usd_per_million_out?: number;
+  calls?: number;
+  patients?: number;
 }
 
 // One worked failure example (filled in from T38).
@@ -66,6 +74,10 @@ export interface AgeSexRow {
 export interface TrapRow {
   kind: string;
   label: string;
+  // T90 (optional): what the trap is and the right answer, in plain words.
+  meaning?: string;
+  planted?: number;
+  overtaken?: number;
   scored: number;
   tool_caught: number;
   baseline_caught: number;

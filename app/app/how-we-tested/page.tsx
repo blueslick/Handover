@@ -208,11 +208,21 @@ function AgeSexTable({ results }: { results: Results }) {
 }
 
 // Planted traps: how many of each kind the full tool and keyword search caught.
+// T90: a judge may not know what a planted trap is, so one plain line says it, and each
+// trap's name opens to what it is and the right answer (a tap on a phone; on a laptop the
+// same words also show when the mouse rests on the name).
 function TrapsTable({ results }: { results: Results }) {
   const traps = results.traps ?? [];
   if (traps.length === 0) return null;
+  const planted = traps.every((t) => typeof t.planted === "number") ? traps.reduce((a, t) => a + t.planted!, 0) : null;
+  const overtaken = traps.reduce((a, t) => a + (t.overtaken ?? 0), 0);
   return (
     <Box title="Planted traps caught" id="traps" right={`${fmt(traps.reduce((a, t) => a + t.scored, 0))} scored`}>
+      <p className="border-b border-line px-3 py-2 text-sm">
+        <span className="font-semibold">What is a planted trap?</span> A change we made on purpose to a patient&rsquo;s
+        three records, to see whether the tool falls for it. We know the right answer for each one.
+        {traps.some((t) => t.meaning) && " Tap a trap's name to see what it is."}
+      </p>
       <table className="dt">
         <thead>
           <tr>
@@ -224,17 +234,34 @@ function TrapsTable({ results }: { results: Results }) {
         <tbody>
           {traps.map((t) => (
             <tr key={t.kind}>
-              <td>{t.label}</td>
-              <td className="num font-semibold">
+              <td>
+                {t.meaning ? (
+                  <details>
+                    <summary title={t.meaning} className="cursor-pointer underline decoration-dotted underline-offset-4">
+                      {t.label}
+                    </summary>
+                    <p className="mt-1 max-w-prose text-sm text-quiet">{t.meaning}</p>
+                  </details>
+                ) : (
+                  t.label
+                )}
+              </td>
+              <td className="num align-top font-semibold">
                 {fmt(t.tool_caught)} of {fmt(t.scored)}
               </td>
-              <td className="num">
+              <td className="num align-top">
                 {fmt(t.baseline_caught)} of {fmt(t.scored)}
               </td>
             </tr>
           ))}
         </tbody>
       </table>
+      <p className="border-t border-line px-3 py-2 text-xs text-quiet">
+        {planted !== null && `${fmt(planted)} traps planted, up to 2 per patient. `}
+        {overtaken > 0 && `${fmt(overtaken)} are left out of the count because a later record changed the right answer. `}
+        Keyword search catches the last two only because it keeps every line it finds; it cannot tell a stopped medicine
+        from a current one, or an old dose from a new one.
+      </p>
     </Box>
   );
 }
@@ -275,7 +302,7 @@ const STEPS: { title: string; who: string; what: string }[] = [
 function Method({ results }: { results: Results | null }) {
   return (
     <details className="rounded-box border border-line bg-surface">
-      <summary className="px-3 py-2 font-semibold">Details: method, limits, cost</summary>
+      <summary className="px-3 py-2 font-semibold">Details: method, limits, cost (Sonnet against Haiku)</summary>
       <div className="flex flex-col gap-4 border-t border-line p-3">
         <section aria-labelledby="test-heading">
           <h2 id="test-heading" className="font-semibold">
@@ -333,7 +360,7 @@ function Method({ results }: { results: Results | null }) {
         </section>
         {results && (
           <>
-            <CostLine entries={results.cost_per_patient} />
+            <CostLine entries={results.cost_per_patient} rows={results.rows} />
             <section aria-labelledby="omission-heading">
               <h2 id="omission-heading" className="font-semibold">
                 Double-check: word search

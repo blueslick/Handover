@@ -181,11 +181,25 @@
   "cost_per_patient": [
     {
       "model": "Claude Sonnet 5.5 (the model the tool uses)",
-      "us_cents": 4.27
+      "short": "Claude Sonnet 5.5",
+      "us_cents": 4.27,
+      "row": 7,
+      "usd_per_1000": 42.66,
+      "usd_per_million_in": 2,
+      "usd_per_million_out": 10,
+      "calls": 480,
+      "patients": 160
     },
     {
       "model": "Claude Haiku 5.5 (row 8)",
-      "us_cents": 0.29
+      "short": "Claude Haiku 5.5",
+      "us_cents": 0.29,
+      "row": 8,
+      "usd_per_1000": 2.93,
+      "usd_per_million_in": 0.1,
+      "usd_per_million_out": 0.5,
+      "calls": 485,
+      "patients": 160
     }
   ],
   "omission_check": "A separate word search flagged 173 words as \"possibly missed\" across 480 hospital records. It pointed at 1 of the full tool's 13 misses. 4 of those 13 are not real tool mistakes: 4 diagnosis names in our answer key have a double space, so the tool's correct answer was counted as missed (and as a false alarm). Most of the rest are combination medicines read as their two ingredients, which still look present by name, so the word search cannot spot them. It is a hint for the doctor, not a fact.",
@@ -289,6 +303,9 @@
     {
       "kind": "stop_one_hospital",
       "label": "Medicine stopped at one hospital only",
+      "meaning": "One hospital records that a medicine was stopped. The oldest record, from just before the stop, still lists it as taken, and the third hospital doesn't mention it. Right answer: stopped.",
+      "planted": 77,
+      "overtaken": 3,
       "scored": 74,
       "tool_caught": 72,
       "baseline_caught": 0
@@ -296,6 +313,9 @@
     {
       "kind": "dose_change",
       "label": "Dose changed between hospitals",
+      "meaning": "The oldest record gives an earlier dose (half or double); the newer records give the current dose. Right answer: the current dose, with the change flagged and the old dose kept in the history.",
+      "planted": 54,
+      "overtaken": 0,
       "scored": 54,
       "tool_caught": 54,
       "baseline_caught": 1
@@ -303,6 +323,9 @@
     {
       "kind": "silent_medicine",
       "label": "Latest hospital leaves out a medicine",
+      "meaning": "The newest record leaves out a medicine that an earlier hospital listed. Right answer: still taken, shown from the earlier hospital (saying nothing is not the same as stopping).",
+      "planted": 62,
+      "overtaken": 0,
       "scored": 62,
       "tool_caught": 62,
       "baseline_caught": 62
@@ -310,6 +333,9 @@
     {
       "kind": "allergy_missed",
       "label": "One hospital leaves out an allergy",
+      "meaning": "One hospital leaves out an allergy, or writes \"no known allergies\" if it was the only one. Right answer: the allergy stays, and a \"no known allergies\" line is shown as a disagreement.",
+      "planted": 67,
+      "overtaken": 0,
       "scored": 67,
       "tool_caught": 67,
       "baseline_caught": 67
