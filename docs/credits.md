@@ -10,7 +10,7 @@ GitHub's contribution numbers for this repository (the Contributors page and eac
 
 Theo did this coding before his git name and email were set up on his computer, so GitHub credits his early app work to Claude, not to him. The other four are Daniel's early data commits (the ignore file, the patient split and its follow-up, and the first five patients' records). One more early commit shows "Daniel" with Claude's email address. 
 
-We fixed the settings afterwards, but rewriting history on Github risked breaking the existing code in our project when we realized the mistake
+We fixed the settings afterwards, but rewriting history on Github risked breaking the existing code in our project when we realized the mistake. 
 
 **Covered tasks count for whoever pushed them.** We worked through two nights, so teammates covered each other's tasks while someone was asleep. A covered task is counted under the person whose computer pushed it, not the person whose task it was.
 
