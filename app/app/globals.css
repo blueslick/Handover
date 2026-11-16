@@ -4,6 +4,8 @@
 /* T81: the clinical look. Colours, type and spacing live in tokens.css. */
 html {
   font-size: var(--text-root);
+  /* T94: links that jump down the page ("Go to row") stop below the pinned tab bar. */
+  scroll-padding-top: var(--nav-h, 0px);
 }
 
 body {

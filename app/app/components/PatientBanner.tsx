@@ -50,7 +50,7 @@ export default async function PatientBanner({ id, facts }: { id: string; facts: 
   const ordered = [...allergies.filter((f) => f.status !== "none_recorded"), ...allergies.filter((f) => f.status === "none_recorded")];
   const records = `${entries.length} hospital ${entries.length === 1 ? "record" : "records"}`;
   return (
-    <section aria-label="Patient" className="on-accent z-20 flex flex-wrap bg-accent text-white lg:sticky lg:top-0">
+    <section aria-label="Patient" className="on-accent z-20 flex flex-wrap bg-accent text-white lg:sticky lg:top-[var(--nav-h,0px)]">
       <div className="flex flex-1 flex-wrap items-center gap-x-6 gap-y-1 px-4 py-2 sm:px-6">
         <p className="text-base font-semibold">{who ? `${who.family.toUpperCase()}, ${who.given}` : `Patient ${id}`}</p>
         {who && (
