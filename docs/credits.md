@@ -39,6 +39,8 @@ Every dataset, model, library and AI tool we used, with a link. This file matche
 | GitHub | Code repository | https://github.com/blueslick/Veritas-AI-Hackathon- |
 | ffmpeg (installed as ffmpeg-full with Homebrew) | Editing the demo video: cuts, captions, zoom, red boxes, sound levelling, export | https://ffmpeg.org |
 | qrencode | Making the QR code for the app link | https://fukuchi.org/works/qrencode/ |
+| whisper.cpp | Timing the voiceover words so captions and red boxes line up | https://github.com/ggml-org/whisper.cpp |
+| OpenAI Whisper, `small.en` model (run through whisper.cpp) | Used only to find word timings in my own voice recordings | https://github.com/openai/whisper |
 | HL7 FHIR | Our record layout follows its allergy, medication and condition record types | https://hl7.org/fhir/ |
 
 ## Video
