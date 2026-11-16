@@ -6,7 +6,11 @@ Who built which part of Handover. Outside datasets, models and tools are listed 
 
 GitHub's contribution numbers for this repository (the Contributors page and each person's commit count) do not show who did the work, so please use this file instead. There are two reasons.
 
-**Early commits show "Claude" as the author.** Seven commits from the first day were saved with "Claude" as the author, when the team member should have been the author with Claude as co-author. Three are Theo's: the app setup, the first doctor screen, and the write-up skeleton with the first credits list. Theo did this coding before his git name and email were set up on his computer, so GitHub credits his early app work to Claude, not to him. The other four are Daniel's early data commits (the ignore file, the patient split and its follow-up, and the first five patients' records). One more early commit shows "Daniel" with Claude's email address. We fixed the settings afterwards, but GitHub cannot change who is shown as the author of commits that are already saved.
+**Early commits show "Claude" as the author.** Seven commits from the first day were saved with "Claude" as the author, when the team member should have been the author with Claude as co-author. Three are Theo's: the app setup, the first doctor screen, and the write-up skeleton with the first credits list.
+
+Theo did this coding before his git name and email were set up on his computer, so GitHub credits his early app work to Claude, not to him. The other four are Daniel's early data commits (the ignore file, the patient split and its follow-up, and the first five patients' records). One more early commit shows "Daniel" with Claude's email address. 
+
+We fixed the settings afterwards, but rewriting history on Github risked breaking the existing code in our project when we realized the mistake
 
 **Covered tasks count for whoever pushed them.** We worked through two nights, so teammates covered each other's tasks while someone was asleep. A covered task is counted under the person whose computer pushed it, not the person whose task it was.
 
